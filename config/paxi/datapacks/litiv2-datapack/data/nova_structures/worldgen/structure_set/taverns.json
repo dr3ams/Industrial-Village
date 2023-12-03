@@ -1,0 +1,58 @@
+{
+	"structures": [
+		{
+			"structure": "nova_structures:tavern_acacia",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:tavern_birch",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:tavern_cherry",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:tavern_dark_oak",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:tavern_desert",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:tavern_jungle",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:tavern_mangrove",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:tavern_oak",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:tavern_snowy",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:tavern_spruce",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:tavern_swamp",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 10
+    },
+		"spacing": 60,
+		"separation": 30,
+		"salt": 783,
+		"type": "minecraft:random_spread"
+	}
+}

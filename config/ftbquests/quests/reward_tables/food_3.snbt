@@ -1,0 +1,38 @@
+{
+	id: "69716F18A248A9D7"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Food 3"
+		string_id: "food_3"
+	}
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ count: 8, item: "farmersdelight:bone_broth" }
+		{ item: "farmersdelight:melon_juice" }
+		{ item: "farmersdelight:milk_bottle" }
+		{ count: 2, item: "farmersdelight:apple_cider" }
+		{ count: 16, item: "farmersdelight:mixed_salad" }
+		{ count: 32, item: "pneumaticcraft:cod_n_chips" }
+		{ count: 8, item: "farmersdelight:fish_stew" }
+		{ count: 8, item: "farmersdelight:pumpkin_soup" }
+		{ count: 8, item: "farmersdelight:baked_cod_stew" }
+		{ count: 8, item: "farmersdelight:chicken_soup" }
+		{ count: 8, item: "farmersdelight:beef_stew" }
+		{ count: 8, item: "farmersdelight:fried_rice" }
+		{ count: 3, item: "farmersdelight:kelp_roll" }
+		{ count: 8, item: "farmersdelight:cod_roll" }
+		{ count: 16, item: "farmersdelight:egg_sandwich" }
+		{ count: 16, item: "farmersdelight:chicken_sandwich" }
+		{ count: 32, item: "farmersdelight:bacon_sandwich" }
+		{ count: 8, item: "farmersdelight:noodle_soup" }
+		{ count: 8, item: "farmersdelight:vegetable_soup" }
+	]
+	title: "Food 3"
+	use_title: true
+}

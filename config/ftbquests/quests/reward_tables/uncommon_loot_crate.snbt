@@ -1,0 +1,55 @@
+{
+	id: "4C0CA21F78AC43E8"
+	loot_crate: {
+		color: 56450
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Uncommon Loot Crate"
+		string_id: "uncommon_loot_crate"
+	}
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "junk_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "ores_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "food_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "materials_2"
+				}
+			}
+		}
+	]
+	title: "Uncommon Loot Crate"
+	use_title: true
+}

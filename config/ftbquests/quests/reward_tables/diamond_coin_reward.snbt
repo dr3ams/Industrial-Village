@@ -1,0 +1,64 @@
+{
+	id: "0BC9EE62BBE93C0A"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "food_4"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "materials_4"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "junk_4"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "ores_4"
+				}
+			}
+		}
+		{ item: "minecraft:diamond_ore" }
+		{ item: "minecraft:emerald_ore" }
+		{ item: "minecraft:mooshroom_spawn_egg" }
+		{ item: "minecraft:villager_spawn_egg" }
+		{ count: 10, item: "kubejs:iron_coin" }
+		{ count: 3, item: "minecraft:emerald" }
+		{ count: 3, item: "minecraft:diamond" }
+		{ item: "minecraft:totem_of_undying" }
+		{ item: "aquaculture:neptunium_ingot" }
+		{ count: 10, item: "randomite:randomite_ore" }
+		{ item: "gag:sacred_balm" }
+		{
+			item: {
+				Count: 1b
+				id: "gag:time_sand_pouch"
+				tag: { }
+			}
+		}
+		{ count: 64, item: "minecraft:glowstone" }
+		{ item: "compactxpbottles:x256experiencebottle" }
+	]
+	title: "Diamond coin reward"
+}

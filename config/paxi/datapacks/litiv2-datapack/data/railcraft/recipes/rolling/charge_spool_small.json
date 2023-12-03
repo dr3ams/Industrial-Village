@@ -1,0 +1,16 @@
+{
+  "type": "railcraft:rolling",
+  "key": 
+  {
+    "a": {"item": "immersiveengineering:wire_copper"},
+	"s": {"item": "immersiveengineering:stick_treated"}
+  },
+  "pattern": 
+  [
+    "as"
+  ],
+  "processTime": 200,
+  "result": {
+    "item": "railcraft:charge_spool_small"
+  }
+}

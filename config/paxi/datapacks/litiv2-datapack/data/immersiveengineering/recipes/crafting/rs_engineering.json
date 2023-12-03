@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:turn_and_copy","category":"misc","key":{"c":{"item":"immersiveengineering:component_electronic"},"i":{"tag":"forge:sheetmetals/iron"},"r":{"item":"immersiveengineering:plate_copper"}},"pattern":["iri","rcr","iri"],"quarter_turn":true,"result":{"count":2,"item":"immersiveengineering:rs_engineering"},"show_notification":true}

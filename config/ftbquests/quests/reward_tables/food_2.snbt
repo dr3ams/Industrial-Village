@@ -1,0 +1,44 @@
+{
+	id: "35AA548DBBCF634D"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Food 2"
+		string_id: "food_2"
+	}
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ count: 6, item: "minecraft:glistering_melon_slice" }
+		{ item: "minecraft:beetroot_soup" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 160
+						EffectId: 10
+						"forge:effect_id": "minecraft:regeneration"
+					}]
+				}
+			}
+		}
+		{ count: 8, item: "minecraft:golden_carrot" }
+		{ item: "minecraft:golden_apple" }
+		{ count: 3, item: "farmersdelight:glow_berry_custard" }
+		{ count: 10, item: "farmersdelight:fruit_salad" }
+		{ item: "farmersdelight:hot_cocoa" }
+		{ item: "farmersdelight:melon_juice" }
+		{ count: 5, item: "farmersdelight:apple_pie" }
+		{ count: 16, item: "farmersdelight:smoked_ham" }
+		{ count: 48, item: "pneumaticcraft:chips" }
+		{ count: 16, item: "minecraft:cooked_beef" }
+	]
+	title: "Food 2"
+	use_title: true
+}

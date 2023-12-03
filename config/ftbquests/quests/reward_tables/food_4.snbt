@@ -1,0 +1,37 @@
+{
+	id: "225F43ED9E98F35C"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Food 4"
+		string_id: "food_4"
+	}
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{ item: "farmersdelight:stuffed_pumpkin_block" }
+		{ item: "farmersdelight:honey_glazed_ham_block" }
+		{ item: "farmersdelight:shepherds_pie_block" }
+		{ count: 16, item: "farmersdelight:dog_food" }
+		{ count: 16, item: "farmersdelight:horse_feed" }
+		{ item: "farmersdelight:rice_roll_medley_block" }
+		{ item: "minecraft:enchanted_golden_apple" }
+		{ count: 3, item: "minecraft:golden_apple" }
+		{ count: 16, item: "farmersdelight:bacon_and_eggs" }
+		{ count: 16, item: "farmersdelight:pasta_with_meatballs" }
+		{ count: 16, item: "farmersdelight:pasta_with_mutton_chop" }
+		{ count: 16, item: "farmersdelight:mushroom_rice" }
+		{ count: 16, item: "farmersdelight:roasted_mutton_chops" }
+		{ count: 16, item: "farmersdelight:grilled_salmon" }
+		{ count: 16, item: "farmersdelight:ratatouille" }
+		{ count: 16, item: "farmersdelight:vegetable_noodles" }
+		{ count: 16, item: "farmersdelight:steak_and_potatoes" }
+		{ item: "farmersdelight:roast_chicken_block" }
+	]
+	title: "Food 4"
+	use_title: true
+}

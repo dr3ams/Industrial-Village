@@ -1,0 +1,42 @@
+{
+	id: "24BAA8B508EEAE03"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Ores 4"
+		string_id: "ores_4"
+	}
+	loot_size: 1
+	order_index: 27
+	rewards: [
+		{ count: 64, item: "immersiveengineering:raw_silver" }
+		{ count: 64, item: "immersiveengineering:raw_nickel" }
+		{ count: 64, item: "immersiveengineering:raw_lead" }
+		{ count: 64, item: "minecraft:raw_iron" }
+		{ count: 10, item: "ad_astra:raw_desh" }
+		{ count: 10, item: "ad_astra:raw_ostrum" }
+		{ count: 64, item: "minecraft:coal_ore" }
+		{ count: 64, item: "railcraft:sulfur_ore" }
+		{ item: "minecraft:netherite_ingot" }
+		{ count: 4, item: "minecraft:netherite_scrap" }
+		{ count: 7, item: "minecraft:diamond" }
+		{ count: 7, item: "minecraft:emerald" }
+		{ count: 64, item: "minecraft:iron_ingot" }
+		{ count: 64, item: "minecraft:gold_ingot" }
+		{ count: 64, item: "minecraft:amethyst_shard" }
+		{ count: 10, item: "minecraft:redstone_block" }
+		{ count: 2, item: "minecraft:emerald_block" }
+		{ count: 2, item: "minecraft:lapis_block" }
+		{ item: "minecraft:diamond_block" }
+		{ count: 64, item: "minecraft:raw_copper" }
+		{ count: 64, item: "minecraft:raw_gold" }
+		{ count: 64, item: "minecraft:lapis_lazuli" }
+		{ count: 64, item: "immersiveengineering:raw_aluminum" }
+	]
+	title: "Ores 4"
+	use_title: true
+}

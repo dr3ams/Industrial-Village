@@ -1,0 +1,12 @@
+{
+  "type": "railcraft:blasting",
+  "cookingTime": 1280,
+  "experience": 0.0,
+  "ingredient": {
+    "item": "minecraft:iron_shovel"
+  },
+  "result": {
+    "item": "immersiveengineering:ingot_steel"
+  },
+  "slagOutput": 1
+}

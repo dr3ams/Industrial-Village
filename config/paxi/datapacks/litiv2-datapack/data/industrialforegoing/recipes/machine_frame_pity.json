@@ -1,0 +1,45 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:and",
+          "values": [
+            {
+              "type": "forge:item_exists",
+              "item": "industrialforegoing:machine_frame_pity"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "I": {
+            "item": "immersiveengineering:plate_iron"
+          },
+          "R": {
+            "item": "immersiveengineering:rs_engineering"
+          },
+          "W": {
+            "item": "railcraft:charge_motor"
+          },
+          "L": {
+            "item": "immersiveengineering:light_engineering"
+          }
+        },
+        "pattern": [
+          "RIL",
+          "IWI",
+          "LIR"
+        ],
+        "result": {
+          "item": "industrialforegoing:machine_frame_pity"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

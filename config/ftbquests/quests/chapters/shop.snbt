@@ -1,0 +1,438 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "shop"
+	group: ""
+	icon: "kubejs:gold_coin"
+	id: "0000000000000579"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/item/copper_coin.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/item/diamond_coin.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/item/gold_coin.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/item/iron_coin.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "merchantmarkers:textures/entity/villager/markers/goblin_trader.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4d
+			hover: [ ]
+			image: "jei:textures/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 0.4d
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4d
+			hover: [ ]
+			image: "jei:textures/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 0.4d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4d
+			hover: [ ]
+			image: "jei:textures/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 0.4d
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "7525A4AAA54D2F0F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AB5DF7E610ADC8A"
+				table_id: 8073191519896831574L
+				type: "choice"
+			}]
+			subtitle: "For Granite/Diorite/Andesite"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "6CCAEDACC1C14C99"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			title: "Exchange Stone"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "common_loot_crate"
+				}
+			}
+			id: "12AA5A2ECF315050"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "219789E37A43CCEB"
+				table_id: 6888013663897817331L
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&2&oChoice repeatable reward&r&r"
+			tasks: [{
+				consume_items: true
+				id: "17B7046770CA5003"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "uncommon_loot_crate"
+				}
+			}
+			id: "4CA69F473539E565"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "671E70F8DE081718"
+				table_id: 3673153046364661600L
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&2&oChoice repeatable reward&r&r"
+			tasks: [{
+				consume_items: true
+				id: "0D11EF81DDA0EF14"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "rare_loot_crate"
+				}
+			}
+			id: "2146186B43D64F53"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BAD7CFC60A2A7CF"
+				table_id: 6733206692322637508L
+				team_reward: false
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&2&oChoice repeatable reward&r&r"
+			tasks: [{
+				consume_items: true
+				id: "7035844CA6BDC17C"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "epic_loot_crate"
+				}
+			}
+			id: "0802FC6EE2B78153"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E1498775B7AE2F0"
+				table_id: 849472112562879498L
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&2&oChoice repeatable reward&r&r"
+			tasks: [{
+				consume_items: true
+				id: "266B9F8F0D5CEBDB"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "308D3B4CF9E12F88"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EDABC5B8A7DF26C"
+				table_id: 3101518903568742149L
+				type: "choice"
+			}]
+			subtitle: "For any type of wood"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "637C2DCF5167900B"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			title: "Exchange Charcoal"
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "4F57DAF1F5977220"
+			rewards: [{
+				id: "5BFAFEF42F39D7A9"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				disable_toast: true
+				id: "3B76B53DA220C150"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			title: "10x Copper Coin -> 1x Iron Coin"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "5B4C555AD9501601"
+			rewards: [{
+				id: "574B75A1E4A49EFE"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				disable_toast: true
+				id: "1542B13676AAB991"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			title: "5x Iron Coin -> 1x Gold Coin"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "42923C8C0A146C90"
+			rewards: [{
+				id: "302D5A396AFB13C4"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				disable_toast: true
+				id: "2DD96D20A13F59E5"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "5x Gold Coin -> 1x Diamond Coin"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:bricks"
+			id: "6BFB8B621FA02308"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B726DAB6F3851A3"
+				table_id: 4221274870162148554L
+				type: "choice"
+			}]
+			subtitle: "&2&oChoice repeatable reward&r&r"
+			tasks: [{
+				consume_items: true
+				id: "7FCDC029B1D69443"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			title: "Building Materials"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: "simplehats:hatbag_common"
+			id: "3B33674AB3EBE3C0"
+			rewards: [{
+				id: "74EC1357FB41CF9B"
+				item: "simplehats:hatbag_common"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				disable_toast: true
+				id: "7A42C627059CC2F8"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "simplehats:hatbag_uncommon"
+			id: "7B3137C80284F3E0"
+			rewards: [{
+				id: "794E01704DCD5E3A"
+				item: "simplehats:hatbag_uncommon"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "240A4DECB750B673"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "simplehats:hatbag_rare"
+			id: "3790D44A9236B68A"
+			rewards: [{
+				id: "01531153C8F1FA50"
+				item: "simplehats:hatbag_rare"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "794C07D85E334174"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "simplehats:hatbag_epic"
+			id: "4A836610C6F71BBF"
+			rewards: [{
+				id: "54E9DC3951876556"
+				item: "simplehats:hatbag_epic"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "5C81A46FF8DB86B6"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+	]
+	title: "&l&fCoins Exchange&r&r"
+}

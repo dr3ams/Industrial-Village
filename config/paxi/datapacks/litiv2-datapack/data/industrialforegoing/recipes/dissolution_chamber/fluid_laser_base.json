@@ -1,0 +1,35 @@
+{
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+          {
+            "item": "immersiveengineering:fluid_sorter"
+          },
+          {
+            "item": "minecraft:diamond_pickaxe"
+          },
+		  {
+            "item": "immersiveengineering:fluid_sorter"
+          },
+          {
+            "tag": "forge:gears/diamond"
+          },
+          {
+            "tag": "forge:gears/diamond"
+          },
+          {
+            "tag": "forge:plastic"
+          },
+          {
+            "item": "immersiveengineering:component_electronic_adv"
+          },
+          {
+            "tag": "forge:plastic"
+          }
+  ],
+  "inputFluid": "{Amount:1000,FluidName:\"pneumaticcraft:lubricant\"}",
+  "output": {
+    "count": 1,
+    "item": "industrialforegoing:fluid_laser_base"
+  },
+  "processingTime": 1000
+}

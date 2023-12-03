@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:arc_furnace","additives":[{"item":"minecraft:iron_ingot"}],"energy":204800,"input":{"base_ingredient":{"item":"minecraft:tnt"},"count":2},"results":[{"item":"pneumaticcraft:ingot_iron_compressed"}],"slag":{"tag":"forge:slag"},"time":400}

@@ -1,0 +1,13 @@
+{
+  "type": "railcraft:blasting",
+  "cookingTime": 3200,
+  "experience": 0.0,
+  "ingredient": {
+    "item": "railcraft:steel_leggings"
+  },
+  "result": {
+    "count": 3,
+    "item": "immersiveengineering:ingot_steel"
+  },
+  "slagOutput": 0
+}

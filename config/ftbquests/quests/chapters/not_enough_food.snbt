@@ -1,0 +1,1888 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "not_enough_food"
+	group: "4EAE0C42246DB468"
+	icon: "farmersdelight:cooking_pot"
+	id: "62E81CB0EB2A6987"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "0ABFF67C8B76BE22"
+			rewards: [
+				{
+					id: "2B6BD02B1D94F6B1"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "496CB4B56D9D1A70"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "33983829F5397FF6"
+				item: "farmersdelight:vegetable_noodles"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "52E3B3D4F0915EEE"
+			rewards: [
+				{
+					id: "3A9333DB329714CA"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "2E5C6BB9DEE36778"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "0F6E9F9670CC0CEF"
+				item: "farmersdelight:ratatouille"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "107EBB12815A4B23"
+			rewards: [
+				{
+					id: "690F07AF99D39004"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "05AB6F24901B6A81"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "2BFC8F0FA8F7EECD"
+				item: "farmersdelight:squid_ink_pasta"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2FEC85DD348C7C1C"]
+			id: "42E37B71FCF59BAD"
+			rewards: [{
+				id: "1F91A0C59B4B0124"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "0D901A641F7D3407"
+				item: "farmersdelight:cake_slice"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2FEC85DD348C7C1C"]
+			id: "2DA15FAD0E755A26"
+			rewards: [{
+				id: "20A34E28986CDBA9"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "5B012B73CE682726"
+				item: "farmersdelight:chocolate_pie_slice"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2FEC85DD348C7C1C"]
+			id: "2EE16C98E49A9947"
+			rewards: [{
+				id: "716B005C30357893"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [
+				{
+					id: "13EC24A172393C72"
+					item: "farmersdelight:brown_mushroom_colony"
+					type: "item"
+				}
+				{
+					id: "35FA93C50AF89367"
+					item: "farmersdelight:red_mushroom_colony"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "32D6083223BDCD90"
+			rewards: [
+				{
+					id: "549EF9529551BCFD"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "5036299CEDA9E672"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "2F29C6C3020F6B0A"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32D6083223BDCD90"]
+			description: [
+				"The Stove is a direct upgrade to the Campfire's cooking features, and a suitable heat source for the Cooking Pot."
+				""
+				"To add items to its grill, simply right-click the Stove when it has no objects blocking its top face. Stoves detect campfire recipes to cook, meaning they usually also take 30 seconds to fully prepare items. Stoves cannot be automated through item transferring blocks (e.g. Hoppers), but require no fuel to cook items, much like a Campfire."
+				""
+				"Stoves can hold six (6) items on its grill, and will gently pop cooked outputs above its surface, instead of throwing them around."
+				""
+				"Stoves can be put out using shovels or buckets of water, and reignited with Flint and Steel."
+			]
+			id: "19A4385584636C45"
+			rewards: [
+				{
+					id: "5BCBAE559000B7D9"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "352401029288CE2F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "6424A97C1667029E"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			description: ["When consumed, it will remove a single random negative effect from the player, keeping positive ones untouched. This provides a simple use for Cocoa Beans in difficult, risky trips."]
+			id: "55AF1779E7AE28A7"
+			rewards: [{
+				id: "04F1C596FB1B7E50"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AD4A3D0C7E69859"
+				item: "farmersdelight:hot_cocoa"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["19A4385584636C45"]
+			description: [
+				"Items can be placed on the Cutting Board by using them on it. It always prefers receiving items from the off-hand, allowing players to hold their ingredients there while holding the tool in their main hand, processing the stack simply by holding the use button."
+				""
+				"When the correct tool is used on a valid item, it will be broken down into 1-4 different outputs, which are swiped sideways. Outputs always fly to the direction opposite to the Cutting Board's handle, allowing them to be collected by an item-capturing block, such as a Hopper or Basket. The tool receives 1 point of damage for each processed item."
+			]
+			id: "2FEC85DD348C7C1C"
+			rewards: [
+				{
+					id: "5184C3629734A578"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "0C68AEE65E2BDBAE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "The Cutting Board is a workstation where players can break down one item into many outputs, by using a valid tool on it."
+			tasks: [{
+				id: "298229CF438BC9F7"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "604569BC4764E258"
+			rewards: [{
+				id: "09498BF35D65A18A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "567B754D8FE1DD06"
+				title: "Pet Foods"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["604569BC4764E258"]
+			description: ["This combination allows your mount to be a lot more agile during travels. Since mounts eat a large volume of feed, the item does not need to be contained in a Bowl, saving some inventory space."]
+			id: "31E7C56ABBA6A7B2"
+			rewards: [{
+				id: "16A78CC7C71E0B05"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "234786C946748E53"
+				item: "farmersdelight:horse_feed"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["604569BC4764E258"]
+			description: ["This combination allows wolves to catch up a lot more easily with you or nimble opponents, as well as last longer in battle."]
+			id: "3693C3F67BD59401"
+			rewards: [{
+				id: "6FBE7C1D569B9A80"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C797806CAA4F4F8"
+				item: "farmersdelight:dog_food"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			description: [
+				"Feasts are not edible directly as an item; they must be placed down as a block first. When placed, players can use (right-click) them with Bowls to serve themselves with a consumable portion."
+				""
+				"The existing feasts in Farmer's Delight provide 4 servings in total. Plated feasts will also leave behind leftovers in the form of a dirty plate; right-clicking or mining it will retrieve the original Bowl, and any bones or food scraps left behind."
+			]
+			id: "619A52669514E850"
+			rewards: [{
+				id: "4D3E45D3809A8E8A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Feasts are very large meals, which can be placed as a block to provide multiple servings to players."
+			tasks: [{
+				id: "251874AE085FBC47"
+				title: "Feasts"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["619A52669514E850"]
+			id: "0F27533115C5827C"
+			rewards: [{
+				id: "0F6AAD95E2FA0B82"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "380E7230888F381C"
+				item: "farmersdelight:roast_chicken_block"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["619A52669514E850"]
+			id: "7B635770381DDE91"
+			rewards: [{
+				id: "1E98EA5E0DB56007"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7327769944FE4209"
+				item: "farmersdelight:stuffed_pumpkin_block"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["619A52669514E850"]
+			id: "41751B25A229932D"
+			rewards: [{
+				id: "3F642B4DB4F12F1C"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F9316E69617978D"
+				item: "farmersdelight:honey_glazed_ham_block"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["619A52669514E850"]
+			id: "0D2CCDC7E72BE396"
+			rewards: [{
+				id: "4903B18215A98037"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E1904B128889DB2"
+				item: "farmersdelight:shepherds_pie_block"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["19A4385584636C45"]
+			description: [
+				"The Cooking Pot is a workstation where you can both prepare and store a large amount of meals. When placed above any suitable heat source (campfire, open flames, lava, a stove etc.), it will start bubbling, indicating it's ready to cook."
+				""
+				"You can put up to six ingredients inside a pot. If they match, the pot will start cooking them up into a meal. Most meals need a container to be served on, such as Bowls; the result slot will tell you which one to use. Simply add the container on the corresponding slot, or right-click the pot with it, to take a serving!"
+				""
+				"Meals tend to be quite large, so they don't stack up as high in your inventory. If you're not going to eat them all right away, you can just mine the whole pot and take it with you! Cooking Pots can hold 64 servings of any meal with a container, regardless of their maximum stack limit."
+			]
+			id: "18F8DADD01FEC9C2"
+			rewards: [
+				{
+					id: "68FD5D4C45E8615D"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "488DA4E392176250"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "0023DC50F9911E64"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "1551E4FD839807A2"
+			rewards: [
+				{
+					id: "25953A992E76E8A1"
+					item: "cookingforblockheads:recipe_book"
+					type: "item"
+				}
+				{
+					id: "467B556582A1E483"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6F69029988FDA087"
+				item: "cookingforblockheads:oven"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1551E4FD839807A2"]
+			id: "1223B74DE8108C67"
+			rewards: [
+				{
+					count: 4
+					id: "0CF11DB6B4563FA9"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "4749F3FA3481E383"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7058268E47CF5430"
+				item: "cookingforblockheads:cooking_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1223B74DE8108C67"]
+			id: "6B649400E699D31F"
+			rewards: [
+				{
+					count: 2
+					id: "4109175886C45297"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "7F7124EF267FAC11"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "38A11EFAA835CD69"
+				item: "cookingforblockheads:fridge"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6B649400E699D31F"]
+			id: "6232E0EC41F931BA"
+			rewards: [
+				{
+					count: 4
+					id: "2518679EDCD0FF03"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "1220C6FCE42E1780"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "334B35A42469F031"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6232E0EC41F931BA"]
+			id: "71F7425B228485C4"
+			rewards: [
+				{
+					count: 2
+					id: "6FEB0C02FFA96AE1"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "470E4B4CB241C2E1"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1875883B455683A9"
+				item: "cookingforblockheads:counter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["71F7425B228485C4"]
+			id: "12F512B24CF56B09"
+			rewards: [
+				{
+					count: 4
+					id: "4B7A5EA593E2FB53"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "2B65237AA80F20C8"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "642FB815DE09D4AE"
+				item: "cookingforblockheads:cabinet"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["12F512B24CF56B09"]
+			id: "1A565B02E67D7872"
+			rewards: [
+				{
+					count: 2
+					id: "43BB26D6C0A18EC0"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "2075D59F6EFF9686"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "742210107EF4DCA8"
+					item: "cookingforblockheads:spice_rack"
+					type: "item"
+				}
+				{
+					id: "38C2B91E603D115A"
+					item: "cookingforblockheads:tool_rack"
+					type: "item"
+				}
+				{
+					id: "363C06785AFA13DD"
+					item: "cookingforblockheads:fruit_basket"
+					type: "item"
+				}
+				{
+					id: "4166AF4B71C4CA49"
+					item: "cookingforblockheads:milk_jar"
+					type: "item"
+				}
+				{
+					id: "23A17487A659F529"
+					item: "cookingforblockheads:toaster"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2FEC85DD348C7C1C"]
+			id: "5208C122A79FB6D4"
+			rewards: [{
+				id: "639781BFA9FB27B6"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "40A96A255CF3974B"
+				item: "farmersdelight:salmon_roll"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "0F72242F67FB23EA"
+			rewards: [{
+				id: "77F67130A5E9031C"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "63166586FF2EB727"
+				item: "farmersdelight:cabbage_rolls"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2FEC85DD348C7C1C"]
+			id: "5625E3B3A16BC9B6"
+			rewards: [{
+				id: "20EF1019FD977D70"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "4CD83405D6CCD04F"
+				item: "farmersdelight:cod_roll"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2FEC85DD348C7C1C"]
+			id: "62089B796DB351EE"
+			rewards: [{
+				id: "2CC99774A219DB9A"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "136A1BD0C9B1D263"
+				item: "farmersdelight:kelp_roll"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5625E3B3A16BC9B6"
+				"5208C122A79FB6D4"
+				"62089B796DB351EE"
+			]
+			id: "1872F40DABDF5FAF"
+			rewards: [
+				{
+					id: "45FFC57650845DA4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "74F3CF3889317CB3"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "08E3A7BEF2AC8FDE"
+				item: "farmersdelight:rice_roll_medley_block"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "6A6E488CCF7AE3AD"
+			rewards: [{
+				id: "0AE999E429FEF9B6"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "277C9D02358EAF00"
+				item: "farmersdelight:bone_broth"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2EE16C98E49A9947"]
+			id: "2CBC743A01A4D249"
+			rewards: [
+				{
+					id: "6BF5BBD06C10B568"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "181762967958B7D4"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11ABCED42E7D31D1"
+				item: "farmersdelight:mushroom_rice"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "1EBAB25F45475F48"
+			rewards: [
+				{
+					id: "431DB11842A45F7C"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "514A2BFE5E6D09AD"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16E76C5CA796E2CC"
+				item: "farmersdelight:glow_berry_custard"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			id: "0960AD8BA5C09440"
+			rewards: [
+				{
+					id: "5967B39F483EEE49"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5A48CD35022E76BA"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "519D620D2E5D0FF5"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "random_dyes"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "50D9091CB3744BA2"
+				item: "farmersrespite:kettle"
+				type: "item"
+			}]
+			title: "Tea time!"
+			x: 18.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0960AD8BA5C09440"]
+			id: "648BAB58990F8D8D"
+			rewards: [{
+				id: "5EDBB3EB559DA391"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7EA689C816A1D777"
+				item: "farmersrespite:coffee_beans"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0960AD8BA5C09440"]
+			id: "51DF5016D3B2B89A"
+			rewards: [{
+				id: "05E0D8FEB504C313"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "219B121B727AAD03"
+				item: "farmersrespite:green_tea_leaves"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0960AD8BA5C09440"]
+			id: "4D9C56A8C025C187"
+			rewards: [{
+				id: "20360452C1A299F8"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "38125E4987DDB934"
+				item: "farmersrespite:yellow_tea_leaves"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0960AD8BA5C09440"]
+			id: "04CDF780E05C5C2D"
+			rewards: [{
+				id: "4226AFCB98055854"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "55BC8F7744D082A2"
+				item: "farmersrespite:black_tea_leaves"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0960AD8BA5C09440"]
+			id: "6F7BFBA1ED098E26"
+			rewards: [{
+				id: "604DAA1065469A0A"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7123D9467555B8C5"
+				item: "farmersrespite:rose_hips"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2F0545EAD838C471"]
+			id: "16371A1ABC7EDFEA"
+			rewards: [{
+				id: "020FE5240944C916"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2E6238D6CF976114"
+				item: "farmersrespite:dandelion_tea"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["648BAB58990F8D8D"]
+			id: "1DB53B94CE26EC1F"
+			rewards: [{
+				id: "765DC1016E48CFA6"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3E659ACCBBADA69C"
+				item: "farmersrespite:coffee"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["51DF5016D3B2B89A"]
+			id: "1801CABEB4546A91"
+			rewards: [
+				{
+					id: "4C1756C0F3E688B1"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "729D0346C2B1A66A"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "614B7A3AFC24BDB3"
+				item: "farmersrespite:green_tea"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4D9C56A8C025C187"]
+			id: "75E87C071232E880"
+			rewards: [{
+				id: "52BE19B6EB7F856B"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "034EDFD628CE924F"
+				item: "farmersrespite:yellow_tea"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["04CDF780E05C5C2D"]
+			id: "2DE60B5902EB6E77"
+			rewards: [
+				{
+					id: "0EA9F484550BEAFD"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "14EBE219335BB49B"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1E93E2F8E8763D04"
+				item: "farmersrespite:black_tea"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6F7BFBA1ED098E26"]
+			id: "254EEEE83C8C2627"
+			rewards: [
+				{
+					id: "517A7D86467C6382"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "4D0D2974E2CE7F70"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6BE15097F46EA6F1"
+				item: "farmersrespite:rose_hip_tea"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0960AD8BA5C09440"]
+			id: "2F0545EAD838C471"
+			rewards: [{
+				id: "55CC37B00C819FFB"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3EB7731A52CE54FC"
+				item: "minecraft:dandelion"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "1B567A8D4E6197E1"
+			rewards: [
+				{
+					id: "6635B039515B8E21"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "48637A267B631AA0"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67F9EC36598903A4"
+				item: "farmersdelight:fruit_salad"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "508E6FA3BCF28216"
+			rewards: [
+				{
+					id: "465E8BCB1F7DA90C"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "5BE65719B3E9FD87"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "23DD22092CE554D7"
+				item: "farmersdelight:mixed_salad"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "484755EBE56B5FE7"
+			rewards: [
+				{
+					id: "74B58ABD6E89338B"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "7F8054591E812431"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7EF14DC3B64A75BB"
+				item: "farmersdelight:pasta_with_mutton_chop"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "4C81D7F2A78EBD1B"
+			rewards: [
+				{
+					id: "48210E7F41808432"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "4ECF45BFA1DB7A16"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "345736820F2C657F"
+				item: "farmersdelight:pasta_with_meatballs"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "157FB8FB5D3123C5"
+			rewards: [
+				{
+					id: "0D2055E799AB2456"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "23535567DB7BD206"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E72E8F8B5D53CBE"
+				item: "farmersdelight:mushroom_rice"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "7AD44AB6255C7D02"
+			rewards: [
+				{
+					id: "4B5A83EC6B4E8AD6"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "3844B3609C096B2A"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "008BDFE35A7D583D"
+				item: "farmersdelight:roasted_mutton_chops"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "00DABE8CFD1D44B9"
+			rewards: [
+				{
+					id: "79AC1A0FF39FA565"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "7D48085DB1D81AAB"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "43DBBD1D2BD28182"
+				item: "farmersdelight:steak_and_potatoes"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "4D4095067C57EEA3"
+			rewards: [
+				{
+					id: "3C7709FBB5C9D752"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "658007099CB67D5F"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1AFB7D2A38555C22"
+				item: "farmersdelight:grilled_salmon"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "3B6C62BDC74F3276"
+			rewards: [
+				{
+					id: "6195A019E1CAE07F"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "68056A108C969B1D"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5728A8B218AF335E"
+				item: "farmersdelight:bacon_and_eggs"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "760A05C96E62819F"
+			rewards: [
+				{
+					id: "7D3AF508E199C1C7"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "2AAF2B0D28B550F4"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A4F8FE52403FCB2"
+				item: "farmersdelight:noodle_soup"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "405EBBD44B941238"
+			rewards: [
+				{
+					id: "23E5055C7733DD35"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "06D7347C45FB0A91"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6CC4E1E6348FC773"
+				item: "farmersdelight:baked_cod_stew"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "75BDC0A507DA4255"
+			rewards: [
+				{
+					id: "06EFC28B4D7AB962"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "3AAAE10000BE832F"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "630B6B410B90C5A5"
+				item: "farmersdelight:cooked_rice"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "11A00F6F5B529907"
+			rewards: [
+				{
+					id: "113815F86DCF0998"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "1811F27DC6499533"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6DF08DCB230E141C"
+				item: "farmersdelight:bone_broth"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "1521A6BE3608787D"
+			rewards: [
+				{
+					id: "3543FED57664E5DE"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "2657142388141FA0"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2AB342012AEA6F09"
+				item: "farmersdelight:beef_stew"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "4F416D45F2802398"
+			rewards: [
+				{
+					id: "3FF54E4413E4DBA8"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "66F9E07F4C8E3E7F"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40A074DE600402E9"
+				item: "farmersdelight:chicken_soup"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "2D7D249708030522"
+			rewards: [
+				{
+					id: "38E3A92FACC38A7F"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "2598AC0FBDA3D5B1"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67BE8B0B7861794D"
+				item: "farmersdelight:vegetable_soup"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "567D8467963BD699"
+			rewards: [
+				{
+					id: "2E8930B3DE3F298A"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "0E866972C811FA69"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "34EBCD920DB5E229"
+				item: "farmersdelight:fish_stew"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "2033335F1472799E"
+			rewards: [
+				{
+					id: "58903AC5878E9745"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "6A87C6261848ABA3"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6FD1301F56A46570"
+				item: "farmersdelight:fried_rice"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "11EB478801FE3D72"
+			rewards: [
+				{
+					id: "2DB97CCE80A89AD6"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "51EBAAD0DF65BC85"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64DA0FC9333C65E2"
+				item: "farmersdelight:pumpkin_soup"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "51F479665133F7A8"
+			rewards: [
+				{
+					id: "783FE1375B12594B"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "7A8494B58E54C939"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "491BD362981E5423"
+				item: "farmersdelight:egg_sandwich"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "5348872B283D5CA7"
+			rewards: [
+				{
+					id: "1DAF85E73E0C88ED"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "695D7A5033F3C1A4"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B9A3E762BEE608E"
+				item: "farmersdelight:chicken_sandwich"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "6D30ABF708559BDB"
+			rewards: [
+				{
+					id: "2DB28B89B65FB17D"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "3830DE9423B298D5"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "616E0B0846B7FA41"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "4DD76286EE053F30"
+			rewards: [
+				{
+					id: "49B7AF85F186552C"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "35DE0E424CB74665"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3325688361A82BFA"
+				item: "farmersdelight:bacon_sandwich"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "0E19A54ADFD43633"
+			rewards: [
+				{
+					id: "426AFCF9C3DF85FA"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "43C6AF5C5EC2BC65"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0F0887C46E0BE3AD"
+				item: "farmersdelight:mutton_wrap"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "3CA21EE45FC566DC"
+			rewards: [
+				{
+					id: "7813A498821B7C16"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "35F3738ACA3C94FC"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0CA72571E1B4A324"
+				item: "farmersdelight:dumplings"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "2BC2B89856AA3573"
+			rewards: [
+				{
+					id: "3B26A0B64ABB868D"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "47F7B49FBE702B7D"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E36E98CB403AA77"
+				item: "farmersdelight:stuffed_potato"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "0A49169F248D7812"
+			rewards: [
+				{
+					id: "2F165763D641B62F"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "1071945ED430FDC7"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30841ED98EFA7D22"
+				item: "farmersdelight:barbecue_stick"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "7E1BD6CDB0C8196B"
+			rewards: [
+				{
+					id: "19D6AF8580D78BCD"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "5EB901D262AA4C88"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F7ADC9052FFE120"
+				item: "farmersdelight:nether_salad"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["51DF5016D3B2B89A"]
+			id: "660CCF4A41EFFE1E"
+			rewards: [{
+				id: "6BE0297DF3E73957"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "5F5D40AE8E5ACE9E"
+				item: "respiteful:mint_green_tea"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4D9C56A8C025C187"]
+			id: "3C077D24E153F267"
+			rewards: [{
+				id: "656CF8F40F9F6960"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "257558A6B3F279E6"
+				item: "respiteful:vanilla_milk_tea"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["04CDF780E05C5C2D"]
+			id: "793FA45A84EC2F3B"
+			rewards: [
+				{
+					id: "46C9AD04D2B2CDE0"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18E0188CC6B72473"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "7B7735E1F1BE9CDF"
+				item: "respiteful:adzuki_milk_tea"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["648BAB58990F8D8D"]
+			id: "29C5F637D3D8F983"
+			rewards: [
+				{
+					id: "2D9EBF49A6476587"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71E2AE6DD29FBDFC"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "03E90C713CC6F238"
+				item: "respiteful:mocha_coffee"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1801CABEB4546A91"]
+			id: "7D5BFD28781228DF"
+			rewards: [
+				{
+					id: "47EDC71544CCD9D6"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "169FD3109FFCB1CA"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "5E75220A264A0828"
+				item: "respiteful:snow_top_green_tea"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["75E87C071232E880"]
+			id: "2C850CC75BAC1D8A"
+			rewards: [{
+				id: "1DF492D5B0871719"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "47CD97B2452CC277"
+				item: "respiteful:snow_top_yellow_tea"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2DE60B5902EB6E77"]
+			id: "6D4FFBAC3EC74B83"
+			rewards: [{
+				id: "05C143301139DA68"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "4164F3883FB8328D"
+				item: "respiteful:snow_top_black_tea"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1DB53B94CE26EC1F"]
+			id: "075F07C493C1A178"
+			rewards: [{
+				id: "7F74CFBF99E23791"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "27962D8B80A82CCB"
+				item: "respiteful:snow_top_coffee"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.5d
+		}
+	]
+	title: "Not Enough Food"
+}

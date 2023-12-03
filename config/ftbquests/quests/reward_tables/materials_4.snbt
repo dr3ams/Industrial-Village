@@ -1,0 +1,40 @@
+{
+	id: "67BD5FC52FD8BA16"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Materials 4"
+		string_id: "materials_4"
+	}
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{ count: 10, item: "tetra:geode" }
+		{ item: "tetra:pristine_diamond" }
+		{ count: 64, item: "minecraft:paper" }
+		{ count: 64, item: "minecraft:ink_sac" }
+		{ count: 29, item: "minecraft:string" }
+		{ count: 64, item: "pneumaticcraft:plastic" }
+		{ count: 2, item: "refinedstorage:raw_advanced_processor" }
+		{ count: 3, item: "refinedstorage:raw_improved_processor" }
+		{ count: 32, item: "minecraft:bone" }
+		{ count: 32, item: "minecraft:feather" }
+		{ count: 64, item: "minecraft:blaze_powder" }
+		{ count: 64, item: "minecraft:gunpowder" }
+		{ count: 64, item: "minecraft:glowstone_dust" }
+		{ count: 16, item: "minecraft:ender_pearl" }
+		{ count: 6, item: "minecraft:glow_ink_sac" }
+		{ count: 10, item: "extendedcrafting:luminessence" }
+		{ count: 44, item: "immersiveengineering:coal_coke" }
+		{ count: 21, item: "refinedstorage:silicon" }
+		{ count: 27, item: "refinedstorage:processor_binding" }
+		{ count: 64, item: "minecraft:slime_ball" }
+		{ count: 21, item: "minecraft:leather" }
+	]
+	title: "Materials 4"
+	use_title: true
+}

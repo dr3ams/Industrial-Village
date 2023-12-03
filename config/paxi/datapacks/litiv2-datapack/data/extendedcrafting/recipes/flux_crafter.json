@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "cucumber:feature_flag",
+      "flag": "extendedcrafting:flux_crafter"
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "BCB",
+    "DBD"
+  ],
+  "key": {
+    "A": {
+      "item": "ad_astra:ostrum_plate"
+    },
+    "B": {
+      "item": "ad_astra:calorite_plate"
+    },
+    "C": {
+      "item": "extendedcrafting:basic_table"
+    },
+    "D": {
+      "item": "ad_astra:desh_plate"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:flux_crafter"
+  }
+}

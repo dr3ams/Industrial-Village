@@ -1,0 +1,769 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "octagon"
+	filename: "advanced_power_gen"
+	group: "4CB4EEA3591AD759"
+	icon: "advgenerators:fuel_turbine_controller"
+	id: "49A24A59E0398477"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "litv3:textures/misc/advpower.png"
+			rotation: 0.0d
+			width: 9.19626168224299d
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "litv3:textures/misc/icon_advpower.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 135.0d
+			width: 1.0d
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 135.0d
+			width: 1.0d
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "litv3:textures/misc/advpower-info.png"
+			rotation: 0.0d
+			width: 6.475675675675676d
+			x: -9.5d
+			y: 0.0d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37B19EFE9CEA550D"]
+			description: [
+				"You can create a temperature difference by burning combustible fluids that causes turbines to rotate, enabling you to utilize the turbines to generate Flux."
+				""
+				"Modules:"
+				"- Up to 50 Turbines"
+				"- Up to 10 Fuel Tanks"
+				"- Up to 10 Power Capacitors"
+				"- Efficiency Upgrade Modules"
+			]
+			icon: "advgenerators:fuel_turbine_controller"
+			id: "366AE7509CC7707C"
+			rewards: [{
+				id: "1CA2DFE08FF222C7"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "&3Multiblock generator that runs on various fluid fuels, can be built in any form.&r"
+			tasks: [
+				{
+					id: "1A64E60F13CFA6A5"
+					item: "advgenerators:fuel_turbine_controller"
+					type: "item"
+				}
+				{
+					id: "1CD1539FD0E7B614"
+					item: "advgenerators:fe_output"
+					type: "item"
+				}
+				{
+					id: "5F80BD88199D0FF1"
+					item: "advgenerators:fluid_input"
+					type: "item"
+				}
+			]
+			title: "Gas Turbine"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C9FADB23070ADC6"]
+			description: [
+				"After creating steam in a heat exchanger, you realize that you can use this steam to power up to 50 turbines."
+				""
+				"Also:"
+				"- Up to 10 Power Capacitors "
+				"- Up to 5 Fluid Intake Valves"
+				"- Up to 6 Output Modules"
+				"- Up to 10 Sensor Modules"
+				"- Up to 10 Control Modules"
+				""
+				"*&oPower output from this generator depends on the speed of the turbine&r"
+				""
+				"*&oEach turbine block installed will increase maximum steam flow and power production.&r"
+				""
+				"*&oOutput will increase as the turbine spins up to 5000 RPM which is the maximum speed&r"
+			]
+			icon: "advgenerators:steam_turbine_controller"
+			id: "79E8DFEEBE8E3BC7"
+			rewards: [{
+				id: "7D6FDEDBFEAA7AE2"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "&3Multiblock generator that runs on steam, can be built in any form&r"
+			tasks: [
+				{
+					id: "11850A2A15E176DE"
+					item: "advgenerators:steam_turbine_controller"
+					type: "item"
+				}
+				{
+					id: "6A68F93AB32A11C8"
+					item: "advgenerators:fe_output"
+					type: "item"
+				}
+				{
+					id: "5A230790E4C443BD"
+					item: "advgenerators:fluid_input"
+					type: "item"
+				}
+			]
+			title: "Steam Turbine"
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["37B19EFE9CEA550D"]
+			description: [
+				"In order to operate a Steam Turbine, you must first have a supply of Steam. "
+				""
+				"The most efficient method for producing Steam appears to involve using &5Heat Exchangers&r. In this process, &4Lava&r serves as the heat source, entering one &1Fluid Intake Valve&r, while Water is pumped into the other, resulting in the creation of Steam. "
+				""
+				"The conversion process will cause the Lava to solidify into Obsidian, necessitating the use of a chest for the item output. Additionally, &1Fluid Outputs&r are required to release the steam into a Steam Generator."
+				""
+				"Modules:"
+				"- Up to 50 Exchangers (each can transfer up to 16 HU per tick)"
+				"- Up to 5 Fluid Intake Valves"
+				"- Up to 6 Output Modules"
+				"- Up to 10 Sensor Modules"
+				"- Up to 10 Control Modules"
+			]
+			icon: "advgenerators:exchanger_controller"
+			id: "2C9FADB23070ADC6"
+			rewards: [{
+				id: "29B476BEDFAF6274"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "&3Multiblock machine that transfers heat between various substances.&r"
+			tasks: [
+				{
+					id: "291F2303BA4AE2C1"
+					item: "advgenerators:exchanger_controller"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7C011379C64AC81C"
+					item: { Count: 2b, id: "advgenerators:fluid_input" }
+					type: "item"
+				}
+				{
+					id: "273562B9DA639785"
+					item: "advgenerators:heat_exchanger"
+					type: "item"
+				}
+				{
+					id: "3F56A7CB0DEA2944"
+					item: "advgenerators:fluid_output_select"
+					type: "item"
+				}
+				{
+					id: "3AC20AA6BD13F078"
+					item: "advgenerators:item_output"
+					type: "item"
+				}
+			]
+			title: "Heat Exchanger"
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37B19EFE9CEA550D"]
+			description: [
+				"Creating Syngas involves a complex process of converting &0Carbon&r into &eGasoline&r. This requires a consistent supply of Steam and Water to be provided to your system."
+				""
+				"In addition to that, a substantial amount of Carbon is essential, which can include Logs, Planks, Charcoals, or even Coal Coke. Once the production of Syngas begins, you can proceed to burn it in a Gas Turbine."
+				""
+				"Modules"
+				""
+				"- Up to 25 Mixing Chambers (1 required)"
+				"- Up to 10 Heating Chambers (at least 1 needed unless steam is piped in)"
+				"- Up to 5 Item Input Ports"
+				"- Up to 5 Fluid Intake Valves"
+				"- Up to 6 Fluid Output Valves"
+				"- Up to 10 Sensor Modules"
+				"- Up to 10 Control Modules"
+			]
+			icon: "advgenerators:syngas_controller"
+			id: "52DBE7AE45BAF54C"
+			rewards: [{
+				id: "7599CD8162D395D9"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "&3Multiblock machine that makes a fluid fuel (Syngas) from solid carbon-based fuels.&r"
+			tasks: [
+				{
+					id: "262079AC8E8048B6"
+					item: "advgenerators:syngas_controller"
+					type: "item"
+				}
+				{
+					id: "4EF143D6BC0916D8"
+					item: "advgenerators:heating_chamber"
+					type: "item"
+				}
+				{
+					id: "283F7E4D6E7F7940"
+					item: "advgenerators:fluid_input"
+					type: "item"
+				}
+				{
+					id: "0E60B85DBCE56DF1"
+					item: "advgenerators:fluid_output_select"
+					type: "item"
+				}
+				{
+					id: "263514BE041EFC51"
+					item: "advgenerators:item_input"
+					type: "item"
+				}
+				{
+					id: "0A33E107566E04A9"
+					item: "advgenerators:mixing_chamber"
+					type: "item"
+				}
+			]
+			title: "Syngas Producer"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7CEF0F922AC0EDC4"]
+			description: [
+				"Produces up to 150 RF/t"
+				"110% Inertia"
+			]
+			id: "2F061E33FF76BD2A"
+			rewards: [{
+				id: "091EAE9A65586A11"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67FE8D8EF6E5A3E2"
+				item: "advgenerators:turbine_tier2"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7327323E35DFF739"]
+			description: [
+				"Produces up to 250 RF/t"
+				"120% Inertia"
+			]
+			id: "3BA985855CBFBF5C"
+			rewards: [{
+				id: "4840935E257F2475"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D132A81103BEB5F"
+				item: "advgenerators:turbine_tier3"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1294F20E992BB55B"]
+			description: [
+				"Produces up to 500 RF/t"
+				"125% Inertia"
+			]
+			id: "7D947F440361A9E9"
+			rewards: [{
+				id: "3C076585DBFBE056"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D58FE1F8C7D3928"
+				item: "advgenerators:turbine_tier4"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5C498CD8D3B6449C"]
+			description: [
+				"Produces up to 100 RF/t"
+				"100% Inertia"
+			]
+			id: "6C1D2632DFC5C27E"
+			rewards: [{
+				id: "054DB835A92A1082"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0034A090001A3BB5"
+				item: "advgenerators:turbine_tier1"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"These modules can be added to Gas and Steam Turbine Generators to increase energy capacity. Up to 10 modules can be added to one generator"
+				""
+				"&4Basic Capacitor&r stores up to 1,000,000 RF"
+			]
+			id: "688BE22832016EA9"
+			rewards: [{
+				id: "43204DE4C6CFFD32"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63C5ECE10FB222DA"
+				item: "advgenerators:power_capacitor_tier1"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"688BE22832016EA9"
+				"37B19EFE9CEA550D"
+			]
+			id: "0F43C58EF8FE8C46"
+			rewards: [{
+				id: "3616B5B972225383"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A7128A379B760DC"
+				item: "advgenerators:capacitor_kit_tier2"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0F43C58EF8FE8C46"]
+			description: ["Stores up to 5,000,000 RF"]
+			id: "666909F998FA9FE9"
+			rewards: [{
+				id: "7EF2977735B15434"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "201A8DCE4E512724"
+				item: "advgenerators:power_capacitor_tier2"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["666909F998FA9FE9"]
+			id: "49BE5EEE4D76CE6A"
+			rewards: [
+				{
+					id: "6FEDA61538F87D7D"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "3E563025180C2403"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "epic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "360D0C6670F354A1"
+				item: "advgenerators:capacitor_kit_tier3"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			id: "5C498CD8D3B6449C"
+			rewards: [{
+				id: "1A3380049F8483D7"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DED20810D94FFB8"
+				item: "advgenerators:turbine_rotor_tier1"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["205D0674D8E55682"]
+			icon: "extendedcrafting:flux_crafter"
+			id: "37B19EFE9CEA550D"
+			rewards: [
+				{
+					id: "62D79BB8C2755EF3"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "772D75B466DEC0F3"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "epic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "5224912568EA9095"
+					item: "extendedcrafting:flux_crafter"
+					type: "item"
+				}
+				{
+					id: "260200E5E1094C9F"
+					item: "extendedcrafting:flux_alternator"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6C1D2632DFC5C27E"
+				"37B19EFE9CEA550D"
+			]
+			id: "7CEF0F922AC0EDC4"
+			rewards: [{
+				id: "56390F19BE20B6FC"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B50EDCEA54345DE"
+				item: "advgenerators:turbine_kit_tier2"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F061E33FF76BD2A"]
+			id: "7327323E35DFF739"
+			rewards: [{
+				id: "3047AB9A9AB5D51D"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BCD053AA4AB2F42"
+				item: "advgenerators:turbine_kit_tier3"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3BA985855CBFBF5C"]
+			id: "1294F20E992BB55B"
+			rewards: [{
+				id: "548A88B0F6479153"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CC8754FA55EE630"
+				item: "advgenerators:turbine_kit_tier4"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D947F440361A9E9"]
+			id: "46AE36128008FC10"
+			rewards: [
+				{
+					id: "3AF7C5D27E42E5E1"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "52E2DC0612D0840E"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "epic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "29AEB4AB75913CC3"
+				item: "advgenerators:turbine_kit_tier5"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["366AE7509CC7707C"]
+			description: [
+				"These 2 modules can be added to Gas Turbine Generators to increase fuel efficiency."
+				""
+				"&4Gas Mix Compressor&r "
+				""
+				"- Increases efficiency to 185%"
+				"- Requires Fuel/Air Mixer installed"
+				""
+				"&4Fuel/Air Mixer &r"
+				""
+				"- Increases efficiency to 135%"
+			]
+			id: "7D307CC5D1893DB4"
+			rewards: [{
+				id: "75567C3EBA7D2035"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "71C191A742286122"
+					item: "advgenerators:efficiency_upgrade_tier2"
+					type: "item"
+				}
+				{
+					id: "7598561F5ADA1991"
+					item: "advgenerators:efficiency_upgrade_tier1"
+					type: "item"
+				}
+			]
+			title: "Efficiency Upgrades"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["37B19EFE9CEA550D"]
+			id: "13ED1E9FF77DA0D3"
+			rewards: [{
+				id: "01C1E8270491F843"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "59DF9995751FB210"
+				item: "fluxnetworks:flux_plug"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["13ED1E9FF77DA0D3"]
+			id: "298A1C31846FF258"
+			rewards: [{
+				id: "78923E1DDAC613D6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0B7A6B95FEADB120"
+				item: "fluxnetworks:flux_point"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["13ED1E9FF77DA0D3"]
+			id: "36E4B9BAD0111604"
+			rewards: [{
+				id: "43F6CD940F5FC21C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0E68921EF43B0E96"
+				item: "fluxnetworks:basic_flux_storage"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36E4B9BAD0111604"]
+			id: "7F2D73D5EBD5CE6E"
+			rewards: [{
+				id: "1FF1286BEABBCB95"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03FEBEAFE52EBF17"
+				item: "fluxnetworks:herculean_flux_storage"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7F2D73D5EBD5CE6E"]
+			id: "2F47BC34E0EF02C3"
+			rewards: [
+				{
+					id: "5423BEC2135E665D"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "563A488CE3CE1A0B"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "epic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "39E8B8884996C606"
+				item: "fluxnetworks:gargantuan_flux_storage"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["49BE5EEE4D76CE6A"]
+			description: ["Stores up to 25,000,000 RF"]
+			id: "60750701CD0F366B"
+			rewards: [
+				{
+					id: "24C483FE2C7E786D"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "4294B256CEF31328"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1981D5BFA6912749"
+				item: "advgenerators:power_capacitor_tier3"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["46AE36128008FC10"]
+			description: [
+				"Produces up to 1000 RF/t"
+				"140% Inertia"
+			]
+			id: "362506688597E9E9"
+			rewards: [
+				{
+					id: "22656DBA7FB4A29F"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "7C2A918F66FCD382"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "34D05942EBFA732E"
+				item: "advgenerators:turbine_tier5"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			description: ["- add information for controller quests"]
+			icon: "kubejs:lightning"
+			id: "78FF5DEABA53EA49"
+			tasks: [{
+				id: "186FAE568FB53C6B"
+				title: "TODO"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+	]
+	title: "7. &3Advanced Power&r"
+}

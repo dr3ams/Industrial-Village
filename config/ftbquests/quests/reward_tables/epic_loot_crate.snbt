@@ -1,0 +1,55 @@
+{
+	id: "1212C5C03F705C5C"
+	loot_crate: {
+		color: 12664063
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Epic Loot Crate"
+		string_id: "epic_loot_crate"
+	}
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "junk_4"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "ores_4"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "food_4"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "materials_4"
+				}
+			}
+		}
+	]
+	title: "Epic Loot Crate"
+	use_title: true
+}

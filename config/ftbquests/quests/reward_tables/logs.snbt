@@ -1,0 +1,26 @@
+{
+	id: "2B0ACF029F5FB705"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Logs"
+		string_id: "logs"
+	}
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 64, item: "minecraft:oak_log" }
+		{ count: 64, item: "minecraft:spruce_log" }
+		{ count: 64, item: "minecraft:birch_log" }
+		{ count: 64, item: "minecraft:jungle_log" }
+		{ count: 64, item: "minecraft:acacia_log" }
+		{ count: 64, item: "minecraft:dark_oak_log" }
+		{ count: 64, item: "minecraft:mangrove_log" }
+	]
+	title: "Logs"
+	use_title: true
+}

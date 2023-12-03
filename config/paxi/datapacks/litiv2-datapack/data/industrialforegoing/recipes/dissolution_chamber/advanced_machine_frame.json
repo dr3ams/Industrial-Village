@@ -1,0 +1,35 @@
+{
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "item": "ad_astra:ostrum_plate"
+    },
+    {
+      "tag": "industrialforegoing:machine_frame/simple"
+    },
+    {
+      "item": "ad_astra:ostrum_plate"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "ad_astra:ostrum_plate"
+    },
+    {
+      "tag": "forge:gears/diamond"
+    },
+    {
+      "item": "ad_astra:ostrum_plate"
+    }
+  ],
+  "inputFluid": "{Amount:500,FluidName:\"industrialforegoing:pink_slime\"}",
+  "output": {
+    "count": 1,
+    "item": "industrialforegoing:machine_frame_advanced"
+  },
+  "processingTime": 300
+}

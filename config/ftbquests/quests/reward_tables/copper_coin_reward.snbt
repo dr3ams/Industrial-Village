@@ -1,0 +1,145 @@
+{
+	id: "5F9723EEDCAA90F3"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "ores_1"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "food_1"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "materials_1"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "junk_1"
+				}
+			}
+		}
+		{
+			icon: "minecraft:purple_dye"
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "random_dyes"
+				}
+			}
+		}
+		{ count: 5, item: "aquaculture:box" }
+		{ count: 2, item: "minecraft:coal" }
+		{ count: 4, item: "minecraft:clay_ball" }
+		{ item: "minecraft:leather" }
+		{ item: "minecraft:paper" }
+		{ item: "minecraft:ink_sac" }
+		{ item: "minecraft:bone" }
+		{ count: 4, item: "minecraft:sand" }
+		{ item: "randomite:randomite_ore" }
+		{ item: "minecraft:bamboo" }
+		{ item: "minecraft:lily_pad" }
+		{ item: "minecraft:kelp" }
+		{ count: 4, item: "minecraft:sponge" }
+		{ count: 2, item: "minecraft:feather" }
+		{ count: 2, item: "farmersdelight:fruit_salad" }
+		{ item: "minecraft:dark_oak_sapling" }
+		{ item: "minecraft:acacia_sapling" }
+		{ item: "minecraft:jungle_sapling" }
+		{ item: "minecraft:painting" }
+		{ item: "minecraft:lead" }
+		{ count: 8, item: "minecraft:scaffolding" }
+		{ item: "minecraft:flower_pot" }
+		{ item: "buildersaddition:bookshelf_birch" }
+		{ item: "minecraft:item_frame" }
+		{ item: "buildersaddition:shelf_birch" }
+		{ item: "buildersaddition:bookshelf_dark_oak" }
+		{ item: "buildersaddition:shelf_dark_oak" }
+		{ item: "buildersaddition:bookshelf_oak" }
+		{ item: "buildersaddition:shelf_jungle" }
+		{ item: "buildersaddition:shelf_spruce" }
+		{ item: "buildersaddition:bookshelf_spruce" }
+		{ item: "buildersaddition:shelf_oak" }
+		{ item: "buildersaddition:shelf_acacia" }
+		{ item: "buildersaddition:bookshelf_acacia" }
+		{ item: "buildersaddition:bookshelf_jungle" }
+		{ item: "minecraft:moss_block" }
+		{ item: "minecraft:cactus" }
+		{ item: "minecraft:flowering_azalea" }
+		{ item: "minecraft:sea_pickle" }
+		{ item: "minecraft:mangrove_propagule" }
+		{ item: "minecraft:lantern" }
+		{ item: "minecraft:amethyst_cluster" }
+		{ item: "minecraft:glow_lichen" }
+		{ item: "minecraft:vine" }
+		{ item: "minecraft:experience_bottle" }
+		{ item: "gag:mining_dynamite" }
+		{ item: "minecraft:slime_ball" }
+		{ count: 4, item: "minecraft:oak_log" }
+		{ count: 4, item: "minecraft:spruce_log" }
+		{ count: 4, item: "minecraft:jungle_log" }
+		{ count: 4, item: "minecraft:stone" }
+		{ count: 4, item: "minecraft:smooth_stone" }
+		{ count: 4, item: "minecraft:gravel" }
+		{ count: 4, item: "minecraft:sand" }
+		{ count: 8, item: "minecraft:andesite" }
+		{ count: 8, item: "minecraft:stone_bricks" }
+		{ count: 8, item: "minecraft:granite" }
+		{ count: 8, item: "minecraft:diorite" }
+		{ count: 3, item: "minecraft:gold_nugget" }
+		{ item: "minecraft:string" }
+		{ item: "minecraft:egg" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:swiftness"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:slow_falling"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "biomemakeover:dolphin_master"
+				}
+			}
+		}
+		{ count: 3, item: "supplementaries:sconce" }
+		{ item: "pneumaticcraft:bandage" }
+		{ item: "compactxpbottles:x4experiencebottle" }
+	]
+	title: "Copper coin reward"
+}

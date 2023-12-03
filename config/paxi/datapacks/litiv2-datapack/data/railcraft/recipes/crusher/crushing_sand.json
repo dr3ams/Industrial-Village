@@ -1,0 +1,37 @@
+{
+  "type": "railcraft:crusher",
+  "ingredient": {
+    "item": "minecraft:sand"
+  },
+  "output": [
+    {
+      "probability": 0.1,
+      "result": {
+        "count": 1,
+        "item": "minecraft:clay_ball"
+      }
+    },
+    {
+      "probability": 0.04,
+      "result": {
+        "count": 1,
+        "item": "minecraft:gold_nugget"
+      }
+    },
+    {
+      "probability": 0.07,
+      "result": {
+        "count": 1,
+        "item": "minecraft:iron_nugget"
+      }
+    },
+    {
+      "probability": 5.0E-5,
+      "result": {
+        "count": 1,
+        "item": "minecraft:diamond"
+      }
+    }
+  ],
+  "processTime": 200
+}

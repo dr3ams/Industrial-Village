@@ -1,0 +1,38 @@
+{
+	id: "55C1EE5EFC40DE7B"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Food 1"
+		string_id: "food_1"
+	}
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ count: 6, item: "minecraft:baked_potato" }
+		{ item: "minecraft:honey_bottle" }
+		{ count: 2, item: "minecraft:bread" }
+		{ item: "minecraft:golden_apple" }
+		{ count: 6, item: "minecraft:melon_slice" }
+		{ count: 6, item: "minecraft:apple" }
+		{ count: 2, item: "minecraft:pumpkin_pie" }
+		{ count: 4, item: "farmersdelight:fruit_salad" }
+		{ count: 6, item: "minecraft:cookie" }
+		{ count: 3, item: "minecraft:beef" }
+		{ count: 3, item: "minecraft:porkchop" }
+		{ count: 3, item: "minecraft:mutton" }
+		{ count: 3, item: "minecraft:chicken" }
+		{ count: 3, item: "minecraft:cod" }
+		{ item: "minecraft:mushroom_stew" }
+		{ count: 3, item: "farmersdelight:onion" }
+		{ count: 3, item: "farmersdelight:cabbage" }
+		{ count: 4, item: "farmersdelight:fried_egg" }
+		{ count: 3, item: "farmersdelight:tomato" }
+	]
+	title: "Food 1"
+	use_title: true
+}

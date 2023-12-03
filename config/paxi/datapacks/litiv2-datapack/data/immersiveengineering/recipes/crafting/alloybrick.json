@@ -1,0 +1,11 @@
+{"type":"minecraft:crafting_shaped","category":"misc","key":{
+	"b":{"tag":"forge:ingots/brick"},
+	"s":{"item":"kubejs:fireclay_brick"}
+	},"pattern":[
+	"sb",
+	"bs"
+	],
+	"result":{
+		"count":1,
+		"item":"immersiveengineering:alloybrick"
+		},"show_notification":true}

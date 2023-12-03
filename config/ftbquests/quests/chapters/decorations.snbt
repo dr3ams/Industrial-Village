@@ -1,0 +1,952 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "decorations"
+	group: "42BDFAE1D8AA1BD0"
+	icon: "buildersaddition:sofa_yellow"
+	id: "2B008BD337789BD3"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Some slightly more decorative storage."]
+			id: "00000000000000BC"
+			rewards: [{
+				id: "000000000000013E"
+				item: "minecraft:armor_stand"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "00000000000000BD"
+					item: "buildersaddition:cupboard_oak"
+					type: "item"
+				}
+				{
+					id: "00000000000000C1"
+					item: "buildersaddition:cabinet_oak"
+					type: "item"
+				}
+			]
+			title: "Cupboards and Cabinets"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			description: ["Construction Wands will help your early game building by giving a method of placing a large number of blocks at once. It's GUI can be opened to change its settings by holding a wand and right clicking empty space while holding the sneak key and ctrl."]
+			icon: {
+				Count: 1b
+				id: "constructionwand:iron_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
+			id: "6EA56F51FEC13BDA"
+			rewards: [{
+				id: "2DCC78D608A45CF0"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "606D4FB67C627089"
+				type: "checkmark"
+			}]
+			title: "Construction Wands"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			description: ["Framed Blocks will allow you to create various shaped blocks that you can use to decorate your base with complex shapes. The texture of the frame blocks can then be changed by right clicking them with a block of your choosing, which is held until the block is broken."]
+			id: "6F510EBAAC8338AD"
+			rewards: [{
+				id: "787D5357ED88561E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "264F20181C6F733C"
+					item: "framedblocks:framed_cube"
+					type: "item"
+				}
+				{
+					id: "5E9BC3259FCAFC53"
+					item: "framedblocks:framed_slope"
+					type: "item"
+				}
+				{
+					id: "40414E5293169D9A"
+					item: "framedblocks:framed_stairs"
+					type: "item"
+				}
+			]
+			title: "Framed Blocks"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			description: ["Some nice decorative bookshelves that can hold the manuals from mods or self written books."]
+			id: "00000000000000BE"
+			rewards: [{
+				count: 16
+				id: "0000000000000123"
+				item: "minecraft:cyan_dye"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "00000000000000BF"
+					item: "buildersaddition:bookshelf_oak"
+					type: "item"
+				}
+				{
+					id: "00000000000000C0"
+					item: "buildersaddition:shelf_oak"
+					type: "item"
+				}
+			]
+			title: "Bookshelves"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000000BE"]
+			description: ["Collect all those books! Some of these manuals can be combined in the Akashic Tome for safe keeping."]
+			icon: {
+				Count: 1b
+				id: "eccentrictome:tome"
+				tag: {
+					"eccentrictome:mods": { }
+				}
+			}
+			id: "0000000000000723"
+			rewards: [{
+				id: "32F417385D909988"
+				item: "simplehats:questbook"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0000000000000729"
+					item: "ftbquests:book"
+					type: "item"
+				}
+				{
+					id: "000000000000072B"
+					item: "immersiveengineering:manual"
+					type: "item"
+				}
+				{
+					id: "33CA5C21BF082B6D"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "industrialforegoing:industrial_foregoing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15D9B059AA37FF21"
+					item: {
+						Count: 1b
+						id: "eccentrictome:tome"
+						tag: {
+							"eccentrictome:mods": { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F6F91B449DC7E11"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "pneumaticcraft:book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D6D7D849F039784"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "railcraft:guide_book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B5D836B62FDAEFB"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "mffs:handbook"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E7F620B11E658F8"
+					item: "ad_astra:astrodux"
+					type: "item"
+				}
+			]
+			title: "The Librarian"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			description: ["A nice decorative table."]
+			id: "00000000000000B8"
+			rewards: [{
+				count: 16
+				id: "000000000000012F"
+				item: "minecraft:gray_dye"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "00000000000000B9"
+					item: "buildersaddition:bedside_table_oak"
+					type: "item"
+				}
+				{
+					id: "7A17E19AC5ECFEC1"
+					item: "buildersaddition:table_oak"
+					type: "item"
+				}
+			]
+			title: "Tables and Bedside Tables"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00000000000015B0"]
+			description: ["Macaw's Fences will give you a variety of new fence types to divide up and protect your lands. These fences are just a taste, check JEI for the full range of types."]
+			id: "1AAE806CAFD92B94"
+			rewards: [{
+				count: 16
+				id: "777F112C1F32C1E7"
+				item: "minecraft:cyan_dye"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1F45A8035F305BF3"
+					item: "mcwfences:oak_horse_fence"
+					type: "item"
+				}
+				{
+					id: "16C0CB69DD40C62B"
+					item: "mcwfences:oak_picket_fence"
+					type: "item"
+				}
+			]
+			title: "Fences"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			description: ["The Macaw's series of mods will provide you with a large number of decorative blocks to stylize your base to your heart's content."]
+			icon: "mcwdoors:birch_glass_door"
+			id: "00000000000015B0"
+			rewards: [{
+				id: "00E5C697A8AC50C7"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbguilibrary:textures/icons/check.png"
+					}
+				}
+				id: "790C7AC688A2951D"
+				title: "Did you read this?"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000015B0"]
+			description: ["Macaw's Bridges can be made of a wide variety of materials (check JEI for all the different materials). They come in standard bridges, rope bridges, and rail bridges. The need not be wood, and can be metal or stone."]
+			id: "00000000000015B2"
+			rewards: [{
+				count: 16
+				id: "00000000000015BC"
+				item: "minecraft:green_dye"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "00000000000015B3"
+					item: "mcwbridges:oak_log_bridge_middle"
+					type: "item"
+				}
+				{
+					id: "00000000000015B5"
+					item: "mcwbridges:rope_oak_bridge"
+					type: "item"
+				}
+				{
+					id: "00000000000015B7"
+					item: "mcwbridges:oak_rail_bridge"
+					type: "item"
+				}
+			]
+			title: "Bridges"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00000000000015B0"]
+			description: [
+				"Add some flair to those holes in your walls to see all the baddies through."
+				""
+				"By placing these window pieces around a log/plank/stone (check JEI for exact recipes) you can create decorative windows of the style of the center block."
+			]
+			id: "0000000000000079"
+			rewards: [{
+				count: 16
+				id: "0000000000000122"
+				item: "minecraft:brown_dye"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "000000000000007A"
+					item: "mcwwindows:window_base"
+					type: "item"
+				}
+				{
+					id: "000000000000007B"
+					item: "mcwwindows:window_centre_bar_base"
+					type: "item"
+				}
+			]
+			title: "Windows"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000015B0"]
+			description: ["Much like Macaw's doors I won't bore you by requiring you to making a ton of roof blocks that you won't use, these are just a taste of the blocks that Macaw's Roofs provides. You can create a wide range of roof blocks with this mod of ranging slopes and types to give the roofs of your buildings plenty of character."]
+			id: "3801AD77916ACD55"
+			rewards: [{
+				count: 16
+				id: "314D0EBD420D77AF"
+				item: "minecraft:pink_dye"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "391873D1BB66BEA3"
+					item: "mcwroofs:oak_planks_roof"
+					type: "item"
+				}
+				{
+					id: "334198A62185FA38"
+					item: "mcwroofs:oak_planks_top_roof"
+					type: "item"
+				}
+				{
+					id: "7A4862FFF73574EE"
+					item: "mcwroofs:oak_planks_lower_roof"
+					type: "item"
+				}
+			]
+			title: "Roofs"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			description: ["Will allow you to create some scaffolding with interesting and unique textures."]
+			id: "00000000000005EC"
+			rewards: [{
+				id: "00000000000005EF"
+				item: {
+					Count: 1b
+					id: "platforms:wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000005ED"
+				item: "platforms:platformer"
+				type: "item"
+			}]
+			title: "Platformer"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			description: ["The trowel will place a random block from your hotbar down, can be used to make natural looking paths."]
+			id: "0000000000000090"
+			rewards: [
+				{
+					id: "0000000000000187"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0000000000000327"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000091"
+				item: {
+					Count: 1b
+					id: "quark:trowel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "2EF750505DE37B02"
+			rewards: [{
+				id: "4562DBC7F75C95E6"
+				item: "buildersaddition:planter"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7DAEF6226D82F877"
+					item: "buildersaddition:stool_oak"
+					type: "item"
+				}
+				{
+					id: "4FE854BD12F4ADA3"
+					item: "buildersaddition:chair_oak"
+					type: "item"
+				}
+				{
+					id: "3CFF0631BC46E4BD"
+					item: "buildersaddition:bench_oak"
+					type: "item"
+				}
+				{
+					id: "6FC4474A6BF57BC3"
+					item: "buildersaddition:sofa_white"
+					type: "item"
+				}
+			]
+			title: "Stools, chairs, sofas, benches"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "53974A28D653CB2B"
+			rewards: [{
+				count: 16
+				id: "65F5183B6012CBC5"
+				item: "minecraft:black_dye"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5299C179D29888D6"
+				item: "buildersaddition:hedge_oak"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			id: "090D6315A5C5AF24"
+			rewards: [{
+				id: "7AE5CAA753DA5C5C"
+				item: "buildersaddition:pillow_cyan"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4EC5AC16FEB1436D"
+					item: "farmersdelight:oak_cabinet"
+					type: "item"
+				}
+				{
+					id: "0BAD3427831D4562"
+					item: "buildersaddition:counter_oak_andesite"
+					type: "item"
+				}
+			]
+			title: "Cabinets and Counters"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: ["Build Guide will help help you in your builds by giving you ghost layouts of common shapes to guide your building. Pressing B will bring up its menu, I would recommend changing this so it doesn't conflict with the backpack key, where you can change the shape being projected, central location, and color of the projection."]
+			icon: "framedblocks:framed_cube"
+			id: "2357496A56CBD37B"
+			rewards: [{
+				id: "59B05A44FB8F2BF7"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B8BCC3AA4087377"
+				type: "checkmark"
+			}]
+			title: "Build Guide"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "2557FC64FA17C74E"
+			rewards: [
+				{
+					id: "43AD53FF891E3A1F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0000000000000402"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "6ECA6CCA53689227"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "28414ACC6721CE39"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "32783636AA3836CD"
+					item: "mcwroofs:rain_gutter"
+					type: "item"
+				}
+				{
+					id: "09C1FC67657B34A2"
+					item: "mcwroofs:gutter_base"
+					type: "item"
+				}
+				{
+					id: "0F943EA299AE248B"
+					item: "mcwroofs:gutter_middle"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2557FC64FA17C74E"
+				"054BD75953B64676"
+			]
+			id: "735D743EF3D099C1"
+			rewards: [
+				{
+					id: "51C12A586EB9E482"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "6DE1BFB29BBAF36A"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "3E914F31C0F93BD0"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "73E54250A4718248"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "750E55553C170DA6"
+				item: "mcwroofs:red_striped_awning"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000079"]
+			id: "054BD75953B64676"
+			tasks: [
+				{
+					id: "2AE272A7C1EA35B9"
+					item: "mcwwindows:spruce_plank_parapet"
+					type: "item"
+				}
+				{
+					id: "3488AE3DB42E6FCF"
+					item: "mcwwindows:spruce_blinds"
+					type: "item"
+				}
+				{
+					id: "099299289AC17BD6"
+					item: "mcwwindows:andesite_parapet"
+					type: "item"
+				}
+			]
+			title: "Window additions edition"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			id: "002DF8F20A30069B"
+			rewards: [
+				{
+					id: "366A306BBB1A4E28"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+				{
+					id: "20536B9DA52CBD94"
+					item: "chipped:checkered_iron_lantern"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "38B2B8D8B13DB80B"
+				item: "chipped:tinkering_table"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -4.5d
+		}
+		{
+			id: "13E6B7E895B9049C"
+			rewards: [{
+				id: "547A072C4FFCB798"
+				item: "minecraft:glowstone"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "2CB813076B7F6A07"
+				item: "chipped:alchemy_bench"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -4.5d
+		}
+		{
+			id: "73D1FCFD573B78E5"
+			rewards: [
+				{
+					count: 64
+					id: "7C3D83DAF339D97E"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4082E1577A291D9B"
+					item: "minecraft:basalt"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5F93652FC1F5F0A6"
+				item: "chipped:mason_table"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -4.5d
+		}
+		{
+			id: "29183F7DC868CF6A"
+			rewards: [{
+				count: 5
+				id: "5980399F6AEF8DBF"
+				item: "chipped:windmill_light_gray_wool"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "14FBA665BDA9F1A9"
+				item: "chipped:loom_table"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			id: "6624074D486E77C7"
+			rewards: [
+				{
+					id: "5A140EDE5B9F4B9F"
+					item: "chipped:barred_oak_door"
+					type: "item"
+				}
+				{
+					id: "6C44C02E9616D555"
+					item: "chipped:gilded_barrel"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "04AA71D460B5FAA0"
+				item: "chipped:carpenters_table"
+				type: "item"
+			}]
+			x: 6.75d
+			y: -4.5d
+		}
+		{
+			id: "1353ED6784CFFA6C"
+			rewards: [{
+				id: "3CD52A3DDC7E459A"
+				item: "chipped:raster_blue_stained_glass"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4A1DDB9A4169C89B"
+				item: "chipped:glassblower"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "6FBB42355E97B0D3"
+			rewards: [
+				{
+					id: "20BE1508B7E873F3"
+					item: "chipped:cherry_acacia_leaves"
+					type: "item"
+				}
+				{
+					id: "561156E157E64C2F"
+					item: "chipped:blue_moss_block"
+					type: "item"
+				}
+				{
+					id: "07BF6C6B45262D15"
+					item: "chipped:big_flower_lily_pad"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "211B161639265AF5"
+				item: "chipped:botanist_workbench"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			id: "375BB2A834D94DC3"
+			rewards: [{
+				id: "7D262DCEA7899D6F"
+				item: {
+					Count: 1b
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "random_mob_drops"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A82F2CEC3AA8014"
+				item: "mcwfences:railing_stone_brick_wall"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			id: "7925466C5B89D746"
+			rewards: [{
+				id: "7AA0B38A7053B4F9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "75DD1F250EAEFBFB"
+				item: "mcwfences:modern_stone_brick_wall"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			id: "40A43121641395FF"
+			rewards: [{
+				id: "20D5AE5B3BDE1CCD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0ED41127AEB256BD"
+				item: "mcwfences:oak_wired_fence"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "05507ADF7C1596BE"
+			rewards: [{
+				id: "45B7969F7E019FDD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "71B7BEF89E00F54A"
+				item: "sootychimneys:brick_chimney"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			id: "41296C82DBFF1955"
+			rewards: [{
+				id: "05FD2D47F42FE98F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "29CE555F3C591CD6"
+				item: "sootychimneys:stone_brick_chimney"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "50F920BFBB762764"
+			rewards: [{
+				id: "407C83BA43B70849"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "384FA211DBA9EBA8"
+				item: "sootychimneys:terracotta_chimney"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "01B798386B1762CD"
+			rewards: [{
+				id: "1A15FF85291E01A1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "42DAA964B1070FB8"
+				item: "sootychimneys:copper_chimney"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			id: "4643E42DF7BF1F9C"
+			rewards: [
+				{
+					count: 2
+					id: "44114897E20D7EB2"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "46DF7353CE3CEFF6"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "312D7C19962B3121"
+				item: "supplementaries:pedestal"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "73080AC81D721CC1"
+			rewards: [{
+				id: "562E0B999BAB7902"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "423097164031310E"
+				item: "supplementaries:blackboard"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "00C2CC2F688A51FD"
+			rewards: [
+				{
+					id: "6C52E107C6002266"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "3868EC84BAB5C902"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "228849B9EB153A90"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "54F3EA0D627C0200"
+				item: "supplementaries:notice_board"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+	]
+	title: "&2Functional Decor&r"
+}

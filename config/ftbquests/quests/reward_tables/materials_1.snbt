@@ -1,0 +1,41 @@
+{
+	id: "30A926F06E7A8728"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Materials 1"
+		string_id: "materials_1"
+	}
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{ count: 2, item: "minecraft:slime_ball" }
+		{ count: 16, item: "minecraft:bone_meal" }
+		{ count: 8, item: "minecraft:egg" }
+		{ count: 2, item: "minecraft:gunpowder" }
+		{ item: "minecraft:glowstone_dust" }
+		{ count: 8, item: "minecraft:spider_eye" }
+		{ item: "minecraft:blaze_powder" }
+		{ count: 8, item: "minecraft:sugar" }
+		{ count: 6, item: "minecraft:flint" }
+		{ count: 4, item: "minecraft:feather" }
+		{ count: 4, item: "minecraft:coal" }
+		{ count: 5, item: "minecraft:charcoal" }
+		{ count: 2, item: "minecraft:leather" }
+		{ count: 3, item: "minecraft:bone" }
+		{ count: 3, item: "minecraft:string" }
+		{ count: 32, item: "farmersdelight:rope" }
+		{ count: 3, item: "minecraft:ink_sac" }
+		{ item: "minecraft:ender_pearl" }
+		{ count: 16, item: "minecraft:prismarine_crystals" }
+		{ count: 16, item: "minecraft:prismarine_shard" }
+		{ count: 4, item: "minecraft:clay_ball" }
+		{ count: 2, item: "minecraft:paper" }
+	]
+	title: "Materials 1"
+	use_title: true
+}

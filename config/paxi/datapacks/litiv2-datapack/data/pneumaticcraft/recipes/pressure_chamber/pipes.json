@@ -1,0 +1,25 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+	  "type": "pneumaticcraft:stacked_item",
+      "count": 2,
+      "item": "immersiveengineering:stick_iron"
+    },
+    {
+	  "type": "pneumaticcraft:stacked_item",
+      "count": 2,
+      "item": "immersiveengineering:plate_copper"
+    },
+    {
+      "item": "minecraft:glass"
+    }
+  ],
+  "pressure": 1.0,
+  "results": [
+    {
+		"count": 1,
+		"item": "prettypipes:pipe"
+    }
+  ]
+}

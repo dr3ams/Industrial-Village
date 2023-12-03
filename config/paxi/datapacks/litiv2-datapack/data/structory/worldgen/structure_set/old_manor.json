@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "structory:dense_forest_ruin",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 22427392,
+    "spacing": 42,
+    "separation": 16,
+    "type": "minecraft:random_spread"
+  }
+}

@@ -1,0 +1,74 @@
+{
+	id: "47C5B7ADC6AAEF9B"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Junk 1"
+		string_id: "junk_1"
+	}
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{ item: "minecraft:zombie_head" }
+		{ count: 4, item: "minecraft:candle" }
+		{ count: 2, item: "minecraft:chicken_spawn_egg" }
+		{ item: "minecraft:bee_spawn_egg" }
+		{
+			item: {
+				Count: 1b
+				id: "healingflasks:t_0_healing_flask"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "constructionwand:stone_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
+		}
+		{ count: 64, item: "minecraft:tripwire_hook" }
+		{ count: 4, item: "minecraft:pumpkin_seeds" }
+		{ count: 10, item: "minecraft:torch" }
+		{ item: "minecraft:composter" }
+		{ item: "farmersdelight:cabbage_seeds" }
+		{ item: "minecraft:repeater" }
+		{ item: "minecraft:comparator" }
+		{ count: 4, item: "supplementaries:sconce_lever" }
+		{ item: "minecraft:daylight_detector" }
+		{ item: "minecraft:big_dripleaf" }
+		{ item: "minecraft:flower_pot" }
+		{ item: "minecraft:item_frame" }
+		{ count: 64, item: "minecraft:bowl" }
+		{ count: 4, item: "minecraft:stick" }
+		{ count: 4, item: "minecraft:slime_ball" }
+		{ count: 16, item: "minecraft:snowball" }
+		{ count: 3, item: "minecraft:feather" }
+		{ count: 32, item: "farmersdelight:rope" }
+		{ count: 4, item: "minecraft:spider_eye" }
+		{ item: "supplementaries:pedestal" }
+		{
+			item: {
+				Count: 1b
+				id: "supplementaries:slingshot"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "supplementaries:bomb" }
+		{ count: 2, item: "pneumaticcraft:bandage" }
+		{ item: "simplehats:hatscraps_common" }
+	]
+	title: "Junk 1"
+	use_title: true
+}

@@ -1,0 +1,26 @@
+{
+  "type": "extendedcrafting:shaped_flux_crafter",
+  "powerRequired": 1000000,
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "item": "ad_astra:ostrum_plate"
+    },
+    "B": {
+      "item": "extendedcrafting:elite_catalyst"
+    },
+    "C": {
+      "item": "advgenerators:upgrade_kit"
+    },
+    "D": {
+      "item": "industrialforegoing:machine_frame_advanced"
+    }
+  },
+  "result": {
+    "item": "advgenerators:capacitor_kit_tier2"
+  }
+}

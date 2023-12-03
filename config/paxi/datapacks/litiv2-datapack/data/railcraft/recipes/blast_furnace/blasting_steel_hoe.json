@@ -1,0 +1,12 @@
+{
+  "type": "railcraft:blasting",
+  "cookingTime": 640,
+  "experience": 0.0,
+  "ingredient": {
+    "item": "railcraft:steel_hoe"
+  },
+  "result": {
+    "item": "immersiveengineering:ingot_steel"
+  },
+  "slagOutput": 0
+}

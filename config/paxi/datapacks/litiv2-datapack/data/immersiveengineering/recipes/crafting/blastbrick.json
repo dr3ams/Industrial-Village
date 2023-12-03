@@ -1,0 +1,16 @@
+{"type":"minecraft:crafting_shaped","category":"misc",
+"key":{
+	"a":{"item":"kubejs:blastresistant_brick"},
+	"b":{"item":"minecraft:magma_block"},
+	"c":{"item":"immersiveengineering:plate_copper"},
+	"d":{"item":"immersiveengineering:plate_iron"},
+	"e":{"item":"minecraft:nether_bricks"}
+	},
+	"pattern":[
+	"aaa",
+	"aba",
+	"ced"
+	],
+	"result":{
+		"count":1,
+		"item":"immersiveengineering:blastbrick"},"show_notification":true}

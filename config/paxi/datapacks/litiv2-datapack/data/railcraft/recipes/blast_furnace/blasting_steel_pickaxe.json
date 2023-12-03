@@ -1,0 +1,13 @@
+{
+  "type": "railcraft:blasting",
+  "cookingTime": 1280,
+  "experience": 0.0,
+  "ingredient": {
+    "item": "railcraft:steel_pickaxe"
+  },
+  "result": {
+    "count": 2,
+    "item": "immersiveengineering:ingot_steel"
+  },
+  "slagOutput": 0
+}

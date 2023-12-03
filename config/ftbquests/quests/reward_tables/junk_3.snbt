@@ -1,0 +1,56 @@
+{
+	id: "2C71D20C84F26B27"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Junk 3"
+		string_id: "junk_3"
+	}
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{ item: "minecraft:zombie_spawn_egg" }
+		{ item: "minecraft:turtle_spawn_egg" }
+		{ item: "minecraft:armor_stand" }
+		{ item: "supplementaries:planter" }
+		{ item: "pneumaticcraft:reinforced_chest_kit" }
+		{ count: 2, item: "minecraft:sheep_spawn_egg" }
+		{ count: 2, item: "minecraft:slime_spawn_egg" }
+		{ item: "minecraft:pufferfish_spawn_egg" }
+		{ item: "minecraft:axolotl_spawn_egg" }
+		{ item: "supplementaries:soap" }
+		{ count: 64, item: "minecraft:fermented_spider_eye" }
+		{ count: 32, item: "immersiveengineering:slag" }
+		{ item: "supplementaries:jar" }
+		{ item: "minecraft:creeper_head" }
+		{ count: 32, item: "minecraft:item_frame" }
+		{
+			item: {
+				Count: 1b
+				id: "constructionwand:diamond_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "healingflasks:t_2_healing_flask"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 64, item: "minecraft:phantom_membrane" }
+		{ count: 16, item: "pneumaticcraft:bandage" }
+		{ item: "simplehats:hatscraps_rare" }
+	]
+	title: "Junk 3"
+	use_title: true
+}

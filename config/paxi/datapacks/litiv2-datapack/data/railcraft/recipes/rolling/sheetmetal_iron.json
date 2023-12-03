@@ -1,0 +1,17 @@
+{
+  "type": "railcraft:rolling",
+  "key": 
+  {
+    "a": {"item": "immersiveengineering:plate_iron"}
+  },
+  "pattern": [
+    " a ",
+	"a a",
+	" a "
+  ],
+  "processTime": 400,
+  "result": {
+    "item": "immersiveengineering:sheetmetal_iron",
+	"count": 4
+  }
+}

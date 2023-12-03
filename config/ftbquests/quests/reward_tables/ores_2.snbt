@@ -1,0 +1,41 @@
+{
+	id: "5D3CF8F3FF7178EE"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Ores 2"
+		string_id: "ores_2"
+	}
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{ count: 8, item: "immersiveengineering:raw_lead" }
+		{ count: 16, item: "minecraft:redstone" }
+		{ count: 16, item: "minecraft:lapis_lazuli" }
+		{ count: 8, item: "immersiveengineering:raw_nickel" }
+		{ count: 8, item: "railcraft:sulfur_ore" }
+		{ count: 8, item: "railcraft:saltpeter_ore" }
+		{ count: 8, item: "railcraft:tin_ore" }
+		{ count: 8, item: "railcraft:zinc_ore" }
+		{ count: 8, item: "minecraft:raw_iron" }
+		{ count: 8, item: "minecraft:raw_copper" }
+		{ count: 9, item: "minecraft:raw_gold" }
+		{ count: 8, item: "minecraft:iron_ingot" }
+		{ count: 8, item: "minecraft:gold_ingot" }
+		{ count: 16, item: "minecraft:amethyst_shard" }
+		{ count: 7, item: "kubejs:diamond_nugget" }
+		{ count: 7, item: "kubejs:emerald_nugget" }
+		{ count: 16, item: "minecraft:coal_ore" }
+		{ count: 4, item: "immersiveengineering:ingot_hop_graphite" }
+		{ count: 3, item: "extendedcrafting:redstone_ingot" }
+		{ item: "minecraft:netherite_scrap" }
+		{ count: 8, item: "immersiveengineering:raw_aluminum" }
+		{ count: 8, item: "immersiveengineering:raw_silver" }
+	]
+	title: "Ores 2"
+	use_title: true
+}

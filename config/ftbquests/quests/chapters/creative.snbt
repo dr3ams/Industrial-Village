@@ -1,0 +1,362 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "creative"
+	group: "4CB4EEA3591AD759"
+	hide_quest_until_deps_visible: true
+	icon: "pneumaticcraft:creative_upgrade"
+	id: "1A123B87E6699A4D"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "litv3:textures/misc/overpowered.png"
+			order: 1
+			rotation: 0.0d
+			width: 7.327102803738318d
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "49250D827A91E3CE"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "simplehats:item/hats/fireworks"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "49250D827A91E3CE"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "simplehats:item/hats/fireworks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "simplehats:item/hats/lightning_eyes"
+			rotation: 0.0d
+			width: 8.0d
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "simplehats:item/hats/lightning_eyes"
+			rotation: 180.0d
+			width: 8.0d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 13.0d
+			hover: [ ]
+			image: "litv3:textures/misc/stars2.png"
+			rotation: 0.0d
+			width: 14.176663031624862d
+			x: 2.5d
+			y: 5.5d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4B2DA3AFFA75945F"]
+			hide_dependency_lines: false
+			id: "5CF08D60A24EA230"
+			tasks: [{
+				id: "219E7714A75BD9FA"
+				item: "refinedstorage:creative_wireless_fluid_grid"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4B2DA3AFFA75945F"]
+			hide_dependency_lines: false
+			id: "04913C4D65276343"
+			tasks: [{
+				id: "22326C6C01E74080"
+				item: "refinedstorage:creative_wireless_crafting_monitor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7BCB977198AAD23A"]
+			id: "43547DF379D5936E"
+			tasks: [{
+				id: "02AA548C4F957A1E"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 1000000000L
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7BCB977198AAD23A"]
+			id: "2400A672822BDC83"
+			tasks: [{
+				amount: 1000000L
+				fluid: "industrialforegoing:essence"
+				id: "7F20B2CD8D94533D"
+				type: "fluid"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3A8BB465A3C14FA8"]
+			id: "7BCB977198AAD23A"
+			rewards: [{
+				id: "31C40FCA5231C8CD"
+				item: "ftbquests:screen_1"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43E8E8A9FC92DA9D"
+				item: "ftbquests:screen_1"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4B2DA3AFFA75945F"]
+			hide_dependency_lines: false
+			id: "06EBB06C6E82B1DA"
+			tasks: [{
+				id: "492991D7C7DD5884"
+				item: "refinedstorage:creative_storage_disk"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4B2DA3AFFA75945F"]
+			hide_dependency_lines: false
+			id: "6629257D2817571D"
+			tasks: [{
+				id: "59298811454A0A93"
+				item: "refinedstorage:creative_fluid_storage_disk"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4B2DA3AFFA75945F"]
+			hide_dependency_lines: true
+			id: "6F477D1C5B4D0FC6"
+			tasks: [{
+				id: "665FBF2D53DF8666"
+				item: {
+					Count: 1b
+					id: "refinedstorage:creative_portable_grid"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4B2DA3AFFA75945F"]
+			hide_dependency_lines: true
+			id: "262C1F308AF94FA8"
+			tasks: [{
+				id: "7CECE623AD69AB50"
+				item: {
+					Count: 1b
+					id: "railcraft:creative_locomotive"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4B2DA3AFFA75945F"]
+			hide_dependency_lines: false
+			id: "3A1D26F094869122"
+			tasks: [{
+				id: "04C9EC97E5F4CE41"
+				item: "refinedstorage:purple_creative_controller"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4B2DA3AFFA75945F"]
+			hide_dependency_lines: true
+			id: "2B80EBEE14832A55"
+			tasks: [{
+				id: "25E09DD4D736F183"
+				item: "pneumaticcraft:creative_compressed_iron_block"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3A8BB465A3C14FA8"]
+			description: [
+				"In order to maintain the value of the work you have done in the past and provide meaningful end-game goals, the modpack &ndoesn't&r provide the methods of &nvery &5overpowered&r&r items acquisition, like generators, while still offers a range of helpful creative items. And it's up to you whether you want to use them or not."
+				""
+				"By avoiding &5overpowered&r items, the modpack encourages players to continue progressing and working towards their goals even after completing the end goals set by modpack dev. "
+				""
+				"&2The focus is on providing a balanced and engaging gameplay experience even with creative items.&r"
+			]
+			icon: "kubejs:caution"
+			id: "3877F6ED17175BB8"
+			subtitle: "*"
+			tasks: [{
+				id: "6E6DF20CAA9F4187"
+				type: "checkmark"
+			}]
+			title: "About..."
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4B2DA3AFFA75945F"]
+			hide_dependency_lines: false
+			id: "65B62B586A87A2D4"
+			tasks: [{
+				id: "461529953E557810"
+				item: {
+					Count: 1b
+					id: "constructionwand:infinity_wand"
+					tag: {
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4B2DA3AFFA75945F"]
+			hide_dependency_lines: false
+			id: "0BF2902DE2FB9277"
+			tasks: [{
+				id: "7EB1670503D2E7BE"
+				item: "mffs:infinite_power_card"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"60750701CD0F366B"
+				"362506688597E9E9"
+			]
+			description: ["You notice a strange new chapter in your Journal..."]
+			id: "3A8BB465A3C14FA8"
+			tasks: [{
+				id: "33B0347484FC7487"
+				type: "checkmark"
+			}]
+			title: "???"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["43547DF379D5936E"]
+			id: "71C33EE396E49AE8"
+			tasks: [{
+				id: "4D6D97A8E553ED51"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 1000000000L
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2400A672822BDC83"]
+			id: "5D1DAC37AEF6942C"
+			tasks: [{
+				amount: 1000000L
+				fluid: "industrialforegoing:essence"
+				id: "35DA9314354CFFF3"
+				type: "fluid"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5D1DAC37AEF6942C"]
+			id: "1BA996EBBB96663A"
+			tasks: [{
+				amount: 1000000L
+				fluid: "industrialforegoing:essence"
+				id: "50C21BF7724EE047"
+				type: "fluid"
+			}]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["71C33EE396E49AE8"]
+			id: "43052CF806B2D506"
+			tasks: [{
+				id: "192C6D2F46D8BED2"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 1000000000L
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"43052CF806B2D506"
+				"1BA996EBBB96663A"
+			]
+			hide_dependent_lines: true
+			id: "4B2DA3AFFA75945F"
+			tasks: [{
+				id: "405DFF2A88D08A0C"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 9.5d
+		}
+	]
+	title: "X. &5Creative&r"
+}

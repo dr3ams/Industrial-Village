@@ -1,0 +1,11 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "item": "refinedstorage:raw_advanced_processor"
+  },
+  "program": "laser",
+  "result": {
+    "count": 1,
+    "item": "refinedstorage:advanced_processor"
+  }
+}

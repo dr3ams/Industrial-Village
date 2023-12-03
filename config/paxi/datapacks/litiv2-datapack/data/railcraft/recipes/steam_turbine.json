@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "immersiveengineering:radiator"
+    },
+    "b": {
+      "tag": "forge:plates/steel"
+    },
+    "c": {
+      "item": "railcraft:charge_motor"
+    },
+    "d": {
+      "item": "immersiveengineering:generator"
+    },
+    "e": {
+      "item": "immersiveengineering:component_electronic"
+    }
+  },
+  "pattern": [
+    "abd",
+    "bcb",
+    "dea"
+  ],
+  "result": {
+    "item": "railcraft:steam_turbine"
+  },
+  "show_notification": true
+}

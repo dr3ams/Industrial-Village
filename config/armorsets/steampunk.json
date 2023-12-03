@@ -1,0 +1,35 @@
+{
+  "armorSetName": "steampunk",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "cosmeticarmoursmod:steampunkers_tophat_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "cosmeticarmoursmod:steampunkers_attire_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "cosmeticarmoursmod:steampunkers_attire_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "cosmeticarmoursmod:steampunkers_attire_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "forge:reach_distance",
+      "value": 4.0,
+      "modifierUUID": "2ec542c0-8eb7-11ee-b9d1-0242ac120002",
+      "description": "Increased Reach Distance",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

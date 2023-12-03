@@ -1,0 +1,132 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "lore"
+	group: "42BDFAE1D8AA1BD0"
+	icon: "minecraft:end_crystal"
+	id: "27DA9497BADF2A86"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 24.760095961615356d
+		hover: [ ]
+		image: "litv3:textures/misc/stars.png"
+		rotation: 0.0d
+		width: 25.0d
+		x: 2.5d
+		y: 2.5d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{image:litv3:textures/misc/chapter1.png width:200 height:270 align:1}"]
+			icon: "kubejs:manuscript"
+			id: "38D62AD4153E9EF6"
+			shape: "hexagon"
+			subtitle: "Chapter 1 Fragment"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "487A5ADD0860014A"
+				type: "dimension"
+			}]
+			title: "Strange note...."
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"38D62AD4153E9EF6"
+				"0000000000000030"
+			]
+			id: "7C1599092DBC5729"
+			tasks: [{
+				id: "7F9BE03FF39C3E4E"
+				type: "checkmark"
+			}]
+			title: "Chapter 1 Fragment 2"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38D62AD4153E9EF6"]
+			id: "6B0F4A9F83967152"
+			tasks: [{
+				id: "7825AC741F6A80AF"
+				title: "Chapter 2"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6B0F4A9F83967152"]
+			id: "412835BF3F6B4DC1"
+			tasks: [{
+				id: "054E52A4D30DEB55"
+				title: "Chapter 3"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["412835BF3F6B4DC1"]
+			id: "66E791C285547D86"
+			tasks: [{
+				id: "6AC6D403B141426A"
+				type: "checkmark"
+			}]
+			title: "Chapter 3 Fragment 2"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["412835BF3F6B4DC1"]
+			id: "0159C5DEED07FEC9"
+			tasks: [{
+				id: "2C68B09021E82462"
+				type: "checkmark"
+			}]
+			title: "Chapter 4"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0159C5DEED07FEC9"]
+			id: "72505DB5F71F405B"
+			tasks: [{
+				id: "54E5355B578C5F8D"
+				type: "checkmark"
+			}]
+			title: "Chapter 4 Fragment 2"
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0159C5DEED07FEC9"]
+			id: "3D7326961768AD41"
+			tasks: [{
+				id: "007E962929316E57"
+				type: "checkmark"
+			}]
+			title: "Epilogue"
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3D7326961768AD41"]
+			id: "7F10B3D67DF72393"
+			tasks: [{
+				id: "70867495E3CD1C0D"
+				title: "Chapter 5 Fragment 2"
+				type: "checkmark"
+			}]
+			title: "Epilogue Fragment 2"
+			x: 10.0d
+			y: 9.0d
+		}
+	]
+	title: "Lore Journal"
+}

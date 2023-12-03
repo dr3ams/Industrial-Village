@@ -1,0 +1,1020 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "progression_stages"
+	group: ""
+	id: "2325EECA78B4E0AC"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:textures/gui/arrow_collapsed.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			alpha: 180
+			click: ""
+			corner: false
+			dev: false
+			height: 10.1d
+			hover: [ ]
+			image: "litv3:textures/misc/questinfo.png"
+			rotation: 0.0d
+			width: 8.414401076716016d
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.309616888193901d
+			hover: [ ]
+			image: "litv3:textures/misc/po_chapter.png"
+			rotation: 0.0d
+			width: 30.0d
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 135.0d
+			width: 1.5d
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 135.0d
+			width: 1.5d
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 135.0d
+			width: 1.5d
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 135.0d
+			width: 1.5d
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 135.0d
+			width: 1.5d
+			x: 21.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 135.0d
+			width: 1.5d
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 135.0d
+			width: 1.5d
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "49250D827A91E3CE"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "simplehats:item/hats/fireworks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 23.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "49250D827A91E3CE"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "simplehats:item/hats/fireworks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.5d
+			x: 17.5d
+			y: 3.5d
+		}
+	]
+	order_index: 0
+	quest_links: [
+		{
+			id: "3F8940D2B061D25D"
+			linked_quest: "00000000000001F2"
+			shape: "rsquare"
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			id: "020BE2769CD5F179"
+			linked_quest: "000000000000020C"
+			shape: "rsquare"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			id: "6F12A346E8BCFB68"
+			linked_quest: "0000000000000215"
+			shape: "rsquare"
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			id: "58975BB83FDC2804"
+			linked_quest: "0000000000000104"
+			shape: "rsquare"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			id: "174F58413C0B7DB7"
+			linked_quest: "00000000000000FD"
+			shape: "rsquare"
+			x: -1.0d
+			y: 6.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["5A48B91C5F55DF95"]
+			id: "6D93ED5828016B9F"
+			subtitle: "moon"
+			tasks: [{
+				id: "31DD03D1C1C98485"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["306498BB38C07326"]
+			id: "550A61AFF409325A"
+			subtitle: "mars"
+			tasks: [{
+				id: "25F612AB89631FAD"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["14805121DFEA232D"]
+			description: [
+				"&9&n                                                  &r&9               "
+				"Reach Venus and acquire all 3 planetary ingots."
+				"&9&n                                                  &r&9               "
+			]
+			id: "13BDB1E18E02B0DC"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&9Marks the end of Chapter 6"
+			tasks: [{
+				id: "1ECB9C3390DD9456"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			title: "&l&6Chapter 6: To The Moon...&r&r"
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["09232DA6E5C38BCC"]
+			id: "24395DB256750BB4"
+			tasks: [{
+				id: "32F728AECFA16F56"
+				item: "pneumaticcraft:plastic"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"0000000000000267"
+				"1E62591C6F6B2026"
+			]
+			description: [
+				"&9&n                                                  &r&9               "
+				"1. Fully setup &2Arc Furnace&r from Immersive Engineering"
+				""
+				"(optional) 2. Have all the Multiblock machines. It will help a lot."
+				"&9&n                                                  &r&9               "
+			]
+			icon: "immersiveengineering:arc_furnace"
+			id: "1C77714D1B19358C"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&9Marks the end of Chapter 2"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_arcfurnace"
+				criterion: ""
+				id: "2C5834EAE91072E5"
+				type: "advancement"
+			}]
+			title: "&l&6Chapter 2: Industrialization&r&r"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["24395DB256750BB4"]
+			id: "4A504612976031A2"
+			shape: "gear"
+			tasks: [{
+				id: "7B10D06675D9637C"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			title: "&l&6Starting chapter 4: Growing Industry...&r&r"
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5166D999425B7EB7"]
+			id: "18F32C018FB249EB"
+			tasks: [{
+				id: "4919601F3A9A4339"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["306498BB38C07326"]
+			description: [
+				"&9&n                                                  &r&9               "
+				""
+				"1. Build &2Advanced Machine Frame&r. You will need to visit Moon and Mars for that."
+				""
+				""
+				"&9&n                                                  &r&9               "
+			]
+			id: "1AD0B0DF343D2B63"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&9Marks the end of Chapter 4"
+			tasks: [{
+				id: "050609842FCBE1D1"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			title: "&l&6Chapter 4: Growing Industry&r&r"
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"7EC97FF3249B658C"
+				"2FF56076D4BCD060"
+			]
+			description: [
+				"&9&n                                                  &r&9      "
+				"         "
+				"1. Build Immersive Engineering &2Coke Oven&r"
+				""
+				"2. Visit &2Nether&r and survive (optional)"
+				""
+				"&9&n                                                  &r&9               "
+			]
+			disable_toast: true
+			id: "7BC86210B47B4D0E"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @a [\"\",{\"text\":\"@p\",\"bold\":true,\"color\":\"blue\"},{\"text\":\" Has Completed Chapter \"},{\"text\":\"1\",\"color\":\"green\"},{\"text\":\"!\"}]"
+				elevate_perms: true
+				id: "71C02B902653F6FC"
+				team_reward: false
+				title: "1"
+				type: "command"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&9Marks the end of Chapter 1"
+			tasks: [
+				{
+					advancement: "immersiveengineering:main/mb_cokeoven"
+					criterion: ""
+					id: "414976D7BC58D03B"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:story/enter_the_nether"
+					criterion: ""
+					id: "6EBC87C1FF093AF8"
+					type: "advancement"
+				}
+			]
+			title: "&l&6Chapter 1: First Steps&r&r"
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C77714D1B19358C"]
+			id: "09232DA6E5C38BCC"
+			shape: "gear"
+			tasks: [{
+				id: "7F3E19E7512464E3"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			title: "&l&6Starting chapter 3: Pneumatic Systems...&r&r"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7BC86210B47B4D0E"]
+			description: [
+				"&9&n                                                  &r&9               "
+				""
+				"In this chapter you will need to:"
+				"- make steel. A lot of steel;"
+				"- setup your first power production;"
+				"- setup multiblock machines"
+				"- discover ways of transfering items and fluids"
+				""
+				"&9&n                                                  &r&9               "
+			]
+			id: "1E62591C6F6B2026"
+			shape: "gear"
+			tasks: [
+				{
+					id: "154C310B8E2D691E"
+					item: "immersiveengineering:dynamo"
+					type: "item"
+				}
+				{
+					id: "39E0F73F24A6BFBF"
+					item: "immersiveengineering:watermill"
+					type: "item"
+				}
+				{
+					id: "0CB7D0B865E83E65"
+					item: "immersiveengineering:windmill"
+					type: "item"
+				}
+			]
+			title: "&l&6Starting chapter 2: Industrialization&r&r"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5F99535BC525DE96"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ad_astra:tier_1_rocket"
+				tag: { }
+			}
+			id: "5A48B91C5F55DF95"
+			tasks: [
+				{
+					dimension: "ad_astra:moon"
+					id: "255C2690BCC41060"
+					type: "dimension"
+				}
+				{
+					id: "7B5901979C758FD7"
+					item: {
+						Count: 1b
+						id: "ad_astra:tier_1_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5A48B91C5F55DF95"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ad_astra:tier_2_rocket"
+				tag: { }
+			}
+			id: "306498BB38C07326"
+			tasks: [
+				{
+					dimension: "ad_astra:mars"
+					id: "457D7CE93AC4189C"
+					type: "dimension"
+				}
+				{
+					id: "447BCB1BB819AD32"
+					item: {
+						Count: 1b
+						id: "ad_astra:tier_2_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["09232DA6E5C38BCC"]
+			id: "78FCA6C8B358FAA5"
+			tasks: [{
+				id: "7607130AEB05FFCC"
+				item: "pneumaticcraft:pressure_chamber_wall"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6D93ED5828016B9F"]
+			id: "5166D999425B7EB7"
+			tasks: [{
+				id: "3894C52F08715B6B"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4F7A84F3D7495BF7"]
+			description: ["&oYou can setup basic Refined Storage storage right right now(if you have available resources and energy production. But the end goal of Chapter 5 is to be able to access the items wirelessly and have an autocrafter which will be available later.&r"]
+			id: "0320C7A266333D96"
+			shape: "gear"
+			tasks: [
+				{
+					id: "4B0A2B17C029EA00"
+					item: "refinedstorage:raw_basic_processor"
+					type: "item"
+				}
+				{
+					id: "1DB7981D4F8960C9"
+					item: "refinedstorage:raw_improved_processor"
+					type: "item"
+				}
+				{
+					id: "3C171BC8590B187D"
+					item: "refinedstorage:raw_advanced_processor"
+					type: "item"
+				}
+				{
+					id: "53D19CED3CD8DB7E"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+			]
+			title: "&l&6Starting chapter 5: Advanced Storage...&r&r"
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["00000000000000FD"]
+			description: [
+				"And also:"
+				""
+				"- steam locomotive with rails, loaders and unloaders"
+				"- steam oven"
+				"- steam turbine"
+			]
+			id: "1DA18E7F30E9884A"
+			shape: "rsquare"
+			subtitle: "At this stage you will have Steam as additional energy generation option available"
+			tasks: [
+				{
+					id: "78274201E698D29C"
+					item: "railcraft:low_pressure_steam_boiler_tank"
+					type: "item"
+				}
+				{
+					id: "446A9DA83F0A4634"
+					item: "railcraft:steam_oven"
+					type: "item"
+				}
+				{
+					id: "55F827B1D7C75A42"
+					item: {
+						Count: 1b
+						id: "railcraft:steam_locomotive"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1A44EB3799931841"
+					item: "railcraft:steam_turbine"
+					type: "item"
+				}
+				{
+					id: "3986412ACC85B2D9"
+					item: "railcraft:solid_fueled_firebox"
+					type: "item"
+				}
+			]
+			title: "Steam Age"
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"1B715D36C517F53F"
+				"09232DA6E5C38BCC"
+			]
+			description: [
+				"&9&n                                                  &r&9               "
+				"1. Build &2The Assembly Line&r."
+				""
+				"2. Craft &2Processors&r needed for the next chapters."
+				"&9&n                                                  &r&9               "
+				"&oYou can setup basic Refined Storage storage right after this chapter(if you have available resources and energy production. But the end goal of Chapter 5 is to be able to access the items wirelessly and have an autocrafter which will be available later.&r"
+			]
+			id: "4F7A84F3D7495BF7"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&9Marks the end of Chapter 3"
+			tasks: [
+				{
+					id: "2E0A2E0425AA2655"
+					item: "refinedstorage:basic_processor"
+					type: "item"
+				}
+				{
+					id: "1DFD88EFB5C1279E"
+					item: "refinedstorage:improved_processor"
+					type: "item"
+				}
+				{
+					id: "7C3A84345075E2F4"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+			]
+			title: "&l&6Chapter 3: Pneumatic Systems&r&r"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4F7A84F3D7495BF7"]
+			id: "5F99535BC525DE96"
+			shape: "gear"
+			tasks: [{
+				id: "222249D406F6833E"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			title: "&l&6Starting chapter 6: To The Moon...&r&r"
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1AD0B0DF343D2B63"
+				"00000000000002C1"
+				"00000000000002AB"
+				"00000000000002BF"
+			]
+			description: [
+				"&oYou can setup basic Refined Storage storage right after chapter 3(if you have available resources and energy production. But the end goal of this chapter is to be able to access the items wirelessly and have an autocrafter.&r"
+				"&9&n                                                  &r&9               "
+				"1. Craft &2Wireless Transmitter&r, &2Wireless Crafting Grid&r, &2Network Transmitter&r and &2Receiver&r, &2Crafter&r"
+				"&9&n                                                  &r&9               "
+			]
+			id: "183DD9A6BFEF8793"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&9Marks the end of Chapter 5"
+			tasks: [{
+				id: "2183BEDC5AE85774"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			title: "&l&6Chapter 5: Advanced Storage&r&r"
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1AD0B0DF343D2B63"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ad_astra:tier_3_rocket"
+				tag: { }
+			}
+			id: "14805121DFEA232D"
+			tasks: [
+				{
+					id: "11BCDEC507A79493"
+					item: {
+						Count: 1b
+						id: "ad_astra:tier_3_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					dimension: "ad_astra:venus"
+					id: "10D36703F53992B8"
+					type: "dimension"
+				}
+			]
+			x: 13.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7BC86210B47B4D0E"]
+			description: ["Fight mobs, get rewards!"]
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "459D4491417CFF60"
+			shape: "diamond"
+			subtitle: "&o&aSidequest&r&r"
+			tasks: [{
+				id: "3A11EB5952A45ED4"
+				type: "checkmark"
+			}]
+			title: "Time to Fight"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7BC86210B47B4D0E"]
+			icon: "farmersdelight:cooking_pot"
+			id: "6379AD920DAEA817"
+			shape: "diamond"
+			subtitle: "&o&aSidequest&r&r"
+			tasks: [{
+				id: "3DD60B95F48AD8FE"
+				type: "checkmark"
+			}]
+			title: "All you can eat"
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7BC86210B47B4D0E"]
+			icon: {
+				Count: 1b
+				id: "immersiveengineering:pickaxe_steel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7ADD93502DFD8AC7"
+			shape: "diamond"
+			subtitle: "&o&aSidequest&r&r"
+			tasks: [{
+				id: "1F41A6DEA56D9C08"
+				type: "checkmark"
+			}]
+			title: "Beginner smith"
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7BC86210B47B4D0E"]
+			description: ["Check all the storage options"]
+			icon: "minecraft:chest"
+			id: "3D60D774E87C36EF"
+			shape: "diamond"
+			subtitle: "&o&aSidequest&r&r"
+			tasks: [{
+				id: "64841CC07B417C83"
+				title: "Regular Storage"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["00000000000000FD"]
+			icon: "mffs:projector"
+			id: "213A546E7B77569E"
+			shape: "gear"
+			subtitle: "&o&aSidequest&r&r"
+			tasks: [{
+				id: "684E1420F9A45861"
+				title: "Force Fields"
+				type: "checkmark"
+			}]
+			title: "Force Fields Chapter"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"&9&n                                                  &r&9               "
+				"This pack is divided into different progression stages, though content is &lnot&r hard-gated between reaching specific gamestage."
+				""
+				"This Quest(or Guide) book will give you a basic vision of progression and show you a rough route to follow."
+				""
+				"You can find the main steps of general progression in this chapter."
+				"&9&n                                                  &r&9               "
+			]
+			icon: "kubejs:help"
+			id: "5F067B108AFE2BD1"
+			shape: "circle"
+			tasks: [{
+				id: "2F2751E474AF9E53"
+				type: "checkmark"
+			}]
+			title: "Info Quest"
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"You can start Chapters 4,5,6 in Chapter 3."
+				"&9&n                                                  &r&9               "
+				"- to be able to end &6Chapter 4&r you will need &eDesh&r(Moon planet) and &5Ostrum&r(Mars planet) ingots from &6Chapter 6&r;"
+				""
+				"- to be able to end &6Chapter 5&r you will need Advanced Machine Frame from &6Chapter 4&r and &eDesh&r and &5Ostrum&r ingots from &6Chapter 6&r;"
+				""
+				"- to be able to end &6Chapter 6&r you will need Advanced Machine Frame from &6Chapter 4&r(nothing needed from Chapter 5 though);"
+				"&9&n                                                  &r&9               "
+				"All this not including other prerequisites."
+				""
+				"A bit confusing I know that's why I created this progression chart."
+			]
+			icon: "kubejs:help"
+			id: "647E148A640721A1"
+			shape: "circle"
+			size: 0.5d
+			subtitle: "&oDon't be too confused because chapters 4,5,6 intersects between each other.&r"
+			tasks: [{
+				id: "53CD2D6CD8C58C6B"
+				type: "checkmark"
+			}]
+			title: "Progression Intersection"
+			x: 3.0d
+			y: 2.75d
+		}
+		{
+			dependencies: ["13BDB1E18E02B0DC"]
+			id: "439905073E1F6EFD"
+			shape: "gear"
+			tasks: [{
+				id: "69A4AC758DD98784"
+				item: "extendedcrafting:flux_crafter"
+				type: "item"
+			}]
+			title: "&l&6Starting chapter 7: Advanced Power...&r&r"
+			x: 17.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["439905073E1F6EFD"]
+			id: "611CA2D9605471C4"
+			tasks: [
+				{
+					id: "3C4288FE4F22462F"
+					item: "advgenerators:turbine_tier1"
+					type: "item"
+				}
+				{
+					id: "422DED8913A6A3F8"
+					item: "advgenerators:power_capacitor_tier1"
+					type: "item"
+				}
+			]
+			title: "Back to Basics"
+			x: 16.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0B885C6C01F6C7DC"]
+			description: [
+				"&9&n                                                  &r&9               "
+				""
+				"Reach the highest power generation options available: afford highest tier Turbine and Capacitor."
+				""
+				"&9&n                                                  &r&9               "
+			]
+			id: "49250D827A91E3CE"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&9Marks the end of Chapter 7"
+			tasks: [
+				{
+					id: "22917DA6A9FE0CE3"
+					item: "advgenerators:turbine_tier5"
+					type: "item"
+				}
+				{
+					id: "73FF1F4EA6347331"
+					item: "advgenerators:power_capacitor_tier3"
+					type: "item"
+				}
+			]
+			title: "The End?"
+			x: 21.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["439905073E1F6EFD"]
+			id: "5E3FFD9A6FE8864F"
+			tasks: [{
+				id: "492DDE3CD90DCDCB"
+				item: "advgenerators:fuel_turbine_controller"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["439905073E1F6EFD"]
+			id: "091A10004D86921F"
+			tasks: [{
+				id: "4FAFF30FF0A49B94"
+				item: "advgenerators:syngas_controller"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["439905073E1F6EFD"]
+			id: "6F7C15C35DFBEBB1"
+			tasks: [{
+				id: "17863050D4A7DD33"
+				item: "advgenerators:exchanger_controller"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["439905073E1F6EFD"]
+			id: "2DE771542823E4BC"
+			tasks: [{
+				id: "54F4EE36C807BC34"
+				item: "advgenerators:steam_turbine_controller"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["439905073E1F6EFD"]
+			id: "0B885C6C01F6C7DC"
+			tasks: [{
+				id: "0926CC43901B7E64"
+				item: "kubejs:advancedmixedmetalalloy"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"- replace quests with linked quests"
+				"- add basic quest description and age goals"
+			]
+			icon: "kubejs:lightning"
+			id: "439753B9AFD4694B"
+			tasks: [{
+				id: "5C657A9D3C9F4F5F"
+				title: "TOFO"
+				type: "checkmark"
+			}]
+			title: "TODO"
+			x: 0.5d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Overview"]
+	title: "&n&fProgression Overview&r&r"
+}

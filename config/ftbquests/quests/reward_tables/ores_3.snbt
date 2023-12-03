@@ -1,0 +1,44 @@
+{
+	id: "046E9D00F978CEB0"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Ores 3"
+		string_id: "ores_3"
+	}
+	loot_size: 1
+	order_index: 26
+	rewards: [
+		{ count: 32, item: "minecraft:coal_ore" }
+		{ count: 16, item: "railcraft:sulfur_ore" }
+		{ count: 32, item: "minecraft:iron_ingot" }
+		{ count: 32, item: "minecraft:amethyst_shard" }
+		{ count: 9, item: "kubejs:emerald_nugget" }
+		{ count: 3, item: "minecraft:netherite_scrap" }
+		{ count: 16, item: "railcraft:tin_ore" }
+		{ count: 5, item: "immersiveengineering:ingot_hop_graphite" }
+		{ count: 16, item: "railcraft:zinc_ore" }
+		{ count: 9, item: "kubejs:diamond_nugget" }
+		{ count: 32, item: "immersiveengineering:raw_lead" }
+		{ count: 32, item: "immersiveengineering:raw_silver" }
+		{ count: 32, item: "minecraft:raw_copper" }
+		{ count: 32, item: "immersiveengineering:raw_aluminum" }
+		{ count: 32, item: "immersiveengineering:raw_nickel" }
+		{ count: 32, item: "minecraft:gold_ingot" }
+		{ count: 3, item: "minecraft:diamond" }
+		{ count: 3, item: "minecraft:emerald" }
+		{ count: 64, item: "minecraft:redstone" }
+		{ count: 64, item: "minecraft:gold_nugget" }
+		{ count: 64, item: "minecraft:iron_nugget" }
+		{ count: 32, item: "minecraft:raw_iron" }
+		{ count: 32, item: "minecraft:raw_gold" }
+		{ count: 32, item: "minecraft:lapis_lazuli" }
+		{ count: 16, item: "railcraft:saltpeter_ore" }
+	]
+	title: "Ores 3"
+	use_title: true
+}

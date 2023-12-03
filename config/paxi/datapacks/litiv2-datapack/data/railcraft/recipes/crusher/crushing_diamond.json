@@ -1,0 +1,16 @@
+{
+  "type": "railcraft:crusher",
+  "ingredient": {
+    "item": "minecraft:diamond"
+  },
+  "output": [
+    {
+      "probability": 1.0,
+      "result": {
+        "count": 1,
+        "item": "kubejs:diamond_dust"
+      }
+	}
+  ],
+  "processTime": 100
+}

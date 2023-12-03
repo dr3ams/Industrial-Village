@@ -1,0 +1,3155 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mining_progression"
+	group: "4EAE0C42246DB468"
+	icon: {
+		Count: 1b
+		id: "tetra:modular_double"
+		tag: {
+			Damage: 0
+			"double/basic_hammer_left_material": "basic_hammer/oak"
+			"double/basic_hammer_right_material": "basic_hammer/oak"
+			"double/basic_handle_material": "basic_handle/stick"
+			"double/handle": "double/basic_handle"
+			"double/head_left": "double/basic_hammer_left"
+			"double/head_right": "double/basic_hammer_right"
+			id: "651dc33b-3fa9-4407-b2f0-4d2a91f74686"
+		}
+	}
+	id: "00000000000002E3"
+	images: [{
+		alpha: 120
+		click: ""
+		corner: false
+		dev: false
+		height: 30.0d
+		hover: [ ]
+		image: "litv3:textures/misc/q-tetra.png"
+		rotation: 0.0d
+		width: 30.0d
+		x: -6.5d
+		y: -1.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1783F3551BE3CC14"]
+			description: [
+				"The Holosphere is given to the player with the first hammer that is created (though it also can be crafted again later if lost). The left menu (CRFT) is currently the only one available."
+				""
+				"In the holosphere you will be able to check all the materials and their statistics as components. It is very useful in planning out your next tool upgrade."
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:holo"
+				tag: {
+					"holo/core": "holo/core"
+					"holo/core_material": "frame/dim"
+					"holo/frame": "holo/frame"
+					"holo/frame_material": "core/ancient"
+				}
+			}
+			id: "1BD22FC74CD3DB9A"
+			rewards: [{
+				id: "723179D521360B31"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "39A96B6EDDF2D8C8"
+				type: "checkmark"
+			}]
+			title: "Holosphere"
+			x: -13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1783F3551BE3CC14"]
+			description: [
+				"The Workbench will be where all the magic will happen with Tetra."
+				""
+				"This block is created by right clicking a Crafting Table with the Wooden Hammer you just created."
+				""
+				"By right clicking the workbench it will open a menu where an item (which types can be seen below in the branching quests) can then be placed and modified."
+			]
+			id: "286C78DD09FE49B1"
+			rewards: [{
+				id: "70346034831908C0"
+				item: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+						"double/basic_hammer_right_material": "basic_hammer/oak"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "1673719c-a4ab-433a-a614-3265fcf9e9ed"
+					}
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				advancement: "tetra:upgrades/workbench"
+				criterion: ""
+				icon: "tetra:basic_workbench"
+				id: "70824FF98AB4887F"
+				title: "Workbench"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The Wooden Hammer will be your first tool on your smithing journey."
+				""
+				"Check the advancements tabs to gather greater info on the mod outside of these quests."
+				""
+			]
+			disable_toast: true
+			id: "1783F3551BE3CC14"
+			rewards: [{
+				id: "639AE684B1C3AB40"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				advancement: "tetra:upgrades/root"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+						"double/basic_hammer_right_material": "basic_hammer/oak"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "eee2b8c9-182d-4092-bf86-140844b84245"
+					}
+				}
+				id: "51A9570080665A2B"
+				title: "Wooden Hammer: Tier I"
+				type: "advancement"
+			}]
+			title: "Wooden Hammer: Tier I"
+			x: -14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1783F3551BE3CC14"]
+			description: ["The Rack, when placed on the wall in a 3x3 area behind a workbench, will allow tools placed on it (right click while holding tool) to be used in the workbench. "]
+			id: "591D9D37D588E02A"
+			rewards: [{
+				id: "591EB73973C81E3D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2F2893240F74E1A5"
+				item: "tetra:rack"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["286C78DD09FE49B1"]
+			description: [
+				"The first step in making better gear will be by upgrading your hammer to Stone (Tier II)."
+				""
+				"To upgrade a hammer you will need another hammer to do so, hence the reward from the previous quest."
+			]
+			id: "15AEB8885DE3D188"
+			rewards: [{
+				id: "70328C9A47489DDB"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_2"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/stone"
+						"double/basic_hammer_right_material": "basic_hammer/stone"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "46e291d7-aa8d-436e-94e2-2d7468a82f8e"
+					}
+				}
+				id: "07CCD2BE29E638D8"
+				title: "Stone Hammer: Tier II"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15AEB8885DE3D188"]
+			description: ["Your first metal hammer! Time to get to some true smithing!"]
+			id: "026682BD379CF002"
+			rewards: [{
+				id: "24CFAFCD4DB14637"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_3"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/iron"
+						"double/basic_hammer_right_material": "basic_hammer/iron"
+						"double/basic_handle_material": "basic_handle/spruce"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "47b1ee7d-1919-4361-8827-536f09acf1b5"
+					}
+				}
+				id: "100B881BC0775415"
+				type: "advancement"
+			}]
+			title: "Iron Hammer: Tier III"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["026682BD379CF002"]
+			description: ["Time to head to the nether to get some fine heat treated Blackstone that is surprisingly stronger than basic metals."]
+			id: "1E87BCA90B5A45AA"
+			rewards: [{
+				id: "680EB5E8C8583537"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_4"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/blackstone"
+						"double/basic_hammer_right_material": "basic_hammer/blackstone"
+						"double/basic_handle_material": "basic_handle/spruce"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "9224f124-6291-4535-8d13-60ad990b291a"
+					}
+				}
+				id: "6D7CC06A7409A8C9"
+				title: "Blackstone Hammer: Tier IV"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7385A70C3CA6DD47"
+				"2625EC5BE51DE54D"
+			]
+			description: ["A very nice volcanic stone hammer, stonger than most metals."]
+			id: "4A7379ED5BC0C161"
+			rewards: [{
+				id: "6F72D748EB435FB5"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_5"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/obsidian"
+						"double/basic_hammer_right_material": "basic_hammer/obsidian"
+						"double/basic_handle_material": "basic_handle/iron"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "28f8b97f-fe03-43f5-9a76-11c05d84e506"
+					}
+				}
+				id: "5A49D7E802E0C1AF"
+				title: "Obsidian Hammer: Tier V"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4A7379ED5BC0C161"]
+			description: ["A very high level hammer made of the metal of an ancient society pushed into the nether."]
+			id: "0611E32BAF6B62D2"
+			rewards: [{
+				id: "0AF63F033186AB37"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_6"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/netherite"
+						"double/basic_hammer_right_material": "basic_hammer/netherite"
+						"double/basic_handle_material": "basic_handle/forged_beam"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "a368fab8-7854-455c-96e3-d21de81a8084"
+					}
+				}
+				id: "78E6F062FBCFB56B"
+				type: "advancement"
+			}]
+			title: "Netherite Hammer: Tier VI"
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["286C78DD09FE49B1"]
+			description: ["Bows can be upgraded into a number of unique forms with their own advantages."]
+			icon: {
+				Count: 1b
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "53724A1FE29BFB20"
+			rewards: [{
+				id: "7F51220560A93969"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "Upgrade a bow in a workbench"
+			tasks: [{
+				advancement: "tetra:upgrades/bow_upgrade"
+				criterion: ""
+				id: "395FC2B9B3430614"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["53724A1FE29BFB20"]
+			description: ["A strait bow is a standard bow giving average draw time and damage."]
+			id: "17A7564E50233D43"
+			rewards: [
+				{
+					count: 16
+					id: "3D01FD534B4E078A"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+				{
+					id: "78AAD201A9767C66"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:modular_bow"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						"bow/basic_string_material": "basic_string/string"
+						"bow/stave": "bow/straight_stave"
+						"bow/straight_stave_material": "straight_stave/dark_oak"
+						"bow/string": "bow/basic_string"
+						honing_progress: 80
+						id: "b1b90660-150e-4b4e-b7c7-fc282b055189"
+					}
+				}
+				id: "4640BEC498808C8A"
+				item: {
+					Count: 1b
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"bow/stave": "bow/straight_stave"
+						}
+					}
+				}
+				title: "Standard Bow (Straitbow)"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["53724A1FE29BFB20"]
+			description: ["The longbow has increased drawtime in comparison to a standard bow but it has much more strength and will do increased damage."]
+			id: "1F6F9D8EB4E53575"
+			rewards: [
+				{
+					count: 16
+					id: "3602287984C3E5EE"
+					item: {
+						Count: 1b
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CED3894CBDEA51B"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:modular_bow"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						"bow/basic_string_material": "basic_string/string"
+						"bow/long_stave_material": "long_stave/dark_oak"
+						"bow/stave": "bow/long_stave"
+						"bow/string": "bow/basic_string"
+						honing_progress: 80
+						id: "6da51f3c-887d-4efb-a7db-e48444ab8c1f"
+					}
+				}
+				id: "1677B63A058BC7CB"
+				item: {
+					Count: 1b
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"bow/stave": "bow/long_stave"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Longbow"
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["53724A1FE29BFB20"]
+			description: ["A recurve bow will decrease the draw time of a bow but make it do slightly decreased damage."]
+			id: "6F1588945003CB8F"
+			rewards: [
+				{
+					count: 16
+					id: "7B1CC96BB9897856"
+					item: {
+						Count: 1b
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:poison"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79B6C06AB63B710E"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:modular_bow"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						"bow/basic_string_material": "basic_string/string"
+						"bow/recurve_stave_material": "recurve_stave/oak"
+						"bow/stave": "bow/recurve_stave"
+						"bow/string": "bow/basic_string"
+						honing_progress: 112
+						id: "e1e8c186-eb12-47fa-9a1b-9b77067897c7"
+					}
+				}
+				id: "2827720457787787"
+				item: {
+					Count: 1b
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"bow/stave": "bow/recurve_stave"
+						}
+					}
+				}
+				title: "Recurve Bow"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["286C78DD09FE49B1"]
+			description: [
+				"The Toolbelt will allow you to have different addons such as carrying extra tools, items, and potions. It is curios compatible in the belt slot."
+				""
+				"Check your keybinds to be able to use the quick access function or access key."
+			]
+			id: "3A768E3EC544BDE4"
+			shape: "rsquare"
+			tasks: [{
+				id: "62D031FB1459950F"
+				item: {
+					Count: 1b
+					id: "tetra:modular_toolbelt"
+					tag: {
+						"toolbelt/belt": "toolbelt/belt"
+						"toolbelt/belt_material": "belt/rope"
+						"toolbelt/slot1": "toolbelt/strap_slot1"
+						"toolbelt/strap_slot1_material": "strap1/leather"
+					}
+				}
+				type: "item"
+			}]
+			title: "Rope Toolbelt"
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["286C78DD09FE49B1"]
+			description: ["Shields will be the best way to protect yourself outside of armor."]
+			icon: {
+				Count: 1b
+				id: "minecraft:shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "44875B6FA3D7CE74"
+			rewards: [{
+				id: "7F72855C5CCB5F1E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0ED6B9ADE6246EDE"
+				title: "Shields"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44875B6FA3D7CE74"]
+			description: ["A Tower shield allows you to block indefinitely but it takes more integrity of the overall shield."]
+			id: "64074C9DBD0F7C94"
+			rewards: [{
+				id: "3B0AB05DF08FDBB9"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:modular_shield"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 80
+						id: "93c75a90-76a4-43a9-aba3-9a441a1af3a0"
+						"shield/basic_grip_material": "basic_grip/iron"
+						"shield/grip": "shield/basic_grip"
+						"shield/plate": "shield/tower"
+						"shield/tower_material": "tower/spruce"
+					}
+				}
+				id: "4C02B13898EE5D43"
+				item: {
+					Count: 1b
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"shield/plate": "shield/tower"
+						}
+					}
+				}
+				title: "Tower Shield"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["44875B6FA3D7CE74"]
+			description: ["A Heater shield can only be used for so long before going on cooldown for further use."]
+			id: "514ADF2A6EE7538C"
+			rewards: [{
+				id: "0C077D9CE0D8B96D"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:modular_shield"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 80
+						id: "6e535e9b-cc9e-4f8c-b32c-4dce43c889db"
+						"shield/basic_grip_material": "basic_grip/iron"
+						"shield/grip": "shield/basic_grip"
+						"shield/heater_material": "heater/dark_oak"
+						"shield/plate": "shield/heater"
+					}
+				}
+				id: "353DC623E009FD22"
+				item: {
+					Count: 1b
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"shield/plate": "shield/heater"
+						}
+					}
+				}
+				title: "Heater Shield"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44875B6FA3D7CE74"]
+			description: ["A Buckler shield will give you a passive armor bonus when hend in your offhand but cannot be used to actively block."]
+			id: "503765686BCC67C1"
+			rewards: [{
+				id: "2A293280822DB515"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:modular_shield"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 112
+						id: "dfe4846f-4b6e-4b1b-ad37-04b76c53ed12"
+						"shield/basic_grip_material": "basic_grip/iron"
+						"shield/buckler_material": "buckler/iron"
+						"shield/grip": "shield/basic_grip"
+						"shield/plate": "shield/buckler"
+					}
+				}
+				id: "2127EEEA1E48D017"
+				item: {
+					Count: 1b
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"shield/buckler_material": "buckler/oak"
+						}
+					}
+				}
+				title: "Buckler Shield"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["286C78DD09FE49B1"]
+			description: ["Single Headed tools are the most simple tools you can make."]
+			icon: {
+				Count: 1b
+				id: "minecraft:wooden_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "248343A8203E7CDC"
+			rewards: [{
+				id: "1ED29F44B5F42144"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "68649133BE4DA733"
+				title: "Single Headed Tools"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["248343A8203E7CDC"]
+			description: ["Shovels, they are great at digging up the soft stuff like dirt and sand and can also be used to make paths."]
+			id: "745A812FC4D17090"
+			rewards: [{
+				id: "3CC4D7A817E0387A"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:modular_single"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 80
+						id: "ed7749e0-b0b7-4fbd-8b1f-3cae82687c9f"
+						"single/basic_handle_material": "basic_handle/stick"
+						"single/basic_shovel_material": "basic_shovel/stone"
+						"single/handle": "single/basic_handle"
+						"single/head": "single/basic_shovel"
+					}
+				}
+				id: "334975D386A7D4B4"
+				item: {
+					Count: 1b
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"single/head": "single/basic_shovel"
+						}
+					}
+				}
+				title: "Shovels"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["248343A8203E7CDC"]
+			description: ["Spears are a basic weapon that can easily be made."]
+			id: "538F41CD0B583574"
+			rewards: [{
+				id: "6CEC5DC1F6C558C0"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:modular_single"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 80
+						id: "ab6fcd15-483c-4e9c-844f-2e011e5d65c6"
+						"single/basic_handle_material": "basic_handle/stick"
+						"single/handle": "single/basic_handle"
+						"single/head": "single/spearhead"
+						"single/spearhead_material": "spearhead/stone"
+					}
+				}
+				id: "19323D16461D5CF0"
+				item: {
+					Count: 1b
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"single/head": "single/spearhead"
+						}
+					}
+				}
+				title: "Spears"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["286C78DD09FE49B1"]
+			description: ["The good old fashioned slice and dicer."]
+			icon: {
+				Count: 1b
+				id: "minecraft:wooden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7BC94372A9C4E217"
+			rewards: [{
+				id: "7985B0148D95A1F5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "Place a vanilla sword in a workbench and upgrade it"
+			tasks: [{
+				advancement: "tetra:upgrades/sword_upgrade"
+				criterion: ""
+				id: "39DA6AB214ADDF39"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7BC94372A9C4E217"]
+			description: ["This is just your standard sword blade with no extra frills."]
+			id: "1D71BA7DA68CF606"
+			rewards: [{
+				id: "2D8FEA9D8E79726B"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:modular_sword"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 240
+						id: "ce08a51a-8eab-4163-8f0b-38dd4ae0db51"
+						"sword/basic_blade_material": "basic_blade/iron"
+						"sword/basic_hilt_material": "basic_hilt/stick"
+						"sword/blade": "sword/basic_blade"
+						"sword/decorative_pommel_material": "decorative_pommel/oak"
+						"sword/guard": "sword/makeshift_guard"
+						"sword/hilt": "sword/basic_hilt"
+						"sword/makeshift_guard_material": "makeshift_guard/oak"
+						"sword/pommel": "sword/decorative_pommel"
+					}
+				}
+				id: "3AE18D356E1CBA0F"
+				item: {
+					Count: 1b
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"sword/blade": "sword/basic_blade"
+						}
+					}
+				}
+				title: "Standard Swords"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7BC94372A9C4E217"]
+			description: ["A Heavy blade will turn a sword into a Greatsword that does large sweeping attacks with a full charge attack."]
+			id: "6551184966D3FB8D"
+			rewards: [{
+				id: "47E903C6FA20319F"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:modular_sword"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 305
+						id: "6a5ee9bd-6a6d-44b5-b3cf-d3aa4f108977"
+						"sword/basic_hilt_material": "basic_hilt/stick"
+						"sword/blade": "sword/heavy_blade"
+						"sword/decorative_pommel_material": "decorative_pommel/oak"
+						"sword/guard": "sword/makeshift_guard"
+						"sword/heavy_blade_material": "heavy_blade/iron"
+						"sword/hilt": "sword/basic_hilt"
+						"sword/makeshift_guard_material": "makeshift_guard/oak"
+						"sword/pommel": "sword/decorative_pommel"
+					}
+				}
+				id: "349A70A36866561A"
+				item: {
+					Count: 1b
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"sword/blade": "sword/heavy_blade"
+						}
+					}
+				}
+				title: "Greatswords"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7BC94372A9C4E217"]
+			description: ["The Machete blade allows the breaking of web and plants in an area."]
+			id: "6DFE4E05FBAC9A3C"
+			rewards: [{
+				id: "7CBF679046A6DE9C"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:modular_sword"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 240
+						id: "2f064add-0979-4bad-bcd9-e60560ec324c"
+						"sword/basic_hilt_material": "basic_hilt/stick"
+						"sword/blade": "sword/machete"
+						"sword/decorative_pommel_material": "decorative_pommel/oak"
+						"sword/guard": "sword/makeshift_guard"
+						"sword/hilt": "sword/basic_hilt"
+						"sword/machete_material": "machete/iron"
+						"sword/makeshift_guard_material": "makeshift_guard/oak"
+						"sword/pommel": "sword/decorative_pommel"
+					}
+				}
+				id: "67FBA29F73E5B0A3"
+				item: {
+					Count: 1b
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"sword/blade": "sword/machete"
+						}
+					}
+				}
+				title: "Machetes"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7BC94372A9C4E217"]
+			description: ["The Shortblade can be used in off handed attacks and in crafting to cut materials."]
+			id: "024F55CAFFBC4BE7"
+			rewards: [{
+				id: "22CCD90D8BA950A4"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:modular_sword"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 240
+						id: "9c0b008f-05c8-436b-9423-a1631cdb3e1c"
+						"sword/basic_hilt_material": "basic_hilt/stick"
+						"sword/blade": "sword/short_blade"
+						"sword/decorative_pommel_material": "decorative_pommel/oak"
+						"sword/guard": "sword/makeshift_guard"
+						"sword/hilt": "sword/basic_hilt"
+						"sword/makeshift_guard_material": "makeshift_guard/oak"
+						"sword/pommel": "sword/decorative_pommel"
+						"sword/short_blade_material": "short_blade/iron"
+					}
+				}
+				id: "401115F65CA889F4"
+				item: {
+					Count: 1b
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"sword/blade": "sword/short_blade"
+						}
+					}
+				}
+				title: "Shortblades"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["286C78DD09FE49B1"]
+			description: ["Double Headed tools make up the large majority of tools in the game. The surrounding quests will describe the individual tool heads that define tools."]
+			icon: {
+				Count: 1b
+				id: "minecraft:wooden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "07137122925727C8"
+			rewards: [{
+				id: "2A7C918D883A4F55"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "Place a vanilla tool such as a pickaxe, an axe or a hoe in a workbench and upgrade it"
+			tasks: [{
+				advancement: "tetra:upgrades/tool_upgrade"
+				criterion: ""
+				id: "073A196E5677BBDC"
+				type: "advancement"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["07137122925727C8"]
+			description: ["When a Butt is added to a tool as a head it will increase the swing speed of the tool due to the decreased weight."]
+			id: "06422AB7B816826E"
+			rewards: [{
+				id: "5DE52083EF595921"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/basic_pickaxe_left_material": "basic_pickaxe/iron"
+						"double/butt_right_material": "butt/iron"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_pickaxe_left"
+						"double/head_right": "double/butt_right"
+						honing_progress: 365
+						id: "177715cb-0f87-44f9-9a45-5987dff99160"
+					}
+				}
+				id: "7DF918F206409FE2"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"double/head_left": "double/butt_left"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"double/head_right": "double/butt_right"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Butt Head"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["07137122925727C8"]
+			description: ["The Adze is a shovel/axe combo that gives the advantages of both tools at a decreased speed due to its weight."]
+			id: "063AE635AD0E0B31"
+			rewards: [{
+				id: "36977494B71B0D54"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						"double/adze_left_material": "adze/iron"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/butt_right_material": "butt/iron"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/adze_left"
+						"double/head_right": "double/butt_right"
+						honing_progress: 365
+						id: "8b873ac5-f564-4eed-ac83-53f247c30470"
+					}
+				}
+				id: "46A09A896FA94ACF"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"double/head_left": "double/adze_left"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"double/head_right": "double/adze_right"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Adze Head"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["07137122925727C8"]
+			description: ["The Sickle head will allow you to break plant blocks in a wide area."]
+			id: "03FFC76D89BE5D29"
+			rewards: [{
+				id: "742CC7BF77932A44"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/butt_right_material": "butt/iron"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/sickle_left"
+						"double/head_right": "double/butt_right"
+						"double/sickle_left_material": "sickle/iron"
+						honing_progress: 365
+						id: "84257015-bd75-4ab7-b7cf-8396967bdfbc"
+					}
+				}
+				id: "0D54BAB92E8D1166"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"double/head_left": "double/sickle_left"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"double/head_right": "double/sickle_right"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Sickle Head"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["07137122925727C8"]
+			description: ["The Hoe head will allow you to harvest crops and till soil to farm just like a standard hoe."]
+			id: "2BFFB238D31D61AB"
+			rewards: [{
+				id: "48F9F9CFADE2CE59"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/butt_right_material": "butt/iron"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/hoe_left"
+						"double/head_right": "double/butt_right"
+						"double/hoe_left_material": "hoe/iron"
+						honing_progress: 365
+						id: "d8ad6cbe-3e08-4f69-8ba2-58d0bf4b916b"
+					}
+				}
+				id: "30E620C9E6CF2D9D"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"double/head_left": "double/hoe_left"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"double/head_right": "double/hoe_right"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Hoe Head"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["07137122925727C8"]
+			description: ["The Claw head will allow you to pry open items in Tetra dungeons as well as break wooden items quickly."]
+			id: "1ADB6E725663B3AB"
+			rewards: [{
+				id: "6A5D16F3AB04081E"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/butt_right_material": "butt/iron"
+						"double/claw_left_material": "claw/iron"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/claw_left"
+						"double/head_right": "double/butt_right"
+						honing_progress: 365
+						id: "a0d4fbe0-bf9b-4273-b028-be1dbbb32fe3"
+					}
+				}
+				id: "6181D9A053C02A1E"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"double/head_left": "double/claw_left"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"double/head_right": "double/claw_right"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Claw Head"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["07137122925727C8"]
+			description: ["The Axe head allows you to chop tree logs and strip them just like vanilla axes."]
+			id: "245946FF40FEFEE2"
+			rewards: [{
+				id: "621BC38F1BD45969"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						"double/basic_axe_left_material": "basic_axe/iron"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/butt_right_material": "butt/iron"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_axe_left"
+						"double/head_right": "double/butt_right"
+						honing_progress: 365
+						id: "c6548ad3-9213-45cc-979a-995c38417c35"
+					}
+				}
+				id: "3FD3B3255693B2B5"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"double/head_left": "double/basic_axe_left"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"double/head_right": "double/basic_axe_right"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Axe Head"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["07137122925727C8"]
+			description: ["The Pickaxe head is.... a pickaxe head. It allows you to mine just like you would expect it to do."]
+			id: "4032D56BB750AAE8"
+			rewards: [{
+				id: "3735117CF6DE839E"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						"double/basic_handle_material": "basic_handle/oak"
+						"double/basic_pickaxe_left_material": "basic_pickaxe/iron"
+						"double/basic_pickaxe_right_material": "basic_pickaxe/iron"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_pickaxe_left"
+						"double/head_right": "double/basic_pickaxe_right"
+						honing_progress: 440
+						id: "f2a99775-87ef-4719-9639-c9fb8d7395c3"
+					}
+				}
+				id: "71D9D0A603F0D79B"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"double/head_left": "double/basic_pickaxe_left"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"double/head_right": "double/basic_pickaxe_right"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Pickaxe Head"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["18FB6AA280646F14"]
+			description: [
+				"Geodes are gained as a random chance from mining Deepslate."
+				""
+				"To break open these geodes place them in a workbench where they can be opened with a hammer."
+				"From them you can gain random resources and even rare prisitine versions of gems."
+			]
+			id: "1D3EDFD37AFCCB25"
+			rewards: [
+				{
+					id: "765FB5EDBBE66554"
+					item: "tetra:geode"
+					type: "item"
+				}
+				{
+					id: "5D8014FF2907D241"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "591EB5F7A5AFE86C"
+					item: "tetra:geode"
+					type: "item"
+				}
+				{
+					id: "093AD44CBB002DF1"
+					item: "tetra:pristine_lapis"
+					type: "item"
+				}
+				{
+					id: "47FC18D675469BFB"
+					item: "tetra:pristine_emerald"
+					type: "item"
+				}
+				{
+					id: "3B6F4D40B291FE43"
+					item: "tetra:pristine_diamond"
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["12D605F59A3176A2"]
+			description: [
+				"The Forge Hammer can be found in Ancient Bases where it can be used to create higher tier gear. A standard workbench or a forged workbench can be used with it."
+				""
+				"To activate the hammer it must be powered with 2 filled Thermal Cells, which are inserted on the sides with a right click. Accesories can then be added to the other two sides."
+			]
+			icon: "tetra:hammer_base"
+			id: "7385A70C3CA6DD47"
+			rewards: [{
+				id: "237BFF5B5EB9776F"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Use a Forge Hammer to craft a module requireing tier 5+ hammering"
+			tasks: [{
+				advancement: "tetra:spelunking/hammer_craft"
+				criterion: ""
+				id: "34661EA76EB18B4E"
+				type: "advancement"
+			}]
+			title: "Forge Hammer"
+			x: -5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["12D605F59A3176A2"]
+			description: [
+				"Thermal Cells can be found in Ancient Bases as loot."
+				""
+				"They can be charged in Transfer Units attached to operating Core Extractor units. The side of the Transfer Unit must be pried off to be able to plug cells in."
+			]
+			id: "2625EC5BE51DE54D"
+			rewards: [{
+				id: "1F222C47F8819C48"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "745B39B074D2F44E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"maledicta:energy_collector": {
+							energy: 0.0d
+							processes: 0
+						}
+					}
+					id: "tetra:thermal_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Thermal Cells and Recharging"
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["12D605F59A3176A2"]
+			description: [
+				"The Forged Workbench, while not necessary, looks really nice with the Forge Hammer. It can be picked up with silk touch. "
+				""
+				"Surrounding this quest are a number of parts that can be salvaged from Ancient Bases to get unique abilities."
+			]
+			icon: "tetra:forged_workbench"
+			id: "7275F30F2B0F74CC"
+			optional: true
+			rewards: [{
+				id: "50384D2E9B098752"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0EE16A5958302663"
+				type: "checkmark"
+			}]
+			title: "Forged Workbench"
+			x: -9.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1D3EDFD37AFCCB25"]
+			description: [
+				"To progress further and get better hammers you will need to go exploring underground in cold biomes (Mountains, Taiga, etc.) for Ancient Bases. To help locate these bases a holosphere can be upgraded with an Eye of Ender to give it a proximity tracker of bases (they can sometimes be seen in the minimap while underground)."
+				""
+				"While exploring these dungeons it would be good to bring a hammer and claw tool to be able to salvage objects in the bases. When looking at blocks they will sometimes show a hammer or crowbar symbol along with a box where right clicking will do an action. A white icon means the action can happen, while red means it will not work, and yellow will have a chance to fail. Salvage will give you unique components and materials that you can use."
+			]
+			id: "788795772632D09F"
+			rewards: [{
+				id: "5A72591912A60375"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "15FD9A628848693F"
+				item: {
+					Count: 1b
+					id: "tetra:holo"
+					tag: {
+						HideFlags: 1
+						"holo/attachment_0": "holo/scanner_0"
+						"holo/core": "holo/core"
+						"holo/core_material": "frame/dim"
+						"holo/frame": "holo/frame"
+						"holo/frame_material": "core/ancient"
+						"holo/scanner_0_material": "scanner/scanner"
+						honing_progress: 850
+						id: "8bbf7e50-1547-4947-94ac-6b036cce698c"
+					}
+				}
+				type: "item"
+			}]
+			title: "Exploration of Ancients Bases"
+			x: -14.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1783F3551BE3CC14"]
+			description: ["Integrity is an item statistic that determines if it can be upgraded or not. Certain upgrades, such as bindings and handles, will increase the integrity of a tool allowing it to be upgraded further."]
+			icon: "minecraft:string"
+			id: "19012C596BCE8C3E"
+			rewards: [{
+				id: "7B58DCC820222F16"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "534071A4AD108145"
+				type: "checkmark"
+			}]
+			title: "Integrity Through Bindings?"
+			x: -16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1783F3551BE3CC14"]
+			description: [
+				"Items created with Tetra will have several different ways of leveling with use or construction."
+				""
+				"Synergy is the most basic form of leveling up a tool that comes during construction. The inclusion of the same head twice (double head pickaxe and axe for example) will give special bonuses to the tool. These special bonuses can be checked in the holosphere."
+				""
+				"Settling occurs per tool part with use. When a part becomes settled it will grant bonuses to the tool such as increased integrity, though if you remove the part you will lose the bonus. There are some upgrades that never settle so don't expect everything to."
+				""
+				"Finally, Honing also occurs with further use of a tool with stable parts. Certain parts will become honed with use (can be checked by holding shift and hovering over the tool) where they will be able to have additional unique upgrades applied to them at a workbench. This is to encourage you to keep using and upgrading your tools. You will lose the Honing of a part by removing it so be careful and plan your upgrades."
+			]
+			icon: "minecraft:experience_bottle"
+			id: "35DC92C0C706A260"
+			rewards: [{
+				id: "7606A3525AED3DEE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5F066599C93393B3"
+				type: "checkmark"
+			}]
+			title: "Tool Leveling"
+			x: -16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["286C78DD09FE49B1"]
+			description: [
+				"When crafting tool upgrades they will require tools of various specialities to be worked into their final forms."
+				""
+				"Wood materials will require axes, metals and stones will require hammers, and organic materials will require cutting tools such as swords to be able to be crafted."
+				"For progressively higher levels of materials the required tool level will equally be as high, this drives you to equally maintain your tool levels in order to keep progress moving."
+				""
+				"So keep upgrading those hammers to keep getting the best gear!"
+			]
+			icon: "framedblocks:framed_wrench"
+			id: "1F06255C02B6AED5"
+			rewards: [{
+				id: "5EE153E77D531AEA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1E25375AB82A5599"
+				title: "Tools Not Included"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3A768E3EC544BDE4"]
+			description: ["The Storage Pouch is a storage addon to store a good number of items but it does not have quick access."]
+			icon: "toolbelt:pouch"
+			id: "12DAA083C8DAA20D"
+			rewards: [{
+				id: "52A0473F481930DB"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "toolbelt:pouch"
+				id: "69F12A268CBDCF9C"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"toolbelt/slot1": "toolbelt/storage_slot1"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"toolbelt/slot2": "toolbelt/storage_slot2"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"toolbelt/slot3": "toolbelt/storage_slot3"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Storage Pouch"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3A768E3EC544BDE4"]
+			description: ["The Quiver can hold a large amount of arrows that can be quick selected."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						SelectedSlot: 0
+						Size: 6
+					}
+				}
+				id: "supplementaries:quiver"
+			}
+			id: "310CF42911589333"
+			rewards: [
+				{
+					count: 16
+					id: "32D68E4A055C0594"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+				{
+					id: "607FCBDC2AAA5297"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							SelectedSlot: 0
+							Size: 6
+						}
+					}
+					id: "supplementaries:quiver"
+				}
+				id: "132190E71F50655F"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"toolbelt/slot1": "toolbelt/quiver_slot1"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"toolbelt/slot2": "toolbelt/quiver_slot2"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"toolbelt/slot3": "toolbelt/quiver_slot3"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Quiver"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3A768E3EC544BDE4"]
+			description: ["Belt straps allow the carrying and quick selection of multiple tools or items."]
+			icon: "toolbelt:belt"
+			id: "455AC472579E7786"
+			rewards: [{
+				id: "77EC3B545E6889C2"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "toolbelt:belt"
+				id: "438FE539E7FC82AE"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"toolbelt/slot1": "toolbelt/strap_slot1"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"toolbelt/slot2": "toolbelt/strap_slot2"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"toolbelt/slot3": "toolbelt/strap_slot3"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Belt Strap"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3A768E3EC544BDE4"]
+			description: ["The Booster is a sort of jetpack that uses gunpowder as fuel. Can be activated by crouch jumping, jumping in air, or while flying an elytra."]
+			id: "1492F3C3FB608067"
+			rewards: [
+				{
+					count: 16
+					id: "39D999E303E6793D"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "53B90C4769D87643"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:firework_rocket"
+				id: "3F34F04A3619CF4C"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"toolbelt/slot1": "toolbelt/booster_slot1"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"toolbelt/slot2": "toolbelt/booster_slot2"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"toolbelt/slot3": "toolbelt/Booster_slot3"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Booster"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3A768E3EC544BDE4"]
+			description: ["The Potion Bag allows you to cary a large amount of potions but of limited variety."]
+			id: "1478BE654172DB0E"
+			rewards: [
+				{
+					id: "3C18B0EC6250E884"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:swiftness"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C75204BCF916487"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F4DBFE89B55241F"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:leaping"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CF017AA0336B75C"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "quark:long_danger_sight"
+					}
+				}
+				id: "76B4B318711D2C2C"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"toolbelt/slot1": "toolbelt/potion_storage_slot1"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"toolbelt/slot2": "toolbelt/potion_storage_slot2"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"toolbelt/slot3": "toolbelt/potion_storage_slot3"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Potion Bag"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7275F30F2B0F74CC"]
+			description: ["Can be used to make a very powerful digging tool."]
+			id: "4C7D95C00F276FC9"
+			optional: true
+			rewards: [{
+				id: "2E16FED529B52902"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C7027CD5E562EA0"
+				item: "tetra:earthpiercer"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7275F30F2B0F74CC"]
+			description: ["Can be used to upgrade a quiver to automatically pull arrows from it."]
+			id: "68841C26A41D419B"
+			optional: true
+			rewards: [{
+				id: "1881693DAA24EB98"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "610C160E650016CC"
+				item: "tetra:quick_latch"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7275F30F2B0F74CC"]
+			description: ["Can be socketed into a tool then tweaked in the tweaking menu of the workbench to change the level of a tools abilities."]
+			id: "39CFF60D8B06E5A3"
+			optional: true
+			rewards: [{
+				id: "6F3A6B796D12BB6B"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53AD6DC33D5943DC"
+				item: "tetra:forged_bolt"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7275F30F2B0F74CC"]
+			description: ["Can be hammered into bedrock to gain resources or added to a pickaxe to make a unique mining tool to break multiple blocks at a time."]
+			id: "1D90D810E787E7E0"
+			optional: true
+			rewards: [{
+				id: "76B5E6DF1A746232"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "tetra:spelunking/chthonic_extractor"
+				criterion: ""
+				id: "6F94666AC5ABFF6B"
+				type: "advancement"
+			}]
+			x: -9.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7275F30F2B0F74CC"]
+			description: ["Can be made into a unique sword that cuts through stone."]
+			id: "08FC281493BD7368"
+			optional: true
+			rewards: [{
+				id: "4782C6614D60A0EA"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "375D45561BB44389"
+				item: "tetra:stonecutter"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7385A70C3CA6DD47"]
+			description: ["When added to the Forge Hammer it allows upgrades made with the hammer to have better stats."]
+			id: "3C1D930613F170F9"
+			optional: true
+			rewards: [{
+				id: "0B76B7B83AF00D13"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "167E7C8EEB4E6D91"
+				item: "tetra:planar_stabilizer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7385A70C3CA6DD47"]
+			description: ["Can be added to a Forge Hammer to increase its hammer rank by 1 but it may light blocks around it on fire."]
+			id: "6BBB3BDE124D2C16"
+			optional: true
+			rewards: [{
+				id: "65B19DDCB72244DF"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E138E0620B1B741"
+				item: "tetra:combustion_chamber"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7385A70C3CA6DD47"]
+			description: ["Can be attached to a Forge Hammer or a Transfer Unit to increase its efficiency."]
+			id: "4D34DB2A28C1B0DA"
+			optional: true
+			rewards: [{
+				id: "537F1295B2DA192A"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EAA6CD71739DE4F"
+				item: "tetra:vent_plate"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7385A70C3CA6DD47"]
+			description: ["Can be added to a Forge Hammer to decrease the chance of it jamming by 50%."]
+			id: "591A481681EEA88F"
+			optional: true
+			rewards: [{
+				id: "5542BDF4626FF10D"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60C32D282A460565"
+				item: "tetra:lubricant_dispenser"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["09F16718BC2A2AFD"]
+			description: [
+				"When this treatise is near a workbench any major module made of gemstones will do extra damage and have better efficiency."
+				""
+				"Can be bought from mason villagers."
+			]
+			id: "0D69186F8138A0C9"
+			rewards: [{
+				id: "106B7E9C71D8AFB9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0F668D7CD2B32175"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "tetra:scroll_rolled"
+								tag: {
+									BlockEntityTag: {
+										data: [{
+											effects: ["tetra:gem_expertise"]
+											glyphs: [I;
+												14
+												13
+												14
+												15
+											]
+											intricate: 0b
+											key: "gem_expertise"
+											material: 0
+											ribbon: "2bffee"
+										}]
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "tetra:scroll_rolled"
+								tag: {
+									BlockEntityTag: {
+										data: [{
+											effects: ["tetra:gem_expertise"]
+											glyphs: [
+												14
+												13
+												14
+												15
+											]
+											intricate: 0b
+											key: "gem_expertise"
+											material: 0
+											ribbon: "2bffee"
+										}]
+									}
+								}
+							}
+						]
+					}
+				}
+				match_nbt: true
+				title: "Treatise: Gemstone expertise"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["09F16718BC2A2AFD"]
+			description: [
+				"When this treatise is near a workbench any major module made of metal will do extra damage and have better efficiency."
+				""
+				"Can be bought from villagers who work metal."
+			]
+			id: "09D05DD705B6F75B"
+			rewards: [{
+				id: "1B3F970FC8E53085"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "72C46D582F784820"
+				item: {
+					Count: 1b
+					id: "tetra:scroll_rolled"
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								effects: ["tetra:metal_expertise"]
+								glyphs: [
+									4
+									6
+									6
+									5
+								]
+								intricate: 0b
+								key: "metal_expertise"
+								material: 0
+								ribbon: "ffffff"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["09F16718BC2A2AFD"]
+			description: [
+				"When this treatise is near a workbench any major module made of wood will do extra damage and have better efficiency."
+				""
+				"Can be bought from fletcher villagers."
+			]
+			id: "216F8320B52B65C1"
+			rewards: [{
+				id: "518C303380AA030F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "13C8B2A5B33103E8"
+				item: {
+					Count: 1b
+					id: "tetra:scroll_rolled"
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								effects: ["tetra:wood_expertise"]
+								glyphs: [
+									2
+									1
+									2
+									1
+								]
+								intricate: 0b
+								key: "wood_expertise"
+								material: 0
+								ribbon: "bf934b"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["09F16718BC2A2AFD"]
+			description: [
+				"When this treatise is near a workbench any major module made of stone will do extra damage and have better efficiency."
+				""
+				"Can be bought from mason villagers."
+			]
+			id: "7234FD5F79ABF6B0"
+			rewards: [{
+				id: "04DBD01EDE1D0A75"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "133633D3FCBEAF6A"
+				item: {
+					Count: 1b
+					id: "tetra:scroll_rolled"
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								effects: ["tetra:stone_expertise"]
+								glyphs: [2]
+								intricate: 0b
+								key: "stone_expertise"
+								material: 0
+								ribbon: "9a9a9a"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["09F16718BC2A2AFD"]
+			description: [
+				"When this treatise is near a workbench any major module made of fibre will do extra damage and have better efficiency."
+				""
+				"Can be bought from fletcher villagers."
+			]
+			id: "15358C492A96474A"
+			rewards: [{
+				id: "445B8674AA423F13"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "67775264FE325F4D"
+				item: {
+					Count: 1b
+					id: "tetra:scroll_rolled"
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								effects: ["tetra:fibre_expertise"]
+								glyphs: [
+									5
+									10
+									11
+									4
+								]
+								intricate: 0b
+								key: "fibre_expertise"
+								material: 0
+								ribbon: "a88054"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["09F16718BC2A2AFD"]
+			description: [
+				"When this treatise is near a workbench any major module made of skin (leather) will do extra damage and have better efficiency."
+				""
+				"Can be bought from leatherworker villagers."
+			]
+			id: "38B08A136E92B917"
+			rewards: [{
+				id: "5C5243EF408BBB2C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "26B21FDF1F8C9C5B"
+				item: {
+					Count: 1b
+					id: "tetra:scroll_rolled"
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								effects: ["tetra:skin_expertise"]
+								glyphs: [
+									0
+									1
+									1
+									1
+								]
+								intricate: 0b
+								key: "skin_expertise"
+								material: 0
+								ribbon: "bf6930"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["09F16718BC2A2AFD"]
+			description: [
+				"When this treatise is near a workbench any major module made of bone will do extra damage and have better efficiency."
+				""
+				"Can be bought from butcher villagers."
+			]
+			id: "52B54E2CE151772D"
+			rewards: [{
+				id: "7202AF9F7D05DDF1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6E6492385800D348"
+				item: {
+					Count: 1b
+					id: "tetra:scroll_rolled"
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								effects: ["tetra:bone_expertise"]
+								glyphs: [
+									12
+									14
+									12
+									14
+								]
+								intricate: 0b
+								key: "bone_expertise"
+								material: 0
+								ribbon: "fff193"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["09F16718BC2A2AFD"]
+			description: [
+				"When this treatise is near a workbench any major module made of fabric will do extra damage and have better efficiency."
+				""
+				"Can be bought from shepard villagers."
+			]
+			id: "1FBD746595917646"
+			rewards: [{
+				id: "1CD5B7628223D407"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "283CE26B549DD593"
+				item: {
+					Count: 1b
+					id: "tetra:scroll_rolled"
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								effects: ["tetra:fabric_expertise"]
+								glyphs: [
+									5
+									3
+									6
+									4
+								]
+								intricate: 0b
+								key: "fabric_expertise"
+								material: 0
+								ribbon: "ff3333"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["09F16718BC2A2AFD"]
+			description: [
+				"When this treatise is near a workbench any major module made of scale will do extra damage and have better efficiency."
+				""
+				"Can be bought from leatherworker villagers."
+			]
+			id: "375CE372A0A91A71"
+			rewards: [{
+				id: "33AC2DF305688717"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "26B95AB51592EC21"
+				item: {
+					Count: 1b
+					id: "tetra:scroll_rolled"
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								effects: ["tetra:scale_expertise"]
+								glyphs: [
+									6
+									7
+									6
+									8
+								]
+								intricate: 0b
+								key: "scale_expertise"
+								material: 0
+								ribbon: "75a03e"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["58E51E027525C66D"]
+			description: [
+				"- Axe efficieny can be bought from fletcher villagers. "
+				""
+				"- Hammer efficieny can be bought from metal working villagers."
+				""
+				"- Cut efficiency can be bought from leatherworker villagers."
+			]
+			id: "4BEC7C7000CA0094"
+			rewards: [{
+				id: "7326C65E420A8C18"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Can be bought from villagers"
+			tasks: [
+				{
+					id: "4F8CE52A4BEB1D2A"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:axe_efficiency"]
+									glyphs: [
+										0
+										1
+										3
+										3
+									]
+									intricate: 0b
+									key: "axe_efficiency"
+									material: 0
+									ribbon: "66ff66"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D71F47D65CC681C"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:hammer_efficiency"]
+									glyphs: [
+										6
+										7
+										6
+										11
+									]
+									intricate: 0b
+									key: "hammer_efficiency"
+									material: 0
+									ribbon: "ff6666"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "205A49DF774DE7B8"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:cut_efficiency"]
+									glyphs: [
+										4
+										0
+										3
+										5
+									]
+									intricate: 0b
+									key: "cut_efficiency"
+									material: 0
+									ribbon: "6666ff"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Treatise: Tool efficiency"
+			x: -13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1783F3551BE3CC14"]
+			description: [
+				"Tetra includes a number of additional methods to better your tools. These schematics/treatises must be placed around a workbench in a 5x5x5 square of the space two above the workbench (so four blocks up the wall and two blocks off each side)."
+				""
+				"The way to find these new items are indicated in the quests."
+				""
+				"* Note: When you will pick up one scroll from category it will auto-complete the whole quest. So these quests are more like overview of scrolls available."
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:scroll_rolled"
+				tag: {
+					BlockEntityTag: {
+						data: [{
+							details: "warforge"
+							glyphs: [
+								5
+								10
+								8
+								9
+							]
+							intricate: 0b
+							key: "double/basic_axe/warforge"
+							material: 2
+							ribbon: "b35973"
+							schematics: ["tetra:double/basic_axe/warforge"]
+						}]
+					}
+				}
+			}
+			id: "58E51E027525C66D"
+			rewards: [{
+				id: "1EBF10F1269A7959"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0B90C00147A7608A"
+				type: "checkmark"
+			}]
+			title: "Scrolls, Schematics, and Treatises"
+			x: -14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["248343A8203E7CDC"]
+			id: "156ECC53DB98ED6A"
+			rewards: [{
+				id: "3DDABA1808D8DC1A"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:modular_single"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 240
+						id: "df3e09d3-def2-4885-ad35-c3be22e7fd6b"
+						repairCount: 1
+						"single/basic_handle_material": "basic_handle/oak"
+						"single/cane_head_material": "cane_head/iron"
+						"single/handle": "single/basic_handle"
+						"single/head": "single/cane_head"
+						weapon_attributes: "{\"parent\":\"bettercombat:staff\",\"attributes\":{\"attack_range\":3.0,\"two_handed\":true,\"category\":\"staff\",\"attacks\":[{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":0.8,\"angle\":160.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:staff_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":160.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_left\",\"swing_sound\":{\"id\":\"bettercombat:staff_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"VERTICAL_PLANE\",\"damage_multiplier\":1.2,\"angle\":120.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slam\",\"swing_sound\":{\"id\":\"bettercombat:staff_slam\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+					}
+				}
+				id: "78A2442F57B58546"
+				item: {
+					Count: 1b
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"single/head": "single/cane_head"
+						}
+					}
+				}
+				title: "Cane"
+				type: "item"
+			}]
+			title: "Cane"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1783F3551BE3CC14"]
+			description: [
+				"- Repairing an item will require materials (and appropriate tools) for one of its modules"
+				""
+				"- Repairing will cycle over all of the item's modules"
+				""
+				"- Repairing magically unstable modules will cost experience"
+				""
+				"- Each repair fully restores the durability of the item"
+			]
+			id: "092202DA102742E4"
+			rewards: [{
+				id: "75EBB50E80E1B94F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Modular items can be repaired in a workbench."
+			tasks: [{
+				id: "2B93D855A0018B73"
+				type: "checkmark"
+			}]
+			title: "Repairing"
+			x: -13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["248343A8203E7CDC"]
+			id: "6942ADE3BA8910F6"
+			rewards: [{
+				id: "71CE6FBDA7B9279C"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:modular_single"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 240
+						id: "4cd4f68f-abce-4334-8010-b8c9c040cb06"
+						repairCount: 1
+						"single/handle": "single/long_handle"
+						"single/head": "single/quarter_staff_head"
+						"single/long_handle_material": "long_handle/iron"
+						"single/quarter_staff_head_material": "quarter_staff_head/gold"
+						weapon_attributes: "{\"parent\":\"bettercombat:battlestaff\",\"attributes\":{\"attack_range\":4.6,\"two_handed\":true,\"category\":\"battlestaff\",\"attacks\":[{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":0.8,\"angle\":180.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:staff_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":180.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_left\",\"swing_sound\":{\"id\":\"bettercombat:staff_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.2,\"angle\":360.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_spin\",\"swing_sound\":{\"id\":\"bettercombat:staff_spin\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"VERTICAL_PLANE\",\"damage_multiplier\":1.4,\"angle\":160.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slam\",\"swing_sound\":{\"id\":\"bettercombat:staff_slam\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":0.8,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_stab_left\",\"swing_sound\":{\"id\":\"bettercombat:staff_stab\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":0.8,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_stab_right\",\"swing_sound\":{\"id\":\"bettercombat:staff_stab\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+					}
+				}
+				id: "693117BF342932E6"
+				item: {
+					Count: 1b
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"single/head": "single/quarter_staff_head"
+						}
+					}
+				}
+				title: "Quarter Staff"
+				type: "item"
+			}]
+			title: "Quarter Staff"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["788795772632D09F"]
+			id: "12D605F59A3176A2"
+			rewards: [{
+				id: "4CA89C53E1F6AB6D"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Find ancient ruins deep down in cold or mountainous biomes"
+			tasks: [{
+				advancement: "tetra:spelunking/ancient_ruins"
+				criterion: ""
+				id: "48D7EF8EE6444960"
+				type: "advancement"
+			}]
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["58E51E027525C66D"]
+			id: "5D89C7F9261D1E74"
+			rewards: [{
+				id: "65BCEC37DF6C4D7E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Find a chapter of Tools of War in a bastion remnant, or barter for one with a piglin"
+			tasks: [{
+				advancement: "tetra:spelunking/find_scroll_warforge"
+				criterion: ""
+				id: "62E69A1FD57C92D4"
+				type: "advancement"
+			}]
+			x: -15.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["58E51E027525C66D"]
+			id: "6D179594F4C5F517"
+			rewards: [{
+				id: "13155E04A367FFF1"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Find a gilding scroll in a nether fortress"
+			tasks: [{
+				advancement: "tetra:spelunking/find_scroll_gild"
+				criterion: ""
+				id: "306DF4CA4761FF35"
+				type: "advancement"
+			}]
+			x: -13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3C1D930613F170F9"]
+			id: "2140BB56455664BA"
+			rewards: [{
+				id: "7EBC0766C56B1E56"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Use a Planar Stabilizer to craft a powerful belt attachment"
+			tasks: [{
+				advancement: "tetra:spelunking/suspend_belt"
+				criterion: ""
+				id: "548D373E06EC7005"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["39CFF60D8B06E5A3"]
+			id: "3D63DAC3E66CF7D8"
+			rewards: [{
+				id: "3C5C1FFFB5D5C373"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Use a Bolt to bind a tool or a sword, then use the tweak tab in a workbench to change the stats of the item"
+			tasks: [{
+				advancement: "tetra:spelunking/use_bolt"
+				criterion: ""
+				id: "65AEDDD97C0D1525"
+				type: "advancement"
+			}]
+			x: -11.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["08FC281493BD7368"]
+			id: "2D00608E23BFE28D"
+			rewards: [{
+				id: "02CDC0FF1588EBE8"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Enchant a stonecutter with the efficient enchantment to increase the amount of blocks broken in each sweep"
+			tasks: [{
+				advancement: "tetra:spelunking/stonecutter_enchant"
+				criterion: ""
+				id: "02D1B5E094C9701C"
+				type: "advancement"
+			}]
+			x: -7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1D90D810E787E7E0"]
+			id: "11D226CF2A5A318C"
+			rewards: [{
+				id: "4BA8F00143011F87"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Place a chtonic extractor on a bedrock and hit the top with a hammer"
+			tasks: [{
+				advancement: "tetra:spelunking/chthonic_hammer"
+				criterion: ""
+				id: "30A9F841EC82BD1E"
+				type: "advancement"
+			}]
+			x: -10.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["1D90D810E787E7E0"]
+			description: [
+				"* The Extractor has to be unused"
+				""
+				"* Unlike other artifacts found in the ruins this cannot be repaired with metal scrap"
+			]
+			id: "748E7791E3087456"
+			rewards: [{
+				id: "446C42BCAA17DF91"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Replace the right head of a double headed tool with a Chtonic Extractor for a powerful harvesting tool"
+			tasks: [{
+				advancement: "tetra:spelunking/chthonic_module"
+				criterion: ""
+				id: "57C4C4D33B1BDAEA"
+				type: "advancement"
+			}]
+			x: -8.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["58E51E027525C66D"]
+			description: [
+				"Throwing Knife: A schematic that allows you to make small swords that have the ability to be thrown."
+				""
+				"Howling Blade: A schematic of a sword fuller that when swung creates a gust that can deflect arrows."
+				""
+				"Sturdy Guard: A schematic that unlocks a long forgotten guard that allows you to block attacks or arrows with proper timing."
+			]
+			id: "0FEFCC67CC56A958"
+			rewards: [{
+				id: "224D0480DFC0016A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Can be found in dungeons."
+			tasks: [
+				{
+					id: "17CCAAF0E9F309A9"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										3
+										2
+										2
+										1
+									]
+									intricate: 0b
+									key: "sword/sturdy_guard"
+									material: 1
+									ribbon: "bcb8b5"
+									schematics: ["tetra:sword/sturdy_guard"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48A6DEA8759622CC"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										8
+										9
+										10
+										5
+									]
+									intricate: 0b
+									key: "sword/howling"
+									material: 1
+									ribbon: "faf396"
+									schematics: ["tetra:sword/howling"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "335521127C77373E"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										4
+										1
+										0
+										5
+									]
+									intricate: 0b
+									key: "sword/throwing_knife"
+									material: 1
+									ribbon: "b8ced9"
+									schematics: ["tetra:sword/throwing_knife"]
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Schematics"
+			x: -16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1783F3551BE3CC14"]
+			id: "18FB6AA280646F14"
+			rewards: [{
+				id: "29FB8E546A670356"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Delve deep underground"
+			tasks: [{
+				advancement: "tetra:spelunking/root"
+				criterion: ""
+				id: "6DBADD2EDFCC5AFF"
+				type: "advancement"
+			}]
+			x: -14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58E51E027525C66D"]
+			id: "09F16718BC2A2AFD"
+			rewards: [{
+				id: "2F6843D4D4B94305"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Find a scroll in the world or purchase it from villager"
+			tasks: [{
+				advancement: "tetra:spelunking/find_scroll"
+				criterion: ""
+				id: "1209C095A42DAF2A"
+				type: "advancement"
+			}]
+			x: -14.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["788795772632D09F"]
+			id: "6966F57E97BB934C"
+			rewards: [{
+				count: 2
+				id: "0A9D2567A3B89282"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Use a workbench to restore the sweeping capabilities of the Holosphere Ccanner, the Ccanner makers it easier to find Ancient Ruins."
+			tasks: [{
+				advancement: "tetra:spelunking/scanner"
+				criterion: ""
+				id: "1A856A94581F779F"
+				type: "advancement"
+			}]
+			x: -16.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1D3EDFD37AFCCB25"]
+			id: "3746FD072D591CBB"
+			rewards: [{
+				count: 2
+				id: "69F5DD4B15C3563E"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Upgrade a Mallet and use it to break open a Geode at a Workbench"
+			tasks: [{
+				advancement: "tetra:spelunking/geode_open"
+				criterion: ""
+				id: "1CA2737A60A25A16"
+				type: "advancement"
+			}]
+			x: -16.0d
+			y: -5.0d
+		}
+	]
+	subtitle: ["Tools of the Ancients"]
+	title: "Tetra"
+}

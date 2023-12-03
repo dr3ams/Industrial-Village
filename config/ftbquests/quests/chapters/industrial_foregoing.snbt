@@ -1,0 +1,1075 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "industrial_foregoing"
+	group: "4CB4EEA3591AD759"
+	icon: "industrialforegoing:mob_duplicator"
+	id: "00000000000004DB"
+	images: [
+		{
+			click: ""
+			color: 0
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "litv3:textures/misc/icon_oil.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.8d
+			hover: [ ]
+			image: "litv3:textures/misc/growing.png"
+			rotation: 0.0d
+			width: 16.553271028037383d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 135.0d
+			width: 1.5d
+			x: 15.0d
+			y: 8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.074231177094379d
+			hover: [ ]
+			image: "litv3:textures/misc/growing-info.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 5.0d
+		}
+	]
+	order_index: 3
+	quest_links: [
+		{
+			id: "3CCD762B8EE5FD59"
+			linked_quest: "77AA2922D34E8E5D"
+			shape: "circle"
+			size: 0.5d
+			x: 4.25d
+			y: 7.25d
+		}
+		{
+			id: "55FF92A930C5BFC2"
+			linked_quest: "52C87F805A9DE239"
+			shape: "circle"
+			size: 0.5d
+			x: 10.75d
+			y: 7.25d
+		}
+		{
+			id: "2E79523A114D450F"
+			linked_quest: "205D0674D8E55682"
+			shape: "circle"
+			size: 0.5d
+			x: 14.25d
+			y: 7.25d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["0000000000000614"]
+			description: [
+				"The Fluid Extractor will pull latex from logs placed in front of it. It can work passively, but will work faster with power. The extractor strips the log during the processing and then consumes it entirely."
+				""
+				"Latex will be used in Dissolution Chamber for most recipes"
+			]
+			id: "00000000000004DC"
+			rewards: [{
+				id: "63342867D86441D6"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "00000000000004DD"
+					item: "industrialforegoing:fluid_extractor"
+					type: "item"
+				}
+				{
+					id: "000000000000062B"
+					item: "industrialforegoing:latex_bucket"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			description: ["Plastic can be made either in the Arc Furnace or Metal Press (with a plate mold) from a piece of Dry Rubber (9 pieces of Tiny Dry Rubber in a crafting grid)."]
+			id: "00000000000005C0"
+			rewards: [{
+				id: "00000000000007E1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "4BD68460BC9907FE"
+				item: "pneumaticcraft:plastic"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3B23138D26E79BBC"]
+			description: ["The Animal Rancher will harvest animals in its working area of their products (milk, wool, etc.). Its working area can be expanded with range upgrades."]
+			id: "0000000000000600"
+			rewards: [{
+				id: "218E2F3983A1B024"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000601"
+				item: "industrialforegoing:animal_rancher"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0000000000000606"]
+			description: ["The Mob Slaughter Factory is a machine that processes animals in its working area into liquid meat and pink slime. Mobs killed by the machine drop no experience or items. Its working area can be expanded with range upgrades."]
+			id: "0000000000000602"
+			rewards: [{
+				id: "1870598ADA1DD419"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000603"
+				item: "industrialforegoing:mob_slaughter_factory"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["79AA2E031EFF01F4"]
+			description: [
+				"The Mob Crusher is used to destroy mobs in its working area, producing essence and mob drops. Its working area can be expanded with range upgrades."
+				"Does 300 damage in an action. Automatically collects essence of kills to be pumped out."
+				"Can have fortune upgrades added."
+			]
+			id: "0000000000000604"
+			rewards: [{
+				id: "53EC11D5011E7F0D"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [
+				{
+					id: "0000000000000605"
+					item: "industrialforegoing:mob_crusher"
+					type: "item"
+				}
+				{
+					id: "0000000000000627"
+					item: "industrialforegoing:essence_bucket"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3B23138D26E79BBC"]
+			description: ["The Animal Feeder can feed animals within its working area when provided with appropriate feed. Its working area can be expanded with range upgrades. "]
+			id: "0000000000000606"
+			rewards: [{
+				id: "514A4899CBC5EB2D"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000607"
+				item: "industrialforegoing:animal_feeder"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0000000000000600"]
+			description: ["The Animal Baby Seperator moves baby animals from its working area to the back of the block. This can be used to automate breeding and harvesting of animals. Its working area can be be expanded with range upgrades."]
+			id: "0000000000000608"
+			rewards: [{
+				id: "703CE8A570F1D2E5"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000609"
+				item: "industrialforegoing:animal_baby_separator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["0000000000000616"]
+			description: ["The Plant Fertilizer will automatically apply bonemeal or fertilizer to plants in its working area. Its working area can be expanded with range upgrades. Can become stuck on plants that infinitely consume fertilizer so be careful."]
+			id: "000000000000060A"
+			rewards: [{
+				id: "482D922425267EBA"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "000000000000060B"
+				item: "industrialforegoing:plant_fertilizer"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["239B341E2748597D"]
+			description: ["The Plant Gatherer can harvest both crops and trees in its working area. A tree in the harvest area will be harvested by all connected blocks to the base (watch out for forests near your tree farms!)."]
+			id: "000000000000060C"
+			rewards: [{
+				id: "77872657DBCE1F8B"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000000000060D"
+				item: "industrialforegoing:plant_gatherer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["239B341E2748597D"]
+			description: ["The Plant Sower will plant seeds automatically 2 spaces above itself (So a piece of dirt placed on top of the machine will be planted on top of). Its working area in that plane can be expanded with range upgrades."]
+			id: "000000000000060E"
+			rewards: [{
+				id: "0B64BE5D0B03DC10"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000000000060F"
+				item: "industrialforegoing:plant_sower"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0000000000000612"]
+			description: ["The Sewage Composter processes sewage into fertilizer."]
+			id: "0000000000000610"
+			rewards: [{
+				id: "11301A64BF3F4B76"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0000000000000611"
+					item: "industrialforegoing:sewage_composter"
+					type: "item"
+				}
+				{
+					id: "000000000000061E"
+					item: "industrialforegoing:fertilizer"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3B23138D26E79BBC"]
+			description: ["The Sewer will collect sewage from mobs in the plane above the machine. Its working area can be expanded with a range upgrade."]
+			id: "0000000000000612"
+			rewards: [{
+				id: "709A399270A13DFB"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0000000000000613"
+					item: "industrialforegoing:sewer"
+					type: "item"
+				}
+				{
+					id: "0000000000000628"
+					item: "industrialforegoing:sewage_bucket"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["00000000000005C0"]
+			description: ["(Connection from Becoming an Engineer chapter)"]
+			disable_toast: true
+			id: "0000000000000614"
+			rewards: [{
+				id: "39713503A51ACDEA"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000615"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["000000000000073D"]
+			description: ["The Simple Machine Frame is the next level of machine frame that will allow some more complex machines."]
+			id: "0000000000000616"
+			rewards: [
+				{
+					id: "040520317F2A7376"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "00352E701973E818"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000617"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0000000000000616"
+				"52C87F805A9DE239"
+			]
+			description: [""]
+			id: "0000000000000618"
+			rewards: [{
+				id: "75C0BEB2D65D4DD4"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000619"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["000000000000060C"]
+			description: ["Sludge is the byproduct of the plant gatherer. "]
+			id: "000000000000061A"
+			rewards: [{
+				id: "7DEEA8B1EB3CCA61"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000000000061B"
+				item: "industrialforegoing:sludge_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["000000000000061A"]
+			description: ["The Sludge Refiner will process sludge at the cost of electricity and produce random earth products (dirt, clay, etc.)"]
+			id: "000000000000061C"
+			rewards: [{
+				id: "7EDB873626364BCF"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000000000061D"
+				item: "industrialforegoing:sludge_refiner"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0000000000000604"]
+			description: ["The Enchantment Sorter will sort items into enchanted and non-enchanted. Each type can have a seperate export side."]
+			id: "000000000000061F"
+			rewards: [{
+				id: "0F1A65CFD6B7DEF3"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "00000000000011F0"
+				item: "industrialforegoing:enchantment_sorter"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0000000000000604"]
+			description: ["When provided with a large amount of essence, an item will be applied with a level 30 enchant. "]
+			id: "0000000000000621"
+			rewards: [{
+				id: "5519C618A830F393"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "0000000000000622"
+				item: "industrialforegoing:enchantment_factory"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["79AA2E031EFF01F4"]
+			description: ["The Potion Brewer acts as an automated Brewing Stand."]
+			id: "0000000000000629"
+			rewards: [{
+				id: "39550B037F09C0F3"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "000000000000062A"
+				item: "industrialforegoing:potion_brewer"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"00000000000004DC"
+				"77AA2922D34E8E5D"
+			]
+			description: [
+				"The Dissolution Chamber is a specialized crafting table for Industrial Foregoing. It takes up to 8 items and a liquid input. "
+				""
+				""
+				"{ \"text\": \"You will need Desh Plate to craft it.\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"77AA2922D34E8E5D\" } } "
+			]
+			id: "000000000000073D"
+			rewards: [{
+				id: "3178A8CAD111FE8B"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "000000000000073E"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["00000000000005C0"]
+			description: ["The Industrial Foregoing Manual will give larger descriptions of its machines."]
+			id: "00000000000011DC"
+			rewards: [{
+				id: "1043B762D61E4D83"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "6E5F9F0F6DE280B2"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0000000000000616"]
+			description: ["When supplied with water and electricity, the Hydroponic Bed will speed up crop growth."]
+			id: "00000000000011DE"
+			rewards: [{
+				id: "6D43EE514F1E2900"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "00000000000011DF"
+				item: "industrialforegoing:hydroponic_bed"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0000000000000616"]
+			description: ["The Marine Fisher will fish the 3x3 area below the block. That area must only contain water source blocks to work."]
+			id: "00000000000011E0"
+			rewards: [{
+				id: "2406B7BF1593FF7F"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "00000000000011E1"
+				item: "industrialforegoing:marine_fisher"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0000000000000616"]
+			description: ["The Mob Detector will output a redstone signal to the back of the block based on the number of mobs in its working area. Its working area can be expanded with range upgrades."]
+			id: "00000000000011E2"
+			rewards: [{
+				id: "2B3ED47CFAAFB810"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "00000000000011E3"
+				item: "industrialforegoing:mob_detector"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0000000000000616"]
+			description: ["The Laser Drill converts power into work for Laser Drill Bases."]
+			id: "00000000000011E4"
+			rewards: [{
+				id: "35B5DA727B0D928E"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "00000000000011E5"
+				item: "industrialforegoing:laser_drill"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["78C375FC212E4B95"]
+			description: ["The Ore Laser Base will convert work from a Laser Drill to ores. Can be modified with lenses to change the ore probabilities."]
+			id: "00000000000011E6"
+			rewards: [{
+				id: "448E913AA2C27DA2"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000011E7"
+				item: "industrialforegoing:ore_laser_base"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["00000000000011E4"]
+			description: ["The Fluid Laser Base converts work from a Laser Drill to a liquid. Can be modified with lenses to change liquid probabilities. "]
+			id: "00000000000011E8"
+			rewards: [
+				{
+					id: "7A15798BE104A640"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "6E746CAA197D3828"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000011E9"
+				item: "industrialforegoing:fluid_laser_base"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0000000000000621"
+				"000000000000061F"
+				"00000000000011EE"
+			]
+			dependency_requirement: "one_completed"
+			description: ["The Enchantment Extractor removes enchantments on items and places them onto a book."]
+			id: "00000000000011EC"
+			rewards: [{
+				id: "59D4CE24499695E3"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "00000000000011ED"
+				item: "industrialforegoing:enchantment_extractor"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0000000000000604"]
+			description: ["The Enchantment Applicator applies enchantments automatically to items from enchanted books. Requires Essence to operate."]
+			id: "00000000000011EE"
+			rewards: [{
+				id: "12C7875B9EACC876"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "00000000000011EF"
+				item: "industrialforegoing:enchantment_applicator"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["52AFE8BAD5E457A5"]
+			description: ["The Block Breaker will break blocks off its face and place them in its inventory."]
+			id: "00000000000011F1"
+			rewards: [{
+				id: "3B94A36B4D16184D"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000011F2"
+				item: "industrialforegoing:block_breaker"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["00000000000011F1"]
+			description: ["Will place blocks off its face from its inventory."]
+			id: "00000000000011F3"
+			rewards: [{
+				id: "27428577CC603D55"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000011F4"
+				item: "industrialforegoing:block_placer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["52AFE8BAD5E457A5"]
+			description: [
+				"Can mix dye colors into into different colors."
+				"Try mixing up the two random dyes you will get from this quest."
+			]
+			id: "00000000000011F7"
+			rewards: [{
+				id: "419DA21951C164D8"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000011F8"
+				item: "industrialforegoing:dye_mixer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["78C375FC212E4B95"]
+			description: ["The Material StoneWork Factory can process a item through multiple levels of a process in a single block."]
+			id: "00000000000011F9"
+			tasks: [{
+				id: "00000000000011FA"
+				item: "industrialforegoing:material_stonework_factory"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["79AA2E031EFF01F4"]
+			description: ["The Stasis Chamber, when provided with power, freezes mobs in its work area and heals them."]
+			id: "00000000000011FB"
+			rewards: [{
+				id: "71B65789CC114D04"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "00000000000011FC"
+				item: "industrialforegoing:stasis_chamber"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["79AA2E031EFF01F4"]
+			description: ["Mechanical Dirt, when supplied with power and liquid meat, will spawn mobs faster than normal."]
+			id: "00000000000011FD"
+			rewards: [{
+				id: "1E2BF76868AC6DEE"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "00000000000011FE"
+				item: "industrialforegoing:mechanical_dirt"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0000000000001201"]
+			description: ["The Fluid Placer places fluids in the block off its face."]
+			id: "00000000000011FF"
+			rewards: [{
+				id: "144923AA722A63B4"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000001200"
+				item: "industrialforegoing:fluid_placer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["52AFE8BAD5E457A5"]
+			description: ["The Fluid Collector will collect fluids off its face."]
+			id: "0000000000001201"
+			rewards: [{
+				id: "12EA465C0559174A"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000001202"
+				item: "industrialforegoing:fluid_collector"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["52AFE8BAD5E457A5"]
+			description: ["When surrounded by at least 2 water source blocks, will collect water continously. By supplying power or surrounding the machine with more source blocks, water production speed is increased."]
+			id: "0000000000001203"
+			rewards: [{
+				id: "0FEBD244F8A9A9C4"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000001204"
+				item: "industrialforegoing:water_condensator"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0000000000000618"]
+			description: ["The machines following this quest will automate the production of resources and their processing."]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "78C375FC212E4B95"
+			rewards: [{
+				id: "6D17142616A48DE8"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "08FAD8B73A3CCCBA"
+				item: "ad_astra:calorite_plate"
+				type: "item"
+			}]
+			title: "Mining and Fabrication"
+			x: 11.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0000000000000618"]
+			description: ["The machines following this quest will allow you to setup more efficient mob grinders that you can use to automate the creation of enchantments."]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "79AA2E031EFF01F4"
+			shape: "diamond"
+			size: 1.5d
+			title: "Mob Griders"
+			x: 11.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["78C375FC212E4B95"]
+			description: ["The resourceful furnace is unique in that it will convert the experience gained from smelting normal items into essence that can be used by other machines."]
+			id: "29F24ECC6531794C"
+			tasks: [{
+				id: "04A9AAF5C3032AD8"
+				item: "industrialforegoing:resourceful_furnace"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0000000000000614"]
+			icon: "minecraft:cooked_beef"
+			id: "3B23138D26E79BBC"
+			rewards: [{
+				id: "0C0980EF8D7F7FE1"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "The machines following this quest will allow you to automate the farming and harvesting of animals and their products."
+			tasks: [{
+				id: "0D191098C937021D"
+				type: "checkmark"
+			}]
+			title: "Ranching"
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0000000000000614"]
+			icon: "minecraft:wheat"
+			id: "239B341E2748597D"
+			rewards: [{
+				id: "535708A56B24C9AF"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "The machines following this quest will help you automate the farming of crops from fields instead of in a cloche."
+			tasks: [{
+				id: "1E2B270C0C8FE39F"
+				title: "Farming"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0000000000000614"]
+			icon: "immersiveengineering:conveyor_basic"
+			id: "52AFE8BAD5E457A5"
+			rewards: [{
+				id: "424A1C1ED94DC37C"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "The machines following this quest will help you in basic automation tasks around your base."
+			tasks: [{
+				id: "3467F0926262537F"
+				title: "Automation"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["78C375FC212E4B95"]
+			id: "085ECA25F4DF2DF7"
+			rewards: [{
+				id: "04AE2230B0FE1BFF"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "754F082C188C875C"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_saw"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["78C375FC212E4B95"]
+			id: "70A877C6BD49DA2C"
+			rewards: [{
+				id: "43F336800D84EC18"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3758ED5F499EC3B1"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_drill"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0000000000000618"
+				"205D0674D8E55682"
+			]
+			id: "3C0DBDB29BF0B8CE"
+			rewards: [{
+				id: "4CA6886D21714F45"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&9Final goal of Chapter 4 completed!&r"
+			tasks: [{
+				id: "23E0737F45F25004"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"check if laser base can be set up in another dim"
+				"add:"
+				"moon: desh ingot mining"
+				"mars: ostrum"
+				"venus: calorite"
+			]
+			icon: "kubejs:lightning"
+			id: "573221CC3736871F"
+			tasks: [{
+				id: "7FAC15CED65FB52E"
+				type: "checkmark"
+			}]
+			title: "DREAMS TODO"
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2A0DE1330FF6504F"]
+			icon: "industrialforegoing:biofuel_bucket"
+			id: "1DF036ED17B4AC91"
+			tasks: [
+				{
+					id: "79ED2B6400617DEF"
+					item: "industrialforegoing:biofuel_generator"
+					type: "item"
+				}
+				{
+					id: "7A83BB2DDC43CC05"
+					item: "industrialforegoing:biofuel_bucket"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0000000000000616"]
+			id: "2A0DE1330FF6504F"
+			tasks: [{
+				id: "2256F5E248376C16"
+				item: "industrialforegoing:bioreactor"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 12.0d
+		}
+	]
+	title: "4. &7Growing Industry&r"
+}

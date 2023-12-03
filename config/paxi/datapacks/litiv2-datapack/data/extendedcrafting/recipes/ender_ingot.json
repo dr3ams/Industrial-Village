@@ -1,0 +1,23 @@
+{
+  "type": "extendedcrafting:shaped_flux_crafter",
+  "powerRequired": 100000,
+  "pattern": [
+    "AAA",
+    "BCB",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "immersiveengineering:dust_steel"
+    },
+    "B": {
+      "item": "railcraft:ender_dust"
+    },
+    "C": {
+      "item": "kubejs:diamond_dust"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:ender_ingot"
+  }
+}

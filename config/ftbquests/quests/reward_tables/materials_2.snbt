@@ -1,0 +1,46 @@
+{
+	id: "2F9CF99440447485"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Materials 2"
+		string_id: "materials_2"
+	}
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{ count: 10, item: "minecraft:flint" }
+		{ count: 4, item: "immersiveengineering:coal_coke" }
+		{ count: 6, item: "minecraft:spider_eye" }
+		{ count: 5, item: "immersiveengineering:plate_steel" }
+		{ count: 64, item: "immersiveengineering:wire_copper" }
+		{ count: 13, item: "minecraft:ink_sac" }
+		{ count: 12, item: "minecraft:bone_meal" }
+		{ count: 12, item: "minecraft:sugar" }
+		{ count: 9, item: "minecraft:paper" }
+		{ item: "extendedcrafting:luminessence" }
+		{ count: 8, item: "minecraft:egg" }
+		{ count: 2, item: "minecraft:blaze_powder" }
+		{ count: 2, item: "minecraft:glowstone_dust" }
+		{ count: 3, item: "minecraft:book" }
+		{ count: 15, item: "minecraft:feather" }
+		{ count: 7, item: "minecraft:string" }
+		{ count: 7, item: "minecraft:slime_ball" }
+		{ count: 15, item: "minecraft:clay_ball" }
+		{ count: 4, item: "minecraft:leather" }
+		{ count: 4, item: "tetra:geode" }
+		{ count: 8, item: "minecraft:rabbit_hide" }
+		{ count: 4, item: "minecraft:ender_pearl" }
+		{ count: 15, item: "minecraft:coal" }
+		{ count: 14, item: "minecraft:gunpowder" }
+		{ count: 2, item: "minecraft:magma_cream" }
+		{ count: 8, item: "minecraft:bone" }
+		{ count: 7, item: "minecraft:charcoal" }
+	]
+	title: "Materials 2"
+	use_title: true
+}

@@ -1,0 +1,35 @@
+{
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+          {
+            "tag": "forge:plastic"
+          },
+          {
+            "tag": "industrialforegoing:machine_frame/simple"
+          },
+		  {
+            "tag": "forge:plastic"
+          },
+          {
+            "item": "minecraft:piston"
+          },
+          {
+            "item": "minecraft:piston"
+          },
+          {
+            "tag": "forge:gears/gold"
+          },
+          {
+            "item": "immersiveengineering:component_electronic_adv"
+          },
+          {
+            "tag": "forge:gears/gold"
+          }
+  ],
+  "inputFluid": "{Amount:1000,FluidName:\"pneumaticcraft:lubricant\"}",
+  "output": {
+    "count": 1,
+    "item": "industrialforegoing:laser_drill"
+  },
+  "processingTime": 1000
+}

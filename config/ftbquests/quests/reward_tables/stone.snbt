@@ -1,0 +1,11 @@
+{
+	id: "7009BCE9EB258656"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ count: 64, item: "minecraft:granite" }
+		{ count: 64, item: "minecraft:diorite" }
+		{ count: 64, item: "minecraft:andesite" }
+	]
+	title: "Stone"
+}

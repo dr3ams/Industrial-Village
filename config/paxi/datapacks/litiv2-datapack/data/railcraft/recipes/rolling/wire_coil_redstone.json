@@ -1,0 +1,20 @@
+{
+  "type": "railcraft:rolling",
+  "key": 
+  {
+    "r": {"item": "minecraft:redstone"},
+	"a": {"item": "immersiveengineering:wire_aluminum"},
+	"t": {"item": "immersiveengineering:stick_treated"}
+  },
+  "pattern": 
+  [
+	" a ",
+	"rtr",
+    " a "
+  ],
+  "processTime": 200,
+  "result": {
+    "item": "immersiveengineering:wirecoil_redstone",
+	"count": 4
+  }
+}

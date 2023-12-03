@@ -1,0 +1,952 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "first_steps"
+	group: "4CB4EEA3591AD759"
+	icon: {
+		Count: 1b
+		id: "natprog:flint_hatchet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0000000000000002"
+	images: [
+		{
+			alpha: 150
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:item/icon_pick"
+			rotation: -90.0d
+			width: 2.0d
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			alpha: 150
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:item/icon_cooking"
+			rotation: 0.0d
+			width: 2.0d
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			alpha: 150
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:item/icon_fight"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			alpha: 150
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:item/icon_furnace"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			alpha: 200
+			click: ""
+			corner: false
+			dev: false
+			height: 1.8929088277858175d
+			hover: [ ]
+			image: "litv3:textures/misc/first_steps.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 135.0d
+			width: 1.5d
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 135.0d
+			width: 1.5d
+			x: 16.0d
+			y: 0.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"- &2Leaves&r can be harvested without a tool for Sticks (this is a vanilla feature, but will be very important here)."
+				""
+				"- &7Sticks&r can also be picked up off the ground in twig piles by right clicking them."
+				""
+				"- &8Flint&r can be gained by picking up the Pebbles found on the ground. By holding a Pebble in both of your hands and holding right click you will nap the stones which has a chance to produce flint. "
+				""
+				"A Flint Hatchet can enable you to collect wood and build a crafting table."
+				""
+				"Hatchet is also used to craft planks. Put a Hatchet in the crafting window and a &nstripped log&r near it."
+			]
+			id: "0000000000000003"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000000465"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "1509B27B0D265017"
+					item: "minecraft:apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0000000000000004"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					id: "3948140C66C9D713"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:pebbles"
+						}
+					}
+					title: "Any #forge:pebbles"
+					type: "item"
+				}
+				{
+					id: "704796FEC7176415"
+					item: {
+						Count: 1b
+						id: "natprog:flint_hatchet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2CC1163904415114"]
+			id: "000000000000002C"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000000144"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "0000000000000145"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "000000000000002D"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "Furnace"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000003"]
+			description: [
+				"The crafting table will open you up to many new complex recipes. You can bookmark a recipe for faster access to it. Hover over item in JEI or an inventory and press A. You will see the item on the left of your inventory."
+				"Try it with an Axe because you may need a couple!"
+			]
+			id: "0000000000000030"
+			rewards: [{
+				id: "51F6F6898F97953E"
+				item: "minecraft:oak_door"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000031"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C2DCA3DA97C5C3B"]
+			id: "0000000000000042"
+			rewards: [{
+				id: "1220E6B66311E4B5"
+				item: "minecraft:cake"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 135L
+					id: "18DFC57A68AA1F75"
+					item: "kubejs:fireclay_brick"
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "14992362672090CB"
+					item: "minecraft:bricks"
+					type: "item"
+				}
+				{
+					count: 54L
+					id: "414CC8B50ED01470"
+					item: "minecraft:brick"
+					type: "item"
+				}
+			]
+			title: "Brick me up!"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["00000000000014E2"]
+			description: ["You are going to need a lot of this stuff."]
+			id: "0000000000000045"
+			rewards: [
+				{
+					id: "0000000000000175"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "790C7F39DA62040E"
+					item: "minecraft:mutton"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000046"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000045"]
+			description: ["I feel like this is the start of the whole reason that you are here."]
+			id: "0000000000000056"
+			rewards: [
+				{
+					id: "0000000000000060"
+					item: "immersiveengineering:manual"
+					type: "item"
+				}
+				{
+					id: "000000000000014A"
+					item: "minecraft:item_frame"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000057"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000056"]
+			description: ["Clang! Clang! Clang! I can make so much with this!"]
+			id: "0000000000000058"
+			rewards: [
+				{
+					id: "130AA973B7F65BE4"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "44248AFA28F6F539"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [
+				{
+					id: "0000000000000059"
+					item: "immersiveengineering:plate_iron"
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "27EF64B3ECA99B4A"
+					item: "immersiveengineering:plate_copper"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0000000000000058"
+				"0000000000000042"
+			]
+			description: [
+				"Place the Coke Brick in a 3x3x3 block and right-click with an Engineer's Hammer to form a Coke Oven. By placing coal into the oven it will create creosote oil."
+				""
+			]
+			icon: "immersiveengineering:cokebrick"
+			id: "000000000000005C"
+			rewards: [{
+				id: "419E679787369FF8"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					count: 27L
+					id: "000000000000005D"
+					item: "immersiveengineering:cokebrick"
+					type: "item"
+				}
+				{
+					id: "0000000000000333"
+					item: "immersiveengineering:coke"
+					type: "item"
+				}
+			]
+			title: "Coke Oven"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1F0DD2230C60451E"]
+			description: ["Watch out for lava when digging for these!"]
+			id: "0000000000000061"
+			rewards: [
+				{
+					id: "3DE96CFFE8E2EA95"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "0BDD06869D24A943"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "0000000000000062"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000058"]
+			description: ["Man I can carry so many liquids in this bucket!"]
+			id: "0000000000000073"
+			rewards: [{
+				id: "0000000000000182"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000074"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B1C0A1EAC1237B7"]
+			description: ["The Blast Furnace will allow you to start processing ores into ingots."]
+			id: "00000000000014E2"
+			rewards: [{
+				id: "55DAD9DEE7622F48"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000014E3"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			title: "Blast Furnace finally..."
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000002C"]
+			description: ["The Smoker will be you best friend to make sure that you don't starve before you can build a factory! It will cook food twice as fast as the standard furnace."]
+			id: "0B02FF3BDA40F2B5"
+			rewards: [{
+				id: "05E63EB345FAC638"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3F8E1A69149BFE0D"
+				item: "minecraft:smoker"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["27C56F118D65355C"]
+			description: ["Time to explore if I can custom make my own tools! Hammers can be made of a number of materials which can be checked by clicking on the hammer above."]
+			icon: {
+				Count: 1b
+				id: "immersiveengineering:pickaxe_steel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "071AD0BAC595B983"
+			rewards: [{
+				count: 3
+				id: "15573AA358FF0EDF"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&o&aSidequest with dedicated quest chapter&r&r"
+			tasks: [{
+				id: "2BE3F591A35A4350"
+				item: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+						"double/basic_hammer_right_material": "basic_hammer/oak"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "0e2bd288-18f9-4af3-8f1a-e6bab2b2f600"
+					}
+				}
+				type: "item"
+			}]
+			title: "Beginner Smith"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000030"]
+			description: ["The Basic Saw will allow you to make wood planks in a more efficent manner than by using an axe."]
+			id: "442FCE18B8D9F365"
+			rewards: [{
+				id: "5B5FFEE1018EC7BD"
+				item: "minecraft:stripped_oak_log"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69DD1171584971EB"
+				item: {
+					Count: 1b
+					id: "natprog:flint_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27C56F118D65355C"]
+			description: ["A very basic weapon you can create to protect yourself."]
+			id: "552DDC6A333AC9F3"
+			rewards: [
+				{
+					id: "4FD34DC7A670357F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "161CFAB452D98849"
+					item: "pneumaticcraft:bandage"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&o&aSidequest with dedicated quest chapter&r&r"
+			tasks: [{
+				id: "1936E9FF5F52B88F"
+				item: {
+					Count: 1b
+					id: "kubejs:flint_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				optional_task: true
+				type: "item"
+			}]
+			title: "Time to fight"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["27C56F118D65355C"]
+			id: "7516E82D481861D5"
+			rewards: [
+				{
+					count: 3
+					id: "01BB6F7812BEFFC0"
+					item: "minecraft:beef"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "615A3E5865B9304D"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "35488D6041DF0B4F"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&9&n                                                  &r&9               "
+				"This is the end of first quest chapter."
+				""
+				"Check 'Progression Overview' chapter for the next steps!"
+				"&9&n                                                  &r&9               "
+			]
+			icon: "kubejs:help"
+			id: "5C1938D7658FA976"
+			rewards: [{
+				id: "341C4A08B6CD0E78"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "circle"
+			subtitle: "&9Final goals of quest chapter are completed!&r"
+			tasks: [{
+				id: "62AB0127CFA9C0E6"
+				title: "Progression Overview"
+				type: "checkmark"
+			}]
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0000000000000073"]
+			description: [
+				"To progress further you will need Blast Furnace and to build it you need some materials from Nether."
+				""
+				"It's adviced to have at least Iron armour set when entering the Nether"
+			]
+			id: "2FF56076D4BCD060"
+			rewards: [
+				{
+					id: "5262493AB308D82C"
+					type: "xp"
+					xp: 700
+				}
+				{
+					id: "181FF263A0C27780"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79A73D24957B4264"
+					item: "pneumaticcraft:bandage"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Build, light and enter the Nether portal!"
+			tasks: [{
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+				id: "4AC95E4367435D7D"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000005C"]
+			description: ["This opens up so many engineering possibilities!"]
+			id: "7EC97FF3249B658C"
+			rewards: [{
+				id: "35CA99CD7E191089"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Form the Coke Oven multiblock"
+			tasks: [
+				{
+					advancement: "immersiveengineering:main/mb_cokeoven"
+					criterion: ""
+					id: "10489B302707C111"
+					type: "advancement"
+				}
+				{
+					id: "1ED4CC0E7C8B9121"
+					item: "immersiveengineering:creosote_bucket"
+					type: "item"
+				}
+			]
+			title: "Industrialization"
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000058"]
+			id: "1F0DD2230C60451E"
+			rewards: [{
+				id: "0470FA4C18BCE41F"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "160CC432BE17B445"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0000000000000073"]
+			id: "17D40C31AE0D09FD"
+			rewards: [{
+				id: "3B6B3E9660146B55"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&o&aSidequest with dedicated quest chapter&r&r"
+			tasks: [{
+				id: "1065A94C58810536"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			title: "All you can eat"
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7516E82D481861D5"]
+			id: "2CC1163904415114"
+			rewards: [{
+				id: "5C1CA408C27BB527"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "61650FE3B5E09B56"
+					item: {
+						Count: 1b
+						id: "kubejs:wooden_form"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "6765A8969158DE8F"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "3A2C2C18062F5AE6"
+					item: "kubejs:clay_brick_unfired"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "6E3B7209EB853EAC"
+					item: "kubejs:clay_brick"
+					type: "item"
+				}
+				{
+					id: "41FD953A0E400FDC"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["59CA822E9EFB571D"]
+			description: ["Now just need to throw that blend into the furnace..."]
+			id: "0B1C0A1EAC1237B7"
+			rewards: [{
+				id: "52D70F9E3DB60F47"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13D169708FE444A0"
+				item: "kubejs:primitive_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000002C"]
+			description: ["Seems like after mixing some materials together I can melt them into some sort of Primitive Alloy."]
+			id: "59CA822E9EFB571D"
+			rewards: [{
+				id: "25D02CCD43127368"
+				item: "farmersdelight:steak_and_potatoes"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 5L
+					id: "7870CD35560C3ADB"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "278C660DFE1ADBDC"
+					item: "kubejs:clay_dust"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "66810860759D5533"
+					item: "railcraft:coal_dust"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "65F64A06E50954D9"
+					item: "kubejs:primitive_blend"
+					type: "item"
+				}
+			]
+			title: "Primitive Blend"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54FD7DBCB9A1D11A"]
+			id: "6C2DCA3DA97C5C3B"
+			rewards: [{
+				id: "40385A5CA3B57E4F"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 270L
+					id: "0BB3DB18150A3821"
+					item: "kubejs:fireclay_brick_dust"
+					type: "item"
+				}
+				{
+					count: 135L
+					id: "4A722711AFA8AC3D"
+					item: "kubejs:fireclay_brick_unfired"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["000000000000002C"]
+			description: ["You can already start preparing materials for Coke Oven since you will a lot of them"]
+			id: "54FD7DBCB9A1D11A"
+			rewards: [{
+				id: "3F5BF7C1F9351EA5"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 90L
+					id: "375A697E7C6F7CE4"
+					item: "kubejs:clay_dust"
+					type: "item"
+				}
+				{
+					count: 90L
+					id: "7F28E87B50E843CB"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					count: 90L
+					id: "0D259FC116C41AA1"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Early game progression was intentionally made more challenging. This is done to create a sense of achievement and satisfaction when you overcome those initial hurdles and to appreciate the smaller challenges, such as building your first Furnace, and to provide a more rewarding experience when you eventually reach the point of launching a rocket to the Moon."
+				""
+				"In addition to slowing down early game progression, further recipes have been tweaked and adjusted. It was made to ensure that you will have a smoother progression curve and to create a sense of accomplishment as you advance through the pack."
+				""
+				"It should encourages you to strategize, problem-solve, and appreciate the journey of gradually unlocking new capabilities and achievements."
+			]
+			icon: "kubejs:help"
+			id: "7EC6A23D14C2256F"
+			rewards: [{
+				id: "00345009008D75C2"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1186B49DD489C66C"
+				type: "checkmark"
+			}]
+			title: "A bit complex early game recipes"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0000000000000030"]
+			id: "5D67117EDB491237"
+			rewards: [
+				{
+					id: "352DF36DF4EEB77E"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "06543027F38EAEDF"
+					item: "pneumaticcraft:bandage"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "70DAFABDF47104FF"
+				item: {
+					Count: 1b
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D67117EDB491237"]
+			id: "27C56F118D65355C"
+			rewards: [
+				{
+					id: "224029738F910BF3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "1A54237DBB706946"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E8FCB12ECD0BE42"
+				item: {
+					Count: 1b
+					id: "kubejs:flint_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+	]
+	title: "1. &aFirst Steps&r"
+}

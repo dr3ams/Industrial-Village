@@ -1,0 +1,11 @@
+{"type":"minecraft:crafting_shaped","category":"misc","key":{
+	"c":{"item":"kubejs:fireclay_brick"},
+	"m":{"item":"minecraft:bricks"},
+	"s":{"tag":"forge:ingots/brick"},
+	"p":{"item":"immersiveengineering:plate_copper"}
+	},
+	"pattern":
+	["ccc",
+	"cmc",
+	"sps"],
+	"result":{"count":1,"item":"immersiveengineering:cokebrick"},"show_notification":true}

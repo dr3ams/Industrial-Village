@@ -1,0 +1,39 @@
+{
+	id: "47597F72B1E4F9AF"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Junk 4"
+		string_id: "junk_4"
+	}
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{ count: 3, item: "minecraft:pearlescent_froglight" }
+		{ count: 3, item: "minecraft:verdant_froglight" }
+		{ count: 3, item: "supplementaries:deepslate_lamp" }
+		{ count: 3, item: "supplementaries:blackstone_lamp" }
+		{ item: "minecraft:glow_squid_spawn_egg" }
+		{ item: "minecraft:villager_spawn_egg" }
+		{ item: "minecraft:mooshroom_spawn_egg" }
+		{ item: "minecraft:ocelot_spawn_egg" }
+		{ item: "minecraft:parrot_spawn_egg" }
+		{ item: "minecraft:frog_spawn_egg" }
+		{ item: "supplementaries:enderman_head" }
+		{ count: 3, item: "minecraft:shroomlight" }
+		{ count: 3, item: "supplementaries:stone_lamp" }
+		{ count: 3, item: "minecraft:ochre_froglight" }
+		{ item: "minecraft:sculk_sensor" }
+		{ count: 64, item: "supplementaries:bomb" }
+		{ item: "simplehats:hatscraps_festive" }
+		{ item: "simplehats:hatscraps_easter" }
+		{ item: "simplehats:hatscraps_summer" }
+		{ item: "simplehats:hatscraps_halloween" }
+	]
+	title: "Junk 4"
+	use_title: true
+}

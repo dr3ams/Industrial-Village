@@ -1,0 +1,68 @@
+
+["Skill Points"]
+	#Range: 1 ~ 1000
+	"Maximum skill points" = 101
+	#Range: > 0
+	"First skill point cost" = 250
+	#Range: > 0
+	"Last skill point cost" = 90000
+	#You can set cost for each skill point instead
+	"Use skill points costs array" = false
+	#This list's size must be equal to maximum skill points.
+	"Levelup costs" = [250, 466, 671, 870, 1064, 1253, 1440, 1624, 1806, 1985, 2163, 2339, 2514, 2688, 2860, 3031, 3201, 3370, 3538, 3705, 3872, 4037, 4202, 4366, 4529, 4692, 4854, 5016, 5177, 5337, 5497, 5656, 5815, 5974, 6131, 6289, 6446, 6603, 6759, 6915, 7070, 7225, 7380, 7534, 7688, 7841, 7995, 8148, 8300, 8453, 8605, 8756, 8908, 9059, 9210, 9360, 9511, 9661, 9810, 9960, 10109, 10258, 10407, 10556, 10704, 10852, 11000, 11148, 11295, 11442, 11589, 11736, 11883, 12029, 12175, 12321, 12467, 12613, 12758, 12903, 13048, 13193, 13338, 13483, 13627, 13771, 13915, 14059, 14203, 14346, 14490, 14633, 14776, 14919, 15062, 15204, 15347, 15489, 15631, 15773]
+	#Disabling this will remove chat messages when you gain a skill point.
+	"Show chat messages" = false
+	#Warning: If you disable this make sure you make alternative way of getting skill points.
+	"Enable exprerience exchange for skill points" = true
+
+[Gems]
+	#Range: 0.0 ~ 1.0
+	"Base drop chance" = 0.05
+
+[Equipment]
+	#Range: 0 ~ 4
+	"Default Helmets Sockets" = 1
+	#Range: 0 ~ 4
+	"Default Chestplates Sockets" = 1
+	#Range: 0 ~ 4
+	"Default Leggings Sockets" = 0
+	#Range: 0 ~ 4
+	"Default Boots Sockets" = 1
+	#Range: 0 ~ 4
+	"Default Weapons Sockets" = 1
+	#Range: 0 ~ 4
+	"Default Shields Sockets" = 1
+	#Range: 0 ~ 4
+	"Default Rings Sockets" = 1
+	#Range: 0 ~ 4
+	"Default Necklaces Sockets" = 1
+	#You can remove sockets from items here
+	#Example: Blacklisting specific items: ["minecraft:diamond_hoe", "minecraft:golden_hoe"]
+	#Example: Blacklisting whole mod: ["<mod_id>:*"]
+	#Example: Blacklisting all items: ["*:*"]
+	"IDs of items that shouldn't have sockets" = []
+	#You can force items from other mods into equipment categories here
+	"Force into helmets category" = []
+	"Force into chestplates category" = []
+	"Force into leggings category" = []
+	"Force into boots category" = []
+	"Force into shields category" = []
+	"Force into melee weapons category" = []
+	"Force into ranged weapons category" = []
+
+["Amnesia Scroll"]
+	#How much levels (percentage) player lose using amnesia scroll
+	#Range: 0.0 ~ 1.0
+	"Amnesia scroll penalty" = 0.2
+	"Drop amnesia scrolls from the Ender Dragon" = true
+
+[Experience]
+	#Range: 0.0 ~ 1.0
+	"Grindstone experience multiplier" = 0.1
+
+[Mixtures]
+	#Range: 0.0 ~ 2.0
+	"Effects duration multiplier" = 1.0
+	#Range: 0.0 ~ 2.0
+	"Effects strength multiplier" = 1.0
+

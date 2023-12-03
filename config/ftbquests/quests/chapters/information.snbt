@@ -1,0 +1,679 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	default_quest_size: 2.0d
+	filename: "information"
+	group: ""
+	icon: "kubejs:help"
+	id: "06205F0004E690D7"
+	images: [{
+		alpha: 200
+		click: ""
+		corner: false
+		dev: false
+		height: 42.08695652173913d
+		hover: [ ]
+		image: "litv3:textures/misc/info.png"
+		rotation: 0.0d
+		width: 22.0d
+		x: 5.0d
+		y: 12.5d
+	}]
+	order_index: 1
+	quest_links: [
+		{
+			id: "05491EAFCF7FA4DE"
+			linked_quest: "47E2C8C90A0B7A20"
+			size: 2.0d
+			x: 11.0d
+			y: 23.0d
+		}
+		{
+			id: "40A185A6E98D656B"
+			linked_quest: "70B922895DB76796"
+			size: 2.0d
+			x: 11.0d
+			y: 13.0d
+		}
+		{
+			id: "1CFA262974DC579D"
+			linked_quest: "694FB313B46B2D9C"
+			size: 2.0d
+			x: 11.0d
+			y: 17.0d
+		}
+		{
+			id: "5601A0352705B94F"
+			linked_quest: "59CD1DCD8B422649"
+			size: 2.0d
+			x: 11.0d
+			y: 19.0d
+		}
+		{
+			id: "30B80103B8DAB646"
+			linked_quest: "009F78659E60A2F0"
+			size: 2.0d
+			x: 11.0d
+			y: 21.0d
+		}
+		{
+			id: "2A6C2506166A6706"
+			linked_quest: "6BD1098E89E87274"
+			size: 2.0d
+			x: 11.0d
+			y: 15.0d
+		}
+		{
+			id: "458A297788452FD5"
+			linked_quest: "0000000000000111"
+			size: 2.0d
+			x: -1.0d
+			y: 13.0d
+		}
+		{
+			id: "5947CA77437CC00B"
+			linked_quest: "665F96DFC5ED6667"
+			size: 2.0d
+			x: -1.0d
+			y: 15.0d
+		}
+		{
+			id: "09BC7265EDB8396C"
+			linked_quest: "00000000000001F0"
+			size: 2.0d
+			x: -1.0d
+			y: 17.0d
+		}
+		{
+			id: "221239EC16EC875E"
+			linked_quest: "0000000000000265"
+			size: 2.0d
+			x: -1.0d
+			y: 19.0d
+		}
+		{
+			id: "7F8F48CCC041A7AD"
+			linked_quest: "1DF036ED17B4AC91"
+			size: 2.0d
+			x: -1.0d
+			y: 21.0d
+		}
+		{
+			id: "3CE67F3BFFBE89BC"
+			linked_quest: "79E8DFEEBE8E3BC7"
+			size: 2.0d
+			x: -1.0d
+			y: 23.0d
+		}
+		{
+			id: "308AF350CEE3ADA6"
+			linked_quest: "366AE7509CC7707C"
+			size: 2.0d
+			x: -1.0d
+			y: 25.0d
+		}
+		{
+			id: "676B2687FCC5F2B2"
+			linked_quest: "710272398D8871F8"
+			size: 2.0d
+			x: 11.0d
+			y: 25.0d
+		}
+		{
+			id: "69AF895D254B6522"
+			linked_quest: "4B1D20C4C391EA08"
+			size: 2.0d
+			x: 4.0d
+			y: 23.0d
+		}
+		{
+			id: "12970A5A72D6CB2D"
+			linked_quest: "31355329CF220C94"
+			size: 2.0d
+			x: 6.0d
+			y: 23.0d
+		}
+		{
+			id: "5A7FAAA7828DC32D"
+			linked_quest: "0000000000000236"
+			size: 2.0d
+			x: 6.0d
+			y: 13.0d
+		}
+	]
+	quests: [
+		{
+			description: [
+				"Welcome to the Industrial Village modpack!"
+				""
+				"This is your guide/quest book. Here you can find some sort of guided progression with rewards and some explanations."
+			]
+			id: "0000000000000117"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "0000000000000118"
+				type: "dimension"
+			}]
+			title: "Hello There!"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"A majority of the quests in this pack will be completed by gaining the required item in your inventory. You will automatically get a pop up message in the top corner when this happens."
+				""
+				"Checkmark quest type(usually explaining stuff), such as this one, simply requires you to click the checkbox in the Tasks box to complete the quest (as a confirmation of reading :])."
+				""
+				"Quests with icon like below are usually means that there are dedicated chapter for such types of quests."
+				""
+				"{image:kubejs:item/icon_steam width:50 height:50 align:1}"
+				""
+				"Finally to collect any reward simply click on in it in the above Rewards box, as you can above, to get a torch for some light as you get going."
+			]
+			icon: "minecraft:writable_book"
+			id: "0000000000000F88"
+			rewards: [{
+				id: "0000000000000F8A"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				icon: "minecraft:writable_book"
+				id: "0000000000000F89"
+				title: "Quest Types"
+				type: "checkmark"
+			}]
+			title: "Quest Types and Rewards"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"How to use JEI (The mod that shows you all the game items on the right of the screen when in an inventory)"
+				""
+				"• Hovering over an item and pressing the \"R\" key (for Recipe) will display that items recipe."
+				"• Pressing the \"U\" key (for Use) shows what that item can be used to create through crafting grids and machines. "
+				"• To search by mod name use the \"@\" key before search in search box. (e.g. @notreepunch)"
+				"• To select the search box without clicking on it, the player can press Ctrl + F."
+				"• To bookmark a recipe (for easier crafting later, will also save in a menu on the left side of the inventory screen): Hover over the item + A."
+				""
+			]
+			id: "000000000000009B"
+			rewards: [{
+				id: "000000000000035C"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "In-game item and recipe browser"
+			tasks: [{
+				icon: "itemfilters:not"
+				id: "000000000000009C"
+				title: "Just Enough Items"
+				type: "checkmark"
+			}]
+			title: "Just Enough Items"
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"There are couple of new mechanics that this pack employs, descriptions of which you will find following this quest."
+				"You can always come back here to read them again."
+			]
+			icon: "minecraft:barrier"
+			id: "0000000000001231"
+			tasks: [{
+				id: "0000000000001232"
+				title: "New Mechanics"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			icon: "kubejs:skull"
+			id: "5E52B7B63D7E4B22"
+			subtitle: "TBA"
+			tasks: [{
+				id: "33ECF9DFA4320801"
+				title: "Difficult Caves"
+				type: "checkmark"
+			}]
+			title: "Difficult Mobs"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"To get started, gather some experience to acquire your first skill point."
+				""
+				"Then press O (default key, if it doesn't work - check your key bindings)."
+				""
+				"Then select your class but choose carefully, you cannot change it."
+				""
+				"You can path to other classes later if you think it is worth it."
+			]
+			icon: "kubejs:scaling"
+			id: "71D2F05B3D755273"
+			tasks: [{
+				id: "35A7831C8FB147A3"
+				title: "Passive Skill Tree"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"You died. That sucks. Never fear, your stuff won't disappear."
+				""
+				"With the Corpse mod, your inventory will remain on a corpse of your character model at the death point until your claim it. Right click your corpse to bring up its inventory and all your goodies back."
+				""
+				"After an hour of gametime your corpse will turn into a skeleton. Never fear, it still has your stuff."
+			]
+			icon: "kubejs:heart-half"
+			id: "250B7AC1DDF4BEA6"
+			rewards: [{
+				id: "1C2ACAED704EF526"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			subtitle: "Ouch, That Hurt..... Where's My Stuff?"
+			tasks: [{
+				id: "43CFD73C8201DDF4"
+				title: "Corpse"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000F88"]
+			icon: "kubejs:help"
+			id: "759565BD4CB7872D"
+			size: 1.0d
+			subtitle: "They contain useful info that may help you during your playthrough."
+			tasks: [{
+				id: "55399A3A9CF095CE"
+				type: "checkmark"
+			}]
+			title: "Info Quests"
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Please note that there are may be some issues and recipe inconsistencies. This is my oversight as it hard to check every item and block interaction."
+				""
+				"This pack was developed in the intervals of my free time and will be improved over time according to player's feedback."
+				""
+				"If you found something that seems strange to you please report it to github or discord."
+			]
+			icon: "kubejs:icon_exclamation"
+			id: "2A9DC8C72AD9AED0"
+			shape: "circle"
+			subtitle: "Understand and forgive"
+			tasks: [{
+				id: "5CCB77F4EFDC3569"
+				type: "checkmark"
+			}]
+			title: "Recipe issues and incompatibilities"
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			description: ["This chapter simply displays all the items or fluids transportation options you have."]
+			icon: "kubejs:help"
+			id: "43828153E1755F19"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "392BA2DA0ABFAA17"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "railcraft:steam_locomotive"
+				tag: { }
+			}
+			id: "4FE58F0B743992A3"
+			tasks: [
+				{
+					id: "3AD8E71C552A7506"
+					item: {
+						Count: 1b
+						id: "railcraft:steam_locomotive"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "062A25ADE031411B"
+					item: {
+						Count: 1b
+						id: "railcraft:iron_crowbar"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			icon: "immersiveengineering:minecart_reinforcedcrate"
+			id: "4F7F6AA4F9D9B705"
+			tasks: [
+				{
+					id: "28B77E0F54A5359D"
+					item: "railcraft:tank_minecart"
+					type: "item"
+				}
+				{
+					id: "0A77F9F76ED68EC4"
+					item: "immersiveengineering:minecart_woodencrate"
+					type: "item"
+				}
+				{
+					id: "10A62168F56548BC"
+					item: "immersiveengineering:minecart_reinforcedcrate"
+					type: "item"
+				}
+				{
+					id: "7C8AFF0C72B13D16"
+					item: "immersiveengineering:minecart_woodenbarrel"
+					type: "item"
+				}
+				{
+					id: "436B45F916CEFC1E"
+					item: "immersiveengineering:minecart_metalbarrel"
+					type: "item"
+				}
+			]
+			title: "Minecarts"
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			id: "13595964244E4A59"
+			tasks: [{
+				id: "6348DBCCA9903200"
+				item: {
+					Count: 1b
+					id: "railcraft:electric_locomotive"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 17.0d
+		}
+		{
+			icon: "railcraft:fluid_unloader"
+			id: "0405F6FBE9A6A7C0"
+			tasks: [
+				{
+					id: "0DA9234B7F689D61"
+					item: "railcraft:fluid_loader"
+					type: "item"
+				}
+				{
+					id: "288898BBABBF5FA9"
+					item: "railcraft:fluid_unloader"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 19.0d
+		}
+		{
+			icon: "railcraft:item_unloader"
+			id: "3A0A70CD001021F8"
+			tasks: [
+				{
+					id: "358A84452589BFA4"
+					item: "railcraft:item_loader"
+					type: "item"
+				}
+				{
+					id: "71B1D934B06F51DD"
+					item: "railcraft:item_unloader"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 19.0d
+		}
+		{
+			id: "373B809A4F086C24"
+			tasks: [{
+				id: "17BDC479D9A6A4AF"
+				item: "prettypipes:pipe"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 15.0d
+		}
+		{
+			id: "5EEB422DA9CF57DF"
+			tasks: [{
+				id: "0A87C0647B6576AC"
+				item: "ppfluids:fluid_pipe"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 17.0d
+		}
+		{
+			icon: "immersiveengineering:fluid_pipe"
+			id: "7767B244176C7E27"
+			tasks: [
+				{
+					id: "2F2E7872AA72F42C"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "3E0A4D3A628D4B8D"
+					item: "immersiveengineering:fluid_pump"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 21.0d
+		}
+		{
+			icon: "immersiveengineering:conveyor_basic"
+			id: "2B1319A5E508C08E"
+			subtitle: "Player + Item + Fluid"
+			tasks: [{
+				id: "683304533BD42377"
+				title: "Transportation"
+				type: "checkmark"
+			}]
+			title: "Transportation Options"
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			icon: "immersiveengineering:watermill"
+			id: "6E64B1B17F1AD1BB"
+			tasks: [{
+				id: "350E331D2C68A6C1"
+				title: "Power generation options"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			icon: "minecraft:chest"
+			id: "3BC390AEACCA7408"
+			tasks: [{
+				id: "359880B02E0AA920"
+				title: "Storage Options"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			description: [
+				"&9Refined Storage&r is a mass storage mod that offers a network-based storage system, allowing to store items and fluids on a massively expandable device network."
+				""
+				"Items and fluids can be stored in one of the many storage capabilities that the mod offers. Any storage devices connected to the same network are accessible through one simple Grid interface, allowing to access the inventories of many devices through a single unified GUI."
+			]
+			id: "1775E5F5A02A5AF4"
+			tasks: [{
+				id: "778E60BA016DAC19"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 29.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "minecolonies:build_goggles"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "64F9C670BE4CB4E9"
+			subtitle: "&o&9Check the dedicated quest chapter to found out more!&r&r"
+			tasks: [{
+				id: "7E7C8040F11EFFB1"
+				type: "checkmark"
+			}]
+			title: "Useful Gadgets"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			icon: "buildersaddition:bookshelf_oak"
+			id: "0F299FD28AF68E5B"
+			subtitle: "&o&9Check the dedicated quest chapter to found out more!&r&r"
+			tasks: [{
+				id: "0E924BD153C0060F"
+				type: "checkmark"
+			}]
+			title: "Functional Decor"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "33C9B15686901B6F"
+			tasks: [{
+				id: "01FD93D3232600A7"
+				item: "pneumaticcraft:transfer_gadget"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 21.0d
+		}
+		{
+			description: ["- add basic information in descriptions"]
+			icon: "kubejs:lightning"
+			id: "0FE83C15187559C3"
+			tasks: [{
+				id: "71CAC6C22D0DC0E0"
+				title: "TOFO"
+				type: "checkmark"
+			}]
+			title: "TODO"
+			x: -6.5d
+			y: 11.5d
+		}
+		{
+			description: [
+				"To claim a chunk &9open a world map&r (M) and &9right-click&r the chunk you want to claim."
+				""
+				"From the dropdown menu select '&9Claim Chunk&r'."
+				""
+				"If playing on a server you can also forceload a chunk by clicking on already claiming chunk and choosing '&9Forceload selected&r'"
+			]
+			icon: "kubejs:lock"
+			id: "1539FF1BB1B405C9"
+			tasks: [{
+				id: "7422BA6FEAA82318"
+				type: "checkmark"
+			}]
+			title: "Chunk Claiming"
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"To create a &2Team&r, use"
+				""
+				"&2/ftbteams party create [team_name]&r"
+				""
+				"Being in one Team allows multiple people to complete the same quests together."
+				"&9&n                                                  &r&9               "
+				"To create a &3Party&r, use"
+				""
+				"&3/openpac-parties create&r"
+				""
+				"Parties are related to chunk claiming and player's permission inside claimed chunks."
+			]
+			icon: "kubejs:star"
+			id: "750C1B65255EB146"
+			tasks: [{
+				id: "5631A0CD11BC7726"
+				title: "Team"
+				type: "checkmark"
+			}]
+			title: "Teams and Parties"
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Tetra is a modular tool mod that incorporates exploration into its higher level tools."
+				""
+				"Tetra will allow you to take your basic vanilla tools and upgrade them in a wide variety of ways that give bonuses to the tools or equipment."
+				"Once higher level tools are needed exploration will have to be undertaken to gain items for a forge from special dungeons made by an ancient advanced culture in cold biomes."
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/blackstone"
+					"double/basic_hammer_right_material": "basic_hammer/blackstone"
+					"double/basic_handle_material": "basic_handle/spruce"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "16dd392f-c9cd-4e3f-a691-35ca070cc648"
+				}
+			}
+			id: "0E57528AB581F03E"
+			rewards: [{
+				id: "56E1C31A20111211"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "&o&9Check the dedicated quest chapter to found out more!&r&r"
+			tasks: [{
+				id: "10703633DA79069A"
+				title: "Tetra"
+				type: "checkmark"
+			}]
+			title: "Modular Tools"
+			x: 1.0d
+			y: 1.0d
+		}
+	]
+	title: "&l&fInformation&r&r"
+}

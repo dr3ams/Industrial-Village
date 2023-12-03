@@ -1,0 +1,16 @@
+{
+  "type": "railcraft:rolling",
+  "key": 
+  {
+    "a": {"item": "extendedcrafting:black_iron_ingot"},
+	"s": {"item": "extendedcrafting:black_iron_ingot"}
+  },
+  "pattern": 
+  [
+    "as"
+  ],
+  "processTime": 400,
+  "result": {
+    "item": "extendedcrafting:black_iron_slate"
+  }
+}

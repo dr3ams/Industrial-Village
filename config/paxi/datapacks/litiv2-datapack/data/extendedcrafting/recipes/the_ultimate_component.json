@@ -1,0 +1,22 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "kubejs:advancedmixedmetalalloy"
+    },
+    "B": {
+      "item": "extendedcrafting:black_iron_slate"
+    },
+    "C": {
+      "item": "extendedcrafting:luminessence"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:ultimate_component"
+  }
+}

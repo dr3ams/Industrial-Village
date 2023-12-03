@@ -1,0 +1,19 @@
+{
+	"type":"immersiveengineering:alloy",
+	"input0":
+	{
+		"item":"minecraft:iron_ingot"
+	},
+	"input1":
+	{
+		"item":"minecraft:redstone"
+	},
+	"result":
+	{
+		"base_ingredient":
+		{
+			"item":"extendedcrafting:redstone_ingot"},
+			"count":1
+		},
+		"time":400
+	}

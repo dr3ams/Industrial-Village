@@ -1,0 +1,30 @@
+{
+  "type": "railcraft:crusher",
+  "ingredient": {
+    "item": "minecraft:gravel"
+  },
+  "output": [
+    {
+      "probability": 1.0,
+      "result": {
+        "count": 1,
+        "item": "minecraft:sand"
+      }
+    },
+    {
+      "probability": 0.02,
+      "result": {
+        "count": 1,
+        "item": "minecraft:gold_nugget"
+      }
+    },
+    {
+      "probability": 0.08,
+      "result": {
+        "count": 1,
+        "item": "minecraft:iron_nugget"
+      }
+    }
+  ],
+  "processTime": 200
+}

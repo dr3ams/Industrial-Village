@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "immersiveengineering:plate_iron"
+    },
+    "B": {
+      "item": "immersiveengineering:sheetmetal_copper"
+    }
+  },
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "result": {
+    "item": "railcraft:white_iron_tank_wall"
+  },
+  "show_notification": true
+}

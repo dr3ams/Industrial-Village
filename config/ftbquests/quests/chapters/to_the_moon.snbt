@@ -1,0 +1,801 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "to_the_moon"
+	group: "4CB4EEA3591AD759"
+	icon: {
+		Count: 1b
+		id: "ad_astra:tier_2_rocket"
+		tag: { }
+	}
+	id: "3D458789E86F4A38"
+	images: [
+		{
+			alpha: 200
+			click: ""
+			color: 0
+			corner: false
+			dev: false
+			height: 20.0d
+			hover: [ ]
+			image: "litv3:textures/misc/adastra.png"
+			order: 1
+			rotation: 175.0d
+			width: 20.0d
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "litv3:textures/misc/moon.png"
+			rotation: 0.0d
+			width: 10.373831775700936d
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.7d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 135.0d
+			width: 1.7d
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "simplehats:item/hats/floatingstar"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "simplehats:item/hats/floatingstar"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "simplehats:item/hats/floatingstar"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "simplehats:item/hats/floatingstar"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "simplehats:item/hats/floatingstar"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "simplehats:item/hats/floatingstar_e"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "simplehats:item/hats/lightning_eyes"
+			rotation: 0.0d
+			width: 10.0d
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "simplehats:item/hats/floatingstar_e"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "simplehats:item/hats/floatingstar_e"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "simplehats:item/hats/floatingstar_e"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "simplehats:item/hats/floatingstar_e"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "simplehats:item/hats/floatingstar_e"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 8.0d
+		}
+	]
+	order_index: 5
+	quest_links: [
+		{
+			id: "6097B05E44F2A0FE"
+			linked_quest: "000000000000073D"
+			shape: "hexagon"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			id: "64541C501C64C8F5"
+			linked_quest: "0000000000000618"
+			shape: "hexagon"
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			id: "0721F734D2D4DD1A"
+			linked_quest: "3C0DBDB29BF0B8CE"
+			shape: "hexagon"
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			id: "4BCB57292CFC2E75"
+			linked_quest: "37B19EFE9CEA550D"
+			shape: "gear"
+			size: 1.5d
+			x: 1.5d
+			y: 7.5d
+		}
+	]
+	quests: [
+		{
+			id: "0AA12A4B058DBD57"
+			rewards: [{
+				id: "4F75ED2FEB4BC342"
+				item: "ad_astra:astrodux"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "09DFEE970C2AA5FA"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["373760CCA2EE178C"]
+			id: "76366E70ECDAEC40"
+			rewards: [{
+				id: "3D15E6763D08CF6C"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "073363A0D25DD32B"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["77AA2922D34E8E5D"]
+			id: "136B10C64F0253DD"
+			rewards: [{
+				id: "47E56EBAE47AE085"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2512969ED2650B76"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["52C87F805A9DE239"]
+			id: "1DC2C2788E5044E5"
+			rewards: [{
+				id: "706DBB588DD4A3DA"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "73C11F69D07E0C66"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["205D0674D8E55682"]
+			id: "431474A7CA81A30E"
+			rewards: [{
+				id: "71B087B66EEDF3F4"
+				item: {
+					Count: 1b
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "epic_loot_crate"
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1F8DC7CEEB417F0C"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0525F9A938AF79AF"]
+			id: "44B83B138A53750A"
+			rewards: [{
+				id: "54C615C481C428C2"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08A6EB566868A414"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["06997195A8AA5337"]
+			id: "61982D9CF281C3A7"
+			rewards: [{
+				id: "46C02978C1BFE91D"
+				item: {
+					Count: 1b
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "uncommon_loot_crate"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E8DB109DB16E89D"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["74F5FB34AD726A1F"]
+			id: "7F417DC9F7D83CEC"
+			rewards: [{
+				id: "643CF37C7462D856"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "79416610A2B29169"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["61982D9CF281C3A7"]
+			id: "190DCA3C384BDB16"
+			rewards: [{
+				id: "4DEB5C36264EE7ED"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "3AC76A798B98A404"
+				item: "ad_astra:cryo_freezer"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["61982D9CF281C3A7"]
+			id: "1770E63887B0D90F"
+			rewards: [{
+				id: "320CA56E2C942D97"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "7B9F7BC7F3C83A38"
+				item: "ad_astra:energizer"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["77AA2922D34E8E5D"]
+			id: "19CD2DADC4326920"
+			rewards: [{
+				id: "435E54013FCC1F06"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7CF2F950703DB1B7"
+				item: "ad_astra:oxygen_distributor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0AA12A4B058DBD57"]
+			id: "4F8368D17D08A867"
+			rewards: [{
+				id: "61C1F678A6F7959D"
+				type: "xp"
+				xp: 750
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6C872FBB9C343717"
+				item: {
+					Count: 1b
+					id: "ad_astra:oxygen_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F8368D17D08A867"]
+			id: "70D7154ECFEB904B"
+			rewards: [{
+				id: "59FD2B4ECC34F7BB"
+				type: "xp"
+				xp: 750
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "035B1FBF1C84700F"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07FCBECB5169658A"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39BDC46E8B512280"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D8B45F122AF3EAB"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F8368D17D08A867"]
+			id: "7E065EF214E5120E"
+			rewards: [{
+				id: "5A7E08B8B4E07B13"
+				type: "xp"
+				xp: 750
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5AF90E9056FD5475"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"70D7154ECFEB904B"
+				"7E065EF214E5120E"
+			]
+			id: "373760CCA2EE178C"
+			rewards: [{
+				id: "11F2478018A852F3"
+				type: "xp"
+				xp: 750
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "79446A7AF1C60173"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["76366E70ECDAEC40"]
+			id: "0525F9A938AF79AF"
+			rewards: [{
+				id: "5F43A9318A897D58"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Land on the Moon"
+			tasks: [{
+				advancement: "ad_astra:moon"
+				criterion: ""
+				id: "1F9FBA65D7172AE6"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["136B10C64F0253DD"]
+			id: "06997195A8AA5337"
+			rewards: [{
+				id: "1E0FDA8D716A7E98"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Visit Mars"
+			tasks: [{
+				advancement: "ad_astra:mars"
+				criterion: ""
+				id: "0631B8DA0D595208"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DC2C2788E5044E5"]
+			id: "10E1CE20A53EE5DC"
+			rewards: [
+				{
+					id: "5DD22BDBE0A892C8"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "rare_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "355729078BCF3519"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Land on Mercury"
+			tasks: [{
+				advancement: "ad_astra:mercury"
+				criterion: ""
+				id: "29A0383062BC6FB8"
+				type: "advancement"
+			}]
+			x: 5.25d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1DC2C2788E5044E5"]
+			id: "74F5FB34AD726A1F"
+			rewards: [
+				{
+					id: "0ED2F2575132BB3D"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "rare_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C5D3E1D3DE239D1"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Land on Venus"
+			tasks: [{
+				advancement: "ad_astra:venus"
+				criterion: ""
+				id: "7FCEABDE6E04115C"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["44B83B138A53750A"]
+			id: "77AA2922D34E8E5D"
+			rewards: [{
+				id: "28EFE54CA056F9FF"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B972E2A406F4BBB"
+				item: "ad_astra:desh_plate"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["61982D9CF281C3A7"]
+			id: "52C87F805A9DE239"
+			rewards: [{
+				id: "45403E91BA60B13F"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "2F866E50B57106AE"
+				item: "ad_astra:ostrum_plate"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7F417DC9F7D83CEC"]
+			id: "205D0674D8E55682"
+			rewards: [{
+				id: "092829D2F6A036D2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7A494CE52696A747"
+				item: "ad_astra:calorite_plate"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["52C87F805A9DE239"]
+			id: "2194383D33D039AF"
+			rewards: [{
+				id: "13F9682168E508C0"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7E8FB243F416A361"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B46A0830D2B8158"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17DB4DE0227C9D9D"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BEF29B8CBDAFF9A"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["431474A7CA81A30E"]
+			id: "685F0630337F709F"
+			rewards: [{
+				id: "740D7C8D8C9C2DDD"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "Collect every globe"
+			tasks: [{
+				advancement: "ad_astra:challenger"
+				criterion: ""
+				id: "5D97FED1DAD79671"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+	]
+	subtitle: ["... and beyond!"]
+	title: "6. &8To The Moon...&r"
+}

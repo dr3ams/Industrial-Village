@@ -1,0 +1,26 @@
+{
+  "type": "extendedcrafting:shaped_flux_crafter",
+  "powerRequired": 1000000,
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "ad_astra:calorite_plate"
+    },
+    "B": {
+      "item": "extendedcrafting:ultimate_catalyst"
+    },
+    "C": {
+      "item": "extendedcrafting:crystaltine_component"
+    },
+    "D": {
+      "item": "advgenerators:upgrade_kit"
+    }
+  },
+  "result": {
+    "item": "advgenerators:turbine_kit_tier5"
+  }
+}

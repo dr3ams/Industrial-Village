@@ -1,0 +1,13 @@
+{
+  "type": "railcraft:blasting",
+  "cookingTime": 3840,
+  "experience": 0.0,
+  "ingredient": {
+    "item": "minecraft:bucket"
+  },
+  "result": {
+    "count": 2,
+    "item": "immersiveengineering:ingot_steel"
+  },
+  "slagOutput": 3
+}

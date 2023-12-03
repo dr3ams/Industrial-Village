@@ -1,0 +1,11 @@
+
+["Firefly spawn configurations"]
+	#Disabling this means the fireflies won't flash smoothly anymore, but you'll get a bit better performance
+	"Smooth texture fading" = true
+	#Weight means the change to get spawned, higher weight = higher change to spawn, 0 = disable spawning; Range: 1 ~ 1000; default: 12
+	"Firefly spawn weight" = 12
+	#Minimal count of fireflies spawn in a group; Range: > 0; default: 5
+	"Firefly min spawn count" = 5
+	#Maximal count of fireflies spawn in a group; Range: > 0; default: 10
+	"Firefly max spawn count" = 10
+

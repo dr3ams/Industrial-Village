@@ -1,0 +1,48 @@
+
+[general]
+
+	[general.eggs]
+		#Allow eggs from this mod to drop eggshell when broken. Default = true
+		createExoticEggshells = true
+		#Allow chicken eggs to drop eggshell when broken. Default = true
+		createChickenEggshells = true
+		#Allow exotic birds to lay eggs as items. Default = true
+		allowEggLaying = true
+		#Allow phoenix eggs to hatch phoenixes. If disabled, they hatch chickens. Default = true
+		allowPhoenixHatching = true
+		#How many ticks it takes for a bird to lay an egg. Default = 12000
+		#Range: > 6000
+		eggLayRate = 12000
+
+	[general.entity]
+		#Allow magpies to scavenge for items. Default = true
+		allowMagpieScavenging = true
+		#Allow kingfishers to collect fish. Default = true
+		allowKingfisherScavenging = true
+		#Allow tamed pelicans to collect fish. Default = true
+		allowPelicanScavenging = true
+		#Allow ostriches to be ridden. Default = true
+		allowOstrichRiding = true
+		#Allow phoenixes to be ridden. Default = true
+		allowPhoenixRiding = true
+		#Allow pigeon mail. Default = true
+		allowPigeonMail = true
+
+	[general.spawning]
+		#A list of dimensions that no birds are able to spawn in.
+		blacklistedSpawningDimensions = []
+		#Allow non-tamed/non-named birds to naturally despawn. Default = false
+		allowDespawning = false
+
+	[general.cages]
+		#Allow other non-hostile mobs to be caught by birdcages. Default = false
+		allowAnythingInCages = false
+
+	[general.nests]
+		#Allow eggs to regenerate in nests. Default = true
+		allowNestEggRegen = true
+
+	[general.birdbook]
+		#Allow experience to be obtained by logging birds. Default = true
+		allowBookExperience = true
+

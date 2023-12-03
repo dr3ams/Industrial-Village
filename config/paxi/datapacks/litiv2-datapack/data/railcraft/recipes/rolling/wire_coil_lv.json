@@ -1,0 +1,19 @@
+{
+  "type": "railcraft:rolling",
+  "key": 
+  {
+    "w": {"item": "immersiveengineering:wire_copper"},
+	"s": {"item": "immersiveengineering:stick_treated"}
+  },
+  "pattern": 
+  [
+	" w ",
+	"wsw",
+    " w "
+  ],
+  "processTime": 200,
+  "result": {
+    "item": "immersiveengineering:wirecoil_copper",
+	"count": 4
+  }
+}

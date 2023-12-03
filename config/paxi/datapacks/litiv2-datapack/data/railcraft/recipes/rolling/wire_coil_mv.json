@@ -1,0 +1,19 @@
+{
+  "type": "railcraft:rolling",
+  "key": 
+  {
+    "e": {"item": "immersiveengineering:wire_electrum"},
+	"s": {"item": "immersiveengineering:stick_treated"}
+  },
+  "pattern": 
+  [
+	" e ",
+	"ese",
+    " e "
+  ],
+  "processTime": 200,
+  "result": {
+    "item": "immersiveengineering:wirecoil_electrum",
+	"count": 4
+  }
+}

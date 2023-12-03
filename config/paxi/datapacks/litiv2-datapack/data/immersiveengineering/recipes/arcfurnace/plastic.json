@@ -1,0 +1,15 @@
+{"type":"immersiveengineering:arc_furnace","additives":[],
+
+"energy":2560,
+"input":{
+	"item":"industrialforegoing:dryrubber"
+	},
+	"results":[{
+		"item":"industrialforegoing:plastic"
+		}],
+		"secondaries":[{
+			"chance":0.3,
+			"output":{
+				"item":"industrialforegoing:plastic"
+				}}],
+				"time":100}

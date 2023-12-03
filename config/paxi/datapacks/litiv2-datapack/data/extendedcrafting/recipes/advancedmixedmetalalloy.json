@@ -1,0 +1,23 @@
+{
+  "type": "extendedcrafting:shaped_flux_crafter",
+  "powerRequired": 10000000,
+  "pattern": [
+    "ABC",
+    "ABC",
+    "ABC"
+  ],
+  "key": {
+    "A": {
+      "item": "ad_astra:desh_block"
+    },
+    "B": {
+      "item": "ad_astra:ostrum_block"
+    },
+    "C": {
+      "item": "ad_astra:calorite_block"
+    }
+  },
+  "result": {
+    "item": "kubejs:advancedmixedmetalalloy"
+  }
+}

@@ -1,0 +1,916 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "useful_gadgets"
+	group: "42BDFAE1D8AA1BD0"
+	icon: {
+		Count: 1b
+		id: "buildinggadgets2:gadget_copy_paste"
+		tag: { }
+	}
+	id: "148142477D94DBB2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Building Gadgets gives you a number of tools that will help you in building structures for use."
+				""
+				"Check your keybinds to make sure that you can access all the keys needed for the tools to work. Settings may be the most imporant."
+				""
+				"*Check out the Template Manager if you want to move copies of areas in/out of game*"
+			]
+			icon: "buildinggadgets2:template_manager"
+			id: "00000000000015D0"
+			rewards: [{
+				id: "0B80F0497108AD19"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "00000000000015D1"
+				title: "Building Gadgets"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["00000000000015D0"]
+			description: [
+				"The Building Gadget is a helpful tool that will allow you to make a number of basic shapes out of blocks to speed up building."
+				""
+				"Shift rightclick will set the block type to be used by the tool. The shape to be built can then be changed in the settings menu."
+			]
+			id: "00000000000015C8"
+			rewards: [{
+				id: "29EE1C58B6FC0532"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4A301D8416401FCF"
+				item: "buildinggadgets2:gadget_building"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["00000000000015D0"]
+			description: [
+				"The Copy Paste Gadget will allow you to copy an area and paste a identical area of blocks, if you have them in your inventory."
+				""
+				"Rightclick a block to set the first edge of the area. Then, shift rightclick to set the far edge of the area you want copied. Then flip the mode of the gadget, can be changed through the setting menu, and right click to paste the area, if you have the blocks."
+			]
+			id: "00000000000015CA"
+			rewards: [{
+				id: "5C9CD5548816244F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1F73323C4CBEFC70"
+				item: {
+					Count: 1b
+					id: "buildinggadgets2:gadget_copy_paste"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00000000000015D0"]
+			description: [
+				"The Destruction Gadget allows you to void a large area."
+				"*THIS DESTROYS BLOCKS, YOU WILL NOT GET THEM*"
+			]
+			id: "00000000000015CE"
+			rewards: [{
+				id: "7093E6B5D462ED53"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "548081A7E0F2B9DF"
+				item: "buildinggadgets2:gadget_destruction"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["00000000000015D0"]
+			description: [
+				"The Exchange Gadget will replace blocks with other blocks."
+				""
+				"Shift rightclick a block to set it as the block type to use as the replacement. Then by having the blocks in your inventory you can replace other blocks with it in a number of patterns."
+			]
+			id: "00000000000015CC"
+			rewards: [{
+				id: "159C7ED24E63A8D8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "065C80DC975C49E5"
+				item: "buildinggadgets2:gadget_exchanging"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			description: ["The Wrench is used to rotate blocks already placed in the world."]
+			id: "685B1BCA8B0F49D2"
+			rewards: [{
+				id: "49714FCECB268D9F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "213C1AB0435A3564"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			description: ["Rotation lock is enabled by pressing K by default on your keyboard. You will see a cube to the right of your crosshair. This makes all blocks you place face in the direction you were facing in when the lock was enabled. Press it again to change direction and again to turn it off."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:help"
+			}
+			id: "0FFBD03D30C69566"
+			rewards: [{
+				id: "360C1DC5EFEDFDBE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0262BB5E11609CFF"
+				title: "Press K"
+				type: "checkmark"
+			}]
+			title: "Rotation Lock"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			description: ["Ropes can be climbed like ladders. The ones from supplementaries can also be passed through."]
+			id: "0A9964481C4795E6"
+			rewards: [{
+				id: "42C472C575DABE68"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5238B45455B4BD8E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "supplementaries:ropes"
+					}
+				}
+				title: "Any #supplementaries:ropes"
+				type: "item"
+			}]
+			title: "Ropes"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			description: ["Bamboo spikes are useful traps to protect you base from mobs. They can be tipped with potion effects!"]
+			id: "53C3ED6F7249424E"
+			rewards: [{
+				id: "14F277372E532C77"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "08F5A815500B0372"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:bamboo_spikes"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			description: ["Cranks are used to give the exact redstone signal you want"]
+			id: "576E37A04D699593"
+			rewards: [{
+				id: "33B3871752DF3216"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A1A3F181EBDA173"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:crank"
+				}
+				type: "item"
+			}]
+			title: "The Crankonator"
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			description: ["The Cog Block can transmit redstone vertically!"]
+			id: "57114F4515F106CE"
+			rewards: [{
+				id: "3A430BC4DDFFD469"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "63A9040490A4F42D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:cog_block"
+				}
+				type: "item"
+			}]
+			title: "VERTICAL REDSTONE?!"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			description: ["stores liquids and captures tiny mobs"]
+			id: "7EFBB9A760690892"
+			rewards: [{
+				id: "66556F8F7F4B6CD0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "672CD462B12A618E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:jar"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7EFBB9A760690892"]
+			description: ["captures small mobs like chickens"]
+			id: "5A2297A4C2BB4A7B"
+			rewards: [{
+				id: "4B32183C7CD48C3C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "310209E691066890"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:cage"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: ["Teleports your nearby pets to you. Useful for getting them out of sticky situations"]
+			id: "74256E8E141D9EF7"
+			rewards: [{
+				id: "509FE6C98099608F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4FF1F19B6821D661"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:flute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["656E18F286DDF200"]
+			description: ["emits redstone signal when a key is used on it. The key can be renamed so only that key can be used."]
+			id: "5174D7892CC4EC9C"
+			rewards: [{
+				id: "4FAA12FC40B4C292"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A1B1FBCFAC41FE6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:lock_block"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			description: ["used to unlock lock blocks. You can put it in any curios slot."]
+			id: "656E18F286DDF200"
+			rewards: [{
+				id: "5273C994CDACA1E4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4249B6E1C43FD2C6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:key"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			description: ["You can set it to speak a message or show it in chat. Perfect for annoying your friends (or enemies!)"]
+			id: "2FC282739157D6DB"
+			rewards: [{
+				id: "5C63BED908716F27"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1A7E7AE3DDCC6D56"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:speaker_block"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			description: ["can place blocks from a distance!"]
+			id: "44018815222E8CA9"
+			rewards: [
+				{
+					id: "36A359779ED19C3F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:feather"
+					}
+					type: "item"
+				}
+				{
+					id: "726568AA20A12772"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:porkchop"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6179061DE2FEE6BC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:bow": {
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:slingshot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			description: ["rotates blocks and mobs standing on it"]
+			id: "6C27B8ECBE98B97A"
+			rewards: [{
+				id: "15BB4EA3ECCB72BA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "797AE75BADF88032"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:turn_table"
+				}
+				type: "item"
+			}]
+			title: "How the tables have turned..."
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			description: ["Launches you into the air when powered, or if you land on it from a high place"]
+			id: "33871879DC31D806"
+			rewards: [{
+				id: "5CFD1317C880D124"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "66E7DA28B84ED6F9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:spring_launcher"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["656E18F286DDF200"]
+			description: ["These strong doors can be locked with a key and can be opened with your hand."]
+			id: "1A01E6EA78F32D04"
+			rewards: [{
+				id: "3BA7B020E58B021D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "6F7ABF88AF32ECD6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:netherite_door"
+					}
+					type: "item"
+				}
+				{
+					id: "4B6B668B60B39E45"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:netherite_trapdoor"
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			description: ["These doors can be opened with hand but NOT redstone signals."]
+			id: "68339B382A047B89"
+			rewards: [{
+				id: "66EC406DC268927F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "36DC7505AA92B3D8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:gold_door"
+					}
+					type: "item"
+				}
+				{
+					id: "570D99BDE6FDF0C5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:gold_trapdoor"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: ["Emits light based on its redstone signal."]
+			id: "589AAF1FD992CE82"
+			rewards: [{
+				id: "143E8E1DACB3909C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0112A5D6B124D755"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:redstone_illuminator"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["04FC98FCA731C4A9"]
+			description: ["Can be placed on top of sticks to create a flagpole. Right-click a flagpole to raise the flag, hold sneak to lower it."]
+			id: "2031C7013AC15F55"
+			rewards: [{
+				id: "372CE5DD6B7F7920"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2490DAF5ACB32916"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:flag_white"
+				}
+				type: "item"
+			}]
+			title: "Flags"
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			description: ["Some Rod and Book Items like Sticks, Blaze Rods, and Prismarine Rods can be placed as blocks into the world. Search \"Placeable\" in JEI to see which items can be placed as blocks."]
+			id: "04FC98FCA731C4A9"
+			rewards: [{
+				id: "60EC8D83220928B9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "7CD771875A88A91A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:stick"
+					}
+					type: "item"
+				}
+				{
+					id: "7475B3400A33F530"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+			]
+			title: "Placeable Items"
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			description: ["Created by using a hoe on gravel."]
+			id: "10756B8268EF9D31"
+			rewards: [{
+				id: "55F5A596C4EF4053"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "784291CBD06E6041"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:raked_gravel"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["347C4ABF9BCB62A2"]
+			description: ["Safes are harder to break shulker boxes that can be only be opened by the player who placed them."]
+			id: "77BE21B5DAA11294"
+			rewards: [{
+				id: "442560F716CC0480"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0398D2D60687CD25"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:safe"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			description: ["A small early-game shulker box that can only hold 5 items. Carry too many in your inventory and you get slowed down"]
+			disable_toast: true
+			id: "347C4ABF9BCB62A2"
+			rewards: [{
+				id: "28B44301A475480A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "66388320D6EF886E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:sack"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			description: ["Throwable Explosive that only breaks grass, torches and other weak blocks. Aim at a mob's feet to send them flying!"]
+			id: "1B166861840A1636"
+			rewards: [{
+				id: "4F58824193EAB4B9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7360B900F1ABD942"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:bomb"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1B166861840A1636"]
+			description: [
+				"Rarer version of bomb that can only be found as loot and from a special trader..."
+				"More Powerful than bomb and sets mobs on fire!"
+			]
+			id: "6945746FAEFCA3CE"
+			rewards: [{
+				id: "020D7B0D493F43F7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5D76A5D34E9B507A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:bomb_blue"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			description: ["The \"fan\" of this modpack, bellows blow mobs in the direction they are facing when powered."]
+			id: "5EE6C136B7D19495"
+			rewards: [{
+				id: "37BEE23A03674B0F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2DA5B1A64D98FDA0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:bellows"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Rich Soil is an enhanced type of dirt, more fertile and durable to the elements."
+				""
+				"Rich Soil cannot be directly crafted. To make it, you must craft Organic Compost and place it into the world, letting it decompose over time."
+				""
+				"Organic Compost will decompose more easily under sunlight and moisture from nearby water, but doesn't actually hydrate like farmland. It can also be gently accelerated by placing activators next to it, in a 3x3x3 area centered on itself."
+				""
+				"Currently, the following blocks behave as activators for Organic Compost:"
+				"- Brown and Red Mushrooms, and their Colonies;"
+				"- Podzol and Mycelium;"
+				"- Other blocks of Organic Compost;"
+				"- Rich Soil, normal or tilled."
+			]
+			id: "56D3BC7D09F900CA"
+			rewards: [{
+				id: "67C73D9923F25E36"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6D4707A71CD44077"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: ["Fully absorbs your fall without dealing damage."]
+			id: "22E1A465FAF7EAA2"
+			rewards: [{
+				id: "35BDA875078347EF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2E02EF01A2AC0E72"
+				item: "farmersdelight:safety_net"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56D3BC7D09F900CA"]
+			description: [
+				"When any growable plant is placed on Rich Soil, its growth will be randomly boosted, similar to the usage of Bone Meal."
+				"Rich Soil can be tilled into Rich Farmland through the use of hoes. Rich Farmland is immune to mob trampling and won't unravel to Melons or Pumpkins, but requires hydration in order to boost crops."
+				""
+				"Mushrooms planted on Rich Soil under sufficient darkness will eventually form a Mushroom Colony. Such colonies will grow from 2 to 5 mushroom caps over time, dropping them when harvested."
+			]
+			id: "1729A82B2351DE53"
+			rewards: [{
+				id: "10C4FDAB183CAF6F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5229C5BEC0FE4C1B"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+	]
+	title: "&2Useful Gadgets&r"
+}

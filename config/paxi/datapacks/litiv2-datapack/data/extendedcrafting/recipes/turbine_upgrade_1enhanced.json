@@ -1,0 +1,23 @@
+{
+  "type": "extendedcrafting:shaped_flux_crafter",
+  "powerRequired": 1000000,
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "extendedcrafting:ender_catalyst"
+    },
+    "B": {
+      "item": "extendedcrafting:advanced_component"
+    },
+    "C": {
+      "item": "advgenerators:upgrade_kit"
+    }
+  },
+  "result": {
+    "item": "advgenerators:turbine_kit_tier2"
+  }
+}

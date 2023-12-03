@@ -1,0 +1,362 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "octagon"
+	filename: "force_fields"
+	group: "4EAE0C42246DB468"
+	icon: "mffs:projector"
+	id: "428A714163EA98BA"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mffs:textures/fluid/fortron.png"
+			rotation: 0.0d
+			width: 0.020833333333333332d
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mffs:textures/fluid/fortron.png"
+			rotation: 0.0d
+			width: 0.020833333333333332d
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "mffs:textures/fluid/fortron.png"
+			rotation: 0.0d
+			width: 0.2d
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "mffs:textures/fluid/fortron.png"
+			rotation: 0.0d
+			width: 0.2d
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "mffs:textures/fluid/fortron.png"
+			rotation: 0.0d
+			width: 0.2d
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "mffs:textures/fluid/fortron.png"
+			rotation: 90.0d
+			width: 0.2d
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "mffs:textures/fluid/fortron.png"
+			rotation: 90.0d
+			width: 0.2d
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			alpha: 155
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "litv3:textures/misc/force_cube_chapter.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 1.0d
+			y: -1.2d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "mffs:textures/fluid/fortron.png"
+			rotation: 90.0d
+			width: 0.2d
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mffs:block/force_field"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 0.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "69428EB806A0CC3D"
+			rewards: [{
+				id: "575B71D679C8066D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "55ECC59440C8A0FC"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "mffs:handbook"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["69428EB806A0CC3D"]
+			hide_dependency_lines: true
+			id: "42005C31401A099A"
+			rewards: [{
+				id: "192BCCD1507274BD"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "6C4C173DE70AF5E8"
+				item: "mffs:fortron_capacitor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["42005C31401A099A"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "623C845AAD43B7E2"
+			rewards: [{
+				id: "7A0F820CC80C6BBA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "08796B276DDBFB76"
+				item: "mffs:projector"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["42005C31401A099A"]
+			hide_dependency_lines: true
+			id: "3E228833CC8C6241"
+			rewards: [{
+				id: "4EDC350DD93A7A0A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7C343A8B8F761BDA"
+				item: "mffs:coercion_deriver"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["623C845AAD43B7E2"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1CE76EC960494821"
+			rewards: [{
+				id: "0C2F553847320C8E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2AD0BA253B0A69D2"
+				item: "mffs:interdiction_matrix"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["623C845AAD43B7E2"]
+			hide_dependency_lines: true
+			id: "00088050229EA380"
+			rewards: [{
+				id: "66AA6C910BE0C8EF"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "5F27107732416BC1"
+				item: "mffs:biometric_identifier"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			id: "470F6761BD1D7442"
+			rewards: [{
+				id: "2052F3B46399F101"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "15DF38D0C25DFEF7"
+				item: "mffs:scale_module"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "6EC0CD7F37A8789C"
+			rewards: [{
+				id: "36680B67DE82A42E"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "4800D5841B3CEB27"
+				item: "mffs:sphere_mode"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "439A3EA1D6C6E92D"
+			rewards: [{
+				id: "0EA5E81E83D37E83"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "5F0C186DC744D8DF"
+				item: "mffs:speed_module"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "4BFDC5EADE7DC6A2"
+			rewards: [{
+				id: "4FCDCEF6E1B37E44"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "4979580B4D786DFC"
+				item: "mffs:shock_module"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "0A5EE943D1918DC2"
+			rewards: [{
+				id: "748F98B68E3B05A8"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "1B1FE16FFBCAFE5E"
+				item: "mffs:glow_module"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "745D490D131D801E"
+			rewards: [{
+				id: "22A77A398FDB00AE"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "56EF7A3E086D36ED"
+				item: "mffs:stabilization_module"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "302DF76BEAB32C0A"
+			rewards: [{
+				id: "15D14FF11280553C"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "78467365169608EC"
+				item: "mffs:camouflage_module"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: ["- add text(at least basic)"]
+			icon: "kubejs:lightning"
+			id: "79FE550EE236DE72"
+			tasks: [{
+				id: "1EC679A8945D219D"
+				title: "todo"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+	]
+	title: "Force Fields"
+}

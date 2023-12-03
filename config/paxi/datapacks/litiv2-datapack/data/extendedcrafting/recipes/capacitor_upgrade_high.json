@@ -1,0 +1,29 @@
+{
+  "type": "extendedcrafting:shaped_flux_crafter",
+  "powerRequired": 5000000,
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "ad_astra:calorite_plate"
+    },
+    "B": {
+      "item": "extendedcrafting:ultimate_catalyst"
+    },
+    "C": {
+      "item": "extendedcrafting:crystaltine_catalyst"
+    },
+    "D": {
+      "item": "advgenerators:upgrade_kit"
+    },
+    "E": {
+      "item": "industrialforegoing:machine_frame_supreme"
+    }
+  },
+  "result": {
+    "item": "advgenerators:capacitor_kit_tier3"
+  }
+}

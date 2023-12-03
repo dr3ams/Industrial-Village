@@ -1,0 +1,939 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "storage"
+	group: "4EAE0C42246DB468"
+	icon: "kubejs:chest"
+	id: "3C5503700A3470D0"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 10.0d
+		hover: [ ]
+		image: "litv3:textures/misc/storage.png"
+		rotation: 0.0d
+		width: 12.178861788617885d
+		x: -2.0d
+		y: -0.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["48D9056DDE58832C"]
+			id: "6467F1F232F9DD67"
+			rewards: [
+				{
+					id: "1612AC8AA1AA079A"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "38946A0C234B033C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "6CA7449EFCF0BE75"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 12
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "024AF2FE3776A5D1"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6467F1F232F9DD67"]
+			id: "505D5D5258983F9E"
+			rewards: [
+				{
+					id: "419072CF7F002C30"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "2FC30219A32EDA77"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0D65063094B595B3"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 6
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "06FF7520893F649F"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["505D5D5258983F9E"]
+			id: "4643DCF8052DED30"
+			rewards: [
+				{
+					id: "0D8CA6DE66C166C2"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "0B3257AF7809ED05"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "037E77EB50923D7E"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3647F2A2539232D2"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["486014CD2A837708"]
+			id: "6FFB315B53D77C06"
+			rewards: [
+				{
+					id: "445251D11C8AE0EC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "02C2946703E7EA1D"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "47F56F71790EC75D"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "378EF9C1BF3E8B09"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
+					}
+					id: "sophisticatedbackpacks:crafting_upgrade"
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.5d
+		}
+		{
+			id: "486014CD2A837708"
+			rewards: [{
+				id: "70D0F5F39CBA6C74"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3590383963FD3C82"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["486014CD2A837708"]
+			id: "2D871A1AA98301BA"
+			rewards: [
+				{
+					id: "66A714A213A81242"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "58F8AF89D3613FC6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7AB85208CB71FF70"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "093D8801192208FB"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["486014CD2A837708"]
+			id: "056DE2F6D3CBD844"
+			rewards: [
+				{
+					id: "3C127343CBFBE658"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3DF2FFF583F13247"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "4435593D6B57A89C"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5705D47E04C47238"
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			id: "6FF0CFAB17FEE6B6"
+			rewards: [{
+				id: "7BFD84C89DECBBF3"
+				item: "kubejs:copper_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "31D9B2EC82719E12"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5FF093DB7AF16ACC"]
+			id: "74FDF9EB8A5A2783"
+			rewards: [
+				{
+					id: "1A68E35631DDCE7F"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "rare_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31C590FA3BAC453B"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "3690FF57647683A5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "3031F920EB366F10"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6FF0CFAB17FEE6B6"]
+			id: "5FF093DB7AF16ACC"
+			rewards: [
+				{
+					id: "2DD9C83934B46B68"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "01BFD51A96EBB20B"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "2BA1664B7D8A1411"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FD41CC92131D98F"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "61F4F842195823E2"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["74FDF9EB8A5A2783"]
+			id: "65FD322E1FD69FA6"
+			rewards: [
+				{
+					id: "287E115B9A8DFDC9"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "7FDDEA6BDA4D638B"
+					item: "minecraft:diamond"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0C4FB6EDA98FFF9C"
+					item: "minecraft:emerald"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "546794C063319A01"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "21DBB0106673CB6F"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["486014CD2A837708"]
+			id: "66E58F7757452A10"
+			rewards: [
+				{
+					id: "7B0D1AEC19B95D6C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7F1C23E1F8BA1631"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "2603DE7A791FF866"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "78EA893C2A6F9B91"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["009F78659E60A2F0"]
+			id: "56FE6C65EF970DF6"
+			rewards: [{
+				id: "0B8C5958A50B4BFA"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "1CFD8B0F6D4183BE"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -3.25d
+		}
+		{
+			description: [
+				"Simple vanilla style storage mod. Basically adds a block that allows to connect multiple chests in 1 network which can be accessed via Terminal."
+				""
+				"If you're familiar with Tom's Simple Storage mod - in this pack it was heavily nerfed to encourage use of Refined Storage system."
+			]
+			id: "009F78659E60A2F0"
+			rewards: [{
+				id: "755612B7BC480181"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "7E4FE74EB2E1F0C9"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["009F78659E60A2F0"]
+			id: "6D4A7DDAAD5FE02E"
+			rewards: [{
+				id: "590B7084755B23E1"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "291A16009C9D19AA"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["6BD1098E89E87274"]
+			id: "48D9056DDE58832C"
+			rewards: [{
+				id: "0CA561E2BE0323C5"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "309BD46664AECFE5"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:iron_backpack"
+					tag: {
+						contentsUuid: [I;
+							-1492292003
+							-1123070347
+							-1832218643
+							2092363079
+						]
+						inventorySlots: 54
+						upgradeSlots: 2
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&2- Backpack in its item form&r"
+				"Can be accessed using a key press (by default B)"
+				"Renders on player when put in their chest slot"
+				"Curios compatibility makes it possible to wear and render the backpack when put in “Back” slot"
+				""
+				"&2- Backpack can also be placed in world&r"
+				"Shift right clicking the backpack on the ground puts it down"
+				"When in world player can use it the same way they would use a chest"
+				"Shift right clicking the backpack on the ground with empty hand picks it back up or it can also be brokend and picked up as any other item"
+				""
+				"&2- Backpacks can be upgraded&r"
+				"5 tiers - leather, iron, gold, diamond, netherite"
+				"Each of the tiers adds more storage slots and more upgrade slots"
+				""
+				"&2- Loot / Mob Spawning&r"
+				"Occasionally backpacks and some upgrades can be found in loot chests"
+				"And even though rare, mobs can also spawn with backpacks on them sometimes with a bit of loot in those and sometimes they would even play a tune"
+			]
+			id: "6BD1098E89E87274"
+			rewards: [{
+				id: "118FC50B36F7BECE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6996E9E95ED55FD3"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:backpack"
+					tag: {
+						contentsUuid: [I;
+							1511259863
+							-1472314117
+							-1415040077
+							-1622273180
+						]
+						inventorySlots: 27
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&4The Railcraft Tank&r is an expandable multi-block structure that holds a large amount of liquid. "
+				""
+				"Valid dimensions are 3x3, 5x5, 7x7 or 9x9, from 4 up to 8 blocks tall. Railcraft Tank blocks may be crafted from &1Iron&r or &8Steel&r. "
+				""
+				"- &1Iron tanks&r are made of Iron Tank Walls, Iron Tank Gauges and Iron Tank Valves, and can hold 16,000 millibuckets of liquid for each block in the structure. "
+				""
+				"- &8Steel tanks&r are constructed from Steel Tank Walls, Steel Tank Gauges, and Steel Tank Valves, and can hold 32,000 mB. Steel Tanks are thus much more efficient, but Steel is harder to obtain and requires a Blast Furnace."
+				""
+				"&9Construction&r: The frame of a Railcraft Tank must be constructed of &2Tank Wall&r blocks. The inside must be empty and the walls may be filled in with any of the tank blocks. &2Valves&r allow the tank to interact with other machines and Fluid Pipes. The tank will form into a single structure once all the outer walls are complete, and nothing is inside, including players, blocks and floating entities."
+			]
+			id: "47E2C8C90A0B7A20"
+			rewards: [{
+				id: "008E6DFDF4774A48"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 26L
+					id: "54BEA5851B2829E6"
+					item: "railcraft:white_iron_tank_wall"
+					type: "item"
+				}
+				{
+					id: "56B1ECCDBA9E6E5C"
+					item: "railcraft:white_iron_tank_valve"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "0BE42E86177B62C3"
+					item: "railcraft:white_iron_tank_gauge"
+					type: "item"
+				}
+			]
+			title: "Iron and Steel Fluid Tanks"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"There are four fluid storage tanks, imaginatively titled the Small Tank, the Medium Tank, the Large Tank, and the Huge Tank. While Liquid Hoppers are also suitable for fluid storage, these tanks provide denser storage and some useful stacking functionality, and don't automatically transfer fluids (although they can push fluids if a Dispenser Upgrade) is added."
+				""
+				"All four types of tank can be stacked vertically with each other, and formed into a sort-of-multiblock. To do this, right-click the tank with a Wrench; wrenching the top half will attempt to join the tank to the tank above, and vice versa for the tank below. Once tanks are stacked, any fluid in (If the fluid has a density of < 0, it will move up rather than down)higher tanks will automatically flow down to lower tanks, assuming there is space."
+			]
+			id: "70B922895DB76796"
+			rewards: [{
+				id: "6CC17114657808F6"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2B38716FF1FF8D46"
+					item: "pneumaticcraft:small_tank"
+					type: "item"
+				}
+				{
+					id: "5F1582A58493D411"
+					item: "pneumaticcraft:medium_tank"
+					type: "item"
+				}
+				{
+					id: "2259515143CE6DC4"
+					item: "pneumaticcraft:large_tank"
+					type: "item"
+				}
+				{
+					id: "0547064F482B6B68"
+					item: "pneumaticcraft:huge_tank"
+					type: "item"
+				}
+			]
+			title: "Fluid Tanks"
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			id: "668C63E53BD59BFD"
+			rewards: [{
+				id: "71775B151407293C"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "316F580C57D30181"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				title: "Any #functionalstorage:drawer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["668C63E53BD59BFD"]
+			id: "4F8A03A862AB0A7C"
+			rewards: [{
+				id: "3B8CDA729BBA984F"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CB3B273F86FBF04"
+				item: "functionalstorage:framed_1"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["668C63E53BD59BFD"]
+			id: "1771B9124C8A8252"
+			rewards: [{
+				id: "273072BD5C13C4AA"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "222D913E4F73F67F"
+				item: "functionalstorage:configuration_tool"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["668C63E53BD59BFD"]
+			id: "00A390C4B14E4C80"
+			rewards: [{
+				id: "11D2B5594687AE4A"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22CDC99E33985776"
+				item: "functionalstorage:copper_upgrade"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["00A390C4B14E4C80"]
+			id: "3994696F1AEA61F6"
+			rewards: [{
+				id: "4A6785793FB48DFA"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E903F5B3D1D010E"
+				item: "functionalstorage:gold_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3994696F1AEA61F6"]
+			id: "038BFCBDD1E54874"
+			rewards: [{
+				id: "4C41615F364A9B5D"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55954ABDE3A4EFC9"
+				item: "functionalstorage:diamond_upgrade"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["038BFCBDD1E54874"]
+			id: "053B17AF77A81C52"
+			rewards: [{
+				id: "4F08677104759F04"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "028F260E8E31A6F0"
+				item: "functionalstorage:netherite_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["668C63E53BD59BFD"]
+			id: "2820AB8B8EE672CE"
+			rewards: [{
+				id: "4732C2C6CD4DF4B4"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2B7F917406E4E9F9"
+					item: "functionalstorage:collector_upgrade"
+					type: "item"
+				}
+				{
+					id: "4E8AFC98C6243025"
+					item: "functionalstorage:puller_upgrade"
+					type: "item"
+				}
+				{
+					id: "448CDCDC122C729E"
+					item: "functionalstorage:pusher_upgrade"
+					type: "item"
+				}
+				{
+					id: "63279C0C74C4285A"
+					item: "functionalstorage:void_upgrade"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["486014CD2A837708"]
+			id: "5B153368B6883C4D"
+			rewards: [{
+				id: "3FDFBB6121BC30B3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5EE33855D53CEEC8"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["486014CD2A837708"]
+			id: "286E7C1F491E7A81"
+			rewards: [{
+				id: "0DE6B3DF6F2F4771"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "427A43DB65029337"
+				item: "sophisticatedbackpacks:filter_upgrade"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["486014CD2A837708"]
+			id: "65CCAFACE018F0A4"
+			rewards: [{
+				id: "48A9D56A754DD7A4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4E7EF15E8E51AE5F"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["486014CD2A837708"]
+			id: "5372153B6F543748"
+			rewards: [{
+				id: "22B9209A9EF7010F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "24B41A9022733527"
+				item: "sophisticatedbackpacks:void_upgrade"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["486014CD2A837708"]
+			id: "6919420BBE48B7DE"
+			rewards: [{
+				id: "268535E463ACD2B3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3F11617B3D323A81"
+				item: "sophisticatedbackpacks:restock_upgrade"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["486014CD2A837708"]
+			id: "23115F25C8A03135"
+			rewards: [{
+				id: "54D3ABF0BA44B0C6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3E652B1CA92F8FD1"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["486014CD2A837708"]
+			id: "60A1705A9F48DA5E"
+			rewards: [{
+				id: "4B5C4603DA82D9F1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "757D99AC89E7A800"
+				item: "sophisticatedbackpacks:refill_upgrade"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Used to store liquid in item form. "
+				""
+				"- Right-clicking it on an accepting machine will move the liquid from the Jerrycan to the machine's tank. "
+				"- Right-clicking it on any other block will pour (place) the liquid into the world."
+				""
+				"The Jerrycan cannot be filled by simply right-clicking liquids. It can, however, be filled in a Bottling Machine."
+			]
+			id: "710272398D8871F8"
+			rewards: [{
+				id: "224046868D0827A3"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A1966B7A294FED9"
+				item: "immersiveengineering:jerrycan"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"&lItems:&r"
+				"&2The Silo&r is a 3x3x7 multi-block that will store 41,472 items (the size of 24 Chests). They, however, all must be the same item."
+				""
+				"Items can be piped into the top block, and removed through the bottom block. Removal of items requires a Redstone signal."
+				""
+				"&2The Silo&r is fairly simple to make. The first layer contains one Iron Sheetmetal, with a Treated Wood Fence in each diagonal. The next five layers contain a 3x3 doughnut shaped Iron Sheetmetal platform, topped by the seventh and final layer, a 3x3 solid layer of Iron Sheetmetal."
+				""
+				"This uses 4 Treated Wood Fences and 50 Iron Sheetmetal total."
+				""
+				"{image:litv3:textures/misc/sheetmetalsilo.png width:100 height:100 align:1}"
+				"After it is fully arranged, the player must right-click the bottom-center Iron Sheetmetal of any side of the multi-block with an Engineer's Hammer, then the multi-block is complete."
+				"{@pagebreak}"
+				"&lFluids:&r"
+				"&9The Tank&r is a 3x3x5 multi-block that will store 512,000 mB (512 Buckets). "
+				"The first layer contains one Iron Sheetmetal, with a Treated Wood Fence in each diagonal. The next three layers contain a 3x3 doughnut shaped Iron Sheetmetal platform, topped by the fifth and final layer, a 3x3 solid layer of Iron Sheetmetal."
+				""
+				"This uses 4 Treated Wood Fences and 34 Iron Sheetmetal total."
+				"{image:litv3:textures/misc/sheetmetaltank.png width:100 height:100 align:1}"
+				"After it is fully arranged, the player must right-click the Iron Sheetmetal at the bottom center of any side (not the sheetmetal on the fence layer) with an Engineer's Hammer, then the multi-block is complete."
+				""
+				"Liquids can be piped into the top or bottom blocks. For liquid to be removed a redstone signal is required, additionally, a Fluid Pump (Immersive Engineering) can be used to speed up the output."
+			]
+			id: "59CD1DCD8B422649"
+			rewards: [{
+				id: "795C70C5FF43922D"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BA494CD39E5A07F"
+				item: "immersiveengineering:sheetmetal_iron"
+				type: "item"
+			}]
+			title: "Immersive Silos and Tanks"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"The &6Wooden Storage Crate&r is a block added by Immersive Engineering. It is like a Chest, but when broken, all of the items are kept."
+				""
+				"The &9Wooden Barrel&r is similar to the Wooden Storage Crate, except it is for storing liquids(12,000 mB), not items."
+				""
+				"The &1Metal Barrel&r is similar to the Wooden Barrel, except it can store \"&4hot&r\" and \"&cgas&r\" liquids."
+			]
+			id: "694FB313B46B2D9C"
+			tasks: [
+				{
+					id: "42B9E5DF231C61D5"
+					item: "immersiveengineering:crate"
+					type: "item"
+				}
+				{
+					id: "2A6C2F7442E258F0"
+					item: "immersiveengineering:wooden_barrel"
+					type: "item"
+				}
+				{
+					id: "3C4EC4513787D838"
+					item: "immersiveengineering:metal_barrel"
+					type: "item"
+				}
+			]
+			title: "Crates and Barrels"
+			x: 0.0d
+			y: 4.5d
+		}
+	]
+	title: "Storage"
+}

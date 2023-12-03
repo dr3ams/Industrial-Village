@@ -1,0 +1,132 @@
+
+[recipes]
+	#Makes all anvil tool repairs always cost 1 level of XP
+	enableCheapAnvilRepair = false
+	#Allows you to throw things into specific fluids to convert them - by default this is just Concrete Powder this feature can be extended using Data Packs.
+	enableFluidConversionRecipes = true
+
+[item]
+
+	[item.tooltips]
+		#Show tool durability on item hover
+		#Allowed Values: NEVER, WITH_SHIFT, ALWAYS
+		durabilityTooltipSetting = "WITH_SHIFT"
+
+		[item.tooltips.food]
+			#Modifies the color of a tooltip for a food that gives no effects on consumption.
+			#Uses HEX Web Colors which you can pick from here: https://dv2ls.com/colpic
+			foodTooltipColor = "#00AA00"
+			#Show food hunger & saturation on item hover
+			#Allowed Values: NEVER, WITH_SHIFT, ALWAYS
+			foodTooltipSetting = "WITH_SHIFT"
+			#Modifies the color of a tooltip for a food that gives buffs on consumption.
+			#Uses HEX Web Colors which you can pick from here: https://dv2ls.com/colpic
+			foodTooltipPositiveColor = "#AA00AA"
+			#Modifies the number of hunger & saturation points rendered (specifically for Hunger Strike).
+			#The original hunger value is multiplied by this value, so 42x means 2 times as much hunger/saturation will render, and 0.5 means half as much hunger/saturation will render.
+			#Range: 0.0 ~ 3.4028234663852886E38
+			foodTooltipMultiplier = 1.0
+			#Modifies the color of a tooltip for a food that gives debuffs on consumption.
+			#Uses HEX Web Colors which you can pick from here: https://dv2ls.com/colpic
+			foodTooltipNegativeColor = "#AA0000"
+			#Modifies the color of the saturation tooltip.
+			#Uses HEX Web Colors which you can pick from here: https://dv2ls.com/colpic
+			foodTooltipSaturationColor = "#AA0000"
+			#If a food has a custom color, use that color instead of the defined color regardless of the buffs/debuffs the food gives
+			useOriginalFoodTooltipColor = true
+
+#All changes made here require a game restart.
+[mixins]
+	#If enabled, this tweak prevents cactus from destroying items that run into it
+	enableCactusItemProtection = true
+	#If enabled, allows splash potions of water to behave the same as throwing an item in water via V-Tweaks' Fluid Conversion Recipes
+	enableSplashPotionTweak = true
+
+[world]
+	#Disables thunder storms, fixing glitched lighting from thunder and other side-effects
+	enableStormTweak = false
+
+	[world.peacefulsurface]
+		#Peaceful Surface will only apply on nights whose moon phases are contained in this list (by default, all nights except for New Moons are going to be peaceful).
+		#Options can include: FULL, WANING_GIBBOUS, LAST_QUARTER, WANING_CRESCENT, NEW, WAXING_CRESCENT, FIRST_QUARTER, WAXING_GIBBOUS
+		moonPhasesToApplyTo = ["FULL", "WANING_GIBBOUS", "LAST_QUARTER", "WANING_CRESCENT", "WAXING_CRESCENT", "FIRST_QUARTER", "WAXING_GIBBOUS"]
+		#Prevents mobs from spawning above sea level unless it's a new moon
+		enablePeacefulSurface = false
+		#The lowest Y-level which mobs will be prevented from spawning
+		#Range: > -2147483648
+		peacefulSurfaceMinY = 60
+
+[client]
+	#Enable colored particles for challenger mobs (dependent on particle setting as well)
+	enableChallengerMobParticles = true
+	#If enabled, all bees will always be half-sized. Does not affect breeding or hitboxes
+	enableSmallBees = false
+
+[block]
+	#Allows for uneaten cake to drop on break
+	enableCakeDrop = true
+	#Allows the player to re-light certain blocks like Candles and Campfires (defined by the block using the `lit` blockstate) using torches or other items in the tag `vtweaks:ignition_item`
+	enableTorchLighting = true
+	enableCropTweaks = true
+
+	[block.chopdown]
+		#Trees fall down (like, actually not just like lumbering). Credit to Ternsip's impl (https://www.curseforge.com/minecraft/mc-mods/chopdown)
+		enableTreeChopDown = true
+		#The radius that this tweak will use to attempt to find leaves. Set this to a large number to detect larger trees (may cause lag)
+		#Range: > 1
+		chopdownSearchRadius = 64
+		#If set to true, ChopDown will only work when the player is using the right tool for the log
+		requiresRightTool = false
+		#The number of logs above the one broken to trigger the chopdown effect
+		#Range: > 1
+		chopDownLogRequirement = 3
+
+[entity]
+	#If set to "OWNER", this will prevent owners of pets from attacking their own pet. If set to "ALL", this prevents all players from attacking anyone's pet
+	#Allowed Values: DISABLED, OWNER, ALL
+	enablePetFriendlyFireTweak = "OWNER"
+	#Allows any vtweaks:clear_glass, or glow ink sac, to be activated on an item frame while sneaking to make the item frame transparent or glowing respectively.
+	enableItemFrameTweak = true
+	#The amount of time (in Milliseconds) between plucks. Defaults to 10 minutes.
+	#Range: 1 ~ 9223372036854775807
+	featurePluckingCooldown = 600000
+	#Allows chicken feathers to be plucked w/ shears
+	enableFeatherPlucking = true
+	#When any Creeper (or entity with EntityType tag #forge:creepers) explodes, all blocks destroyed will plop back into place after a few seconds!
+	ungriefCreepers = true
+
+	[entity.challengers]
+		#A data-driven way to make some special mobs with abilities, effects, specialized loot and more!
+		enableChallengerMobs = true
+		#This controls the overall chance for V-Tweaks to attempt converting a monster to a Challenger.
+		#This chance is applied before any Challenger Mob weights or entity filters.
+		#Range: 0.0 ~ 1.0
+		challengerMobGlobalChance = 0.25
+
+	[entity.trader]
+		#Whether or not to show a silly message when interacting with a trader that has that player's items
+		enableFlavorText = true
+		#If enabled, any valuable tools / items lost forever via Cactus, Lava, Void, etc. might be found by the next Wandering Trader and put up for sale!
+		#Valuable items are determined by the vtweaks:valuable tag and, if the item can be enchanted and the config option wanderingTraderRecoverySaveUnenchantedGear is set to true, is enchanted.
+		wanderingTraderRecoveryEnabled = true
+		#The chance that a given Wandering Trader will offer lost valuables for sale
+		#Range: 0.0 ~ 1.0
+		chanceToSellValuable = 0.4
+		#The maximum number of a player's lost items will be sold by a Wandering Trader each visit
+		#Range: > 1
+		numItemsToRestore = 5
+		#The minimum amount of emeralds a recovered item should cost
+		#Range: 1 ~ 128
+		minEmeraldCost = 24
+		#Determines if a destroyed #vtweaks:valuable should still be saved if it *can* be enchanted but isn't
+		saveUnenchantedGear = false
+		#The maximum amount of emeralds a recovered item should cost
+		#Range: 1 ~ 128
+		maxEmeraldCost = 92
+
+[player]
+	#Feather Falling IV or above directs 100% of fall damage to boots
+	enableFeatherFallTweak = true
+	#Prevents any drops dropped by the player on death from despawning
+	enablePlayerDeathDropSafety = true
+
