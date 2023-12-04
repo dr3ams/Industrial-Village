@@ -32,7 +32,7 @@
 		#A list of dimensions that no birds are able to spawn in.
 		blacklistedSpawningDimensions = []
 		#Allow non-tamed/non-named birds to naturally despawn. Default = false
-		allowDespawning = false
+		allowDespawning = true
 
 	[general.cages]
 		#Allow other non-hostile mobs to be caught by birdcages. Default = false
@@ -40,7 +40,7 @@
 
 	[general.nests]
 		#Allow eggs to regenerate in nests. Default = true
-		allowNestEggRegen = true
+		allowNestEggRegen = false
 
 	[general.birdbook]
 		#Allow experience to be obtained by logging birds. Default = true

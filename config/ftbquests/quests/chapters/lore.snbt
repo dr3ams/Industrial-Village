@@ -22,6 +22,7 @@
 	quests: [
 		{
 			description: ["{image:litv3:textures/misc/chapter1.png width:200 height:270 align:1}"]
+			hide: false
 			icon: "kubejs:manuscript"
 			id: "38D62AD4153E9EF6"
 			shape: "hexagon"
@@ -40,6 +41,8 @@
 				"38D62AD4153E9EF6"
 				"0000000000000030"
 			]
+			description: ["{image:litv3:textures/misc/chapter1-2.png width:200 height:270 align:1}"]
+			hide: true
 			id: "7C1599092DBC5729"
 			tasks: [{
 				id: "7F9BE03FF39C3E4E"
@@ -50,7 +53,12 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["38D62AD4153E9EF6"]
+			dependencies: [
+				"38D62AD4153E9EF6"
+				"0000000000000267"
+			]
+			description: ["{image:litv3:textures/misc/chapter2.png width:200 height:270 align:1}"]
+			hide: true
 			id: "6B0F4A9F83967152"
 			tasks: [{
 				id: "7825AC741F6A80AF"
@@ -62,6 +70,7 @@
 		}
 		{
 			dependencies: ["6B0F4A9F83967152"]
+			hide: true
 			id: "412835BF3F6B4DC1"
 			tasks: [{
 				id: "054E52A4D30DEB55"
@@ -73,6 +82,7 @@
 		}
 		{
 			dependencies: ["412835BF3F6B4DC1"]
+			hide: true
 			id: "66E791C285547D86"
 			tasks: [{
 				id: "6AC6D403B141426A"
@@ -84,6 +94,7 @@
 		}
 		{
 			dependencies: ["412835BF3F6B4DC1"]
+			hide: true
 			id: "0159C5DEED07FEC9"
 			tasks: [{
 				id: "2C68B09021E82462"
@@ -95,6 +106,7 @@
 		}
 		{
 			dependencies: ["0159C5DEED07FEC9"]
+			hide: true
 			id: "72505DB5F71F405B"
 			tasks: [{
 				id: "54E5355B578C5F8D"
@@ -106,6 +118,7 @@
 		}
 		{
 			dependencies: ["0159C5DEED07FEC9"]
+			hide: true
 			id: "3D7326961768AD41"
 			tasks: [{
 				id: "007E962929316E57"
@@ -117,6 +130,7 @@
 		}
 		{
 			dependencies: ["3D7326961768AD41"]
+			hide: true
 			id: "7F10B3D67DF72393"
 			tasks: [{
 				id: "70867495E3CD1C0D"

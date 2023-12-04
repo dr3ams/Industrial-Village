@@ -10,7 +10,7 @@ allowInternetAccess:true
 #INGAME SETTINGS (DO NOT EDIT!)
 updateNotification:true
 minimap:true
-caveMaps:2
+caveMaps:0
 caveZoom:1
 showWaypoints:true
 showIngameWaypoints:true

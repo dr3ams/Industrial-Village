@@ -71,6 +71,7 @@
 			y: -2.0d
 		}
 		{
+			alpha: 150
 			click: ""
 			corner: false
 			dev: false
@@ -81,6 +82,18 @@
 			width: 14.176663031624862d
 			x: 2.5d
 			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "refinedstorage:block/controller/cutouts/purple"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.5d
+			y: 6.0d
 		}
 	]
 	order_index: 7

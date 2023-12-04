@@ -111,7 +111,19 @@
 			image: "ftbquests:block/barrier_open"
 			rotation: 135.0d
 			width: 1.5d
-			x: 11.5d
+			x: 13.0d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.5d
+			x: 8.0d
 			y: 3.5d
 		}
 		{
@@ -136,19 +148,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: 6.5d
-			y: 5.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.5d
-			hover: [ ]
-			image: "ftbquests:tasks/input_only"
-			rotation: 0.0d
-			width: 1.5d
-			x: 6.5d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			click: ""
@@ -171,7 +171,7 @@
 			image: "ftbquests:block/barrier_open"
 			rotation: 135.0d
 			width: 1.5d
-			x: 11.5d
+			x: 13.0d
 			y: 5.5d
 		}
 		{
@@ -183,8 +183,21 @@
 			image: "ftbquests:block/barrier_open"
 			rotation: 135.0d
 			width: 1.5d
-			x: 15.5d
+			x: 17.0d
 			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "49250D827A91E3CE"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "simplehats:item/hats/fireworks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 24.5d
+			y: 3.0d
 		}
 		{
 			click: ""
@@ -202,26 +215,13 @@
 		{
 			click: ""
 			corner: false
-			dependency: "49250D827A91E3CE"
-			dev: false
-			height: 2.0d
-			hover: [ ]
-			image: "simplehats:item/hats/fireworks"
-			rotation: 0.0d
-			width: 2.0d
-			x: 21.0d
-			y: 3.0d
-		}
-		{
-			click: ""
-			corner: false
 			dev: false
 			height: 1.5d
 			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 0.0d
 			width: 1.5d
-			x: 17.5d
+			x: 19.0d
 			y: 3.5d
 		}
 	]
@@ -273,7 +273,7 @@
 				item: "ad_astra:desh_ingot"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.5d
 			y: 5.0d
 		}
 		{
@@ -285,7 +285,7 @@
 				item: "ad_astra:ostrum_ingot"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 11.0d
 			y: 5.0d
 		}
 		{
@@ -305,7 +305,7 @@
 				type: "item"
 			}]
 			title: "&l&6Chapter 6: To The Moon...&r&r"
-			x: 15.5d
+			x: 17.0d
 			y: 3.5d
 		}
 		{
@@ -317,7 +317,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -357,7 +357,7 @@
 			}]
 			title: "&l&6Starting chapter 4: Growing Industry...&r&r"
 			x: 6.5d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5166D999425B7EB7"]
@@ -367,7 +367,7 @@
 				item: "industrialforegoing:machine_frame_simple"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.5d
 			y: 7.0d
 		}
 		{
@@ -390,7 +390,7 @@
 				type: "item"
 			}]
 			title: "&l&6Chapter 4: Growing Industry&r&r"
-			x: 11.5d
+			x: 13.0d
 			y: 3.5d
 		}
 		{
@@ -513,7 +513,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 9.5d
 			y: 3.5d
 		}
 		{
@@ -541,7 +541,7 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
+			x: 11.0d
 			y: 3.5d
 		}
 		{
@@ -563,7 +563,7 @@
 				item: "industrialforegoing:dissolution_chamber"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.5d
 			y: 6.0d
 		}
 		{
@@ -592,10 +592,25 @@
 					item: "refinedstorage:quartz_enriched_iron"
 					type: "item"
 				}
+				{
+					id: "0A8AE84D89EB4DE6"
+					item: "refinedstorage:basic_processor"
+					type: "item"
+				}
+				{
+					id: "522F87B37247F0C8"
+					item: "refinedstorage:improved_processor"
+					type: "item"
+				}
+				{
+					id: "6E6A0B31CDDCEA3F"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
 			]
 			title: "&l&6Starting chapter 5: Advanced Storage...&r&r"
 			x: 6.5d
-			y: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["00000000000000FD"]
@@ -655,7 +670,7 @@
 				""
 				"2. Craft &2Processors&r needed for the next chapters."
 				"&9&n                                                  &r&9               "
-				"&oYou can setup basic Refined Storage storage right after this chapter(if you have available resources and energy production. But the end goal of Chapter 5 is to be able to access the items wirelessly and have an autocrafter which will be available later.&r"
+				"&oYou can setup basic Refined Storage storage right after this chapter(if you have available resources and energy production. But the end goal of Chapter 5 is to be able to access the items wirelessly(which will be available later) and have an autocrafter.&r"
 			]
 			id: "4F7A84F3D7495BF7"
 			shape: "octagon"
@@ -663,18 +678,38 @@
 			subtitle: "&9Marks the end of Chapter 3"
 			tasks: [
 				{
-					id: "2E0A2E0425AA2655"
-					item: "refinedstorage:basic_processor"
+					id: "47D0BA539BBA93CB"
+					item: "pneumaticcraft:assembly_platform"
 					type: "item"
 				}
 				{
-					id: "1DFD88EFB5C1279E"
-					item: "refinedstorage:improved_processor"
+					id: "0375D647633FCACC"
+					item: "pneumaticcraft:assembly_controller"
 					type: "item"
 				}
 				{
-					id: "7C3A84345075E2F4"
-					item: "refinedstorage:advanced_processor"
+					id: "0E8E8AF178367AD1"
+					item: "pneumaticcraft:assembly_drill"
+					type: "item"
+				}
+				{
+					id: "6453E8FF97BDCDA8"
+					item: "pneumaticcraft:assembly_io_unit_export"
+					type: "item"
+				}
+				{
+					id: "0112C773909B5284"
+					item: "pneumaticcraft:assembly_io_unit_import"
+					type: "item"
+				}
+				{
+					id: "7C7B0ACC8C378BC2"
+					item: "pneumaticcraft:assembly_laser"
+					type: "item"
+				}
+				{
+					id: "4D7C630EFA7A22C0"
+					item: "pneumaticcraft:assembly_program_laser"
 					type: "item"
 				}
 			]
@@ -683,7 +718,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["4F7A84F3D7495BF7"]
+			dependencies: ["0320C7A266333D96"]
 			id: "5F99535BC525DE96"
 			shape: "gear"
 			tasks: [{
@@ -692,7 +727,7 @@
 				type: "item"
 			}]
 			title: "&l&6Starting chapter 6: To The Moon...&r&r"
-			x: 6.5d
+			x: 8.0d
 			y: 3.5d
 		}
 		{
@@ -703,7 +738,7 @@
 				"00000000000002BF"
 			]
 			description: [
-				"&oYou can setup basic Refined Storage storage right after chapter 3(if you have available resources and energy production. But the end goal of this chapter is to be able to access the items wirelessly and have an autocrafter.&r"
+				"&oYou can setup basic Refined Storage storage right after chapter 3(if you have available resources and energy production. But the end goal of this chapter is to be able to access the items wirelessly(which will be available later) and have an autocrafter.&r"
 				"&9&n                                                  &r&9               "
 				"1. Craft &2Wireless Transmitter&r, &2Wireless Crafting Grid&r, &2Network Transmitter&r and &2Receiver&r, &2Crafter&r"
 				"&9&n                                                  &r&9               "
@@ -718,7 +753,7 @@
 				type: "item"
 			}]
 			title: "&l&6Chapter 5: Advanced Storage&r&r"
-			x: 11.5d
+			x: 13.0d
 			y: 5.5d
 		}
 		{
@@ -746,7 +781,7 @@
 					type: "dimension"
 				}
 			]
-			x: 13.5d
+			x: 15.0d
 			y: 3.5d
 		}
 		{
@@ -873,14 +908,14 @@
 			id: "647E148A640721A1"
 			shape: "circle"
 			size: 0.5d
-			subtitle: "&oDon't be too confused because chapters 4,5,6 intersects between each other.&r"
+			subtitle: "&oDon't be too confused because chapters 4,5,6 intersecting between each other.&r"
 			tasks: [{
 				id: "53CD2D6CD8C58C6B"
 				type: "checkmark"
 			}]
 			title: "Progression Intersection"
-			x: 3.0d
-			y: 2.75d
+			x: 2.5d
+			y: 2.25d
 		}
 		{
 			dependencies: ["13BDB1E18E02B0DC"]
@@ -892,7 +927,7 @@
 				type: "item"
 			}]
 			title: "&l&6Starting chapter 7: Advanced Power...&r&r"
-			x: 17.5d
+			x: 19.0d
 			y: 3.5d
 		}
 		{
@@ -911,7 +946,7 @@
 				}
 			]
 			title: "Back to Basics"
-			x: 16.5d
+			x: 18.0d
 			y: 5.0d
 		}
 		{
@@ -940,7 +975,7 @@
 				}
 			]
 			title: "The End?"
-			x: 21.5d
+			x: 23.0d
 			y: 3.5d
 		}
 		{
@@ -951,7 +986,7 @@
 				item: "advgenerators:fuel_turbine_controller"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 19.0d
 			y: 5.0d
 		}
 		{
@@ -962,7 +997,7 @@
 				item: "advgenerators:syngas_controller"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 19.0d
 			y: 6.0d
 		}
 		{
@@ -973,7 +1008,7 @@
 				item: "advgenerators:exchanger_controller"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 19.0d
 			y: 7.0d
 		}
 		{
@@ -984,7 +1019,7 @@
 				item: "advgenerators:steam_turbine_controller"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 19.0d
 			y: 8.0d
 		}
 		{
@@ -995,7 +1030,7 @@
 				item: "kubejs:advancedmixedmetalalloy"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 21.0d
 			y: 3.5d
 		}
 		{

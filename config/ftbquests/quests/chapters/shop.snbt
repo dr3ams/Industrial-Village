@@ -61,7 +61,7 @@
 			dev: false
 			height: 5.0d
 			hover: [ ]
-			image: "merchantmarkers:textures/entity/villager/markers/goblin_trader.png"
+			image: "industrialforegoing:block/villager_trade_exchanger_front"
 			rotation: 0.0d
 			width: 5.0d
 			x: -2.0d
@@ -432,6 +432,42 @@
 			}]
 			x: 4.0d
 			y: 2.0d
+		}
+		{
+			id: "6B6E9C447185C371"
+			rewards: [{
+				id: "3F3044EAD51E36C3"
+				item: {
+					Count: 1b
+					id: "buildinggadgets2:template"
+					tag: {
+						RepairCost: 0
+						copyuuid: [I;
+							1579141910
+							566185898
+							-1607122395
+							1194016243
+						]
+						display: {
+							Name: "{\"text\":\"Starter House #1\"}"
+						}
+						templatename: ""
+						uuid: [I;
+							-139362742
+							-133872591
+							-1840386860
+							-1607076828
+						]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "64E868B81ECF3C3F"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 4.0d
 		}
 	]
 	title: "&l&fCoins Exchange&r&r"

@@ -3117,6 +3117,7 @@
 		}
 		{
 			dependencies: ["0000000000000267"]
+			description: ["It seems like the only way to make Compressed Iron is with Arc Furnace until you get to Pressure Chamber."]
 			id: "51FE0E6E0D715EC4"
 			shape: "gear"
 			size: 1.5d

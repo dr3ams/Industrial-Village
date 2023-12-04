@@ -52,8 +52,8 @@
 			image: "kubejs:item/icon_processor"
 			rotation: 0.0d
 			width: 2.0d
-			x: 22.5d
-			y: 4.5d
+			x: 24.0d
+			y: 6.0d
 		}
 		{
 			click: ""
@@ -66,19 +66,6 @@
 			width: 2.0d
 			x: -3.5d
 			y: -1.0d
-		}
-		{
-			click: ""
-			color: 0
-			corner: false
-			dev: false
-			height: 2.0d
-			hover: [ ]
-			image: "kubejs:item/icon_rocket"
-			rotation: 0.0d
-			width: 2.0d
-			x: 25.5d
-			y: 7.0d
 		}
 		{
 			click: ""
@@ -127,18 +114,6 @@
 			width: 1.7d
 			x: 24.0d
 			y: 4.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.7d
-			hover: [ ]
-			image: "ftbquests:tasks/input_only"
-			rotation: 135.0d
-			width: 1.7d
-			x: 24.0d
-			y: 7.5d
 		}
 		{
 			click: ""
@@ -703,18 +678,11 @@
 			dependencies: ["0E61E6DB14B53B82"]
 			description: ["Plastic Sheets are produced by placing a bucket or tank of Molten Plastic into an inventory with a Heat Frame attached, and chilling the Heat Frame, ideally to below -80C (the colder the better). Molten Plastic will be consumed from the bucket or tank, and you will have a chance for a second Plastic Sheet for each 1000mB of Molten Plastic consumed."]
 			id: "4ECA8387C0B80330"
-			rewards: [
-				{
-					id: "68E48C00A54563A5"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "4AF0B69C841F028F"
-					item: "aquaculture:lockbox"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "68E48C00A54563A5"
+				type: "xp"
+				xp: 100
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "41D7701AD28908C6"
@@ -819,20 +787,20 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3598EC582CB9CFC1"]
 			description: [
-				"testTo be able to craft higher tier materials, you'll need an Assembly System; a collection of Assembly Machines. These machines communicate with each other when they're horizontally adjacent. Only one machine of each type can exist (with the exception of the Assembly IO Unit, see below). The assembly line runs on compressed air, but you only need to suuply air to the Assembly Controller to power the whole system."
+				"To be able to craft higher tier materials, you'll need an &5Assembly System&r; a collection of Assembly Machines. These machines communicate with each other when they're horizontally adjacent. Only one machine of each type can exist (with the exception of the Assembly IO Unit, see below). The assembly line runs on compressed air, but you only need to &9supply&r air to the &9Assembly Controller&r to power the whole system."
 				""
 				"The IO Unit is the connection between inventories and the Assembly Platform. This robot arm can reach diagonally. The IO Unit can either export finished items, or import items to be used in crafting. Any inventory can be used: vanilla chests or modded inventory blocks."
 				""
-				"The Assembly Platform is a worktable for the other Assembly Machines. It is used to hold items in place when drilling/lasering. The Assembly Platform is best positioned centrally, as all other machines need to access it."
+				"The &5Assembly Platform&r is a worktable for the other Assembly Machines. It is used to hold items in place when drilling/lasering. The Assembly Platform is best positioned centrally, as all other machines need to access it."
 				""
-				"The Assembly Drill is one of the Assembly Machines which do the actual work. Its diamond drillhead is able to drill through the toughest materials. The Assembly Drill can not reach diagonally, so it must be located directly adjacent to an Assembly Platform."
+				"The &5Assembly Drill&r is one of the Assembly Machines which do the actual work. Its diamond drillhead is able to drill through the toughest materials. The Assembly Drill can not reach diagonally, so it must be located directly adjacent to an Assembly Platform."
 				""
-				"The Assembly Laser is able to cut through materials, used to slice an item up, or to cut off edges. Like the Assembly Drill, this machine can not reach diagonally."
+				"The &5Assembly Laser&r is able to cut through materials, used to slice an item up, or to cut off edges. Like the Assembly Drill, this machine can not reach diagonally."
 			]
 			id: "256BD2FFBE7EC950"
 			rewards: [
@@ -883,6 +851,7 @@
 					type: "item"
 				}
 			]
+			title: "&l&6Chapter 3: Pneumatic Systems&r&r"
 			x: 24.0d
 			y: 2.0d
 		}
@@ -2260,33 +2229,6 @@
 			]
 			x: 24.0d
 			y: 4.5d
-		}
-		{
-			dependencies: ["1B715D36C517F53F"]
-			description: [""]
-			id: "1A325E400F4896F4"
-			rewards: [
-				{
-					id: "3CD15B8853A7937F"
-					item: "kubejs:gold_coin"
-					type: "item"
-				}
-				{
-					id: "43C8CB7FC6AA5BC5"
-					type: "xp"
-					xp: 400
-				}
-			]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "&2To the Moon chapter unlocked&r"
-			tasks: [{
-				id: "515F3F7395E2E5B8"
-				item: "ad_astra:nasa_workbench"
-				type: "item"
-			}]
-			x: 24.0d
-			y: 7.5d
 		}
 		{
 			dependencies: ["4ECA8387C0B80330"]

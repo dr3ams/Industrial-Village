@@ -17,7 +17,7 @@
 
 	[Settings."True Darkness"]
 		#Allowed Values: PITCH_BLACK, REALLY_DARK, DARK, DIM
-		"Darkness Setting (PITCH_BLACK, REALLY_DARK, DARK, DIM)" = "REALLY_DARK"
+		"Darkness Setting (PITCH_BLACK, REALLY_DARK, DARK, DIM)" = "PITCH_BLACK"
 		"Use True Darkness" = true
 
 		[Settings."True Darkness".Advanced]

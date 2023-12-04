@@ -1,0 +1,51 @@
+{
+	id: "37C35D7D48D71AD6"
+	loot_crate: {
+		color: 16757570
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Artifacts"
+		string_id: "artifacts"
+	}
+	loot_size: 1
+	order_index: 28
+	rewards: [
+		{ item: "artifacts:pocket_piston" }
+		{ item: "artifacts:vampiric_glove" }
+		{ item: "artifacts:golden_hook" }
+		{ item: "artifacts:aqua_dashers" }
+		{ item: "artifacts:bunny_hoppers" }
+		{ item: "artifacts:kitty_slippers" }
+		{ item: "artifacts:running_shoes" }
+		{ item: "artifacts:steadfast_spikes" }
+		{ item: "artifacts:flippers" }
+		{ item: "artifacts:umbrella" }
+		{ item: "artifacts:plastic_drinking_hat" }
+		{ item: "artifacts:novelty_drinking_hat" }
+		{ item: "artifacts:snorkel" }
+		{ item: "artifacts:night_vision_goggles" }
+		{ item: "artifacts:villager_hat" }
+		{ item: "artifacts:superstitious_hat" }
+		{ item: "artifacts:lucky_scarf" }
+		{ item: "artifacts:scarf_of_invisibility" }
+		{ item: "artifacts:cross_necklace" }
+		{ item: "artifacts:panic_necklace" }
+		{ item: "artifacts:shock_pendant" }
+		{ item: "artifacts:flame_pendant" }
+		{ item: "artifacts:thorn_pendant" }
+		{ item: "artifacts:charm_of_sinking" }
+		{ item: "artifacts:cloud_in_a_bottle" }
+		{ item: "artifacts:fire_gauntlet" }
+		{ item: "artifacts:power_glove" }
+		{ item: "artifacts:feral_claws" }
+		{ item: "artifacts:digging_claws" }
+		{ item: "artifacts:crystal_heart" }
+		{ item: "artifacts:universal_attractor" }
+		{ item: "artifacts:antidote_vessel" }
+		{ item: "artifacts:obsidian_skull" }
+	]
+	title: "Artifacts"
+}

@@ -9,7 +9,7 @@ colours:0
 loadChunks:true
 updateChunks:true
 terrainSlopes:2
-terrainDepth:true
+terrainDepth:false
 footsteps:true
 flowers:true
 coordinates:true
@@ -39,9 +39,9 @@ caveModeDepth:30
 caveModeStart:2147483647
 autoCaveMode:-1
 legibleCaveMaps:false
-displayCaveModeStart:true
+displayCaveModeStart:false
 caveModeToggleTimer:1000
-defaultCaveModeType:1
+defaultCaveModeType:0
 biomeBlending:true
 trackedPlayers:true
 multipleImagesExport:false

@@ -111,11 +111,11 @@
 				""
 				"- &7Sticks&r can also be picked up off the ground in twig piles by right clicking them."
 				""
-				"- &8Flint&r can be gained by picking up the Pebbles found on the ground. By holding a Pebble in both of your hands and holding right click you will nap the stones which has a chance to produce flint. "
+				"- &8Flint&r can be gained by picking up the Pebbles found on the ground. By holding a Pebble in both of your hands and holding right click you will nap the stones which has a chance to produce &8Flint&r. "
 				""
-				"A Flint Hatchet can enable you to collect wood and build a crafting table."
+				"A &4Flint Hatchet&r can enable you to collect wood and build a crafting table."
 				""
-				"Hatchet is also used to craft planks. Put a Hatchet in the crafting window and a &nstripped log&r near it."
+				"&4Hatchet&r is also used to craft &6Planks&r. Put a &4Hatchet&r in the crafting window and a &n&cStripped Log&r&r near it."
 			]
 			id: "0000000000000003"
 			rewards: [
@@ -193,20 +193,38 @@
 		{
 			dependencies: ["0000000000000003"]
 			description: [
-				"The crafting table will open you up to many new complex recipes. You can bookmark a recipe for faster access to it. Hover over item in JEI or an inventory and press A. You will see the item on the left of your inventory."
+				"The &4Crafting Table&r will open you up to many new complex recipes. "
+				""
+				"You can bookmark a recipe for faster access to it. Hover over item in JEI or an inventory and press A. You will see the item on the left of your inventory."
+				""
 				"Try it with an Axe because you may need a couple!"
 			]
+			icon: "minecraft:crafting_table"
 			id: "0000000000000030"
 			rewards: [{
 				id: "51F6F6898F97953E"
 				item: "minecraft:oak_door"
 				type: "item"
 			}]
-			tasks: [{
-				id: "0000000000000031"
-				item: "minecraft:crafting_table"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0000000000000031"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					id: "01A0EC70DF9C5087"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+					title: "Any #minecraft:planks"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 0.0d
 		}
@@ -543,6 +561,16 @@
 		}
 		{
 			dependencies: ["27C56F118D65355C"]
+			description: [
+				"&4Healing Flasks&r adds refillable potions that instantly heal damage and can hold up to one, three, five, or seven charges depending on their tier."
+				""
+				"These Charges can be refilled by Right-Clicking a &6campfire&r or &6Flame Shrine&r."
+				""
+				" "
+				"There are three tiers of Healing Flask that can be obtained by upgrading the previous one with Flask Shards and other materials."
+				""
+				"Flask Shards are crafted with Blaze Powder and Amethyst Shards."
+			]
 			id: "7516E82D481861D5"
 			rewards: [
 				{
@@ -555,6 +583,17 @@
 					count: 3
 					id: "615A3E5865B9304D"
 					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "4F973F0AF4C6A21B"
+					item: {
+						Count: 1b
+						id: "healingflasks:healing_flask"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
