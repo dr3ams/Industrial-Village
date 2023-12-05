@@ -751,7 +751,7 @@
 			rewards: [{
 				id: "28B44301A475480A"
 				type: "xp"
-				xp: 100
+				xp: 1
 			}]
 			tasks: [{
 				id: "66388320D6EF886E"

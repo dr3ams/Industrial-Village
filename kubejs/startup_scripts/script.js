@@ -57,8 +57,10 @@ event.create('flint_pickaxe', 'pickaxe').tier('stone').maxDamage(98)
 event.create('steel_file', 'sword').tier('iron').maxDamage(120)
 
 //primitive recipes
-event.create('wooden_form').displayName('Wooden Form').maxDamage(128)
-event.create('stone_mortar').displayName('Stone Mortar').maxDamage(128)
+event.create('wooden_form').displayName('Wooden Form').maxDamage(64)
+event.create('stone_mortar').displayName('Stone Mortar').maxDamage(64)
+
+event.create('screw').displayName('Iron Screw')
 
 event.create('brick_unfired').displayName('Unfired Brick')
 event.create('brick_dust').displayName('Brick Dust')

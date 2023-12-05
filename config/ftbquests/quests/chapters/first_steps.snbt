@@ -633,7 +633,7 @@
 		{
 			dependencies: ["0000000000000073"]
 			description: [
-				"To progress further you will need Blast Furnace and to build it you need some materials from Nether."
+				"To progress further you will need a Blast Furnace and to build it you need some materials from Nether."
 				""
 				"It's adviced to have at least Iron armour set when entering the Nether"
 			]
@@ -832,7 +832,7 @@
 				{
 					count: 5L
 					id: "66810860759D5533"
-					item: "railcraft:coal_dust"
+					item: "railcraft:charcoal_dust"
 					type: "item"
 				}
 				{
@@ -909,7 +909,7 @@
 				""
 				"In addition to slowing down early game progression, further recipes have been tweaked and adjusted. It was made to ensure that you will have a smoother progression curve and to create a sense of accomplishment as you advance through the pack."
 				""
-				"It should encourages you to strategize, problem-solve, and appreciate the journey of gradually unlocking new capabilities and achievements."
+				"It should encourage you to strategize, problem-solve, and appreciate the journey of gradually unlocking new capabilities and achievements."
 			]
 			icon: "kubejs:help"
 			id: "7EC6A23D14C2256F"
@@ -929,6 +929,16 @@
 		}
 		{
 			dependencies: ["0000000000000030"]
+			description: [
+				"&5Knives&r work as a hybrid between a tool and a weapon. As a weapon, it &lswings faster&r than a sword while dealing &lweaker strikes&r."
+				""
+				"&5Knives&r have the ability to cleanly forage resources from harvested plants and slain animals."
+				""
+				"- When killing animals, their secondary drop (leather, feathers etc.) is &nguaranteed&r to drop once. "
+				"- When harvesting grassy plants (Tall Grass, Wheat and Rice), it may collect &2Straw&r."
+				""
+				"When combined with a &2Cutting Board&r, Knives allow players to portion and process ingredients, primarily for cooking."
+			]
 			id: "5D67117EDB491237"
 			rewards: [
 				{

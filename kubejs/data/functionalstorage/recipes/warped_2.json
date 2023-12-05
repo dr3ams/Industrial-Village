@@ -1,0 +1,42 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:and",
+          "values": [
+            {
+              "type": "forge:item_exists",
+              "item": "functionalstorage:warped_2"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "C": {
+            "tag": "forge:chests/wooden"
+          },
+          "P": {
+            "item": "minecraft:warped_planks"
+          },
+          "S": {
+            "item": "kubejs:screw"
+          }
+        },
+        "pattern": [
+          "SCS",
+          "PSP",
+          "SCS"
+        ],
+        "result": {
+          "item": "functionalstorage:warped_2"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

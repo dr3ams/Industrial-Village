@@ -1,0 +1,42 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:and",
+          "values": [
+            {
+              "type": "forge:item_exists",
+              "item": "functionalstorage:acacia_4"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "C": {
+            "tag": "forge:chests/wooden"
+          },
+          "P": {
+            "item": "minecraft:acacia_planks"
+          },
+          "S": {
+            "item": "kubejs:screw"
+          }
+        },
+        "pattern": [
+          "SCS",
+          "CPC",
+          "SCS"
+        ],
+        "result": {
+          "item": "functionalstorage:acacia_4"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

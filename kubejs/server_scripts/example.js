@@ -378,14 +378,10 @@ ServerEvents.recipes(event => {
 
 	
 	//clay brick unfired
-	event.shaped('kubejs:clay_brick_unfired', [
-	'AB ',
-	'   ',
-	'   '
-	], {
-	A: 'minecraft:clay_ball',
-	B: 'kubejs:wooden_form'
-	}).damageIngredient('kubejs:wooden_form')
+	event.shapeless('kubejs:clay_brick_unfired', [
+	'minecraft:clay_ball',
+	'kubejs:wooden_form'
+	]).damageIngredient('kubejs:wooden_form')
 	event.smelting('kubejs:clay_brick', 'kubejs:clay_brick_unfired').cookingTime(100)
 	event.campfireCooking('kubejs:clay_brick', 'kubejs:clay_brick_unfired').cookingTime(400)
 	
@@ -640,6 +636,48 @@ ServerEvents.recipes(event => {
 	E: 'immersiveengineering:heavy_engineering',
 	F: 'immersiveengineering:furnace_heater'
 	})
+	
+	//working on rods
+	event.shaped('2x kubejs:screw', [
+    " A ",
+    " B ",
+    " C "
+	], {
+	A: '#natprog:saw',
+	B: 'immersiveengineering:stick_iron',
+	C: 'kubejs:steel_file'
+	}).damageIngredient('#natprog:saw').damageIngredient('kubejs:steel_file')
+	
+	event.remove({id: 'immersiveengineering:crafting/stick_aluminum'})
+	event.remove({id: 'immersiveengineering:crafting/stick_iron'})
+	event.remove({id: 'immersiveengineering:crafting/stick_steel'})
+	
+	event.shaped('immersiveengineering:stick_iron', [
+    " A ",
+    " B ",
+    "   "
+	], {
+	A: 'kubejs:steel_file',
+	B: 'minecraft:iron_ingot'
+	}).damageIngredient('kubejs:steel_file')
+	
+	event.shaped('immersiveengineering:stick_aluminum', [
+    " A ",
+    " B ",
+    "   "
+	], {
+	A: 'kubejs:steel_file',
+	B: 'immersiveengineering:ingot_aluminum'
+	}).damageIngredient('kubejs:steel_file')
+	
+	event.shaped('immersiveengineering:stick_steel', [
+    " A ",
+    " B ",
+    "   "
+	], {
+	A: 'kubejs:steel_file',
+	B: 'immersiveengineering:ingot_steel'
+	}).damageIngredient('kubejs:steel_file')
 })
 
 PlayerEvents.loggedIn(event => {
