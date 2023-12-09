@@ -55,6 +55,7 @@ ServerEvents.tags('item', event => {
 	.add('natprog:bone_pickaxe')
 	.add('kubejs:flint_pickaxe')
 	
+	//event.add('curios:hipstrap', 'minecraft:lantern')
 
 	event.get('natprog:considered_as_pickaxe')
 	.add('industrialforegoing:infinity_drill')

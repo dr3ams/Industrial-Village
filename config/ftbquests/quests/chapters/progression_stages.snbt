@@ -476,6 +476,7 @@
 				{
 					id: "39E0F73F24A6BFBF"
 					item: "immersiveengineering:watermill"
+					optional_task: true
 					type: "item"
 				}
 				{

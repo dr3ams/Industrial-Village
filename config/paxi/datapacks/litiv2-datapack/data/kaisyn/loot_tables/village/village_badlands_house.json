@@ -126,20 +126,6 @@
               }
             }
           ]
-        },
-        {
-          "name": "minecraft:gold_ingot",
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 3.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
         }
       ]
     },
@@ -150,17 +136,6 @@
         {
           "type": "minecraft:empty",
           "weight": 4
-        },
-        {
-          "name": "minecraft:emerald",
-          "type": "minecraft:item",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            }
-          ]
         },
         {
           "name": "minecraft:iron_hoe",

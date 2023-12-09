@@ -65,22 +65,22 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "minecraft:chainmail_helmet"
+          "name": "minecraft:apple"
         },
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "minecraft:chainmail_chestplate"
+          "name": "minecraft:bread"
         },
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "minecraft:chainmail_leggings"
+          "name": "minecraft:baked_potato"
         },
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "minecraft:chainmail_boots"
+          "name": "minecraft:mushroom_stew"
         },
         {
           "type": "minecraft:item",
@@ -168,7 +168,7 @@
               }
             }
           ],
-          "name": "minecraft:raw_iron"
+          "name": "minecraft:cookie"
         },
         {
           "type": "minecraft:item",

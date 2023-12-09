@@ -1,0 +1,86 @@
+{
+  "weight": 10,
+  "gear": {},
+  "color": {
+    "red": 5,
+    "green": 173,
+    "blue": 154
+  },
+  "unlocalizedName": "eldritch",
+  "healthMultiplier": 1.0,
+  "speedMultiplier": 1.0,
+  "entityFilter": {
+    "isBlacklist": false,
+    "entities": [
+      "minecraft:enderman"
+    ]
+  },
+  "effectsOnAttack": [
+    {
+      "name": "minecraft:slowness",
+      "duration": 600
+    },
+    {
+      "name": "minecraft:mining_fatigue",
+      "duration": 600
+    },
+    {
+      "name": "minecraft:unluck",
+      "duration": 2400
+    },
+    {
+      "name": "minecraft:bad_omen",
+      "duration": 4000
+    }
+  ],
+  "loot": [
+    {
+      "weight": 3,
+      "item": {
+        "item": "minecraft:experience_bottle"
+      }
+    },
+    {
+      "weight": 3,
+      "item": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    {
+      "weight": 4,
+      "item": {
+        "item": "minecraft:bread"
+      }
+    },
+    {
+      "weight": 7,
+      "item": {
+        "item": "minecraft:baked_potato"
+      }
+    },
+	{
+      "weight": 9,
+      "item": {
+        "item": "minecraft:pumpkin_pie"
+      }
+    },
+	{
+      "weight": 7,
+      "item": {
+        "item": "minecraft:mushroom_stew"
+      }
+    },
+    {
+      "weight": 3,
+      "item": {
+        "item": "minecraft:experience_bottle"
+      }
+    },
+    {
+      "weight": 3,
+      "item": {
+        "item": "minecraft:ender_pearl"
+      }
+    }
+  ]
+}

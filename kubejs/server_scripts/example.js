@@ -367,6 +367,16 @@ ServerEvents.recipes(event => {
 	B: 'minecraft:flint'
 	})
 	
+	event.shaped('kubejs:iron_mortar', [
+	' B ',
+	'ABA',
+	'AAA'
+	], {
+	A: 'minecraft:stone',
+	B: 'immersiveengineering:plate_iron',
+	B: 'minecraft:iron_ingot'
+	})
+	
 	event.shaped('minecraft:flint', [
 	'A  ',
 	'B  ',
@@ -678,6 +688,17 @@ ServerEvents.recipes(event => {
 	A: 'kubejs:steel_file',
 	B: 'immersiveengineering:ingot_steel'
 	}).damageIngredient('kubejs:steel_file')
+	
+	event.remove({id: 'minecraft:torch'})
+	event.shaped('4x minecraft:torch', [
+    " A ",
+    " B ",
+    " C "
+	], {
+	A: '#minecraft:coals',
+	B: '#supplementaries:ropes',
+	C: '#forge:rods/wooden'
+	})
 })
 
 PlayerEvents.loggedIn(event => {

@@ -59,6 +59,7 @@ event.create('steel_file', 'sword').tier('iron').maxDamage(120)
 //primitive recipes
 event.create('wooden_form').displayName('Wooden Form').maxDamage(64)
 event.create('stone_mortar').displayName('Stone Mortar').maxDamage(64)
+event.create('iron_mortar').displayName('Iron Mortar').maxDamage(220)
 
 event.create('screw').displayName('Iron Screw')
 

@@ -46,7 +46,7 @@
               }
             }
           ],
-          "name": "minecraft:raw_gold"
+          "name": "minecraft:mushroom_stew"
         },
         {
           "type": "minecraft:item",
@@ -75,7 +75,7 @@
               }
             }
           ],
-          "name": "minecraft:emerald"
+          "name": "minecraft:book"
         },
         {
           "type": "minecraft:item",
@@ -90,7 +90,7 @@
               }
             }
           ],
-          "name": "minecraft:golden_apple"
+          "name": "minecraft:clay"
         },
         {
           "type": "minecraft:item",
