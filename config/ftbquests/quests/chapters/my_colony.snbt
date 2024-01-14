@@ -2028,6 +2028,69 @@
 			x: 23.5d
 			y: -2.5d
 		}
+		{
+			dependencies: ["00000000000000D7"]
+			description: [
+				"The Clipboard allows you to see the open requests that your colonists have. Shift-Right click the Town Hall to register the Clipboard to it."
+				""
+				""
+				"The Resource Scroll allows you to see what resources a builder needs. Shift-Right click a Builder's Hut to link the Resource Scroll."
+			]
+			id: "422CDEBD86CBCE6D"
+			rewards: [
+				{
+					id: "73F945A9BE8ADC43"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "543AC15E1DD8BCFB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "659F10843C3FE5F7"
+					item: "minecolonies:clipboard"
+					type: "item"
+				}
+				{
+					id: "01ACBFBE4ECD77CA"
+					item: {
+						Count: 1b
+						id: "minecolonies:resourcescroll"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C0526CA03F645D4"]
+			description: [
+				"The Stash allows players to drop items off for the courier to take them to the Warehouse."
+				""
+				"The Postbox allows players to request items from the Warehouse."
+			]
+			id: "7BEB51CBF1936298"
+			tasks: [
+				{
+					id: "1E1F1B6CC181BFBE"
+					item: "minecolonies:blockstash"
+					type: "item"
+				}
+				{
+					id: "47468073B2612B2E"
+					item: "minecolonies:blockpostbox"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 1.5d
+		}
 	]
 	title: "My Colony"
 }

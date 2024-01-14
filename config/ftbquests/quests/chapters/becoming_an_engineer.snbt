@@ -2858,7 +2858,17 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["0000000000001049"]
+			dependencies: [
+				"0000000000001049"
+				"00000000000000FD"
+			]
+			description: [
+				"And also:"
+				""
+				"- steam locomotive with rails, loaders and unloaders"
+				"- steam oven"
+				"- steam turbine"
+			]
 			icon: "railcraft:solid_fueled_firebox"
 			id: "68B37999BD32FC7F"
 			rewards: [{
@@ -2866,6 +2876,7 @@
 				type: "xp"
 				xp: 700
 			}]
+			subtitle: "At this stage you will have Steam as additional energy generation option available"
 			tasks: [
 				{
 					id: "51FAA697636C859F"
@@ -2878,6 +2889,7 @@
 					type: "item"
 				}
 			]
+			title: "Steam Age"
 			x: -0.5d
 			y: 7.0d
 		}

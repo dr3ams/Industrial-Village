@@ -159,7 +159,7 @@
 			image: "ftbquests:block/barrier_open"
 			rotation: 135.0d
 			width: 1.5d
-			x: 21.5d
+			x: 23.0d
 			y: 3.5d
 		}
 		{
@@ -262,32 +262,38 @@
 			x: -1.0d
 			y: 6.0d
 		}
-	]
-	quests: [
 		{
-			dependencies: ["5A48B91C5F55DF95"]
-			id: "6D93ED5828016B9F"
-			subtitle: "moon"
-			tasks: [{
-				id: "31DD03D1C1C98485"
-				item: "ad_astra:desh_ingot"
-				type: "item"
-			}]
+			id: "5A9BE3694221AC66"
+			linked_quest: "68B37999BD32FC7F"
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			id: "14C825735FBEDFC1"
+			linked_quest: "000000000000073D"
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			id: "41F5062856C7F8F9"
+			linked_quest: "0000000000000616"
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			id: "5868E8ABD1A48AAE"
+			linked_quest: "44B83B138A53750A"
 			x: 9.5d
 			y: 5.0d
 		}
 		{
-			dependencies: ["306498BB38C07326"]
-			id: "550A61AFF409325A"
-			subtitle: "mars"
-			tasks: [{
-				id: "25F612AB89631FAD"
-				item: "ad_astra:ostrum_ingot"
-				type: "item"
-			}]
+			id: "7A948A858D426948"
+			linked_quest: "61982D9CF281C3A7"
 			x: 11.0d
 			y: 5.0d
 		}
+	]
+	quests: [
 		{
 			dependencies: ["14805121DFEA232D"]
 			description: [
@@ -310,6 +316,7 @@
 		}
 		{
 			dependencies: ["09232DA6E5C38BCC"]
+			description: ["Plastic is an important component which will allow you to craft PCBs(which will be crucial for further chapters) and also commonly used in Chapter 4 machines."]
 			id: "24395DB256750BB4"
 			tasks: [{
 				id: "32F728AECFA16F56"
@@ -348,6 +355,16 @@
 		}
 		{
 			dependencies: ["24395DB256750BB4"]
+			description: [
+				"&9&n                                                  &r&9               "
+				"This chapter will show you ways of"
+				"- farming automation"
+				"- ranching automation"
+				"- manipulations with fluid experience"
+				"- mining"
+				"- creating advanced tools"
+				"&9&n                                                  &r&9               "
+			]
 			id: "4A504612976031A2"
 			shape: "gear"
 			tasks: [{
@@ -360,18 +377,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["5166D999425B7EB7"]
-			id: "18F32C018FB249EB"
-			tasks: [{
-				id: "4919601F3A9A4339"
-				item: "industrialforegoing:machine_frame_simple"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["306498BB38C07326"]
+			dependencies: [
+				"306498BB38C07326"
+				"0000000000000618"
+			]
 			description: [
 				"&9&n                                                  &r&9               "
 				""
@@ -441,6 +450,16 @@
 		}
 		{
 			dependencies: ["1C77714D1B19358C"]
+			description: [
+				"&9&n                                                  &r&9               "
+				"In this chapter you will:"
+				"- be introduced to air, pressure and heat"
+				"- learn refining of different fluids out of Crude Oil"
+				"- refine Crude Oil into Plastic Sheets"
+				"- assemble multiblock Pressure Chamber"
+				"- programm drones to work for you"
+				"&9&n                                                  &r&9               "
+			]
 			id: "09232DA6E5C38BCC"
 			shape: "gear"
 			tasks: [{
@@ -456,13 +475,11 @@
 			dependencies: ["7BC86210B47B4D0E"]
 			description: [
 				"&9&n                                                  &r&9               "
-				""
 				"In this chapter you will need to:"
 				"- make steel. A lot of steel;"
 				"- setup your first power production;"
 				"- setup multiblock machines"
 				"- discover ways of transfering items and fluids"
-				""
 				"&9&n                                                  &r&9               "
 			]
 			id: "1E62591C6F6B2026"
@@ -514,6 +531,7 @@
 					type: "item"
 				}
 			]
+			title: "Tier 1 rocket and The Moon"
 			x: 9.5d
 			y: 3.5d
 		}
@@ -542,11 +560,16 @@
 					type: "item"
 				}
 			]
+			title: "Tier 2 rocket and Mars"
 			x: 11.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["09232DA6E5C38BCC"]
+			description: [
+				"The Pressure Chamber is a multi-block structure used to compress various materials into other materials. Mainly needed for creating Compressed Iron without loses."
+				" "
+			]
 			id: "78FCA6C8B358FAA5"
 			tasks: [{
 				id: "7607130AEB05FFCC"
@@ -557,19 +580,15 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["6D93ED5828016B9F"]
-			id: "5166D999425B7EB7"
-			tasks: [{
-				id: "3894C52F08715B6B"
-				item: "industrialforegoing:dissolution_chamber"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 6.0d
-		}
-		{
 			dependencies: ["4F7A84F3D7495BF7"]
-			description: ["&oYou can setup basic Refined Storage storage right right now(if you have available resources and energy production. But the end goal of Chapter 5 is to be able to access the items wirelessly and have an autocrafter which will be available later.&r"]
+			description: [
+				"&oYou can setup basic Refined Storage storage right right now(if you have available resources and energy production. But the end goal of Chapter 5 is to be able to access the items wirelessly and have an autocrafter which will be available later.&r"
+				"&9&n                                                  &r&9               "
+				"In this chapter you will learn how to"
+				"- store items digitally on discs"
+				"- autocraft with patterns"
+				"&9&n                                                  &r&9               "
+			]
 			id: "0320C7A266333D96"
 			shape: "gear"
 			tasks: [
@@ -612,53 +631,6 @@
 			title: "&l&6Starting chapter 5: Advanced Storage...&r&r"
 			x: 6.5d
 			y: 3.5d
-		}
-		{
-			dependencies: ["00000000000000FD"]
-			description: [
-				"And also:"
-				""
-				"- steam locomotive with rails, loaders and unloaders"
-				"- steam oven"
-				"- steam turbine"
-			]
-			id: "1DA18E7F30E9884A"
-			shape: "rsquare"
-			subtitle: "At this stage you will have Steam as additional energy generation option available"
-			tasks: [
-				{
-					id: "78274201E698D29C"
-					item: "railcraft:low_pressure_steam_boiler_tank"
-					type: "item"
-				}
-				{
-					id: "446A9DA83F0A4634"
-					item: "railcraft:steam_oven"
-					type: "item"
-				}
-				{
-					id: "55F827B1D7C75A42"
-					item: {
-						Count: 1b
-						id: "railcraft:steam_locomotive"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "1A44EB3799931841"
-					item: "railcraft:steam_turbine"
-					type: "item"
-				}
-				{
-					id: "3986412ACC85B2D9"
-					item: "railcraft:solid_fueled_firebox"
-					type: "item"
-				}
-			]
-			title: "Steam Age"
-			x: -1.0d
-			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -720,6 +692,14 @@
 		}
 		{
 			dependencies: ["0320C7A266333D96"]
+			description: [
+				"&9&n                                                  &r&9               "
+				"This chapter is mainly dedicated to:"
+				"- building Rockets"
+				"- flying to another planets"
+				"- preparing for end-game crafting tables"
+				"&9&n                                                  &r&9               "
+			]
 			id: "5F99535BC525DE96"
 			shape: "gear"
 			tasks: [{
@@ -782,6 +762,7 @@
 					type: "dimension"
 				}
 			]
+			title: "Tier 3 rocket and Venus"
 			x: 15.0d
 			y: 3.5d
 		}
@@ -822,6 +803,12 @@
 		}
 		{
 			dependencies: ["7BC86210B47B4D0E"]
+			description: [
+				"Tetra is a modular tool mod that incorporates exploration into its higher level tools."
+				""
+				"Tetra will allow you to take your basic vanilla tools and upgrade them in a wide variety of ways that give bonuses to the tools or equipment."
+				"Once higher level tools are needed exploration will have to be undertaken to gain items for a forge from special dungeons made by an ancient advanced culture in cold biomes."
+			]
 			icon: {
 				Count: 1b
 				id: "immersiveengineering:pickaxe_steel"
@@ -836,7 +823,7 @@
 				id: "1F41A6DEA56D9C08"
 				type: "checkmark"
 			}]
-			title: "Beginner smith"
+			title: "Tetra"
 			x: -5.0d
 			y: 5.0d
 		}
@@ -852,11 +839,13 @@
 				title: "Regular Storage"
 				type: "checkmark"
 			}]
+			title: "Storage"
 			x: -4.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["00000000000000FD"]
+			description: ["Modular Force Field Systems, brings force fields, advanced machinery, and defensive capabilities to the Minecraft universe. Whether you're worried about your base being destroyed by nuclear blasts or looking to protect your secret hideouts, MFFS has the answer."]
 			icon: "mffs:projector"
 			id: "213A546E7B77569E"
 			shape: "gear"
@@ -920,6 +909,10 @@
 		}
 		{
 			dependencies: ["13BDB1E18E02B0DC"]
+			description: [
+				"&9&n                                                  &r&9               "
+				"&9&n                                                  &r&9               "
+			]
 			id: "439905073E1F6EFD"
 			shape: "gear"
 			tasks: [{

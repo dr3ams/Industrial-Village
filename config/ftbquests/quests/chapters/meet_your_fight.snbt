@@ -21,8 +21,8 @@
 			image: "litv3:textures/misc/fight_1.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: -4.5d
-			y: 12.0d
+			x: -1.0d
+			y: 4.0d
 		}
 		{
 			click: ""
@@ -33,8 +33,8 @@
 			image: "litv3:textures/misc/fight_2.png"
 			rotation: 0.0d
 			width: 5.348783314020857d
-			x: -8.5d
-			y: -3.0d
+			x: -5.5d
+			y: -4.0d
 		}
 		{
 			click: ""
@@ -45,8 +45,8 @@
 			image: "litv3:textures/misc/fight_3.png"
 			rotation: 0.0d
 			width: 3.5580464371497196d
-			x: 9.5d
-			y: 4.0d
+			x: 15.0d
+			y: 3.5d
 		}
 		{
 			click: ""
@@ -57,8 +57,8 @@
 			image: "litv3:textures/misc/fight_4.png"
 			rotation: 0.0d
 			width: 5.333333333333333d
-			x: -7.5d
-			y: 4.5d
+			x: -8.5d
+			y: 3.5d
 		}
 		{
 			click: ""
@@ -69,588 +69,13 @@
 			image: "litv3:textures/misc/fight_5.png"
 			rotation: 0.0d
 			width: 6.666666666666666d
-			x: 9.5d
-			y: -2.5d
+			x: 12.5d
+			y: -4.0d
 		}
 	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
-		{
-			dependencies: ["3BB8E50299A5126E"]
-			description: [
-				"Bellringer is a boss added by Meet Your Fight. It can be summoned by using a Haunted Bell. When killed, it drops 1 Phantoplasm and 3-4 Gold Ingots."
-				""
-				"Bellringer floats above the ground and can pass through walls, similarly to a Vex. When targeting a player, it tries to constantly stay a few blocks in front and above its target."
-				""
-				"All of its attacks consists of sending waves of projectiles that travel in a straight line after a short delay. Each projectile deals 8 damage on contact and can pass through walls. Bellringer randomly alternates between the following two attacks during the fight:"
-				""
-				"After falling below 50%, it rings its bell to apply Slowness II for 15 seconds to all nearby entities, then quickly fire 20 lines of projectiles at ground level that go toward its current target. After this attack is finished, Bellringer resumes its normal attacks, but each will fire 4 waves of projectiles instead of 3 for the rest of the fight."
-			]
-			icon: "meetyourfight:haunted_bell"
-			id: "01586496C0B6EB67"
-			optional: true
-			rewards: [
-				{
-					id: "2E2EA952DF5D2827"
-					item: "aquaculture:treasure_chest"
-					type: "item"
-				}
-				{
-					id: "030091FB19C36FEF"
-					item: "randomite:randomite_ore"
-					type: "item"
-				}
-				{
-					id: "3D847388C3AD2E26"
-					type: "xp"
-					xp: 1000
-				}
-			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "Kill this one and Swampjaw to enter Expert Mode"
-			tasks: [
-				{
-					id: "0263104BCAE479EB"
-					item: "meetyourfight:haunted_bell"
-					type: "item"
-				}
-				{
-					entity: "meetyourfight:bellringer"
-					id: "71FF4B63C04425CE"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "Bell Ringer"
-			x: -1.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["3BB8E50299A5126E"]
-			description: [
-				"Swampjaw is a boss added by Meet Your Fight. It can be summoned by using a Fossil Bait. When killed, it drops 1 Mossy Tooth, 3-6 Bones, 2-4 Vines, and 1-3 Dirt."
-				""
-				"Swampjaw usually flies above its current target and moves like a Phantom, except it can see and fly through walls. When attacking it repeats the following pattern in the same order:"
-				"Orbit a few seconds around and above its target."
-				"Rapidly move above its target to drop 3 mines, these explode when touching the ground with half the strength of TNT and do not destroy blocks or hurt Swampjaw."
-				"Swoop down to charge its target, dealing 7 damage on contact. Damaging Swampjaw prematurely cancels this attack."
-			]
-			icon: "meetyourfight:fossil_bait"
-			id: "6A51E5206B5F75D4"
-			optional: true
-			rewards: [
-				{
-					id: "5116A99A7CDB8246"
-					item: "aquaculture:treasure_chest"
-					type: "item"
-				}
-				{
-					id: "4421F827CEAE4603"
-					item: "randomite:randomite_ore"
-					type: "item"
-				}
-				{
-					id: "1B0C68BA1C9EAE1A"
-					type: "xp"
-					xp: 1000
-				}
-			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "Kill this one and Bell Ringer to enter Expert mode"
-			tasks: [
-				{
-					id: "750587A9AF516FFB"
-					item: "meetyourfight:fossil_bait"
-					type: "item"
-				}
-				{
-					entity: "meetyourfight:swampjaw"
-					id: "7993F8CFAABF7C59"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "Swampjaw"
-			x: -1.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["3BB8E50299A5126E"]
-			icon: "meetyourfight:devils_ante"
-			id: "4BBEF37E398FA6EA"
-			optional: true
-			rewards: [
-				{
-					id: "3647C275D967D9ED"
-					item: "aquaculture:treasure_chest"
-					type: "item"
-				}
-				{
-					id: "2DFA4E5875842DA1"
-					item: "randomite:randomite_ore"
-					type: "item"
-				}
-				{
-					id: "40B8FECC2D6A00A5"
-					type: "xp"
-					xp: 1000
-				}
-			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "Kill this one and Rosalyne to enter Master mode"
-			tasks: [
-				{
-					id: "129B22DDDD62E34F"
-					item: "meetyourfight:devils_ante"
-					type: "item"
-				}
-				{
-					entity: "meetyourfight:dame_fortuna"
-					id: "0D4A70123E55EB81"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "Dame Fortuna"
-			x: 1.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["01586496C0B6EB67"]
-			id: "4FA4121CB7AE573E"
-			optional: true
-			rewards: [
-				{
-					id: "2B1355C48EF7EADE"
-					item: "majruszsdifficulty:cloth"
-					type: "item"
-				}
-				{
-					id: "213DF01B5614A653"
-					type: "xp"
-					xp: 750
-				}
-			]
-			tasks: [{
-				id: "265903DA5FB66C0E"
-				item: "meetyourfight:phantoplasm"
-				type: "item"
-			}]
-			x: -3.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["6A51E5206B5F75D4"]
-			id: "430B95CA9EB92E5C"
-			optional: true
-			rewards: [
-				{
-					id: "16CE53253253B06A"
-					item: "majruszsdifficulty:cloth"
-					type: "item"
-				}
-				{
-					id: "7D7651D3C5A57578"
-					type: "xp"
-					xp: 750
-				}
-			]
-			tasks: [{
-				id: "0EF3C88336006C14"
-				item: "meetyourfight:mossy_tooth"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["4BBEF37E398FA6EA"]
-			id: "2902A2D96332A34A"
-			optional: true
-			rewards: [
-				{
-					id: "6076348E6806201D"
-					item: "majruszsdifficulty:cloth"
-					type: "item"
-				}
-				{
-					id: "608710EA7D08E060"
-					type: "xp"
-					xp: 750
-				}
-			]
-			tasks: [{
-				id: "2FAFABEE9523C596"
-				item: "meetyourfight:fortunes_favor"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["2902A2D96332A34A"]
-			id: "2BFC276EEE062A1F"
-			optional: true
-			rewards: [
-				{
-					id: "164410FB35E0C8BE"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "179361B4C2502048"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "4858020061520514"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "48A86AA284E403AD"
-				item: "meetyourfight:slicers_dice"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["2902A2D96332A34A"]
-			id: "3825DCF170FB6A6A"
-			optional: true
-			rewards: [
-				{
-					id: "6B7C16ADE02C5EAE"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "4597F32E04BBC06A"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "26D82189A5B811B8"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "7135218C5DB4A6CC"
-				item: "meetyourfight:ace_of_iron"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["2902A2D96332A34A"]
-			id: "6B90A18AD9F4B77D"
-			optional: true
-			rewards: [
-				{
-					id: "407F583CE9E75C97"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "7AFBDD72FCD35588"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "282CBB706FDE1BD3"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "72D054F4A09BDE0E"
-				item: {
-					Count: 1b
-					id: "meetyourfight:cocktail_cutlass"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 4.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["2902A2D96332A34A"]
-			id: "0D656D70646EA87A"
-			optional: true
-			rewards: [
-				{
-					id: "7B24A9FD2F769234"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "4A3370AC08DA187B"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "2CF16AEB9045B253"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "2C23BB9C70F3A657"
-				item: "meetyourfight:velvet_fortune"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["430B95CA9EB92E5C"]
-			id: "36FC8D7BB0D670BF"
-			optional: true
-			rewards: [
-				{
-					id: "35AB0F57D10A5207"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "0567BCC3EF08D955"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "04B6102183FC51CC"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "14016C294E417E22"
-				item: "meetyourfight:bone_raker"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["430B95CA9EB92E5C"]
-			id: "00C8004131AAE6F7"
-			optional: true
-			rewards: [
-				{
-					id: "5BBEF79141CAE708"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "30402AF9C738DD74"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "066362DCEEC618FD"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "34EA9CD8E6B8B223"
-				item: {
-					Count: 1b
-					id: "meetyourfight:depth_star"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -4.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["430B95CA9EB92E5C"]
-			id: "3E12346156015D00"
-			optional: true
-			rewards: [
-				{
-					id: "7383FE333CDD13FC"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "17B1BA3C60569B02"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "0041AAFA992415B8"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "7640E032ECEE9D20"
-				item: "meetyourfight:caged_heart"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["430B95CA9EB92E5C"]
-			id: "3F3BE8A3EBB7D7B7"
-			optional: true
-			rewards: [
-				{
-					id: "4FCB71E1E4003A18"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "1CB8BDBC70E57C36"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "74027CEB1D637121"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0C030F9D9D37D1BE"
-				item: "meetyourfight:marshy_delight"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["4FA4121CB7AE573E"]
-			id: "6FB76A93A64BE52D"
-			optional: true
-			rewards: [
-				{
-					id: "6A553F9EABC5D0F4"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "63C32B31E6427D90"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "53C41488D63BE788"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "1FC67AF6ECF95F8A"
-				item: "meetyourfight:passages_toll"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["4FA4121CB7AE573E"]
-			id: "0B6A4216C393C695"
-			optional: true
-			rewards: [
-				{
-					id: "53E2137D5D3AD4B9"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "5E7CCF7612AD3845"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "7C7E7F0C1E7CFCA2"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "11B61D7607768A58"
-				item: "meetyourfight:spectres_eye"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["4FA4121CB7AE573E"]
-			id: "352860E048E56249"
-			optional: true
-			rewards: [
-				{
-					id: "43EBE3262772ED33"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "447FB457BF729EF0"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "20F873920AC84366"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "40E0566D964682F9"
-				item: "meetyourfight:spectres_grasp"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["4FA4121CB7AE573E"]
-			id: "2C8425F45507BE14"
-			optional: true
-			rewards: [
-				{
-					id: "1A86F38545310C89"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "2CFA620C0B75A8BB"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "7EC12EB60ECC0F8A"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "7595D2FFCC54DE2B"
-				item: "meetyourfight:aether_glazed_cupcake"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -2.0d
-		}
 		{
 			icon: "minecraft:zombie_head"
 			id: "273BBE58DA6C6B5E"
@@ -673,8 +98,8 @@
 				type: "kill"
 				value: 15L
 			}]
-			x: -9.0d
-			y: 6.5d
+			x: -5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["273BBE58DA6C6B5E"]
@@ -699,8 +124,8 @@
 				type: "kill"
 				value: 30L
 			}]
-			x: -9.0d
-			y: 7.5d
+			x: -5.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0C2F14176C8B6233"]
@@ -725,8 +150,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -9.0d
-			y: 9.5d
+			x: -5.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["24D7205FF1E55192"]
@@ -751,8 +176,8 @@
 				type: "kill"
 				value: 200L
 			}]
-			x: -9.0d
-			y: 10.5d
+			x: -5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["36CB6AB1F16744C3"]
@@ -777,8 +202,8 @@
 				type: "kill"
 				value: 500L
 			}]
-			x: -9.0d
-			y: 11.5d
+			x: -5.5d
+			y: 3.5d
 		}
 		{
 			icon: "minecraft:skeleton_skull"
@@ -802,8 +227,8 @@
 				type: "kill"
 				value: 15L
 			}]
-			x: -7.5d
-			y: 6.5d
+			x: -4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3E1D08F6D98A914F"]
@@ -828,8 +253,8 @@
 				type: "kill"
 				value: 30L
 			}]
-			x: -7.5d
-			y: 7.5d
+			x: -4.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["708C3073CDD71408"]
@@ -855,8 +280,8 @@
 				type: "kill"
 				value: 60L
 			}]
-			x: -7.5d
-			y: 8.5d
+			x: -4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4A070C730B96D131"]
@@ -881,8 +306,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -7.5d
-			y: 9.5d
+			x: -4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7C643C8DA7163F80"]
@@ -907,8 +332,8 @@
 				type: "kill"
 				value: 200L
 			}]
-			x: -7.5d
-			y: 10.5d
+			x: -4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6D6F752283D9311E"]
@@ -926,8 +351,8 @@
 				type: "kill"
 				value: 60L
 			}]
-			x: -9.0d
-			y: 8.5d
+			x: -5.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["02CA897446FE0C16"]
@@ -952,8 +377,8 @@
 				type: "kill"
 				value: 500L
 			}]
-			x: -7.5d
-			y: 11.5d
+			x: -4.0d
+			y: 3.5d
 		}
 		{
 			icon: "minecraft:creeper_head"
@@ -977,8 +402,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: -6.0d
-			y: 6.5d
+			x: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["36C063A88D708055"]
@@ -1003,8 +428,8 @@
 				type: "kill"
 				value: 30L
 			}]
-			x: -6.0d
-			y: 7.5d
+			x: -2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1D6BCC0FB9627EFB"]
@@ -1022,8 +447,8 @@
 				type: "kill"
 				value: 60L
 			}]
-			x: -6.0d
-			y: 8.5d
+			x: -2.5d
+			y: 0.5d
 		}
 		{
 			icon: "minecraft:wither_skeleton_skull"
@@ -1047,8 +472,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: 4.5d
-			y: 6.5d
+			x: 8.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5C2C1E234FEA1C04"]
@@ -1073,8 +498,8 @@
 				type: "kill"
 				value: 50L
 			}]
-			x: 4.5d
-			y: 7.5d
+			x: 8.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["682B081A32B48DDE"]
@@ -1099,8 +524,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: 4.5d
-			y: 8.5d
+			x: 8.0d
+			y: 0.5d
 		}
 		{
 			icon: "minecraft:spider_spawn_egg"
@@ -1124,8 +549,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: -4.5d
-			y: 6.5d
+			x: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1D31E5ABED3743E7"]
@@ -1150,8 +575,8 @@
 				type: "kill"
 				value: 30L
 			}]
-			x: -4.5d
-			y: 7.5d
+			x: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2A1CD461BF2F4A46"]
@@ -1176,8 +601,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -4.5d
-			y: 8.5d
+			x: -1.0d
+			y: 0.5d
 		}
 		{
 			id: "0D9F089E98AADBA5"
@@ -1201,8 +626,8 @@
 				type: "kill"
 				value: 5L
 			}]
-			x: -1.5d
-			y: 10.5d
+			x: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0D9F089E98AADBA5"]
@@ -1228,8 +653,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: -1.5d
-			y: 11.5d
+			x: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["33B1EEED95230156"]
@@ -1255,8 +680,8 @@
 				type: "kill"
 				value: 50L
 			}]
-			x: -1.5d
-			y: 12.5d
+			x: 2.0d
+			y: 4.5d
 		}
 		{
 			icon: "minecraft:slime_ball"
@@ -1280,8 +705,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: -3.0d
-			y: 6.5d
+			x: 0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["43B77AFB99476020"]
@@ -1306,8 +731,8 @@
 				type: "kill"
 				value: 30L
 			}]
-			x: -3.0d
-			y: 7.5d
+			x: 0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["08F70564BCE33B34"]
@@ -1332,8 +757,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -3.0d
-			y: 8.5d
+			x: 0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0A417DAC88234DED"]
@@ -1358,8 +783,8 @@
 				type: "kill"
 				value: 200L
 			}]
-			x: -3.0d
-			y: 9.5d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5964A60436E9CAC5"]
@@ -1377,8 +802,8 @@
 				type: "kill"
 				value: 400L
 			}]
-			x: -3.0d
-			y: 10.5d
+			x: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["30CC1CE792CF948C"]
@@ -1408,8 +833,8 @@
 				type: "kill"
 				value: 1000L
 			}]
-			x: -3.0d
-			y: 11.5d
+			x: 0.5d
+			y: 3.5d
 		}
 		{
 			icon: "minecraft:evoker_spawn_egg"
@@ -1433,8 +858,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.5d
-			y: 6.5d
+			x: 11.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3E4FABF49DF8A4A0"]
@@ -1460,8 +885,8 @@
 				type: "kill"
 				value: 5L
 			}]
-			x: 7.5d
-			y: 7.5d
+			x: 11.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4C0A01CEE6B9573F"]
@@ -1491,8 +916,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: 7.5d
-			y: 8.5d
+			x: 11.0d
+			y: 0.5d
 		}
 		{
 			id: "6D160C596B6D789D"
@@ -1522,8 +947,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: 7.5d
-			y: 10.5d
+			x: 11.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6D160C596B6D789D"]
@@ -1554,8 +979,8 @@
 				type: "kill"
 				value: 30L
 			}]
-			x: 7.5d
-			y: 11.5d
+			x: 11.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["18023C5D8E985695"]
@@ -1584,8 +1009,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: 7.5d
-			y: 12.5d
+			x: 11.0d
+			y: 4.5d
 		}
 		{
 			id: "66E4D05FE4EB1B37"
@@ -1615,8 +1040,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: 9.0d
-			y: 6.5d
+			x: 12.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["66E4D05FE4EB1B37"]
@@ -1640,8 +1065,8 @@
 				type: "kill"
 				value: 30L
 			}]
-			x: 9.0d
-			y: 7.5d
+			x: 12.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["78BCB063DF450FEA"]
@@ -1665,8 +1090,8 @@
 				type: "kill"
 				value: 60L
 			}]
-			x: 9.0d
-			y: 8.5d
+			x: 12.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3E37363F614DB7CF"]
@@ -1690,8 +1115,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: 9.0d
-			y: 9.5d
+			x: 12.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["372F44A7635E5FB8"]
@@ -1715,8 +1140,8 @@
 				type: "kill"
 				value: 200L
 			}]
-			x: 9.0d
-			y: 10.5d
+			x: 12.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3A90C6BB095363CF"]
@@ -1740,8 +1165,8 @@
 				type: "kill"
 				value: 400L
 			}]
-			x: 9.0d
-			y: 11.5d
+			x: 12.5d
+			y: 3.5d
 		}
 		{
 			icon: "minecraft:ghast_tear"
@@ -1765,8 +1190,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: 4.5d
-			y: 9.5d
+			x: 8.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3C7112CE44982D6D"]
@@ -1792,8 +1217,8 @@
 				type: "kill"
 				value: 30L
 			}]
-			x: 4.5d
-			y: 10.5d
+			x: 8.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["43A621B14FB554AC"]
@@ -1818,8 +1243,8 @@
 				type: "kill"
 				value: 60L
 			}]
-			x: 4.5d
-			y: 11.5d
+			x: 8.0d
+			y: 3.5d
 		}
 		{
 			icon: "minecraft:piglin_spawn_egg"
@@ -1843,8 +1268,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: 3.0d
-			y: 6.5d
+			x: 6.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["04C9E8009D84B7A1"]
@@ -1874,8 +1299,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: 3.0d
-			y: 7.5d
+			x: 6.5d
+			y: -0.5d
 		}
 		{
 			id: "11944C68F6D95C77"
@@ -1898,8 +1323,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: 3.0d
-			y: 10.5d
+			x: 6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["11944C68F6D95C77"]
@@ -1923,8 +1348,8 @@
 				type: "kill"
 				value: 50L
 			}]
-			x: 3.0d
-			y: 11.5d
+			x: 6.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["307EEF462D4E001C"]
@@ -1949,8 +1374,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: 3.0d
-			y: 12.5d
+			x: 6.5d
+			y: 4.5d
 		}
 		{
 			icon: "minecraft:blaze_powder"
@@ -1974,8 +1399,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: 1.5d
-			y: 6.5d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
 			icon: "minecraft:husk_spawn_egg"
@@ -1999,8 +1424,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: 0.0d
-			y: 9.0d
+			x: 3.5d
+			y: 1.0d
 		}
 		{
 			icon: "minecraft:stray_spawn_egg"
@@ -2024,8 +1449,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: 0.0d
-			y: 11.5d
+			x: 3.5d
+			y: 3.5d
 		}
 		{
 			icon: {
@@ -2055,8 +1480,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: 0.0d
-			y: 6.5d
+			x: 3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7AA5044D18A2E23E"]
@@ -2086,8 +1511,8 @@
 				type: "kill"
 				value: 1000L
 			}]
-			x: -7.5d
-			y: 12.5d
+			x: -4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["42B5C52B1EB2CF21"]
@@ -2117,8 +1542,8 @@
 				type: "kill"
 				value: 1000L
 			}]
-			x: -9.0d
-			y: 12.5d
+			x: -5.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7DD33DBEE207DD46"]
@@ -2150,8 +1575,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -6.0d
-			y: 9.5d
+			x: -2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0674AD4EEDEEF4E4"]
@@ -2183,8 +1608,8 @@
 				type: "kill"
 				value: 200L
 			}]
-			x: -6.0d
-			y: 10.5d
+			x: -2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["781AA84E08C4367A"]
@@ -2216,8 +1641,8 @@
 				type: "kill"
 				value: 500L
 			}]
-			x: -6.0d
-			y: 11.5d
+			x: -2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4B68EB265B0E1129"]
@@ -2250,8 +1675,8 @@
 				type: "kill"
 				value: 50L
 			}]
-			x: 1.5d
-			y: 7.5d
+			x: 5.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["67EE916849A729B1"]
@@ -2277,8 +1702,8 @@
 				type: "kill"
 				value: 150L
 			}]
-			x: 1.5d
-			y: 8.5d
+			x: 5.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5537F265CE8EBD3E"]
@@ -2304,8 +1729,8 @@
 				type: "kill"
 				value: 300L
 			}]
-			x: 1.5d
-			y: 9.5d
+			x: 5.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["32E4964F2AAA4E25"]
@@ -2344,8 +1769,8 @@
 				type: "kill"
 				value: 200L
 			}]
-			x: 0.0d
-			y: 7.5d
+			x: 3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["61CCF5EFBAC2D198"]
@@ -2378,8 +1803,8 @@
 				type: "kill"
 				value: 200L
 			}]
-			x: 0.0d
-			y: 10.0d
+			x: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5927A8C2376D0588"]
@@ -2412,8 +1837,8 @@
 				type: "kill"
 				value: 200L
 			}]
-			x: 0.0d
-			y: 12.5d
+			x: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["686519D5266C6F27"]
@@ -2440,8 +1865,8 @@
 				type: "kill"
 				value: 300L
 			}]
-			x: 3.0d
-			y: 8.5d
+			x: 6.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3F4E0FB2177E7F52"]
@@ -2467,8 +1892,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: 4.5d
-			y: 12.5d
+			x: 8.0d
+			y: 4.5d
 		}
 		{
 			icon: "minecraft:magma_cream"
@@ -2493,8 +1918,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: 1.5d
-			y: 11.5d
+			x: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["02BF15564572F2BA"]
@@ -2521,8 +1946,8 @@
 				type: "kill"
 				value: 300L
 			}]
-			x: 1.5d
-			y: 12.5d
+			x: 5.0d
+			y: 4.5d
 		}
 		{
 			id: "40F5EEC0C7474750"
@@ -2547,8 +1972,8 @@
 				value: 10L
 			}]
 			title: "Bad Reputation I"
-			x: 6.0d
-			y: 10.5d
+			x: 9.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["40F5EEC0C7474750"]
@@ -2574,8 +1999,8 @@
 				value: 50L
 			}]
 			title: "Bad Reputation II"
-			x: 6.0d
-			y: 11.5d
+			x: 9.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["234394677552B368"]
@@ -2601,8 +2026,8 @@
 				value: 100L
 			}]
 			title: "Bad Reputation III"
-			x: 6.0d
-			y: 12.5d
+			x: 9.5d
+			y: 4.5d
 		}
 		{
 			id: "203172A2D2865B49"
@@ -2638,25 +2063,8 @@
 				type: "custom"
 			}]
 			title: "Break 25 Spawners"
-			x: -1.5d
-			y: 6.5d
-		}
-		{
-			description: ["Dropped during the Undead Army event."]
-			id: "7D48C1C4B70B99F8"
-			optional: true
-			rewards: [{
-				id: "0013A2378EC802CC"
-				item: "majruszsdifficulty:undead_army_treasure_bag"
-				type: "item"
-			}]
-			tasks: [{
-				id: "37DD06C023C5FE5E"
-				item: "majruszsdifficulty:cloth"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.0d
+			x: 2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["552084F86F88D15C"]
@@ -2685,8 +2093,8 @@
 				type: "kill"
 				value: 1000L
 			}]
-			x: -6.0d
-			y: 12.5d
+			x: -2.5d
+			y: 4.5d
 		}
 		{
 			icon: "supplementaries:enderman_head"
@@ -2710,8 +2118,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: 6.0d
-			y: 6.5d
+			x: 9.5d
+			y: -1.5d
 		}
 		{
 			icon: "minecraft:cave_spider_spawn_egg"
@@ -2735,8 +2143,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -4.5d
-			y: 10.5d
+			x: -1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6EE8F9129E0A1D60"]
@@ -2762,8 +2170,8 @@
 				type: "kill"
 				value: 25L
 			}]
-			x: 6.0d
-			y: 7.5d
+			x: 9.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2B0920822CAF3FEB"]
@@ -2782,8 +2190,8 @@
 				type: "kill"
 				value: 50L
 			}]
-			x: 6.0d
-			y: 8.5d
+			x: 9.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0AB325E800C9C5B9"]
@@ -2809,8 +2217,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: 6.0d
-			y: 9.5d
+			x: 9.5d
+			y: 1.5d
 		}
 		{
 			description: ["Illusioners start to spawn naturally in Expert Mode (after Bell Ringer and Swampjaw are defeated), but can also spawn in raids."]
@@ -2834,8 +2242,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: 9.0d
-			y: 12.5d
+			x: 12.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["16B7281F7910FF1E"]
@@ -2854,8 +2262,8 @@
 				type: "kill"
 				value: 500L
 			}]
-			x: -4.5d
-			y: 9.5d
+			x: -1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["203172A2D2865B49"]
@@ -2883,8 +2291,8 @@
 				type: "custom"
 			}]
 			title: "Break 50 Spawners"
-			x: -1.5d
-			y: 7.5d
+			x: 2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3AEDA39629AAEB5D"]
@@ -2934,8 +2342,8 @@
 				title: "Break 100 Spawners"
 				type: "custom"
 			}]
-			x: -1.5d
-			y: 8.5d
+			x: 2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5A3FA8B6A53D834D"]
@@ -2974,294 +2382,8 @@
 				title: "Spawner Smasher"
 				type: "custom"
 			}]
-			x: -1.5d
-			y: 9.5d
-		}
-		{
-			dependencies: ["3BB8E50299A5126E"]
-			icon: "meetyourfight:dusk_key"
-			id: "6944FB579307EA8D"
-			optional: true
-			rewards: [
-				{
-					id: "57525DA82B16AD57"
-					item: "randomite:randomite_ore"
-					type: "item"
-				}
-				{
-					id: "2A310A50347DBEDE"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "6CD2BB167369B700"
-					type: "xp"
-					xp: 1000
-				}
-			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "Kill this one and Dame Fortuna to enter Master mode"
-			tasks: [
-				{
-					id: "7B83179C0865EF93"
-					item: "meetyourfight:dusk_key"
-					type: "item"
-				}
-				{
-					entity: "meetyourfight:rosalyne"
-					id: "2E6501D8BC66494C"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "Rosalyne"
-			x: 1.5d
+			x: 2.0d
 			y: 1.5d
-		}
-		{
-			description: [
-				"This is designed to add some challenge to your &l&4END-GAME&r&r. "
-				""
-				"&4Activate this only if you know what you're doing and prepared for this.&r"
-				""
-				"&l&4THIS WILL ONLY WORK WHEN YOU KILL THE REQUIRED BOSSes&r&r. "
-				""
-				"There is no effect on Normal gameplay until that. This feature is also disabled on servers. (ask @dreams how to enable it)"
-				""
-				"To enter Expert mode: kill Bell Ringer and Swampjaw"
-				"To enter Master mode: kill Dame Fortuna and Rosalyne"
-				""
-				"- Spider attack may inflict poison effect"
-				"- Increases spawn rate depending on current game stage (Expert, Master)"
-				"- If the player dies from a zombie a new zombie with player's name spawns in the same place"
-				"- Slime attack may inflict slowness effect"
-				"- Shulker attack may inflict stackable blindness effect"
-				"- All hostile mobs get damage and health bonuses (Expert, Master)"
-				"- Jockey is more likely to spawn"
-				"- Zombies may spawn in groups as miners (only underground)"
-				"- Skeletons may spawn in groups"
-				"- Piglins may spawn in groups"
-				"- Gives extra experience as the difficulty increases"
-				"- Evoker may spawn with a Totem of Undying"
-				"- Enderman attack may teleport the player somewhere nearby"
-				"- Drowned trident throw may spawn a lightning bolt when it rains"
-				"- Gives a chance to double the loot"
-				"- When the Creeper explodes it may spawn a few Creeperlings"
-				"- Creeper may spawn with negative effects applied"
-				"- Creeper may spawn charged"
-			]
-			icon: "minecraft:skeleton_skull"
-			id: "3BB8E50299A5126E"
-			optional: true
-			rewards: [{
-				id: "6D421BF9AC3B5420"
-				item: "majruszsdifficulty:bandage"
-				type: "item"
-			}]
-			shape: "octagon"
-			size: 2.0d
-			subtitle: "... add some challenge!"
-			tasks: [{
-				id: "2B177A80654B7BEE"
-				title: "If you're feeling the game is too easy for you..."
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["6944FB579307EA8D"]
-			id: "3C495F6E2E72657C"
-			optional: true
-			rewards: [
-				{
-					id: "2F2A06840CA4CF06"
-					item: "majruszsdifficulty:cloth"
-					type: "item"
-				}
-				{
-					id: "35AF7E06CA977555"
-					type: "xp"
-					xp: 750
-				}
-			]
-			tasks: [{
-				id: "4ACF963600802A2D"
-				item: "meetyourfight:violet_bloom"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["3C495F6E2E72657C"]
-			id: "18A6BE43F285601A"
-			optional: true
-			rewards: [
-				{
-					id: "76866BC3173659AF"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "2B0B941E9DD9F37D"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "3BC700F02712A64A"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0CA3C2DB7FA73B2A"
-				item: "meetyourfight:tomb_planter"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["3C495F6E2E72657C"]
-			id: "35905615E3F69F80"
-			optional: true
-			rewards: [
-				{
-					id: "6B949EFBB5ECDFC3"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "6CD57D4816AC8AAF"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "5C81B84967CED0EB"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "02237A3E357D6F3D"
-				item: {
-					Count: 1b
-					id: "meetyourfight:twilights_thorn"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 5.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["3C495F6E2E72657C"]
-			id: "35AE95549D879DCD"
-			optional: true
-			rewards: [
-				{
-					id: "3A89BBFB64E3B8A4"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "4445799342FDD218"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "645586B9C7B24B35"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0259817B396FA241"
-				item: "meetyourfight:wilted_ideals"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["3C495F6E2E72657C"]
-			id: "6E4CEECE22730384"
-			optional: true
-			rewards: [
-				{
-					id: "2A320621E1F5D133"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "0E7C6EB4F7DC32D1"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "6C87127040A0693E"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0359CE39BE311587"
-				item: "meetyourfight:blossoming_mind"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"4BBEF37E398FA6EA"
-				"6944FB579307EA8D"
-				"6A51E5206B5F75D4"
-				"01586496C0B6EB67"
-			]
-			description: ["&ocheats must be enabled to work&r"]
-			hide_dependency_lines: true
-			hide_details_until_startable: true
-			id: "07432EEB3F8F2D0C"
-			invisible: true
-			optional: true
-			rewards: [{
-				command: "/gamestate NORMAL"
-				icon: "minecraft:dandelion"
-				id: "6A9AAECB23E4D994"
-				title: "Revert gamemode to Normal"
-				type: "command"
-			}]
-			subtitle: "You have only one chance to bring back your world to normal"
-			tasks: [{
-				id: "3EE133C70097D88F"
-				type: "checkmark"
-			}]
-			title: "Feels too hard?"
-			x: 0.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["7D48C1C4B70B99F8"]
-			id: "58143CCA50BBEA6E"
-			optional: true
-			rewards: [{
-				count: 3
-				id: "05127AE2555C52BF"
-				item: "majruszsdifficulty:undead_army_treasure_bag"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0966F2129A36AF0D"
-				item: "majruszsdifficulty:undead_battle_standard"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 4.0d
 		}
 	]
 	title: "&4Time to Fight&r"

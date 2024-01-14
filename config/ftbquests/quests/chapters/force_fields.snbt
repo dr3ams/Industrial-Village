@@ -132,6 +132,19 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"MFFS, short for Modular Force Field Systems, introduces force fields, advanced machinery, and defensive capabilities to the world of Minecraft. Whether you're weary of your home being destroyed by nuclear explosions or seeking to safeguard your clandestine hideouts, MFFS has the solution."
+				""
+				"The applications of these force fields are diverse, encompassing:"
+				""
+				"- Securing your residence against intruders"
+				"- Constructing elaborate structures"
+				"- Establishing underwater bases or airlocks"
+				"- Fending off encroaching mobs"
+				"- Entrapping adversaries in cunning snares"
+				"- Shielding against ballistic missiles"
+				"- Seizing items from other players"
+			]
 			id: "69428EB806A0CC3D"
 			rewards: [{
 				id: "575B71D679C8066D"
@@ -162,6 +175,7 @@
 				xp: 100
 			}]
 			shape: "octagon"
+			subtitle: "Energy storage and management device"
 			tasks: [{
 				id: "6C4C173DE70AF5E8"
 				item: "mffs:fortron_capacitor"
@@ -180,6 +194,8 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 2.0d
+			subtitle: "Uses Fortron energy to project force fields of various shapes and sizes into the world"
 			tasks: [{
 				id: "08796B276DDBFB76"
 				item: "mffs:projector"
@@ -197,6 +213,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Used to generate Fortron from FE energy"
 			tasks: [{
 				id: "7C343A8B8F761BDA"
 				item: "mffs:coercion_deriver"
@@ -215,6 +232,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Imposes restrictions on players or entities present in the space around it"
 			tasks: [{
 				id: "2AD0BA253B0A69D2"
 				item: "mffs:interdiction_matrix"
@@ -232,6 +250,7 @@
 				type: "xp"
 				xp: 200
 			}]
+			subtitle: "Uses bio-signatures given off by players to govern what permissions they have when interacting with force fields and MFFS machines"
 			tasks: [{
 				id: "5F27107732416BC1"
 				item: "mffs:biometric_identifier"
@@ -344,18 +363,6 @@
 			}]
 			x: -1.0d
 			y: -1.5d
-		}
-		{
-			description: ["- add text(at least basic)"]
-			icon: "kubejs:lightning"
-			id: "79FE550EE236DE72"
-			tasks: [{
-				id: "1EC679A8945D219D"
-				title: "todo"
-				type: "checkmark"
-			}]
-			x: -7.0d
-			y: -1.0d
 		}
 	]
 	title: "Force Fields"

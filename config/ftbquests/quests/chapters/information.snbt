@@ -1,4 +1,5 @@
 {
+	autofocus_id: "43828153E1755F19"
 	default_hide_dependency_lines: false
 	default_quest_shape: "square"
 	default_quest_size: 2.0d
@@ -306,11 +307,13 @@
 		}
 		{
 			description: [
-				"Please note that there are may be some issues and recipe inconsistencies. This is my oversight as it hard to check every item and block interaction."
+				"Please note that there are may be some issues and recipe inconsistencies. This is &oprobably&r my oversight as it hard to check every item and block interaction."
 				""
 				"This pack was developed in the intervals of my free time and will be improved over time according to player's feedback."
 				""
 				"If you found something that seems strange to you please report it to github or discord."
+				""
+				"&2Thank you for your understanding and sorry if something went wrong.&r"
 			]
 			icon: "kubejs:icon_exclamation"
 			id: "2A9DC8C72AD9AED0"
@@ -334,6 +337,7 @@
 				id: "392BA2DA0ABFAA17"
 				type: "checkmark"
 			}]
+			title: "What is this chapter about?"
 			x: 5.0d
 			y: 5.0d
 		}
@@ -454,22 +458,54 @@
 			y: 19.0d
 		}
 		{
+			description: ["&5Pretty Pipes&r is a simple to use, all-inclusive item transport mod. It features simple pipes that can be upgraded using modules to accomplish much more advanced tasks. Each module has three tiers, so Pretty Pipes can be used both in the early game, and in the late game."]
+			icon: "prettypipes:pipe"
 			id: "373B809A4F086C24"
-			tasks: [{
-				id: "17BDC479D9A6A4AF"
-				item: "prettypipes:pipe"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "17BDC479D9A6A4AF"
+					item: "prettypipes:pipe"
+					type: "item"
+				}
+				{
+					id: "49F57509AC9CF39F"
+					item: "prettypipes:low_extraction_module"
+					type: "item"
+				}
+				{
+					id: "43DA59373BFE89A6"
+					item: "prettypipes:low_retrieval_module"
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 15.0d
 		}
 		{
+			description: [
+				"&5Pretty Pipes: Fluids&r is an addon to Pretty Pipes which adds a new pipe which allows extraction and transport of fluid within the Pretty Pipes network."
+				""
+				"The fluid pipes connect to any blocks capable to handle fluids, and inserting a fluid extraction module will automatically extract fluid from the block and try to insert it into other fluid handling blocks."
+			]
+			icon: "ppfluids:fluid_pipe"
 			id: "5EEB422DA9CF57DF"
-			tasks: [{
-				id: "0A87C0647B6576AC"
-				item: "ppfluids:fluid_pipe"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0A87C0647B6576AC"
+					item: "ppfluids:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "342EAE80FAF87D03"
+					item: "ppfluids:low_fluid_extraction_module"
+					type: "item"
+				}
+				{
+					id: "54474A9A6D1FC88F"
+					item: "ppfluids:low_fluid_retrieval_module"
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 17.0d
 		}
@@ -494,6 +530,7 @@
 		{
 			icon: "immersiveengineering:conveyor_basic"
 			id: "2B1319A5E508C08E"
+			shape: "gear"
 			subtitle: "Player + Item + Fluid"
 			tasks: [{
 				id: "683304533BD42377"
@@ -507,6 +544,7 @@
 		{
 			icon: "immersiveengineering:watermill"
 			id: "6E64B1B17F1AD1BB"
+			shape: "gear"
 			tasks: [{
 				id: "350E331D2C68A6C1"
 				title: "Power generation options"
@@ -518,6 +556,7 @@
 		{
 			icon: "minecraft:chest"
 			id: "3BC390AEACCA7408"
+			shape: "gear"
 			tasks: [{
 				id: "359880B02E0AA920"
 				title: "Storage Options"
@@ -532,6 +571,7 @@
 				""
 				"Items and fluids can be stored in one of the many storage capabilities that the mod offers. Any storage devices connected to the same network are accessible through one simple Grid interface, allowing to access the inventories of many devices through a single unified GUI."
 			]
+			disable_toast: true
 			id: "1775E5F5A02A5AF4"
 			tasks: [{
 				id: "778E60BA016DAC19"
@@ -542,6 +582,7 @@
 			y: 29.0d
 		}
 		{
+			description: ["Different useful gadgets that will help you in your journey."]
 			icon: {
 				Count: 1b
 				id: "minecolonies:build_goggles"

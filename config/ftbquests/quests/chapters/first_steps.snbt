@@ -744,7 +744,11 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["7516E82D481861D5"]
+			dependencies: [
+				"7516E82D481861D5"
+				"09588577ED14C64E"
+			]
+			description: ["Seems like even simple Furnace requires more materials"]
 			id: "2CC1163904415114"
 			rewards: [{
 				id: "5C1CA408C27BB527"
@@ -752,17 +756,6 @@
 				type: "item"
 			}]
 			tasks: [
-				{
-					id: "61650FE3B5E09B56"
-					item: {
-						Count: 1b
-						id: "kubejs:wooden_form"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
 				{
 					count: 5L
 					id: "6765A8969158DE8F"
@@ -779,11 +772,6 @@
 					count: 5L
 					id: "6E3B7209EB853EAC"
 					item: "kubejs:clay_brick"
-					type: "item"
-				}
-				{
-					id: "41FD953A0E400FDC"
-					item: "farmersdelight:cutting_board"
 					type: "item"
 				}
 			]
@@ -924,7 +912,7 @@
 				type: "checkmark"
 			}]
 			title: "A bit complex early game recipes"
-			x: 0.0d
+			x: 2.0d
 			y: 1.5d
 		}
 		{
@@ -968,6 +956,7 @@
 		}
 		{
 			dependencies: ["5D67117EDB491237"]
+			description: ["Not too durable but at least something"]
 			id: "27C56F118D65355C"
 			rewards: [
 				{
@@ -995,6 +984,38 @@
 			}]
 			x: -2.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000030"]
+			description: ["Form holds placed substance together. "]
+			icon: {
+				Count: 1b
+				id: "kubejs:wooden_form"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "09588577ED14C64E"
+			tasks: [
+				{
+					id: "0D649B4D1F662963"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "0B0C35BED94EC2BB"
+					item: {
+						Count: 1b
+						id: "kubejs:wooden_form"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
 		}
 	]
 	title: "1. &aFirst Steps&r"

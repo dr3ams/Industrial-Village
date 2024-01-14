@@ -482,6 +482,7 @@
 			dependencies: [
 				"00000000000004DC"
 				"77AA2922D34E8E5D"
+				"44B83B138A53750A"
 			]
 			description: [
 				"The Dissolution Chamber is a specialized crafting table for Industrial Foregoing. It takes up to 8 items and a liquid input. "

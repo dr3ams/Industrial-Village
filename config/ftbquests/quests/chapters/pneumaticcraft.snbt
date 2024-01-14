@@ -280,6 +280,11 @@
 		{
 			description: ["To get started, you just need Iron Ingots, which you will convert into Compressed Iron Ingots, used in many recipes throughout the mod."]
 			id: "6FD45EF3A2B1B31F"
+			rewards: [{
+				id: "2A13908AE13FEFB0"
+				type: "xp"
+				xp: 100
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "04EDCECFB54AF19D"
@@ -676,7 +681,11 @@
 		}
 		{
 			dependencies: ["0E61E6DB14B53B82"]
-			description: ["Plastic Sheets are produced by placing a bucket or tank of Molten Plastic into an inventory with a Heat Frame attached, and chilling the Heat Frame, ideally to below -80C (the colder the better). Molten Plastic will be consumed from the bucket or tank, and you will have a chance for a second Plastic Sheet for each 1000mB of Molten Plastic consumed."]
+			description: [
+				"Plastic Sheets are produced by placing a bucket or tank of Molten Plastic into an inventory with a Heat Frame attached, and chilling the Heat Frame, ideally to below -80C (the colder the better). "
+				""
+				"Molten Plastic will be consumed from the bucket or tank, and you will have a chance for a second Plastic Sheet for each 1000mB of Molten Plastic consumed."
+			]
 			id: "4ECA8387C0B80330"
 			rewards: [{
 				id: "68E48C00A54563A5"
@@ -1638,7 +1647,7 @@
 		{
 			dependencies: ["1EB00AC57E572D88"]
 			description: [
-				"In Pneumatic Craft, the only world generation is Crude Oil. It's generated similarly to water lakes; the difference is that Oil lakes are far more likely to spawn deep underground than on the surface. Because of this, assistance from tools like a Seismic Sensor is highly recommended."
+				"Oil lakes are far more likely to spawn deep underground than on the surface. Because of this, assistance from tools like a Seismic Sensor is highly recommended."
 				""
 				"Crude Oil has two purposes: to be refined into high-quality fuels which can be used in Liquid Compressors, and for making Plastic and Lubricant. Plastic is used in many recipes in Pneumatic Craft, and Lubricant is required for making Speed Upgrades."
 				""

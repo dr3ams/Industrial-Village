@@ -42,6 +42,7 @@
 				"0000000000000030"
 			]
 			description: ["{image:litv3:textures/misc/chapter1-2.png width:200 height:270 align:1}"]
+			disable_toast: true
 			hide: true
 			id: "7C1599092DBC5729"
 			tasks: [{
@@ -58,6 +59,7 @@
 				"0000000000000267"
 			]
 			description: ["{image:litv3:textures/misc/chapter2.png width:200 height:270 align:1}"]
+			disable_toast: true
 			hide: true
 			id: "6B0F4A9F83967152"
 			tasks: [{
@@ -69,7 +71,12 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["6B0F4A9F83967152"]
+			dependencies: [
+				"6B0F4A9F83967152"
+				"256BD2FFBE7EC950"
+			]
+			description: ["{image:litv3:textures/misc/chapter3.png width:200 height:270 align:1}"]
+			disable_toast: true
 			hide: true
 			id: "412835BF3F6B4DC1"
 			tasks: [{
@@ -81,7 +88,12 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["412835BF3F6B4DC1"]
+			dependencies: [
+				"412835BF3F6B4DC1"
+				"000000000000027D"
+			]
+			description: ["{image:litv3:textures/misc/chapter3-2.png width:200 height:270 align:1}"]
+			disable_toast: true
 			hide: true
 			id: "66E791C285547D86"
 			tasks: [{
@@ -89,11 +101,16 @@
 				type: "checkmark"
 			}]
 			title: "Chapter 3 Fragment 2"
-			x: -2.0d
-			y: 3.0d
+			x: 1.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["412835BF3F6B4DC1"]
+			dependencies: [
+				"66E791C285547D86"
+				"76366E70ECDAEC40"
+			]
+			description: ["{image:litv3:textures/misc/chapter4.png width:200 height:270 align:1}"]
+			disable_toast: true
 			hide: true
 			id: "0159C5DEED07FEC9"
 			tasks: [{
@@ -101,11 +118,17 @@
 				type: "checkmark"
 			}]
 			title: "Chapter 4"
-			x: 7.5d
-			y: 0.0d
+			x: 5.5d
+			y: -0.5d
 		}
 		{
-			dependencies: ["0159C5DEED07FEC9"]
+			dependencies: [
+				"0159C5DEED07FEC9"
+				"10E1CE20A53EE5DC"
+				"74F5FB34AD726A1F"
+			]
+			description: ["{image:litv3:textures/misc/chapter4-2.png width:200 height:270 align:1}"]
+			disable_toast: true
 			hide: true
 			id: "72505DB5F71F405B"
 			tasks: [{
@@ -113,11 +136,16 @@
 				type: "checkmark"
 			}]
 			title: "Chapter 4 Fragment 2"
-			x: 10.5d
-			y: -0.5d
+			x: 8.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["0159C5DEED07FEC9"]
+			dependencies: [
+				"72505DB5F71F405B"
+				"37B19EFE9CEA550D"
+			]
+			description: ["{image:litv3:textures/misc/chapter5.png width:200 height:270 align:1}"]
+			disable_toast: true
 			hide: true
 			id: "3D7326961768AD41"
 			tasks: [{
@@ -125,11 +153,13 @@
 				type: "checkmark"
 			}]
 			title: "Epilogue"
-			x: 4.5d
-			y: 8.5d
+			x: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["3D7326961768AD41"]
+			description: ["{image:litv3:textures/misc/chapter5-1.png width:200 height:270 align:1}"]
+			disable_toast: true
 			hide: true
 			id: "7F10B3D67DF72393"
 			tasks: [{

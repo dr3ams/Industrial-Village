@@ -150,32 +150,6 @@
 			y: 1.5d
 		}
 		{
-			description: ["Rotation lock is enabled by pressing K by default on your keyboard. You will see a cube to the right of your crosshair. This makes all blocks you place face in the direction you were facing in when the lock was enabled. Press it again to change direction and again to turn it off."]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "kubejs:help"
-			}
-			id: "0FFBD03D30C69566"
-			rewards: [{
-				id: "360C1DC5EFEDFDBE"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "0262BB5E11609CFF"
-				title: "Press K"
-				type: "checkmark"
-			}]
-			title: "Rotation Lock"
-			x: 6.5d
-			y: -0.5d
-		}
-		{
 			description: ["Ropes can be climbed like ladders. The ones from supplementaries can also be passed through."]
 			id: "0A9964481C4795E6"
 			rewards: [{
@@ -245,8 +219,8 @@
 				type: "item"
 			}]
 			title: "The Crankonator"
-			x: 5.5d
-			y: -2.0d
+			x: 6.5d
+			y: -0.5d
 		}
 		{
 			description: ["The Cog Block can transmit redstone vertically!"]
