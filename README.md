@@ -41,4 +41,6 @@ Industrial Village is a tech-based colony-managing modpack centered around the I
 - enhanced dungeons and structures;
 - overhauled terrain generation to explore;
 - carefully handpicked and filtered mods. You won't be overhelmed with same features from different mods but you will have everything you need;
-- option to add your favourite mods without breaking anything; 
+- option to add your favourite mods without breaking anything;
+
+  [Download it on Curseforge!](https://legacy.curseforge.com/minecraft/modpacks/industrial-village)
