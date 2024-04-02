@@ -472,7 +472,7 @@
 
 	[tweaks.placeable_sticks]
 		#Allow placeable sticks
-		sticks = true
+		sticks = false
 		#Allow placeable blaze rods
 		blaze_rods = true
 

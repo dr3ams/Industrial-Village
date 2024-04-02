@@ -92,7 +92,7 @@
 	consumed_hunger_mode = "TIME_DIFFICULTY_BASED"
 	#Base hunger decrement value. Depends on other config. Set to 0 to disable
 	#Range: 0.0 ~ 20.0
-	base_value = 5.0
+	base_value = 0
 
 [sleep_requirements]
 	apply_to_beds = true

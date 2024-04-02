@@ -58,7 +58,7 @@
 
 [client]
 	#Enable colored particles for challenger mobs (dependent on particle setting as well)
-	enableChallengerMobParticles = true
+	enableChallengerMobParticles = false
 	#If enabled, all bees will always be half-sized. Does not affect breeding or hitboxes
 	enableSmallBees = false
 
@@ -108,7 +108,7 @@
 		enableFlavorText = true
 		#If enabled, any valuable tools / items lost forever via Cactus, Lava, Void, etc. might be found by the next Wandering Trader and put up for sale!
 		#Valuable items are determined by the vtweaks:valuable tag and, if the item can be enchanted and the config option wanderingTraderRecoverySaveUnenchantedGear is set to true, is enchanted.
-		wanderingTraderRecoveryEnabled = true
+		wanderingTraderRecoveryEnabled = false
 		#The chance that a given Wandering Trader will offer lost valuables for sale
 		#Range: 0.0 ~ 1.0
 		chanceToSellValuable = 0.4

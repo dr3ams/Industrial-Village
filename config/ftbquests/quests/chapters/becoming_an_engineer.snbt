@@ -190,6 +190,7 @@
 			]
 			shape: "octagon"
 			size: 1.5d
+			subtitle: "&o&9To start this quest you will need to complete 2 main quests in the first chapter.&r&r"
 			tasks: [{
 				count: 27L
 				id: "0000000000000105"

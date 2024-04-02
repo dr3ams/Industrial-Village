@@ -446,11 +446,30 @@
 			y: 2.0d
 		}
 		{
+			can_repeat: true
 			description: [
 				"&oNew structures will be added over time...&r"
 				""
 				"Want your structure here? Msg dreams in pack's discord."
+				""
+				"&5&nClick on the arrow to turn the pages&r&r"
+				"{@pagebreak}"
+				"(Starter House)"
+				"{image:litv3:textures/misc/q-s-house.png width:200 height:190 align:1}"
+				"{@pagebreak}"
+				"(Starter Plot)"
+				"{image:litv3:textures/misc/q-s-plot.png width:200 height:170 align:1}"
+				"{@pagebreak}"
+				"(Starter Factory)"
+				"{image:litv3:textures/misc/q-s-factory.png width:200 height:190 align:1}"
+				"{@pagebreak}"
+				"(Starter Barn)"
+				"{image:litv3:textures/misc/q-s-barn.png width:200 height:190 align:1}"
+				"{@pagebreak}"
+				"(Starter Greenhouse)"
+				"{image:litv3:textures/misc/q-s-greenhouse.png width:200 height:190 align:1}"
 			]
+			disable_toast: true
 			icon: {
 				Count: 1b
 				id: "capsule:capsule"

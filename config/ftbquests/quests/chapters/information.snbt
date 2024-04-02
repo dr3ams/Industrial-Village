@@ -65,14 +65,14 @@
 			linked_quest: "47E2C8C90A0B7A20"
 			size: 2.0d
 			x: 11.0d
-			y: 23.0d
+			y: 25.0d
 		}
 		{
 			id: "40A185A6E98D656B"
 			linked_quest: "70B922895DB76796"
 			size: 2.0d
 			x: 11.0d
-			y: 13.0d
+			y: 19.0d
 		}
 		{
 			id: "1CFA262974DC579D"
@@ -86,14 +86,14 @@
 			linked_quest: "59CD1DCD8B422649"
 			size: 2.0d
 			x: 11.0d
-			y: 19.0d
+			y: 21.0d
 		}
 		{
 			id: "30B80103B8DAB646"
 			linked_quest: "009F78659E60A2F0"
 			size: 2.0d
 			x: 11.0d
-			y: 21.0d
+			y: 23.0d
 		}
 		{
 			id: "2A6C2506166A6706"
@@ -156,7 +156,7 @@
 			linked_quest: "710272398D8871F8"
 			size: 2.0d
 			x: 11.0d
-			y: 25.0d
+			y: 27.0d
 		}
 		{
 			id: "69AF895D254B6522"
@@ -185,6 +185,13 @@
 			size: 2.0d
 			x: -1.0d
 			y: 21.0d
+		}
+		{
+			id: "562E904A792ED084"
+			linked_quest: "668C63E53BD59BFD"
+			size: 2.0d
+			x: 11.0d
+			y: 13.0d
 		}
 	]
 	quests: [
@@ -231,6 +238,7 @@
 				type: "item"
 			}]
 			size: 2.0d
+			subtitle: "&9&oProgress is not gated behind quests. Quests act more as a guide.&r&r"
 			tasks: [{
 				icon: "minecraft:writable_book"
 				id: "0000000000000F89"
@@ -887,6 +895,50 @@
 			}]
 			title: "End Overhaul"
 			x: -3.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"First you need to craft your album and then start killing hostile mobs. Hostile mobs have chance to drop card package with random rarity. Opening the package will grant you 5 cards which can be used for album."
+				""
+				"&l&2Album is divided into 5 categories:&r&r"
+				""
+				"- Tools"
+				"- Armor"
+				"- Mobs"
+				"- Nature"
+				"- Items"
+				""
+				"&l&2Each card has custom parameters:&r&r"
+				""
+				""
+				"- Card number -> Used to identify correct slot in album"
+				"- Card category -> See category list above"
+				"- Card rarity -> Rarity of card (Common=Worst, Mythical=Best)"
+				"- Card value -> Value based on rarity"
+				""
+				"&n&l&5Bonuses&r&r&r"
+				""
+				"Once you reach certain threshold with your album card collection you will obtain passive effects such as &1resistance&r/&cregeneration&r/&4extra health&r and more."
+				""
+				"These thresholds are unlocked by having certain amount of points or filling full categories."
+			]
+			id: "2D02F0E1C3DFBCA5"
+			subtitle: "900 new collectible cards in varying rarities which can enhance your character by filling your collector's album."
+			tasks: [{
+				id: "0FD09E3BD337D936"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "collectorsalbum:cards_common"
+					}
+				}
+				title: "Any #collectorsalbum:cards_common"
+				type: "item"
+			}]
+			title: "Collector's Album"
+			x: 1.0d
 			y: -3.0d
 		}
 	]

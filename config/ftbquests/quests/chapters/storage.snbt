@@ -579,6 +579,15 @@
 			y: 4.5d
 		}
 		{
+			description: [
+				"There is no traditional slotted inventory with these containers. Interaction is click-based. Clicking on one of drawers on front will interact with that drawer."
+				""
+				"- &9Right-Click:&r Insert full stack in hand into drawer (or partial stack if the drawer fills)."
+				"- &9Double-Right-Click:&r Insert all compatible stacks in inventory into drawer (or until drawer fills)."
+				"- &9Left-Click:&r Remove a single item from the drawer."
+				"- &9Shift+Left-Click:&r Remove a full stack from the drawer."
+				"- &9Shift+Right-Click on any side:&r Open a UI to see exact item counts and manage applied upgrades."
+			]
 			id: "668C63E53BD59BFD"
 			rewards: [{
 				id: "71775B151407293C"
@@ -586,6 +595,7 @@
 				xp: 100
 			}]
 			size: 1.5d
+			subtitle: "Put your most frequently used items within convenient reach."
 			tasks: [{
 				id: "316F580C57D30181"
 				item: {
@@ -598,6 +608,7 @@
 				title: "Any #functionalstorage:drawer"
 				type: "item"
 			}]
+			title: "Functional Drawers"
 			x: 4.5d
 			y: 1.0d
 		}

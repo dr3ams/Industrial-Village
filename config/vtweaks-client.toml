@@ -1,7 +1,7 @@
 
 [client]
 	#Enable colored particles for challenger mobs (dependent on particle setting as well)
-	enableChallengerMobParticles = true
+	enableChallengerMobParticles = false
 	#If enabled, all bees will always be half-sized. Does not affect breeding or hitboxes
 	enableSmallBees = false
 

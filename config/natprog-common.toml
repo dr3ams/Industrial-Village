@@ -30,7 +30,7 @@
 	#Enabling this causes all entities to drop additional bones when killed
 	allEntitiesDropBones = false
 	#Setting this to true will allow players to place Twigs by Right-Clicking a Stick on a solid surface
-	areTwigsPlaceable = true
+	areTwigsPlaceable = false
 	#The chance (out of 100) for bone to be created via knapping.
 	#e.g.: Setting to 75 means there is a 75% chance knapping will provide a bone shard.
 	#Range: 1 ~ 100

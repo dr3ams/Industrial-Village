@@ -1,12 +1,13 @@
 {
   "active": true,
   "showOnlyOneTime": false,
-  "cooldown": 30,
+  "cooldown": 60,
   "chatMessage": false,
   "infoMessageSent": true,
   "dontShowAll": [
     "minecraft:",
-    "dimdungeons:"
+    "dimdungeons:",
+	"towns_and_towers:"
   ],
   "dontShow": [
     "minecraft:plains_village",
