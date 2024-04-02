@@ -73,7 +73,7 @@
 			dev: false
 			height: 0.4d
 			hover: [ ]
-			image: "jei:textures/gui/icons/arrow_next.png"
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
 			rotation: 0.0d
 			width: 0.4d
 			x: -6.0d
@@ -85,7 +85,7 @@
 			dev: false
 			height: 0.4d
 			hover: [ ]
-			image: "jei:textures/gui/icons/arrow_next.png"
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
 			rotation: 0.0d
 			width: 0.4d
 			x: -2.0d
@@ -97,7 +97,7 @@
 			dev: false
 			height: 0.4d
 			hover: [ ]
-			image: "jei:textures/gui/icons/arrow_next.png"
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
 			rotation: 0.0d
 			width: 0.4d
 			x: 2.0d
@@ -110,6 +110,7 @@
 		{
 			can_repeat: true
 			disable_toast: true
+			icon: "minecraft:stone"
 			id: "7525A4AAA54D2F0F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -121,6 +122,7 @@
 			tasks: [{
 				consume_items: true
 				count: 64L
+				disable_toast: true
 				id: "6CCAEDACC1C14C99"
 				item: "minecraft:stone"
 				type: "item"
@@ -151,6 +153,7 @@
 			subtitle: "&2&oChoice repeatable reward&r&r"
 			tasks: [{
 				consume_items: true
+				disable_toast: true
 				id: "17B7046770CA5003"
 				item: "kubejs:copper_coin"
 				type: "item"
@@ -179,6 +182,7 @@
 			subtitle: "&2&oChoice repeatable reward&r&r"
 			tasks: [{
 				consume_items: true
+				disable_toast: true
 				id: "0D11EF81DDA0EF14"
 				item: "kubejs:iron_coin"
 				type: "item"
@@ -209,6 +213,7 @@
 			subtitle: "&2&oChoice repeatable reward&r&r"
 			tasks: [{
 				consume_items: true
+				disable_toast: true
 				id: "7035844CA6BDC17C"
 				item: "kubejs:gold_coin"
 				type: "item"
@@ -238,6 +243,7 @@
 			subtitle: "&2&oChoice repeatable reward&r&r"
 			tasks: [{
 				consume_items: true
+				disable_toast: true
 				id: "266B9F8F0D5CEBDB"
 				item: "kubejs:diamond_coin"
 				type: "item"
@@ -259,6 +265,7 @@
 			tasks: [{
 				consume_items: true
 				count: 64L
+				disable_toast: true
 				id: "637C2DCF5167900B"
 				item: "minecraft:charcoal"
 				type: "item"
@@ -345,6 +352,7 @@
 			subtitle: "&2&oChoice repeatable reward&r&r"
 			tasks: [{
 				consume_items: true
+				disable_toast: true
 				id: "7FCDC029B1D69443"
 				item: "kubejs:iron_coin"
 				type: "item"
@@ -370,6 +378,7 @@
 				item: "kubejs:copper_coin"
 				type: "item"
 			}]
+			title: "Common Hat Bag"
 			x: -8.0d
 			y: 2.0d
 		}
@@ -390,6 +399,7 @@
 				item: "kubejs:iron_coin"
 				type: "item"
 			}]
+			title: "Uncommon Hat Bag"
 			x: -4.0d
 			y: 2.0d
 		}
@@ -410,6 +420,7 @@
 				item: "kubejs:gold_coin"
 				type: "item"
 			}]
+			title: "Rare Hat Bag"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -430,8 +441,43 @@
 				item: "kubejs:diamond_coin"
 				type: "item"
 			}]
+			title: "Epic Hat Bag"
 			x: 4.0d
 			y: 2.0d
+		}
+		{
+			description: [
+				"&oNew structures will be added over time...&r"
+				""
+				"Want your structure here? Msg dreams in pack's discord."
+			]
+			icon: {
+				Count: 1b
+				id: "capsule:capsule"
+				tag: {
+					color: 16777215
+					overpowered: 1
+					size: 1
+					state: 0
+				}
+			}
+			id: "3723EA252A7D261A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07EB4C0CA672E30F"
+				table_id: 2581585967323693493L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "62602CEB29F0CEC5"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "Starter House Choice"
+			x: 2.0d
+			y: 1.5d
 		}
 	]
 	title: "&l&fCoins Exchange&r&r"

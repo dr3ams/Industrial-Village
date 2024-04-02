@@ -117,12 +117,12 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'refinedstorage:advanced_processor', type: 'minecraft:smelting'})
 	
 	
-	event.remove({output: 'minecraft:copper_ingot', type: 'minecraft:blasting'})
-	event.blasting('3x immersiveengineering:nugget_copper', 'minecraft:raw_copper').cookingTime(200)
-	event.blasting('4x immersiveengineering:nugget_copper', 'minecraft:copper_ore').cookingTime(200)
-	event.blasting('5x immersiveengineering:nugget_copper', 'minecraft:deepslate_copper_ore').cookingTime(200)
-	event.blasting('6x immersiveengineering:nugget_copper', 'minecraft:copper_ore').cookingTime(200)
-	event.blasting('7x immersiveengineering:nugget_copper', 'ad_astra:glacio_copper_ore').cookingTime(200)
+	//event.remove({output: 'minecraft:copper_ingot', type: 'minecraft:blasting'})
+	//event.blasting('3x immersiveengineering:nugget_copper', 'minecraft:raw_copper').cookingTime(50)
+	//event.blasting('4x immersiveengineering:nugget_copper', 'minecraft:copper_ore').cookingTime(50)
+	//event.blasting('5x immersiveengineering:nugget_copper', 'minecraft:deepslate_copper_ore').cookingTime(50)
+	//event.blasting('6x immersiveengineering:nugget_copper', 'minecraft:copper_ore').cookingTime(50)
+	//event.blasting('7x immersiveengineering:nugget_copper', 'ad_astra:glacio_copper_ore').cookingTime(50)
 	
 	
 	event.remove({id: 'immersiveengineering:crafting/sheetmetal_iron'})
@@ -343,6 +343,16 @@ ServerEvents.recipes(event => {
     B: 'railcraft:brass_plate',
 	F: 'kubejs:steel_file'
 	}).damageIngredient(Item.of('kubejs:steel_file'))
+	
+	event.remove({output:'constructionwand:stone_wand'})
+	event.shaped('constructionwand:stone_wand', [
+	'  B',
+    ' A ',
+	'   '
+	], {
+    A: 'minecraft:stick',
+	B: 'minecraft:cobblestone'
+	})
   
   //primitive
 	event.custom({
@@ -351,12 +361,14 @@ ServerEvents.recipes(event => {
 			{"tag": "minecraft:planks"}
 		],
 		"tool": 
-			{"tag": "farmersdelight:tools/knives"},
+			{"tag": "forge:tools/knives"},
 		"result": [
 			{ "item": "kubejs:wooden_form", "count": 1}
 		],
 		"sound": "minecraft:item.axe.strip"
 	})
+	
+
 	
 	event.shaped('kubejs:stone_mortar', [
 	' B ',
@@ -377,14 +389,10 @@ ServerEvents.recipes(event => {
 	B: 'minecraft:iron_ingot'
 	})
 	
-	event.shaped('minecraft:flint', [
-	'A  ',
-	'B  ',
-	'   '
-	], {
-	A: 'kubejs:stone_mortar',
-	B: 'minecraft:gravel'
-	}).damageIngredient('kubejs:stone_mortar')
+	event.shapeless('minecraft:flint', [
+	'minecraft:gravel',
+	'#indvil:mortars'
+	]).damageIngredient('#indvil:mortars')
 
 	
 	//clay brick unfired
@@ -393,7 +401,7 @@ ServerEvents.recipes(event => {
 	'kubejs:wooden_form'
 	]).damageIngredient('kubejs:wooden_form')
 	event.smelting('kubejs:clay_brick', 'kubejs:clay_brick_unfired').cookingTime(100)
-	event.campfireCooking('kubejs:clay_brick', 'kubejs:clay_brick_unfired').cookingTime(400)
+	event.campfireCooking('kubejs:clay_brick', 'kubejs:clay_brick_unfired').cookingTime(200)
 	
 	//blast furnace recipe
 	event.remove({output: 'minecraft:blast_furnace'})
@@ -442,66 +450,42 @@ ServerEvents.recipes(event => {
 	D: 'kubejs:fireclay_brick_dust',
 	F: 'kubejs:wooden_form'
 	}).damageIngredient('kubejs:wooden_form')
-	event.blasting('kubejs:fireclay_brick', 'kubejs:fireclay_brick_unfired').cookingTime(200)
+	event.blasting('kubejs:fireclay_brick', 'kubejs:fireclay_brick_unfired').cookingTime(50)
 	
 	//fireclay brick dust
-	event.shaped('3x kubejs:fireclay_brick_dust', [
-	'SG ',
-	'CF ',
-	'   '
-	], {
-	S: '#forge:sand',
-	G: 'minecraft:gravel',
-	C: 'kubejs:clay_dust',
-	F: 'kubejs:wooden_form'
-	}).damageIngredient('kubejs:wooden_form')
+	event.shapeless('3x kubejs:fireclay_brick_dust', [
+	'#forge:sand',
+	'minecraft:gravel',
+	'kubejs:clay_dust',
+	'kubejs:wooden_form'
+	]).damageIngredient('kubejs:wooden_form')
 	
 	//fireclay brick
-	event.shaped('kubejs:fireclay_brick_dust', [
-	'T  ',
-	'M  ',
-	'   '
-	], {
-	T: 'kubejs:fireclay_brick',
-	M: 'kubejs:stone_mortar'
-	}).damageIngredient('kubejs:stone_mortar')
+	event.shapeless('kubejs:fireclay_brick_dust', [
+	'kubejs:fireclay_brick',
+	'#indvil:mortars'
+	]).damageIngredient('#indvil:mortars')
 	
 	//vanilla mc brick dust from terracota
-	event.shaped('kubejs:brick_dust', [
-	'T  ',
-	'M  ',
-	'   '
-	], {
-	T: 'minecraft:terracotta',
-	M: 'kubejs:stone_mortar'
-	}).damageIngredient('kubejs:stone_mortar')
+	event.shapeless('kubejs:brick_dust', [
+	'minecraft:terracotta',
+	'#indvil:mortars'
+	]).damageIngredient('#indvil:mortars')
 	
-	event.shaped('1x kubejs:brick_dust', [
-	'T  ',
-	'M  ',
-	'   '
-	], {
-	T: 'minecraft:brick',
-	M: 'kubejs:stone_mortar'
-	}).damageIngredient('kubejs:stone_mortar')
+	event.shapeless('1x kubejs:brick_dust', [
+	'minecraft:brick',
+	'#indvil:mortars'
+	]).damageIngredient('#indvil:mortars')
 
-	event.shaped('4x kubejs:brick_dust', [
-	'T  ',
-	'M  ',
-	'   '
-	], {
-	T: 'minecraft:bricks',
-	M: 'kubejs:stone_mortar'
-	}).damageIngredient('kubejs:stone_mortar')
+	event.shapeless('4x kubejs:brick_dust', [
+	'minecraft:bricks',
+	'kubejs:stone_mortar'
+	]).damageIngredient('kubejs:stone_mortar')
 
-	event.shaped('kubejs:clay_dust', [
-	'T  ',
-	'M  ',
-	'   '
-	], {
-	T: 'minecraft:clay_ball',
-	M: 'kubejs:stone_mortar'
-	}).damageIngredient('kubejs:stone_mortar')
+	event.shapeless('kubejs:clay_dust', [
+	'minecraft:clay_ball',
+	'#indvil:mortars'
+	]).damageIngredient('#indvil:mortars')
 
 	event.custom({
 		"type": "farmersdelight:cutting",
@@ -516,23 +500,15 @@ ServerEvents.recipes(event => {
 	})	
 	
 	//primitive ingot
-	event.shaped('railcraft:coal_dust', [
-	'C  ',
-	'M  ',
-	'   '
-	], {
-	C: 'minecraft:coal',
-	M: 'kubejs:stone_mortar'
-	}).damageIngredient('kubejs:stone_mortar')
+	event.shapeless('railcraft:coal_dust', [
+	'minecraft:coal',
+	'#indvil:mortars'
+	]).damageIngredient('#indvil:mortars')
 	
-	event.shaped('railcraft:charcoal_dust', [
-	'C  ',
-	'M  ',
-	'   '
-	], {
-	C: 'minecraft:charcoal',
-	M: 'kubejs:stone_mortar'
-	}).damageIngredient('kubejs:stone_mortar')
+	event.shapeless('railcraft:charcoal_dust', [
+	'minecraft:charcoal',
+	'#indvil:mortars'
+	]).damageIngredient('#indvil:mortars')
 	
 	event.shaped('kubejs:primitive_blend', [
 	'AB ',
@@ -545,16 +521,12 @@ ServerEvents.recipes(event => {
 	D: 'kubejs:wooden_form'
 	}).damageIngredient('kubejs:wooden_form')
 	
-	event.smelting('kubejs:primitive_ingot', 'kubejs:primitive_blend').cookingTime(300)
+	event.smelting('kubejs:primitive_ingot', 'kubejs:primitive_blend').cookingTime(100)
 	
-	event.shaped('kubejs:primitive_ingot_dust', [
-	'C  ',
-	'M  ',
-	'   '
-	], {
-	C: 'kubejs:primitive_ingot',
-	M: 'kubejs:stone_mortar'
-	}).damageIngredient('kubejs:stone_mortar')
+	event.shapeless('kubejs:primitive_ingot_dust', [
+	'kubejs:primitive_ingot',
+	'#indvil:mortars'
+	]).damageIngredient('#indvil:mortars')
 	
 	//blast resistant brick for blast furnace
 	event.shaped('2x kubejs:blastresistant_brick_dust', [
@@ -578,7 +550,7 @@ ServerEvents.recipes(event => {
 	D: 'kubejs:blastresistant_brick_dust',
 	F: 'kubejs:wooden_form'
 	}).damageIngredient('kubejs:wooden_form')
-	event.blasting('kubejs:blastresistant_brick', 'kubejs:blastresistant_brick_unfired').cookingTime(300)
+	event.blasting('kubejs:blastresistant_brick', 'kubejs:blastresistant_brick_unfired').cookingTime(100)
 	
 	event.remove({output: 'refinedstorage:silicon', type: 'minecraft:smelting'})
 	event.blasting('refinedstorage:silicon', 'kubejs:raw_silicon').cookingTime(100)
@@ -696,7 +668,7 @@ ServerEvents.recipes(event => {
     " C "
 	], {
 	A: '#minecraft:coals',
-	B: '#supplementaries:ropes',
+	B: '#forge:ropes',
 	C: '#forge:rods/wooden'
 	})
 })

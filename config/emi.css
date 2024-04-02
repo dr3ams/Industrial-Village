@@ -9,7 +9,7 @@
 	/**
 	 * Whether cheating in items is enabled.
 	 */
-	cheat-mode: true;
+	cheat-mode: false;
 
 	/**
 	 * How much EMI should use tooltips and popups to show controls and information.
@@ -56,12 +56,12 @@
 	/**
 	 * Whether to add mod name to tooltips
 	 */
-	append-mod-id: true;
+	append-mod-id: false;
 
 	/**
 	 * Whether to add mod name to item tooltips, in case another mod provides behavior
 	 */
-	append-item-mod-id: true;
+	append-item-mod-id: false;
 
 	/**
 	 * Prevents recipes being quick crafted from shifting around under the cursor.
@@ -83,7 +83,7 @@
 	 * Whether to have the search bar in the center of the screen, instead of to the
 	 * side.
 	 */
-	center-search-bar: true;
+	center-search-bar: false;
 
 	/**
 	 * Which sidebar type to switch to when searching.
@@ -156,7 +156,7 @@
 	/**
 	 * How many columns and rows of ingredients to limit the left sidebar to
 	 */
-	left-sidebar-size: 12, 100;
+	left-sidebar-size: 9, 100;
 
 	/**
 	 * How much space to maintain between the left sidebar and obstructions, in pixels
@@ -407,6 +407,11 @@
 	delete-cursor-stack: "key.mouse.left";
 
 	/**
+	 * Copies the hovered recipe's ID to the clipboard
+	 */
+	copy-recipe-id: "key.keyboard.unknown";
+
+	/**
 	 * In edit mode, hide the hovered stack
 	 */
 	hide-stack: "ctrl key.mouse.left";
@@ -443,6 +448,13 @@
 	 * Whether hovering the output of a recipe should show the recipe's EMI ID.
 	 */
 	show-recipe-ids: false;
+
+	/**
+	 * Whether to display additional widgets added to recipes from other mods.
+	 * These are typically developer facing and compatibility related, and not useful
+	 * for players.
+	 */
+	show-recipe-decorators: false;
 
 	/**
 	 * Whether stacks in the index should display a highlight if they have a recipe

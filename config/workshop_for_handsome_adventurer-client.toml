@@ -1,0 +1,13 @@
+
+[Tables]
+	#Crafting tables can permanently hold items if you put a chest into a customization slot. Here you set whether the items are rendered.
+	"Render items on top of tables" = true
+
+[Bookshelves]
+	#If this option is turned on, you'll see a list of enchantments for your books.
+	"Detailed info for enchanted books in Jade/TOP/WTHIT" = true
+
+[Toolracks]
+	#If this option is turned on, you'll see a list of enchantments for your tools.
+	"Detailed info for enchanted tools in Jade/TOP/WTHIT" = false
+

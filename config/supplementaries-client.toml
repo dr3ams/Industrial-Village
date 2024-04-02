@@ -88,34 +88,6 @@
 		#A list of mobs that can be ticked on client side when inside jars. Mainly used for stuff that has particles. Can cause issues and side effects so use with care
 		tickable_inside_jars = ["iceandfire:pixie", "druidcraft:dreadfish", "druidcraft:lunar_moth", "alexsmobs:hummingbird"]
 
-	[blocks.wall_lantern]
-		#Makes wall lantern use a simple block model instead of the animated tile entity renderer. This will make them render much faster but will also remove the animationNote that this option only affect lanterns close by as the one far away render as fast by default
-		fast_lanterns = false
-
-		[blocks.wall_lantern.swing_physics]
-			min_angle = 0.79999995
-			collision_force = 15.0
-			damping = 0.525
-			collision_inertia = 1.0
-			collision_considers_entity_hitbox = true
-			frequency = 0.6
-			max_angle = 60.0
-
-	[blocks.enhanced_hanging_sign]
-		#Modifies vanilla hanging signs to make them like old Supplementaries ones
-		enabled = true
-		#Makes supplementaries hanging signs use a simple block model instead of the animated tile entity renderer. This will make them render much faster but will also remove the animationNote that this option only affect lanterns close by as the one far away render as fast by default
-		fast_signs = false
-
-		[blocks.enhanced_hanging_sign.swing_physics]
-			min_angle = 0.79999995
-			collision_force = 15.0
-			damping = 0.525
-			collision_inertia = 1.0
-			collision_considers_entity_hitbox = true
-			frequency = 0.6
-			max_angle = 60.0
-
 	[blocks.turn_table]
 		#Display visual particles when a block is rotated
 		turn_particles = true
@@ -174,6 +146,11 @@
 	test3 = 0.0
 	#Disables Optifine warn screen
 	no_optifine_warn_screen = false
+	#Disables Amendments suggestion screen
+	no_amendments_screen = true
+	#Config button Y offset
+	#Range: -10000 ~ 10000
+	config_button_y_offset = 0
 
 #Game tweaks
 [tweaks]
@@ -189,7 +166,6 @@
 	#Renders an enchantment glint on placeable enchanted booksNote that turning this on will make book piles use tile renderer instead of baked models making them slower to render
 	placeable_books_glint = false
 	#Placeable books random colors
-	#This is a list. Add more entries with syntax [[...]]
 	placeable_books_random_colors = ["brown", "orange", "yellow", "red", "green", "lime", "cyan", "blue", "purple"]
 	#Enables banner pattern tooltip image preview
 	banner_pattern_tooltip = true
@@ -204,13 +180,14 @@
 	mob_head_shaders = true
 	#Sends your current chat when you die while typing
 	send_chat_on_death = true
-	#A scalar multiplier that will be applied to sign text making it brighter, supposedly more legible
-	#Range: 0.0 ~ 5.0
-	sign_text_color_multiplier = 1.2000000476837158
-	#Needs the server config with same name on. If on here it will ignore the server one and keep vanilla colors
-	tinted_blocks_on_maps = true
-	#Colors tall grass same color as grass
-	tall_grass_color = true
+
+	[tweaks.colored_maps]
+		#Needs the server config with same name on. If on here it will ignore the server one and keep vanilla colors
+		tinted_blocks_on_maps = true
+		#Colors tall grass same color as grass
+		tall_grass_color = true
+		#Makes colored maps a bit more accurate. Might affect performance
+		accurate_colors = false
 
 [items]
 

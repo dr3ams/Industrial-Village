@@ -136,29 +136,6 @@
 			y: -5.0d
 		}
 		{
-			id: "32D6083223BDCD90"
-			rewards: [
-				{
-					id: "549EF9529551BCFD"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-				{
-					id: "5036299CEDA9E672"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "2F29C6C3020F6B0A"
-				item: "minecraft:campfire"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["32D6083223BDCD90"]
 			description: [
 				"The Stove is a direct upgrade to the Campfire's cooking features, and a suitable heat source for the Cooking Pot."
 				""
@@ -565,6 +542,12 @@
 					id: "2075D59F6EFF9686"
 					item: "kubejs:copper_coin"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2690B7D34551CFAC"
+					table_id: 2581585967323693493L
+					type: "choice"
 				}
 			]
 			tasks: [

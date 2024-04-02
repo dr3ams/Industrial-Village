@@ -53,8 +53,8 @@
 				type: "checkmark"
 			}]
 			title: "Construction Wands"
-			x: 5.0d
-			y: 4.0d
+			x: 5.5d
+			y: 3.0d
 		}
 		{
 			description: ["Framed Blocks will allow you to create various shaped blocks that you can use to decorate your base with complex shapes. The texture of the frame blocks can then be changed by right clicking them with a block of your choosing, which is held until the block is broken."]
@@ -82,8 +82,8 @@
 				}
 			]
 			title: "Framed Blocks"
-			x: 4.0d
-			y: 4.0d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			description: ["Some nice decorative bookshelves that can hold the manuals from mods or self written books."]
@@ -193,8 +193,14 @@
 					type: "item"
 				}
 				{
-					id: "7E7F620B11E658F8"
-					item: "ad_astra:astrodux"
+					id: "08E72724BC5951F8"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "ad_astra:astrodux"
+						}
+					}
 					type: "item"
 				}
 			]
@@ -250,12 +256,12 @@
 				}
 			]
 			title: "Fences"
-			x: 5.0d
+			x: 5.5d
 			y: -1.0d
 		}
 		{
 			description: ["The Macaw's series of mods will provide you with a large number of decorative blocks to stylize your base to your heart's content."]
-			icon: "mcwdoors:birch_glass_door"
+			icon: "mcwholidays:wooden_sled"
 			id: "00000000000015B0"
 			rewards: [{
 				id: "00E5C697A8AC50C7"
@@ -274,7 +280,7 @@
 				title: "Did you read this?"
 				type: "checkmark"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: 0.0d
 		}
 		{
@@ -305,7 +311,7 @@
 				}
 			]
 			title: "Bridges"
-			x: 6.0d
+			x: 6.5d
 			y: -1.0d
 		}
 		{
@@ -335,7 +341,7 @@
 				}
 			]
 			title: "Windows"
-			x: 6.0d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -366,7 +372,7 @@
 				}
 			]
 			title: "Roofs"
-			x: 5.0d
+			x: 5.5d
 			y: 1.0d
 		}
 		{
@@ -391,35 +397,6 @@
 			title: "Platformer"
 			x: 1.5d
 			y: 2.0d
-		}
-		{
-			description: ["The trowel will place a random block from your hotbar down, can be used to make natural looking paths."]
-			id: "0000000000000090"
-			rewards: [
-				{
-					id: "0000000000000187"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "0000000000000327"
-					item: "minecraft:gold_nugget"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0000000000000091"
-				item: {
-					Count: 1b
-					id: "quark:trowel"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: 4.0d
 		}
 		{
 			id: "2EF750505DE37B02"
@@ -467,7 +444,7 @@
 				item: "buildersaddition:hedge_oak"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: 1.0d
 		}
 		{
@@ -507,8 +484,8 @@
 				type: "checkmark"
 			}]
 			title: "Build Guide"
-			x: 3.0d
-			y: 4.0d
+			x: 3.5d
+			y: 3.0d
 		}
 		{
 			id: "2557FC64FA17C74E"
@@ -551,7 +528,7 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			x: 7.5d
 			y: 1.0d
 		}
 		{
@@ -587,7 +564,7 @@
 				item: "mcwroofs:red_striped_awning"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -611,7 +588,7 @@
 				}
 			]
 			title: "Window additions edition"
-			x: 7.0d
+			x: 7.5d
 			y: -1.0d
 		}
 		{
@@ -636,7 +613,7 @@
 				type: "item"
 			}]
 			x: 2.25d
-			y: -4.5d
+			y: -6.0d
 		}
 		{
 			id: "13E6B7E895B9049C"
@@ -653,7 +630,7 @@
 				type: "item"
 			}]
 			x: 3.75d
-			y: -4.5d
+			y: -6.0d
 		}
 		{
 			id: "73D1FCFD573B78E5"
@@ -679,7 +656,7 @@
 				type: "item"
 			}]
 			x: 5.25d
-			y: -4.5d
+			y: -6.0d
 		}
 		{
 			id: "29183F7DC868CF6A"
@@ -697,7 +674,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			id: "6624074D486E77C7"
@@ -721,7 +698,7 @@
 				type: "item"
 			}]
 			x: 6.75d
-			y: -4.5d
+			y: -6.0d
 		}
 		{
 			id: "1353ED6784CFFA6C"
@@ -738,7 +715,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			id: "6FBB42355E97B0D3"
@@ -767,7 +744,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			id: "375BB2A834D94DC3"
@@ -787,7 +764,7 @@
 				item: "mcwfences:railing_stone_brick_wall"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: 2.0d
 		}
 		{
@@ -802,7 +779,7 @@
 				item: "mcwfences:modern_stone_brick_wall"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 9.5d
 			y: 2.0d
 		}
 		{
@@ -817,7 +794,7 @@
 				item: "mcwfences:oak_wired_fence"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 2.0d
 		}
 		{
@@ -832,7 +809,7 @@
 				item: "sootychimneys:brick_chimney"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: -1.0d
 		}
 		{
@@ -847,7 +824,7 @@
 				item: "sootychimneys:stone_brick_chimney"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 0.0d
 		}
 		{
@@ -862,7 +839,7 @@
 				item: "sootychimneys:terracotta_chimney"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 9.5d
 			y: 0.0d
 		}
 		{
@@ -877,7 +854,7 @@
 				item: "sootychimneys:copper_chimney"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 1.0d
 		}
 		{
@@ -946,6 +923,152 @@
 			}]
 			x: 0.5d
 			y: 1.0d
+		}
+		{
+			id: "2C1B1FFC7BCE3CB0"
+			tasks: [{
+				id: "4EB24EECB8D74123"
+				item: "quark:trowel"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			id: "7ED2421602F9C8AA"
+			rewards: [{
+				id: "6BDA938A8F1BB175"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2C8B5641CFE24CE4"
+				item: "workshop_for_handsome_adventurer:simple_table_oak"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7ED2421602F9C8AA"]
+			id: "2AA91818BE391DF8"
+			rewards: [{
+				id: "4E8BCA7494ACBC4B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "39C2C0E90EB23C3C"
+				item: "workshop_for_handsome_adventurer:workstation_placer_oak"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "7CFBFAAAC41B48DE"
+			rewards: [{
+				id: "7E4C36EBB51C7069"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3B4441C46ECBC2C6"
+				item: "workshop_for_handsome_adventurer:tool_rack_single_oak"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			id: "4D7BFE909135600F"
+			rewards: [{
+				id: "123CCF96A4A93CA4"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5F47AE7C43B52B89"
+				item: "workshop_for_handsome_adventurer:tool_rack_framed_oak"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			id: "7988CB81D504672D"
+			rewards: [{
+				id: "1E9894FB60E08849"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "47724B1043172A72"
+				item: "workshop_for_handsome_adventurer:book_shelf_open_double_oak"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			id: "74A898FBF94441D7"
+			rewards: [{
+				id: "2ED8242234A6805D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "4178ACDF7ED9DD7A"
+				item: "workshop_for_handsome_adventurer:book_shelf_minimal_oak"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			id: "7164B4091D022038"
+			rewards: [{
+				id: "2B6F6C6FBB86345F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5038A78716890D31"
+				item: "workshop_for_handsome_adventurer:book_shelf_with_lanterns_oak"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			id: "6E8DECA7B07AC6A5"
+			rewards: [{
+				id: "69E4A16CAB58A975"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3A6DF90E4083450E"
+				item: "workshop_for_handsome_adventurer:book_shelf_open_minimal_oak"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			id: "41208FAB1802D37F"
+			rewards: [{
+				id: "43591BCFC3C85B58"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "31D7048D11E5CBC4"
+				item: "workshop_for_handsome_adventurer:potion_shelf_oak"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
 		}
 	]
 	title: "&2Functional Decor&r"

@@ -27,7 +27,7 @@ add_icon:             builtin
 alert_icon:           ftbquests:textures/gui/alert.png
 support_icon:         ftblibrary:textures/icons/support.png
 wiki_icon:            ftbquests:textures/gui/info.png
-wiki_url:             https://discord.gg/sTm7QKNUEN
+wiki_url:             https://discord.gg/dreams-modpacks-512339624627011586
 pin_icon_on:          ftbquests:textures/gui/pin.png; color=#F8BD1C
 pin_icon_off:         ftbquests:textures/gui/pin.png; color=#DBDBDB
 settings_icon:        ftbquests:textures/gui/settings.png

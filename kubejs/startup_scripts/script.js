@@ -112,3 +112,5 @@ ItemEvents.modification(event => {
     item.maxStackSize = 1
   })
 })
+
+StartupEvents.postInit(event => { Platform.mods.kubejs.name = 'Industrial Village'; });

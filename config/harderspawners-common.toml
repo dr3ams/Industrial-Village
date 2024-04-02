@@ -8,10 +8,10 @@
 	spawnerTextOff = 1
 	#Chance to destroy light sources in range (0-100%)
 	#Range: 0 ~ 100
-	destroyLightPercentage = 70
+	destroyLightPercentage = 30
 	#Range of light source destruction in blocks (1-7)
 	#Range: 1 ~ 7
-	destroyLightRange = 7
+	destroyLightRange = 3
 	#0- spawner breaks as normal.  Values over 0 minutes stun the spawner but don't break it.
 	#Range: 0 ~ 27
 	spawnerMinutesStunned = 0
@@ -23,16 +23,16 @@
 	spawnerRevengeLevel = 1
 	#Explode percentage when Spawners Break
 	#Range: 0.0 ~ 100.0
-	spawnersExplodePercentage = 13.0
+	spawnersExplodePercentage = 5.0
 	#Hostile Spawners: Player Range when hostile mobs start spawning
 	#Range: 7 ~ 256
 	requiredPlayerRange = 13
 	#Hostile Spawners: Maximum Spawned Hostile Entities
 	#Range: 3 ~ 256
-	maxNearbyEntities = 9
+	maxNearbyEntities = 5
 	#Hostile Spawners: How far from spawner hostile mobs can spawn
 	#Range: 4 ~ 256
-	spawnRange = 9
+	spawnRange = 7
 	#hostileSpawnerLightLevel: Maximum Light Level for Hostile Spawners
 	#Range: 0 ~ 15
 	hostileSpawnerLightLevel = 11

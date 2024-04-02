@@ -66,6 +66,19 @@
 			x: -9.5d
 			y: 0.0d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.7d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			order: 1
+			rotation: 135.0d
+			width: 1.7d
+			x: -2.5d
+			y: -1.0d
+		}
 	]
 	order_index: 6
 	quest_links: [ ]
@@ -456,6 +469,7 @@
 		}
 		{
 			dependencies: ["205D0674D8E55682"]
+			description: ["Enables players to create advanced machinery using high-tech and futuristic elements. "]
 			icon: "extendedcrafting:flux_crafter"
 			id: "37B19EFE9CEA550D"
 			rewards: [
@@ -610,12 +624,21 @@
 		}
 		{
 			dependencies: ["37B19EFE9CEA550D"]
+			description: [
+				"- Wireless Cross-Dimensional Transfer"
+				"- Automatic Energy Conversion"
+				"- Unlimited Transfer Rates"
+				"- Cross-dimensional inventory charging "
+				"- Encrypt your networks with password protection"
+				"- Organise the priorities of your network"
+			]
 			id: "13ED1E9FF77DA0D3"
 			rewards: [{
 				id: "01C1E8270491F843"
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "&3Wireless Energy Networks&r"
 			tasks: [{
 				id: "59DF9995751FB210"
 				item: "fluxnetworks:flux_plug"
@@ -751,18 +774,6 @@
 			}]
 			x: -1.5d
 			y: 5.0d
-		}
-		{
-			description: ["- add information for controller quests"]
-			icon: "kubejs:lightning"
-			id: "78FF5DEABA53EA49"
-			tasks: [{
-				id: "186FAE568FB53C6B"
-				title: "TODO"
-				type: "checkmark"
-			}]
-			x: -2.0d
-			y: -4.5d
 		}
 	]
 	title: "7. &3Advanced Power&r"

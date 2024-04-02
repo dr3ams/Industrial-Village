@@ -102,36 +102,70 @@
 		{
 			dependencies: ["4B2DA3AFFA75945F"]
 			hide_dependency_lines: false
+			icon: "refinedstorage:creative_wireless_fluid_grid"
 			id: "5CF08D60A24EA230"
-			tasks: [{
-				id: "219E7714A75BD9FA"
+			rewards: [{
+				id: "5F7DAFBF18F19DC8"
 				item: "refinedstorage:creative_wireless_fluid_grid"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.0d
+			tasks: [
+				{
+					id: "5B1DEA8A5FBFCE22"
+					max_input: 100000L
+					type: "forge_energy"
+					value: 25000000000L
+				}
+				{
+					amount: 1000000L
+					fluid: "industrialforegoing:essence"
+					id: "29799248162E117A"
+					type: "fluid"
+				}
+			]
+			title: "Creative Wireless Fluid Grid"
+			x: 4.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["4B2DA3AFFA75945F"]
 			hide_dependency_lines: false
+			icon: "refinedstorage:creative_wireless_crafting_monitor"
 			id: "04913C4D65276343"
-			tasks: [{
-				id: "22326C6C01E74080"
+			rewards: [{
+				id: "5960B326011F5294"
 				item: "refinedstorage:creative_wireless_crafting_monitor"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.5d
+			tasks: [
+				{
+					id: "1DC090DDAD9023A0"
+					max_input: 100000L
+					type: "forge_energy"
+					value: 40000000000L
+				}
+				{
+					amount: 1000000L
+					fluid: "industrialforegoing:essence"
+					id: "418FA7FEB9901E9E"
+					type: "fluid"
+				}
+			]
+			title: "Creative Wireless Crafting Monitor"
+			x: 2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7BCB977198AAD23A"]
+			description: [""]
 			id: "43547DF379D5936E"
 			tasks: [{
 				id: "02AA548C4F957A1E"
-				max_input: 1000L
+				max_input: 100000L
 				type: "forge_energy"
 				value: 1000000000L
 			}]
+			title: "&eCharging . . .&r"
 			x: 0.0d
 			y: 4.0d
 		}
@@ -144,6 +178,7 @@
 				id: "7F20B2CD8D94533D"
 				type: "fluid"
 			}]
+			title: "&eFilling up . . .&r"
 			x: 5.0d
 			y: 4.0d
 		}
@@ -166,33 +201,81 @@
 		{
 			dependencies: ["4B2DA3AFFA75945F"]
 			hide_dependency_lines: false
+			icon: "refinedstorage:creative_storage_disk"
 			id: "06EBB06C6E82B1DA"
-			tasks: [{
-				id: "492991D7C7DD5884"
+			rewards: [{
+				id: "60E9199CA65C9F48"
 				item: "refinedstorage:creative_storage_disk"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["4B2DA3AFFA75945F"]
-			hide_dependency_lines: false
-			id: "6629257D2817571D"
-			tasks: [{
-				id: "59298811454A0A93"
-				item: "refinedstorage:creative_fluid_storage_disk"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "32D3F5CF987E0734"
+					max_input: 100000L
+					type: "forge_energy"
+					value: 35000000000L
+				}
+				{
+					amount: 1000000L
+					fluid: "industrialforegoing:essence"
+					id: "2BCCA1D9769AD04F"
+					type: "fluid"
+				}
+			]
+			title: "Creative Storage Disk"
 			x: 3.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["4B2DA3AFFA75945F"]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "refinedstorage:creative_fluid_storage_disk"
+				tag: {
+					Id: [I;
+						931157466
+						217074078
+						-1662562243
+						-2075236547
+					]
+				}
+			}
+			id: "6629257D2817571D"
+			rewards: [{
+				id: "1B6600D3E4E6C1FB"
+				item: "refinedstorage:creative_fluid_storage_disk"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5F77F53FD37044E4"
+					max_input: 100000L
+					type: "forge_energy"
+					value: 20000000000L
+				}
+				{
+					amount: 1000000L
+					fluid: "industrialforegoing:essence"
+					id: "2F5C72CD4B358074"
+					type: "fluid"
+				}
+			]
+			title: "Creative Fluid Storage Disk"
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4B2DA3AFFA75945F"]
 			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "refinedstorage:creative_portable_grid"
+				tag: { }
+			}
 			id: "6F477D1C5B4D0FC6"
-			tasks: [{
-				id: "665FBF2D53DF8666"
+			rewards: [{
+				id: "6E266238A5318F92"
 				item: {
 					Count: 1b
 					id: "refinedstorage:creative_portable_grid"
@@ -200,15 +283,35 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: 7.5d
+			tasks: [
+				{
+					id: "190CAE028DA59D5A"
+					max_input: 100000L
+					type: "forge_energy"
+					value: 50000000000L
+				}
+				{
+					amount: 1000000L
+					fluid: "industrialforegoing:essence"
+					id: "15558F3F3EC6BC67"
+					type: "fluid"
+				}
+			]
+			title: "Creative Portable Grid"
+			x: 1.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4B2DA3AFFA75945F"]
 			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "railcraft:creative_locomotive"
+				tag: { }
+			}
 			id: "262C1F308AF94FA8"
-			tasks: [{
-				id: "7CECE623AD69AB50"
+			rewards: [{
+				id: "4C18EDD950ED94F6"
 				item: {
 					Count: 1b
 					id: "railcraft:creative_locomotive"
@@ -216,37 +319,84 @@
 				}
 				type: "item"
 			}]
+			tasks: [
+				{
+					id: "17E22F8DE466E39C"
+					max_input: 100000L
+					type: "forge_energy"
+					value: 10000000000L
+				}
+				{
+					amount: 1000000L
+					fluid: "industrialforegoing:essence"
+					id: "2B95F37D48406E78"
+					type: "fluid"
+				}
+			]
+			title: "Creative Locomotive"
 			x: 2.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["4B2DA3AFFA75945F"]
 			hide_dependency_lines: false
+			icon: "refinedstorage:purple_creative_controller"
 			id: "3A1D26F094869122"
-			tasks: [{
-				id: "04C9EC97E5F4CE41"
+			rewards: [{
+				id: "5876D89234DB6D9C"
 				item: "refinedstorage:purple_creative_controller"
 				type: "item"
 			}]
+			tasks: [
+				{
+					id: "34E48169DB70709B"
+					max_input: 100000L
+					type: "forge_energy"
+					value: 45000000000L
+				}
+				{
+					amount: 1000000L
+					fluid: "industrialforegoing:essence"
+					id: "5E3DBC15C51D28FD"
+					type: "fluid"
+				}
+			]
+			title: "Creative Controller"
 			x: 1.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["4B2DA3AFFA75945F"]
 			hide_dependency_lines: true
+			icon: "pneumaticcraft:creative_compressed_iron_block"
 			id: "2B80EBEE14832A55"
-			tasks: [{
-				id: "25E09DD4D736F183"
+			rewards: [{
+				id: "644BDF84A998D4C6"
 				item: "pneumaticcraft:creative_compressed_iron_block"
 				type: "item"
 			}]
+			tasks: [
+				{
+					id: "59570DC0C4653404"
+					max_input: 100000L
+					type: "forge_energy"
+					value: 30000000000L
+				}
+				{
+					amount: 1000000L
+					fluid: "industrialforegoing:essence"
+					id: "785005CFACE22055"
+					type: "fluid"
+				}
+			]
+			title: "Creative Compressed Iron Block"
 			x: 4.0d
-			y: 6.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3A8BB465A3C14FA8"]
 			description: [
-				"In order to maintain the value of the work you have done in the past and provide meaningful end-game goals, the modpack &ndoesn't&r provide the methods of &nvery &5overpowered&r&r items acquisition, like generators, while still offers a range of helpful creative items. And it's up to you whether you want to use them or not."
+				"In order to maintain the value of the work you have done in the past and provide meaningful &n&opost&r&r-end-game goals, the modpack &ndoesn't&r provide the methods of &nvery &5overpowered&r&r items acquisition, like generators, while still offers a range of helpful creative items. And it's up to you whether you want to use them or not."
 				""
 				"By avoiding &5overpowered&r items, the modpack encourages players to continue progressing and working towards their goals even after completing the end goals set by modpack dev. "
 				""
@@ -266,9 +416,16 @@
 		{
 			dependencies: ["4B2DA3AFFA75945F"]
 			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "constructionwand:infinity_wand"
+				tag: {
+					wand_options: { }
+				}
+			}
 			id: "65B62B586A87A2D4"
-			tasks: [{
-				id: "461529953E557810"
+			rewards: [{
+				id: "5552C6990A487AFD"
 				item: {
 					Count: 1b
 					id: "constructionwand:infinity_wand"
@@ -278,18 +435,49 @@
 				}
 				type: "item"
 			}]
+			tasks: [
+				{
+					id: "52470EB7832732A7"
+					max_input: 100000L
+					type: "forge_energy"
+					value: 23000000000L
+				}
+				{
+					amount: 100000L
+					fluid: "industrialforegoing:essence"
+					id: "1CE3C823A440EE2B"
+					type: "fluid"
+				}
+			]
+			title: "Infinity Wand"
 			x: 1.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["4B2DA3AFFA75945F"]
 			hide_dependency_lines: false
+			icon: "mffs:infinite_power_card"
 			id: "0BF2902DE2FB9277"
-			tasks: [{
-				id: "7EB1670503D2E7BE"
+			rewards: [{
+				id: "0A9F540F1922C6CD"
 				item: "mffs:infinite_power_card"
 				type: "item"
 			}]
+			tasks: [
+				{
+					id: "78E96277B6C1FAE4"
+					max_input: 100000L
+					type: "forge_energy"
+					value: 15000000000L
+				}
+				{
+					amount: 1500000L
+					fluid: "industrialforegoing:essence"
+					id: "018662B3A6954B37"
+					type: "fluid"
+				}
+			]
+			title: "Infinite Power Card"
 			x: 1.5d
 			y: 7.5d
 		}
@@ -299,6 +487,7 @@
 				"362506688597E9E9"
 			]
 			description: ["You notice a strange new chapter in your Journal..."]
+			icon: "kubejs:help"
 			id: "3A8BB465A3C14FA8"
 			tasks: [{
 				id: "33B0347484FC7487"
@@ -313,10 +502,11 @@
 			id: "71C33EE396E49AE8"
 			tasks: [{
 				id: "4D6D97A8E553ED51"
-				max_input: 1000L
+				max_input: 100000L
 				type: "forge_energy"
-				value: 1000000000L
+				value: 2000000000L
 			}]
+			title: "&cCharging . . .&r"
 			x: 0.0d
 			y: 6.0d
 		}
@@ -324,11 +514,12 @@
 			dependencies: ["2400A672822BDC83"]
 			id: "5D1DAC37AEF6942C"
 			tasks: [{
-				amount: 1000000L
+				amount: 2000000L
 				fluid: "industrialforegoing:essence"
 				id: "35DA9314354CFFF3"
 				type: "fluid"
 			}]
+			title: "&cFilling up . . .&r"
 			x: 5.0d
 			y: 6.0d
 		}
@@ -336,11 +527,12 @@
 			dependencies: ["5D1DAC37AEF6942C"]
 			id: "1BA996EBBB96663A"
 			tasks: [{
-				amount: 1000000L
+				amount: 3000000L
 				fluid: "industrialforegoing:essence"
 				id: "50C21BF7724EE047"
 				type: "fluid"
 			}]
+			title: "&4Filling up . . .&r"
 			x: 5.0d
 			y: 8.0d
 		}
@@ -349,10 +541,11 @@
 			id: "43052CF806B2D506"
 			tasks: [{
 				id: "192C6D2F46D8BED2"
-				max_input: 1000L
+				max_input: 500000L
 				type: "forge_energy"
-				value: 1000000000L
+				value: 3000000000L
 			}]
+			title: "&4Charging . . .&r"
 			x: 0.0d
 			y: 8.0d
 		}
@@ -361,15 +554,17 @@
 				"43052CF806B2D506"
 				"1BA996EBBB96663A"
 			]
+			description: [""]
 			hide_dependent_lines: true
 			id: "4B2DA3AFFA75945F"
 			tasks: [{
 				id: "405DFF2A88D08A0C"
 				type: "checkmark"
 			}]
+			title: "&2All systems ready:&r"
 			x: 2.5d
 			y: 9.5d
 		}
 	]
-	title: "X. &5Creative&r"
+	title: "X. &5Overpowered&r"
 }

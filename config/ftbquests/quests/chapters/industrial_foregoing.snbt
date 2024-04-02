@@ -55,6 +55,18 @@
 			x: 0.0d
 			y: 5.0d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.7d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 135.0d
+			width: 1.7d
+			x: -5.0d
+			y: 8.0d
+		}
 	]
 	order_index: 3
 	quest_links: [
@@ -113,7 +125,6 @@
 			y: 8.0d
 		}
 		{
-			description: ["Plastic can be made either in the Arc Furnace or Metal Press (with a plate mold) from a piece of Dry Rubber (9 pieces of Tiny Dry Rubber in a crafting grid)."]
 			id: "00000000000005C0"
 			rewards: [{
 				id: "00000000000007E1"
@@ -326,8 +337,20 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["00000000000005C0"]
-			description: ["(Connection from Becoming an Engineer chapter)"]
+			dependencies: [
+				"00000000000005C0"
+				"24395DB256750BB4"
+			]
+			description: [
+				"&9&n                                                  &r&9               "
+				"This chapter will show you ways of"
+				"- farming automation"
+				"- ranching automation"
+				"- manipulations with fluid experience"
+				"- mining"
+				"- creating advanced tools"
+				"&9&n                                                  &r&9               "
+			]
 			disable_toast: true
 			id: "0000000000000614"
 			rewards: [{
@@ -342,6 +365,7 @@
 				item: "industrialforegoing:machine_frame_pity"
 				type: "item"
 			}]
+			title: "&l&6Starting chapter 4: Growing Industry...&r&r"
 			x: 0.0d
 			y: 8.0d
 		}
@@ -359,6 +383,12 @@
 					id: "00352E701973E818"
 					item: "kubejs:iron_coin"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AA1AC09BC0E84E8"
+					table_id: 2581585967323693493L
+					type: "choice"
 				}
 			]
 			shape: "octagon"
@@ -1022,24 +1052,6 @@
 			}]
 			x: 15.0d
 			y: 8.0d
-		}
-		{
-			description: [
-				"check if laser base can be set up in another dim"
-				"add:"
-				"moon: desh ingot mining"
-				"mars: ostrum"
-				"venus: calorite"
-			]
-			icon: "kubejs:lightning"
-			id: "573221CC3736871F"
-			tasks: [{
-				id: "7FAC15CED65FB52E"
-				type: "checkmark"
-			}]
-			title: "DREAMS TODO"
-			x: -7.0d
-			y: 4.0d
 		}
 		{
 			dependencies: ["2A0DE1330FF6504F"]

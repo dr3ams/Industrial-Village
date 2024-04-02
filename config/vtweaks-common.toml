@@ -71,7 +71,7 @@
 
 	[block.chopdown]
 		#Trees fall down (like, actually not just like lumbering). Credit to Ternsip's impl (https://www.curseforge.com/minecraft/mc-mods/chopdown)
-		enableTreeChopDown = true
+		enableTreeChopDown = false
 		#The radius that this tweak will use to attempt to find leaves. Set this to a large number to detect larger trees (may cause lag)
 		#Range: > 1
 		chopdownSearchRadius = 64

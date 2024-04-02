@@ -30,6 +30,8 @@
 	hide_player_when_looking_up_angle = 15.0
 	#Whether or not to dynamically adjust camera offsets depending on space constraints.
 	dynamically_adjust_offsets = true
+	#Whether or not to adjust the player model transparency when view is obstructed.
+	adjust_player_transparency = true
 
 	[perspective.offset]
 		#Third person camera x-offset.
@@ -105,8 +107,14 @@
 	custom_raytrace_distance = 400.0
 	#Whether or not to use the custom raytrace distance used for the dynamic crosshair.
 	use_custom_raytrace_distance = true
-	#Additional items that trigger the dynamic crosshair when in apative mode.
-	adaptive_crosshair_items = ["minecraft:snowball", "minecraft:egg", "minecraft:experience_bottle", "minecraft:ender_pearl", "minecraft:splash_potion", "minecraft:fishing_rod", "minecraft:lingering_potion"]
+	#Items that when held, trigger the dynamic crosshair in adaptive mode.
+	adaptive_crosshair_hold_items = ["minecraft:snowball", "minecraft:egg", "minecraft:experience_bottle", "minecraft:ender_pearl", "minecraft:splash_potion", "minecraft:fishing_rod", "minecraft:lingering_potion"]
+	#Items that when used, trigger the dynamic crosshair in adaptive mode.
+	adaptive_crosshair_use_items = []
+	#Item properties of an item, that when held, trigger the dynamic crosshair in adaptive mode.
+	adaptive_crosshair_hold_item_properties = ["minecraft:charged"]
+	#Item properties of an item, that when used, trigger the dynamic crosshair in adaptive mode.
+	adaptive_crosshair_use_item_properties = ["minecraft:pull", "minecraft:throwing"]
 
 	[crosshair.visibility]
 		#Crosshair visibility for first_person.

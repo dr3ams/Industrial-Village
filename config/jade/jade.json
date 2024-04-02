@@ -7,7 +7,7 @@
     "displayBlocks": true,
     "displayEntities": true,
     "displayBosses": true,
-    "displayMode": "TOGGLE",
+    "displayMode": "HOLD_KEY",
     "hideFromDebug": true,
     "hideFromTabList": true,
     "enableTextToSpeech": false,
@@ -15,8 +15,9 @@
     "fluidMode": "ANY",
     "reachDistance": 0.0,
     "debug": false,
-    "itemModNameTooltip": true,
-    "bossBarOverlapMode": "PUSH_DOWN"
+    "itemModNameTooltip": false,
+    "bossBarOverlapMode": "PUSH_DOWN",
+    "builtinCamouflage": true
   },
   "overlay": {
     "activeTheme": "jade:dark",

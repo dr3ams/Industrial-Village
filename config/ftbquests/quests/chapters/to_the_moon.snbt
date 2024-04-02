@@ -205,6 +205,19 @@
 			x: -2.0d
 			y: 8.0d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.7d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			order: 2
+			rotation: 135.0d
+			width: 1.7d
+			x: -2.5d
+			y: 4.0d
+		}
 	]
 	order_index: 5
 	quest_links: [
@@ -240,6 +253,15 @@
 	]
 	quests: [
 		{
+			dependencies: ["0320C7A266333D96"]
+			description: [
+				"&9&n                                                  &r&9               "
+				"This chapter is mainly dedicated to:"
+				"- building Rockets"
+				"- flying to another planets"
+				"- preparing for end-game crafting tables"
+				"&9&n                                                  &r&9               "
+			]
 			id: "0AA12A4B058DBD57"
 			rewards: [{
 				id: "4F75ED2FEB4BC342"
@@ -253,6 +275,7 @@
 				item: "ad_astra:nasa_workbench"
 				type: "item"
 			}]
+			title: "&l&6Starting chapter 6: To The Moon...&r&r"
 			x: -2.5d
 			y: 4.0d
 		}
@@ -455,28 +478,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["0AA12A4B058DBD57"]
-			id: "4F8368D17D08A867"
-			rewards: [{
-				id: "61C1F678A6F7959D"
-				type: "xp"
-				xp: 750
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "6C872FBB9C343717"
-				item: {
-					Count: 1b
-					id: "ad_astra:oxygen_tank"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -1.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["4F8368D17D08A867"]
+			dependencies: ["7E065EF214E5120E"]
 			id: "70D7154ECFEB904B"
 			rewards: [{
 				id: "59FD2B4ECC34F7BB"
@@ -534,7 +536,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["4F8368D17D08A867"]
+			dependencies: ["0AA12A4B058DBD57"]
 			id: "7E065EF214E5120E"
 			rewards: [{
 				id: "5A7E08B8B4E07B13"
@@ -547,8 +549,8 @@
 				item: "ad_astra:oxygen_loader"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.5d
+			x: -1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [

@@ -1,0 +1,104 @@
+{
+	id: "23D3A2C26B7641B5"
+	loot_size: 1
+	order_index: 29
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "capsule:capsule"
+				tag: {
+					canRotate: 0b
+					color: 16777215
+					display: {
+						color: 16777215
+					}
+					isReward: 1b
+					label: "StarterHouse"
+					oneUse: 1b
+					size: 17
+					state: 5
+					structureName: "config/capsule/rewards/starterhouse"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "capsule:capsule"
+				tag: {
+					canRotate: 0b
+					color: 16777215
+					display: {
+						color: 16777215
+					}
+					isReward: 1b
+					label: "StarterBarn"
+					oneUse: 1b
+					size: 17
+					state: 5
+					structureName: "config/capsule/rewards/starterbarn"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "capsule:capsule"
+				tag: {
+					canRotate: 1b
+					color: 16777215
+					display: {
+						color: 16777215
+					}
+					isReward: 1b
+					label: "StarterGreenhouse"
+					oneUse: 1b
+					size: 17
+					state: 5
+					structureName: "config/capsule/rewards/startergreenhouse"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "capsule:capsule"
+				tag: {
+					canRotate: 0b
+					color: 16777215
+					display: {
+						color: 16777215
+					}
+					isReward: 1b
+					label: "StarterFactory"
+					oneUse: 1b
+					size: 17
+					state: 5
+					structureName: "config/capsule/rewards/starterfactory"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "capsule:capsule"
+				tag: {
+					canRotate: 0b
+					color: 16777215
+					display: {
+						color: 16777215
+					}
+					isReward: 1b
+					label: "StarterPlot"
+					oneUse: 1b
+					size: 17
+					state: 5
+					structureName: "config/capsule/rewards/starterplot"
+				}
+			}
+		}
+	]
+	title: "Starter House Loot Crate"
+	use_title: true
+}

@@ -49,7 +49,6 @@
 				}
 			}
 		}
-		{ count: 5, item: "aquaculture:box" }
 		{ count: 2, item: "minecraft:coal" }
 		{ count: 4, item: "minecraft:clay_ball" }
 		{ item: "minecraft:leather" }
@@ -57,7 +56,6 @@
 		{ item: "minecraft:ink_sac" }
 		{ item: "minecraft:bone" }
 		{ count: 4, item: "minecraft:sand" }
-		{ item: "randomite:randomite_ore" }
 		{ item: "minecraft:bamboo" }
 		{ item: "minecraft:lily_pad" }
 		{ item: "minecraft:kelp" }

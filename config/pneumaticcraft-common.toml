@@ -99,6 +99,9 @@
 	#Minimum interval in ticks which the player can use the Vortex Cannon to boost their own speed
 	#Range: > 1
 	vortex_cannon_player_boost_rate = 10
+	#Minimum pressure required for the Pressurized Spawner to run
+	#Range: 1.0 ~ 20.0
+	pressurized_spawner_min_pressure = 10.0
 
 ["Pneumatic Armor"]
 	#Jetboots air usage in mL/tick (per Jet Boots Upgrade)

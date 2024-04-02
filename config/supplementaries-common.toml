@@ -61,11 +61,14 @@
 		ticks_to_increase_power = 15
 		#do enderman heads work when looked from any side?
 		work_from_any_side = false
+		drop_head = true
 
 	[redstone.turn_table]
 		enabled = true
 		#can rotate entities standing on it?
 		rotate_entities = true
+		#Allows turn table to shuffle containers content when rotated over horizontal axis
+		shuffle_containers = true
 
 	[redstone.pulley_block]
 		enabled = true
@@ -90,6 +93,7 @@
 	hourglass = true
 
 	[functional.rope]
+		#So you came here to disable supp rope not because they are bad but because they are the easiest to disable, despite them doing all the stuff other ropes can do. Well too bad, this config doesnt do anything :P. Learn how to use datapacks to disable stuff, like its normally done
 		enabled = true
 		#Allows ropes to be supported & attached to solid block sides
 		block_side_attachment = true
@@ -174,6 +178,13 @@
 		#Dyed Bock types that cannot be cleaned with soap
 		clean_blacklist = ["minecraft:glazed_terracotta", "botania:mystical_flower"]
 
+		#This is a map of special blocks that can be cleaned with soap
+		[functional.soap.special_blocks]
+			"minecraft:sticky_piston" = "minecraft:piston"
+			"quark:dirty_glass_pane" = "minecraft:glass_pane"
+			"quark:dirty_glass" = "minecraft:glass"
+			"#alexscaves:cave_paintings" = "alexscaves:smooth_limestone"
+
 	[functional.present]
 		enabled = true
 		trapped_present = true
@@ -181,12 +192,6 @@
 	[functional.flax]
 		enabled = true
 		wild_flax = true
-		#How many trades to give to wandering trader
-		#Range: 0 ~ 10
-		wandering_trader_trades = 2
-		#How many trades to give to farmers
-		#Range: 0 ~ 10
-		farmer_trades = 1
 
 [building]
 	lapis_bricks = true
@@ -198,7 +203,6 @@
 	blackstone_tile = true
 	sconce = true
 	sconce_lever = true
-	sconce_green = false
 	pancake = true
 	netherite_door = true
 	netherite_trapdoor = true
@@ -210,7 +214,11 @@
 	doormat = true
 	flint_block = true
 	candle_holder = true
-	hat_stand = true
+
+	[building.hat_stand]
+		enabled = true
+		#Allow all items to go on hat stand
+		unrestricted = false
 
 	[building.blackboard]
 		enabled = true
@@ -294,9 +302,6 @@
 	[building.globe]
 		enabled = true
 		sepia_globe = true
-		#How many globe trades to give to the wandering trader. This will effectively increase the chance of him having a globe trader. Increase this if you have other mods that add stuff to that trader
-		#Range: 0 ~ 50
-		wandering_trader_trades = 2
 
 	[building.sign_post]
 		enabled = true
@@ -313,7 +318,6 @@
 
 	[building.ash_bricks]
 		enabled = true
-		mason_trades = true
 
 [tools]
 	candy = true
@@ -425,7 +429,6 @@
 
 	[tools.antique_ink]
 		enabled = true
-		cartographer_trades = true
 
 #General settings
 [general]
@@ -453,10 +456,6 @@
 	[tweaks.golden_apple_disenchant]
 		enabled = true
 
-	[tweaks.dye_blocks]
-		#Allows using dye on blocks just like with soap
-		enabled = false
-
 	[tweaks.traders_open_doors]
 		#Allows traders to open doors (because they couldnt aparently)
 		enabled = true
@@ -467,45 +466,9 @@
 		#Enables shooting ender pearls with dispensers
 		shoot_ender_pearls = true
 
-	[tweaks.cake_tweaks]
-		#Allows you to place a cake on top of another
-		double_cake = true
-		#Allows eating a cake from every side
-		directional_cake = true
-
-	[tweaks.mob_head_tweaks]
-		#Allows you to place two mob heads on top of each other
-		skull_piles = true
-		#Allows candles to be placed on top of skulls
-		skull_candles = true
-		#Allows placing more than one candle ontop of each skull
-		multiple_candles = true
-
-	[tweaks.hanging_flower_pots]
-		#allows you to place hanging flower pots. Works with any modded pot too
-		enabled = true
-
 	[tweaks.throwable_bricks]
 		#Throw bricks at your foes! Might break glass blocks
 		enabled = true
-
-	[tweaks.lantern_tweaks]
-		#Allow wall lanterns placement
-		enabled = true
-		#Gives high priority to wall lantern placement. Enable to override other wall lanterns placements, disable if it causes issues with other mods that use lower priority block click events
-		high_priority = true
-		#Mod ids of mods that have lantern block that extend the base lantern class but don't look like one
-		mod_blacklist = ["extlights", "betterendforge", "tconstruct", "enigmaticlegacy"]
-		#Allows ceiling lanterns to fall if their support is broken.Additionally if they fall from high enough they will break creating a fire where they land
-		#Allowed Values: ON, OFF, NO_FIRE
-		falling_lanterns = "ON"
-
-	[tweaks.bells_tweaks]
-		#Ring a bell by clicking on a chain that's connected to it
-		chain_ringing = true
-		#Max chain length that allows a bell to ring
-		#Range: 0 ~ 256
-		chain_length = 16
 
 	[tweaks.placeable_sticks]
 		#Allow placeable sticks
@@ -549,12 +512,6 @@
 		quill_adventurer_maps = true
 		#If Quark is installed replaces buried treasure and mansion maps with their equivalent quill form. This removes the lag spike they create when generating
 		quill_vanilla_maps = true
-		#These maps will roll a difference structure every time. Increase their price to balance them
-		#Range: 1.0 ~ 10.0
-		map_trade_price_multiplier = 2.0
-		#These maps will roll a difference structure every time. Decrease their max trades to balance them
-		#Range: 1 ~ 12
-		map_trade_max_trades = 2
 		#Miminum search radius for quill. Used to incrase the radius of vanilla searches. For reference buried treasures are at 50 and locate is at 100 chunks
 		#Range: 10 ~ 600
 		min_search_radius = 75
@@ -562,10 +519,6 @@
 		tinted_blocks_on_maps = true
 		#Select a random structure to look for instead of iterating through all of the ones in the tag returning the closest. Turning on will make ones that have diff structures (aka all different ruined portals) show up more. On could take much more time to compute
 		random_adventurer_maps_select_random_structure = true
-
-	[tweaks.ceiling_banners]
-		#Allow banners to be placed on ceilings
-		enabled = true
 
 	[tweaks.placeable_books]
 		#Allow books and enchanted books to be placed on the ground
@@ -601,4 +554,8 @@
 		cat_unluck = true
 		#If you have unluck you are more likely to get hit by a lighting
 		lightning_unluck = true
+
+	[tweaks.item_lore]
+		#Adds a recipe to add 'lore' strings to an item by combining it with a named nametag
+		enabled = true
 

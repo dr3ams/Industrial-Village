@@ -1,0 +1,14 @@
+{
+  "minimum_number_of_sets_comment": "How many wood sets are needed for this mod to use a second tab in creative mode for dynamically created blocks. Set to a high number to disable second tab and shove everything into first.",
+  "minimum_number_of_sets_for_separate_creative_tab": 4,
+  "disable_autosearching_for_textures_comment": "No reason to disable this. If you do, you need to set texture paths like in this file. While this is enabled, settings here that are texture paths are unused and unneeded.",
+  "disable_autosearching_for_textures": "false",
+  "stripped_log_substitution_comment": "For wood types that do not have stripped logs, you can specify table top block here. If you do not, we are skipping that wood type.",
+  "stripped_log_substitution_list_for_textures": "embur\u003dembur, sythian\u003dsythian, bamboo\u003dstripped_bamboo_block, bulbis\u003dbulbis",
+  "texture_template1_comment": "Tells us where to find plank textures, in case mod uses subdirectories (like byg) or different file names. Second %s below is the wood type. Separate using commas.",
+  "texture_template1_list": "byg\u003d%s:block/%s/planks, aether\u003d%s:block/construction/%s_planks",
+  "texture_template2_comment": "Tells us where to find stripped log textures, in case mod uses subdirectories (like byg) or different file names. Second %s below is the wood type. Separate using commas.",
+  "texture_template2_list": "byg\u003d%s:block/%s/stripped_log,  aether\u003d%s:block/natural/stripped_%s_log",
+  "use_darker_workstation_comment": "Slightly different model. Do not worry about this. Or just list dark woods here.",
+  "use_darker_workstation_model": "embur,hellbark,bulbis,cika,lament,dead,blackwood"
+}

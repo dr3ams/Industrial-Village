@@ -1,0 +1,15 @@
+{
+  "active": true,
+  "showOnlyOneTime": false,
+  "cooldown": 30,
+  "chatMessage": false,
+  "infoMessageSent": true,
+  "dontShowAll": [
+    "minecraft:",
+    "dimdungeons:"
+  ],
+  "dontShow": [
+    "minecraft:plains_village",
+    "minecraft:desert_village"
+  ]
+}

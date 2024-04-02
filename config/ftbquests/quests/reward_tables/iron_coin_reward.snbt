@@ -39,7 +39,6 @@
 				}
 			}
 		}
-		{ count: 4, item: "aquaculture:lockbox" }
 		{ count: 4, item: "minecraft:raw_iron" }
 		{ count: 4, item: "minecraft:raw_gold" }
 		{ count: 4, item: "minecraft:ender_pearl" }
@@ -55,7 +54,6 @@
 		{ count: 4, item: "minecraft:leather" }
 		{ count: 8, item: "minecraft:golden_carrot" }
 		{ count: 64, item: "minecraft:torch" }
-		{ item: "aquaculture:lockbox" }
 		{ count: 32, item: "minecraft:clay_ball" }
 		{ count: 8, item: "minecraft:ink_sac" }
 		{ count: 4, item: "minecraft:book" }
@@ -64,7 +62,6 @@
 		{ count: 32, item: "minecraft:smooth_stone" }
 		{ count: 32, item: "minecraft:gravel" }
 		{ count: 32, item: "minecraft:sand" }
-		{ count: 2, item: "randomite:randomite_ore" }
 		{ item: "kubejs:diamond_nugget" }
 		{ item: "kubejs:emerald_nugget" }
 		{ count: 8, item: "minecraft:lantern" }

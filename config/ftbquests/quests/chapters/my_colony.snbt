@@ -1053,6 +1053,12 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					exclude_from_claim_all: true
+					id: "59825EB5A572D9C6"
+					table_id: 2581585967323693493L
+					type: "choice"
+				}
 			]
 			tasks: [{
 				id: "67E749568E4CB418"

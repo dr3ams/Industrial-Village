@@ -91,6 +91,18 @@
 			x: 5.5d
 			y: 1.0d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.7d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 135.0d
+			width: 1.7d
+			x: 5.5d
+			y: -3.0d
+		}
 	]
 	order_index: 4
 	quest_links: [ ]
@@ -142,11 +154,19 @@
 				"Can be colored by right clicking with a dye or by placing the controller with the dye in a crafting table. This can be done for a number of machines from this mod (Check JEI for all variations)."
 			]
 			id: "000000000000027D"
-			rewards: [{
-				id: "5D1F091A15CB0F05"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5D1F091A15CB0F05"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E683881810FAB84"
+					table_id: 2581585967323693493L
+					type: "choice"
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{

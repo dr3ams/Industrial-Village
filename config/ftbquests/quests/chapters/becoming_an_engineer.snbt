@@ -74,6 +74,54 @@
 			x: 16.5d
 			y: 3.0d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.5d
+			x: -13.0d
+			y: 10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.5d
+			x: -13.0d
+			y: 13.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.7d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 135.0d
+			width: 1.7d
+			x: -13.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.7d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 135.0d
+			width: 1.7d
+			x: -13.5d
+			y: 11.5d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -83,11 +131,19 @@
 			description: ["I hope you enjoyed making this steel, you will be needing a LOT of it in the future."]
 			icon: "immersiveengineering:ingot_steel"
 			id: "00000000000000FD"
-			rewards: [{
-				id: "0B23A1618568CDAC"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0B23A1618568CDAC"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44FB7D355CBB0B6E"
+					table_id: 2581585967323693493L
+					type: "choice"
+				}
+			]
 			size: 1.5d
 			tasks: [
 				{
@@ -3131,6 +3187,11 @@
 			dependencies: ["0000000000000267"]
 			description: ["It seems like the only way to make Compressed Iron is with Arc Furnace until you get to Pressure Chamber."]
 			id: "51FE0E6E0D715EC4"
+			rewards: [{
+				id: "4EB13510FCA83E5C"
+				type: "xp"
+				xp: 5
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{

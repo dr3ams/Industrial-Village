@@ -292,6 +292,20 @@
 			x: 11.0d
 			y: 5.0d
 		}
+		{
+			id: "596DECD877D972CA"
+			linked_quest: "0AA12A4B058DBD57"
+			shape: "gear"
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			id: "0CD10F6C475E137A"
+			linked_quest: "0000000000000614"
+			shape: "gear"
+			x: 6.5d
+			y: 6.0d
+		}
 	]
 	quests: [
 		{
@@ -352,29 +366,6 @@
 			title: "&l&6Chapter 2: Industrialization&r&r"
 			x: 0.5d
 			y: 3.5d
-		}
-		{
-			dependencies: ["24395DB256750BB4"]
-			description: [
-				"&9&n                                                  &r&9               "
-				"This chapter will show you ways of"
-				"- farming automation"
-				"- ranching automation"
-				"- manipulations with fluid experience"
-				"- mining"
-				"- creating advanced tools"
-				"&9&n                                                  &r&9               "
-			]
-			id: "4A504612976031A2"
-			shape: "gear"
-			tasks: [{
-				id: "7B10D06675D9637C"
-				item: "industrialforegoing:machine_frame_pity"
-				type: "item"
-			}]
-			title: "&l&6Starting chapter 4: Growing Industry...&r&r"
-			x: 6.5d
-			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -493,7 +484,6 @@
 				{
 					id: "39E0F73F24A6BFBF"
 					item: "immersiveengineering:watermill"
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -507,7 +497,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["5F99535BC525DE96"]
+			dependencies: ["0AA12A4B058DBD57"]
 			disable_toast: true
 			icon: {
 				Count: 1b
@@ -688,27 +678,6 @@
 			]
 			title: "&l&6Chapter 3: Pneumatic Systems&r&r"
 			x: 4.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["0320C7A266333D96"]
-			description: [
-				"&9&n                                                  &r&9               "
-				"This chapter is mainly dedicated to:"
-				"- building Rockets"
-				"- flying to another planets"
-				"- preparing for end-game crafting tables"
-				"&9&n                                                  &r&9               "
-			]
-			id: "5F99535BC525DE96"
-			shape: "gear"
-			tasks: [{
-				id: "222249D406F6833E"
-				item: "ad_astra:nasa_workbench"
-				type: "item"
-			}]
-			title: "&l&6Starting chapter 6: To The Moon...&r&r"
-			x: 8.0d
 			y: 3.5d
 		}
 		{
@@ -911,10 +880,13 @@
 			dependencies: ["13BDB1E18E02B0DC"]
 			description: [
 				"&9&n                                                  &r&9               "
+				"This chapter is mainly dedicated to:"
+				"- building multiblock generators"
 				"&9&n                                                  &r&9               "
 			]
 			id: "439905073E1F6EFD"
 			shape: "gear"
+			subtitle: "FE-powered timed crafting recipes and multi-block power generation"
 			tasks: [{
 				id: "69A4AC758DD98784"
 				item: "extendedcrafting:flux_crafter"
@@ -1018,30 +990,22 @@
 		}
 		{
 			dependencies: ["439905073E1F6EFD"]
+			description: [
+				"An alloy made from &5extraterrestrial metals&r is a cutting-edge material that combines elements or compounds found in celestial bodies, such as meteorites or other space-borne materials. "
+				""
+				"This alloy possesses unique properties due to the &5exotic&r nature of its constituent metals, offering potential advantages in various applications. "
+				""
+				"The characteristics of such an alloy could include exceptional strength, heat resistance, conductivity, or other specialized features that stem from the rare and unusual properties of &5extraterrestrial metals&r."
+			]
 			id: "0B885C6C01F6C7DC"
 			tasks: [{
 				id: "0926CC43901B7E64"
 				item: "kubejs:advancedmixedmetalalloy"
 				type: "item"
 			}]
+			title: "&bAdvanced Mixed Metal Alloy&r"
 			x: 21.0d
 			y: 3.5d
-		}
-		{
-			description: [
-				"- replace quests with linked quests"
-				"- add basic quest description and age goals"
-			]
-			icon: "kubejs:lightning"
-			id: "439753B9AFD4694B"
-			tasks: [{
-				id: "5C657A9D3C9F4F5F"
-				title: "TOFO"
-				type: "checkmark"
-			}]
-			title: "TODO"
-			x: 0.5d
-			y: 0.0d
 		}
 	]
 	subtitle: ["Overview"]

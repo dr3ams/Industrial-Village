@@ -1,15 +1,15 @@
 
 ["Skill Points"]
 	#Range: 1 ~ 1000
-	"Maximum skill points" = 101
+	"Maximum skill points" = 125
 	#Range: > 0
-	"First skill point cost" = 250
+	"First skill point cost" = 150
 	#Range: > 0
-	"Last skill point cost" = 90000
+	"Last skill point cost" = 7000
 	#You can set cost for each skill point instead
 	"Use skill points costs array" = false
 	#This list's size must be equal to maximum skill points.
-	"Levelup costs" = [250, 466, 671, 870, 1064, 1253, 1440, 1624, 1806, 1985, 2163, 2339, 2514, 2688, 2860, 3031, 3201, 3370, 3538, 3705, 3872, 4037, 4202, 4366, 4529, 4692, 4854, 5016, 5177, 5337, 5497, 5656, 5815, 5974, 6131, 6289, 6446, 6603, 6759, 6915, 7070, 7225, 7380, 7534, 7688, 7841, 7995, 8148, 8300, 8453, 8605, 8756, 8908, 9059, 9210, 9360, 9511, 9661, 9810, 9960, 10109, 10258, 10407, 10556, 10704, 10852, 11000, 11148, 11295, 11442, 11589, 11736, 11883, 12029, 12175, 12321, 12467, 12613, 12758, 12903, 13048, 13193, 13338, 13483, 13627, 13771, 13915, 14059, 14203, 14346, 14490, 14633, 14776, 14919, 15062, 15204, 15347, 15489, 15631, 15773]
+	"Levelup costs" = [15, 19, 24, 30, 37, 45, 54, 64, 75, 87, 100, 114, 129, 145, 162, 180, 199, 219, 240, 262, 285, 309, 334, 360, 387, 415, 444, 474, 505, 537, 570, 604, 639, 675, 712, 750, 789, 829, 870, 912, 955, 999, 1044, 1090, 1137, 1185, 1234, 1284, 1335, 1387, 1440, 1494, 1549, 1605, 1662, 1720, 1779, 1839, 1900, 1962, 2025, 2089, 2154, 2220, 2287, 2355, 2424, 2494, 2565, 2637, 2710, 2784, 2859, 2935, 3012, 3090, 3169, 3249, 3330, 3412, 3495, 3579, 3664, 3750, 3837]
 	#Disabling this will remove chat messages when you gain a skill point.
 	"Show chat messages" = false
 	#Warning: If you disable this make sure you make alternative way of getting skill points.
@@ -17,39 +17,32 @@
 
 [Gems]
 	#Range: 0.0 ~ 1.0
-	"Base drop chance" = 0.003
+	"Base drop chance" = 0.0025
 
 [Equipment]
 	#Range: 0 ~ 4
 	"Default Helmets Sockets" = 1
 	#Range: 0 ~ 4
-	"Default Chestplates Sockets" = 1
+	"Default Chestplates Sockets" = 2
 	#Range: 0 ~ 4
-	"Default Leggings Sockets" = 0
+	"Default Leggings Sockets" = 1
 	#Range: 0 ~ 4
 	"Default Boots Sockets" = 1
 	#Range: 0 ~ 4
-	"Default Weapons Sockets" = 1
+	"Default Weapons Sockets" = 2
 	#Range: 0 ~ 4
-	"Default Shields Sockets" = 1
+	"Default Shields Sockets" = 2
 	#Range: 0 ~ 4
 	"Default Rings Sockets" = 1
 	#Range: 0 ~ 4
-	"Default Necklaces Sockets" = 1
+	"Default Necklaces Sockets" = 2
 	#You can remove sockets from items here
 	#Example: Blacklisting specific items: ["minecraft:diamond_hoe", "minecraft:golden_hoe"]
 	#Example: Blacklisting whole mod: ["<mod_id>:*"]
 	#Example: Blacklisting all items: ["*:*"]
 	"IDs of items that shouldn't have sockets" = []
-	#You can force items from other mods into equipment categories here
-	"Force into helmets category" = []
-	"Force into chestplates category" = []
-	"Force into leggings category" = []
-	"Force into boots category" = []
-	"Force into shields category" = []
-	"Force into melee weapons category" = []
-	"Force into ranged weapons category" = []
 
+#You can force items from other mods into equipmentType categories here
 ["Amnesia Scroll"]
 	#How much levels (percentage) player lose using amnesia scroll
 	#Range: 0.0 ~ 1.0

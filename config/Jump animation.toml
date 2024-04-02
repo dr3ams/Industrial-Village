@@ -1,0 +1,9 @@
+
+["Falling Penalty"]
+	#This sets wheter or not you get slowed down if falling from too high
+	"Falling Penalty" = true
+
+["HayBale negates fall damage"]
+	#This determines if landing on a Haybale block negates fall damage.
+	"HayBale negates fall damage" = true
+

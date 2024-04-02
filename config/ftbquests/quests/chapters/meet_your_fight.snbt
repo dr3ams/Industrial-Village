@@ -627,7 +627,7 @@
 				value: 5L
 			}]
 			x: 2.0d
-			y: 2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0D9F089E98AADBA5"]
@@ -654,7 +654,7 @@
 				value: 10L
 			}]
 			x: 2.0d
-			y: 3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["33B1EEED95230156"]
@@ -681,7 +681,7 @@
 				value: 50L
 			}]
 			x: 2.0d
-			y: 4.5d
+			y: 0.5d
 		}
 		{
 			icon: "minecraft:slime_ball"
@@ -2030,43 +2030,6 @@
 			y: 4.5d
 		}
 		{
-			id: "203172A2D2865B49"
-			optional: true
-			rewards: [
-				{
-					id: "23CB584988852B7A"
-					type: "xp"
-					xp: 500
-				}
-				{
-					id: "3AEA869766421A85"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "tombstone:grave_dust"
-					}
-					type: "item"
-				}
-				{
-					id: "69E65A3A4CD37BFC"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "2D4C7AB93F4CF1A6"
-				title: "Spawner Smasher"
-				type: "custom"
-			}]
-			title: "Break 25 Spawners"
-			x: 2.0d
-			y: -1.5d
-		}
-		{
 			dependencies: ["552084F86F88D15C"]
 			id: "3CF6376C2F15744D"
 			optional: true
@@ -2221,31 +2184,6 @@
 			y: 1.5d
 		}
 		{
-			description: ["Illusioners start to spawn naturally in Expert Mode (after Bell Ringer and Swampjaw are defeated), but can also spawn in raids."]
-			id: "4F18B88B2A7608F8"
-			optional: true
-			rewards: [
-				{
-					id: "0E63E023B97EE872"
-					item: "kubejs:gold_coin"
-					type: "item"
-				}
-				{
-					id: "1835AFA2B58271A0"
-					item: "compactxpbottles:x64experiencebottle"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "minecraft:illusioner"
-				id: "46494CE179A84D35"
-				type: "kill"
-				value: 100L
-			}]
-			x: 12.5d
-			y: 4.5d
-		}
-		{
 			dependencies: ["16B7281F7910FF1E"]
 			icon: "minecraft:spider_spawn_egg"
 			id: "7500D3E11DFC4CAA"
@@ -2263,126 +2201,6 @@
 				value: 500L
 			}]
 			x: -1.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["203172A2D2865B49"]
-			id: "3AEDA39629AAEB5D"
-			optional: true
-			rewards: [
-				{
-					id: "388E850A22DBCB25"
-					type: "xp"
-					xp: 250
-				}
-				{
-					id: "370F572E352B066E"
-					item: "waystones:warp_scroll"
-					type: "item"
-				}
-				{
-					id: "30815E26EE7C0DAB"
-					item: "kubejs:coin_01"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "35B71F3D14A7D57B"
-				type: "custom"
-			}]
-			title: "Break 50 Spawners"
-			x: 2.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["3AEDA39629AAEB5D"]
-			id: "5A3FA8B6A53D834D"
-			optional: true
-			rewards: [
-				{
-					id: "63DF3BB1E662ED2A"
-					type: "xp"
-					xp: 600
-				}
-				{
-					id: "331912857847F6A3"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "kubejs:gold_coin"
-					}
-					type: "item"
-				}
-				{
-					count: 5
-					id: "65B4A1466D232AF5"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "tombstone:grave_dust"
-					}
-					type: "item"
-				}
-				{
-					id: "649046A52C6813AC"
-					item: "create_sa:heap_of_experience"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "5DA228070189B1B1"
-				title: "Break 100 Spawners"
-				type: "custom"
-			}]
-			x: 2.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["5A3FA8B6A53D834D"]
-			id: "40FF66BE65AF171D"
-			optional: true
-			rewards: [
-				{
-					id: "2FFAD71E1DBE55D8"
-					type: "xp"
-					xp: 2000
-				}
-				{
-					count: 2
-					id: "153C8C7D45877D2D"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "kubejs:diamond_coin"
-					}
-					type: "item"
-				}
-				{
-					id: "5916A8A9EB873567"
-					item: "collectorsalbum:mythical_card_package"
-					type: "item"
-				}
-			]
-			shape: "square"
-			subtitle: "Break 500 Spawners"
-			tasks: [{
-				id: "0BA38C8135DBD375"
-				title: "Spawner Smasher"
-				type: "custom"
-			}]
-			x: 2.0d
 			y: 1.5d
 		}
 	]

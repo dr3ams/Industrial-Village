@@ -47,8 +47,6 @@
 		{ count: 3, item: "minecraft:emerald" }
 		{ count: 3, item: "minecraft:diamond" }
 		{ item: "minecraft:totem_of_undying" }
-		{ item: "aquaculture:neptunium_ingot" }
-		{ count: 10, item: "randomite:randomite_ore" }
 		{ item: "gag:sacred_balm" }
 		{
 			item: {

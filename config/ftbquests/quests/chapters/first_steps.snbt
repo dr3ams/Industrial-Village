@@ -201,11 +201,18 @@
 			]
 			icon: "minecraft:crafting_table"
 			id: "0000000000000030"
-			rewards: [{
-				id: "51F6F6898F97953E"
-				item: "minecraft:oak_door"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "51F6F6898F97953E"
+					item: "minecraft:oak_door"
+					type: "item"
+				}
+				{
+					id: "219013C5EF18E375"
+					item: "workshop_for_handsome_adventurer:simple_table_oak"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "0000000000000031"
@@ -428,11 +435,18 @@
 			dependencies: ["0B1C0A1EAC1237B7"]
 			description: ["The Blast Furnace will allow you to start processing ores into ingots."]
 			id: "00000000000014E2"
-			rewards: [{
-				id: "55DAD9DEE7622F48"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "55DAD9DEE7622F48"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "5D063ACA12612495"
+					item: "workshop_for_handsome_adventurer:workstation_placer_oak"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "00000000000014E3"
 				item: "minecraft:blast_furnace"
@@ -552,7 +566,6 @@
 						Damage: 0
 					}
 				}
-				optional_task: true
 				type: "item"
 			}]
 			title: "Time to fight"
@@ -996,6 +1009,11 @@
 				}
 			}
 			id: "09588577ED14C64E"
+			rewards: [{
+				id: "73E774A7F96B08A3"
+				item: "pneumaticcraft:bandage"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0D649B4D1F662963"
@@ -1016,6 +1034,46 @@
 			]
 			x: 0.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["000000000000002C"]
+			description: [
+				"&5Capsules&r can capture a region containing any blocks or machines, then deploy and undeploy at will."
+				""
+				"To go bigger you need a &nCapture Base&r block. You'll be able to capture the region on the top of it. Place it below what you want to capture, or in a free space and build on top of it."
+				""
+				"Then you need to craft at least one empty capsule."
+				""
+				"- Right click : activate"
+				"- Right click while activated : throw the capsule."
+				"Once the content is captured, the capsule can be deployed or undeployed at will."
+				""
+				"&6&nThe reward is starter house for you built by Dreams.&r&r &6You can choose which one you want, you will get more through the quests so you can complete your collection and even build the whole base out of these houses.&r"
+			]
+			icon: {
+				Count: 1b
+				id: "capsule:capsule"
+				tag: {
+					color: 8096694
+					size: 5
+					state: 0
+				}
+			}
+			id: "70FB0B0C962F4EC5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00C7550B2C95FA98"
+				table_id: 2581585967323693493L
+				type: "choice"
+			}]
+			subtitle: "(probably) Your first home!"
+			tasks: [{
+				id: "3CD15C202256F4B3"
+				title: "Base in a capsule"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 5.0d
 		}
 	]
 	title: "1. &aFirst Steps&r"

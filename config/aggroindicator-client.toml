@@ -9,7 +9,7 @@
 	#Range: -10.0 ~ 10.0
 	xOffset = 0.0
 	#Adjusts the vertical placement of alert icons
-	#Range: -10.0 ~ 10.0
+	#Range: -10.0 ~ 50.0
 	yOffset = 0.0
 	#Adjust the size of alert icons
 	#Range: 0.0 ~ 100.0

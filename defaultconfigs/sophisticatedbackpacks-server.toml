@@ -381,7 +381,7 @@
 	#Xp Pump Upgrade Settings
 	[server.xpPumpUpgrade]
 		#Whether xp pump can mend items with mending. Set false here to turn off the feature altogether.
-		mendingOn = true
+		mendingOn = false
 		#How many experience points at a maximum would be used to mend an item per operation (every 5 ticks and 1 xp point usually translates to 2 damage repaired).
 		#Range: 1 ~ 20
 		maxXpPointsPerMending = 5
@@ -392,7 +392,7 @@
 		#Range: 0.0 ~ 1.0
 		chance = 0.01
 		#Turns on/off addition of loot into backpacks
-		addLoot = true
+		addLoot = false
 		#Turns on/off buffing the entity that wears backpack with potion effects. These are scaled based on how much loot is added.
 		buffWithPotionEffects = true
 		#Turns on/off buffing the entity that wears backpack with additional health. Health is scaled based on backpack tier the mob wears.
@@ -409,17 +409,17 @@
 		dropToFakePlayers = false
 		#Chance of mob dropping backpack when killed by player
 		#Range: 0.0 ~ 1.0
-		backpackDropChance = 0.5
+		backpackDropChance = 0.085
 		#Chance increase per looting level of mob dropping backpack
 		#Range: 0.0 ~ 0.3
-		lootingChanceIncreasePerLevel = 0.15
+		lootingChanceIncreasePerLevel = 0.01
 
 	[server.nerfs]
 		#Determines if too many backpacks in player's inventory cause slowness to the player
 		tooManyBackpacksSlowness = false
 		#Maximum number of backpacks in player's inventory that will not cause slowness
 		#Range: 1 ~ 27
-		maxNumberOfBackpacks = 3
+		maxNumberOfBackpacks = 1
 		#Ratio of slowness levels per every backpack above the maximum number allowed. (number of backpacks above the max gets multiplied by this number and ceiled)
 		#Range: 0.1 ~ 5.0
 		slownessLevelsPerAdditionalBackpack = 1.0

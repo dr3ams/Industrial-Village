@@ -19,7 +19,6 @@
 		{ count: 64, item: "minecraft:packed_mud" }
 		{ count: 64, item: "minecraft:smooth_basalt" }
 		{ count: 64, item: "minecraft:blackstone" }
-		{ count: 64, item: "biomemakeover:cracked_bricks" }
 		{ count: 64, item: "chipped:engraved_basalt" }
 		{ count: 64, item: "chipped:inlayed_tuff" }
 		{ count: 64, item: "chipped:smooth_inlayed_tuff" }

@@ -7,19 +7,57 @@
 	group: ""
 	icon: "kubejs:help"
 	id: "06205F0004E690D7"
-	images: [{
-		alpha: 200
-		click: ""
-		corner: false
-		dev: false
-		height: 42.08695652173913d
-		hover: [ ]
-		image: "litv3:textures/misc/info.png"
-		rotation: 0.0d
-		width: 22.0d
-		x: 5.0d
-		y: 12.5d
-	}]
+	images: [
+		{
+			alpha: 200
+			click: ""
+			corner: false
+			dev: false
+			height: 42.08695652173913d
+			hover: [ ]
+			image: "litv3:textures/misc/info.png"
+			rotation: 0.0d
+			width: 22.0d
+			x: 5.0d
+			y: 12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:textures/gui/arrow_expanded.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 11.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:textures/gui/arrow_expanded.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 11.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:textures/gui/arrow_expanded.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 11.5d
+		}
+	]
 	order_index: 1
 	quest_links: [
 		{
@@ -97,21 +135,21 @@
 			linked_quest: "1DF036ED17B4AC91"
 			size: 2.0d
 			x: -1.0d
-			y: 21.0d
+			y: 23.0d
 		}
 		{
 			id: "3CE67F3BFFBE89BC"
 			linked_quest: "79E8DFEEBE8E3BC7"
 			size: 2.0d
 			x: -1.0d
-			y: 23.0d
+			y: 25.0d
 		}
 		{
 			id: "308AF350CEE3ADA6"
 			linked_quest: "366AE7509CC7707C"
 			size: 2.0d
 			x: -1.0d
-			y: 25.0d
+			y: 27.0d
 		}
 		{
 			id: "676B2687FCC5F2B2"
@@ -141,15 +179,27 @@
 			x: 6.0d
 			y: 13.0d
 		}
+		{
+			id: "4B0B30A61C0A454A"
+			linked_quest: "302F025D35C7E495"
+			size: 2.0d
+			x: -1.0d
+			y: 21.0d
+		}
 	]
 	quests: [
 		{
 			description: [
-				"Welcome to the Industrial Village modpack!"
+				"Welcome to the &6Industrial Village&r modpack!"
 				""
 				"This is your guide/quest book. Here you can find some sort of guided progression with rewards and some explanations."
 			]
 			id: "0000000000000117"
+			rewards: [{
+				id: "10AA444D8DA2FF70"
+				type: "xp"
+				xp: 1
+			}]
 			shape: "octagon"
 			size: 2.0d
 			tasks: [{
@@ -223,6 +273,10 @@
 			description: [
 				"There are couple of new mechanics that this pack employs, descriptions of which you will find following this quest."
 				"You can always come back here to read them again."
+				""
+				"- rebalance and overhaul of the Minecraft sleeping system."
+				"- revamped natural healing"
+				"- harder spawners"
 			]
 			icon: "minecraft:barrier"
 			id: "0000000000001231"
@@ -314,6 +368,8 @@
 				"If you found something that seems strange to you please report it to github or discord."
 				""
 				"&2Thank you for your understanding and sorry if something went wrong.&r"
+				""
+				"https://github.com/dr3ams/Industrial-Village"
 			]
 			icon: "kubejs:icon_exclamation"
 			id: "2A9DC8C72AD9AED0"
@@ -557,6 +613,7 @@
 			icon: "minecraft:chest"
 			id: "3BC390AEACCA7408"
 			shape: "gear"
+			subtitle: "Item and Fluid Storage Options"
 			tasks: [{
 				id: "359880B02E0AA920"
 				title: "Storage Options"
@@ -597,7 +654,7 @@
 				type: "checkmark"
 			}]
 			title: "Useful Gadgets"
-			x: 1.0d
+			x: -3.0d
 			y: 3.0d
 		}
 		{
@@ -609,7 +666,7 @@
 				type: "checkmark"
 			}]
 			title: "Functional Decor"
-			x: 1.0d
+			x: -3.0d
 			y: -1.0d
 		}
 		{
@@ -621,19 +678,6 @@
 			}]
 			x: 4.0d
 			y: 21.0d
-		}
-		{
-			description: ["- add basic information in descriptions"]
-			icon: "kubejs:lightning"
-			id: "0FE83C15187559C3"
-			tasks: [{
-				id: "71CAC6C22D0DC0E0"
-				title: "TOFO"
-				type: "checkmark"
-			}]
-			title: "TODO"
-			x: -6.5d
-			y: 11.5d
 		}
 		{
 			description: [
@@ -712,8 +756,138 @@
 				type: "checkmark"
 			}]
 			title: "Modular Tools"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"- Sleeping at least 8 times in the same bed will mark it as your \"home bed\""
+				"- Once a bed gets marked you'll receive a new effect, Invigorated, upon waking up"
+				"- Invigorating increases XP drop from ores and mobs for a long period of time making it a - valuable reward for committing to the same bed"
+				"- Be sure not to break or let your bed be infested as doing so will reset its home bed status"
+				"- Sleeping even more nights on the same bed will increase the Home Bed level even further up to a max of 100"
+				"- Successfully sleeping will now have a cooldown."
+				"- When sleeping next to a dark spot you'll have a chance to get woken up by a mob that could have naturally spawned there"
+			]
+			icon: "minecraft:red_bed"
+			id: "57D11F6CD5DDEDC0"
+			tasks: [{
+				id: "1591A63E8A141E40"
+				title: "Sleep"
+				type: "checkmark"
+			}]
+			title: "Sleeping changes"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&5⭐ Cauldrons&r"
+				""
+				"- Can store ANY liquid"
+				"- Can be used to Mix Potions and Dyes"
+				"- When holding water or a potion can Boil if they have a heat source below"
+				"- Boiling cauldrons can inflict boiling damage"
+				"- Stepping into a splash or lingering potion cauldron will apply that potion"
+				"- Can be used to make stews. Just throw the ingredients into a boiling water cauldron"
+				" "
+				"&5⭐ Lecterns&r"
+				""
+				"- When holding a Book and Quill will have a new GUI that adds a Quill button and an Ink Well button"
+				"- Click on the Ink Well to cycle between available font colors"
+				"- Click on the Quill to cycle between available fonts"
+				"- Can now interact with hoppers!"
+				" "
+				"&5⭐ Lanterns&r"
+				""
+				"- Can be hung on walls. Works with ANY lantern"
+				""
+				"&5⭐ Hanging Signs&r"
+				""
+				"- Can hold any item on both their faces"
+				"- Can also display a banner patterns"
+				""
+				"&5⭐ Carpets&r"
+				"- Can be placed on Slabs"
+				"- Can be placed on Stairs"
+				""
+				"&5⭐ Cakes&r"
+				"- Can be stacked by placing two ontop of eachother. Works with ANY cake"
+				""
+				"&5⭐ Lilypads&r"
+				""
+				"- Can have any block placed on them"
+				" "
+				"&5⭐ Mob Skulls&r"
+				""
+				"- Can be stacked. Works with ANY skull in any combination"
+				"- Can have candles placed ontop"
+				"- Candle will leave a wax overlay on the skull"
+				" "
+				"&5⭐ Banners and Pots&r"
+				""
+				"- Can be placed on ceilings"
+				""
+				"&5⭐ Tripwire Hook&r"
+				"- Can hold tools when you shift click on one"
+			]
+			icon: "supplementaries:cog_block"
+			id: "68E94396D20366E4"
+			tasks: [{
+				id: "125A6F326A10264B"
+				title: "Tweaks to many existing blocks"
+				type: "checkmark"
+			}]
 			x: 1.0d
 			y: 1.0d
+		}
+		{
+			description: [
+				"You will need to &4change the hotkey&r (or unnasign everything else from the button) for toolbelt in Controls. (&nsearch 'toolbelt'&r)"
+				""
+				"- Holds any non-stackable item."
+				"- 2 stock slots, upgradeable to 9 by combining with tool pouches in an anvil."
+				"- Item Display on Players -- show off your tools at all times. (only the first 2 slots are shown)"
+			]
+			id: "061AB51F066E50A2"
+			subtitle: "Quickly switch between tools using the handy Radial Menu!"
+			tasks: [{
+				id: "50E2E7103B3ACE33"
+				item: {
+					Count: 1b
+					id: "toolbelt:belt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&n&5Better End Island&r&r"
+				""
+				"Obsidian pillars, End gateways, the spawn platform, and the portal itself in the middle of the island have all been redesigned. Additionally, the dragon no longer spawns from the start - instead, it will be summoned once a player gets close to the bell tower in the center."
+				""
+				"&lTo resummon the dragon&r, the 4 crystals no longer go right next to the portal. Instead, you'll see 4 bedrock blocks on the floor inside the tower, one in each directional wing of the building. The crystals can be placed on these 4 blocks to start summoning the dragon again. That being said, we do actually still support vanilla crystal summoning positions, to avoid confusing players who aren't familiar with the mod."
+				""
+				"&n&5Nullscape&r&r"
+				""
+				"Overhauls the End's generation in a way that maintains this identity - &0&oa realm of utter desolation&r&r. Nullscape will make you feel tiny and alone in the vast expanse of the End. You against the void - nothing more than that."
+				""
+				"Nullscape boosts the End's height to 384 blocks, introduces a new terrain system based around materials science. Essentially, different regions of the End - on very large scales - have different properties and a different 'feel' to allow for almost infinite variation in terrain shapes. From sponge-like porous terrain to stretched alien landscapes to stacked rounded islands, you'll find new and interesting terrain no matter how far you go."
+			]
+			icon: "minecraft:end_crystal"
+			id: "2620A08E1295B3A3"
+			subtitle: "Mods: YUNG's Better End Island, Nullscape"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "2D5F4D54C3C6EDF1"
+				type: "dimension"
+			}]
+			title: "End Overhaul"
+			x: -3.0d
+			y: -3.0d
 		}
 	]
 	title: "&l&fInformation&r&r"

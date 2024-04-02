@@ -59,13 +59,13 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 2.0d
+			height: 1.0d
 			hover: [ ]
 			image: "ftblibrary:icons/info"
 			rotation: 0.0d
-			width: 2.0d
+			width: 1.0d
 			x: -3.5d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			click: ""
@@ -139,6 +139,18 @@
 			x: 0.0d
 			y: -4.5d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.7d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 135.0d
+			width: 1.7d
+			x: -2.5d
+			y: 2.0d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
@@ -154,7 +166,7 @@
 				""
 				"Liquid fuels are refined from oil which the mod adds as worldgen; some of the refined fuels are of very high quality."
 			]
-			icon: "pneumaticcraft:pressure_gauge"
+			icon: "kubejs:help"
 			id: "302F025D35C7E495"
 			rewards: [{
 				id: "62B56C939ED5E7DD"
@@ -260,12 +272,20 @@
 				"- At least two Pressure Chamber Interfaces are recommended (one should face in, one should face out)."
 			]
 			id: "73BA97DCC05FA0ED"
-			rewards: [{
-				count: 2
-				id: "3E077998FF476D1E"
-				item: "minecraft:iron_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "3E077998FF476D1E"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A0A05E738CBB02B"
+					table_id: 2581585967323693493L
+					type: "choice"
+				}
+			]
 			size: 1.5d
 			subtitle: "Assemble a multiblock Pressure Chamber"
 			tasks: [{
@@ -278,7 +298,18 @@
 			y: 2.0d
 		}
 		{
-			description: ["To get started, you just need Iron Ingots, which you will convert into Compressed Iron Ingots, used in many recipes throughout the mod."]
+			description: [
+				"To get started, you just need Iron Ingots, which you will convert into Compressed Iron Ingots, used in many recipes throughout the mod."
+				""
+				"&9&n                                                  &r&9               "
+				"In this chapter you will:"
+				"- be introduced to air, pressure and heat"
+				"- learn refining of different fluids out of Crude Oil"
+				"- refine Crude Oil into Plastic Sheets"
+				"- assemble multiblock Pressure Chamber"
+				"- programm drones to work for you"
+				"&9&n                                                  &r&9               "
+			]
 			id: "6FD45EF3A2B1B31F"
 			rewards: [{
 				id: "2A13908AE13FEFB0"
@@ -1841,7 +1872,7 @@
 		{
 			dependencies: ["7C826C2EB9050012"]
 			description: ["Machines will lose heat to the air if left exposed; this is particularly noticeable with the Refinery, which has many exposed faces, but is also true of any heat-conducting block, including Compressed Iron Blocks. To avoid this heat loss, ensure that no faces are exposed to air blocks; any non-conducting block will do. It doesn't have to be a full block, either - Trapdoors and slabs will work fine."]
-			icon: "kubejs:icon_info"
+			icon: "kubejs:help"
 			id: "17189949011F48E6"
 			rewards: [{
 				id: "177DD95115DD62E9"
@@ -1876,7 +1907,7 @@
 				""
 				""
 			]
-			icon: "kubejs:icon_info"
+			icon: "kubejs:help"
 			id: "7C826C2EB9050012"
 			rewards: [{
 				id: "029A79FAD9564EE5"

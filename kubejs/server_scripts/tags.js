@@ -44,9 +44,17 @@ ServerEvents.tags('item', event => {
 	
 	event.removeAllTagsFrom('industrialforegoing:plastic')
 	event.add('forge:plastic', 'pneumaticcraft:plastic')
+	
+	event.get('indvil:mortars')
+		.add('kubejs:stone_mortar')
+		.add('kubejs:iron_mortar')
+		 
+	event.get('forge:ropes')
+		.add('farmersdelight:rope')
+		.add('immersiveengineering:hemp_fiber')	 
 
-	 event.add('immersiveengineering:toolbox/tools', 'kubejs:steel_file')
-	 event.get('farmersdelight:tools/pickaxes')
+	event.add('immersiveengineering:toolbox/tools', 'kubejs:steel_file')
+	event.get('farmersdelight:tools/pickaxes')
 	.add('minecraft:iron_pickaxe')
 	.add('minecraft:golden_pickaxe')
 	.add('minecraft:diamond_pickaxe')
@@ -64,4 +72,25 @@ ServerEvents.tags('item', event => {
 	event.get('natprog:considered_as_axe')
 	.add('industrialforegoing:infinity_saw')
 	
+	event.add('forge:tools/axes', 'natprog:flint_hatchet')
+	
+	event.get('minecraft:tools')
+		.add('natprog:bronze_saw') 
+		.add('natprog:copper_saw')
+		.add('natprog:diamond_saw')
+		.add('natprog:flint_saw')
+		.add('natprog:gold_saw')
+		.add('natprog:iron_saw')
+		.add('natprog:netherite_saw')
+		.add('natprog:steel_saw')
+		
+		event.get('forge:tools')
+		.add('natprog:bronze_saw') 
+		.add('natprog:copper_saw')
+		.add('natprog:diamond_saw')
+		.add('natprog:flint_saw')
+		.add('natprog:gold_saw')
+		.add('natprog:iron_saw')
+		.add('natprog:netherite_saw')
+		.add('natprog:steel_saw')	
 })
