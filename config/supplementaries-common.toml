@@ -8,8 +8,12 @@
 	gold_door = true
 	gold_trapdoor = true
 	lock_block = true
-	crystal_display = true
 	relayer = true
+
+	[redstone.crystal_display]
+		enabled = true
+		#Allows chaining 2 crystal displays, letting one power the other to its left IF its own power exceeds 10. Given power will be its own divided by 10. Note that to work the decimal display must NOT have power directly behind it. Doing so will override the behavior to non chaining mode
+		chaining = true
 
 	[redstone.speaker_block]
 		enabled = true
