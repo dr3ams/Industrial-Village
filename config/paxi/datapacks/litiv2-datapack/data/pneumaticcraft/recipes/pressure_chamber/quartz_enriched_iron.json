@@ -2,7 +2,7 @@
   "type": "pneumaticcraft:pressure_chamber",
   "inputs": [
     {
-      "item": "minecraft:iron_ingot"
+      "item": "pneumaticcraft:ingot_iron_compressed"
     },
     {
       "item": "minecraft:quartz"
