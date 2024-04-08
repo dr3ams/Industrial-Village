@@ -67,7 +67,7 @@
 	enableCakeDrop = true
 	#Allows the player to re-light certain blocks like Candles and Campfires (defined by the block using the `lit` blockstate) using torches or other items in the tag `vtweaks:ignition_item`
 	enableTorchLighting = true
-	enableCropTweaks = true
+	enableCropTweaks = false
 
 	[block.chopdown]
 		#Trees fall down (like, actually not just like lumbering). Credit to Ternsip's impl (https://www.curseforge.com/minecraft/mc-mods/chopdown)
