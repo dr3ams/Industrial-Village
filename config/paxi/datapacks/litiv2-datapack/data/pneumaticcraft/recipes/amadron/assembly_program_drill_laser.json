@@ -1,0 +1,16 @@
+{
+  "type": "pneumaticcraft:amadron",
+  "id": "pneumaticcraft:amadron/assembly_program_drill_laser",
+  "input": {
+    "type": "ITEM",
+    "amount": 7,
+    "id": "gems:ruby"
+  },
+  "level": 0,
+  "output": {
+    "type": "ITEM",
+    "amount": 1,
+    "id": "pneumaticcraft:assembly_program_drill_laser"
+  },
+  "static": true
+}

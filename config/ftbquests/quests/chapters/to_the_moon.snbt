@@ -264,8 +264,14 @@
 			]
 			id: "0AA12A4B058DBD57"
 			rewards: [{
-				id: "4F75ED2FEB4BC342"
-				item: "ad_astra:astrodux"
+				id: "0B9DA6B86B9C5E03"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "ad_astra:astrodux"
+					}
+				}
 				type: "item"
 			}]
 			shape: "octagon"

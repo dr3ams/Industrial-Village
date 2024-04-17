@@ -27,6 +27,16 @@
 	"Enable Onboarding" = false
 	#The amount of slots the chest button system should seek when trying to figure out if a container should be eligible for them.
 	"Chest Button Slot Target" = 27
+	#Set this to false to not generate the Quark Programmer Art resource pack
+	"Generate Programmer Art" = true
+
+	[general.chest_button_offsets]
+		"Player X" = 0
+		"Player Y" = 0
+		"Top X" = 0
+		"Top Y" = 0
+		"Middle X" = 0
+		"Middle Y" = 0
 
 [categories]
 	automation = true
@@ -537,6 +547,8 @@
 	"Vexes Die With Their Masters" = true
 	"Villagers Follow Emeralds" = true
 	"Zombie Villagers On Normal" = true
+	"Magma Keeps Concrete Powder" = true
+	"Petals On Water" = true
 
 	[tweaks.automatic_recipe_unlock]
 		#A list of recipe names that should NOT be added in by default
@@ -545,6 +557,11 @@
 		"Disable Recipe Book" = false
 		#If enabled, advancements granting recipes will be stopped from loading, potentially reducing the lagspike on first world join.
 		"Filter Recipe Advancements" = true
+		#This feature disables itself if any of the following mods are loaded:
+		# - nerb
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
 
 	[tweaks.campfires_boost_elytra]
 		"Boost Strength" = 0.5
@@ -751,6 +768,7 @@
 	"No More Lava Pockets" = true
 	Permafrost = false
 	"Spiral Spires" = true
+	"Fallen Logs" = false
 
 	[world.ancient_wood]
 		"Ancient Fruit Gives Exp" = true
@@ -1309,6 +1327,18 @@
 			[world.spiral_spires.biomes.biomes]
 				Biomes = ["minecraft:end_highlands"]
 				"Is Blacklist" = false
+
+	[world.fallen_logs]
+		#Requires the Hollow Logs module to be enabled too
+		"Use Hollow Logs" = true
+		Rarity = 5
+		"Sparse Biome Rarity" = 12
+		#Tags that define which biomes can have which wood types
+		"Biome Tags" = ["quark:has_fallen_acacia=minecraft:acacia_log", "quark:has_fallen_birch=minecraft:birch_log", "quark:has_fallen_cherry=minecraft:cherry_log", "quark:has_fallen_dark_oak=minecraft:dark_oak_log", "quark:has_fallen_jungle=minecraft:jungle_log", "quark:has_fallen_mangrove=minecraft:mangrove_log", "quark:has_fallen_oak=minecraft:oak_log", "quark:has_fallen_spruce=minecraft:spruce_log"]
+
+		[world.fallen_logs.dimensions]
+			"Is Blacklist" = false
+			Dimensions = ["minecraft:overworld"]
 
 [mobs]
 	Crabs = true

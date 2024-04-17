@@ -84,6 +84,8 @@ event.create('primitive_ingot').displayName('Primitive Ingot')
 
 event.create('raw_silicon').displayName('Raw Silicon')
 
+event.create('rick').displayName('Pet Coal').unstackable().burnTime(60000).rarity('EPIC').tooltip('Named Rick')
+
 event.create('advancedmixedmetalalloy').displayName('Advanced Mixed Metal Alloy')
 
         event.create('artifact_reach').displayName('Artifact of the Reach')

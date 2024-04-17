@@ -941,6 +941,34 @@
 			x: 1.0d
 			y: -3.0d
 		}
+		{
+			description: [
+				"&6Collectibles&r drop very very rare when you mine specific blocks, open dungeon chests or brush suspicious blocks. If you complete one set of collectibles, craft a &5loot bag&r with it and use it, as a reward you will receive very valuable items and xp!"
+				"{image:litv3:textures/misc/q-b-collect.png width:130 height:150 align:1}"
+			]
+			id: "3D5C6BA23589F4BE"
+			rewards: [{
+				id: "524973F22E3C9F37"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "217B2EEDC4F7F4BF"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:collectibles"
+					}
+				}
+				title: "Any #forge:collectibles"
+				type: "item"
+			}]
+			title: "Collectibles"
+			x: -1.0d
+			y: -3.0d
+		}
 	]
 	title: "&l&fInformation&r&r"
 }

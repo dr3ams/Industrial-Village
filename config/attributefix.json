@@ -143,6 +143,17 @@
         "value": 1024
       }
     },
+    "gems:lifesteal": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "skilltree:damage_if_wounded": {
       "enabled": false,
       "min": {
@@ -517,6 +528,17 @@
         "value": 1000000
       }
     },
+    "gems:arrow_damage": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "skilltree:stealth": {
       "enabled": false,
       "min": {
@@ -702,6 +724,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "gems:bonus_xp": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "skilltree:attack_speed_under_potion_effect": {
@@ -1043,6 +1076,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "gems:harvest_area": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "skilltree:projectile_damage": {
@@ -1934,6 +1978,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "gems:block_strength": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "skilltree:damage_with_gem_in_weapon": {

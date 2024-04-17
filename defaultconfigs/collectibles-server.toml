@@ -1,0 +1,40 @@
+
+#General
+[general]
+	#Enables ingame rewards on first spawn for Patreons
+	patreon_rewards = true
+
+#Collectibles
+[collectibles]
+	#How much xp a player should get when he finds a collectible
+	#Range: 0 ~ 1000
+	collectible_xp = 30
+	#How rarely should coin collectibles drop. higher = rarer [1:X]
+	#Range: 1 ~ 100000
+	coin_collectibles_rarity = 2200
+	#How rarely should fragment collectibles drop. higher = rarer [1:X]
+	#Range: 1 ~ 100000
+	fragment_collectibles_rarity = 2100
+	#How rarely should fossil collectibles drop. higher = rarer [1:X]
+	#Range: 1 ~ 100000
+	fossil_collectibles_rarity = 1300
+
+#Loot Bag
+[loot_bag]
+	#How much xp a player should get when he uses a loot bag
+	#Range: 0 ~ 1000
+	epic_loot_bag_xp = 100
+	#A list with all epic loot bag rewards [amount*modid:item]
+	epic_loot_bag_rewards = ["1*minecraft:totem_of_undying", "1*minecraft:enchanted_golden_apple", "5*minecraft:dragon_breath", "10*minecraft:diamond", "1*artifacts:mimic_spawn_egg", "1*gag:sacred_salt", "1*refinedstorage:advanced_processor", "1*pneumaticcraft:printed_circuit_board", "1*betterarcheology:unidentified_artifact", "1*gag:hearthstone", "1*simplehats:hatbag_rare", "1*immersiveengineering:storage_uranium", "1*immersiveengineering:component_electronic_adv", "1*kubejs:iron_coin", "1*simplehats:hatbag_uncommon", "1*refinedstorage:raw_improved_processor", "1*refinedstorage:raw_advanced_processor", "1*ad_astra:desh_ingot", "1*ad_astra:ostrum_ingot", "1*ad_astra:calorite_ingot", "1*simplehats:hatscraps_festive", "8*minecraft:ender_pearl", "1*tetra:pristine_lapis", "1*tetra:pristine_emerald", "1*tetra:pristine_diamond", "1*tetra:stonecutter", "1*pneumaticcraft:huge_tank", "1*immersiveengineering:shader_bag_ie_masterwork", "1*immersiveengineering:shader_bag_epic", "1*gems:sapphire", "1*gems:ruby", "1*gems:topaz"]
+	#How many item entries the epic loot bag gives the player
+	#Range: 1 ~ 10
+	epic_loot_bag_item_amount = 1
+	#A list with all loot bag rewards [amount*modid:item]
+	loot_bag_rewards = ["3*minecraft:emerald", "3*minecraft:diamond", "1*minecraft:golden_apple", "1*minecraft:ender_eye", "3*farmersdelight:chocolate_pie", "3*farmersdelight:hot_cocoa", "1*compactxpbottles:x16experiencebottle", "1*compactxpbottles:x4experiencebottle", "1*minecraft:donkey_spawn_egg", "1*minecraft:parrot_spawn_egg", "1*minecraft:axolotl_spawn_egg", "1*collectorsalbum:uncommon_card_package", "1*betterarcheology:artifact_shards", "16*pneumaticcraft:plastic", "6*pneumaticcraft:ingot_iron_compressed", "1*extendedcrafting:enhanced_redstone_ingot", "1*extendedcrafting:black_iron_ingot", "1*extendedcrafting:redstone_ingot", "1*cosmeticarmoursmod:amethyst_crown_helmet", "1*refinedstorage:basic_processor", "1*refinedstorage:improved_processor", "5*gag:mining_dynamite", "2*minecraft:blaze_rod", "1*minecraft:redstone_block", "2*minecraft:magma_cream", "1*immersiveengineering:component_electronic", "1*mcwholidays:three_potions", "8*immersiveengineering:plate_steel", "4*immersiveengineering:wirecoil_electrum", "32*minecraft:leather", "1*refinedstorage:processor_binding", "64*immersiveengineering:nugget_constantan", "10*immersiveengineering:ingot_silver", "10*immersiveengineering:ingot_lead", "32*immersiveengineering:ingot_nickel", "1*kubejs:copper_coin", "16*immersiveengineering:ingot_aluminum", "1*simplehats:hatbag_common", "64*immersiveengineering:nugget_electrum", "32*minecraft:ink_sac", "64*minecraft:bone_meal", "64*minecraft:string", "1*pneumaticcraft:liquid_hopper", "1*pneumaticcraft:oil_bucket", "1*pneumaticcraft:micromissiles", "4*gems:topaz_shards", "4*gems:sapphire_shards", "4*gems:ruby_shards"]
+	#How much xp a player should get when he uses a loot bag
+	#Range: 0 ~ 1000
+	loot_bag_xp = 50
+	#How many item entries the loot bag gives the player
+	#Range: 1 ~ 10
+	loot_bag_item_amount = 1
+

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "immersiveengineering:plate_steel"
+    },
+    "B": {
+      "item": "pneumaticcraft:small_tank"
+    },
+    "C": {
+      "item": "immersiveengineering:heavy_engineering"
+    },
+    "D": {
+      "item": "refinedstorage:controller"
+    },
+    "E": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "result": {
+    "item": "ad_astra:fuel_refinery"
+  },
+  "show_notification": true
+}

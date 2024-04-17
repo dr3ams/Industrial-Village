@@ -1415,6 +1415,47 @@
 			x: 4.5d
 			y: 3.0d
 		}
+		{
+			description: ["Use this innovative block to pickle various foods and experiment with fermentation. Displaying the items inside, it can be used also as a decorative block"]
+			id: "7153C743404F250F"
+			rewards: [{
+				id: "25BB66CC2642D775"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "The centerpiece of Vintage Delight"
+			tasks: [{
+				id: "3C430BE28B01F57B"
+				item: "vintagedelight:fermenting_jar"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			description: ["Create jams from Gearo Berries, other berries, as well as some more interesting ingredients, stored in mason jars. These jars can be consumed, broken down into easier to transport bottles, or used as charming decorations."]
+			id: "75EBAB17C0377617"
+			rewards: [{
+				id: "489AB2449B55330E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5AC505B2AA2855F7"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "vintagedelight:jam_jars"
+					}
+				}
+				title: "Any #vintagedelight:jam_jars"
+				type: "item"
+			}]
+			title: "Mason Jar Jams"
+			x: 2.0d
+			y: 2.5d
+		}
 	]
 	title: "All you can eat"
 }

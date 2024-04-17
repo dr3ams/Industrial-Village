@@ -372,19 +372,12 @@
 			}]
 			shape: "square"
 			size: 1.0d
-			tasks: [
-				{
-					count: 27L
-					id: "000000000000005D"
-					item: "immersiveengineering:cokebrick"
-					type: "item"
-				}
-				{
-					id: "0000000000000333"
-					item: "immersiveengineering:coke"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 27L
+				id: "000000000000005D"
+				item: "immersiveengineering:cokebrick"
+				type: "item"
+			}]
 			title: "Coke Oven"
 			x: 12.0d
 			y: 3.0d

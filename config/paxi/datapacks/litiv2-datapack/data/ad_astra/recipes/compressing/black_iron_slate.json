@@ -1,0 +1,12 @@
+{
+  "type": "ad_astra:compressing",
+  "cookingtime": 400,
+  "energy": 30,
+  "ingredient": {
+    "item": "extendedcrafting:black_iron_ingot"
+  },
+  "result": {
+    "count": 1,
+    "id": "extendedcrafting:black_iron_slate"
+  }
+}

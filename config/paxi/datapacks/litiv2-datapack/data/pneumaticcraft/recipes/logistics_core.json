@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "pneumaticcraft:reinforced_brick_tile"
+    },
+    "R": {
+      "item": "gems:ruby"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BRB",
+    "BBB"
+  ],
+  "result": {
+    "count": 2,
+    "item": "pneumaticcraft:logistics_core"
+  },
+  "show_notification": true
+}

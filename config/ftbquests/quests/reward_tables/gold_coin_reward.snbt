@@ -83,6 +83,9 @@
 		{ count: 32, item: "minecraft:redstone_ore" }
 		{ count: 16, item: "minecraft:glowstone" }
 		{ item: "compactxpbottles:x64experiencebottle" }
+		{ item: "gems:topaz_shards", random_bonus: 3 }
+		{ item: "gems:sapphire_shards", random_bonus: 3 }
+		{ item: "gems:ruby_shards", random_bonus: 3 }
 	]
 	title: "Gold coin reward"
 }

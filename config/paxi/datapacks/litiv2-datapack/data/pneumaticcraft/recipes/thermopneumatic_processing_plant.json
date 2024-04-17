@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "immersiveengineering:rs_engineering"
+    },
+    "B": {
+      "item": "pneumaticcraft:liquid_compressor"
+    },
+    "C": {
+      "item": "pneumaticcraft:pressure_tube"
+    },
+    "D": {
+      "item": "pneumaticcraft:medium_tank"
+    },
+    "E": {
+      "item": "immersiveengineering:heavy_engineering"
+    },
+    "F": {
+      "item": "pneumaticcraft:air_compressor"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "result": {
+    "item": "pneumaticcraft:thermopneumatic_processing_plant"
+  },
+  "show_notification": true
+}

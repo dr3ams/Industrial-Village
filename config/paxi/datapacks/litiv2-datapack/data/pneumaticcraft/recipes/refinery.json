@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "immersiveengineering:rs_engineering"
+    },
+    "B": {
+      "item": "immersiveengineering:heavy_engineering"
+    },
+    "C": {
+      "item": "pneumaticcraft:pressure_tube"
+    },
+    "D": {
+      "item": "pneumaticcraft:medium_tank"
+    },
+    "E": {
+      "item": "pneumaticcraft:reinforced_bricks"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EBE"
+  ],
+  "result": {
+    "item": "pneumaticcraft:refinery"
+  },
+  "show_notification": true
+}

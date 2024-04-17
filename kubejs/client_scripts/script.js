@@ -13,6 +13,7 @@ JEIEvents.hideItems(event => {
 	event.hide('industrialforegoing:tinydryrubber')
 	event.hide('industrialforegoing:latex_processing_unit')
 	
+	event.hide('ad_astra:etrionic_blast_furnace')
 	event.hide('mffs:steel_compound') 
 	event.hide('mffs:steel_ingot') 
 	event.hide('railcraft:lead_raw')
@@ -64,7 +65,8 @@ JEIEvents.hideItems(event => {
 	event.hide('industrialforegoing:conveyor_bouncing_upgrade')
 	event.hide('railcraft:coke_oven_bricks')
 	event.hide('railcraft:blast_furnace_bricks')
-	event.hide('ad_astra:coal_generator')
+	event.hide('ad_astra:steel_rod')
+	event.hide('ad_astra:iron_rod')
 	event.hide('ad_astra:fuel_refinery')
 	event.hide('ad_astra:solar_panel')
 	event.hide('industrialforegoing:mob_imprisonment_tool')

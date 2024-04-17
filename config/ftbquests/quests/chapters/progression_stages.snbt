@@ -232,41 +232,34 @@
 			linked_quest: "00000000000001F2"
 			shape: "rsquare"
 			x: -3.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			id: "020BE2769CD5F179"
 			linked_quest: "000000000000020C"
 			shape: "rsquare"
 			x: -3.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			id: "6F12A346E8BCFB68"
 			linked_quest: "0000000000000215"
 			shape: "rsquare"
 			x: -3.0d
-			y: 7.0d
-		}
-		{
-			id: "58975BB83FDC2804"
-			linked_quest: "0000000000000104"
-			shape: "rsquare"
-			x: -1.0d
-			y: 5.0d
+			y: 8.0d
 		}
 		{
 			id: "174F58413C0B7DB7"
 			linked_quest: "00000000000000FD"
 			shape: "rsquare"
 			x: -1.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			id: "5A9BE3694221AC66"
 			linked_quest: "68B37999BD32FC7F"
 			x: -1.0d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			id: "14C825735FBEDFC1"
@@ -305,6 +298,12 @@
 			shape: "gear"
 			x: 6.5d
 			y: 6.0d
+		}
+		{
+			id: "212C056C5B4A394C"
+			linked_quest: "0000000000000111"
+			x: -3.0d
+			y: 5.0d
 		}
 	]
 	quests: [
@@ -473,17 +472,20 @@
 				"- discover ways of transfering items and fluids"
 				"&9&n                                                  &r&9               "
 			]
+			icon: "immersiveengineering:windmill"
 			id: "1E62591C6F6B2026"
 			shape: "gear"
 			tasks: [
 				{
-					id: "154C310B8E2D691E"
-					item: "immersiveengineering:dynamo"
+					count: 27L
+					id: "71DA898FC03DBBF4"
+					item: { Count: 27b, id: "immersiveengineering:cokebrick" }
 					type: "item"
 				}
 				{
-					id: "0CB7D0B865E83E65"
-					item: "immersiveengineering:windmill"
+					count: 27L
+					id: "4DCB98362D4E7F9B"
+					item: { Count: 27b, id: "immersiveengineering:blastbrick" }
 					type: "item"
 				}
 			]
@@ -821,7 +823,7 @@
 			}]
 			title: "Force Fields Chapter"
 			x: 0.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			description: [

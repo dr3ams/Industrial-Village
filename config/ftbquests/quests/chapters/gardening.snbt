@@ -1,0 +1,836 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "gardening"
+	group: "4EAE0C42246DB468"
+	icon: {
+		Count: 1b
+		id: "meadow:watering_can"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5C9540CBF5DC8FBC"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "vinery:item/red_grape"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/apple"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/honeycomb"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "brewery:item/beer_barley"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 2.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["31E91EBF3468F766"]
+			id: "34DF0D779CC6BD88"
+			rewards: [{
+				id: "62C3BCB6B216FF3F"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				id: "00A923EF4D620398"
+				item: "fruitfulfun:tangerine_sapling"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["31E91EBF3468F766"]
+			id: "03972AF9C7017F04"
+			rewards: [{
+				id: "1C483751F04F2DFF"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				id: "1E673710F4A1E01D"
+				item: "fruitfulfun:lime_sapling"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["31E91EBF3468F766"]
+			id: "2A0874A3B034AE18"
+			rewards: [
+				{
+					id: "0B296435C7DDEE1F"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 64
+					id: "25070C5C7DAA9AEF"
+					item: "fruitfulfun:citrus_log"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3D2F26BE259ED886"
+				item: "fruitfulfun:citron_sapling"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["31E91EBF3468F766"]
+			id: "1F98D39915938AA3"
+			rewards: [
+				{
+					id: "430758E9A8548E02"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "1EA07BC1184953E0"
+					item: "fruitfulfun:honey_pomelo_tea"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "481AAEBB348D5927"
+				item: "fruitfulfun:pomelo_sapling"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["31E91EBF3468F766"]
+			id: "6C1FA7FE8CAB9046"
+			rewards: [
+				{
+					id: "79F4B8450C360193"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "72844FA4FB56FCAC"
+					item: "fruitfulfun:lemon_roast_chicken"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01B10149A6820630"
+				item: "fruitfulfun:lemon_sapling"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["31E91EBF3468F766"]
+			id: "00C7D182E7267FB7"
+			rewards: [
+				{
+					id: "2C7710DD7D3F3DD8"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "30E63467C8F9070E"
+					item: "fruitfulfun:donauwelle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "729C86B17B17FCE5"
+				item: "fruitfulfun:orange_sapling"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["31E91EBF3468F766"]
+			id: "49EB5CD1C5125DA0"
+			rewards: [
+				{
+					id: "0EA4873904FE7229"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "50DD846C3E20D604"
+					item: "fruitfulfun:grapefruit_panna_cotta"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3347C8E74C2A9E3C"
+				item: "fruitfulfun:grapefruit_sapling"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["31E91EBF3468F766"]
+			id: "317F73F51E0BB92C"
+			rewards: [
+				{
+					id: "1F5DC58C72F7C860"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "58D679D20789BF0D"
+					item: "fruitfulfun:rice_with_fruits"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "78869AB3A02698BA"
+				item: "fruitfulfun:apple_sapling"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31E91EBF3468F766"]
+			id: "36EADF4DA238BD0E"
+			rewards: [{
+				id: "5C1967AEB2223FEF"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				id: "592F0D85DD59A3DB"
+				item: "fruitfulfun:pomegranate_sapling"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["31E91EBF3468F766"]
+			id: "6A264A6C89CC06E3"
+			rewards: [
+				{
+					id: "63D547429E5BBD5E"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "0246C9C051AAA239"
+					item: "fruitfulfun:grapefruit_panna_cotta"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0C34451621598F0B"
+				item: "fruitfulfun:cherry_sapling"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31E91EBF3468F766"]
+			id: "3CAB04DD6E16FABA"
+			rewards: [
+				{
+					id: "7074FFB0CAED0CD6"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 64
+					id: "119A3D2BCC32DFCA"
+					item: "fruitfulfun:redlove_log"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4535E174D0EF6637"
+				item: "fruitfulfun:redlove_sapling"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["70ED6018712AB64C"]
+			description: [
+				"Use the Bee Inspector to view a bee's genes, traits, and pollens. If you have a writable book on your off-hand, you can record the information and trait description in the book."
+				""
+				"Bees have 4 genes:"
+				""
+				"- &lRC&r: Determines the rain capability."
+				"- &lFC&r: Determines the appearance and wither tolerance."
+				"- &lFT1 and FT2&r: Determines features like speed, health, and the ability to be ridden or do advanced pollination."
+			]
+			id: "2AAB96D18D0227CF"
+			rewards: [{
+				id: "4AD5789D42421628"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "506B0775AFB1725F"
+				item: "fruitfulfun:inspector"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2AAB96D18D0227CF"]
+			description: ["Mutagen can dramatically increase the mutation rate of a specific gene. To use it, right-click on the parent bee before mating. The mutagen is produced at the brewing stand, and if you get an unwanted mutagen, you can simply craft it into an empty bottle."]
+			id: "63DE11046A1615B6"
+			rewards: [{
+				id: "2002C71D67F0F737"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "03CDBDBF4AC6365F"
+				item: "fruitfulfun:mutagen"
+				type: "item"
+			}]
+			title: "Mutagen"
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			description: ["Bees now have different traits and they basically inherit according to Mendel's law. You can unlock some new perks and looks, and even be able to ride on a flying bee. In each new world, the genes will have a random code, so you will have to guess their effects each time. Here provides a mutagen, using it on parents can let you influence the genes of their baby a little bit."]
+			id: "70ED6018712AB64C"
+			rewards: [{
+				id: "61A840CDA8252F99"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "6C10500031785AE6"
+				item: "minecraft:beehive"
+				type: "item"
+			}]
+			title: "Beekeeping and Genetics"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			id: "27170A4880A96C2B"
+			rewards: [{
+				count: 64
+				id: "327388411397F641"
+				item: "vinery:cherry_log"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4251B588A69534C4"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "vinery:red_grape_seeds"
+							}
+							{
+								Count: 1b
+								id: "vinery:white_grape_seeds"
+							}
+							{
+								Count: 1b
+								id: "vinery:savanna_grape_seeds_red"
+							}
+							{
+								Count: 1b
+								id: "vinery:savanna_grape_seeds_white"
+							}
+							{
+								Count: 1b
+								id: "vinery:taiga_grape_seeds_red"
+							}
+							{
+								Count: 1b
+								id: "vinery:taiga_grape_seeds_white"
+							}
+							{
+								Count: 1b
+								id: "vinery:jungle_grape_seeds_red"
+							}
+							{
+								Count: 1b
+								id: "vinery:jungle_grape_seeds_white"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Grapes"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["27170A4880A96C2B"]
+			id: "08CD5F6C515ED03C"
+			rewards: [{
+				id: "7E9BB81A827B871F"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Find all wild grape bushes and collect their seeds"
+			tasks: [{
+				advancement: "vinery:main/crop_collector"
+				criterion: ""
+				id: "381B568141668564"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["27170A4880A96C2B"]
+			id: "74EFFB87274A7544"
+			rewards: [{
+				id: "5473F2B48CA0686F"
+				item: "vinery:spruce_wine_rack_small"
+				type: "item"
+			}]
+			subtitle: "Craft and place grapevine pot"
+			tasks: [{
+				id: "4D5691BBAD5921DD"
+				item: "vinery:grapevine_pot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"74EFFB87274A7544"
+				"2C42FABF971D6D67"
+			]
+			id: "1F2007CB1CF49288"
+			rewards: [
+				{
+					id: "1C543134966D1D39"
+					item: "vinery:wine_box"
+					type: "item"
+				}
+				{
+					id: "01E0CABE9FA39290"
+					item: "vinery:spruce_wine_rack_big"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "13AA8209142EE15F"
+					item: "vinery:fermentation_barrel"
+					type: "item"
+				}
+				{
+					id: "662AEF0C6CF8B697"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "vinery:wine"
+						}
+					}
+					title: "Any #vinery:wine"
+					type: "item"
+				}
+				{
+					id: "5E05FA6A55D0124A"
+					item: "vinery:apple_juice"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5A62BD701E2D05C6"]
+			id: "553D6826E76763CD"
+			rewards: [{
+				id: "55DEA322C8354827"
+				item: "vinery:spruce_wine_rack_mid"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C4681520ED2A865"
+				item: "vinery:apple_press"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["553D6826E76763CD"]
+			id: "2C42FABF971D6D67"
+			rewards: [{
+				id: "37C6BB793E1E3734"
+				item: "meadow:bench"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54BFE55717295750"
+				item: "vinery:apple_mash"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			id: "5A62BD701E2D05C6"
+			rewards: [{
+				id: "5BF18C2AC5DD8496"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "47E210B346124A43"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1F2007CB1CF49288"]
+			id: "1513C7AD014945EB"
+			rewards: [
+				{
+					id: "13D183C3F72ADBE5"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "75BF1926A6BA046D"
+					type: "xp"
+					xp: 700
+				}
+			]
+			subtitle: "Collect all currently available wine variants"
+			tasks: [{
+				advancement: "vinery:main/wine_collector"
+				criterion: ""
+				id: "3477D981938BE680"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"One of the basic ingredients for beer and whiskey is &ndried corn&r, &nwheat&r, or &nbarley&r. "
+				"To obtain this, you need a &6drying silo&r. Gather the corn, wheat, or barley, open the hatch of the silo with a skillful left-click (you need both hands for this! So make sure they are both empty!) and throw it into the silo. "
+				""
+				"The silo connects in a 2x2 or 3x3 grid and can be extended up to a maximum height of 9. The larger the silo, the greater the capacity and the faster the drying."
+				""
+				"&l&5Hops&r&r Can mostly be found in taiga biomes and all sub-variants. It can also be found in Villages and / or Woodland Mansions."
+				""
+				""
+				"&l&5Corn&r&r Can be found in Villages. If you are having trouble finding Kernels, just throw some Beetroot Seeds on a Stonecutter and enjoy your freshly... cut Kernels."
+				""
+				""
+				"&l&5Barley&r&r Same as Corn. If you are having trouble finding Barley Seeds, just throw some Wheat Seeds on a Stonecutter and enjoy your freshly cut Barley Seeds."
+			]
+			id: "5E22AE20ABD6C52D"
+			rewards: [
+				{
+					id: "58BC8F4745A483B7"
+					item: "brewery:barley"
+					type: "item"
+				}
+				{
+					id: "7B769C1428D1EE6D"
+					item: "brewery:corn"
+					type: "item"
+				}
+				{
+					id: "6EDB4C262862B018"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "0D74B7522C6B63FF"
+				item: "brewery:silo_wood"
+				type: "item"
+			}]
+			title: "Drying"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5E22AE20ABD6C52D"]
+			description: [
+				"To start the brewing process, you still need more ingredients. "
+				""
+				"In most cases, &5hops&r, &5water&r, and &5coal&r. &oWhat? Coal in beer? &r"
+				""
+				"Throw two sacks of dried wheat and some hops into the brew kettle, fill it with water, and you're almost there. You've probably already noticed that the brew kettle is a bit larger and consists of several parts - now go to the part with the stove and fire it up with the coal. That's it!"
+				""
+				"&lBrewing Process&r"
+				""
+				"The brewing process lasts several seconds and requires your attention. Several small events occur at different parts of the Brewing Station, such as:"
+				""
+				"- The furnace loses heat and requires more coal"
+				"- The brewing kettle overheats; remove some water"
+				"- ... and more to figure out "
+				"{@pagebreak}"
+				"&n&4PAGE 2&r&r"
+				"The brewing station has no GUI and only operates through direct interaction. It is composed of the following blocks:"
+				"- Kettle"
+				"- Oven"
+				"- Timer"
+				"- Whistle"
+				""
+				"The Kettle is the centerpiece: That's where all ingredients are placed. The Oven serves as a fire source and needs coal. The other parts are responsible for the minigame."
+				""
+				"After the correct ingredients have been placed, the kettle is filled with water, and the oven is lit, the minigame begins. It lasts about 45 seconds and during this time various events can occur that require a direct action from you (or your teammates). The brewing process is represented audiovisually."
+				"{@pagebreak}"
+				"&n&4PAGE 3&r&r"
+				"&lOccurring events:&r"
+				""
+				"&6Kettle needs water:&r The Whistle whistles, the water level of the Kettle is low - refill the Kettle with water"
+				"&6Kettle overboils:&r The water level of the Kettle is high, bubbling bubbles rise - remove water with an empty Water Bucket"
+				"&6The Timer ticks:&r Red particles and a ticking sound are emitted - press the button on the Timer"
+				"&6The Oven has too little heat:&r Smoke particles rise, the flame of the Oven is low - add more coal"
+				""
+				"There are different tiers for the brewing station: Wood, Copper, and Netherite. To brew whiskey, you need Copper or Netherite."
+				""
+				"&oNote: The faster you complete the mini-game, the better the beer quality will be. Be cautious when using Wood or Copper Brewing Station, as sometimes it can result in undesirable outcomes!&r"
+			]
+			id: "406AE0D2BED9F06E"
+			rewards: [{
+				id: "02483F239A5F93BE"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "680C6731D212AE89"
+				item: "brewery:wooden_brewingstation"
+				type: "item"
+			}]
+			title: "Brewing"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["406AE0D2BED9F06E"]
+			description: [
+				"Hops can be found in Taigas. "
+				""
+				"To grow hops, you need a somewhat elaborate construction: "
+				"Build two fence posts with a height of three blocks (or more - higher is always better!) and connect them with a rope. Then you can plant the hops at the lowest point of the rope on farmland. "
+				""
+				"Of course, you can also use the ropes for other things: fences, railings - let your creativity run wild! :)"
+			]
+			id: "6E066CA6A2B3F33E"
+			rewards: [{
+				count: 2
+				id: "1788AE6CEF2AC429"
+				item: "brewery:rope"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1862FBF759F67314"
+				item: "brewery:hops_seeds"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"As soon as you travel around your world, you'll either find a new type of &2cactus&r or a new type of &4flower&r, depending on the biome you wander through. "
+				""
+				"&2Cactus&r plants can be found in any desert type biome, while &4flower&r plants can be found in any other biome but not in desert type biomes. When you look around for a while, you'll see that &nthere is one type of &2cactus&r and one type of &4flower&r for each type of dye&r. "
+				""
+				"You'll find them every few chunks in small groups sorted by their color. But take care, the cacti might sting! Besides from looking pretty and attracting bees, they serve another useful purpose. Upon breaking one of either a cactus or flower, they'll drop two respective seeds depending on their plant type and color, one plant petal in their respective color and one plant fiber. Harvesting them with a pair of shears or a silk touch enchanted tool will drop the cactus or flower itself instead, for you to plant or pot it as decoration."
+				""
+				"The seeds you just have gotten are pretty straight forward to use, either plant cactus seeds on some sand or plant flower seeds on farmland."
+			]
+			id: "07DCE50A52F9709A"
+			rewards: [{
+				id: "5967C2ECB2971496"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "63A067AE51B6744B"
+				item: "floralis:white_cactus_seeds"
+				type: "item"
+			}]
+			title: "Farmable Dyes"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["406AE0D2BED9F06E"]
+			description: [
+				"&2- Toxic Touch&r"
+				"Applies Poison to all hit entities."
+				""
+				"&d- Renewing Touch&r"
+				"Applies Regeneration to all hit entities."
+				""
+				"&6- Protective Touch&r"
+				"Applies Absorbtion to all hit entities."
+				""
+				"&4- Healing Touch&r"
+				"Heals all hit entities."
+				""
+				"&9- Saturated&r"
+				"Prevents you from getting too hungry too quickly."
+				""
+				"&e- Haley&r"
+				"You can fly. At least for a short period of time."
+				""
+				"&a- Harddrinking&r"
+				"You're immune to alcohol. Sounds like a dream!"
+				""
+				"- &dD&r&ar&r&4u&r&bn&r&ck&r"
+				"You're drunk."
+				""
+				"&0- Blackout&r"
+				"You're totally drunk."
+				""
+				"&3- Pint Charisma&r"
+				"10% discount while trading with villagers."
+				""
+				"&d- Partystarter&r"
+				"Ready to start the Party? Emits Firework Particles when hitting entities - also deals a small amount of damage."
+			]
+			icon: "kubejs:help"
+			id: "1D561BDD95E2614F"
+			rewards: [{
+				id: "2B11EF2D889A49E4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6098B9096FD601D7"
+				title: "Effects"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"&2Fruitful Fun&r adds 11 new fruits to the game. Most of the fruits are not generated in the world. Instead, you must obtain them in other fun ways. "
+				""
+				"If there is no people to harvest the fruits, the tree will stop growing fruit after a while. But with the help of a &ospecial&r goat horn, you can harvest all the nearby fruits at once."
+			]
+			icon: "fruitfulfun:tangerine"
+			id: "31E91EBF3468F766"
+			shape: "octagon"
+			tasks: [{
+				id: "562E0949C38AF25F"
+				type: "checkmark"
+			}]
+			title: "Fruitful Fun 🍊"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"- Oats: A tall crop that can be processed into oatmeal, cookies, and granola."
+				""
+				"- Peanuts: Versatile nuts that can be roasted, turned into nut mash, or grown into a magical vine with treasures atop, if you find the magic peanut."
+				""
+				"- Ghost Peppers: A fiery pepper found in the Nether, can be pickled, or made into chili."
+				""
+				"- Cucumbers: Can be made into salads or transformed into tangy pickles."
+				""
+				"- Gearo Berries: Unique berries discovered in dark oak forests, can be made into flavorful jam."
+			]
+			id: "49A2375E482BC18A"
+			rewards: [{
+				id: "096FEF789D33418F"
+				item: "vintagedelight:meat_pizza"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1E8CCC30E6BBD98B"
+					item: "vintagedelight:oat_seeds"
+					type: "item"
+				}
+				{
+					id: "6C78FDC052F2042F"
+					item: "vintagedelight:peanut"
+					type: "item"
+				}
+				{
+					id: "083E6C3BFB7C71C3"
+					item: "vintagedelight:ghost_pepper_seeds"
+					type: "item"
+				}
+				{
+					id: "6E68CF6FF215DEAB"
+					item: "vintagedelight:cucumber_seeds"
+					type: "item"
+				}
+				{
+					id: "5DEBD8A0BAF3AC35"
+					item: "vintagedelight:gearo_berry"
+					type: "item"
+				}
+			]
+			title: "Vintage Delight Crops"
+			x: 4.5d
+			y: -1.0d
+		}
+	]
+	title: "Gardening"
+}

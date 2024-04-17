@@ -79,18 +79,10 @@ to make editing this file much easier.
 	"state_swapper": [
 	    	{
 	    		"new": {
-	    			"Name": "minecraft:cobblestone",
+	    			"Name": "minecraft:tnt",
 	    		},
 	    		"old": {
-	    			"Name": "minecraft:furnace",
-	    			}
-	    	},
-			{
-	    		"new": {
-	    			"Name": "minecraft:cobblestone",
-	    		},
-	    		"old": {
-	    			"Name": "minecraft:blast_furnace",
+	    			"Name": "ad_astra:etrionic_blast_furnace",
 	    			}
 	    	}
 	],
@@ -102,10 +94,6 @@ to make editing this file much easier.
 	   	}
 	*/
 	"swapper": { 
-	"minecraft:furnace": "minecraft:cobblestone",
-	"minecraft:blast_furnace": "minecraft:cobblestone",
-	"railcraft:manual_rolling_machine": "minecraft:cobblestone",
-	"railcraft:powered_rolling_machine": "minecraft:cobblestone",
-	"minecraft:brewing_stand": "minecraft:cobblestone"
+	"ad_astra:etrionic_blast_furnace": "minecraft:tnt",
 	}
 }

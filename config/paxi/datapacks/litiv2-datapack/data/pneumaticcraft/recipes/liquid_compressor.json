@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "immersiveengineering:light_engineering"
+    },
+    "B": {
+      "item": "pneumaticcraft:small_tank"
+    },
+    "C": {
+      "item": "pneumaticcraft:pressure_tube"
+    },
+    "D": {
+      "item": "pneumaticcraft:air_compressor"
+    },
+    "E": {
+      "item": "pneumaticcraft:reinforced_bricks"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EEE"
+  ],
+  "result": {
+    "item": "pneumaticcraft:liquid_compressor"
+  },
+  "show_notification": true
+}

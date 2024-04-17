@@ -127,7 +127,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0000000000000104"]
+			dependencies: [
+				"0000000000000104"
+				"1E62591C6F6B2026"
+			]
 			description: ["I hope you enjoyed making this steel, you will be needing a LOT of it in the future."]
 			icon: "immersiveengineering:ingot_steel"
 			id: "00000000000000FD"
@@ -165,7 +168,6 @@
 				"0000000000000FA3"
 				"55EC92B79B6E17CD"
 				"34B6BE545EE3E349"
-				"1E62591C6F6B2026"
 			]
 			description: [
 				"The blast furnace is your first step on the way to your very own steel empire."
@@ -317,7 +319,10 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["000000000000022F"]
+			dependencies: [
+				"000000000000022F"
+				"1E62591C6F6B2026"
+			]
 			description: [
 				"It is used to generate energy in conjunction with a &1Windmill&r and/ or a &1Water Wheel&r. "
 				""
@@ -420,7 +425,7 @@
 			dependencies: [
 				"0000000000000115"
 				"0000000000000113"
-				"1E62591C6F6B2026"
+				"0000000000000111"
 			]
 			dependency_requirement: "one_completed"
 			description: ["The lowest tier capacitor, holds up to 100k RF."]
@@ -1245,6 +1250,7 @@
 			dependencies: [
 				"0000000000000234"
 				"000000000000026F"
+				"4B19076F30BE8049"
 			]
 			description: [
 				"The Excavator is made of two parts. The \"Wheel\" is the center part, and is formed by right-clicking with an Engineers Hammer on the the Block of Steel. The \"Engine\" is the other part, and is formed by right-clicking the Engineers Hammer on"
@@ -1464,7 +1470,10 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["0000000000000FA9"]
+			dependencies: [
+				"0000000000000FA9"
+				"33A989B687DD65A0"
+			]
 			description: [
 				"The Industrial Fermenter is used to make Ethanol."
 				"After it is fully arranged, right-click the central Cauldron with an Engineer's Hammer to complete the multiblock structure."
@@ -1534,7 +1543,10 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["0000000000000FA9"]
+			dependencies: [
+				"0000000000000FA9"
+				"1AF540A9989D6AD2"
+			]
 			description: [
 				"The Industrial Squeezer is used to make Plant Oil or HOP Graphite Dust"
 				""
@@ -1619,6 +1631,7 @@
 			dependencies: [
 				"000000000000025F"
 				"0000000000000261"
+				"56F499D70DCCC112"
 			]
 			description: [
 				"The Refinery is used to make Biodiesel."
@@ -1687,7 +1700,10 @@
 			y: 5.509183673469401d
 		}
 		{
-			dependencies: ["0000000000000263"]
+			dependencies: [
+				"0000000000000263"
+				"5E8306BD17B1519C"
+			]
 			description: [
 				"The Diesel Generator is a 3x5x3 multi-block generator used to create RF from Biodiesel and Fuel."
 				""
@@ -1761,7 +1777,10 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["0000000000000265"]
+			dependencies: [
+				"0000000000000265"
+				"08FE15B6A8569BC1"
+			]
 			description: [
 				"&9&n                                                  &r&9               "
 				"The Arc Furnace is used to quickly smelt Ores, Grit and create Steel and other alloys, as well as to recycle tools and armor. After building the structure, right-click the Cauldron with an Engineer's Hammer to complete it."
@@ -1881,7 +1900,10 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["0000000000000FA9"]
+			dependencies: [
+				"0000000000000FA9"
+				"1F73062AE3526AFC"
+			]
 			description: [
 				"The Crusher is used to crush Ores into Grit (Dust), which is more efficient than normal smelting."
 				""
@@ -1938,7 +1960,10 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["0000000000000FA9"]
+			dependencies: [
+				"0000000000000FA9"
+				"5F7FA222BF4C53BD"
+			]
 			description: [
 				"The metal press is an automated and more efficient way of creating plates, rods, wires, and packing items."
 				""
@@ -2018,7 +2043,10 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["0000000000000FA9"]
+			dependencies: [
+				"0000000000000FA9"
+				"35732C1486CC7E2D"
+			]
 			description: [
 				"The sawmill is a multiblock structure that will process logs into planks or stripped logs. The sawmill requires a saw blade which is inserted by right clicking a sawblade in the slot around back of the machine (shift + right click to remove)."
 				""
@@ -2238,9 +2266,9 @@
 					type: "item"
 				}
 				{
-					count: 108L
+					count: 27L
 					id: "09E0B75EF86E6A6E"
-					item: "minecraft:nether_brick"
+					item: "minecraft:nether_bricks"
 					type: "item"
 				}
 			]
@@ -2288,7 +2316,14 @@
 				"0000000000001047"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Fitting complex machinery into a single 1x1x1 cube seems to be a task unmanageable without the use of magic or possibly shrink rays. So in order to create more complex machines, you will need component blocks. "]
+			description: [
+				"&7Fitting complex machinery into a single 1x1x1 cube seems to be a task unmanageable without the use of magic or possibly shrink rays. So in order to create more complex machines, you will need component blocks. &r"
+				""
+				"&9Before starting building a desired multiblock click on a checkmark sign to unlock it.&r"
+				"{image:kubejs:item/mark width:16 height:16 align:1}"
+				""
+				"&9This way you can always see what materials are needed for that specific multiblock, even when you have fulfilled it at another quest already&r"
+			]
 			icon: "immersiveengineering:mold_gear"
 			id: "0000000000000FA9"
 			rewards: [{
@@ -2506,7 +2541,10 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["0000000000000FA9"]
+			dependencies: [
+				"0000000000000FA9"
+				"7CA596CDE2B7E145"
+			]
 			description: [
 				"The Assembler can automate up to three recipes set from its internal inventory."
 				"After assembling the multiblock, use the Engineer's Hammer on the conveyor belt to complete the machine. The assembler has a fluid input on its input side that allows it to automate fluid needing recipes as well."
@@ -3283,6 +3321,136 @@
 			]
 			x: 0.0d
 			y: 10.0d
+		}
+		{
+			icon: "kubejs:mark"
+			id: "7CA596CDE2B7E145"
+			shape: "circle"
+			size: 0.65d
+			tasks: [{
+				id: "4F13A22E9D2875CA"
+				type: "checkmark"
+			}]
+			title: "Unlock Assembler quest"
+			x: 4.0d
+			y: 2.75d
+		}
+		{
+			icon: "kubejs:mark"
+			id: "35732C1486CC7E2D"
+			shape: "circle"
+			size: 0.65d
+			tasks: [{
+				id: "64E7DF9DA114FCFA"
+				type: "checkmark"
+			}]
+			title: "Unlock Sawmill quest"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			icon: "kubejs:mark"
+			id: "1AF540A9989D6AD2"
+			shape: "circle"
+			size: 0.65d
+			tasks: [{
+				id: "13816070AFDBA3E5"
+				type: "checkmark"
+			}]
+			title: "Unlock Industrial Squeezer quest"
+			x: 7.75d
+			y: 2.75d
+		}
+		{
+			icon: "kubejs:mark"
+			id: "33A989B687DD65A0"
+			shape: "circle"
+			size: 0.65d
+			tasks: [{
+				id: "15A4EA03940E5EBA"
+				type: "checkmark"
+			}]
+			title: "Unlock Industrial Fermenter quest"
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			icon: "kubejs:mark"
+			id: "5F7FA222BF4C53BD"
+			shape: "circle"
+			size: 0.65d
+			tasks: [{
+				id: "77C5CAD853D0476D"
+				type: "checkmark"
+			}]
+			title: "Unlock Metal Press quest"
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			icon: "kubejs:mark"
+			id: "4B19076F30BE8049"
+			shape: "circle"
+			size: 0.65d
+			tasks: [{
+				id: "3507D4D3E882AD52"
+				type: "checkmark"
+			}]
+			title: "Unlock Excavator quest"
+			x: 5.0d
+			y: 10.75d
+		}
+		{
+			icon: "kubejs:mark"
+			id: "1F73062AE3526AFC"
+			shape: "circle"
+			size: 0.65d
+			tasks: [{
+				id: "6AA45F3E6C22D2CA"
+				type: "checkmark"
+			}]
+			title: "Unlock Crusher quest"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			icon: "kubejs:mark"
+			id: "56F499D70DCCC112"
+			shape: "circle"
+			size: 0.65d
+			tasks: [{
+				id: "457E80CA1E13582C"
+				type: "checkmark"
+			}]
+			title: "Unlock Refinery quest"
+			x: 10.25d
+			y: 5.5d
+		}
+		{
+			icon: "kubejs:mark"
+			id: "5E8306BD17B1519C"
+			shape: "circle"
+			size: 0.65d
+			tasks: [{
+				id: "3B459EB26E4A7B14"
+				type: "checkmark"
+			}]
+			title: "Unlock Diesel Generator quest"
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			icon: "kubejs:mark"
+			id: "08FE15B6A8569BC1"
+			shape: "circle"
+			size: 0.65d
+			tasks: [{
+				id: "2ADCBE2940772D10"
+				type: "checkmark"
+			}]
+			title: "Unlock Arc Furnace quest"
+			x: 15.5d
+			y: 5.0d
 		}
 	]
 	title: "2. &7Industrialization&r"

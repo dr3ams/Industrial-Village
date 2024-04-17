@@ -108,6 +108,8 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'mffs:steel_compound'})
 	event.remove({output: 'mffs:steel_ingot', type: 'minecraft:smelting'})
 	
+	event.remove({id: 'ad_astra:etrionic_blast_furnace'})
+	
 	event.remove({id: 'refinedstorage:quartz_enriched_iron'})
 	event.remove({id: 'refinedstorage:raw_basic_processor'})
 	event.remove({output: 'refinedstorage:basic_processor', type: 'minecraft:smelting'})
@@ -133,7 +135,45 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'industrialforegoing:plastic'})
 	event.remove({id: 'extendedcrafting:black_iron_slate'})
 	event.remove({id: 'extendedcrafting:redstone_ingot'})
+	event.custom({
+        "type":"immersiveengineering:alloy",
+        "input0":
+        {
+            "item":"minecraft:iron_ingot"
+        },
+        "input1":
+        {
+            "item":"minecraft:redstone"
+        },
+        "result":
+        {
+            "base_ingredient":
+            {
+                "item":"extendedcrafting:redstone_ingot"},
+                "count":1
+            },
+            "time":400
+        })
 	event.remove({id: 'extendedcrafting:black_iron_ingot'})
+	event.custom({
+        "type":"immersiveengineering:alloy",
+        "input0":
+        {
+            "item":"minecraft:iron_ingot"
+        },
+        "input1":
+        {
+            "tag":"forge:dyes/black"
+        },
+        "result":
+        {
+            "base_ingredient":
+            {
+                "item":"extendedcrafting:black_iron_ingot"},
+                "count":1
+            },
+            "time":400
+        })
 	
 	event.remove({id: 'industrialforegoing:conveyor'})
 	event.remove({id: 'industrialforegoing:conveyor_extraction_upgrade'})
@@ -166,10 +206,11 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'industrialforegoing:mob_imprisonment_tool'})
 	event.remove({id: 'industrialforegoing:mob_duplicator'})
 	event.remove({id: 'ad_astra:coal_generator'})
-	event.remove({id: 'ad_astra:fuel_refinery'})
+	//event.remove({id: 'ad_astra:fuel_refinery'})
 	event.remove({id: 'ad_astra:solar_panel'})
 	event.remove({id: 'prettypipes:pipe'})
 	event.remove({id: 'constructionwand:infinity_wand'})
+	event.remove({output: 'ad_astra:steel_rod'})
 	event.remove({output: 'ad_astra:iron_rod'})
 	event.remove({output: 'buildersaddition:iron_rod'})
 	
@@ -226,8 +267,17 @@ ServerEvents.recipes(event => {
 	//clay plate recipe
 	event.smelting('kubejs:clay_plate_fired', 'kubejs:clay_plate_raw')
 		
-	//remove Ad astra compressor recipe
 	event.remove({output: 'ad_astra:compressor'})
+		event.shaped('ad_astra:compressor', [
+    'ABA',
+    'CDC',
+    'ABA'
+	], {
+	A: 'pneumaticcraft:ingot_iron_compressed',
+	B: 'industrialforegoing:machine_frame_pity',
+	C: 'pneumaticcraft:pneumatic_cylinder',
+	D: 'pneumaticcraft:advanced_air_compressor'
+	})
 	
 	//remove railcraft plates recipe and unregister them
 	event.remove({output: 'railcraft:steel_plate'})
@@ -566,7 +616,7 @@ ServerEvents.recipes(event => {
 	C: 'minecraft:blue_dye'
 	})
 	
-	event.remove({id: 'ad_astra:recipes/nasa_workbench'})
+	event.remove({id: 'ad_astra:nasa_workbench'})
 	event.shaped('ad_astra:nasa_workbench', [
     "ABC",
     "DED",

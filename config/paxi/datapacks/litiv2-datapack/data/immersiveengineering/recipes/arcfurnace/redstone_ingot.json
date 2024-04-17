@@ -1,0 +1,20 @@
+{
+	"type":"immersiveengineering:arc_furnace",
+	"additives":
+	[{
+		"item":"minecraft:iron_ingot"
+	}],
+	"energy":20480,
+	"input":
+	{
+		"base_ingredient":
+		{
+			"item":"minecraft:redstone"
+		}
+	},
+	"results":
+	[{
+		"item":"extendedcrafting:redstone_ingot"
+	}],
+	"time":400
+}
