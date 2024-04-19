@@ -87,6 +87,12 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'minecraft:gold_ingot', type: 'minecraft:smelting'})
 	event.remove({output: 'minecraft:copper_ingot', type: 'minecraft:smelting'})
 	event.remove({output: 'ad_astra:desh_ingot', type: 'minecraft:smelting'})
+	
+	event.remove({output: 'ad_astra:steel_cable'})
+	event.remove({output: 'ad_astra:desh_cable'})
+	event.remove({output: 'ad_astra:desh_fluid_pipe'})
+	event.remove({output: 'ad_astra:ostrum_fluid_pipe'})
+	
 	event.remove({output: 'ad_astra:ostrum_ingot', type: 'minecraft:smelting'})
 	event.remove({output: 'ad_astra:calorite_ingot', type: 'minecraft:smelting'})
 	event.remove({output: 'immersiveengineering:ingot_electrum', type: 'minecraft:smelting'})

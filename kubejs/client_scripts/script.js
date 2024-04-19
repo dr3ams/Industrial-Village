@@ -14,6 +14,11 @@ JEIEvents.hideItems(event => {
 	event.hide('industrialforegoing:latex_processing_unit')
 	
 	event.hide('ad_astra:etrionic_blast_furnace')
+	
+	event.hide('ad_astra:steel_cable')
+	event.hide('ad_astra:desh_cable')
+	event.hide('ad_astra:desh_fluid_pipe')
+	event.hide('ad_astra:ostrum_fluid_pipe')
 	event.hide('mffs:steel_compound') 
 	event.hide('mffs:steel_ingot') 
 	event.hide('railcraft:lead_raw')
