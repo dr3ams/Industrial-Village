@@ -3,7 +3,7 @@
   "ingredient": {
     "item": "minecraft:sand"
   },
-  "output": [
+  "outputs": [
     {
       "probability": 0.1,
       "result": {

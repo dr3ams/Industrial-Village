@@ -1,0 +1,17 @@
+{
+	"type":"immersiveengineering:arc_furnace",
+	"energy":2048,
+	"input":
+	{
+		"base_ingredient":
+		{
+			"item":"minecraft:clay_ball"
+		},
+			"count":1
+	},
+	"results":
+	[{
+		"item":"minecraft:brick"
+	}],
+	"time":100
+}

@@ -1,9 +1,11 @@
 {
 	"type":"immersiveengineering:arc_furnace",
 	"additives":
-	[{
+	[
+	{
 		"item":"minecraft:iron_ingot"
-	}],
+	}
+	],
 	"energy":204800,
 	"input":
 	{

@@ -1,0 +1,23 @@
+{
+  "type": "railcraft:crusher",
+  "ingredient": {
+    "item": "minecraft:nether_bricks"
+  },
+  "outputs": [
+    {
+	  "count": 3,
+      "probability": 1.0,
+      "result": {
+        "item": "minecraft:nether_brick"
+      }
+	},
+    {
+	  "count": 1,
+      "probability": 0.8,
+      "result": {
+        "item": "minecraft:nether_brick"
+      }
+    }
+  ],
+  "processTime": 50
+}
