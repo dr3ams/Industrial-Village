@@ -71,6 +71,7 @@ ServerEvents.tags('item', event => {
 	event.get('natprog:considered_as_pickaxe')
 	.add('industrialforegoing:infinity_drill')
 	.add('immersiveengineering:drill')
+	.add('pneumaticcraft:jackhammer')
 	
 	event.get('natprog:considered_as_axe')
 	.add('industrialforegoing:infinity_saw')
