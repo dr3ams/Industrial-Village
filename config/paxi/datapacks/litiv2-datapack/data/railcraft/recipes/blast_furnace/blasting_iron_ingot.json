@@ -1,12 +1,1 @@
-{
-  "type": "railcraft:blasting",
-  "cookingTime": 1280,
-  "experience": 0.0,
-  "ingredient": {
-    "tag": "forge:ingots/iron"
-  },
-  "result": {
-    "item": "immersiveengineering:ingot_steel"
-  },
-  "slagOutput": 1
-}
+{}

@@ -1,0 +1,65 @@
+{
+  "type": "railcraft:crusher",
+  "ingredient": {
+    "tag": "forge:ores/fossil"
+  },
+  "outputs": [
+    {
+	"count": 1,
+      "probability": 1.0,
+      "result": {
+        "item": "minecraft:bone"
+		}
+    },
+	{
+	  "count": 2,
+      "probability": 0.4,
+      "result": {
+        "item": "minecraft:bone_meal"
+		}
+    },
+		{
+		"probability": 0.07,
+		"result": {
+        "item": "minecraft:iron_nugget"
+		}
+	},
+    {
+      "probability": 0.04,
+      "result": {
+        "item": "minecraft:gold_nugget"
+		}
+    },
+	{
+      "probability": 0.0005,
+      "result": {
+        "item": "kubejs:emerald_nugget"
+		}
+    },
+    {
+      "probability": 0.0005,
+      "result": {
+        "item": "kubejs:diamond_nugget"
+      }
+    },
+    {
+      "probability": 0.00005,
+      "result": {
+        "item": "gems:sapphire_shards"
+		}
+    },
+	{
+      "probability": 0.00005,
+      "result": {
+        "item": "gems:topaz_shards"
+		}
+    },
+    {
+      "probability": 0.00005,
+      "result": {
+        "item": "gems:ruby_shards"
+      }
+    }
+  ],
+  "processTime": 400
+}

@@ -1,13 +1,1 @@
-{
-  "type": "railcraft:blasting",
-  "cookingTime": 2560,
-  "experience": 0.0,
-  "ingredient": {
-    "item": "minecraft:iron_hoe"
-  },
-  "result": {
-    "count": 1,
-    "item": "immersiveengineering:ingot_steel"
-  },
-  "slagOutput": 2
-}
+{}

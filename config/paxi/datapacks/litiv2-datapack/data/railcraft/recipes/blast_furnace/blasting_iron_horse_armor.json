@@ -1,13 +1,1 @@
-{
-  "type": "railcraft:blasting",
-  "cookingTime": 5120,
-  "experience": 0.0,
-  "ingredient": {
-    "item": "minecraft:iron_horse_armor"
-  },
-  "result": {
-    "count": 2,
-    "item": "immersiveengineering:ingot_steel"
-  },
-  "slagOutput": 4
-}
+{}

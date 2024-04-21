@@ -1,12 +1,1 @@
-{
-  "type": "railcraft:blasting",
-  "cookingTime": 11520,
-  "experience": 0.0,
-  "ingredient": {
-    "tag": "forge:storage_blocks/iron"
-  },
-  "result": {
-    "item": "immersiveengineering:storage_steel"
-  },
-  "slagOutput": 9
-}
+{}
