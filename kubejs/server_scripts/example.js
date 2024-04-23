@@ -83,6 +83,8 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'gag:mining_dynamite'})
 	event.remove({output: 'gag:labeling_tool'})
 	
+	event.remove({output: 'meadow:woodcutter'})
+	
 	event.remove({output: 'minecraft:iron_ingot', type: 'minecraft:smelting'})
 	event.remove({output: 'minecraft:gold_ingot', type: 'minecraft:smelting'})
 	event.remove({output: 'minecraft:copper_ingot', type: 'minecraft:smelting'})

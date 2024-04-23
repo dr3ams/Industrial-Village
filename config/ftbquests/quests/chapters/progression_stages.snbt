@@ -478,15 +478,15 @@
 			tasks: [
 				{
 					count: 27L
-					id: "71DA898FC03DBBF4"
-					item: { Count: 27b, id: "immersiveengineering:cokebrick" }
-					type: "item"
-				}
-				{
-					count: 27L
 					id: "4DCB98362D4E7F9B"
 					item: { Count: 27b, id: "immersiveengineering:blastbrick" }
 					type: "item"
+				}
+				{
+					advancement: "immersiveengineering:main/mb_cokeoven"
+					criterion: ""
+					id: "4136746EE5A25BC1"
+					type: "advancement"
 				}
 			]
 			title: "&l&6Starting chapter 2: Industrialization&r&r"

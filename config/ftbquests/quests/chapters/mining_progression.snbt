@@ -1459,28 +1459,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "591EB5F7A5AFE86C"
-					item: "tetra:geode"
-					type: "item"
-				}
-				{
-					id: "093AD44CBB002DF1"
-					item: "tetra:pristine_lapis"
-					type: "item"
-				}
-				{
-					id: "47FC18D675469BFB"
-					item: "tetra:pristine_emerald"
-					type: "item"
-				}
-				{
-					id: "3B6F4D40B291FE43"
-					item: "tetra:pristine_diamond"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "591EB5F7A5AFE86C"
+				item: "tetra:geode"
+				type: "item"
+			}]
 			x: -14.5d
 			y: -4.5d
 		}
@@ -2877,7 +2860,7 @@
 			tasks: [{
 				advancement: "tetra:spelunking/find_scroll_gild"
 				criterion: ""
-				id: "306DF4CA4761FF35"
+				id: "3179E2FD7A53E01C"
 				type: "advancement"
 			}]
 			x: -13.5d
@@ -3113,6 +3096,7 @@
 		}
 		{
 			dependencies: ["788795772632D09F"]
+			description: [""]
 			id: "6966F57E97BB934C"
 			rewards: [{
 				count: 2
@@ -3120,9 +3104,9 @@
 				item: "kubejs:copper_coin"
 				type: "item"
 			}]
-			subtitle: "Use a workbench to restore the sweeping capabilities of the Holosphere Ccanner, the Ccanner makers it easier to find Ancient Ruins."
+			subtitle: "Use a workbench to restore the sweeping capabilities of the Holosphere Scanner, the Scanner makers it easier to find Ancient Ruins."
 			tasks: [{
-				advancement: "tetra:spelunking/scanner"
+				advancement: "tetra:spelunking/percussion_scanner"
 				criterion: ""
 				id: "1A856A94581F779F"
 				type: "advancement"
@@ -3147,6 +3131,50 @@
 				type: "advancement"
 			}]
 			x: -16.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1D3EDFD37AFCCB25"]
+			description: [
+				"&bPristine gems&r are basically a slightly better version of their basic counterparts. They provide additional bonuses when used for crafting Modules."
+				""
+				"&bPristine gems&r can be used to craft regular gems in a shapeless crafting, but this method is wasteful as it doesn't yield any extra items. Instead, they can be &6&nshattered&r&r for extra loot."
+				""
+				"&n&6Shattering&r&r"
+				"To shatter a pristine gem put it in a workbench while having a hammer available. Fortune enchantment is very useful, as it provides extra yield for each shattered gem. For example 2.5 stack of regular diamonds can be obtained from cracking a stack pristine diamonds using a Fortune III enchantment on a hammer."
+			]
+			id: "334ED427E629409B"
+			tasks: [{
+				id: "241B8295B0EE7D23"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "tetra:pristine_lapis"
+							}
+							{
+								Count: 1b
+								id: "tetra:pristine_emerald"
+							}
+							{
+								Count: 1b
+								id: "tetra:pristine_diamond"
+							}
+							{
+								Count: 1b
+								id: "tetra:pristine_amethyst"
+							}
+						]
+					}
+				}
+				title: "Pristine Gems"
+				type: "item"
+			}]
+			title: "Pristine Gems"
+			x: -13.0d
 			y: -5.0d
 		}
 	]

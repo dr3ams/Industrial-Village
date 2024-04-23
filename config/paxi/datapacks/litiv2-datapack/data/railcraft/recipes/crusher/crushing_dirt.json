@@ -1,0 +1,45 @@
+{
+  "type": "railcraft:crusher",
+  "ingredient": {
+    "item": "minecraft:dirt"
+  },
+  "outputs": [
+    {
+      "probability": 0.3,
+      "result": {
+        "item": "minecraft:flint"
+      }
+    },
+	{
+      "probability": 0.3,
+      "result": {
+        "item": "minecraft:gravel"
+      }
+    },
+    {
+      "probability": 0.2,
+      "result": {
+        "item": "minecraft:clay_ball"
+      }
+    },
+    {
+      "probability": 0.2,
+      "result": {
+        "item": "minecraft:sand"
+      }
+    },
+    {
+      "probability": 0.0001,
+      "result": {
+        "item": "minecraft:iron_nugget"
+      }
+    },
+    {
+      "probability": 0.00005,
+      "result": {
+        "item": "minecraft:gold_nugget"
+      }
+    }
+  ],
+  "processTime": 20
+}

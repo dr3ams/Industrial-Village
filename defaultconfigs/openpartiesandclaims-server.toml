@@ -54,11 +54,11 @@
 		#The maximum number of chunks that a player can claim. Additional claims can be configured in the player config.
 		#This value can be overridden with a player permission.
 		#Range: > 0
-		maxPlayerClaims = 500
+		maxPlayerClaims = 50
 		#The maximum number of claimed chunks that a player can forceload. Additional forceloads can be configured in the player config.
 		#This value can be overridden with a player permission.
 		#Range: > 0
-		maxPlayerClaimForceloads = 10
+		maxPlayerClaimForceloads = 4
 		#The permission that should override the default "maxPlayerClaims" value. Set it to an empty string to never check permissions. The used permission system can be configured with "permissionSystem".
 		maxPlayerClaimsPermission = "xaero.pac_max_claims"
 		#The permission that should override the default "maxPlayerClaimForceloads" value. Set it to an empty string to never check permissions.
@@ -122,7 +122,7 @@
 			#Prefix "anything$" is the same as no prefix but allows interaction with any item held in the hand. Please make sure that no item does anything bad when used at a block with such an exception.
 			#Add the same block/tag multiple times to use multiple prefixes. Supports patterns with special characters *, (, ) and |, where * matches anything, ( ) are used for grouping and | means OR.
 			#For example ["minecraft:lever", "minecraft:*_button", "break$minecraft:*_button", "break$minecraft:(*_|)sand"]
-			forcedBlockProtectionExceptionList = ["minecraft:crafting_table", "simpleshops:simple_shop"]
+			forcedBlockProtectionExceptionList = ["minecraft:crafting_table", "#minecraft:wall_signs", "#minecraft:signs", "#minecraft:standing_signs", "simpleshops:simple_shop"]
 			#Custom groups of blocks that a player/claim config should be able to make protection exceptions for. Each group can consist of multiple blocks and block tags.
 			#A group without a prefix creates a player config option for the right-click interaction with the group blocks. The format for a block group is <group ID>{<blocks/tags/wildcards separated by ,>}.
 			#The group ID should consist of at most 32 characters that are letters A-Z, numbers 0-9 or the - and _ characters, e.g. "ePiC-DIRT35{minecraft:dirt, minecraft:grass_block, minecraft:(oak|spruce)_*}".

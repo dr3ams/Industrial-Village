@@ -3,10 +3,10 @@ ItemEvents.modification(event => {
     item.maxDamage = 384
   })	
 	event.modify('minecraft:shield', item => {
-    item.maxDamage = 250	
+    item.maxDamage = 336	
   })	
 	event.modify('minecraft:crossbow', item => {
-    item.maxDamage = 250
+    item.maxDamage = 465
   })	
 	event.modify('gems:golden_shield', item => {
     item.maxDamage = 100

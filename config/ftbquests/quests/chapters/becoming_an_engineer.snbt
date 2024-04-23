@@ -78,30 +78,6 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 1.5d
-			hover: [ ]
-			image: "ftbquests:tasks/input_only"
-			rotation: 0.0d
-			width: 1.5d
-			x: -13.0d
-			y: 10.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.5d
-			hover: [ ]
-			image: "ftbquests:tasks/input_only"
-			rotation: 0.0d
-			width: 1.5d
-			x: -13.0d
-			y: 13.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.7d
 			hover: [ ]
 			image: "ftbquests:tasks/input_only"
@@ -120,7 +96,19 @@
 			rotation: 135.0d
 			width: 1.7d
 			x: -13.5d
-			y: 11.5d
+			y: 12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.7d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 135.0d
+			width: 1.7d
+			x: -13.5d
+			y: 10.5d
 		}
 	]
 	order_index: 1
@@ -166,7 +154,6 @@
 		{
 			dependencies: [
 				"0000000000000FA3"
-				"55EC92B79B6E17CD"
 				"34B6BE545EE3E349"
 			]
 			description: [
@@ -264,7 +251,7 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["000000000000022F"]
+			dependencies: ["00000000000000FD"]
 			description: ["The Alloy Kiln is a 2x2x2 block of Kiln bricks that allows you to create alloys of metals."]
 			id: "000000000000010A"
 			rewards: [{
@@ -279,8 +266,8 @@
 				type: "item"
 			}]
 			title: "Alloy Kiln"
-			x: -7.5d
-			y: 0.0d
+			x: -5.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["0000000000000104"]
@@ -602,7 +589,7 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
+			x: -6.5d
 			y: 0.0d
 		}
 		{
@@ -2274,7 +2261,7 @@
 			]
 			title: "Hot Blocks"
 			x: -13.5d
-			y: 11.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["0000000000001047"]
@@ -3120,7 +3107,7 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["00000000000000FD"]
+			dependencies: ["000000000000010A"]
 			id: "6617B49235F3A8FC"
 			rewards: [{
 				id: "523EC87E9D98AA81"
@@ -3133,7 +3120,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 10.0d
+			y: 9.5d
 		}
 		{
 			id: "55EC92B79B6E17CD"
@@ -3149,6 +3136,8 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 1.5d
 			tasks: [
 				{
 					count: 68L
@@ -3182,10 +3171,11 @@
 				}
 			]
 			title: "Weird Dusts"
-			x: -13.0d
-			y: 10.0d
+			x: -13.5d
+			y: 10.5d
 		}
 		{
+			dependencies: ["55EC92B79B6E17CD"]
 			id: "34B6BE545EE3E349"
 			rewards: [
 				{
@@ -3219,8 +3209,8 @@
 					type: "item"
 				}
 			]
-			x: -13.0d
-			y: 13.0d
+			x: -12.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0000000000000267"]

@@ -12,7 +12,7 @@
 	durability = 25
 	#Fluid temperature from which you get a burning effect if a bucket contains this fluid.
 	#Range: -10000 ~ 10000
-	burningTemperature = 200
+	burningTemperature = 400
 	#Fluid temperature from which you get a freezing effect if a bucket contains this fluid.
 	#Range: -10000 ~ 10000
 	freezingTemperature = -1

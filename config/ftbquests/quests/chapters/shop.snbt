@@ -498,6 +498,33 @@
 			x: 2.0d
 			y: 1.5d
 		}
+		{
+			id: "4C5CFF9B400CC5CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DD70F3DCDC36003"
+				table_id: 3101518903568742149L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "5073187DBA2ED955"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:logs"
+					}
+				}
+				optional_task: true
+				title: "Any #forge:logs"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
 	]
 	title: "&l&fCoins Exchange&r&r"
 }

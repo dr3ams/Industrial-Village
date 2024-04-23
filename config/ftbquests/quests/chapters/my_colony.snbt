@@ -2097,6 +2097,24 @@
 			x: 11.0d
 			y: 1.5d
 		}
+		{
+			dependencies: ["00000000000000D7"]
+			description: ["Craft an architects cutter and place the materials in as requested. Then select the type of skinned block in the middle, and pick up the result on the right."]
+			id: "682A37A813D3DDAD"
+			rewards: [{
+				id: "094596120E0D5A12"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Fancy"
+			tasks: [{
+				id: "3D6866BF2B9977F2"
+				item: "domum_ornamentum:architectscutter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
 	]
 	title: "My Colony"
 }

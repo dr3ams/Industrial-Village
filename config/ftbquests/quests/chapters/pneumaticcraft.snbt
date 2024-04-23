@@ -39,8 +39,8 @@
 			image: "minecraft:textures/particle/lava.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 5.0d
-			y: 4.0d
+			x: 4.0d
+			y: 6.0d
 		}
 		{
 			click: ""
@@ -204,7 +204,7 @@
 				item: "pneumaticcraft:pressure_tube"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: 1.5d
 		}
 		{
@@ -221,7 +221,7 @@
 				item: "pneumaticcraft:reinforced_stone"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: 2.5d
 		}
 		{
@@ -253,8 +253,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: 2.0d
+			x: 6.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5BDB321306D9FF76"]
@@ -295,7 +295,7 @@
 				type: "advancement"
 			}]
 			x: 9.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -394,7 +394,7 @@
 				item: "pneumaticcraft:air_compressor"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.0d
 			y: 2.0d
 		}
 		{
@@ -513,8 +513,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: -0.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3DB5BEED97CF4BA4"]
@@ -531,8 +531,8 @@
 				item: "pneumaticcraft:liquid_compressor"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -653,7 +653,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["3DB5BEED97CF4BA4"]
+			dependencies: [
+				"295FF179F973AF2A"
+				"1EB00AC57E572D88"
+			]
 			description: [
 				"A Thermopneumatic Processing Plant uses pressure and/or heat to process materials. "
 				""
@@ -678,13 +681,14 @@
 					xp: 100
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				id: "0A611ECA92A5B070"
 				item: "pneumaticcraft:thermopneumatic_processing_plant"
 				type: "item"
 			}]
 			x: 9.5d
-			y: -1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3DB5BEED97CF4BA4"]
@@ -707,7 +711,7 @@
 				item: "pneumaticcraft:lpg_bucket"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 5.5d
 			y: 0.0d
 		}
 		{
@@ -1076,7 +1080,7 @@
 				item: "pneumaticcraft:small_tank"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: 0.5d
 		}
 		{
@@ -1087,7 +1091,7 @@
 				item: "pneumaticcraft:medium_tank"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: 0.5d
 		}
 		{
@@ -1202,6 +1206,7 @@
 					xp: 100
 				}
 			]
+			subtitle: "&6Immersive Engineering Biodiesel will also work&r"
 			tasks: [{
 				id: "5E25045693B13DD4"
 				item: "pneumaticcraft:biodiesel_bucket"
@@ -1230,12 +1235,11 @@
 				item: "pneumaticcraft:diesel_bucket"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: -1.5d
 		}
 		{
 			dependencies: [
-				"295FF179F973AF2A"
 				"13C67521F98B2F2D"
 				"0C4495B8F8420AC3"
 			]
@@ -1265,7 +1269,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["13C67521F98B2F2D"]
@@ -1363,7 +1367,7 @@
 				item: "pneumaticcraft:kerosene_lamp"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.5d
 			y: -4.0d
 		}
 		{
@@ -1433,8 +1437,8 @@
 				item: "pneumaticcraft:gasoline_bucket"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -4.0d
+			x: 8.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["066F64299D4F3C51"]
@@ -1484,7 +1488,7 @@
 				item: "pneumaticcraft:regulator_tube_module"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 0.5d
 		}
 		{
@@ -1789,7 +1793,7 @@
 				item: "pneumaticcraft:logistics_module"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.0d
 			y: 5.0d
 		}
 		{
@@ -1812,8 +1816,8 @@
 				item: "pneumaticcraft:logistics_core"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 3.5d
+			x: 9.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["256BD2FFBE7EC950"]
@@ -1884,8 +1888,8 @@
 				title: "Insulation"
 				type: "checkmark"
 			}]
-			x: 4.0d
-			y: 6.5d
+			x: 2.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5CB9FC121007AC80"]
@@ -1919,8 +1923,8 @@
 				title: "Heat Sources"
 				type: "checkmark"
 			}]
-			x: 5.0d
-			y: 5.0d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["58A5DC22FAD9BB2D"]
@@ -1982,8 +1986,8 @@
 				item: "pneumaticcraft:heat_pipe"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 7.5d
+			x: 4.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["7C826C2EB9050012"]
@@ -1999,8 +2003,8 @@
 				item: "pneumaticcraft:thermal_lagging"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 6.5d
+			x: 4.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1EB00AC57E572D88"]
@@ -2064,8 +2068,8 @@
 				item: "pneumaticcraft:thermal_compressor"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 6.5d
+			x: 3.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["32737F8BBBCF40C7"]
@@ -2307,7 +2311,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["73BA97DCC05FA0ED"]
@@ -2332,7 +2336,7 @@
 			]
 			title: "Pipes!"
 			x: 8.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4ECA8387C0B80330"]
