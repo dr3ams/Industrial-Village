@@ -1,0 +1,13 @@
+{
+  "type": "gems:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/ancient_city"
+    }
+  ],
+  "item": "gems:topaz_upgrade_smithing_template",
+  "maxItems": 1,
+  "minItems": 1,
+  "probability": 0.1
+}

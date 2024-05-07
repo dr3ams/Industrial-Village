@@ -6,11 +6,7 @@
 	icon: "kubejs:chest"
 	id: "3C5503700A3470D0"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 10.0d
-		hover: [ ]
 		image: "litv3:textures/misc/storage.png"
 		rotation: 0.0d
 		width: 12.178861788617885d

@@ -1,0 +1,13 @@
+{
+	"type":"immersiveengineering:arc_furnace",
+	"additives":[],
+	"energy":51200,
+	"input":
+		{
+		"item":"ad_astra:raw_desh"
+		},
+	"results":
+	[{
+		"item":"ad_astra:desh_ingot"
+	}],
+	"time":100}

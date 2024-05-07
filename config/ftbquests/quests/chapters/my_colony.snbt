@@ -2072,7 +2072,7 @@
 				}
 			]
 			x: 0.5d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6C0526CA03F645D4"]
@@ -2113,7 +2113,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 1.5d
+			y: 2.0d
 		}
 	]
 	title: "My Colony"

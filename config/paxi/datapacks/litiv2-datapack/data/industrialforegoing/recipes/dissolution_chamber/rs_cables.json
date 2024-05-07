@@ -1,0 +1,35 @@
+{
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "item": "refinedstorage:quartz_enriched_iron"
+    },
+    {
+      "item": "refinedstorage:quartz_enriched_iron"
+    },
+    {
+      "item": "refinedstorage:quartz_enriched_iron"
+    },
+    {
+      "item": "extendedcrafting:redstone_ingot"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "refinedstorage:quartz_enriched_iron"
+    },
+    {
+      "item": "refinedstorage:quartz_enriched_iron"
+    },
+    {
+      "item": "refinedstorage:quartz_enriched_iron"
+    }
+  ],
+  "inputFluid": "{Amount:500,FluidName:\"pneumaticcraft:lubricant\"}",
+  "output": {
+    "count": 3,
+    "item": "refinedstorage:cable"
+  },
+  "processingTime": 300
+}

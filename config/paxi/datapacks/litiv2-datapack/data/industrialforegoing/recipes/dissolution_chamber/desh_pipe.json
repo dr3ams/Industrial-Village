@@ -1,0 +1,35 @@
+{
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+          {
+            "item": "ad_astra:desh_plate"
+          },
+          {
+            "item": "ad_astra:desh_plate"
+          },
+		  {
+            "item": "ad_astra:desh_plate"
+          },
+          {
+            "item": "pneumaticcraft:pressure_chamber_glass"
+          },
+          {
+            "item": "pneumaticcraft:pressure_chamber_glass"
+          },
+          {
+            "item": "ad_astra:desh_plate"
+          },
+          {
+            "item": "ad_astra:desh_plate"
+          },
+          {
+            "item": "ad_astra:desh_plate"
+          }
+  ],
+  "inputFluid": "{Amount:1000,FluidName:\"pneumaticcraft:lubricant\"}",
+  "output": {
+    "count": 1,
+    "item": "ad_astra:desh_fluid_pipe"
+  },
+  "processingTime": 1000
+}

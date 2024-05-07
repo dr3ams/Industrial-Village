@@ -1,0 +1,44 @@
+{
+  "type": "recipe",
+  "additional-output": [
+    {
+      "item": "minecolonies:sifter_mesh_diamond"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "item": "immersiveengineering:nugget_steel"
+    },
+    {
+      "item": "ad_astra:moon_cheese_ore"
+    },
+    {
+      "item": "ad_astra:moon_iron_ore"
+    },
+    {
+      "item": "ad_astra:moon_ice_shard_ore"
+    },
+    {
+      "item": "ad_astra:desh_nugget"
+    },
+    {
+      "item": "ad_astra:raw_desh"
+    }
+  ],
+  "crafter": "sifter_custom",
+  "inputs": [
+    {
+      "item": "ad_astra:moon_sand"
+    },
+    {
+      "item": "minecolonies:sifter_mesh_diamond"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "loot-table": "minecolonies:recipes/diamond/moonsand",
+  "min-building-level": 5
+}

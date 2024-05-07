@@ -14,11 +14,7 @@
 	images: [
 		{
 			alpha: 120
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "kubejs:item/icon_pneumatic"
 			rotation: 0.0d
 			width: 2.0d
@@ -27,11 +23,7 @@
 		}
 		{
 			alpha: 150
-			click: ""
-			corner: false
-			dev: false
 			height: 20.0d
-			hover: [ ]
 			image: "litv3:textures/misc/factory.png"
 			rotation: 0.0d
 			width: 19.041666666666664d
@@ -39,11 +31,7 @@
 			y: 3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "litv3:textures/misc/industrialization.png"
 			rotation: 0.0d
 			width: 18.5d
@@ -51,11 +39,7 @@
 			y: 2.2d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "ftbquests:block/barrier_open"
 			rotation: 135.0d
 			width: 1.5d
@@ -63,11 +47,7 @@
 			y: 5.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.7d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 135.0d
 			width: 1.7d
@@ -75,11 +55,7 @@
 			y: 3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.7d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 135.0d
 			width: 1.7d
@@ -87,28 +63,20 @@
 			y: -1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.7d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 135.0d
 			width: 1.7d
 			x: -13.5d
-			y: 12.5d
+			y: 12.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.7d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 135.0d
 			width: 1.7d
 			x: -13.5d
-			y: 10.5d
+			y: 10.0d
 		}
 	]
 	order_index: 1
@@ -149,7 +117,7 @@
 				}
 			]
 			x: -4.0d
-			y: 11.5d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -188,7 +156,7 @@
 			}]
 			title: "Blast Furnace"
 			x: -10.0d
-			y: 11.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0000000000000104"]
@@ -217,7 +185,7 @@
 				}
 			]
 			x: -9.5d
-			y: 12.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["0000000000000106"]
@@ -248,7 +216,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 13.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["00000000000000FD"]
@@ -266,7 +234,7 @@
 				type: "item"
 			}]
 			title: "Alloy Kiln"
-			x: -5.5d
+			x: -4.0d
 			y: 9.5d
 		}
 		{
@@ -285,7 +253,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: 10.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["000000000000010C"]
@@ -303,7 +271,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 10.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -406,7 +374,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 13.0d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -893,7 +861,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["000000000000022D"]
@@ -1015,8 +983,8 @@
 				}
 			]
 			title: "Prospecting"
-			x: 4.0d
-			y: 11.5d
+			x: 3.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["000000000000022D"]
@@ -1299,8 +1267,8 @@
 				}
 			]
 			title: "Excavator"
-			x: 6.0d
-			y: 11.5d
+			x: 5.775d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0000000000000225"]
@@ -1905,9 +1873,10 @@
 			icon: "immersiveengineering:crusher"
 			id: "000000000000026D"
 			rewards: [{
-				id: "00000000000004B4"
-				item: "minecraft:emerald"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "3B1D39BAAE0EE336"
+				table_id: 319365251100888752L
+				type: "random"
 			}]
 			shape: "square"
 			size: 1.5d
@@ -2026,8 +1995,8 @@
 				}
 			]
 			title: "Metal Press"
-			x: 6.0d
-			y: 9.5d
+			x: 5.775d
+			y: 9.125d
 		}
 		{
 			dependencies: [
@@ -2046,9 +2015,10 @@
 			icon: "immersiveengineering:sawmill"
 			id: "0000000000000271"
 			rewards: [{
-				id: "00000000000004B5"
-				item: "minecraft:emerald"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "2437377F710A618B"
+				table_id: 3101518903568742149L
+				type: "random"
 			}]
 			shape: "square"
 			size: 1.5d
@@ -2261,7 +2231,7 @@
 			]
 			title: "Hot Blocks"
 			x: -13.5d
-			y: 12.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["0000000000001047"]
@@ -2294,8 +2264,8 @@
 				item: "immersiveengineering:steel_scaffolding_standard"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 11.5d
+			x: 2.0d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -2486,7 +2456,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -2506,7 +2476,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["68B37999BD32FC7F"]
@@ -2524,8 +2494,8 @@
 				type: "item"
 			}]
 			title: "Railway Empire"
-			x: -0.5d
-			y: 9.0d
+			x: 0.0d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -2940,10 +2910,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"0000000000001049"
-				"00000000000000FD"
-			]
+			dependencies: ["0000000000001049"]
 			description: [
 				"And also:"
 				""
@@ -2972,8 +2939,8 @@
 				}
 			]
 			title: "Steam Age"
-			x: -0.5d
-			y: 7.0d
+			x: -1.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["68B37999BD32FC7F"]
@@ -2989,8 +2956,8 @@
 				item: "railcraft:steam_oven"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 9.0d
+			x: 0.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["43B399EC1FFA4ACB"]
@@ -3055,8 +3022,8 @@
 				}
 			]
 			title: "Steam Turbine"
-			x: 1.5d
-			y: 7.0d
+			x: 0.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["000000000000026F"]
@@ -3087,11 +3054,12 @@
 				}
 			]
 			title: "Iron Fluid Tank"
-			x: 8.0d
-			y: 9.5d
+			x: 7.775d
+			y: 9.125d
 		}
 		{
 			dependencies: ["6617B49235F3A8FC"]
+			description: ["A Rolling Machine is a device for producing rails, boards and other useful parts. The production process can be automated by placing a chest next to the rolling table (items will be picked up and stacked evenly on the table)."]
 			id: "43066E409D5D09B0"
 			rewards: [{
 				id: "52A11D6A9E73C5D9"
@@ -3104,7 +3072,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 8.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["000000000000010A"]
@@ -3120,7 +3088,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 9.5d
+			y: 8.5d
 		}
 		{
 			id: "55EC92B79B6E17CD"
@@ -3172,7 +3140,7 @@
 			]
 			title: "Weird Dusts"
 			x: -13.5d
-			y: 10.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["55EC92B79B6E17CD"]
@@ -3210,7 +3178,7 @@
 				}
 			]
 			x: -12.0d
-			y: 11.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["0000000000000267"]
@@ -3244,8 +3212,8 @@
 				item: "mining_dimension:teleporter"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 13.0d
+			x: 3.5d
+			y: 12.375d
 		}
 		{
 			dependencies: ["39BCF35AE8DE775E"]
@@ -3261,8 +3229,8 @@
 				type: "item"
 			}]
 			title: "Steel Fluid Tank"
-			x: 9.0d
-			y: 9.5d
+			x: 8.775d
+			y: 9.125d
 		}
 		{
 			dependencies: ["0000000000000267"]
@@ -3288,6 +3256,11 @@
 				tag: { }
 			}
 			id: "5C25EFCB121F2B72"
+			rewards: [{
+				id: "0A8529918616B498"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1D0885533D2C416F"
@@ -3309,8 +3282,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 10.0d
+			x: 1.0d
+			y: 8.5d
 		}
 		{
 			icon: "kubejs:mark"
@@ -3374,8 +3347,8 @@
 				type: "checkmark"
 			}]
 			title: "Unlock Metal Press quest"
-			x: 6.5d
-			y: 8.5d
+			x: 6.275d
+			y: 8.125d
 		}
 		{
 			icon: "kubejs:mark"
@@ -3387,8 +3360,8 @@
 				type: "checkmark"
 			}]
 			title: "Unlock Excavator quest"
-			x: 5.0d
-			y: 10.75d
+			x: 4.550000000000001d
+			y: 10.075000000000001d
 		}
 		{
 			icon: "kubejs:mark"
@@ -3441,6 +3414,31 @@
 			title: "Unlock Arc Furnace quest"
 			x: 15.5d
 			y: 5.0d
+		}
+		{
+			dependencies: ["6617B49235F3A8FC"]
+			description: [
+				"The Rock Crusher is 2x2x3 multiblock structure."
+				""
+				"It's used to crush various resources, including ores, into other valuable resources."
+				"{image:litv3:textures/misc/q-s-crusher.png width:150 height:100 align:1}"
+			]
+			id: "6841CAAB79A63951"
+			rewards: [{
+				count: 12
+				id: "0AC597CDC504C3E7"
+				item: "gems:bone_fossil"
+				type: "item"
+			}]
+			tasks: [{
+				count: 12L
+				id: "0C47DF1FB100860C"
+				item: { Count: 12b, id: "railcraft:crusher" }
+				type: "item"
+			}]
+			title: "(not only rock) Crusher"
+			x: -3.0d
+			y: 8.5d
 		}
 	]
 	title: "2. &7Industrialization&r"

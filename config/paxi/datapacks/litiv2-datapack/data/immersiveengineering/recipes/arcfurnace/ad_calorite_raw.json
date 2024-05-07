@@ -1,0 +1,13 @@
+{
+	"type":"immersiveengineering:arc_furnace",
+	"additives":[],
+	"energy":51200,
+	"input":
+		{
+		"item":"ad_astra:raw_calorite"
+		},
+	"results":
+	[{
+		"item":"ad_astra:calorite_ingot"
+	}],
+	"time":100}

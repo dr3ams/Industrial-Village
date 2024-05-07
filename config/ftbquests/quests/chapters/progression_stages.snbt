@@ -6,11 +6,7 @@
 	id: "2325EECA78B4E0AC"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftbquests:textures/gui/arrow_collapsed.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -19,11 +15,7 @@
 		}
 		{
 			alpha: 180
-			click: ""
-			corner: false
-			dev: false
 			height: 10.1d
-			hover: [ ]
 			image: "litv3:textures/misc/questinfo.png"
 			rotation: 0.0d
 			width: 8.414401076716016d
@@ -31,11 +23,7 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 6.309616888193901d
-			hover: [ ]
 			image: "litv3:textures/misc/po_chapter.png"
 			rotation: 0.0d
 			width: 30.0d
@@ -43,11 +31,7 @@
 			y: -1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 0.0d
 			width: 1.5d
@@ -55,11 +39,7 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "ftbquests:block/barrier_open"
 			rotation: 135.0d
 			width: 1.5d
@@ -67,11 +47,7 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "ftbquests:block/barrier_open"
 			rotation: 135.0d
 			width: 1.5d
@@ -79,11 +55,7 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 0.0d
 			width: 1.5d
@@ -91,11 +63,7 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "ftbquests:block/barrier_open"
 			rotation: 135.0d
 			width: 1.5d
@@ -103,11 +71,7 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "ftbquests:block/barrier_open"
 			rotation: 135.0d
 			width: 1.5d
@@ -115,11 +79,7 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 0.0d
 			width: 1.5d
@@ -127,11 +87,7 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 0.0d
 			width: 1.5d
@@ -139,11 +95,7 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 0.0d
 			width: 1.5d
@@ -151,11 +103,7 @@
 			y: 6.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "ftbquests:block/barrier_open"
 			rotation: 135.0d
 			width: 1.5d
@@ -163,11 +111,7 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "ftbquests:block/barrier_open"
 			rotation: 135.0d
 			width: 1.5d
@@ -175,11 +119,7 @@
 			y: 5.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "ftbquests:block/barrier_open"
 			rotation: 135.0d
 			width: 1.5d
@@ -187,12 +127,8 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "49250D827A91E3CE"
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "simplehats:item/hats/fireworks"
 			rotation: 0.0d
 			width: 2.0d
@@ -200,12 +136,8 @@
 			y: 3.0d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "49250D827A91E3CE"
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "simplehats:item/hats/fireworks"
 			rotation: 0.0d
 			width: 2.0d
@@ -213,11 +145,7 @@
 			y: 2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 0.0d
 			width: 1.5d
@@ -1003,6 +931,21 @@
 			title: "&bAdvanced Mixed Metal Alloy&r"
 			x: 21.0d
 			y: 3.5d
+		}
+		{
+			id: "541E84EC7766D33D"
+			rewards: [{
+				command: "/give immersiveengineering:blueprint"
+				id: "7813FCD32F4B409B"
+				tags: ["electrode"]
+				type: "command"
+			}]
+			tasks: [{
+				id: "4943EEDBC1224D22"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 11.5d
 		}
 	]
 	subtitle: ["Overview"]

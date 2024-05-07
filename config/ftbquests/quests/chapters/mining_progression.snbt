@@ -20,11 +20,7 @@
 	id: "00000000000002E3"
 	images: [{
 		alpha: 120
-		click: ""
-		corner: false
-		dev: false
 		height: 30.0d
-		hover: [ ]
 		image: "litv3:textures/misc/q-tetra.png"
 		rotation: 0.0d
 		width: 30.0d

@@ -6,11 +6,7 @@
 	icon: "minecraft:end_crystal"
 	id: "27DA9497BADF2A86"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 24.760095961615356d
-		hover: [ ]
 		image: "litv3:textures/misc/stars.png"
 		rotation: 0.0d
 		width: 25.0d

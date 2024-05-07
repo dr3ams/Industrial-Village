@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "tag": "railcraft:iron_tank_wall"
+    },
+    "b": {
+      "item": "immersiveengineering:blastbrick_reinforced"
+    },
+    "c": {
+      "item": "minecraft:iron_bars"
+    },
+    "d": {
+      "item": "minecraft:minecart"
+    }
+  },
+  "pattern": [
+    "aab",
+    "aab",
+    "cdd"
+  ],
+  "result": {
+    "item": "railcraft:steam_locomotive"
+  },
+  "show_notification": true
+}

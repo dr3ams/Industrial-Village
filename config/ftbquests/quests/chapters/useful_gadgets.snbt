@@ -871,6 +871,11 @@
 			y: 4.0d
 		}
 		{
+			description: [
+				"Slowly accumulates time while in a player's inventory."
+				""
+				"Use on a ticking block to accelerate it, using some of the stored time from the pouch."
+			]
 			id: "0389F576299659F8"
 			tasks: [{
 				id: "2AC42696F7106DFC"
@@ -887,6 +892,7 @@
 			y: -2.0d
 		}
 		{
+			description: ["Teleports a player out of caves and buildings to the nearest point on the surface."]
 			id: "00431565719265B2"
 			tasks: [{
 				id: "77C05BB804BCB99F"
@@ -903,6 +909,7 @@
 			y: -2.5d
 		}
 		{
+			description: ["Teleports a player to their personal spawn point, or, if enabled, the world spawn."]
 			id: "715D18176966A2AB"
 			tasks: [{
 				id: "27C8E9B24414C7D2"
@@ -919,6 +926,11 @@
 			y: -2.0d
 		}
 		{
+			description: [
+				"This hearthstone has channelled the energy of the lightning it was struck by, and can now be used to teleport to any one bound location! (use while sneaking to bind)"
+				""
+				"&oNote that to reset the stone later, you will need to hit it with lightning again.&r"
+			]
 			id: "2288B868715D98F6"
 			tasks: [{
 				id: "16AEC5A540C5AB66"
@@ -935,6 +947,7 @@
 			y: -3.0d
 		}
 		{
+			description: ["When applied, gives the player an effect that stops nearby hostile mobs from spawning."]
 			id: "5193BFAEEDB811FA"
 			tasks: [{
 				id: "0B244FF532FD79C4"
@@ -945,6 +958,12 @@
 			y: -3.5d
 		}
 		{
+			description: [
+				"When applied, gives the player an effect that stops nearby hostile mobs from spawning."
+				""
+				"&9This lasts a bit longer than the salt, and also works in a larger area."
+				"&r"
+			]
 			id: "08F44B6EB3C3AE79"
 			tasks: [{
 				id: "3F46B8DC65D203FC"
@@ -955,6 +974,11 @@
 			y: -3.0d
 		}
 		{
+			description: [
+				"When applied, gives the player an effect that stops nearby hostile mobs from spawning"
+				""
+				"&9This lasts considerably longer than the salt or salve, but also has a reduced radius.&r"
+			]
 			id: "76EA6976B5571C95"
 			tasks: [{
 				id: "5EF06E1EA95ECF6F"
@@ -965,6 +989,7 @@
 			y: -2.5d
 		}
 		{
+			description: ["Throwable explosive that has a high efficiency against stone. Drops all blocks it destroys."]
 			id: "00E09F995A3398BE"
 			tasks: [{
 				id: "1BD384E7312659F6"
@@ -975,6 +1000,7 @@
 			y: -1.5d
 		}
 		{
+			description: ["Throwable explosive that only works underwater and deals increased damage to fish. Perfect if you don't like fishing!"]
 			id: "1CEB1F86943ED8CE"
 			tasks: [{
 				id: "64EAE82075A81239"

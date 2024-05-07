@@ -1,0 +1,11 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "item": "immersiveengineering:stick_iron"
+  },
+  "program": "drill",
+  "result": {
+    "count": 4,
+    "item": "kubejs:screw"
+  }
+}

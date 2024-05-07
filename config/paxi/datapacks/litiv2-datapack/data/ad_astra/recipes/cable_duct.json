@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "ad_astra:steel_plates"
+    },
+    "C": {
+      "item": "ad_astra:desh_plate"
+    },
+    "S": {
+      "item": "ad_astra:steel_cable"
+    }
+  },
+  "pattern": [
+    "#C#",
+    "CSC",
+    "#C#"
+  ],
+  "result": {
+    "count": 1,
+    "item": "ad_astra:cable_duct"
+  },
+  "show_notification": true
+}

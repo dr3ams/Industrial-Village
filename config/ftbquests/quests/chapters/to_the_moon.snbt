@@ -12,12 +12,8 @@
 	images: [
 		{
 			alpha: 200
-			click: ""
 			color: 0
-			corner: false
-			dev: false
 			height: 20.0d
-			hover: [ ]
 			image: "litv3:textures/misc/adastra.png"
 			order: 1
 			rotation: 175.0d
@@ -26,11 +22,7 @@
 			y: 4.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "litv3:textures/misc/moon.png"
 			rotation: 0.0d
 			width: 10.373831775700936d
@@ -38,11 +30,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.2d
-			hover: [ ]
 			image: "ftbquests:block/barrier_open"
 			rotation: 0.0d
 			width: 1.2d
@@ -50,11 +38,7 @@
 			y: 10.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.7d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 135.0d
 			width: 1.7d
@@ -62,11 +46,7 @@
 			y: 7.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "simplehats:item/hats/floatingstar"
 			rotation: 0.0d
 			width: 1.0d
@@ -74,11 +54,7 @@
 			y: 4.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "simplehats:item/hats/floatingstar"
 			rotation: 0.0d
 			width: 1.0d
@@ -86,11 +62,7 @@
 			y: -1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "simplehats:item/hats/floatingstar"
 			rotation: 0.0d
 			width: 1.0d
@@ -98,11 +70,7 @@
 			y: -3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "simplehats:item/hats/floatingstar"
 			rotation: 0.0d
 			width: 1.0d
@@ -110,11 +78,7 @@
 			y: 7.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "simplehats:item/hats/floatingstar"
 			rotation: 0.0d
 			width: 1.0d
@@ -122,11 +86,7 @@
 			y: 1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "simplehats:item/hats/floatingstar_e"
 			rotation: 0.0d
 			width: 1.0d
@@ -134,11 +94,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "simplehats:item/hats/lightning_eyes"
 			rotation: 0.0d
 			width: 10.0d
@@ -146,11 +102,7 @@
 			y: -1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "simplehats:item/hats/floatingstar_e"
 			rotation: 0.0d
 			width: 1.0d
@@ -158,11 +110,7 @@
 			y: 11.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "simplehats:item/hats/floatingstar_e"
 			rotation: 0.0d
 			width: 1.0d
@@ -170,11 +118,7 @@
 			y: 6.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "simplehats:item/hats/floatingstar_e"
 			rotation: 0.0d
 			width: 1.0d
@@ -182,11 +126,7 @@
 			y: 4.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "simplehats:item/hats/floatingstar_e"
 			rotation: 0.0d
 			width: 1.0d
@@ -194,11 +134,7 @@
 			y: 2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "simplehats:item/hats/floatingstar_e"
 			rotation: 0.0d
 			width: 1.0d
@@ -206,11 +142,7 @@
 			y: 8.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.7d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			order: 2
 			rotation: 135.0d
@@ -799,9 +731,9 @@
 			}]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "Collect every globe"
+			subtitle: "Reach a new solar system"
 			tasks: [{
-				advancement: "ad_astra:challenger"
+				advancement: "ad_astra:interstellar"
 				criterion: ""
 				id: "5D97FED1DAD79671"
 				type: "advancement"

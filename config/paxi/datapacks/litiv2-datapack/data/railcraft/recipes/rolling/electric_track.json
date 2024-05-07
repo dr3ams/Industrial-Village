@@ -1,0 +1,20 @@
+{
+  "type": "railcraft:rolling",
+  "key": {
+    "a": {
+      "item": "railcraft:electric_rail"
+    },
+    "b": {
+      "item": "railcraft:stone_railbed"
+    }
+  },
+  "pattern": [
+    "a a",
+    "aba",
+    "a a"
+  ],
+  "result": {
+    "count": 32,
+    "item": "railcraft:electric_track"
+  }
+}

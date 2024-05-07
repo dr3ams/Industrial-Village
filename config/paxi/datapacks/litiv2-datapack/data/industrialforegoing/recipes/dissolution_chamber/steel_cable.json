@@ -1,0 +1,35 @@
+{
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+          {
+            "item": "immersiveengineering:plate_steel"
+          },
+          {
+            "item": "extendedcrafting:redstone_catalyst"
+          },
+		  {
+            "item": "immersiveengineering:plate_steel"
+          },
+          {
+            "item": "ad_astra:desh_plate"
+          },
+          {
+            "item": "ad_astra:desh_plate"
+          },
+          {
+            "item": "immersiveengineering:plate_steel"
+          },
+          {
+            "item": "immersiveengineering:plate_steel"
+          },
+          {
+            "item": "immersiveengineering:plate_steel"
+          }
+  ],
+  "inputFluid": "{Amount:1000,FluidName:\"pneumaticcraft:lubricant\"}",
+  "output": {
+    "count": 1,
+    "item": "ad_astra:steel_cable"
+  },
+  "processingTime": 1000
+}

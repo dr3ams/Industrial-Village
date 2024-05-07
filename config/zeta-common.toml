@@ -21,4 +21,8 @@
 	"Enable Worldgen Watchdog" = false
 	#Set to true to make the Zeta big worldgen features generate as spheres rather than unique shapes. It's faster, but won't look as cool
 	"Use Fast Worldgen" = false
+	#Set to true to enable verbose logging of creative tab logic, for debugging purposes
+	"Enable Creative Verbose Logging" = false
+	#Set to true to force all creative tab additions to be added to the end of the creative tabs rather than the middle, as a failsafe
+	"Force Creative Tab Appends" = false
 

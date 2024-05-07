@@ -1,0 +1,35 @@
+{
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+          {
+            "item": "ad_astra:desh_plate"
+          },
+          {
+            "item": "extendedcrafting:ender_catalyst"
+          },
+		  {
+            "item": "ad_astra:desh_plate"
+          },
+          {
+            "item": "ad_astra:calorite_plate"
+          },
+          {
+            "item": "ad_astra:calorite_plate"
+          },
+          {
+            "item": "ad_astra:desh_plate"
+          },
+          {
+            "item": "ad_astra:desh_plate"
+          },
+          {
+            "item": "ad_astra:desh_plate"
+          }
+  ],
+  "inputFluid": "{Amount:1000,FluidName:\"pneumaticcraft:lubricant\"}",
+  "output": {
+    "count": 1,
+    "item": "ad_astra:desh_cable"
+  },
+  "processingTime": 1000
+}

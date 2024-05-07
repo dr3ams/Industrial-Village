@@ -10,11 +10,7 @@
 	images: [
 		{
 			alpha: 200
-			click: ""
-			corner: false
-			dev: false
 			height: 42.08695652173913d
-			hover: [ ]
 			image: "litv3:textures/misc/info.png"
 			rotation: 0.0d
 			width: 22.0d
@@ -22,11 +18,7 @@
 			y: 12.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftbquests:textures/gui/arrow_expanded.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -34,11 +26,7 @@
 			y: 11.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftbquests:textures/gui/arrow_expanded.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -46,11 +34,7 @@
 			y: 11.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftbquests:textures/gui/arrow_expanded.png"
 			rotation: 0.0d
 			width: 1.0d

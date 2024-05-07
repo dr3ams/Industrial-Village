@@ -26,18 +26,17 @@
 		fpsDisplayMargin = 12
 
 	[embeddiumplus.performance]
-		#Toggles FastChest feature
-		#Without flywheel installed or using any backend, it increases FPS significatly on chest rooms
-		fastChest = false
 		#Toggles JREI item rendering until searching
 		#Increases performance a little bit and cleans your screen when you don't want to use it
 		hideJREI = false
+		#Sets culling mode
+		#Reduces number of visible faces when the neighbor blocks are leaves
+		#Allowed Values: ALL, OFF
+		leavesCulling = "OFF"
 		#Toggles Minecraft Fonts shadows
 		#Depending of the case may increase performance
 		#Gives a flat style text
 		fontShadows = true
-		#Toggles FastBeds feature
-		fastBed = false
 
 		[embeddiumplus.performance.distanceCulling]
 
@@ -46,8 +45,8 @@
 				#Value is squared, default was 64^2 (or 64x64)
 				#Range: > 0
 				cullingMaxDistanceX = 4096
-				#Toggles distance culling for entities
-				#Maybe you use another mod for that :(
+				#Toggles distance culling for entities, doesn't affect monsters culling
+				#Check the options below
 				enable = true
 				#Configure vertical max distance before cull entities
 				#Value is raw
@@ -58,6 +57,24 @@
 				#Example 1: "minecraft:bat" - Ignores bats only
 				#Example 2: "alexsmobs:*" - ignores all entities for alexmobs mod
 				whitelist = ["minecraft:ghast", "minecraft:ender_dragon", "iceandfire:*", "create:*"]
+
+				[embeddiumplus.performance.distanceCulling.entities.monsters]
+					#Configure horizontal max distance before cull monster entities
+					#Value is squared, default was 64^2 (or 64x64)
+					#Range: > 0
+					cullingMaxDistanceX = 16384
+					#Toggles distance culling for monsters (or hostile entities, whatever you want to call it), doesn't affect neutral/pacific entities
+					#Check the options above
+					enable = false
+					#Configure vertical max distance before cull monster entities
+					#Value is raw
+					#Range: 0 ~ 512
+					cullingMaxDistanceY = 64
+					#List of all monster entities to be ignored by distance culling
+					#Uses ResourceLocation to identify it
+					#Example 1: "minecraft:bat" - Ignores bats only
+					#Example 2: "alexsmobs:*" - ignores all entities for alexmobs mod
+					whitelist = ["minecraft:ghast", "minecraft:ender_dragon", "iceandfire:*", "create:*"]
 
 			[embeddiumplus.performance.distanceCulling.tileEntities]
 				#Configure horizontal max distance before cull Block entities
@@ -76,6 +93,13 @@
 				#Example 1: "minecraft:chest" - Ignores chests only
 				#Example 2: "ae2:*" - ignores all Block entities from Applied Energetics 2
 				whitelist = ["waterframes:*"]
+
+		[embeddiumplus.performance.fastModels]
+			#Toggles FastBeds feature
+			enableBeds = false
+			#Toggles FastChest feature
+			#Without flywheel installed or using any backend, it increases FPS significatly on chest rooms
+			enableChests = false
 
 	[embeddiumplus.dynlights]
 		#Toggle if Block Entities should have dynamic lights

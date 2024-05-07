@@ -1,0 +1,13 @@
+{
+	"type":"immersiveengineering:arc_furnace",
+	"additives":[],
+	"energy":51200,
+	"input":
+		{
+		"item":"ad_astra:venus_calorite_ore"
+		},
+	"results":
+	[{
+		"item":"ad_astra:calorite_ingot"
+	}],
+	"time":100}

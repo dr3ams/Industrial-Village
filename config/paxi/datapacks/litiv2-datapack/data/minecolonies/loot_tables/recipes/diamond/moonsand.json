@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.035,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 40
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "immersiveengineering:nugget_steel",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ad_astra:moon_cheese_ore",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ad_astra:moon_iron_ore",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ad_astra:moon_ice_shard_ore",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ad_astra:desh_nugget",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ad_astra:raw_desh",
+          "weight": 2
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecolonies:recipes/diamond/moonsand"
+}

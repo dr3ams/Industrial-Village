@@ -13,11 +13,7 @@
 	id: "5C9540CBF5DC8FBC"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "vinery:item/red_grape"
 			rotation: 0.0d
 			width: 1.0d
@@ -25,11 +21,7 @@
 			y: 2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "minecraft:item/apple"
 			rotation: 0.0d
 			width: 1.0d
@@ -37,11 +29,7 @@
 			y: 2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "minecraft:item/honeycomb"
 			rotation: 0.0d
 			width: 1.0d
@@ -49,11 +37,7 @@
 			y: 2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "brewery:item/beer_barley"
 			rotation: 0.0d
 			width: 1.0d
@@ -359,11 +343,12 @@
 			y: 3.5d
 		}
 		{
+			description: ["You'll need to find grapevine bushes to gather your first Grapes. If you cant find any a Wandering Winemaker will make visit from time to time maybe offering some seeds. You can get seeds by eating Grapes."]
 			id: "27170A4880A96C2B"
 			rewards: [{
 				count: 64
 				id: "327388411397F641"
-				item: "vinery:cherry_log"
+				item: "vinery:dark_cherry_log"
 				type: "item"
 			}]
 			tasks: [{
@@ -434,6 +419,11 @@
 		}
 		{
 			dependencies: ["27170A4880A96C2B"]
+			description: [
+				"After harvesting your first Grapes can either just eat them or put them into a Pot and crush them by jumping and walking around in it. Then you can extract Grapejuice by using Empty Winebottles. Filled Winebottles can be refined in a Barrel by using extra Ingredients such as Sweetberries, Honey and so on. "
+				""
+				"Different sort of Grapejuice and Ingredients result in different Wine. "
+			]
 			id: "74EFFB87274A7544"
 			rewards: [{
 				id: "5473F2B48CA0686F"
@@ -453,6 +443,13 @@
 			dependencies: [
 				"74EFFB87274A7544"
 				"2C42FABF971D6D67"
+			]
+			description: [
+				"Usage"
+				""
+				"The block works similarly to the already known crafting stations in Minecraft: It has 4 input slots for ingredients (left), one input slot for a wine bottle (middle), and one output slot (right). It also offers a built-in recipe book that displays all available recipes and the ingredients required for them."
+				""
+				"Once you've placed the ingredients needed for the respective recipe into the corresponding input slots, it takes about 12 seconds for the crafting process to complete - the crafted item then appears in the output slot."
 			]
 			id: "1F2007CB1CF49288"
 			rewards: [
@@ -495,7 +492,17 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["5A62BD701E2D05C6"]
+			description: [
+				"The Apple Press is a crafting station for making Apple Mash."
+				""
+				"Usage"
+				""
+				"Like the Fermentation Barrel, the Apple Press also resembles the crafting stations in Minecraft. The Apple Press only has 1 input slot for apples (top left) and one output slot (right)."
+				""
+				"Once you've placed the apples into the input slot, it takes a few seconds for the crafting process to complete - the Apple Mash then appears in the output slot."
+				""
+				"&oNote: The Apple Press also acts as a workstation for Winemaker Villagers.&r"
+			]
 			id: "553D6826E76763CD"
 			rewards: [{
 				id: "55DEA322C8354827"
@@ -508,7 +515,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["553D6826E76763CD"]
@@ -525,21 +532,6 @@
 			}]
 			x: 0.5d
 			y: 5.5d
-		}
-		{
-			id: "5A62BD701E2D05C6"
-			rewards: [{
-				id: "5BF18C2AC5DD8496"
-				type: "xp"
-				xp: 1
-			}]
-			tasks: [{
-				id: "47E210B346124A43"
-				item: "minecraft:apple"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 3.5d
 		}
 		{
 			dependencies: ["1F2007CB1CF49288"]

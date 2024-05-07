@@ -9,7 +9,7 @@
 	{
 		"base_ingredient":
 		{
-			"item":"minecraft:redstone"
+			"item":"minecraft:redstone_block"
 		}
 	},
 	"results":

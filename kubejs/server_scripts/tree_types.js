@@ -45,6 +45,13 @@ global.tree_types =
             { type:"socotra" },
             { type:"willow" },
             { type:"yellow_bioshroom" }
+        ],
+		"fruitfulfun" : [
+            { type:"redlove" },
+            { type:"citrus" }
+        ],
+		"vinery" : [
+            { type:"dark_cherry" }
         ]
     };
 

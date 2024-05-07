@@ -7,11 +7,7 @@
 	id: "000000000000011B"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 6.5d
-			hover: [ ]
 			image: "litv3:textures/misc/storage2.png"
 			rotation: 0.0d
 			width: 11.504424778761063d
@@ -19,11 +15,7 @@
 			y: 6.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftbquests:block/barrier_open"
 			rotation: 135.0d
 			width: 1.0d
@@ -31,11 +23,7 @@
 			y: 9.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftbquests:block/barrier_open"
 			rotation: 135.0d
 			width: 1.0d
@@ -43,11 +31,7 @@
 			y: 6.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftbquests:block/barrier_open"
 			rotation: 135.0d
 			width: 1.0d
@@ -55,11 +39,7 @@
 			y: 10.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.7d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 135.0d
 			width: 1.7d
@@ -67,12 +47,8 @@
 			y: 6.5d
 		}
 		{
-			click: ""
 			color: 0
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "kubejs:item/icon_rocket"
 			rotation: 0.0d
 			width: 2.0d
@@ -80,11 +56,7 @@
 			y: 6.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 4.0d
-			hover: [ ]
 			image: "refinedstorage:block/controller/cutouts/cyan"
 			rotation: 0.0d
 			width: 4.0d
@@ -92,11 +64,7 @@
 			y: 1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.7d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 135.0d
 			width: 1.7d

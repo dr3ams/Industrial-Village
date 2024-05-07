@@ -1,0 +1,26 @@
+{
+  "type": "industrialforegoing:laser_drill_ore",
+  "catalyst": {
+    "item": "industrialforegoing:laser_lens10"
+  },
+  "output": {
+    "item": "ad_astra:raw_ostrum"
+  },
+  "pointer": 0,
+  "rarity": [
+    {
+      "blacklist": {},
+      "depth_max": 40,
+      "depth_min": 1,
+      "weight": 5,
+      "whitelist": {
+        "type": "ad_astra:mars",
+        "values": [
+          "ad_astra:martian_wastelands",
+		  "ad_astra:martian_canyon_creek",
+		  "ad_astra:martian_polar_caps"
+        ]
+      }
+    }
+  ]
+}

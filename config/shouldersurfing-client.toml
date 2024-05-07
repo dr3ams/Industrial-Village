@@ -18,6 +18,8 @@
 	dynamically_adjust_offsets = true
 	#Whether or not to decouple the camera rotation from the player rotation.
 	decoupled_camera = true
+	#Whether or not to temporarily center the camera when using Elytra.
+	center_camera_when_fall_flying = false
 
 	[camera.offset]
 		#Third person camera x-offset.
@@ -99,6 +101,14 @@
 	#The angle at which the player will no longer be rendered when looking up. Set to 0 to disable.
 	#Range: 0.0 ~ 90.0
 	hide_player_when_looking_up_angle = 0.0
+	#Whether or not to turn the player when using an item. This config option only applies when camera is decoupled.
+	turn_player_when_using_item = true
+	#Whether or not to turn the player when attacking. This config option only applies when camera is decoupled.
+	turn_player_when_attacking = true
+	#Whether or not to turn the player when interacting with blocks. This config option only applies when camera is decoupled.
+	turn_player_when_interacting = true
+	#Whether or not to turn the player when picking blocks or entities. This config option only applies when camera is decoupled.
+	turn_player_when_picking = true
 
 [crosshair]
 	#Crosshair type to use for shoulder surfing.

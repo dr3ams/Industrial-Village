@@ -90,6 +90,19 @@
 			}
 		}
 		{ item: "compactxpbottles:x16experiencebottle" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "veinmining:vein_mining"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Vein Mining Enchant"
+		}
 	]
 	title: "Iron coin reward"
 }

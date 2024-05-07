@@ -7,11 +7,7 @@
 	id: "428A714163EA98BA"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "mffs:textures/fluid/fortron.png"
 			rotation: 0.0d
 			width: 0.020833333333333332d
@@ -19,11 +15,7 @@
 			y: 1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "mffs:textures/fluid/fortron.png"
 			rotation: 0.0d
 			width: 0.020833333333333332d
@@ -31,11 +23,7 @@
 			y: 0.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "mffs:textures/fluid/fortron.png"
 			rotation: 0.0d
 			width: 0.2d
@@ -43,11 +31,7 @@
 			y: 2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "mffs:textures/fluid/fortron.png"
 			rotation: 0.0d
 			width: 0.2d
@@ -55,11 +39,7 @@
 			y: 1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 4.0d
-			hover: [ ]
 			image: "mffs:textures/fluid/fortron.png"
 			rotation: 0.0d
 			width: 0.2d
@@ -67,11 +47,7 @@
 			y: -0.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "mffs:textures/fluid/fortron.png"
 			rotation: 90.0d
 			width: 0.2d
@@ -79,11 +55,7 @@
 			y: 0.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "mffs:textures/fluid/fortron.png"
 			rotation: 90.0d
 			width: 0.2d
@@ -92,11 +64,7 @@
 		}
 		{
 			alpha: 155
-			click: ""
-			corner: false
-			dev: false
 			height: 4.0d
-			hover: [ ]
 			image: "litv3:textures/misc/force_cube_chapter.png"
 			rotation: 0.0d
 			width: 7.0d
@@ -104,11 +72,7 @@
 			y: -1.2d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "mffs:textures/fluid/fortron.png"
 			rotation: 90.0d
 			width: 0.2d
@@ -116,11 +80,7 @@
 			y: 0.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "mffs:block/force_field"
 			rotation: 0.0d
 			width: 1.0d

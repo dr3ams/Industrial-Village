@@ -7,12 +7,18 @@
     },
     "|": {
       "item": "immersiveengineering:stick_iron"
+    },
+    "T": {
+      "item": "pneumaticcraft:small_tank"
+    },
+    "C": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
     }
   },
   "pattern": [
-    "| ",
-    "##",
-    "##"
+    " | ",
+    "CTC",
+    "###"
   ],
   "result": {
     "item": "ad_astra:gas_tank"

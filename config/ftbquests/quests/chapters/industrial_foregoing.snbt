@@ -7,12 +7,8 @@
 	id: "00000000000004DB"
 	images: [
 		{
-			click: ""
 			color: 0
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "litv3:textures/misc/icon_oil.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -20,11 +16,7 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.8d
-			hover: [ ]
 			image: "litv3:textures/misc/growing.png"
 			rotation: 0.0d
 			width: 16.553271028037383d
@@ -32,11 +24,7 @@
 			y: 2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "ftbquests:block/barrier_open"
 			rotation: 135.0d
 			width: 1.5d
@@ -44,11 +32,7 @@
 			y: 8.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 5.074231177094379d
-			hover: [ ]
 			image: "litv3:textures/misc/growing-info.png"
 			rotation: 0.0d
 			width: 15.0d
@@ -56,11 +40,7 @@
 			y: 5.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.7d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 135.0d
 			width: 1.7d

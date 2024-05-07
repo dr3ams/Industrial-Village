@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.035,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 40
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cactus",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sugar_cane",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cocoa_beans",
+          "weight": 15
+        },
+		{
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone_meal",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay_ball",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gems:ruby_shards",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gems:sapphire_shards",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gems:topaz_shards",
+          "weight": 2
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecolonies:recipes/diamond/sand"
+}

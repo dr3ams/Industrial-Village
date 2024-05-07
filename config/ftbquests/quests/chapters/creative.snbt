@@ -8,11 +8,7 @@
 	id: "1A123B87E6699A4D"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "litv3:textures/misc/overpowered.png"
 			order: 1
 			rotation: 0.0d
@@ -21,12 +17,8 @@
 			y: -1.0d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "49250D827A91E3CE"
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "simplehats:item/hats/fireworks"
 			rotation: 0.0d
 			width: 2.0d
@@ -34,12 +26,8 @@
 			y: -1.0d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "49250D827A91E3CE"
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "simplehats:item/hats/fireworks"
 			rotation: 0.0d
 			width: 2.0d
@@ -47,11 +35,7 @@
 			y: -1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "simplehats:item/hats/lightning_eyes"
 			rotation: 0.0d
 			width: 8.0d
@@ -59,11 +43,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "simplehats:item/hats/lightning_eyes"
 			rotation: 180.0d
 			width: 8.0d
@@ -72,11 +52,7 @@
 		}
 		{
 			alpha: 150
-			click: ""
-			corner: false
-			dev: false
 			height: 13.0d
-			hover: [ ]
 			image: "litv3:textures/misc/stars2.png"
 			rotation: 0.0d
 			width: 14.176663031624862d
@@ -84,11 +60,7 @@
 			y: 5.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 4.0d
-			hover: [ ]
 			image: "refinedstorage:block/controller/cutouts/purple"
 			rotation: 0.0d
 			width: 4.0d

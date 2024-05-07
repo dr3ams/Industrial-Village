@@ -14,7 +14,7 @@
       "tag": "forge:glass_panes"
     },
     {
-      "tag": "forge:dyes/black"
+      "item": "extendedcrafting:black_iron_ingot"
     }
   ],
   "inputFluid": "{Amount:250,FluidName:\"industrialforegoing:latex\"}",

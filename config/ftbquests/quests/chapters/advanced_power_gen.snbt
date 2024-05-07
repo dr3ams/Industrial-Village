@@ -7,11 +7,7 @@
 	id: "49A24A59E0398477"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "litv3:textures/misc/advpower.png"
 			rotation: 0.0d
 			width: 9.19626168224299d
@@ -19,11 +15,7 @@
 			y: -1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 5.0d
-			hover: [ ]
 			image: "litv3:textures/misc/icon_advpower.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -31,11 +23,7 @@
 			y: -1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftbquests:block/barrier_open"
 			rotation: 135.0d
 			width: 1.0d
@@ -43,11 +31,7 @@
 			y: 5.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftbquests:block/barrier_open"
 			rotation: 135.0d
 			width: 1.0d
@@ -55,11 +39,7 @@
 			y: 3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.2d
-			hover: [ ]
 			image: "litv3:textures/misc/advpower-info.png"
 			rotation: 0.0d
 			width: 6.475675675675676d
@@ -67,11 +47,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.7d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			order: 1
 			rotation: 135.0d

@@ -8,11 +8,7 @@
 	id: "0000000000000579"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "kubejs:textures/item/copper_coin.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -20,11 +16,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "kubejs:textures/item/diamond_coin.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -32,11 +24,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "kubejs:textures/item/gold_coin.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -44,11 +32,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "kubejs:textures/item/iron_coin.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -56,11 +40,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 5.0d
-			hover: [ ]
 			image: "industrialforegoing:block/villager_trade_exchanger_front"
 			rotation: 0.0d
 			width: 5.0d
@@ -68,11 +48,7 @@
 			y: -5.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.4d
-			hover: [ ]
 			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
 			rotation: 0.0d
 			width: 0.4d
@@ -80,11 +56,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.4d
-			hover: [ ]
 			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
 			rotation: 0.0d
 			width: 0.4d
@@ -92,11 +64,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.4d
-			hover: [ ]
 			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
 			rotation: 0.0d
 			width: 0.4d
@@ -499,6 +467,8 @@
 			y: 1.5d
 		}
 		{
+			can_repeat: true
+			disable_toast: true
 			id: "4C5CFF9B400CC5CA"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -522,6 +492,7 @@
 				title: "Any #forge:logs"
 				type: "item"
 			}]
+			title: "Exchange modded logs -> Regular logs"
 			x: -6.0d
 			y: 3.5d
 		}

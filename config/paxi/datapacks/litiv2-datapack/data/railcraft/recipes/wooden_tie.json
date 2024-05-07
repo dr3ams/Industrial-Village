@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "immersiveengineering:creosote_bucket"
+    },
+    "b": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "pattern": [
+    " a ",
+    "bbb"
+  ],
+  "result": {
+    "count": 3,
+    "item": "railcraft:wooden_tie"
+  },
+  "show_notification": true
+}

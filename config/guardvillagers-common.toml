@@ -43,6 +43,8 @@
 	"Have Illusioners in raids?" = false
 
 ["mob ai in general"]
+	#Hostiles attack guards, by default only illagers and zombies will attack guards, the mob blacklist below will effect this option
+	"All mobs attack guards" = false
 	#Guards will attack all hostiles with this option, when set to false guards will only attack zombies and illagers.
 	"Guards attack all mobs?" = true
 	#Guards won't attack mobs in this list at all, for example, putting "minecraft:creeper" in this list will make guards ignore creepers.

@@ -48,6 +48,8 @@ ServerEvents.tags('item', event => {
 	event.removeAllTagsFrom('industrialforegoing:plastic')
 	event.add('forge:plastic', 'pneumaticcraft:plastic')
 	
+	event.add('minecraft:flowers', 'regions_unexplored:clover')
+	
 	event.get('indvil:mortars')
 		.add('kubejs:stone_mortar')
 		.add('kubejs:iron_mortar')

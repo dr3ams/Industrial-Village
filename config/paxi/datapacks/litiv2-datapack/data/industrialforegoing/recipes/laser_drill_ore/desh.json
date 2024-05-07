@@ -1,0 +1,24 @@
+{
+  "type": "industrialforegoing:laser_drill_ore",
+  "catalyst": {
+    "item": "industrialforegoing:laser_lens1"
+  },
+  "output": {
+    "item": "ad_astra:raw_desh"
+  },
+  "pointer": 0,
+  "rarity": [
+    {
+      "blacklist": {},
+      "depth_max": 40,
+      "depth_min": 1,
+      "weight": 5,
+      "whitelist": {
+        "type": "ad_astra:moon",
+        "values": [
+          "ad_astra:lunar_wastelands"
+        ]
+      }
+    }
+  ]
+}

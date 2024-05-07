@@ -13,11 +13,7 @@
 	id: "0F590B3A1FD5D993"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "litv3:textures/misc/fight_1.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -25,11 +21,7 @@
 			y: 4.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 4.0d
-			hover: [ ]
 			image: "litv3:textures/misc/fight_2.png"
 			rotation: 0.0d
 			width: 5.348783314020857d
@@ -37,11 +29,7 @@
 			y: -4.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 4.0d
-			hover: [ ]
 			image: "litv3:textures/misc/fight_3.png"
 			rotation: 0.0d
 			width: 3.5580464371497196d
@@ -49,11 +37,7 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "litv3:textures/misc/fight_4.png"
 			rotation: 0.0d
 			width: 5.333333333333333d
@@ -61,11 +45,7 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 5.0d
-			hover: [ ]
 			image: "litv3:textures/misc/fight_5.png"
 			rotation: 0.0d
 			width: 6.666666666666666d

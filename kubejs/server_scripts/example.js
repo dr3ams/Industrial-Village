@@ -65,6 +65,7 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'industrialforegoing:dryrubber'});
 	event.remove({output: 'industrialforegoing:tinydryrubber'});
 	event.remove({output: 'industrialforegoing:latex_processing_unit'});
+	
 
 	event.remove({output: 'waystones:waystone'})
 	event.remove({output: 'waystones:mossy_waystone'})
@@ -89,14 +90,17 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'minecraft:gold_ingot', type: 'minecraft:smelting'})
 	event.remove({output: 'minecraft:copper_ingot', type: 'minecraft:smelting'})
 	event.remove({output: 'ad_astra:desh_ingot', type: 'minecraft:smelting'})
-	
-	event.remove({output: 'ad_astra:steel_cable'})
-	event.remove({output: 'ad_astra:desh_cable'})
-	event.remove({output: 'ad_astra:desh_fluid_pipe'})
-	event.remove({output: 'ad_astra:ostrum_fluid_pipe'})
-	
 	event.remove({output: 'ad_astra:ostrum_ingot', type: 'minecraft:smelting'})
 	event.remove({output: 'ad_astra:calorite_ingot', type: 'minecraft:smelting'})
+	event.remove({output: 'ad_astra:desh_ingot', type: 'minecraft:blasting'})
+	event.remove({output: 'ad_astra:ostrum_ingot', type: 'minecraft:blasting'})
+	event.remove({output: 'ad_astra:calorite_ingot', type: 'minecraft:blasting'})
+	
+
+	//event.remove({output: 'ad_astra:desh_fluid_pipe'})
+	event.remove({output: 'ad_astra:ostrum_fluid_pipe'})
+	
+
 	event.remove({output: 'immersiveengineering:ingot_electrum', type: 'minecraft:smelting'})
 	event.remove({output: 'immersiveengineering:ingot_aluminum', type: 'minecraft:smelting'})
 	event.remove({output: 'immersiveengineering:ingot_lead', type: 'minecraft:smelting'})
@@ -151,7 +155,7 @@ ServerEvents.recipes(event => {
         },
         "input1":
         {
-            "item":"minecraft:redstone"
+            "item":"minecraft:redstone_block"
         },
         "result":
         {
@@ -217,7 +221,6 @@ ServerEvents.recipes(event => {
 	//event.remove({id: 'ad_astra:fuel_refinery'})
 	event.remove({id: 'ad_astra:solar_panel'})
 	event.remove({id: 'prettypipes:pipe'})
-	event.remove({id: 'constructionwand:infinity_wand'})
 	event.remove({output: 'ad_astra:steel_rod'})
 	event.remove({output: 'ad_astra:iron_rod'})
 	event.remove({output: 'buildersaddition:iron_rod'})
@@ -365,6 +368,10 @@ ServerEvents.recipes(event => {
 	S: 'immersiveengineering:stick_treated'
 	})
 	
+	event.shapeless('railcraft:charge_spool_small', [
+	'immersiveengineering:wirecoil_copper'
+	])
+	
 	event.shaped('railcraft:tin_plate', [
 	'TT ',
     'H  ',
@@ -443,8 +450,7 @@ ServerEvents.recipes(event => {
 	'AAA'
 	], {
 	A: 'minecraft:stone',
-	B: 'immersiveengineering:plate_iron',
-	B: 'minecraft:iron_ingot'
+	B: 'immersiveengineering:plate_iron'
 	})
 	
 	event.shapeless('minecraft:flint', [

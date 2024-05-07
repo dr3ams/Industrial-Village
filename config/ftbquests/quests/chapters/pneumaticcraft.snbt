@@ -7,11 +7,7 @@
 	id: "65BBD02A54061C8F"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "pneumaticcraft:textures/item/air_canister.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -19,11 +15,7 @@
 			y: 4.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "pneumaticcraft:textures/gui/jei/thermometer.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -31,11 +23,7 @@
 			y: -3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "minecraft:textures/particle/lava.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -43,24 +31,16 @@
 			y: 6.0d
 		}
 		{
-			click: ""
 			color: 0
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "kubejs:item/icon_processor"
 			rotation: 0.0d
 			width: 2.0d
 			x: 24.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:icons/info"
 			rotation: 0.0d
 			width: 1.0d
@@ -68,23 +48,15 @@
 			y: -0.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "litv3:textures/misc/assembly.png"
 			rotation: 0.0d
 			width: 3.0d
 			x: 24.0d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "litv3:textures/misc/pneumatics.png"
 			rotation: 0.0d
 			width: 6.345794392523365d
@@ -92,47 +64,31 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "ftbquests:block/barrier_open"
 			rotation: 135.0d
 			width: 1.5d
 			x: 24.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.7d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 135.0d
 			width: 1.7d
 			x: 24.0d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.7d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 135.0d
 			width: 1.7d
 			x: 18.0d
-			y: 0.75d
+			y: 1.25d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 4.735949098621421d
-			hover: [ ]
 			image: "litv3:textures/misc/pneumatics-info.png"
 			rotation: 0.0d
 			width: 14.0d
@@ -140,11 +96,7 @@
 			y: -4.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.7d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 135.0d
 			width: 1.7d
@@ -339,7 +291,7 @@
 				type: "item"
 			}]
 			x: 15.5d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4840A7917559EAE0"]
@@ -372,7 +324,7 @@
 			}]
 			title: "Uprades and Charging Station"
 			x: 13.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -417,7 +369,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["3C8C4BD3067374D0"]
@@ -449,7 +401,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["17761223A9BC14AF"]
@@ -466,7 +418,7 @@
 				type: "item"
 			}]
 			x: 26.5d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["446C2F8D6B8AD9C5"]
@@ -514,7 +466,7 @@
 				}
 			]
 			x: 4.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3DB5BEED97CF4BA4"]
@@ -532,7 +484,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -560,7 +512,7 @@
 				}
 			]
 			x: 16.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1522D0D97EA3E78D"]
@@ -584,7 +536,7 @@
 				}
 			]
 			x: 17.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5E8A0DC28C87528A"]
@@ -606,7 +558,7 @@
 				type: "item"
 			}]
 			x: 19.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["22E9A7D30ABA1E14"]
@@ -624,7 +576,7 @@
 				type: "item"
 			}]
 			x: 19.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["22E9A7D30ABA1E14"]
@@ -650,13 +602,14 @@
 				type: "item"
 			}]
 			x: 21.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
 				"295FF179F973AF2A"
 				"1EB00AC57E572D88"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"A Thermopneumatic Processing Plant uses pressure and/or heat to process materials. "
 				""
@@ -688,7 +641,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3DB5BEED97CF4BA4"]
@@ -734,7 +687,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["13C67521F98B2F2D"]
@@ -800,7 +753,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4ECA8387C0B80330"]
@@ -897,7 +850,7 @@
 			]
 			title: "&l&6Chapter 3: Pneumatic Systems&r&r"
 			x: 24.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["00F720B457FE7814"]
@@ -914,7 +867,7 @@
 				type: "item"
 			}]
 			x: 22.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["256BD2FFBE7EC950"]
@@ -930,7 +883,7 @@
 				type: "item"
 			}]
 			x: 26.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["00F720B457FE7814"]
@@ -989,7 +942,7 @@
 			]
 			title: "Compressed Iron Armor"
 			x: 20.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -1009,7 +962,7 @@
 				type: "item"
 			}]
 			x: 21.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["17761223A9BC14AF"]
@@ -1026,7 +979,7 @@
 				type: "item"
 			}]
 			x: 27.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["17761223A9BC14AF"]
@@ -1043,7 +996,7 @@
 				type: "item"
 			}]
 			x: 28.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["17761223A9BC14AF"]
@@ -1060,7 +1013,7 @@
 				type: "item"
 			}]
 			x: 27.5d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6FD45EF3A2B1B31F"]
@@ -1109,7 +1062,7 @@
 				type: "item"
 			}]
 			x: 26.5d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3C0A0421DDEEA487"]
@@ -1125,7 +1078,7 @@
 				type: "item"
 			}]
 			x: 27.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["669A8F2B1C318E73"]
@@ -1188,7 +1141,7 @@
 				type: "item"
 			}]
 			x: 22.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0D555D4717DC4FDF"]
@@ -1455,7 +1408,7 @@
 				type: "item"
 			}]
 			x: 21.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["17761223A9BC14AF"]
@@ -1472,7 +1425,7 @@
 				type: "item"
 			}]
 			x: 25.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4C788FBAAE9CF49C"]
@@ -1513,7 +1466,7 @@
 				type: "item"
 			}]
 			x: 26.0d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["36038EB0001D8C9C"]
@@ -1529,7 +1482,7 @@
 				type: "item"
 			}]
 			x: 26.5d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["19815B8373092CEB"]
@@ -1555,7 +1508,7 @@
 				type: "item"
 			}]
 			x: 25.0d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4ECA8387C0B80330"]
@@ -1611,7 +1564,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3C8C4BD3067374D0"]
@@ -1645,7 +1598,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3C8C4BD3067374D0"]
@@ -1677,7 +1630,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1EB00AC57E572D88"]
@@ -1704,7 +1657,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["41DBE31C5FAE9B96"]
@@ -1720,7 +1673,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["41DBE31C5FAE9B96"]
@@ -1736,7 +1689,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["41DBE31C5FAE9B96"]
@@ -1752,7 +1705,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["41DBE31C5FAE9B96"]
@@ -1768,7 +1721,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["604E969CA40014D3"]
@@ -1794,7 +1747,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["73BA97DCC05FA0ED"]
@@ -1817,7 +1770,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["256BD2FFBE7EC950"]
@@ -1828,7 +1781,7 @@
 				type: "item"
 			}]
 			x: 24.0d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["00F720B457FE7814"]
@@ -1844,7 +1797,7 @@
 				type: "item"
 			}]
 			x: 21.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			description: [
@@ -2093,7 +2046,7 @@
 				type: "checkmark"
 			}]
 			x: 15.5d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["12E31FA4DA9E8E0A"]
@@ -2110,7 +2063,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["12E31FA4DA9E8E0A"]
@@ -2127,7 +2080,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["12E31FA4DA9E8E0A"]
@@ -2144,7 +2097,7 @@
 				type: "item"
 			}]
 			x: 17.5d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["12E31FA4DA9E8E0A"]
@@ -2161,7 +2114,7 @@
 				type: "item"
 			}]
 			x: 17.5d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["12E31FA4DA9E8E0A"]
@@ -2178,7 +2131,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["3598EC582CB9CFC1"]
@@ -2199,7 +2152,7 @@
 				type: "item"
 			}]
 			x: 22.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -2272,7 +2225,7 @@
 				}
 			]
 			x: 24.0d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4ECA8387C0B80330"]
@@ -2293,7 +2246,7 @@
 			}]
 			title: "Advanced Machinery"
 			x: 18.0d
-			y: 0.75d
+			y: 1.25d
 		}
 		{
 			dependencies: ["73BA97DCC05FA0ED"]
@@ -2315,7 +2268,6 @@
 		}
 		{
 			dependencies: ["73BA97DCC05FA0ED"]
-			description: ["&oadd silicon to recipe"]
 			id: "3F37BA2835F597F4"
 			tasks: [
 				{

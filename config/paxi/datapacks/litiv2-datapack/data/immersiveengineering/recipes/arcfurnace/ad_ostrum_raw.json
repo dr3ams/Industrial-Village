@@ -1,0 +1,13 @@
+{
+	"type":"immersiveengineering:arc_furnace",
+	"additives":[],
+	"energy":51200,
+	"input":
+		{
+		"item":"ad_astra:raw_ostrum"
+		},
+	"results":
+	[{
+		"item":"ad_astra:ostrum_ingot"
+	}],
+	"time":100}
