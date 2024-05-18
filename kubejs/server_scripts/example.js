@@ -66,6 +66,20 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'industrialforegoing:tinydryrubber'});
 	event.remove({output: 'industrialforegoing:latex_processing_unit'});
 	
+	event.remove({output: Item.of('capsule:capsule', '{color:16777215,overpowered:1,size:1,state:0}')});
+	
+	event.remove({output: 'skilltree:copper_ring'}); 
+	event.remove({output: 'skilltree:iron_ring'}); 
+	event.remove({output: 'skilltree:golden_ring'}); 
+	event.remove({output: 'skilltree:simple_necklace'}); 
+	event.remove({output: 'skilltree:traveler_necklace'}); 
+	event.remove({output: 'skilltree:fisherman_necklace'}); 
+	event.remove({output: 'skilltree:assassin_necklace'}); 
+	event.remove({output: 'skilltree:healer_necklace'}); 
+	event.remove({output: 'skilltree:scholar_necklace'}); 
+	event.remove({output: 'skilltree:arsonist_necklace'});
+
+
 
 	event.remove({output: 'waystones:waystone'})
 	event.remove({output: 'waystones:mossy_waystone'})
@@ -625,7 +639,7 @@ ServerEvents.recipes(event => {
     "ABC",
     "   "
 	], {
-	A: 'minecraft:slime_ball',
+	A: 'refinedstorage:silicon',
 	B: 'prettypipes:pipe',
 	C: 'minecraft:blue_dye'
 	})

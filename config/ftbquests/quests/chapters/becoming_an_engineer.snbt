@@ -913,12 +913,7 @@
 		}
 		{
 			dependencies: ["0000000000000330"]
-			description: [
-				"A few more Engineer's tools to supplement the Engineer's Hammer."
-				""
-				"Wire Cutters - These will allow you to craft wire out of plates and allow you to break all wire connections to a point by right clicking a block."
-				"Screwdriver - Allows you to invert the redstone control of a block."
-			]
+			description: ["These will allow you to craft wire out of plates and allow you to break all wire connections to a point by right clicking a block."]
 			id: "000000000000022F"
 			rewards: [{
 				id: "05A64140DF4B3806"
@@ -926,24 +921,17 @@
 				random_bonus: 3
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "0000000000000230"
-					item: {
-						Count: 1b
-						id: "immersiveengineering:wirecutter"
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "0000000000000230"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:wirecutter"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-				{
-					id: "0000000000000231"
-					item: "immersiveengineering:screwdriver"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			title: "Engineer's Tools"
 			x: -6.5d
 			y: -1.0d
@@ -1774,7 +1762,7 @@
 					type: "item"
 				}
 			]
-			shape: "octagon"
+			shape: "octagon_important"
 			size: 1.5d
 			subtitle: "&9Final goal of quest chapter completed!&r"
 			tasks: [
@@ -3189,7 +3177,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			shape: "gear"
+			shape: "gear_important"
 			size: 1.5d
 			tasks: [{
 				id: "7B74AB701F5E24BB"

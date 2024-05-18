@@ -1,6 +1,6 @@
 {
   "type": "ad_astra:compressing",
-  "cookingtime": 100,
+  "cookingtime": 50,
   "energy": 20,
   "ingredient": {
     "item": "immersiveengineering:ingot_steel"

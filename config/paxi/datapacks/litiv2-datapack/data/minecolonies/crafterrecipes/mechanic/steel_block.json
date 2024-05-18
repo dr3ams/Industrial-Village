@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "count": 9,
+      "item": "immersiveengineering:ingot_steel"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 1,
+  "result": "immersiveengineering:storage_steel"
+}

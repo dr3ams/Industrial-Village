@@ -1,0 +1,23 @@
+{
+  "type": "extendedcrafting:shaped_flux_crafter",
+  "powerRequired": 1000000,
+  "pattern": [
+    "bcb",
+    "cac",
+    "bcb"
+  ],
+  "key": {
+	"a": {
+      "item": "extendedcrafting:enhanced_ender_catalyst"
+    },
+    "b": {
+      "item": "gems:onyx"
+    },
+    "c": {
+      "item": "gems:ender_matter"
+    }
+  },
+  "result": {
+    "item": "gems:dragonyx_ingot"
+  }
+}

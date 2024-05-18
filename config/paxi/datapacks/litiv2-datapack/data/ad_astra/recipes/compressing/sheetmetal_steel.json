@@ -1,7 +1,7 @@
 {
   "type": "ad_astra:compressing",
-  "cookingtime": 200,
-  "energy": 30,
+  "cookingtime": 50,
+  "energy": 100,
   "ingredient": {
     "item": "immersiveengineering:plate_steel"
   },

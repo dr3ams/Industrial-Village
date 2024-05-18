@@ -8,11 +8,11 @@
     },
     {
 	  "type": "pneumaticcraft:stacked_item",
-      "count": 2,
-      "item": "immersiveengineering:plate_copper"
+      "count": 4,
+      "item": "pneumaticcraft:plastic"
     },
     {
-      "item": "minecraft:glass"
+      "item": "railcraft:light_gray_strengthened_glass"
     }
   ],
   "pressure": 1.0,

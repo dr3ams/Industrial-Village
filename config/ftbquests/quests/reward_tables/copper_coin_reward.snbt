@@ -137,7 +137,6 @@
 		}
 		{ count: 3, item: "supplementaries:sconce" }
 		{ item: "pneumaticcraft:bandage" }
-		{ item: "compactxpbottles:x4experiencebottle" }
 	]
 	title: "Copper coin reward"
 }

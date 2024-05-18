@@ -1,7 +1,7 @@
 {
   "type": "ad_astra:compressing",
-  "cookingtime": 100,
-  "energy": 20,
+  "cookingtime": 50,
+  "energy": 50,
   "ingredient": {
     "item": "minecraft:iron_ingot"
   },

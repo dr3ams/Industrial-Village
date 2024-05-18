@@ -89,7 +89,6 @@
 				}
 			}
 		}
-		{ item: "compactxpbottles:x16experiencebottle" }
 		{
 			item: {
 				Count: 1b

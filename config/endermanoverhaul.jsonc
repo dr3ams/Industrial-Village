@@ -8,7 +8,7 @@
     "spawnCrimsonForestEnderman": true,
     "spawnDarkOakEnderman": true,
     "spawnDesertEnderman": true,
-    "spawnEndEnderman": true,
+    "spawnEndEnderman": false,
     "spawnEndIslandsEnderman": true,
     "spawnFlowerFieldsEnderman": true,
     "spawnIceSpikesEnderman": true,

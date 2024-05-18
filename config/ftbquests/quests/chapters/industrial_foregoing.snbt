@@ -1022,7 +1022,7 @@
 				item: "kubejs:gold_coin"
 				type: "item"
 			}]
-			shape: "octagon"
+			shape: "octagon_important"
 			size: 1.5d
 			subtitle: "&9Final goal of Chapter 4 completed!&r"
 			tasks: [{

@@ -1,0 +1,32 @@
+{
+  "type": "extendedcrafting:shaped_flux_crafter",
+  "powerRequired": 1000000,
+  "pattern": [
+    "bab",
+    "dce",
+    "bfb"
+  ],
+  "key": {
+    "a": {
+      "item": "gems:ruby"
+    },
+    "b": {
+      "item": "gems:ender_bones"
+    },
+    "c": {
+      "item": "gems:ender_scales"
+    },
+    "d": {
+      "item": "gems:sapphire"
+    },
+    "e": {
+      "item": "gems:topaz"
+    },
+    "f": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "gems:ender_matter"
+  }
+}

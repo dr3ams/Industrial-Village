@@ -19,8 +19,8 @@
 			image: "pneumaticcraft:textures/gui/jei/thermometer.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 18.5d
-			y: -3.0d
+			x: 16.0d
+			y: -5.5d
 		}
 		{
 			height: 1.0d
@@ -142,7 +142,11 @@
 		}
 		{
 			dependencies: ["6FD45EF3A2B1B31F"]
-			description: ["Pressure Tubes are the primary device in Pneumatic Craft for transporting compressed air between compressors and machines. Unconnected tubes will leak air! However, the sides of a tube can be toggled open or shut by right-clicking with a Pneumatic Wrench. Wrenches from other mods may also work."]
+			description: [
+				"&9Pressure Tubes&r are the primary device in Pneumatic Craft for transporting compressed air between compressors and machines. "
+				""
+				"&nUnconnected tubes will leak air&r! However, the sides of a tube can be toggled open or shut by right-clicking with a Pneumatic Wrench. Wrenches from other mods may also work."
+			]
 			id: "4C788FBAAE9CF49C"
 			rewards: [{
 				count: 2
@@ -251,7 +255,7 @@
 		}
 		{
 			description: [
-				"To get started, you just need Iron Ingots, which you will convert into Compressed Iron Ingots, used in many recipes throughout the mod."
+				"To get started, you just need Iron Ingots, which you will convert into &5Compressed Iron Ingots&r, used in many recipes throughout the mod."
 				""
 				"&9&n                                                  &r&9               "
 				"In this chapter you will:"
@@ -331,7 +335,11 @@
 				"4C788FBAAE9CF49C"
 				"754A30B336A3E94C"
 			]
-			description: ["The Air Compressor is a simple generator which can produce compressed air. It will burn any solid fuel that a vanilla Furnace will accept, to produce a (This can be increased by installing Speed Upgrades)base 10mL air/tick. It will not accept Lava Buckets or indeed any bucket containing liquid fuels; use a Liquid Compressor for that."]
+			description: [
+				"The &9Air Compressor&r is a simple generator which can produce compressed air. "
+				""
+				"It will burn any solid fuel that a vanilla Furnace will accept, to produce a (This can be increased by installing Speed Upgrades)base 10mL air/tick. It will not accept &4Lava Buckets&r or indeed any bucket containing liquid fuels; use a Liquid Compressor for that."
+			]
 			id: "1EB00AC57E572D88"
 			rewards: [{
 				count: 16
@@ -425,20 +433,21 @@
 			description: [
 				"A Seismic Sensor is an early game item used to track down Oil. Unlike most tools, the sensor does not require pressure to operate. When right-clicked, it will show whether or not Oil was found somewhere directly below the block the sensor was clicked on."
 				""
-				"> Refinery"
+				"&n> &5Refinery&r&r"
 				"The Refinery is a multiblock machine which uses heat to refine Oil into various fuels. It starts to work at 100°C. The higher the temperature applied, the faster it refines. The fuels that can be produced are, sorted from lightest to heaviest: LPG (Liquefied Petroleum Gas), Gasoline, Kerosene, Diesel."
 				""
-				"Place down a Refinery Controller, then stack 2-4 Refinery Outputs on top of or beside the Controller.  Different multiblock sizes give different yields; given 10mB of oil as input:"
-				"- 2 Outputs: LPG (2mB), Diesel (4mB)"
-				"- 3 Outputs: LPG (2mB), Kerosene (3mB), Diesel (2mB)"
-				"- 4 Outputs: LPG (2mB), Gasoline (3mB), Kerosene (3mB), Diesel (2mB)"
+				"Place down a &5Refinery Controller&r, then stack 2-4 &5Refinery Outputs&r on top of or beside the Controller.  Different multiblock sizes give different yields; given 10mB of oil as input:"
+				"- 2 Outputs: &6LPG&r (2mB), &eDiesel&r (4mB)"
+				"- 3 Outputs: &6LPG&r (2mB), Kerosene (3mB), &eDiesel&r (2mB)"
+				"- 4 Outputs: &6LPG&r (2mB), Gasoline (3mB), Kerosene (3mB), &eDiesel&r (2mB)"
 				""
-				"The lightest fuel will always end up in the top Refinery Output, the heaviest in the bottom.  If you add more Refinery Outputs to an existing stack, the multiblock will do its best to automatically rearrange any existing output liquids into their correct block, to keep the system running."
+				"The lightest fuel will always end up in the top &5Refinery Output&r, the heaviest in the bottom.  If you add more Refinery Outputs to an existing stack, the multiblock will do its best to automatically rearrange any existing output liquids into their correct block, to keep the system running."
 				""
-				"All produced liquids can be used as fuel in a Liquid Compressor (with lighter fuels being of better quality). However, there are two other very important uses:"
-				"- LPG is used to make liquid Plastic"
-				"- Diesel is used to make Lubricant for Speed Upgrades."
-				"A Thermopneumatic Processing Plant is used for both of these processes."
+				"All produced liquids can be used as fuel in a &1Liquid Compressor&r (with lighter fuels being of better quality). However, there are two other very important uses:"
+				"- &6LPG&r is used to make liquid Plastic"
+				"- &eDiesel&r is used to make Lubricant for Speed Upgrades."
+				""
+				"A &5Thermopneumatic Processing Plant&r is used for both of these processes."
 			]
 			id: "3DB5BEED97CF4BA4"
 			rewards: [{
@@ -752,8 +761,8 @@
 				item: "pneumaticcraft:sentry_turret"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 1.0d
+			x: 17.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4ECA8387C0B80330"]
@@ -762,7 +771,7 @@
 				""
 				"The tablet GUI is smart enough to figure out what you can buy by looking at the bound inventory and/or tank. When you order resources(either items or fluids), a Drone will spawn to collect the resources you're paying with. Once collection is complete, a second Drone will arrive to deliver the purchased items. This is a way to get items you can't get otherwise, like the PCB Blueprint and Assembly Programs. It also adds some random Villager Trades; these trades are re-shuffled daily."
 				""
-				"> Player-Player Trading"
+				"&5> &nPlayer-Player Trading&r&r"
 				"By clicking the Custom Player Trade button (on the Custom Trades side tab) you can offer your own resources to be traded for other players' resources. In the trading GUI you can select an resource to sell on the left-hand side, and a resource you want to buy on the right-hand side. You can set the trade amounts with the text fields."
 			]
 			id: "2AC5A3F3AD6051DE"
@@ -783,8 +792,8 @@
 				item: "pneumaticcraft:amadron_tablet"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -1.5d
+			x: 14.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3598EC582CB9CFC1"]
@@ -1161,8 +1170,24 @@
 			]
 			subtitle: "&6Immersive Engineering Biodiesel will also work&r"
 			tasks: [{
-				id: "5E25045693B13DD4"
-				item: "pneumaticcraft:biodiesel_bucket"
+				id: "08D57EB5F0CDD324"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "pneumaticcraft:biodiesel_bucket"
+							}
+							{
+								Count: 1b
+								id: "immersiveengineering:biodiesel_bucket"
+							}
+						]
+					}
+				}
+				title: "Biodiesel"
 				type: "item"
 			}]
 			x: 13.5d
@@ -1196,8 +1221,9 @@
 				"13C67521F98B2F2D"
 				"0C4495B8F8420AC3"
 			]
+			dependency_requirement: "one_completed"
 			description: [
-				"Plastic is an important crafting component in Pneumatic Craft. Molten Plastic is made from LPG and Coal, or Biodiesel and Charcoal in the Thermopneumatic Processing Plant."
+				"Molten Plastic is made from &eLPG&r and &7Coal&r, &c&nOR&r&r Biodiesel and Charcoal in the &5Thermopneumatic Processing Plant.&r"
 				""
 				""
 				"Molten Plastic can be solidified simply by pouring it into the world; it will turn into a Plastic Sheet within half a second or so. This is very easily automated with a Liquid Hopper with a Dispenser Upgrade, and an Omnidirectional Hopper."
@@ -1532,7 +1558,7 @@
 				item: "pneumaticcraft:memory_stick"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 17.0d
 			y: -2.0d
 		}
 		{
@@ -1823,8 +1849,8 @@
 				title: "Heat"
 				type: "checkmark"
 			}]
-			x: 17.5d
-			y: -5.0d
+			x: 16.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["7C826C2EB9050012"]
@@ -1905,8 +1931,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: -4.0d
+			x: 16.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["58A5DC22FAD9BB2D"]
@@ -1922,8 +1948,8 @@
 				item: "pneumaticcraft:heat_frame"
 				type: "item"
 			}]
-			x: 17.0d
-			y: -4.0d
+			x: 15.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1FAF542FE665ED95"]
@@ -2182,8 +2208,8 @@
 				type: "checkmark"
 			}]
 			title: "Automated Plastic Solidifying"
-			x: 17.5d
-			y: -3.0d
+			x: 16.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["256BD2FFBE7EC950"]
@@ -2204,7 +2230,7 @@
 					xp: 250
 				}
 			]
-			shape: "gear"
+			shape: "gear_important"
 			size: 1.5d
 			subtitle: "&2Advanced Storage chapter unlocked&r"
 			tasks: [
@@ -2236,7 +2262,7 @@
 				item: "kubejs:iron_coin"
 				type: "item"
 			}]
-			shape: "gear"
+			shape: "gear_important"
 			size: 1.5d
 			subtitle: "&2Growing Industry chapter unlocked&r"
 			tasks: [{
@@ -2263,11 +2289,11 @@
 				item: "refinedstorage:quartz_enriched_iron"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 2.0d
+			x: 8.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["73BA97DCC05FA0ED"]
+			dependencies: ["4ECA8387C0B80330"]
 			id: "3F37BA2835F597F4"
 			tasks: [
 				{
@@ -2287,8 +2313,8 @@
 				}
 			]
 			title: "Pipes!"
-			x: 8.5d
-			y: 2.0d
+			x: 14.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4ECA8387C0B80330"]
@@ -2303,8 +2329,38 @@
 				item: "pneumaticcraft:jackhammer"
 				type: "item"
 			}]
-			x: 18.0d
-			y: -1.5d
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			description: ["&4"]
+			icon: "kubejs:caution"
+			id: "4A16DEB33B1EECE5"
+			shape: "circle"
+			size: 0.5d
+			subtitle: "&4to unlock this quest."
+			tasks: [{
+				id: "01CFF5CD486164E9"
+				type: "checkmark"
+			}]
+			title: "&4Only one completed required!"
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			description: ["&4"]
+			icon: "kubejs:caution"
+			id: "02EB334CD2AF8186"
+			shape: "circle"
+			size: 0.5d
+			subtitle: "&4to unlock this quest."
+			tasks: [{
+				id: "4B2D82DF3C615C2A"
+				type: "checkmark"
+			}]
+			title: "&4Only one completed required!"
+			x: 8.0d
+			y: 0.25d
 		}
 	]
 	title: "3. &cPneumatic Systems&r"

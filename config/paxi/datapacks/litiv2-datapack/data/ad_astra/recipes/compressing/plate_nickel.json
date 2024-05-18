@@ -1,0 +1,12 @@
+{
+  "type": "ad_astra:compressing",
+  "cookingtime": 50,
+  "energy": 50,
+  "ingredient": {
+    "item": "immersiveengineering:ingot_nickel"
+  },
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:plate_nickel"
+  }
+}

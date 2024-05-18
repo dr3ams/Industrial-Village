@@ -1,0 +1,30 @@
+{
+	icon: "skilltree:traveler_necklace"
+	id: "212692668D40BCF8"
+	loot_crate: {
+		color: 15971114
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Jewelry Crate"
+		string_id: "jewelry_crate"
+	}
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{ item: "skilltree:copper_ring" }
+		{ item: "skilltree:iron_ring" }
+		{ item: "skilltree:golden_ring" }
+		{ item: "skilltree:simple_necklace" }
+		{ item: "skilltree:traveler_necklace" }
+		{ item: "skilltree:fisherman_necklace" }
+		{ item: "skilltree:assassin_necklace" }
+		{ item: "skilltree:healer_necklace" }
+		{ item: "skilltree:scholar_necklace" }
+		{ item: "skilltree:arsonist_necklace" }
+	]
+	title: "Jewelry Crate"
+	use_title: true
+}

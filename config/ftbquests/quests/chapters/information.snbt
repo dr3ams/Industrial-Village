@@ -12,6 +12,7 @@
 			alpha: 200
 			height: 42.08695652173913d
 			image: "litv3:textures/misc/info.png"
+			order: -1
 			rotation: 0.0d
 			width: 22.0d
 			x: 5.0d
@@ -258,7 +259,7 @@
 				type: "checkmark"
 			}]
 			title: "Just Enough Items"
-			x: 5.0d
+			x: 9.0d
 			y: -3.0d
 		}
 		{
@@ -278,7 +279,7 @@
 				type: "checkmark"
 			}]
 			x: 5.0d
-			y: 1.0d
+			y: -3.0d
 		}
 		{
 			icon: "kubejs:skull"
@@ -295,13 +296,27 @@
 		}
 		{
 			description: [
-				"To get started, gather some experience to acquire your first skill point."
+				"&5&nPassive Skill Tree&r&r"
+				""
+				"To get started, gather some &aexperience&r to acquire your first skill point."
 				""
 				"Then press O (default key, if it doesn't work - check your key bindings)."
 				""
-				"Then select your class but choose carefully, you cannot change it."
+				"Then select your &5class&r but choose carefully, &nyou cannot change it.&r"
 				""
 				"You can path to other classes later if you think it is worth it."
+				""
+				"&4&nGems&r&r"
+				""
+				"You can find &4gems&r in any ore."
+				""
+				"Can be inserted into equipment on a &5smithing table.&r"
+				""
+				"To remove &4gems&r from equipment, you need to insert &9Vacucite&r gem into it. It will &nconsume all&r the gems."
+				""
+				"&9Vacucite&r have a smaller drop chance."
+				""
+				"Each &4gem&r provides different attribute bonuses, based on the type of equipment it is in."
 			]
 			icon: "kubejs:scaling"
 			id: "71D2F05B3D755273"
@@ -335,7 +350,7 @@
 				type: "checkmark"
 			}]
 			x: 5.0d
-			y: 3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0000000000000F88"]
@@ -952,6 +967,55 @@
 			title: "Collectibles"
 			x: -1.0d
 			y: -3.0d
+		}
+		{
+			description: [
+				"&oNote: this is applied only to Overworld dimension&r"
+				"{image:litv3:textures/misc/q-s-ores.png width:200 height:300 align:1}"
+			]
+			id: "415936A40FF173F7"
+			tasks: [{
+				id: "749EC2620CC0C443"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores"
+					}
+				}
+				title: "Any #forge:ores"
+				type: "item"
+			}]
+			title: "Ores and where to find them"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			description: ["&3Warped&r and &4crimson&r boats can be used on lava for safe travels around the lava lakes."]
+			id: "550FDDADD5B31119"
+			tasks: [{
+				id: "7BDBA50665448A0F"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "fireproofboats:warped_boat"
+							}
+							{
+								Count: 1b
+								id: "fireproofboats:crimson_boat"
+							}
+						]
+					}
+				}
+				title: "Fireproof boats"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 25.0d
 		}
 	]
 	title: "&l&fInformation&r&r"

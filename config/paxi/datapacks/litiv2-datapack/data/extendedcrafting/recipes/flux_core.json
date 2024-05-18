@@ -1,0 +1,25 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABABA",
+    "BCBCB",
+    "ABCBA",
+    "BCBCB",
+    "ABABA"
+  ],
+  "key": {
+    "A": {
+      "item": "fluxnetworks:flux_dust"
+    },
+    "B": {
+      "item": "minecraft:obsidian"
+    },
+    "C": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+	  "count": 4,
+    "item": "fluxnetworks:flux_core"
+  }
+}

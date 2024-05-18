@@ -1,0 +1,28 @@
+{"type":"minecraft:crafting_shaped","category":"misc",
+  "key": {
+    "A": {
+      "item": "minecraft:blue_dye"
+    },
+    "B": {
+      "item": "gems:sapphire"
+    },
+    "C": {
+      "item": "industrialforegoing:diamond_gear"
+    },
+    "D": {
+      "type": "forge:nbt",
+      "item": "immersiveengineering:graphite_electrode",
+      "count": 1,
+      "nbt": "{graphDmg:0}"
+    },
+    "E": {
+      "item": "minecraft:paper"
+    }
+  },
+	"pattern":[
+    "ABA",
+    "CDC",
+    "EEE"
+	],
+	"result":{"item":"immersiveengineering:blueprint","nbt":{"blueprint":"electrode"}},
+	"show_notification":true}

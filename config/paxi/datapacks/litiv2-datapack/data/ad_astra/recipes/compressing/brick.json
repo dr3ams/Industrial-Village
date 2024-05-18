@@ -1,7 +1,7 @@
 {
   "type": "ad_astra:compressing",
-  "cookingtime": 200,
-  "energy": 20,
+  "cookingtime": 20,
+  "energy": 10,
   "ingredient": {
     "item": "minecraft:clay_ball"
   },

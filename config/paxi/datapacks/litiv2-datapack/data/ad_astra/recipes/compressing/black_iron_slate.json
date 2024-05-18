@@ -1,6 +1,6 @@
 {
   "type": "ad_astra:compressing",
-  "cookingtime": 400,
+  "cookingtime": 200,
   "energy": 30,
   "ingredient": {
     "item": "extendedcrafting:black_iron_ingot"

@@ -469,10 +469,10 @@
 		{
 			can_repeat: true
 			disable_toast: true
-			id: "4C5CFF9B400CC5CA"
+			id: "72029F2DA090C4F4"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "4DD70F3DCDC36003"
+				id: "70A564CD037F1914"
 				table_id: 3101518903568742149L
 				type: "choice"
 			}]
@@ -480,21 +480,125 @@
 				consume_items: true
 				count: 64L
 				disable_toast: true
-				id: "5073187DBA2ED955"
+				id: "211372CDA8610E27"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "forge:logs"
+						value: "regions_unexplored:logs"
 					}
 				}
-				optional_task: true
-				title: "Any #forge:logs"
+				title: "Any #regions_unexplored:logs"
 				type: "item"
 			}]
 			title: "Exchange modded logs -> Regular logs"
 			x: -6.0d
 			y: 3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "compactxpbottles:x4experiencebottle"
+			id: "326CD8117C39A83E"
+			rewards: [{
+				id: "031805A00A7C2F1E"
+				item: "compactxpbottles:x4experiencebottle"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "6FFD1184F9435822"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			title: "Experience Bottle"
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "compactxpbottles:x16experiencebottle"
+			id: "72BE2452BD0715C2"
+			rewards: [{
+				id: "67FFC0F7C406063E"
+				item: "compactxpbottles:x16experiencebottle"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "59D1A8D5CC4B127E"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			title: "Experience Bottle"
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "compactxpbottles:x64experiencebottle"
+			id: "5277156E874B1653"
+			rewards: [{
+				id: "27B45F2D4342DBAB"
+				item: "compactxpbottles:x64experiencebottle"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "5EF841F42840D9CD"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "Experience Bottle"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "compactxpbottles:x256experiencebottle"
+			id: "2E3645091A1E921F"
+			rewards: [{
+				id: "3F31B0D8714ACF1A"
+				item: "compactxpbottles:x256experiencebottle"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "5850D9E457A9BA14"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			title: "Experience Bottle"
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "skilltree:amnesia_scroll"
+			id: "03ED494B84C6AB02"
+			rewards: [{
+				id: "6A8DE2412D581610"
+				item: "skilltree:amnesia_scroll"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "70CF626C40D73EEF"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			title: "Passive Skill Tree reset"
+			x: -4.0d
+			y: 5.0d
 		}
 	]
 	title: "&l&fCoins Exchange&r&r"

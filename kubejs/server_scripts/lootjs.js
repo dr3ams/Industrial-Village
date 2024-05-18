@@ -39,5 +39,9 @@ LootJS.modifiers(event => {
         .replaceLoot("minecraft:gold_ingot", LootEntry.of("minecraft:gold_nugget").limitCount([1, 10]))
         .replaceLoot("minecraft:iron_ingot", LootEntry.of("minecraft:iron_nugget").limitCount([1, 12]))
         .replaceLoot("minecraft:diamond", "minecraft:coal")
+		
+		.addLoot("skilltree:copper_ring")
+		.addLoot("skilltree:iron_ring")
+		.addLoot("skilltree:simple_necklace")
 
 })

@@ -1,6 +1,6 @@
 [*]
-background:          ftblibrary:textures/gui/background_squares.png; color=#DCFFFFFF; tile_size=128
-extra_quest_shapes:  diamond, pentagon, hexagon, octagon, heart, gear
+background:          ftblibrary:textures/gui/background_squares.png; color=#DCFFFFFF; tile_size=64
+extra_quest_shapes:  diamond, pentagon, hexagon, octagon, heart, gear, gear_important, hexagon_important, octagon_important, rsquare_important, square_important
 
 text_color:          #FFFFFF
 hover_text_color:    #FFFFA0

@@ -1,0 +1,20 @@
+{
+  "type": "extendedcrafting:shaped_flux_crafter",
+  "powerRequired": 1000000,
+  "pattern": [
+    "bbb",
+    "g g",
+    "bbb"
+  ],
+  "key": {
+    "b": {
+      "item": "fluxnetworks:flux_block"
+    },
+    "g": {
+      "tag": "forge:glass_panes"
+    }
+  },
+  "result": {
+    "item": "fluxnetworks:basic_flux_storage"
+  }
+}

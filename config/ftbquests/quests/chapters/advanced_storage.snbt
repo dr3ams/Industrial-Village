@@ -923,7 +923,7 @@
 					xp: 400
 				}
 			]
-			shape: "gear"
+			shape: "gear_important"
 			size: 1.5d
 			subtitle: "&2To the Moon chapter unlocked&r"
 			tasks: [{

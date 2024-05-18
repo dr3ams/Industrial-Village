@@ -1,0 +1,21 @@
+{
+  "type": "railcraft:crusher",
+  "ingredient": {
+    "item": "immersiveengineering:raw_aluminum"
+  },
+  "outputs": [
+    {
+      "probability": 1.0,
+      "result": {
+        "item": "immersiveengineering:dust_aluminum"
+      }
+    },
+	{
+      "probability": 0.3,
+      "result": {
+        "item": "immersiveengineering:dust_aluminum"
+      }
+    }
+  ],
+  "processTime": 200
+}

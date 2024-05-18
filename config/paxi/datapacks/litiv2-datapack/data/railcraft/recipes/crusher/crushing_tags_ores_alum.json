@@ -1,0 +1,16 @@
+{
+  "type": "railcraft:crusher",
+  "ingredient": {
+    "tag": "forge:ores/aluminum"
+  },
+  "outputs": [
+    {
+	"count": 2,
+      "probability": 1.0,
+      "result": {
+        "item": "immersiveengineering:dust_aluminum"
+      }
+    }
+  ],
+  "processTime": 200
+}

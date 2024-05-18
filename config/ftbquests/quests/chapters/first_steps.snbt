@@ -639,6 +639,7 @@
 					type: "item"
 				}
 			]
+			shape: "square_important"
 			size: 1.5d
 			subtitle: "Build, light and enter the Nether portal!"
 			tasks: [{
@@ -659,7 +660,7 @@
 				item: "minecraft:iron_block"
 				type: "item"
 			}]
-			shape: "gear"
+			shape: "gear_important"
 			size: 1.5d
 			subtitle: "Form the Coke Oven multiblock"
 			tasks: [

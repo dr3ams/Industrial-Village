@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_trapdoor"
+    },
+	"R": {
+      "item": "refinedstorage:range_upgrade"
+    },
+    "i": {
+      "tag": "forge:ingots/iron"
+    },
+    "o": {
+      "tag": "forge:ender_pearls"
+    }
+  },
+  "pattern": [
+    "III",
+    "RoR",
+    " i "
+  ],
+  "result": {
+    "item": "xnet:antenna_dish"
+  }
+}

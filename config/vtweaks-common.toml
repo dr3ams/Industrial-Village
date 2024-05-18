@@ -93,7 +93,7 @@
 	#Allows chicken feathers to be plucked w/ shears
 	enableFeatherPlucking = true
 	#When any Creeper (or entity with EntityType tag #forge:creepers) explodes, all blocks destroyed will plop back into place after a few seconds!
-	ungriefCreepers = true
+	ungriefCreepers = false
 
 	[entity.challengers]
 		#A data-driven way to make some special mobs with abilities, effects, specialized loot and more!

@@ -56,7 +56,6 @@
 			}
 		}
 		{ count: 64, item: "minecraft:glowstone" }
-		{ item: "compactxpbottles:x256experiencebottle" }
 		{ item: "gems:sapphire" }
 		{ item: "gems:ruby" }
 		{ item: "gems:topaz" }

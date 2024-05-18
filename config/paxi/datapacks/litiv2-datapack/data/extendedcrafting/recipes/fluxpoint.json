@@ -1,0 +1,20 @@
+{
+  "type": "extendedcrafting:shaped_flux_crafter",
+  "powerRequired": 1000000,
+  "pattern": [
+    " c ",
+    "cbc",
+    " c "
+  ],
+  "key": {
+    "c": {
+      "item": "fluxnetworks:flux_core"
+    },
+    "b": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "fluxnetworks:flux_point"
+  }
+}

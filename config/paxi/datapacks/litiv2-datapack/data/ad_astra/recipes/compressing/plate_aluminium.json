@@ -1,0 +1,12 @@
+{
+  "type": "ad_astra:compressing",
+  "cookingtime": 50,
+  "energy": 50,
+  "ingredient": {
+    "item": "immersiveengineering:ingot_aluminum"
+  },
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:plate_aluminum"
+  }
+}

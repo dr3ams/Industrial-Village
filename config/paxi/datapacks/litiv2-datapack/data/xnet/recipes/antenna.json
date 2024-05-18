@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+	"T": {
+      "item": "refinedstorage:wireless_transmitter"
+    },
+    "I": {
+      "item": "minecraft:iron_bars"
+    },
+    "i": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "pattern": [
+    "ITI",
+    "IiI",
+    " i "
+  ],
+  "result": {
+    "item": "xnet:antenna"
+  }
+}

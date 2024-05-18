@@ -445,7 +445,7 @@
 		}
 		{
 			dependencies: ["205D0674D8E55682"]
-			description: ["Enables players to create advanced machinery using high-tech and futuristic elements. "]
+			description: ["Enables players to create &4advanced&r machinery using high-tech and &3futuristic&r elements. "]
 			icon: "extendedcrafting:flux_crafter"
 			id: "37B19EFE9CEA550D"
 			rewards: [
@@ -716,6 +716,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon_important"
 			tasks: [{
 				id: "1981D5BFA6912749"
 				item: "advgenerators:power_capacitor_tier3"
@@ -743,6 +744,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon_important"
 			tasks: [{
 				id: "34D05942EBFA732E"
 				item: "advgenerators:turbine_tier5"

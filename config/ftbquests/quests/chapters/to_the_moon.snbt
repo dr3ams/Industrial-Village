@@ -177,7 +177,7 @@
 		{
 			id: "4BCB57292CFC2E75"
 			linked_quest: "37B19EFE9CEA550D"
-			shape: "gear"
+			shape: "gear_important"
 			size: 1.5d
 			x: 1.5d
 			y: 7.5d

@@ -216,7 +216,7 @@
 		{
 			id: "596DECD877D972CA"
 			linked_quest: "0AA12A4B058DBD57"
-			shape: "gear"
+			shape: "gear_important"
 			x: 8.0d
 			y: 3.5d
 		}
@@ -243,7 +243,7 @@
 				"&9&n                                                  &r&9               "
 			]
 			id: "13BDB1E18E02B0DC"
-			shape: "octagon"
+			shape: "octagon_important"
 			size: 1.5d
 			subtitle: "&9Marks the end of Chapter 6"
 			tasks: [{
@@ -281,7 +281,7 @@
 			]
 			icon: "immersiveengineering:arc_furnace"
 			id: "1C77714D1B19358C"
-			shape: "octagon"
+			shape: "octagon_important"
 			size: 1.5d
 			subtitle: "&9Marks the end of Chapter 2"
 			tasks: [{
@@ -308,7 +308,7 @@
 				"&9&n                                                  &r&9               "
 			]
 			id: "1AD0B0DF343D2B63"
-			shape: "octagon"
+			shape: "octagon_important"
 			size: 1.5d
 			subtitle: "&9Marks the end of Chapter 4"
 			tasks: [{
@@ -345,7 +345,7 @@
 				title: "1"
 				type: "command"
 			}]
-			shape: "octagon"
+			shape: "octagon_important"
 			size: 1.5d
 			subtitle: "&9Marks the end of Chapter 1"
 			tasks: [
@@ -379,7 +379,7 @@
 				"&9&n                                                  &r&9               "
 			]
 			id: "09232DA6E5C38BCC"
-			shape: "gear"
+			shape: "gear_important"
 			tasks: [{
 				id: "7F3E19E7512464E3"
 				item: "pneumaticcraft:ingot_iron_compressed"
@@ -402,7 +402,7 @@
 			]
 			icon: "immersiveengineering:windmill"
 			id: "1E62591C6F6B2026"
-			shape: "gear"
+			shape: "gear_important"
 			tasks: [
 				{
 					count: 27L
@@ -505,7 +505,7 @@
 				"&9&n                                                  &r&9               "
 			]
 			id: "0320C7A266333D96"
-			shape: "gear"
+			shape: "gear_important"
 			tasks: [
 				{
 					id: "4B0A2B17C029EA00"
@@ -561,7 +561,7 @@
 				"&oYou can setup basic Refined Storage storage right after this chapter(if you have available resources and energy production. But the end goal of Chapter 5 is to be able to access the items wirelessly(which will be available later) and have an autocrafter.&r"
 			]
 			id: "4F7A84F3D7495BF7"
-			shape: "octagon"
+			shape: "octagon_important"
 			size: 1.5d
 			subtitle: "&9Marks the end of Chapter 3"
 			tasks: [
@@ -810,7 +810,7 @@
 				"&9&n                                                  &r&9               "
 			]
 			id: "439905073E1F6EFD"
-			shape: "gear"
+			shape: "gear_important"
 			subtitle: "FE-powered timed crafting recipes and multi-block power generation"
 			tasks: [{
 				id: "69A4AC758DD98784"
@@ -850,7 +850,7 @@
 				"&9&n                                                  &r&9               "
 			]
 			id: "49250D827A91E3CE"
-			shape: "octagon"
+			shape: "octagon_important"
 			size: 1.5d
 			subtitle: "&9Marks the end of Chapter 7"
 			tasks: [
@@ -931,21 +931,6 @@
 			title: "&bAdvanced Mixed Metal Alloy&r"
 			x: 21.0d
 			y: 3.5d
-		}
-		{
-			id: "541E84EC7766D33D"
-			rewards: [{
-				command: "/give immersiveengineering:blueprint"
-				id: "7813FCD32F4B409B"
-				tags: ["electrode"]
-				type: "command"
-			}]
-			tasks: [{
-				id: "4943EEDBC1224D22"
-				type: "checkmark"
-			}]
-			x: 5.0d
-			y: 11.5d
 		}
 	]
 	subtitle: ["Overview"]

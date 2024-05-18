@@ -1,0 +1,23 @@
+{
+  "type": "extendedcrafting:shaped_flux_crafter",
+  "powerRequired": 100000000,
+  "pattern": [
+    "bbb",
+    "gcg",
+    "bbb"
+  ],
+  "key": {
+    "b": {
+      "item": "fluxnetworks:herculean_flux_storage"
+    },
+    "g": {
+      "tag": "forge:glass_panes"
+    },
+    "c": {
+      "item": "extendedcrafting:ultimate_component"
+    }
+  },
+  "result": {
+    "item": "fluxnetworks:gargantuan_flux_storage"
+  }
+}

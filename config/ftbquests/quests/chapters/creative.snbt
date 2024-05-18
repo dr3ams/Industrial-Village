@@ -396,17 +396,25 @@
 				}
 			}
 			id: "65B62B586A87A2D4"
-			rewards: [{
-				id: "5552C6990A487AFD"
-				item: {
-					Count: 1b
-					id: "constructionwand:infinity_wand"
-					tag: {
-						wand_options: { }
+			rewards: [
+				{
+					id: "5552C6990A487AFD"
+					item: {
+						Count: 1b
+						id: "constructionwand:infinity_wand"
+						tag: {
+							wand_options: { }
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "055951D8F90B5CF9"
+					item: "gems:dragonyx_upgrade_smithing_template"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "52470EB7832732A7"
@@ -421,7 +429,7 @@
 					type: "fluid"
 				}
 			]
-			title: "Infinity Wand"
+			title: "Dragonyx Template"
 			x: 1.0d
 			y: 6.5d
 		}
