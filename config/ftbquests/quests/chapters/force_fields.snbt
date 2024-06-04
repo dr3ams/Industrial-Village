@@ -129,11 +129,18 @@
 			dependencies: ["69428EB806A0CC3D"]
 			hide_dependency_lines: true
 			id: "42005C31401A099A"
-			rewards: [{
-				id: "192BCCD1507274BD"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "192BCCD1507274BD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6A7E8F2AC44BBE48"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			subtitle: "Energy storage and management device"
 			tasks: [{
@@ -149,11 +156,18 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "623C845AAD43B7E2"
-			rewards: [{
-				id: "7A0F820CC80C6BBA"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "7A0F820CC80C6BBA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7F70226FB5389A73"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			size: 2.0d
 			subtitle: "Uses Fortron energy to project force fields of various shapes and sizes into the world"
 			tasks: [{
@@ -168,11 +182,18 @@
 			dependencies: ["42005C31401A099A"]
 			hide_dependency_lines: true
 			id: "3E228833CC8C6241"
-			rewards: [{
-				id: "4EDC350DD93A7A0A"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "4EDC350DD93A7A0A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "437D80A7AF6C058F"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			subtitle: "Used to generate Fortron from FE energy"
 			tasks: [{
 				id: "7C343A8B8F761BDA"
@@ -187,11 +208,18 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "1CE76EC960494821"
-			rewards: [{
-				id: "0C2F553847320C8E"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "0C2F553847320C8E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "654C25DE3697475A"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			subtitle: "Imposes restrictions on players or entities present in the space around it"
 			tasks: [{
 				id: "2AD0BA253B0A69D2"

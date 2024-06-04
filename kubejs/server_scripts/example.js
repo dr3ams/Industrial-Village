@@ -66,7 +66,7 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'industrialforegoing:tinydryrubber'});
 	event.remove({output: 'industrialforegoing:latex_processing_unit'});
 	
-	event.remove({output: Item.of('capsule:capsule', '{color:16777215,overpowered:1,size:1,state:0}')});
+	//event.remove({output: Item.of('capsule:capsule', '{color:16777215,overpowered:1,size:1,state:0}')});
 	
 	event.remove({output: 'skilltree:copper_ring'}); 
 	event.remove({output: 'skilltree:iron_ring'}); 

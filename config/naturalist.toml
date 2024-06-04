@@ -82,13 +82,13 @@
 	dragonflySpawnWeight = 1
 	#Catfish Spawn Weight
 	#Range: 0 ~ 1000
-	catfishSpawnWeight = 8
+	catfishSpawnWeight = 0
 	#Alligator Spawn Weight
 	#Range: 0 ~ 1000
 	alligatorSpawnWeight = 15
 	#Bass Spawn Weight
 	#Range: 0 ~ 1000
-	bassSpawnWeight = 8
+	bassSpawnWeight = 0
 	#Lizard Spawn Weight
 	#Range: 0 ~ 1000
 	lizardSpawnWeight = 15

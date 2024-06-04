@@ -1,11 +1,11 @@
 {
   "invulTime": {
-    "desc:": "Time in ticks the logging player is invulnerable, 20 ticks is 1sec. Default is 50secs so 1000 ticks",
+    "desc:": "Maximum time in ticks the logging player is invulnerable, 20 ticks is 1sec. Default is 50secs so 1000 ticks",
     "invulTime": 1000
   },
-  "maxDist": {
-    "desc:": "Max distance in blocks(2d) the invulnerability lasts, default: 4",
-    "maxDist": 4
+  "ignoreFallDamage": {
+    "desc:": "Allows fall-damage to bypass the protection, default: true",
+    "ignoreFallDamage": true
   },
   "debugOutput": {
     "desc:": "Whether to enable debug log outputs, default: false",

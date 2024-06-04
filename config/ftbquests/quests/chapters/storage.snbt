@@ -122,6 +122,11 @@
 					item: "kubejs:emerald_nugget"
 					type: "item"
 				}
+				{
+					id: "1E14BB469ECF4D3C"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "378EF9C1BF3E8B09"
@@ -162,11 +167,6 @@
 					type: "item"
 				}
 				{
-					id: "58F8AF89D3613FC6"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
 					id: "7AB85208CB71FF70"
 					type: "xp"
 					xp: 100
@@ -199,6 +199,11 @@
 					id: "4435593D6B57A89C"
 					item: "kubejs:emerald_nugget"
 					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "2B0A379D97DC5129"
+					item: "kubejs:copper_coin"
 					type: "item"
 				}
 			]
@@ -354,6 +359,11 @@
 					id: "2603DE7A791FF866"
 					item: "kubejs:emerald_nugget"
 					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "2BC7357C0786D992"
+					item: "kubejs:copper_coin"
 					type: "item"
 				}
 			]
@@ -740,11 +750,18 @@
 		{
 			dependencies: ["486014CD2A837708"]
 			id: "5B153368B6883C4D"
-			rewards: [{
-				id: "3FDFBB6121BC30B3"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "3FDFBB6121BC30B3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3E74B25533E7DCCC"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5EE33855D53CEEC8"
 				item: "sophisticatedbackpacks:pickup_upgrade"
@@ -756,11 +773,18 @@
 		{
 			dependencies: ["486014CD2A837708"]
 			id: "286E7C1F491E7A81"
-			rewards: [{
-				id: "0DE6B3DF6F2F4771"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "0DE6B3DF6F2F4771"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5BE2124EDD293B4C"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "427A43DB65029337"
 				item: "sophisticatedbackpacks:filter_upgrade"
@@ -772,11 +796,18 @@
 		{
 			dependencies: ["486014CD2A837708"]
 			id: "65CCAFACE018F0A4"
-			rewards: [{
-				id: "48A9D56A754DD7A4"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "48A9D56A754DD7A4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "30D39973E56B87E4"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4E7EF15E8E51AE5F"
 				item: "sophisticatedbackpacks:magnet_upgrade"
@@ -788,11 +819,18 @@
 		{
 			dependencies: ["486014CD2A837708"]
 			id: "5372153B6F543748"
-			rewards: [{
-				id: "22B9209A9EF7010F"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "22B9209A9EF7010F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "06B4991DEF62D822"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "24B41A9022733527"
 				item: "sophisticatedbackpacks:void_upgrade"
@@ -804,11 +842,18 @@
 		{
 			dependencies: ["486014CD2A837708"]
 			id: "6919420BBE48B7DE"
-			rewards: [{
-				id: "268535E463ACD2B3"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "268535E463ACD2B3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4B4DD7B3D1BA29F7"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3F11617B3D323A81"
 				item: "sophisticatedbackpacks:restock_upgrade"
@@ -820,11 +865,18 @@
 		{
 			dependencies: ["486014CD2A837708"]
 			id: "23115F25C8A03135"
-			rewards: [{
-				id: "54D3ABF0BA44B0C6"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "54D3ABF0BA44B0C6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6A486260D2699332"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3E652B1CA92F8FD1"
 				item: "sophisticatedbackpacks:deposit_upgrade"
@@ -836,11 +888,18 @@
 		{
 			dependencies: ["486014CD2A837708"]
 			id: "60A1705A9F48DA5E"
-			rewards: [{
-				id: "4B5C4603DA82D9F1"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "4B5C4603DA82D9F1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "35993493FA368B83"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "757D99AC89E7A800"
 				item: "sophisticatedbackpacks:refill_upgrade"

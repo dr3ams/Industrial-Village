@@ -700,8 +700,8 @@
 			description: ["A wireless version of the fluid grid to access your network on the move. Must be charged to work and must be within range of a wireless transmitter."]
 			id: "00000000000002BD"
 			rewards: [{
-				id: "1F52A5F023C7FEC3"
-				item: "kubejs:iron_coin"
+				id: "460620291A39FCAB"
+				item: "kubejs:gold_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -717,8 +717,8 @@
 			description: ["A wireless version of the crafting grid to craft on the move. Must be charged to work and be within range of a wireless transmitter."]
 			id: "00000000000002BF"
 			rewards: [{
-				id: "121CA8C1821FE6A6"
-				item: "kubejs:iron_coin"
+				id: "2A51231FE8FABABA"
+				item: "kubejs:gold_coin"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -736,7 +736,7 @@
 			id: "00000000000002C1"
 			rewards: [{
 				id: "650D1D34F47041CC"
-				item: "kubejs:iron_coin"
+				item: "kubejs:gold_coin"
 				type: "item"
 			}]
 			shape: "octagon"

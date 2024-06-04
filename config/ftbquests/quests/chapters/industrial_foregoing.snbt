@@ -744,6 +744,12 @@
 			dependencies: ["78C375FC212E4B95"]
 			description: ["The Material StoneWork Factory can process a item through multiple levels of a process in a single block."]
 			id: "00000000000011F9"
+			rewards: [{
+				id: "0C05179594382A10"
+				item: "kubejs:copper_coin"
+				random_bonus: 5
+				type: "item"
+			}]
 			tasks: [{
 				id: "00000000000011FA"
 				item: "industrialforegoing:material_stonework_factory"
@@ -875,8 +881,17 @@
 				}
 			}
 			id: "79AA2E031EFF01F4"
+			rewards: [{
+				id: "7FC8B5BA1FCB1017"
+				type: "xp"
+				xp: 5
+			}]
 			shape: "diamond"
 			size: 1.5d
+			tasks: [{
+				id: "6A962741D320A838"
+				type: "checkmark"
+			}]
 			title: "Mob Griders"
 			x: 11.5d
 			y: 11.0d
@@ -885,6 +900,12 @@
 			dependencies: ["78C375FC212E4B95"]
 			description: ["The resourceful furnace is unique in that it will convert the experience gained from smelting normal items into essence that can be used by other machines."]
 			id: "29F24ECC6531794C"
+			rewards: [{
+				id: "2B00E87908F66D32"
+				item: "kubejs:copper_coin"
+				random_bonus: 5
+				type: "item"
+			}]
 			tasks: [{
 				id: "04A9AAF5C3032AD8"
 				item: "industrialforegoing:resourceful_furnace"
@@ -1037,6 +1058,11 @@
 			dependencies: ["2A0DE1330FF6504F"]
 			icon: "industrialforegoing:biofuel_bucket"
 			id: "1DF036ED17B4AC91"
+			rewards: [{
+				id: "52264BC41B6ADACB"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "79ED2B6400617DEF"
@@ -1055,6 +1081,11 @@
 		{
 			dependencies: ["0000000000000616"]
 			id: "2A0DE1330FF6504F"
+			rewards: [{
+				id: "09190D0176B9E063"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2256F5E248376C16"
 				item: "industrialforegoing:bioreactor"

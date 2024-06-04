@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 6,
+      "item": "minecraft:gold_ingot"
+    },
+	{
+      "item": "kubejs:necklace_template"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 1,
+  "result": "gems:golden_necklace",
+  "show-tooltip": true
+}

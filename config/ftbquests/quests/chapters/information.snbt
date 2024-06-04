@@ -199,7 +199,7 @@
 				id: "0000000000000118"
 				type: "dimension"
 			}]
-			title: "Hello There!"
+			title: "&9Check the Quest book for more info!&r"
 			x: 5.0d
 			y: -1.0d
 		}
@@ -307,13 +307,16 @@
 				"You can path to other classes later if you think it is worth it."
 				""
 				"&4&nGems&r&r"
-				""
+				"{image:skilltree:item/gems/citrine_4 width:10 height:10 align:1}"
 				"You can find &4gems&r in any ore."
 				""
-				"Can be inserted into equipment on a &5smithing table.&r"
+				"Can be inserted into equipment(armor, weapons) on a &5smithing table.&r"
+				""
+				"{image:litv3:textures/misc/sockets.png width:90 height:40 align:1}"
 				""
 				"To remove &4gems&r from equipment, you need to insert &9Vacucite&r gem into it. It will &nconsume all&r the gems."
 				""
+				"{image:skilltree:item/gems/vacucite_3 width:10 height:10 align:1}"
 				"&9Vacucite&r have a smaller drop chance."
 				""
 				"Each &4gem&r provides different attribute bonuses, based on the type of equipment it is in."

@@ -635,11 +635,18 @@
 		{
 			dependencies: ["61982D9CF281C3A7"]
 			id: "52C87F805A9DE239"
-			rewards: [{
-				id: "45403E91BA60B13F"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					id: "45403E91BA60B13F"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "37839DB2B1B9D737"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2F866E50B57106AE"
 				item: "ad_astra:ostrum_plate"
@@ -651,11 +658,18 @@
 		{
 			dependencies: ["7F417DC9F7D83CEC"]
 			id: "205D0674D8E55682"
-			rewards: [{
-				id: "092829D2F6A036D2"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "092829D2F6A036D2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4318C5DC8101E190"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7A494CE52696A747"
 				item: "ad_astra:calorite_plate"

@@ -8,6 +8,9 @@ StartupEvents.registry('item', event => {
 	// Register new items here
 	// e.create('example_item').displayName('Example Item')
 	
+event.create('ring_template').displayName('Ring Template').tooltip('Provided to Blacksmith to craft Golden Ring')	
+event.create('necklace_template').displayName('Necklace Template').tooltip('Provided to Blacksmith to craft Golden Necklace')
+	
 event.create('copper_coin').displayName('Copper Coin').tooltip('Acquired through quests').rarity('Uncommon')
 event.create('iron_coin').displayName('Iron Coin').tooltip('Acquired through quests').rarity('Uncommon')
 event.create('gold_coin').displayName('Gold Coin').tooltip('Acquired through quests').rarity('Rare')

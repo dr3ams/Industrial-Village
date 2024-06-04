@@ -196,7 +196,13 @@
 	  "immersiveengineering:uranium",
 	  "railcraft:sulfur_ore_lower",
 	  "railcraft:tin_ore_large",
-	  "railcraft:zinc_ore"
+	  "railcraft:zinc_ore",
+      "mining:corpse_flower",
+      "mining:dusktrap",
+      "mining:dropleaf",
+      "mining:blue_bioshroom",
+      "mining:green_bioshroom",
+      "mining:pink_bioshroom"
     ]
   ]
 }

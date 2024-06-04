@@ -25,7 +25,7 @@
 	#Range: 0 ~ 4
 	"Default Chestplates Sockets" = 2
 	#Range: 0 ~ 4
-	"Default Leggings Sockets" = 1
+	"Default Leggings Sockets" = 0
 	#Range: 0 ~ 4
 	"Default Boots Sockets" = 1
 	#Range: 0 ~ 4

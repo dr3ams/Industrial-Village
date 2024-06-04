@@ -1,1 +1,5 @@
-{"type":"immersiveengineering:arc_furnace","additives":[{"item":"immersiveengineering:mold_gear"}],"energy":204800,"input":{"base_ingredient":{"item":"minecraft:diamond"},"count":4},"results":[{"item":"industrialforegoing:diamond_gear"}],"time":400}
+{"type":"immersiveengineering:arc_furnace","additives":[{"item":"immersiveengineering:mold_gear"}],"energy":204800,"input":{"base_ingredient":{"item":"minecraft:diamond"},"count":4},"results":[{"item":"industrialforegoing:diamond_gear"}],
+		"slag":
+		{
+		"item":"immersiveengineering:mold_gear"
+		},"time":400}

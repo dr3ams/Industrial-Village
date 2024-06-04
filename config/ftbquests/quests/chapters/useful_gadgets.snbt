@@ -1010,6 +1010,16 @@
 			x: 8.5d
 			y: -2.5d
 		}
+		{
+			id: "59711E6C58C9CD71"
+			tasks: [{
+				id: "61A99838C5A7FCE4"
+				item: "quark:chute"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
 	]
 	title: "&2Useful Gadgets&r"
 }

@@ -1,0 +1,19 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "item": "gems:topaz_ring"
+    },
+    {
+      "item": "gems:sapphire_ring"
+    },
+    {
+      "item": "gems:ruby_ring"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 4,
+  "result": "gems:gem_ring",
+  "show-tooltip": true
+}

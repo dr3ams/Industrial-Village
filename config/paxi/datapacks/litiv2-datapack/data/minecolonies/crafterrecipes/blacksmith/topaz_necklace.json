@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "item": "gems:golden_necklace"
+    },
+    {
+      "item": "gems:topaz"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 2,
+  "result": "gems:topaz_necklace",
+  "show-tooltip": true
+}

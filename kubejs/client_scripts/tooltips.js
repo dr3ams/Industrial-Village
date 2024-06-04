@@ -1,6 +1,9 @@
 ItemEvents.tooltip(event =>{
 
 	event.add(['railcraft:steel_ingot'], 'This Steel Ingot is fake and has no real uses, trust me.')
+	
+	event.add(['gems:ruby_upgrade_smithing_template', 'gems:sapphire_upgrade_smithing_template', 'gems:topaz_upgrade_smithing_template'], 'Can be found in Ancient Cities chests')
+	event.add(['gems:dragonyx_upgrade_smithing_template'], 'Can be found in End Cities chests')
 
    event.addAdvanced('#forge:pebbles', (item, advanced, text) => {
     if (!event.isShift()) {

@@ -13,7 +13,7 @@
     },
     "yScale": 2,
     "lava_level": {
-      "above_bottom": 3
+      "absolute": -40
     },
     "replaceable": "#minecraft:overworld_carver_replaceables",
     "debug_settings": {

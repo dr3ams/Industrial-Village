@@ -609,11 +609,18 @@
 				"- Organise the priorities of your network"
 			]
 			id: "13ED1E9FF77DA0D3"
-			rewards: [{
-				id: "01C1E8270491F843"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "01C1E8270491F843"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2B4FC5570FF5C75D"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			subtitle: "&3Wireless Energy Networks&r"
 			tasks: [{
 				id: "59DF9995751FB210"
@@ -626,11 +633,18 @@
 		{
 			dependencies: ["13ED1E9FF77DA0D3"]
 			id: "298A1C31846FF258"
-			rewards: [{
-				id: "78923E1DDAC613D6"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "78923E1DDAC613D6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "339DDC034C29BAD5"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0B7A6B95FEADB120"
 				item: "fluxnetworks:flux_point"
@@ -642,11 +656,19 @@
 		{
 			dependencies: ["13ED1E9FF77DA0D3"]
 			id: "36E4B9BAD0111604"
-			rewards: [{
-				id: "43F6CD940F5FC21C"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "43F6CD940F5FC21C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "31C419049BC0CD38"
+					item: "kubejs:iron_coin"
+					random_bonus: 5
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0E68921EF43B0E96"
 				item: "fluxnetworks:basic_flux_storage"
@@ -659,8 +681,9 @@
 			dependencies: ["36E4B9BAD0111604"]
 			id: "7F2D73D5EBD5CE6E"
 			rewards: [{
-				id: "1FF1286BEABBCB95"
-				item: "kubejs:iron_coin"
+				id: "47BF0B94F4064FF5"
+				item: "kubejs:gold_coin"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -676,11 +699,6 @@
 			id: "2F47BC34E0EF02C3"
 			rewards: [
 				{
-					id: "5423BEC2135E665D"
-					item: "kubejs:gold_coin"
-					type: "item"
-				}
-				{
 					id: "563A488CE3CE1A0B"
 					item: {
 						Count: 1b
@@ -689,6 +707,11 @@
 							type: "epic_loot_crate"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "50FD4B6ACCEBBC7E"
+					item: "kubejs:diamond_coin"
 					type: "item"
 				}
 			]

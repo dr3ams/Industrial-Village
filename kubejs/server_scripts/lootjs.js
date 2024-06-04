@@ -39,9 +39,24 @@ LootJS.modifiers(event => {
         .replaceLoot("minecraft:gold_ingot", LootEntry.of("minecraft:gold_nugget").limitCount([1, 10]))
         .replaceLoot("minecraft:iron_ingot", LootEntry.of("minecraft:iron_nugget").limitCount([1, 12]))
         .replaceLoot("minecraft:diamond", "minecraft:coal")
-		
-		.addLoot("skilltree:copper_ring")
-		.addLoot("skilltree:iron_ring")
-		.addLoot("skilltree:simple_necklace")
+
 
 })
+
+LootJS.modifiers((event) => {
+    event.addLootTableModifier("minecraft:chests/nether_bridge")
+	.addLoot("skilltree:copper_ring").randomChance(0.1)
+	.addLoot("skilltree:iron_ring").randomChance(0.1)
+	.addLoot("skilltree:simple_necklace").randomChance(0.1)
+	
+	event.addLootTableModifier("minecraft:chests/bastion_treasure")
+	.addLoot("skilltree:copper_ring").randomChance(0.3)
+	.addLoot("skilltree:iron_ring").randomChance(0.3)
+	.addLoot("skilltree:simple_necklace").randomChance(0.3)
+		
+	event.addLootTableModifier("minecraft:archaeology/desert_pyramid")
+	.addLoot("skilltree:copper_ring").randomChance(0.3)
+	.addLoot("skilltree:iron_ring").randomChance(0.3)
+	.addLoot("skilltree:simple_necklace").randomChance(0.3)
+
+});

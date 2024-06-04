@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:gold_ingot"
+    },
+	"b": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    " a "
+  ],
+  "result": {
+    "item": "kubejs:necklace_template"
+  },
+  "show_notification": true
+}
