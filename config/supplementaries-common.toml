@@ -8,7 +8,7 @@
 	gold_door = true
 	gold_trapdoor = true
 	lock_block = true
-	relayer = true
+	relayer = false
 
 	[redstone.crystal_display]
 		enabled = true
