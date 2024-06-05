@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCS",
+    "CCS",
+    "CCS"
+  ],
+  "key": {
+    "S": [
+      {
+        "item": "immersiveengineering:stick_treated"
+      }
+    ],
+    "C": [
+      {
+        "item": "immersiveengineering:hemp_fabric"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:sail"
+  }
+}

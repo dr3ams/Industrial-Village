@@ -179,7 +179,7 @@
 				{
 					count: 2L
 					id: "7C011379C64AC81C"
-					item: { Count: 2b, id: "advgenerators:fluid_input" }
+					item: { Count: 2, id: "advgenerators:fluid_input" }
 					type: "item"
 				}
 				{
@@ -411,7 +411,7 @@
 				{
 					id: "3E563025180C2403"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "epic_loot_crate"
@@ -457,7 +457,7 @@
 				{
 					id: "772D75B466DEC0F3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "epic_loot_crate"
@@ -545,7 +545,7 @@
 				{
 					id: "52E2DC0612D0840E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "epic_loot_crate"
@@ -701,7 +701,7 @@
 				{
 					id: "563A488CE3CE1A0B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "epic_loot_crate"

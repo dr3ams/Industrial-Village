@@ -4,7 +4,7 @@
 	filename: "meet_your_fight"
 	group: "42BDFAE1D8AA1BD0"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "minecraft:iron_sword"
 		tag: {
 			Damage: 0
@@ -917,7 +917,7 @@
 			tasks: [{
 				entity: "minecraft:vindicator"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:iron_axe"
 					tag: {
 						Damage: 0
@@ -949,7 +949,7 @@
 			tasks: [{
 				entity: "minecraft:vindicator"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:iron_axe"
 					tag: {
 						Damage: 0
@@ -974,7 +974,7 @@
 			tasks: [{
 				entity: "minecraft:vindicator"
 				icon: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1010,7 +1010,7 @@
 			tasks: [{
 				entity: "minecraft:pillager"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:crossbow"
 					tag: {
 						Damage: 0
@@ -1338,7 +1338,7 @@
 			rewards: [{
 				id: "77A4DEED1E7775BB"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1434,7 +1434,7 @@
 		}
 		{
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:trident"
 				tag: {
 					Damage: 0
@@ -1533,7 +1533,7 @@
 				{
 					id: "483BBCFB7167EA22"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -1566,7 +1566,7 @@
 				{
 					id: "4B2858A89C35A31B"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -1599,7 +1599,7 @@
 				{
 					id: "118757F64C40D74F"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -1633,7 +1633,7 @@
 				{
 					id: "24BF6E79258BE844"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -1666,7 +1666,7 @@
 			rewards: [{
 				id: "0D0E1D3BEBDF95AC"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1693,7 +1693,7 @@
 			rewards: [{
 				id: "6C8B83DAC5286354"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1715,7 +1715,7 @@
 		{
 			dependencies: ["32E4964F2AAA4E25"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:trident"
 				tag: {
 					Damage: 0
@@ -1727,7 +1727,7 @@
 				{
 					id: "5EF4BC22D6DAC3DB"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -1761,7 +1761,7 @@
 				{
 					id: "44F4EA37D0837D5F"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -1795,7 +1795,7 @@
 				{
 					id: "7B7BA170F5103A9D"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -1828,7 +1828,7 @@
 			rewards: [{
 				id: "7BC474E47358CB3E"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1856,7 +1856,7 @@
 			rewards: [{
 				id: "373607B19C58BA22"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1882,7 +1882,7 @@
 			rewards: [{
 				id: "6F86B26E34FF4548"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1909,7 +1909,7 @@
 			rewards: [{
 				id: "35B877360B97D6D0"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1935,7 +1935,7 @@
 			rewards: [{
 				id: "56338ED0D36A5078"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1962,7 +1962,7 @@
 			rewards: [{
 				id: "594952BE2D90F466"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1989,7 +1989,7 @@
 			rewards: [{
 				id: "49BF4FC6C3611AB8"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "TCT",
+        "DLD",
+        "GLG"
+    ],
+    "key": {
+        "T": { "item": "minecraft:torch" },
+        "D": { "item": "minecraft:diamond" },
+        "G": { "tag": "forge:storage_blocks/gold" },
+        "L": { "tag": "minecraft:logs" },
+		"C": { "item": "pneumaticcraft:spawner_core" }
+    },
+    "result": {
+        "item": "torchmaster:megatorch"
+    }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CNC",
+    "NEN",
+    "RRR"
+  ],
+  "key": {
+    "C": [
+      {
+        "item": "industrialforegoing:laser_lens13"
+      }
+    ],
+    "R": [
+      {
+        "item": "kubejs:plate_compressed_iron"
+      }
+    ],
+    "N": [
+      {
+        "item": "industrialforegoing:gold_gear"
+      }
+    ],
+    "E": [
+      {
+        "item": "immersive_aircraft:engine"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:eco_engine"
+  }
+}

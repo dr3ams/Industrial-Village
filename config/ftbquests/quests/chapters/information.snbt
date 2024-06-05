@@ -305,24 +305,14 @@
 				"Then select your &5class&r but choose carefully, &nyou cannot change it.&r"
 				""
 				"You can path to other classes later if you think it is worth it."
-				""
-				"&4&nGems&r&r"
-				"{image:skilltree:item/gems/citrine_4 width:10 height:10 align:1}"
-				"You can find &4gems&r in any ore."
-				""
-				"Can be inserted into equipment(armor, weapons) on a &5smithing table.&r"
-				""
-				"{image:litv3:textures/misc/sockets.png width:90 height:40 align:1}"
-				""
-				"To remove &4gems&r from equipment, you need to insert &9Vacucite&r gem into it. It will &nconsume all&r the gems."
-				""
-				"{image:skilltree:item/gems/vacucite_3 width:10 height:10 align:1}"
-				"&9Vacucite&r have a smaller drop chance."
-				""
-				"Each &4gem&r provides different attribute bonuses, based on the type of equipment it is in."
 			]
 			icon: "kubejs:scaling"
 			id: "71D2F05B3D755273"
+			rewards: [{
+				id: "6338538686736B8E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "35A7831C8FB147A3"
 				title: "Passive Skill Tree"
@@ -409,7 +399,7 @@
 		}
 		{
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "railcraft:steam_locomotive"
 				tag: { }
 			}
@@ -418,7 +408,7 @@
 				{
 					id: "3AD8E71C552A7506"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "railcraft:steam_locomotive"
 						tag: { }
 					}
@@ -427,7 +417,7 @@
 				{
 					id: "062A25ADE031411B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "railcraft:iron_crowbar"
 						tag: {
 							Damage: 0
@@ -478,7 +468,7 @@
 			tasks: [{
 				id: "6348DBCCA9903200"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "railcraft:electric_locomotive"
 					tag: { }
 				}
@@ -651,7 +641,7 @@
 		{
 			description: ["Different useful gadgets that will help you in your journey."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecolonies:build_goggles"
 				tag: {
 					Damage: 0
@@ -740,7 +730,7 @@
 				"Once higher level tools are needed exploration will have to be undertaken to gain items for a forge from special dungeons made by an ancient advanced culture in cold biomes."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "tetra:modular_double"
 				tag: {
 					Damage: 0
@@ -864,7 +854,7 @@
 			tasks: [{
 				id: "50E2E7103B3ACE33"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "toolbelt:belt"
 					tag: { }
 				}
@@ -930,7 +920,7 @@
 			tasks: [{
 				id: "0FD09E3BD337D936"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "collectorsalbum:cards_common"
@@ -958,7 +948,7 @@
 			tasks: [{
 				id: "217B2EEDC4F7F4BF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:collectibles"
@@ -980,7 +970,7 @@
 			tasks: [{
 				id: "749EC2620CC0C443"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:ores"
@@ -999,7 +989,7 @@
 			tasks: [{
 				id: "7BDBA50665448A0F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1019,6 +1009,92 @@
 			}]
 			x: 4.0d
 			y: 25.0d
+		}
+		{
+			description: [
+				"&4&nGems&r&r"
+				"{image:skilltree:item/gems/citrine_4 width:10 height:10 align:1}"
+				"You can find &4gems&r in any ore."
+				""
+				"Can be inserted into equipment(armor, weapons) on a &5smithing table.&r"
+				""
+				"{image:litv3:textures/misc/sockets.png width:90 height:40 align:1}"
+				""
+				"To remove &4gems&r from equipment, you need to insert &9Vacucite&r gem into it. It will &nconsume all&r the gems."
+				""
+				"{image:skilltree:item/gems/vacucite_3 width:10 height:10 align:1}"
+				"&9Vacucite&r have a smaller drop chance."
+				""
+				"Each &4gem&r provides different attribute bonuses, based on the type of equipment it is in."
+			]
+			id: "6B2E9CD69DAF5F4A"
+			rewards: [{
+				id: "240744A3127D54D4"
+				item: {
+					Count: 1
+					id: "skilltree:gem"
+					tag: {
+						type: "skilltree:vacucite_3"
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "302BFC0E6FFC7383"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "skilltree:gems"
+					}
+				}
+				title: "Any #skilltree:gems"
+				type: "item"
+			}]
+			title: "Gems"
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"The &bGlobal Skin Library&r loads a list of skins that have been uploaded to the skin database. There are lots and lots of pre-built designs to search through, and they can be downloaded to your private instance by clicking on one and hitting the download button."
+				""
+				"The &aSkinning table&r is used to apply skins from your local &dSkin library&r."
+			]
+			icon: "armourers_workshop:skin-library-global"
+			id: "7E206FCC29FBB823"
+			rewards: [{
+				id: "5C5875406736542D"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.0d
+			subtitle: "Apply custom skins to anything: from equipment to blocks!"
+			tasks: [
+				{
+					id: "71EF59B81BFEE202"
+					item: "armourers_workshop:skin-library-global"
+					type: "item"
+				}
+				{
+					id: "5A4AC4046F6E04D7"
+					item: "armourers_workshop:skinning-table"
+					type: "item"
+				}
+				{
+					id: "581EB1CF6E58037F"
+					item: "armourers_workshop:skin-library"
+					type: "item"
+				}
+				{
+					id: "14031A836053572A"
+					item: "armourers_workshop:skin-template"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.0d
 		}
 	]
 	title: "&l&fInformation&r&r"

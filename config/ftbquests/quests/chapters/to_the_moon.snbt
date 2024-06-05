@@ -4,7 +4,7 @@
 	filename: "to_the_moon"
 	group: "4CB4EEA3591AD759"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "ad_astra:tier_2_rocket"
 		tag: { }
 	}
@@ -198,7 +198,7 @@
 			rewards: [{
 				id: "0B9DA6B86B9C5E03"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "ad_astra:astrodux"
@@ -229,7 +229,7 @@
 			tasks: [{
 				id: "073363A0D25DD32B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ad_astra:tier_1_rocket"
 					tag: { }
 				}
@@ -250,7 +250,7 @@
 			tasks: [{
 				id: "2512969ED2650B76"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ad_astra:tier_2_rocket"
 					tag: { }
 				}
@@ -271,7 +271,7 @@
 			tasks: [{
 				id: "73C11F69D07E0C66"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ad_astra:tier_3_rocket"
 					tag: { }
 				}
@@ -286,7 +286,7 @@
 			rewards: [{
 				id: "71B087B66EEDF3F4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:lootcrate"
 					tag: {
 						type: "epic_loot_crate"
@@ -295,15 +295,61 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			tasks: [{
-				id: "1F8DC7CEEB417F0C"
-				item: {
-					Count: 1b
-					id: "ad_astra:tier_4_rocket"
-					tag: { }
+			tasks: [
+				{
+					id: "1F8DC7CEEB417F0C"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_4_rocket"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2BAB3F2C5F7A1958"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CD4ADCA41E0DC26"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19F8E0F3AC83D3B8"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "142114143AA46616"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: 8.5d
 		}
@@ -335,7 +381,7 @@
 			rewards: [{
 				id: "46C02978C1BFE91D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:lootcrate"
 					tag: {
 						type: "uncommon_loot_crate"
@@ -428,7 +474,7 @@
 				{
 					id: "035B1FBF1C84700F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:space_helmet"
 						tag: {
 							Damage: 0
@@ -439,7 +485,7 @@
 				{
 					id: "07FCBECB5169658A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:space_suit"
 						tag: {
 							Damage: 0
@@ -450,7 +496,7 @@
 				{
 					id: "39BDC46E8B512280"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:space_pants"
 						tag: {
 							Damage: 0
@@ -461,7 +507,7 @@
 				{
 					id: "5D8B45F122AF3EAB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:space_boots"
 						tag: {
 							Damage: 0
@@ -557,7 +603,7 @@
 				{
 					id: "5DD22BDBE0A892C8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "rare_loot_crate"
@@ -590,7 +636,7 @@
 				{
 					id: "0ED2F2575132BB3D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "rare_loot_crate"
@@ -690,7 +736,7 @@
 				{
 					id: "7E8FB243F416A361"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:netherite_space_helmet"
 						tag: {
 							Damage: 0
@@ -701,7 +747,7 @@
 				{
 					id: "0B46A0830D2B8158"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:netherite_space_suit"
 						tag: {
 							Damage: 0
@@ -712,7 +758,7 @@
 				{
 					id: "17DB4DE0227C9D9D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:netherite_space_pants"
 						tag: {
 							Damage: 0
@@ -723,7 +769,7 @@
 				{
 					id: "3BEF29B8CBDAFF9A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:netherite_space_boots"
 						tag: {
 							Damage: 0

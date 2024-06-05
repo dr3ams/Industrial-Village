@@ -527,7 +527,7 @@
 			tasks: [{
 				id: "6E5F9F0F6DE280B2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "industrialforegoing:industrial_foregoing"
@@ -847,7 +847,7 @@
 			dependencies: ["0000000000000618"]
 			description: ["The machines following this quest will automate the production of resources and their processing."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:netherite_pickaxe"
 				tag: {
 					Damage: 0
@@ -874,7 +874,7 @@
 			dependencies: ["0000000000000618"]
 			description: ["The machines following this quest will allow you to setup more efficient mob grinders that you can use to automate the creation of enchantments."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:netherite_sword"
 				tag: {
 					Damage: 0
@@ -985,7 +985,7 @@
 			tasks: [{
 				id: "754F082C188C875C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "industrialforegoing:infinity_saw"
 					tag: {
 						CanCharge: 1b
@@ -1014,7 +1014,7 @@
 			tasks: [{
 				id: "3758ED5F499EC3B1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "industrialforegoing:infinity_drill"
 					tag: {
 						CanCharge: 1b

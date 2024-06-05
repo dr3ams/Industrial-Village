@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP ",
+    " I ",
+    " PP"
+  ],
+  "key": {
+    "I": [
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+	"P": [
+      {
+        "item": "immersiveengineering:plate_iron"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:propeller"
+  }
+}

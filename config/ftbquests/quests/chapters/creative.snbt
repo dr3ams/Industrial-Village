@@ -202,7 +202,7 @@
 			dependencies: ["4B2DA3AFFA75945F"]
 			hide_dependency_lines: false
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "refinedstorage:creative_fluid_storage_disk"
 				tag: {
 					Id: [I;
@@ -241,7 +241,7 @@
 			dependencies: ["4B2DA3AFFA75945F"]
 			hide_dependency_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "refinedstorage:creative_portable_grid"
 				tag: { }
 			}
@@ -249,7 +249,7 @@
 			rewards: [{
 				id: "6E266238A5318F92"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "refinedstorage:creative_portable_grid"
 					tag: { }
 				}
@@ -277,7 +277,7 @@
 			dependencies: ["4B2DA3AFFA75945F"]
 			hide_dependency_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "railcraft:creative_locomotive"
 				tag: { }
 			}
@@ -285,7 +285,7 @@
 			rewards: [{
 				id: "4C18EDD950ED94F6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "railcraft:creative_locomotive"
 					tag: { }
 				}
@@ -389,7 +389,7 @@
 			dependencies: ["4B2DA3AFFA75945F"]
 			hide_dependency_lines: false
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "constructionwand:infinity_wand"
 				tag: {
 					wand_options: { }
@@ -400,7 +400,7 @@
 				{
 					id: "5552C6990A487AFD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "constructionwand:infinity_wand"
 						tag: {
 							wand_options: { }

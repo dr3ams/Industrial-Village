@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "kubejs:plate_compressed_iron"
+    },
+    "L": {
+      "item": "minecraft:iron_boots"
+    }
+  },
+  "pattern": [
+    "ILI",
+    "I I"
+  ],
+  "result": {
+    "item": "pneumaticcraft:compressed_iron_boots"
+  },
+  "show_notification": true
+}

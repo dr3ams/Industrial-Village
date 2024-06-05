@@ -1,7 +1,7 @@
 
 [General]
 	#Enable mod dungeon loot generation
-	enable_dungeon_loot = true
+	enable_dungeon_loot = false
 	#Efficiency of fuel buckets as furnace fuel (default 0.05 means 1 bucket of LPG smelts 450 items in a vanilla furnace)
 	#Range: 0.0 ~ 1.7976931348623157E308
 	fuel_bucket_efficiency = 0.05
@@ -106,7 +106,7 @@
 ["Pneumatic Armor"]
 	#Jetboots air usage in mL/tick (per Jet Boots Upgrade)
 	#Range: > 0
-	jet_boots_air_usage = 12
+	jet_boots_air_usage = 100
 	#Base Pneumatic Armor startup time in ticks (before Speed Upgrades)
 	#Range: > 20
 	armor_startup_time = 200

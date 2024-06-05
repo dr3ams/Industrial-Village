@@ -5,7 +5,7 @@
 	rewards: [
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "food_3"
@@ -14,7 +14,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "materials_3"
@@ -23,7 +23,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "ores_3"
@@ -32,7 +32,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "junk_3"
@@ -49,7 +49,7 @@
 		{ count: 32, item: "minecraft:firework_rocket" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "gag:energized_hearthstone"
 				tag: {
 					Damage: 0
@@ -59,7 +59,7 @@
 		{ item: "gag:sacred_salve" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "gag:escape_rope"
 				tag: {
 					Damage: 0
@@ -68,7 +68,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "constructionwand:diamond_wand"
 				tag: {
 					Damage: 0
@@ -87,7 +87,7 @@
 		{ item: "gems:ruby_shards", random_bonus: 3 }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "immersiveengineering:blueprint"
 				tag: {
 					blueprint: "electrode"
@@ -96,13 +96,14 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "jewelry_crate"
 				}
 			}
 		}
+		{ item: "torchmaster:megatorch" }
 	]
 	title: "Gold coin reward"
 }

@@ -1,0 +1,20 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "exothermic": false,
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 4000,
+    "tag": "forge:experience"
+  },
+  "item_input": {
+    "item": "minecraft:lapis_lazuli"
+  },
+  "item_output": {
+    "count": 1,
+    "item": "pneumaticcraft:upgrade_matrix"
+  },
+  "pressure": 2.0,
+  "temperature": {
+    "min_temp": 273
+  }
+}

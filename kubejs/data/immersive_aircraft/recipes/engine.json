@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CEC",
+    "PFP",
+    "CIC"
+  ],
+  "key": {
+    "F": [
+      {
+        "item": "ad_astra:engine_frame"
+      }
+    ],
+    "C": [
+      {
+        "item": "immersiveengineering:plate_steel"
+      }
+    ],
+    "I": [
+      {
+        "item": "immersive_aircraft:boiler"
+      }
+    ],
+    "P": [
+      {
+        "item": "minecraft:piston"
+      }
+    ],
+    "E": [
+      {
+        "item": "immersiveengineering:light_engineering"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:engine"
+  }
+}

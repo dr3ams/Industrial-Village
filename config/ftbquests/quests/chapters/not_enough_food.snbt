@@ -699,7 +699,7 @@
 				{
 					id: "181762967958B7D4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -728,7 +728,7 @@
 				{
 					id: "514A2BFE5E6D09AD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -1443,7 +1443,7 @@
 			tasks: [{
 				id: "5AC505B2AA2855F7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "vintagedelight:jam_jars"

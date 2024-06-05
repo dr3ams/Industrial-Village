@@ -478,7 +478,7 @@
 			tasks: [{
 				id: "00000000000002A4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "refinedstorage:portable_grid"
 					tag: { }
 				}

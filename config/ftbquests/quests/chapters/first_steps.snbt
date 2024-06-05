@@ -4,7 +4,7 @@
 	filename: "first_steps"
 	group: "4CB4EEA3591AD759"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "natprog:flint_hatchet"
 		tag: {
 			Damage: 0
@@ -113,7 +113,7 @@
 				{
 					id: "3948140C66C9D713"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:pebbles"
@@ -125,7 +125,7 @@
 				{
 					id: "704796FEC7176415"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "natprog:flint_hatchet"
 						tag: {
 							Damage: 0
@@ -194,7 +194,7 @@
 				{
 					id: "01A0EC70DF9C5087"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "minecraft:planks"
@@ -283,7 +283,7 @@
 			tasks: [{
 				id: "0000000000000057"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "immersiveengineering:hammer"
 					tag: {
 						Damage: 0
@@ -442,7 +442,7 @@
 			dependencies: ["27C56F118D65355C"]
 			description: ["Time to explore if I can custom make my own tools! Hammers can be made of a number of materials which can be checked by clicking on the hammer above."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "immersiveengineering:pickaxe_steel"
 				tag: {
 					Damage: 0
@@ -461,7 +461,7 @@
 			tasks: [{
 				id: "2BE3F591A35A4350"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_double"
 					tag: {
 						Damage: 0
@@ -492,7 +492,7 @@
 			tasks: [{
 				id: "69DD1171584971EB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "natprog:flint_saw"
 					tag: {
 						Damage: 0
@@ -525,7 +525,7 @@
 			tasks: [{
 				id: "1936E9FF5F52B88F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "kubejs:flint_spear"
 					tag: {
 						Damage: 0
@@ -566,7 +566,7 @@
 				{
 					id: "4F973F0AF4C6A21B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "healingflasks:healing_flask"
 						tag: {
 							Damage: 0
@@ -625,7 +625,7 @@
 				{
 					id: "181FF263A0C27780"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:fire_resistance"
@@ -691,7 +691,7 @@
 			tasks: [{
 				id: "160CC432BE17B445"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:iron_pickaxe"
 					tag: {
 						Damage: 0
@@ -872,7 +872,7 @@
 		}
 		{
 			description: [
-				"Early game progression was intentionally made more challenging. This is done to create a sense of achievement and satisfaction when you overcome those initial hurdles and to appreciate the smaller challenges, such as building your first Furnace, and to provide a more rewarding experience when you eventually reach the point of launching a rocket to the Moon."
+				"Early game progression was intentionally made more &bchallenging&r. This is done to create a sense of &6achievement&r and &2satisfaction&r when you overcome those initial hurdles and to appreciate the smaller challenges, &osuch as building your first Furnace&r, and to provide a more rewarding experience when you eventually reach the point of launching a rocket to the Moon."
 				""
 				"In addition to slowing down early game progression, further recipes have been tweaked and adjusted. It was made to ensure that you will have a smoother progression curve and to create a sense of accomplishment as you advance through the pack."
 				""
@@ -922,7 +922,7 @@
 			tasks: [{
 				id: "70DAFABDF47104FF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "farmersdelight:flint_knife"
 					tag: {
 						Damage: 0
@@ -953,7 +953,7 @@
 			tasks: [{
 				id: "7E8FCB12ECD0BE42"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "kubejs:flint_pickaxe"
 					tag: {
 						Damage: 0
@@ -968,7 +968,7 @@
 			dependencies: ["0000000000000030"]
 			description: ["Form holds placed substance together. "]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "kubejs:wooden_form"
 				tag: {
 					Damage: 0
@@ -989,7 +989,7 @@
 				{
 					id: "0B0C35BED94EC2BB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "kubejs:wooden_form"
 						tag: {
 							Damage: 0
@@ -1019,7 +1019,7 @@
 				"You can see how they look like in &lCoins Exchange&r chapter quest."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "capsule:capsule"
 				tag: {
 					color: 8096694

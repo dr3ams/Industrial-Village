@@ -5,7 +5,7 @@
   "parseMobLoot": true,
   "parseGameplayLoot": false,
   "chestLootCompact": true,
-  "chestLootAlwaysStackSame": true,
+  "chestLootAlwaysStackSame": false,
   "mobLootIncludeDirectDrops": true,
   "parseArchaeologyLoot": false
 }

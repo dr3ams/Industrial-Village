@@ -4,7 +4,7 @@
 	filename: "gardening"
 	group: "4EAE0C42246DB468"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "meadow:watering_can"
 		tag: {
 			Damage: 0
@@ -354,7 +354,7 @@
 			tasks: [{
 				id: "4251B588A69534C4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -473,7 +473,7 @@
 				{
 					id: "662AEF0C6CF8B697"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "vinery:wine"

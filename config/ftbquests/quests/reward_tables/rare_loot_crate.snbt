@@ -15,7 +15,7 @@
 	rewards: [
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "junk_3"
@@ -24,7 +24,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "ores_3"
@@ -33,7 +33,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "food_3"
@@ -42,7 +42,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "materials_3"

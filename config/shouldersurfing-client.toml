@@ -109,6 +109,12 @@
 	turn_player_when_interacting = true
 	#Whether or not to turn the player when picking blocks or entities. This config option only applies when camera is decoupled.
 	turn_player_when_picking = true
+	#Whether or not turning the player when attacking requires a target.
+	turn_player_when_attacking_requires_target = false
+	#Whether or not turning the player when interacting with blocks requires a target.
+	turn_player_when_interacting_requires_target = true
+	#Whether or not turning the player when picking blocks or entities requires a target.
+	turn_player_when_picking_requires_target = true
 
 [crosshair]
 	#Crosshair type to use for shoulder surfing.

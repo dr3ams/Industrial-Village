@@ -1,0 +1,22 @@
+{
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "immersiveengineering"
+		}
+	],
+	"type": "immersiveengineering:metal_press",
+	"energy": 2400,
+	"input": 
+	{
+		"base_ingredient":
+		{
+		"item": "pneumaticcraft:ingot_iron_compressed"
+		},
+		"count":2
+		},
+	"mold": "immersiveengineering:mold_plate",
+	"result": {
+		"item": "kubejs:plate_compressed_iron"
+	}
+}

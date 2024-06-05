@@ -19,7 +19,7 @@
 		{ item: "minecraft:bee_spawn_egg" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "healingflasks:t_0_healing_flask"
 				tag: {
 					Damage: 0
@@ -28,7 +28,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "constructionwand:stone_wand"
 				tag: {
 					Damage: 0
@@ -58,7 +58,7 @@
 		{ item: "supplementaries:pedestal" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "supplementaries:slingshot"
 				tag: {
 					Damage: 0

@@ -13,6 +13,9 @@ JEIEvents.hideItems(event => {
 	event.hide('industrialforegoing:tinydryrubber')
 	event.hide('industrialforegoing:latex_processing_unit')
 	
+	event.hide('torchmaster:feral_flare_lantern')
+	event.hide('torchmaster:frozen_pearl')
+	
 	event.hide('ad_astra:etrionic_blast_furnace')
 	
 	event.hide('ad_astra:steel_cable')

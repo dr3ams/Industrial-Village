@@ -30,7 +30,7 @@
 		{ count: 32, item: "minecraft:item_frame" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "constructionwand:diamond_wand"
 				tag: {
 					Damage: 0
@@ -40,7 +40,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "healingflasks:t_2_healing_flask"
 				tag: {
 					Damage: 0

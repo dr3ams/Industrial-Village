@@ -131,7 +131,7 @@
 			tasks: [{
 				id: "378EF9C1BF3E8B09"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"polymorph:stack_recipe_data": { }
 					}
@@ -238,7 +238,7 @@
 				{
 					id: "1A68E35631DDCE7F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "rare_loot_crate"
@@ -282,7 +282,7 @@
 				{
 					id: "2BA1664B7D8A1411"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -440,7 +440,7 @@
 			tasks: [{
 				id: "309BD46664AECFE5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedbackpacks:iron_backpack"
 					tag: {
 						contentsUuid: [I;
@@ -487,7 +487,7 @@
 			tasks: [{
 				id: "6996E9E95ED55FD3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedbackpacks:backpack"
 					tag: {
 						contentsUuid: [I;
@@ -605,7 +605,7 @@
 			tasks: [{
 				id: "316F580C57D30181"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "functionalstorage:drawer"

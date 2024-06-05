@@ -123,7 +123,7 @@
 			rewards: [{
 				id: "62B56C939ED5E7DD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "pneumaticcraft:book"
@@ -907,7 +907,7 @@
 				{
 					id: "482C64EFD3D37D38"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "pneumaticcraft:pneumatic_helmet"
 						tag: {
 							Damage: 0
@@ -918,7 +918,7 @@
 				{
 					id: "10AE3D797B0B739A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "pneumaticcraft:pneumatic_chestplate"
 						tag: {
 							Damage: 0
@@ -929,7 +929,7 @@
 				{
 					id: "1699EB5144C03B4E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "pneumaticcraft:pneumatic_leggings"
 						tag: {
 							Damage: 0
@@ -940,7 +940,7 @@
 				{
 					id: "6994893FD2207E93"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "pneumaticcraft:pneumatic_boots"
 						tag: {
 							Damage: 0
@@ -1048,6 +1048,11 @@
 		{
 			dependencies: ["4C788FBAAE9CF49C"]
 			id: "6F134D8658FA01F6"
+			rewards: [{
+				id: "6F829C55F15BEDEF"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "63A872C1CF87D6F9"
 				item: "pneumaticcraft:medium_tank"
@@ -1172,7 +1177,7 @@
 			tasks: [{
 				id: "08D57EB5F0CDD324"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1486,6 +1491,18 @@
 				"If the Vacuum Trap's tank contains at least 100mB of Memory Essence, mob absorption efficiency will be greatly increased; instead of contributing 1% to the installed Spawner Core's essence, a captured mob will contribute 2 - 4%, i.e. instead of needing to capture 100 mobs to fill a core, you will only need to capture 25-50 mobs. 100mB of Memory Essence will be used each time a mob is captured."
 			]
 			id: "4B4A4B7D05EAA5A7"
+			rewards: [
+				{
+					id: "427F858D00DE8F5C"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "75CDCED974CABFDC"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "1D4EE0B9752C6451"
 				item: "pneumaticcraft:vacuum_trap"
@@ -1502,6 +1519,18 @@
 				"When a Core contains multiple mob essences, a random mob will be picked. E.g. if your Core is 50% zombie, 25% creeper, and 25% empty, then on each spawn attempt, you have a 50% chance of a zombie, 25% for a creeper, and 25% for nothing at all. Air is still used if nothing spawns, so partially empty Cores are not very efficient (but then again, a Core with a 50% chance of a rare mob is better than no Core at all...)"
 			]
 			id: "0E707F24FDEC529A"
+			rewards: [
+				{
+					id: "459B238CC171F056"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "5A1C65E38BD6519B"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "0F9D1D34C60C7313"
 				item: "pneumaticcraft:pressurized_spawner"
@@ -1528,6 +1557,18 @@
 				"Once extraction is complete, a Spawner Core is ejected, and the Spawner becomes an Empty Spawner. This block can (and should) be picked up, since it's used to craft a Pressurized Spawner."
 			]
 			id: "36038EB0001D8C9C"
+			rewards: [
+				{
+					id: "4188DAA172E9C20C"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "0C8B69FB58B65F2A"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "3B08979A0839901B"
 				item: "pneumaticcraft:spawner_extractor"
@@ -1801,6 +1842,18 @@
 		{
 			dependencies: ["256BD2FFBE7EC950"]
 			id: "19815B8373092CEB"
+			rewards: [
+				{
+					id: "6CE498AFC8B2C9B7"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "20EF644BEC0DB294"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "7877206D2EDDC1AD"
 				item: "pneumaticcraft:spawner_agitator"
@@ -2003,7 +2056,7 @@
 				""
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "pneumaticcraft:air_canister"
 				tag: {
 					"pneumaticcraft:air": 30000
@@ -2289,7 +2342,7 @@
 				item: "refinedstorage:quartz_enriched_iron"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.5d
 			y: 1.5d
 		}
 		{

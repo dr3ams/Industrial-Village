@@ -16,7 +16,7 @@
 		{ count: 32, item: "minecraft:repeater" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "constructionwand:iron_wand"
 				tag: {
 					Damage: 0
@@ -26,7 +26,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "healingflasks:healing_flask"
 				tag: {
 					Damage: 0
@@ -36,7 +36,7 @@
 		{ count: 10, item: "minecraft:lantern" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "immersiveengineering:blueprint"
 				tag: {
 					blueprint: "bannerpatterns"
@@ -45,7 +45,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "immersiveengineering:blueprint"
 				tag: {
 					blueprint: "electrode"
@@ -62,7 +62,7 @@
 		{ item: "supplementaries:flower_box" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "immersiveengineering:blueprint"
 				tag: {
 					blueprint: "components"
@@ -71,7 +71,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "immersiveengineering:blueprint"
 				tag: {
 					blueprint: "specialBullet"
@@ -80,7 +80,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "immersiveengineering:blueprint"
 				tag: {
 					blueprint: "bullet"
@@ -89,7 +89,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "immersiveengineering:blueprint"
 				tag: {
 					blueprint: "molds"
@@ -107,7 +107,7 @@
 		{ count: 3, item: "supplementaries:bomb" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "supplementaries:flute"
 				tag: {
 					Damage: 0

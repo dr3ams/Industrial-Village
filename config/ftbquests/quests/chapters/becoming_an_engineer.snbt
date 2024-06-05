@@ -4,7 +4,7 @@
 	filename: "becoming_an_engineer"
 	group: "4CB4EEA3591AD759"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "immersiveengineering:hammer"
 		tag: {
 			Damage: 0
@@ -278,6 +278,7 @@
 				"000000000000022F"
 				"1E62591C6F6B2026"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"It is used to generate energy in conjunction with a &1Windmill&r and/ or a &1Water Wheel&r. "
 				""
@@ -397,7 +398,7 @@
 				item: "immersiveengineering:capacitor_lv"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: -1.0d
 		}
 		{
@@ -446,7 +447,7 @@
 				item: "immersiveengineering:wirecoil_copper"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: -3.0d
 		}
 		{
@@ -470,7 +471,7 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: -0.5d
 			y: -5.0d
 		}
 		{
@@ -488,7 +489,7 @@
 				item: "immersiveengineering:treated_post"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: -5.0d
 		}
 		{
@@ -574,7 +575,7 @@
 				item: "immersiveengineering:voltmeter"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: -3.0d
 		}
 		{
@@ -600,7 +601,7 @@
 				item: "immersiveengineering:current_transformer"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: -3.0d
 		}
 		{
@@ -619,7 +620,7 @@
 				item: "immersiveengineering:powerpack"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: -2.0d
 		}
 		{
@@ -822,7 +823,7 @@
 				item: "immersiveengineering:charging_station"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: 1.0d
 		}
 		{
@@ -924,7 +925,7 @@
 			tasks: [{
 				id: "0000000000000230"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "immersiveengineering:wirecutter"
 					tag: {
 						Damage: 0
@@ -961,7 +962,7 @@
 				{
 					id: "0000000000000777"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "immersiveengineering:survey_tools"
 						tag: {
 							Damage: 0
@@ -1082,7 +1083,7 @@
 			tasks: [{
 				id: "0000000000000241"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Items: [ ]
@@ -1288,7 +1289,7 @@
 			tasks: [{
 				id: "0000000000000252"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Items: [ ]
@@ -1315,7 +1316,7 @@
 			tasks: [{
 				id: "0000000000000254"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Items: [ ]
@@ -1747,7 +1748,7 @@
 				{
 					id: "000000000000051F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "immersiveengineering:shader"
 						tag: {
 							shader_name: "immersiveengineering:radiant"
@@ -1822,7 +1823,7 @@
 					count: 3L
 					id: "0000000000001065"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "immersiveengineering:graphite_electrode"
 						tag: {
 							Damage: 0
@@ -2113,7 +2114,7 @@
 				{
 					id: "00000000000002CB"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							Parent: {
 								Items: [ ]
@@ -2300,7 +2301,7 @@
 				{
 					id: "78613D2C42AEBA70"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "immersiveengineering:blueprint"
 						tag: {
 							blueprint: "components"
@@ -2312,7 +2313,7 @@
 				{
 					id: "556057E3D4134BFE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "immersiveengineering:blueprint"
 						tag: {
 							blueprint: "molds"
@@ -2388,7 +2389,7 @@
 				item: "immersiveengineering:wirecoil_copper_ins"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: -4.0d
 		}
 		{
@@ -2694,7 +2695,7 @@
 			tasks: [{
 				id: "7A302FBDCC0A29DF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "immersiveengineering:sawblade"
 					tag: {
 						Damage: 0
@@ -2717,7 +2718,7 @@
 			tasks: [{
 				id: "66FA37898F2045F1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "immersiveengineering:rockcutter"
 					tag: {
 						Damage: 0
@@ -2859,7 +2860,7 @@
 				{
 					id: "17692925B3DF43A4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "immersiveengineering:circuits/solder"
@@ -3000,7 +3001,7 @@
 				{
 					id: "556C93CA5077AB6F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "railcraft:turbine_rotor"
 						tag: {
 							Damage: 0
@@ -3239,7 +3240,7 @@
 		{
 			dependencies: ["0000000000001150"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "railcraft:steam_locomotive"
 				tag: { }
 			}
@@ -3253,7 +3254,7 @@
 				{
 					id: "1D0885533D2C416F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "railcraft:steam_locomotive"
 						tag: { }
 					}
@@ -3421,12 +3422,36 @@
 			tasks: [{
 				count: 12L
 				id: "0C47DF1FB100860C"
-				item: { Count: 12b, id: "railcraft:crusher" }
+				item: { Count: 12, id: "railcraft:crusher" }
 				type: "item"
 			}]
 			title: "(not only rock) Crusher"
 			x: -3.0d
 			y: 8.5d
+		}
+		{
+			dependencies: ["402B13D217EA14FD"]
+			description: ["Has a durability but it's at least something!"]
+			id: "47B302F60BE6A74E"
+			rewards: [{
+				id: "636BBC644E480B32"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AA247492ABAF474"
+				item: {
+					Count: 1
+					id: "immersiveengineering:glider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Elytra on a budget"
+			x: -1.5d
+			y: 1.0d
 		}
 	]
 	title: "2. &7Industrialization&r"

@@ -28,7 +28,7 @@
       "interactionDuration": 300,
       "hideBonusDescription": false,
       "onlyImmuneToNewEffects": false
-    }
+    }	
   ],
   "hideGeneratedTooltip": false
 }

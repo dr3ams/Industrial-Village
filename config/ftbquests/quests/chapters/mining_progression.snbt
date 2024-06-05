@@ -4,7 +4,7 @@
 	filename: "mining_progression"
 	group: "4EAE0C42246DB468"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "tetra:modular_double"
 		tag: {
 			Damage: 0
@@ -38,7 +38,7 @@
 				"In the holosphere you will be able to check all the materials and their statistics as components. It is very useful in planning out your next tool upgrade."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "tetra:holo"
 				tag: {
 					"holo/core": "holo/core"
@@ -74,7 +74,7 @@
 			rewards: [{
 				id: "70346034831908C0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_double"
 					tag: {
 						Damage: 0
@@ -121,7 +121,7 @@
 				advancement: "tetra:upgrades/root"
 				criterion: ""
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_double"
 					tag: {
 						Damage: 0
@@ -176,7 +176,7 @@
 				advancement: "tetra:upgrades/hammer_2"
 				criterion: ""
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_double"
 					tag: {
 						Damage: 0
@@ -209,7 +209,7 @@
 				advancement: "tetra:upgrades/hammer_3"
 				criterion: ""
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_double"
 					tag: {
 						Damage: 0
@@ -242,7 +242,7 @@
 				advancement: "tetra:upgrades/hammer_4"
 				criterion: ""
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_double"
 					tag: {
 						Damage: 0
@@ -278,7 +278,7 @@
 				advancement: "tetra:upgrades/hammer_5"
 				criterion: ""
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_double"
 					tag: {
 						Damage: 0
@@ -311,7 +311,7 @@
 				advancement: "tetra:upgrades/hammer_6"
 				criterion: ""
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_double"
 					tag: {
 						Damage: 0
@@ -335,7 +335,7 @@
 			dependencies: ["286C78DD09FE49B1"]
 			description: ["Bows can be upgraded into a number of unique forms with their own advantages."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:bow"
 				tag: {
 					Damage: 0
@@ -377,7 +377,7 @@
 			]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_bow"
 					tag: {
 						Damage: 0
@@ -392,7 +392,7 @@
 				}
 				id: "4640BEC498808C8A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:weak_nbt"
 					tag: {
 						value: {
@@ -415,7 +415,7 @@
 					count: 16
 					id: "3602287984C3E5EE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:tipped_arrow"
 						tag: {
 							Potion: "minecraft:slowness"
@@ -431,7 +431,7 @@
 			]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_bow"
 					tag: {
 						Damage: 0
@@ -446,7 +446,7 @@
 				}
 				id: "1677B63A058BC7CB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:weak_nbt"
 					tag: {
 						value: {
@@ -469,7 +469,7 @@
 					count: 16
 					id: "7B1CC96BB9897856"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:tipped_arrow"
 						tag: {
 							Potion: "minecraft:poison"
@@ -485,7 +485,7 @@
 			]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_bow"
 					tag: {
 						Damage: 0
@@ -500,7 +500,7 @@
 				}
 				id: "2827720457787787"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:weak_nbt"
 					tag: {
 						value: {
@@ -526,7 +526,7 @@
 			tasks: [{
 				id: "62D031FB1459950F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_toolbelt"
 					tag: {
 						"toolbelt/belt": "toolbelt/belt"
@@ -545,7 +545,7 @@
 			dependencies: ["286C78DD09FE49B1"]
 			description: ["Shields will be the best way to protect yourself outside of armor."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:shield"
 				tag: {
 					Damage: 0
@@ -577,7 +577,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_shield"
 					tag: {
 						Damage: 0
@@ -592,7 +592,7 @@
 				}
 				id: "4C02B13898EE5D43"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:weak_nbt"
 					tag: {
 						value: {
@@ -617,7 +617,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_shield"
 					tag: {
 						Damage: 0
@@ -632,7 +632,7 @@
 				}
 				id: "353DC623E009FD22"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:weak_nbt"
 					tag: {
 						value: {
@@ -657,7 +657,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_shield"
 					tag: {
 						Damage: 0
@@ -672,7 +672,7 @@
 				}
 				id: "2127EEEA1E48D017"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:weak_nbt"
 					tag: {
 						value: {
@@ -690,7 +690,7 @@
 			dependencies: ["286C78DD09FE49B1"]
 			description: ["Single Headed tools are the most simple tools you can make."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:wooden_shovel"
 				tag: {
 					Damage: 0
@@ -722,7 +722,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_single"
 					tag: {
 						Damage: 0
@@ -737,7 +737,7 @@
 				}
 				id: "334975D386A7D4B4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:weak_nbt"
 					tag: {
 						value: {
@@ -762,7 +762,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_single"
 					tag: {
 						Damage: 0
@@ -777,7 +777,7 @@
 				}
 				id: "19323D16461D5CF0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:weak_nbt"
 					tag: {
 						value: {
@@ -795,7 +795,7 @@
 			dependencies: ["286C78DD09FE49B1"]
 			description: ["The good old fashioned slice and dicer."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:wooden_sword"
 				tag: {
 					Damage: 0
@@ -829,7 +829,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_sword"
 					tag: {
 						Damage: 0
@@ -848,7 +848,7 @@
 				}
 				id: "3AE18D356E1CBA0F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:weak_nbt"
 					tag: {
 						value: {
@@ -873,7 +873,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_sword"
 					tag: {
 						Damage: 0
@@ -892,7 +892,7 @@
 				}
 				id: "349A70A36866561A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:weak_nbt"
 					tag: {
 						value: {
@@ -917,7 +917,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_sword"
 					tag: {
 						Damage: 0
@@ -936,7 +936,7 @@
 				}
 				id: "67FBA29F73E5B0A3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:weak_nbt"
 					tag: {
 						value: {
@@ -961,7 +961,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_sword"
 					tag: {
 						Damage: 0
@@ -980,7 +980,7 @@
 				}
 				id: "401115F65CA889F4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:weak_nbt"
 					tag: {
 						value: {
@@ -998,7 +998,7 @@
 			dependencies: ["286C78DD09FE49B1"]
 			description: ["Double Headed tools make up the large majority of tools in the game. The surrounding quests will describe the individual tool heads that define tools."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:wooden_pickaxe"
 				tag: {
 					Damage: 0
@@ -1032,7 +1032,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_double"
 					tag: {
 						Damage: 0
@@ -1049,7 +1049,7 @@
 				}
 				id: "7DF918F206409FE2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1091,7 +1091,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_double"
 					tag: {
 						Damage: 0
@@ -1108,7 +1108,7 @@
 				}
 				id: "46A09A896FA94ACF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1150,7 +1150,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_double"
 					tag: {
 						Damage: 0
@@ -1167,7 +1167,7 @@
 				}
 				id: "0D54BAB92E8D1166"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1209,7 +1209,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_double"
 					tag: {
 						Damage: 0
@@ -1226,7 +1226,7 @@
 				}
 				id: "30E620C9E6CF2D9D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1268,7 +1268,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_double"
 					tag: {
 						Damage: 0
@@ -1285,7 +1285,7 @@
 				}
 				id: "6181D9A053C02A1E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1327,7 +1327,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_double"
 					tag: {
 						Damage: 0
@@ -1344,7 +1344,7 @@
 				}
 				id: "3FD3B3255693B2B5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1386,7 +1386,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_double"
 					tag: {
 						Damage: 0
@@ -1403,7 +1403,7 @@
 				}
 				id: "71D9D0A603F0D79B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1504,7 +1504,7 @@
 			tasks: [{
 				id: "745B39B074D2F44E"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"maledicta:energy_collector": {
 							energy: 0.0d
@@ -1562,7 +1562,7 @@
 			tasks: [{
 				id: "15FD9A628848693F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "tetra:holo"
 					tag: {
 						HideFlags: 1
@@ -1665,7 +1665,7 @@
 				icon: "toolbelt:pouch"
 				id: "69F12A268CBDCF9C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1709,7 +1709,7 @@
 			dependencies: ["3A768E3EC544BDE4"]
 			description: ["The Quiver can hold a large amount of arrows that can be quick selected."]
 			icon: {
-				Count: 1b
+				Count: 1
 				ForgeCaps: {
 					Parent: {
 						Items: [ ]
@@ -1735,7 +1735,7 @@
 			]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Items: [ ]
@@ -1747,7 +1747,7 @@
 				}
 				id: "132190E71F50655F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1801,7 +1801,7 @@
 				icon: "toolbelt:belt"
 				id: "438FE539E7FC82AE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1862,7 +1862,7 @@
 				icon: "minecraft:firework_rocket"
 				id: "3F34F04A3619CF4C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1910,7 +1910,7 @@
 				{
 					id: "3C18B0EC6250E884"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:swiftness"
@@ -1921,7 +1921,7 @@
 				{
 					id: "3C75204BCF916487"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:fire_resistance"
@@ -1932,7 +1932,7 @@
 				{
 					id: "7F4DBFE89B55241F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:leaping"
@@ -1948,7 +1948,7 @@
 			]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:splash_potion"
 					tag: {
 						Potion: "quark:long_danger_sight"
@@ -1956,7 +1956,7 @@
 				}
 				id: "76B4B318711D2C2C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -2175,7 +2175,7 @@
 			tasks: [{
 				id: "0F668D7CD2B32175"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -2247,7 +2247,7 @@
 			tasks: [{
 				id: "72C46D582F784820"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "tetra:scroll_rolled"
 					tag: {
 						BlockEntityTag: {
@@ -2288,7 +2288,7 @@
 			tasks: [{
 				id: "13C8B2A5B33103E8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "tetra:scroll_rolled"
 					tag: {
 						BlockEntityTag: {
@@ -2329,7 +2329,7 @@
 			tasks: [{
 				id: "133633D3FCBEAF6A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "tetra:scroll_rolled"
 					tag: {
 						BlockEntityTag: {
@@ -2365,7 +2365,7 @@
 			tasks: [{
 				id: "67775264FE325F4D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "tetra:scroll_rolled"
 					tag: {
 						BlockEntityTag: {
@@ -2407,7 +2407,7 @@
 			tasks: [{
 				id: "26B21FDF1F8C9C5B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "tetra:scroll_rolled"
 					tag: {
 						BlockEntityTag: {
@@ -2448,7 +2448,7 @@
 			tasks: [{
 				id: "6E6492385800D348"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "tetra:scroll_rolled"
 					tag: {
 						BlockEntityTag: {
@@ -2489,7 +2489,7 @@
 			tasks: [{
 				id: "283CE26B549DD593"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "tetra:scroll_rolled"
 					tag: {
 						BlockEntityTag: {
@@ -2530,7 +2530,7 @@
 			tasks: [{
 				id: "26B95AB51592EC21"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "tetra:scroll_rolled"
 					tag: {
 						BlockEntityTag: {
@@ -2575,7 +2575,7 @@
 				{
 					id: "4F8CE52A4BEB1D2A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "tetra:scroll_rolled"
 						tag: {
 							BlockEntityTag: {
@@ -2600,7 +2600,7 @@
 				{
 					id: "3D71F47D65CC681C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "tetra:scroll_rolled"
 						tag: {
 							BlockEntityTag: {
@@ -2625,7 +2625,7 @@
 				{
 					id: "205A49DF774DE7B8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "tetra:scroll_rolled"
 						tag: {
 							BlockEntityTag: {
@@ -2662,7 +2662,7 @@
 				"* Note: When you will pick up one scroll from category it will auto-complete the whole quest. So these quests are more like overview of scrolls available."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "tetra:scroll_rolled"
 				tag: {
 					BlockEntityTag: {
@@ -2708,7 +2708,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_single"
 					tag: {
 						Damage: 0
@@ -2725,7 +2725,7 @@
 				}
 				id: "78A2442F57B58546"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:weak_nbt"
 					tag: {
 						value: {
@@ -2776,7 +2776,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_single"
 					tag: {
 						Damage: 0
@@ -2793,7 +2793,7 @@
 				}
 				id: "693117BF342932E6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:weak_nbt"
 					tag: {
 						value: {
@@ -2977,7 +2977,7 @@
 				{
 					id: "17CCAAF0E9F309A9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "tetra:scroll_rolled"
 						tag: {
 							BlockEntityTag: {
@@ -3002,7 +3002,7 @@
 				{
 					id: "48A6DEA8759622CC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "tetra:scroll_rolled"
 						tag: {
 							BlockEntityTag: {
@@ -3027,7 +3027,7 @@
 				{
 					id: "335521127C77373E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "tetra:scroll_rolled"
 						tag: {
 							BlockEntityTag: {
@@ -3143,7 +3143,7 @@
 			tasks: [{
 				id: "241B8295B0EE7D23"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [

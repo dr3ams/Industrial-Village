@@ -1,0 +1,9 @@
+{
+  "type": "forge:none",
+  "spawners": {
+    "type": "minecraft:phantom",
+    "maxCount": 4,
+    "minCount": 1,
+    "weight": 5
+  }
+}

@@ -17,7 +17,7 @@
 		{ item: "minecraft:beetroot_soup" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:suspicious_stew"
 				tag: {
 					Effects: [{

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CBC",
+    "CFC"
+  ],
+  "key": {
+    "C": [
+      {
+        "item": "immersiveengineering:plate_steel"
+      }
+    ],
+    "F": [
+      {
+        "item": "pneumaticcraft:pressure_chamber_wall"
+      }
+    ],
+    "B": [
+      {
+        "item": "immersive_aircraft:boiler"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:steel_boiler"
+  }
+}

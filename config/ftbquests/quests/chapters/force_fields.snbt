@@ -114,7 +114,7 @@
 			tasks: [{
 				id: "55ECC59440C8A0FC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "mffs:handbook"

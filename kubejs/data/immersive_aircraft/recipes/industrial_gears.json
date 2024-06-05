@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  I",
+    " L ",
+    "C  "
+  ],
+  "key": {
+    "C": [
+      {
+        "tag": "forge:gears/iron"
+      }
+    ],
+    "I": [
+      {
+        "tag": "forge:gears/bronze"
+      }
+    ],
+    "L": [
+      {
+        "item": "minecraft:lever"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:industrial_gears"
+  }
+}

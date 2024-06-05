@@ -16,6 +16,13 @@
 [XP] Roof Snow Opacity:10.0
 [XP] Min WorldMap Zoom:0.1
 [XP] Skip Background Render:true
+[XP] Prefer Overworld Waypoints:false
+[XP] Show Waypoint Distances:true
+[XP] null OW Dim Dir:true
+[XP] Data Dir Mode:0
+[XP] Nether Cave Fix:true
+[XP] Disable Xaero Internet Access:false
+[XP] Expanded Setting Entries:false
 [XP] NewChunks Highlighting:false
 [XP] Save/Load NewChunks to Disk:true
 [XP] New Chunks Opacity:100.0
@@ -39,12 +46,6 @@
 [XP] PortalSkip Search Delay:10.0
 [XP] PortalSkip NewChunks:true
 [XP] PortalSkip OldChunks Inverse:true
-[XP] Prefer Overworld Waypoints:false
-[XP] Show Waypoint Distances:true
-[XP] null OW Dim Dir:true
-[XP] Data Dir Mode:0
-[XP] Nether Cave Fix:true
-[XP] Disable Xaero Internet Access:false
 [XP] Show Render Distance:false
 [XP] Show Render Distance WorldMap:false
 [XP] Always Render Player Name:true

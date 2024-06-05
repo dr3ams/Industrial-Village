@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BTB",
+    "BFB"
+  ],
+  "key": {
+    "B": [
+      {
+        "item": "railcraft:bronze_plate"
+      }
+    ],
+    "F": [
+      {
+        "item": "railcraft:solid_fueled_firebox"
+      }
+    ],
+    "T": [
+      {
+        "item": "railcraft:low_pressure_steam_boiler_tank"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:boiler"
+  }
+}

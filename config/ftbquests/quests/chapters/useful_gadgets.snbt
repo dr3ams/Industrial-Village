@@ -4,7 +4,7 @@
 	filename: "useful_gadgets"
 	group: "42BDFAE1D8AA1BD0"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "buildinggadgets2:gadget_copy_paste"
 		tag: { }
 	}
@@ -72,7 +72,7 @@
 			tasks: [{
 				id: "1F73323C4CBEFC70"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "buildinggadgets2:gadget_copy_paste"
 					tag: { }
 				}
@@ -133,7 +133,7 @@
 			tasks: [{
 				id: "213C1AB0435A3564"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -160,7 +160,7 @@
 			tasks: [{
 				id: "5238B45455B4BD8E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "supplementaries:ropes"
@@ -184,7 +184,7 @@
 			tasks: [{
 				id: "08F5A815500B0372"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -208,7 +208,7 @@
 			tasks: [{
 				id: "0A1A3F181EBDA173"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -233,7 +233,7 @@
 			tasks: [{
 				id: "63A9040490A4F42D"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -258,7 +258,7 @@
 			tasks: [{
 				id: "672CD462B12A618E"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -283,7 +283,7 @@
 			tasks: [{
 				id: "310209E691066890"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -307,7 +307,7 @@
 			tasks: [{
 				id: "4FF1F19B6821D661"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -335,7 +335,7 @@
 			tasks: [{
 				id: "6A1B1FBCFAC41FE6"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -359,7 +359,7 @@
 			tasks: [{
 				id: "4249B6E1C43FD2C6"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -383,7 +383,7 @@
 			tasks: [{
 				id: "1A7E7AE3DDCC6D56"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -403,7 +403,7 @@
 				{
 					id: "36A359779ED19C3F"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -416,7 +416,7 @@
 				{
 					id: "726568AA20A12772"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -430,7 +430,7 @@
 			tasks: [{
 				id: "6179061DE2FEE6BC"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_gear:bow": {
 							crossbowChargeTime: 0
@@ -462,7 +462,7 @@
 			tasks: [{
 				id: "797AE75BADF88032"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -487,7 +487,7 @@
 			tasks: [{
 				id: "66E7DA28B84ED6F9"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -513,7 +513,7 @@
 				{
 					id: "6F7ABF88AF32ECD6"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -526,7 +526,7 @@
 				{
 					id: "4B6B668B60B39E45"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -552,7 +552,7 @@
 				{
 					id: "36DC7505AA92B3D8"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -565,7 +565,7 @@
 				{
 					id: "570D99BDE6FDF0C5"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -590,7 +590,7 @@
 			tasks: [{
 				id: "0112A5D6B124D755"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -615,7 +615,7 @@
 			tasks: [{
 				id: "2490DAF5ACB32916"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -640,7 +640,7 @@
 			tasks: [{
 				id: "7475B3400A33F530"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -665,7 +665,7 @@
 			tasks: [{
 				id: "784291CBD06E6041"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -690,7 +690,7 @@
 			tasks: [{
 				id: "0398D2D60687CD25"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -715,7 +715,7 @@
 			tasks: [{
 				id: "66388320D6EF886E"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -739,7 +739,7 @@
 			tasks: [{
 				id: "7360B900F1ABD942"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -767,7 +767,7 @@
 			tasks: [{
 				id: "5D76A5D34E9B507A"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -791,7 +791,7 @@
 			tasks: [{
 				id: "2DA5B1A64D98FDA0"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -880,7 +880,7 @@
 			tasks: [{
 				id: "2AC42696F7106DFC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gag:time_sand_pouch"
 					tag: {
 						grains: 940
@@ -897,7 +897,7 @@
 			tasks: [{
 				id: "77C05BB804BCB99F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gag:escape_rope"
 					tag: {
 						Damage: 0
@@ -914,7 +914,7 @@
 			tasks: [{
 				id: "27C8E9B24414C7D2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gag:hearthstone"
 					tag: {
 						Damage: 0
@@ -935,7 +935,7 @@
 			tasks: [{
 				id: "16AEC5A540C5AB66"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gag:energized_hearthstone"
 					tag: {
 						Damage: 0

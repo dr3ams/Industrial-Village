@@ -243,6 +243,17 @@
 				"&9&n                                                  &r&9               "
 			]
 			id: "13BDB1E18E02B0DC"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @a [\"\",{\"text\":\"@p\",\"bold\":true,\"color\":\"blue\"},{\"text\":\" Has Completed Chapter \"},{\"text\":\"6\",\"color\":\"green\"},{\"text\":\"!\"}]"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "kubejs:mark"
+				id: "6317889534CFDD27"
+				team_reward: false
+				title: "Succesfully completed chapter #6"
+				type: "command"
+			}]
 			shape: "octagon_important"
 			size: 1.5d
 			subtitle: "&9Marks the end of Chapter 6"
@@ -281,6 +292,17 @@
 			]
 			icon: "immersiveengineering:arc_furnace"
 			id: "1C77714D1B19358C"
+			rewards: [{
+				auto: "disabled"
+				command: "/tellraw @a [\"\",{\"text\":\"@p\",\"bold\":true,\"color\":\"blue\"},{\"text\":\" Has Completed Chapter \"},{\"text\":\"2\",\"color\":\"green\"},{\"text\":\"!\"}]"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "kubejs:mark"
+				id: "5B7F3C016DA15D2B"
+				team_reward: false
+				title: "Succesfully completed chapter #2"
+				type: "command"
+			}]
 			shape: "octagon_important"
 			size: 1.5d
 			subtitle: "&9Marks the end of Chapter 2"
@@ -308,6 +330,17 @@
 				"&9&n                                                  &r&9               "
 			]
 			id: "1AD0B0DF343D2B63"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @a [\"\",{\"text\":\"@p\",\"bold\":true,\"color\":\"blue\"},{\"text\":\" Has Completed Chapter \"},{\"text\":\"4\",\"color\":\"green\"},{\"text\":\"!\"}]"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "kubejs:mark"
+				id: "670882E33F1E3DA6"
+				team_reward: false
+				title: "Succesfully completed chapter #4"
+				type: "command"
+			}]
 			shape: "octagon_important"
 			size: 1.5d
 			subtitle: "&9Marks the end of Chapter 4"
@@ -340,9 +373,11 @@
 				auto: "enabled"
 				command: "/tellraw @a [\"\",{\"text\":\"@p\",\"bold\":true,\"color\":\"blue\"},{\"text\":\" Has Completed Chapter \"},{\"text\":\"1\",\"color\":\"green\"},{\"text\":\"!\"}]"
 				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "kubejs:mark"
 				id: "71C02B902653F6FC"
 				team_reward: false
-				title: "1"
+				title: "Succesfully completed chapter #1"
 				type: "command"
 			}]
 			shape: "octagon_important"
@@ -407,7 +442,7 @@
 				{
 					count: 27L
 					id: "4DCB98362D4E7F9B"
-					item: { Count: 27b, id: "immersiveengineering:blastbrick" }
+					item: { Count: 27, id: "immersiveengineering:blastbrick" }
 					type: "item"
 				}
 				{
@@ -425,7 +460,7 @@
 			dependencies: ["0AA12A4B058DBD57"]
 			disable_toast: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ad_astra:tier_1_rocket"
 				tag: { }
 			}
@@ -439,7 +474,7 @@
 				{
 					id: "7B5901979C758FD7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:tier_1_rocket"
 						tag: { }
 					}
@@ -454,7 +489,7 @@
 			dependencies: ["5A48B91C5F55DF95"]
 			disable_toast: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ad_astra:tier_2_rocket"
 				tag: { }
 			}
@@ -468,7 +503,7 @@
 				{
 					id: "447BCB1BB819AD32"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:tier_2_rocket"
 						tag: { }
 					}
@@ -561,6 +596,17 @@
 				"&oYou can setup basic Refined Storage storage right after this chapter(if you have available resources and energy production. But the end goal of Chapter 5 is to be able to access the items wirelessly(which will be available later) and have an autocrafter.&r"
 			]
 			id: "4F7A84F3D7495BF7"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @a [\"\",{\"text\":\"@p\",\"bold\":true,\"color\":\"blue\"},{\"text\":\" Has Completed Chapter \"},{\"text\":\"3\",\"color\":\"green\"},{\"text\":\"!\"}]"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "kubejs:mark"
+				id: "7E2331F0476A92B6"
+				team_reward: false
+				title: "Succesfully completed chapter #3"
+				type: "command"
+			}]
 			shape: "octagon_important"
 			size: 1.5d
 			subtitle: "&9Marks the end of Chapter 3"
@@ -619,6 +665,17 @@
 				"&9&n                                                  &r&9               "
 			]
 			id: "183DD9A6BFEF8793"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @a [\"\",{\"text\":\"@p\",\"bold\":true,\"color\":\"blue\"},{\"text\":\" Has Completed Chapter \"},{\"text\":\"5\",\"color\":\"green\"},{\"text\":\"!\"}]"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "kubejs:mark"
+				id: "433943AC7B4FA675"
+				team_reward: false
+				title: "Succesfully completed chapter #5"
+				type: "command"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			subtitle: "&9Marks the end of Chapter 5"
@@ -635,7 +692,7 @@
 			dependencies: ["1AD0B0DF343D2B63"]
 			disable_toast: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ad_astra:tier_3_rocket"
 				tag: { }
 			}
@@ -644,7 +701,7 @@
 				{
 					id: "11BCDEC507A79493"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:tier_3_rocket"
 						tag: { }
 					}
@@ -664,7 +721,7 @@
 			dependencies: ["7BC86210B47B4D0E"]
 			description: ["Fight mobs, get rewards!"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:iron_sword"
 				tag: {
 					Damage: 0
@@ -704,7 +761,7 @@
 				"Once higher level tools are needed exploration will have to be undertaken to gain items for a forge from special dungeons made by an ancient advanced culture in cold biomes."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "immersiveengineering:pickaxe_steel"
 				tag: {
 					Damage: 0
@@ -850,6 +907,17 @@
 				"&9&n                                                  &r&9               "
 			]
 			id: "49250D827A91E3CE"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @a [\"\",{\"text\":\"@p\",\"bold\":true,\"color\":\"blue\"},{\"text\":\" Has Completed Chapter \"},{\"text\":\"7\",\"color\":\"green\"},{\"text\":\"!\"}]"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "kubejs:mark"
+				id: "32B83ACBA68A7ABC"
+				team_reward: false
+				title: "Succesfully completed chapter #7"
+				type: "command"
+			}]
 			shape: "octagon_important"
 			size: 1.5d
 			subtitle: "&9Marks the end of Chapter 7"

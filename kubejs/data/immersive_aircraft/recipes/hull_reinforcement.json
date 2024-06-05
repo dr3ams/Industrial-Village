@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "HHH",
+    "III"
+  ],
+  "key": {
+    "H": [
+      {
+        "item": "immersive_aircraft:hull"
+      }
+    ],
+    "I": [
+      {
+        "item": "kubejs:plate_compressed_iron"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:hull_reinforcement"
+  }
+}

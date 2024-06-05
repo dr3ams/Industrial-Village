@@ -5,7 +5,7 @@
 	rewards: [
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "ores_1"
@@ -14,7 +14,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "food_1"
@@ -23,7 +23,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "materials_1"
@@ -32,7 +32,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "junk_1"
@@ -42,7 +42,7 @@
 		{
 			icon: "minecraft:purple_dye"
 			item: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "random_dyes"
@@ -110,7 +110,7 @@
 		{ item: "minecraft:egg" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:swiftness"
@@ -119,7 +119,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:slow_falling"
@@ -128,7 +128,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "biomemakeover:dolphin_master"

@@ -5,7 +5,7 @@
 	rewards: [
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "capsule:capsule"
 				tag: {
 					canRotate: 0b
@@ -24,7 +24,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "capsule:capsule"
 				tag: {
 					canRotate: 0b
@@ -43,7 +43,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "capsule:capsule"
 				tag: {
 					canRotate: 1b
@@ -62,7 +62,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "capsule:capsule"
 				tag: {
 					canRotate: 0b
@@ -81,7 +81,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "capsule:capsule"
 				tag: {
 					canRotate: 0b

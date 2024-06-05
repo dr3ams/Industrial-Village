@@ -29,6 +29,17 @@
       "interactionDuration": 300,
       "hideBonusDescription": false,
       "onlyImmuneToNewEffects": false
+    },
+	{
+      "type": "attribute",
+      "name": "minecraft:generic.luck",
+      "value": 1.0,
+      "modifierUUID": "388c459c-8ebc-11ee-b9d1-0242ac120002",
+      "description": "Increased Style",
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
     }
   ],
   "hideGeneratedTooltip": false

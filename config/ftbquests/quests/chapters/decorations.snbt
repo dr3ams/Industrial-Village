@@ -35,7 +35,7 @@
 		{
 			description: ["Construction Wands will help your early game building by giving a method of placing a large number of blocks at once. It's GUI can be opened to change its settings by holding a wand and right clicking empty space while holding the sneak key and ctrl."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "constructionwand:iron_wand"
 				tag: {
 					Damage: 0
@@ -114,7 +114,7 @@
 			dependencies: ["00000000000000BE"]
 			description: ["Collect all those books! Some of these manuals can be combined in the Akashic Tome for safe keeping."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "eccentrictome:tome"
 				tag: {
 					"eccentrictome:mods": { }
@@ -140,7 +140,7 @@
 				{
 					id: "33CA5C21BF082B6D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "industrialforegoing:industrial_foregoing"
@@ -151,7 +151,7 @@
 				{
 					id: "15D9B059AA37FF21"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "eccentrictome:tome"
 						tag: {
 							"eccentrictome:mods": { }
@@ -162,7 +162,7 @@
 				{
 					id: "1F6F91B449DC7E11"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "pneumaticcraft:book"
@@ -173,7 +173,7 @@
 				{
 					id: "4D6D7D849F039784"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "railcraft:guide_book"
@@ -184,7 +184,7 @@
 				{
 					id: "5B5D836B62FDAEFB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "mffs:handbook"
@@ -195,7 +195,7 @@
 				{
 					id: "08E72724BC5951F8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "ad_astra:astrodux"
@@ -270,7 +270,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "ftbguilibrary:textures/icons/check.png"
@@ -381,7 +381,7 @@
 			rewards: [{
 				id: "00000000000005EF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "platforms:wrench"
 					tag: {
 						Damage: 0
@@ -751,7 +751,7 @@
 			rewards: [{
 				id: "7D262DCEA7899D6F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:lootcrate"
 					tag: {
 						type: "random_mob_drops"

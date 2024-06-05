@@ -77,17 +77,17 @@
 		# Set to -1 to disable teleporting across dimensions
 		# Default: 2
 		# Range: -∞ ~ +∞
-		dimensionMultiplier: 2
+		dimensionMultiplier: -1
 		
 		# Maximum durability of the stone, default is 64
 		# Default: 64
 		# Range: 0 ~ 32767
-		durability: 64
+		durability: 16
 		
 		# Maximum durability of the energized hearthstone, default is 256
 		# Default: 256
 		# Range: 0 ~ 32767
-		energizedDurability: 256
+		energizedDurability: 32
 		
 		# Whether the stone should ignore checking whether the spawn block is still valid and unobstructed
 		# Default: false
@@ -156,7 +156,7 @@
 		# Max amount of grains a Pouch can hold
 		# Default: 2147483647
 		# Range: 0 ~ 2147483647
-		pouchCapacity: 2147483647
+		pouchCapacity: 214748364
 		
 		# Chance that a random tick will be performed when a random ticking block like crops or saplings is accelerated
 		# On average, this is done every 4096 / 3 ≈ 1365.33 ticks in Vanilla (see https://minecraft.gamepedia.com/Tick#Random_tick)

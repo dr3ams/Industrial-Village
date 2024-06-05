@@ -78,17 +78,8 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'skilltree:healer_necklace'}); 
 	event.remove({output: 'skilltree:scholar_necklace'}); 
 	event.remove({output: 'skilltree:arsonist_necklace'});
+	event.remove({output: 'explorerscompass:explorerscompass'});
 
-
-
-	event.remove({output: 'waystones:waystone'})
-	event.remove({output: 'waystones:mossy_waystone'})
-	event.remove({output: 'waystones:sandy_waystone'})
-	event.remove({output: 'waystones:sharestone'})
-	event.remove({output: 'waystones:bound_scroll'})
-	event.remove({output: 'waystones:warp_scroll'})
-	event.remove({output: 'waystones:warp_plate'})
-	event.remove({output: 'waystones:warp_stone'})
     event.remove({output: 'gag:time_sand_pouch'})
     event.remove({output: 'gag:escape_rope'})
     event.remove({output: 'gag:hearthstone'})

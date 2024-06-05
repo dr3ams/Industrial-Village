@@ -1,0 +1,14 @@
+#Configurations are done via the genmogrify.json file.
+#If one does not exist, an example file can be created.
+#Automatically create example file if genmogrification file is not found.
+createExampleAutomatically = true
+#Turning all portal frame blocks into portal frame blocks with eyes of ender will NOT naturally
+#cause the portal to form.  You can force the portal to generate by setting the following config
+#option to true.  For this to work properly, portals must be a standard 3x3 shape and each portal
+#block must undergo some form of genmogrification, even if that mogrification makes no change in
+#the block.  The expected change would be to change a frame block into a frame block with an eye,
+#but that isn't a requirement.
+#
+#Force end portals to generate:
+forceEndPortals = false
+

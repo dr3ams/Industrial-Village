@@ -2,15 +2,74 @@ ItemEvents.tooltip(event =>{
 
 	event.add(['railcraft:steel_ingot'], 'This Steel Ingot is fake and has no real uses, trust me.')
 	
-	event.add(['gems:ruby_upgrade_smithing_template', 'gems:sapphire_upgrade_smithing_template', 'gems:topaz_upgrade_smithing_template'], 'Can be found in Ancient Cities chests')
-	event.add(['gems:dragonyx_upgrade_smithing_template'], 'Can be found in End Cities chests')
+	//event.add(['gems:ruby_upgrade_smithing_template', 'gems:sapphire_upgrade_smithing_template', 'gems:topaz_upgrade_smithing_template'], 'Can be found in Ancient Cities chests')
+	
+	event.addAdvanced(['gems:ruby_upgrade_smithing_template', 'gems:sapphire_upgrade_smithing_template', 'gems:topaz_upgrade_smithing_template'], (item, advanced, text) => {
+      text.add(1, [
+        Text.of('Can be found in ').white(),
+        Text.of('Ancient Cities ' ).aqua().bold(true),
+        Text.of('chests').white()
+      ])
+	})
+	
+	event.addAdvanced('gems:dragonyx_upgrade_smithing_template', (item, advanced, text) => {
+      text.add(1, [
+        Text.of('Can be found in ').white(),
+        Text.of('End Cities ').darkPurple(),
+        Text.of('chests').white()
+      ])
+	})
+	
+	event.addAdvanced('#skilltree:gems', (item, advanced, text) => {
+      text.add(1, [
+        Text.of('• Use ').yellow(),
+        Text.of('Smithing Table ').green().bold(true),
+        Text.of('to insert it').yellow()
+      ])
+  })
 
-   event.addAdvanced('#forge:pebbles', (item, advanced, text) => {
+   event.addAdvanced('explorerscompass:explorerscompass', (item, advanced, text) => {
     if (!event.isShift()) {
       text.add(1, [
         Text.of('Hold ').gold(),
         Text.of('[Shift] ').yellow(),
         Text.of('to see more info.').gold()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Allows you to locate ').white(),
+        Text.of('structures.' ).green().bold(true)
+		])
+      text.add(2, [
+        Text.of('• Can be bought for a ').white(),
+		Text.of('Quest coins ').gold(),
+		Text.of('in the questbook').white()
+      ])
+    }
+  })
+
+   event.addAdvanced('naturescompass:naturescompass', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gold(),
+        Text.of('[Shift] ').yellow(),
+        Text.of('to see more info.').gold()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Allows you to search for a ').white(),
+        Text.of('biome`s ').green().bold(true),
+        Text.of('location').white()
+      ])
+    }
+  })
+
+   event.addAdvanced('#forge:pebbles', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').yellow(),
+        Text.of('to see more info.').gray()
       ])
     } else {
       text.add(1, [

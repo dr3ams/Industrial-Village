@@ -227,6 +227,11 @@
 		#Note that ropes will still use the same blacklist.
 		"Force Enable Move Tile Entities" = false
 		"Enable Dispenser Behavior" = true
+		#This feature disables itself if any of the following mods are loaded:
+		# - supplementaries
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
 
 	[building.thatch]
 		#Allowed values: [0,1]
@@ -242,6 +247,7 @@
 		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded:
 		# - woodworks
+		# - woodster
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -261,13 +267,7 @@
 		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded:
 		# - woodworks
-		#This is done to prevent content overlap.
-		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = false
-
-	[building.vertical_planks]
-		#This feature disables itself if any of the following mods are loaded:
-		# - woodworks
+		# - woodster
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -549,6 +549,7 @@
 	"Zombie Villagers On Normal" = true
 	"Magma Keeps Concrete Powder" = true
 	"Petals On Water" = true
+	"Beach Villagers" = true
 
 	[tweaks.automatic_recipe_unlock]
 		#A list of recipe names that should NOT be added in by default
@@ -752,6 +753,10 @@
 		"Easy Sticks" = true
 		#Can raw ore blocks be smelted, taking 9x the time a normal item?
 		"Smelt Raw Ore Blocks" = true
+
+	[tweaks.lock_rotation]
+		#When true, lock rotation indicator in the same style as crosshair
+		"Render Like Cross Hair" = true
 
 [world]
 	"Ancient Wood" = false
@@ -1759,6 +1764,10 @@
 		"Override Held Item Render" = true
 		"Hud Offset X" = 0
 		"Hud Offset Y" = 0
+		#When true, selector arrow will render in same style as crosshair
+		"Render Like Cross Hair" = true
+		#Uses smaller arrow icon for variant selector overlay
+		"Smaller Arrow" = false
 
 		[experimental.variant_selector.variants]
 			#The list of all variant types available for players to use. Values are treated as suffixes to block IDs for scanning.
@@ -1822,11 +1831,21 @@
 	[oddities.magnets]
 		#Any items you place in this list will be derived so that any block made of it will become magnetizable
 		"Magnetic Derivation List" = ["minecraft:iron_ingot", "minecraft:copper_ingot", "minecraft:exposed_copper", "minecraft:weathered_copper", "minecraft:oxidized_copper", "minecraft:raw_iron", "minecraft:raw_copper", "minecraft:iron_ore", "minecraft:deepslate_iron_ore", "minecraft:copper_ore", "minecraft:deepslate_copper_ore", "quark:gravisand"]
-		#Block IDs to force-allow magnetism on, regardless of their crafting recipe
+		#Block/Item IDs to force-allow magnetism on, regardless of their crafting recipe
 		"Magnetic Whitelist" = ["minecraft:chipped_anvil", "minecraft:damaged_anvil"]
-		#Block IDs to force-disable magnetism on, regardless of their crafting recipe
+		#Block/Item IDs to force-disable magnetism on, regardless of their crafting recipe
 		"Magnetic Blacklist" = ["minecraft:tripwire_hook"]
 		"Use Pre End Recipe" = false
+		#Makes magnet particles use the old green color
+		"Green Magnet Particles" = false
+		#Allows magnets to push and pull entities in the 'affected_by_magnets' tag (edit it with datapack). Turning off can reduce lag
+		"Affect Entities" = true
+		#Allows magnets to push and pull entities having magnetic armor. Requires 'magnetic_entities' config ON
+		"Affects Armor" = true
+		#Determines how fast entities are pulled by magnets. Still follows the inverse square law
+		"Entities Pull Force" = 0.18000000715255737
+		#Stonecutters pulled by magnets will silk touch the blocks they cut.
+		"Stone Cutter Silk Touch" = true
 
 	[oddities.matrix_enchanting]
 		#The maximum enchanting power the matrix enchanter can accept
@@ -1913,5 +1932,4 @@
 		"Destroy Lost Items" = false
 		#Set this to false to only allow the owner of a totem to collect its items rather than any player
 		"Allow Anyone To Collect" = true
-		"Enable Soul Compass" = true
 

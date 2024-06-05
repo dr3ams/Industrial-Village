@@ -103,7 +103,7 @@
 			can_repeat: true
 			disable_toast: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "common_loot_crate"
@@ -132,7 +132,7 @@
 		{
 			can_repeat: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "uncommon_loot_crate"
@@ -162,7 +162,7 @@
 			can_repeat: true
 			disable_toast: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "rare_loot_crate"
@@ -193,7 +193,7 @@
 			can_repeat: true
 			disable_toast: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "epic_loot_crate"
@@ -439,7 +439,7 @@
 			]
 			disable_toast: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "capsule:capsule"
 				tag: {
 					color: 16777215
@@ -482,7 +482,7 @@
 				disable_toast: true
 				id: "211372CDA8610E27"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "regions_unexplored:logs"

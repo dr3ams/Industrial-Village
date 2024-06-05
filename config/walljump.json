@@ -14,7 +14,7 @@
   "stopWallSlideDelay": 72000,
   "playFallSound": true,
   "enableEnchantments": true,
-  "enableWallJump": true,
+  "enableWallJump": false,
   "enableDoubleJump": true,
   "enableSpeedBoost": true
 }

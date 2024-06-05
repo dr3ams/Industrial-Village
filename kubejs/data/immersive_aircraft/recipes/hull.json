@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "III",
+    "LLL"
+  ],
+  "key": {
+    "L": [
+      {
+        "tag": "minecraft:logs"
+      }
+    ],
+    "I": [
+      {
+        "item": "immersiveengineering:plate_iron"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:hull"
+  }
+}
