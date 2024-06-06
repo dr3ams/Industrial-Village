@@ -55,6 +55,7 @@ ServerEvents.recipes(event => {
 	})
 	event.shapeless('9x kubejs:coin_04', ['kubejs:coin_05'])
 	
+	
 
 //event.remove({output: 'minecraft:cooked_chicken', type: 'minecraft:campfire_cooking'}) // You can combine filters, to create ANDk logic
 //event.remove({output: 'minecraft:stone_pickaxe'}) // Removes all recipes where output is stone pickaxe
@@ -463,6 +464,15 @@ ServerEvents.recipes(event => {
 	'#indvil:mortars'
 	]).damageIngredient('#indvil:mortars')
 
+	event.shapeless('minecraft:oak_planks', [
+	'vinery:apple_log',
+	'#forge:tools/axes'
+	]).damageIngredient('#forge:tools/axes')
+	
+	event.shapeless('minecraft:oak_planks', [
+	'vinery:apple_wood',
+	'#forge:tools/axes'
+	]).damageIngredient('#forge:tools/axes')
 	
 	//clay brick unfired
 	event.shapeless('kubejs:clay_brick_unfired', [

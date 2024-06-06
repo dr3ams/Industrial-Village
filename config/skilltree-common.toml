@@ -40,7 +40,7 @@
 	#Example: Blacklisting specific items: ["minecraft:diamond_hoe", "minecraft:golden_hoe"]
 	#Example: Blacklisting whole mod: ["<mod_id>:*"]
 	#Example: Blacklisting all items: ["*:*"]
-	"IDs of items that shouldn't have sockets" = []
+	"IDs of items that shouldn't have sockets" = ["natprog:flint_hatchet"]
 
 #You can force items from other mods into equipmentType categories here
 ["Amnesia Scroll"]

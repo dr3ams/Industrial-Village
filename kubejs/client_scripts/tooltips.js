@@ -93,17 +93,80 @@ ItemEvents.tooltip(event =>{
         ])
       } else {
         text.add(1, [
-          Text.of('Click on the ').white(),
+          Text.of('• Click on the ').white(),
           Text.of('full side ').green(),
           Text.of('of a block to draw a mark.').white()
         ])
         text.add(2, [
-          Text.of('The ').white(),
+          Text.of('• The ').white(),
           Text.of('direction ').green(),
           Text.of('does matter and will point the arrow in that direction.').white()
         ])
       }
     })
   
-  
+	event.addAdvanced('natprog:flint_hatchet', (item, advanced, text) => {
+      if (!event.shift) {
+        text.add(1, [
+          Text.of('Hold ').gray(),
+          Text.of('[Shift] ').yellow(),
+          Text.of('to see more info.').gray()
+        ])
+      } else {
+        text.add(1, [
+          Text.of('• Will help you to gather your first ').white(),
+          Text.of('wood').green()
+        ])
+        text.add(2, [
+          Text.of('• Harvest ').white(),
+          Text.of('Logs ').green(),
+          Text.of('or straight away make ').white(),
+		  Text.of('Stripped Logs ').green(),
+		  Text.of('and then craft it into ').white(),
+		  Text.of('Planks').yellow()
+        ])
+      }
+    })
+	
+	event.addAdvanced('#minecraft:planks', (item, advanced, text) => {
+      if (!event.shift) {
+        text.add(1, [
+          Text.of('Hold ').gray(),
+          Text.of('[Shift] ').yellow(),
+          Text.of('to see more info.').gray()
+        ])
+      } else {
+        text.add(1, [
+          Text.of('• Crafted from ').white(),
+          Text.of('Stripped Logs ').green(),
+          Text.of('with a ').white(),
+		  Text.of('Hatchet ').yellow(),
+		  Text.of('and later with a ').white(),
+		  Text.of('Saw ').yellow(),
+		  Text.of('for increased yield').white()
+        ])
+		text.add(2, [
+          Text.of('• You will automate it later with more ').white(),
+          Text.of('advanced machinery').blue()
+        ])
+      }
+    })
+	
+	event.addAdvanced('#minecraft:logs', (item, advanced, text) => {
+      if (!event.shift) {
+        text.add(1, [
+          Text.of('Hold ').gray(),
+          Text.of('[Shift] ').yellow(),
+          Text.of('to see more info.').gray()
+        ])
+      } else {
+        text.add(1, [
+          Text.of('• Craft to ').white(),
+          Text.of('Stripped Logs ').green(),
+          Text.of('to produce ').white(),
+		  Text.of('Planks').yellow()
+        ])
+      }
+    })
+	
 })
