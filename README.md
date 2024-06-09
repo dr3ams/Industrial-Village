@@ -1,5 +1,8 @@
 # Industrial-Village
 [![image](https://github.com/dr3ams/Industrial-Village/assets/7347489/91ab3656-891b-467c-905b-f32b95d5898a)](https://legacy.curseforge.com/minecraft/modpacks/industrial-village)
+> [!IMPORTANT]
+>[DISCORD](https://discord.gg/dreams-modpacks-512339624627011586)
+
 Industrial Village is a tech-based colony-managing modpack centered around the Immersive Engineering and Minecolonies mods. It offers a progressive gameplay experience where players start by gathering flint to craft their first pickaxe and gradually advance to building complex and immersive multiblock machines and thriving self-sufficient colonies.
 
 **Some notable features include:**
