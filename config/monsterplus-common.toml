@@ -4,7 +4,7 @@
 	#Will the Abyssologer affect players with Darkness?
 	do_abyssologer_darkness = true
 	#Will the Abyssologer spawn?
-	spawn_abyssologer = true
+	spawn_abyssologer = false
 	#Will the Crystal Zombie spawn?
 	spawn_crystal_zombie = true
 	#Will the Swamp Zombie spawn?

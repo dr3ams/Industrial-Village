@@ -69,14 +69,14 @@ breeding-cap:
   # ► limit = The limit of mobs of the same type within range. Setting this to negative will disable the breeding cap.
   # ► range = The range it will check for entities of the same type.
   villagers:
-    limit: 32
+    limit: 16
     range: 64
 
   # The breeding cap for animals.
   # Note that this cap only checks for animals of the same type.
   # If the limit is 32 you can still breed 32 cows and 32 pigs next to each other.
   animals:
-    limit: 32
+    limit: 16
     range: 64
 
 
@@ -97,8 +97,8 @@ mob-spawning:
 
   # Mobcap settings for mobs spawned from monster spawners.
   monster-spawners:
-    enforce-mobcap: false
-    additional-capacity: 32
+    enforce-mobcap: true
+    additional-capacity: 16
 
   # A list of mob categories with their respective mobcap and spawn interval.
   # ► category = The vanilla spawn category.
@@ -106,7 +106,7 @@ mob-spawning:
   # ► spawn-interval = The interval between spawn attempts in ticks. Higher values mean less frequent spawn attempts.
   categories:
     - category: 'MONSTER'
-      mobcap: 70
+      mobcap: 50
       spawn-interval: 1
 
     - category: 'CREATURE'

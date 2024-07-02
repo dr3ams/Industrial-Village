@@ -1,0 +1,13 @@
+
+["Flask Settings"]
+	#The cooldown for refilling flasks, measured in ticks. default:3600 
+	"Refill Cooldown" = 3600.0
+	#Allow refilling Healing Flasks from campfires and soul campfires. default:true
+	"Refill from Campfire" = true
+	#The amount of health that flasks will replenish. 1=half a heart. default:8
+	"Healing Amount" = 8.0
+	#Allow refilling Healing Flasks from Waystones, if Waystones is installed. default:true
+	"Refill from Waystone" = true
+	#Allow refilling Healing Flasks from Flame Shrines. default:true
+	"Refill from Shrine" = true
+

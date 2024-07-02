@@ -115,10 +115,6 @@
 			frequency = 1.5
 			max_angle = 54.999996
 
-	[blocks.bunting]
-		#Makes buntings use normal block models with no animation for faster performance. When off this is only active when viewed from a distance
-		fast_buntings = false
-
 #Particle parameters
 [particles]
 

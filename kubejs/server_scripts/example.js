@@ -67,6 +67,12 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'industrialforegoing:tinydryrubber'});
 	event.remove({output: 'industrialforegoing:latex_processing_unit'});
 	
+	event.remove({output: 'sophisticatedbackpacks:stack_upgrade_starter_tier'});
+    event.remove({output: 'sophisticatedbackpacks:stack_upgrade_tier_1'});
+    event.remove({output: 'sophisticatedbackpacks:stack_upgrade_tier_2'});
+    event.remove({output: 'sophisticatedbackpacks:stack_upgrade_tier_3'});
+    event.remove({output: 'sophisticatedbackpacks:stack_upgrade_tier_4'});
+	
 	//event.remove({output: Item.of('capsule:capsule', '{color:16777215,overpowered:1,size:1,state:0}')});
 	
 	event.remove({output: 'skilltree:copper_ring'}); 
@@ -91,6 +97,11 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'gag:labeling_tool'})
 	
 	event.remove({output: 'meadow:woodcutter'})
+	
+	event.remove({id: 'minecraft:bread'})
+	event.remove({id: 'vintagedelight:oat_bread'})
+	event.remove({id: 'regions_unexplored:barley_smelting'})
+	event.remove({id: 'regions_unexplored:barley_smoking'})
 	
 	event.remove({output: 'minecraft:iron_ingot', type: 'minecraft:smelting'})
 	event.remove({output: 'minecraft:gold_ingot', type: 'minecraft:smelting'})
@@ -766,6 +777,7 @@ PlayerEvents.loggedIn(event => {
 	event.player.give('constructionwand:stone_wand')
 	event.player.give('supplementaries:sack')
 	event.player.give('2x minecraft:torch')
+	event.player.give('2x natprog:stone_pebble')
   }
 })
 

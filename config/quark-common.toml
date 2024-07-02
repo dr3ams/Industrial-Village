@@ -1342,7 +1342,7 @@
 	Forgotten = true
 	Foxhound = true
 	Shiba = false
-	Stonelings = true
+	Stonelings = false
 	Toretoise = true
 	Wraith = false
 
@@ -1723,11 +1723,11 @@
 		#Makes Boats not glide on ice
 		"Disable Ice Roads" = true
 		#Makes Sheep not drop Wool when killed
-		"Disable Wool Drops" = true
+		"Disable Wool Drops" = false
 		#Disables mob griefing for only specific entities
 		"Enable Selective Mob Griefing" = true
 		#Force Elytra to only work in specific dimensions
-		"Enable Dimension Locked Elytra" = true
+		"Enable Dimension Locked Elytra" = false
 		#Makes falling blocks not able to be duped via dimension crossing
 		"Disable Falling Block Dupe" = true
 		#Fixes several piston physics exploits, most notably including TNT duping
@@ -1836,8 +1836,6 @@
 		#Block/Item IDs to force-disable magnetism on, regardless of their crafting recipe
 		"Magnetic Blacklist" = ["minecraft:tripwire_hook"]
 		"Use Pre End Recipe" = false
-		#Makes magnet particles use the old green color
-		"Green Magnet Particles" = false
 		#Allows magnets to push and pull entities in the 'affected_by_magnets' tag (edit it with datapack). Turning off can reduce lag
 		"Affect Entities" = true
 		#Allows magnets to push and pull entities having magnetic armor. Requires 'magnetic_entities' config ON

@@ -13,6 +13,12 @@ JEIEvents.hideItems(event => {
 	event.hide('industrialforegoing:tinydryrubber')
 	event.hide('industrialforegoing:latex_processing_unit')
 	
+	event.hide('sophisticatedbackpacks:stack_upgrade_starter_tier')
+    event.hide('sophisticatedbackpacks:stack_upgrade_tier_1')
+    event.hide('sophisticatedbackpacks:stack_upgrade_tier_2')
+    event.hide('sophisticatedbackpacks:stack_upgrade_tier_3')
+    event.hide('sophisticatedbackpacks:stack_upgrade_tier_4')
+	
 	event.hide('torchmaster:feral_flare_lantern')
 	event.hide('torchmaster:frozen_pearl')
 	

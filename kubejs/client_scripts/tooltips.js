@@ -73,13 +73,48 @@ ItemEvents.tooltip(event =>{
       ])
     } else {
       text.add(1, [
-        Text.of('By holding a ').white(),
+        Text.of('• By holding a ').white(),
         Text.of('Pebble ').green().bold(true),
         Text.of('in both of your hands and ').white(),
         Text.of('holding right-click ').gold(),
 		Text.of('you will nap the stones which has a chance to produce ').white(),
         Text.of('Flint').green().bold(true),
-		Text.of('.').white()
+      ])
+	    text.add(2, [
+        Text.of('• You will need ').white(),
+        Text.of('Flint ').green().bold(true),
+        Text.of('to make your first ').white(),
+        Text.of('Hatchet ').gold(),
+		Text.of('to gather ').white(),
+		Text.of('Wood ').blue(),
+		Text.of('and to make ').white(),
+        Text.of('Planks').yellow()
+      ])
+    }
+  })
+  
+  event.addAdvanced('kubejs:monster_coin', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').blue(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Acquired from ').white(),
+        Text.of('dungeon chests ').gold(),
+        Text.of('and breaking ').white(),
+        Text.of('spawners').gold()
+      ])
+	    text.add(2, [
+        Text.of('• Exchange it in ').white(),
+        Text.of('Coins exchange ').gold(),
+        Text.of('quest chapter in the ').white(),
+		Text.of('Quest Book ').green(),
+		Text.of('for valuable ').white(),
+		Text.of('Loot').gold().bold(true)
+
       ])
     }
   })
@@ -169,4 +204,35 @@ ItemEvents.tooltip(event =>{
       }
     })
 	
+	event.addAdvanced('railcraft:saltpeter_dust', (item, advanced, text) => {
+      if (!event.shift) {
+        text.add(1, [
+          Text.of('Hold ').gray(),
+          Text.of('[Shift] ').yellow(),
+          Text.of('to see more info.').gray()
+        ])
+      } else {
+        text.add(1, [
+          Text.of('• You can get it from ').white(),
+          Text.of('Saltpeter Ore ').yellow(),
+          Text.of('which can be found in water-type biomes').white()
+        ])
+      }
+    })
+		
+	event.addAdvanced('railcraft:sulfur_dust', (item, advanced, text) => {
+      if (!event.shift) {
+        text.add(1, [
+          Text.of('Hold ').gray(),
+          Text.of('[Shift] ').yellow(),
+          Text.of('to see more info.').gray()
+        ])
+      } else {
+        text.add(1, [
+          Text.of('• You can get it from ').white(),
+          Text.of('Sulfur Ore ').yellow(),
+          Text.of('which can be found underground').white()
+        ])
+      }
+    })
 })

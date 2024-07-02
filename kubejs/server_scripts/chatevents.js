@@ -1,16 +1,5 @@
 // priority: 10
 
-/**
- * @file Core server handler. Formerly had core recipes.
- * 
- * @author CelestialAbyss <https://github.com/CelestialAbyss> Modpack lead
- * @author squoshi <https://github.com/squoshi> Helped a lot early on in development. Thank you. Also helped translate my ideas into scripts!
- * @author pietro-lopes <https://github.com/pietro-lopes> AKA Uncandango in the KubeJS Discord. Fixed issues related to damage cancel script
- * @author MundM2007 <https://github.com/MundM2007> for helping with troubleshooting with fixing || statements
- * @author puu7693 <https://github.com/puu7693> for writing the script that grants potion effects when wearing a specific set of armor
- * @author MaxNeedsSnacks <https://github.com/MaxNeedsSnacks> Fixing KubeJS Create bugs
- */
-
 //Welcome to Industrial Village modpack! Quest Book will answer most of your questions and will show intended pack progression. 
 //You can access it from the item or in the upper-left corner of your inventory screen.
 
@@ -27,6 +16,7 @@ PlayerEvents.loggedIn(event => {
 
       event.player.tell([
         Component.of('Welcome to Industrial Village modpack!\n').bold().gold(),
+		Component.of('The '),
         Component.of('Quest Book ').green(),
         Component.of('will answer most of your questions and will '),
         Component.of('show ').yellow(),
@@ -43,15 +33,15 @@ PlayerEvents.loggedIn(event => {
 		
         Component.of('If you have any issues or suggestions - '),
         Component.of('visit '),
-		Component.of(' [github] ')
+		Component.of('[github] ')
 		  .clickOpenUrl('https://github.com/dr3ams/Industrial-Village/issues')
           .hover('Opens the Industrial Village Github')
           .aqua(),
-        Component.of('page.'),
+        Component.of('page. '),
 		
         Component.of('We also have a '),
-		Component.of(' [discord] ')
-		  .clickOpenUrl('https://github.com/dr3ams/Industrial-Village')
+		Component.of('[discord] ')
+		  .clickOpenUrl('https://discord.com/invite/dreams-modpacks-512339624627011586')
           .hover('Click to visit our Discord server.')
           .aqua(),
         Component.of('server where you can communicate, ask questions or search for answers.\n'),
@@ -66,6 +56,7 @@ PlayerEvents.loggedIn(event => {
       Component.of('Welcome back!\n').bold().green(),
 
 		Component.of('In case you didn\'t see previously, '),
+		Component.of('The '),
         Component.of('Quest Book ').green(),
         Component.of('will answer most of your questions and will '),
         Component.of('show ').yellow(),
@@ -82,15 +73,15 @@ PlayerEvents.loggedIn(event => {
 		
         Component.of('If you have any issues or suggestions - '),
         Component.of('visit '),
-		Component.of(' [github] ')
+		Component.of('[github] ')
 		  .clickOpenUrl('https://github.com/dr3ams/Industrial-Village/issues')
           .hover('Opens the Industrial Village Github')
           .aqua(),
-        Component.of('page.'),
+        Component.of('page. '),
 		
         Component.of('We also have a '),
-		Component.of(' [discord] ')
-		  .clickOpenUrl('https://github.com/dr3ams/Industrial-Village')
+		Component.of('[discord] ')
+		  .clickOpenUrl('https://discord.com/invite/dreams-modpacks-512339624627011586')
           .hover('Click to visit our Discord server.')
           .aqua(),
         Component.of('server where you can communicate, ask questions or search for answers.\n'),

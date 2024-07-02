@@ -1,0 +1,4 @@
+#If true, the bridge maker is added to the redstone creative tab. 
+#If false, the bridge maker is added to the bridge maker creative tab.
+use_vanilla_tab = false
+

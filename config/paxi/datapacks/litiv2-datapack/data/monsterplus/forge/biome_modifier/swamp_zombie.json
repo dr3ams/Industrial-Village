@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#forge:is_swamp",
+  "spawners": {
+    "type": "monsterplus:swamp_zombie",
+    "weight": 150,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

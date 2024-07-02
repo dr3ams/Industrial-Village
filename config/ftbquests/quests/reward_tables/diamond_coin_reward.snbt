@@ -59,6 +59,13 @@
 		{ item: "gems:sapphire" }
 		{ item: "gems:ruby" }
 		{ item: "gems:topaz" }
+		{
+			item: {
+				Count: 1
+				id: "explorerscompass:explorerscompass"
+				tag: { }
+			}
+		}
 	]
 	title: "Diamond coin reward"
 }

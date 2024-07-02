@@ -1,4 +1,4 @@
-[XP] Fast Mapping:false
+[XP] Fast Mapping:true
 [XP] Fast Mapping Delay:250.0
 [XP] Fast Mapping Rate Limit:25.0
 [XP] Fast Zip Writes:true

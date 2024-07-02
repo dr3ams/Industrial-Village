@@ -748,8 +748,8 @@
 				title: "Shovels"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -4.0d
+			x: -1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["248343A8203E7CDC"]
@@ -788,8 +788,8 @@
 				title: "Spears"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -4.0d
+			x: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["286C78DD09FE49B1"]
@@ -2699,48 +2699,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["248343A8203E7CDC"]
-			id: "156ECC53DB98ED6A"
-			rewards: [{
-				id: "3DDABA1808D8DC1A"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "tetra:modular_single"
-					tag: {
-						Damage: 0
-						HideFlags: 1
-						honing_progress: 240
-						id: "df3e09d3-def2-4885-ad35-c3be22e7fd6b"
-						repairCount: 1
-						"single/basic_handle_material": "basic_handle/oak"
-						"single/cane_head_material": "cane_head/iron"
-						"single/handle": "single/basic_handle"
-						"single/head": "single/cane_head"
-						weapon_attributes: "{\"parent\":\"bettercombat:staff\",\"attributes\":{\"attack_range\":3.0,\"two_handed\":true,\"category\":\"staff\",\"attacks\":[{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":0.8,\"angle\":160.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:staff_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":160.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_left\",\"swing_sound\":{\"id\":\"bettercombat:staff_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"VERTICAL_PLANE\",\"damage_multiplier\":1.2,\"angle\":120.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slam\",\"swing_sound\":{\"id\":\"bettercombat:staff_slam\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
-					}
-				}
-				id: "78A2442F57B58546"
-				item: {
-					Count: 1
-					id: "itemfilters:weak_nbt"
-					tag: {
-						value: {
-							"single/head": "single/cane_head"
-						}
-					}
-				}
-				title: "Cane"
-				type: "item"
-			}]
-			title: "Cane"
-			x: -0.5d
-			y: -3.0d
-		}
-		{
 			dependencies: ["1783F3551BE3CC14"]
 			description: [
 				"- Repairing an item will require materials (and appropriate tools) for one of its modules"
@@ -2765,48 +2723,6 @@
 			title: "Repairing"
 			x: -13.0d
 			y: 1.5d
-		}
-		{
-			dependencies: ["248343A8203E7CDC"]
-			id: "6942ADE3BA8910F6"
-			rewards: [{
-				id: "71CE6FBDA7B9279C"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "tetra:modular_single"
-					tag: {
-						Damage: 0
-						HideFlags: 1
-						honing_progress: 240
-						id: "4cd4f68f-abce-4334-8010-b8c9c040cb06"
-						repairCount: 1
-						"single/handle": "single/long_handle"
-						"single/head": "single/quarter_staff_head"
-						"single/long_handle_material": "long_handle/iron"
-						"single/quarter_staff_head_material": "quarter_staff_head/gold"
-						weapon_attributes: "{\"parent\":\"bettercombat:battlestaff\",\"attributes\":{\"attack_range\":4.6,\"two_handed\":true,\"category\":\"battlestaff\",\"attacks\":[{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":0.8,\"angle\":180.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:staff_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":180.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_left\",\"swing_sound\":{\"id\":\"bettercombat:staff_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.2,\"angle\":360.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_spin\",\"swing_sound\":{\"id\":\"bettercombat:staff_spin\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"VERTICAL_PLANE\",\"damage_multiplier\":1.4,\"angle\":160.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slam\",\"swing_sound\":{\"id\":\"bettercombat:staff_slam\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":0.8,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_stab_left\",\"swing_sound\":{\"id\":\"bettercombat:staff_stab\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":0.8,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_stab_right\",\"swing_sound\":{\"id\":\"bettercombat:staff_stab\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
-					}
-				}
-				id: "693117BF342932E6"
-				item: {
-					Count: 1
-					id: "itemfilters:weak_nbt"
-					tag: {
-						value: {
-							"single/head": "single/quarter_staff_head"
-						}
-					}
-				}
-				title: "Quarter Staff"
-				type: "item"
-			}]
-			title: "Quarter Staff"
-			x: -0.5d
-			y: -2.0d
 		}
 		{
 			dependencies: ["788795772632D09F"]

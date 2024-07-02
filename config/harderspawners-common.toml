@@ -29,7 +29,7 @@
 	requiredPlayerRange = 13
 	#Hostile Spawners: Maximum Spawned Hostile Entities
 	#Range: 3 ~ 256
-	maxNearbyEntities = 5
+	maxNearbyEntities = 10
 	#Hostile Spawners: How far from spawner hostile mobs can spawn
 	#Range: 4 ~ 256
 	spawnRange = 7
@@ -42,5 +42,5 @@
 
 ["No Break Mobs Values 6464"]
 	#Trail Block String 6464
-	defaultNoBreakMobsActual = "harderspawners:default,0.2;minecraft:pig,0.0;minecraft:cow,0.0;minecraft:sheep,0.0;minecraft:parrot,0.0;minecraft:blaze,0.0;"
+	defaultNoBreakMobsActual = "harderspawners:default,1.0;minecraft:pig,0.0;minecraft:cow,0.0;minecraft:sheep,0.0;minecraft:parrot,0.0;minecraft:blaze,0.0;"
 

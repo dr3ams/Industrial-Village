@@ -160,7 +160,7 @@
 			dimensionWhitelist = []
 			#Configure max moon brightness level with darkness
 			#Range: 0.0 ~ 1.0
-			fullMoonBright = 0.25
+			fullMoonBright = 0.1
 			#Configure fog brightness on nether when darkness is enabled
 			#Range: 0.0 ~ 1.0
 			netherFogBright = 0.5

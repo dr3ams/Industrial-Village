@@ -118,22 +118,22 @@
 			#1) Every - protected from all entities not owned by a player that has chunk access.
 			#2) Not Party - all entities, except owned by a player in the same party as you.
 			#3) Not Ally - all entities, except owned by a player in any party allied by yours.
-			entitiesFromMobs = 1
+			entitiesFromMobs = 0
 			#When enabled, claimed chunk protection includes friendly (+ server configured) entities in the chunks being protected against non-living entities (e.g. arrows, falling anvils, activated TNT).
 			#
 			#1) Every - protected from all entities not owned by a player that has chunk access.
 			#2) Not Party - all entities, except owned by a player in the same party as you.
 			#3) Not Ally - all entities, except owned by a player in any party allied by yours.
-			entitiesFromOther = 1
+			entitiesFromOther = 0
 			#When enabled, instead of always simply using the direct "Protect Entities From Mobs/Other" option for entity attacks/interactions coming from non-player entities, if the attacking entity (e.g. an arrow) has an owner (e.g. a player), then the entity protection option corresponding to the owner is used (e.g. "Protect Entities From Players").
 			#Chunk access is always tested against the owner, whether this is enabled or not.
-			entitiesRedirect = true
+			entitiesRedirect = false
 			#When enabled, claimed chunk protection includes friendly (+ server configured) entities in the chunks being protected against all explosions not directly activated by the chunk owner.
-			entitiesFromExplosions = true
+			entitiesFromExplosions = false
 			#When enabled, claimed chunk protection includes friendly (+ server configured) entities in the chunks being protected against fire.
 			entitiesFromFire = true
-			#When enabled, claimed chunk protection includes protection from village raids. It stops raiders from spawning inside the protected chunks, from entering them and from hurting protectable entities, even if entity protection is turned off.
-			raids = true
+			#When enabled, false chunk protection includes protection from village raids. It stops raiders from spawning inside the protected chunks, from entering them and from hurting protectable entities, even if entity protection is turned off.
+			raids = false
 			#When enabled, claimed chunk protection includes players being protected from player attacks.
 			playersFromPlayers = false
 			#When enabled, claimed chunk protection includes players being protected from mob attacks.
@@ -165,7 +165,7 @@
 			#1) Every - protected from all entities not owned by a player that has chunk access.
 			#2) Not Party - all entities, except owned by a player in the same party as you.
 			#3) Not Ally - all entities, except owned by a player in any party allied by yours.
-			netherPortalsMobs = 1
+			netherPortalsMobs = 0
 			#When enabled, claimed chunk protection includes nether portal usage prevention for non-living entities who don't have access to the chunks. Even after the protection is turned off, a recently stopped entity is still on a short cooldown. You must let it finish without constantly retrying to push it through the portal, which restarts the cooldown.
 			#
 			#1) Every - protected from all entities not owned by a player that has chunk access.

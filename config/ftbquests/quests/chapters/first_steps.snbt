@@ -111,6 +111,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "3948140C66C9D713"
 					item: {
 						Count: 1
