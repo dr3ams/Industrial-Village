@@ -2,7 +2,7 @@
 #General
 [general]
 	#Enables ingame rewards on first spawn for Patreons
-	patreon_rewards = true
+	patreon_rewards = false
 
 #Collectibles
 [collectibles]
