@@ -1,0 +1,23 @@
+{
+  "type": "recipe-template",
+  "tag": "minecraft:logs",
+  "filter": {
+    "include": [ "_log" ],
+    "exclude": [ "stripped_" ]
+  },
+  "recipe": {
+    "crafter": "sawmill_crafting",
+    "inputs": [
+      {
+        "item": "[NS]:stripped_[PATH]"
+      }
+    ],
+    "alternate-output": [
+      {
+        "item": "[NS]:[PATH:_log=_planks]",
+		"count": 4
+      }
+    ],
+    "intermediate": "minecraft:air"
+  }
+}
