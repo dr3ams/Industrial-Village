@@ -1,0 +1,219 @@
+{
+	hide_tooltip: true
+	id: "02DAC0FA8ABE756F"
+	loot_size: 1
+	order_index: 31
+	rewards: [
+		{ item: "compactxpbottles:x64experiencebottle" }
+		{ item: "immersiveengineering:component_electronic" }
+		{ count: 2, item: "prettypipes:pipe", random_bonus: 2 }
+		{ item: "ppfluids:fluid_pipe", random_bonus: 3 }
+		{ item: "logicchips:chip", random_bonus: 3 }
+		{ count: 3, item: "immersiveengineering:dust_gold", random_bonus: 4 }
+		{ count: 3, item: "immersiveengineering:dust_aluminum", random_bonus: 6 }
+		{ item: "immersiveengineering:component_steel" }
+		{ item: "immersiveengineering:component_iron" }
+		{ item: "gems:topaz_shards", random_bonus: 1 }
+		{ item: "gems:sapphire_shards", random_bonus: 1 }
+		{ item: "gems:ruby_shards", random_bonus: 1 }
+		{ item: "collectorsalbum:common_card_package" }
+		{ item: "collectorsalbum:epic_card_package" }
+		{ item: "collectorsalbum:rare_card_package" }
+		{ item: "collectorsalbum:uncommon_card_package" }
+		{ item: "extendedcrafting:advanced_catalyst" }
+		{ item: "extendedcrafting:basic_catalyst", random_bonus: 2 }
+		{ item: "extendedcrafting:black_iron_ingot", random_bonus: 2 }
+		{ item: "extendedcrafting:black_iron_slate" }
+		{ item: "extendedcrafting:ender_ingot" }
+		{ item: "extendedcrafting:enhanced_redstone_ingot" }
+		{ item: "extendedcrafting:luminessence" }
+		{ item: "extendedcrafting:redstone_ingot" }
+		{ item: "aquaculture:treasure_chest", random_bonus: 2 }
+		{ count: 2, item: "aquaculture:lockbox", random_bonus: 2 }
+		{ count: 2, item: "aquaculture:box", random_bonus: 3 }
+		{ item: "minecraft:anvil" }
+		{ count: 3, item: "immersiveengineering:dust_steel", random_bonus: 4 }
+		{ count: 2, item: "immersiveengineering:dust_silver", random_bonus: 3 }
+		{ count: 3, item: "immersiveengineering:dust_lead", random_bonus: 2 }
+		{ count: 3, item: "immersiveengineering:dust_iron", random_bonus: 3 }
+		{ count: 2, item: "immersiveengineering:plate_silver", random_bonus: 3 }
+		{ count: 2, item: "immersiveengineering:wirecoil_redstone", random_bonus: 4 }
+		{ item: "immersiveengineering:wirecoil_steel" }
+		{ item: "immersiveengineering:plate_steel", random_bonus: 1 }
+		{ count: 2, item: "immersiveengineering:plate_nickel", random_bonus: 1 }
+		{ count: 2, item: "immersiveengineering:plate_lead", random_bonus: 1 }
+		{ item: "immersiveengineering:plate_iron", random_bonus: 1 }
+		{ count: 2, item: "immersiveengineering:plate_gold", random_bonus: 2 }
+		{ count: 2, item: "immersiveengineering:plate_electrum", random_bonus: 2 }
+		{ count: 2, item: "immersiveengineering:plate_aluminum", random_bonus: 2 }
+		{ item: "immersiveengineering:mold_wire" }
+		{ item: "immersiveengineering:mold_unpacking" }
+		{ item: "immersiveengineering:mold_rod" }
+		{ item: "immersiveengineering:mold_plate" }
+		{ count: 3, item: "immersiveengineering:hemp_fiber", random_bonus: 11 }
+		{ count: 2, item: "immersiveengineering:ingot_aluminum", random_bonus: 5 }
+		{ count: 5, item: "immersiveengineering:ingot_electrum", random_bonus: 3 }
+		{ count: 3, item: "immersiveengineering:ingot_lead", random_bonus: 4 }
+		{ count: 4, item: "immersiveengineering:ingot_nickel", random_bonus: 3 }
+		{ count: 4, item: "immersiveengineering:ingot_silver", random_bonus: 3 }
+		{ count: 2, item: "immersiveengineering:ingot_steel", random_bonus: 1 }
+		{ count: 4, item: "immersiveengineering:ingot_uranium", random_bonus: 6 }
+		{ item: "immersiveengineering:jerrycan" }
+		{ item: "immersiveengineering:mold_gear" }
+		{ count: 4, item: "immersiveengineering:fertilizer", random_bonus: 7 }
+		{ item: "immersiveengineering:stick_iron" }
+		{ count: 2, item: "immersiveengineering:stick_aluminum", random_bonus: 4 }
+		{ count: 4, item: "immersiveengineering:raw_nickel", random_bonus: 5 }
+		{ count: 5, item: "immersiveengineering:raw_lead", random_bonus: 2 }
+		{ count: 5, item: "immersiveengineering:raw_aluminum", random_bonus: 4 }
+		{ count: 7, item: "railcraft:charcoal_dust", random_bonus: 6 }
+		{ item: "quark:redstone_randomizer" }
+		{ item: "prettypipes:high_retrieval_module" }
+		{ item: "ppfluids:high_fluid_retrieval_module" }
+		{ item: "pneumaticcraft:upgrade_matrix", random_bonus: 2 }
+		{ count: 10, item: "railcraft:sulfur_dust", random_bonus: 6 }
+		{ count: 2, item: "pneumaticcraft:plastic", random_bonus: 3 }
+		{ count: 3, item: "immersiveengineering:wirecoil_structure_rope", random_bonus: 5 }
+		{ item: "pneumaticcraft:logistics_core" }
+		{ item: "immersiveengineering:wirecoil_structure_steel" }
+		{ item: "kubejs:diamond_dust", random_bonus: 2 }
+		{ count: 2, item: "mffs:focus_matrix", random_bonus: 2 }
+		{ item: "minecraft:comparator" }
+		{ item: "minecraft:glow_item_frame", random_bonus: 4 }
+		{ item: "minecraft:repeater" }
+		{ count: 2, item: "pneumaticcraft:bandage", random_bonus: 3 }
+		{ item: "pneumaticcraft:capacitor", random_bonus: 1 }
+		{ item: "pneumaticcraft:compressed_iron_gear" }
+		{ count: 2, item: "immersiveengineering:wirecoil_electrum_ins", random_bonus: 3 }
+		{ count: 3, item: "immersiveengineering:wirecoil_electrum", random_bonus: 5 }
+		{ count: 2, item: "immersiveengineering:wirecoil_copper_ins", random_bonus: 5 }
+		{ count: 2, item: "immersiveengineering:wirecoil_copper", random_bonus: 3 }
+		{ count: 2, item: "immersiveengineering:stick_steel", random_bonus: 4 }
+		{ count: 2, item: "supplementaries:bomb", random_bonus: 5 }
+		{ count: 10, item: "railcraft:saltpeter_dust", random_bonus: 4 }
+		{ count: 4, item: "railcraft:slag", random_bonus: 7 }
+		{ count: 3, item: "refinedstorage:processor_binding", random_bonus: 4 }
+		{ item: "refinedstorage:raw_basic_processor" }
+		{ count: 3, item: "railcraft:coal_coke", random_bonus: 5 }
+		{ count: 5, item: "railcraft:coal_dust", random_bonus: 6 }
+		{ count: 2, item: "railcraft:ender_dust", random_bonus: 4 }
+		{ count: 2, item: "railcraft:obsidian_dust", random_bonus: 4 }
+		{ item: "tetra:pristine_lapis" }
+		{ item: "tetra:pristine_emerald" }
+		{ item: "tetra:pristine_diamond" }
+		{ item: "tetra:pristine_amethyst" }
+		{ item: "tetra:metal_scrap" }
+		{ item: "tetra:forged_mesh" }
+		{ item: "tetra:forged_bolt" }
+		{ item: "tetra:forged_beam" }
+		{ item: "supplementaries:statue" }
+		{ item: "supplementaries:hat_stand" }
+		{ item: "supplementaries:globe" }
+		{ count: 2, item: "immersiveengineering:coke", random_bonus: 2 }
+		{ item: "immersiveengineering:coal_coke" }
+		{ count: 3, item: "kubejs:raw_silicon", random_bonus: 4 }
+		{ item: "railcraft:iron_gear", random_bonus: 2 }
+		{ count: 2, item: "railcraft:gold_gear", random_bonus: 2 }
+		{ item: "vintagedelight:fruity_granola_bar" }
+		{ item: "farmersdelight:potato_crate" }
+		{ item: "farmersdelight:beetroot_crate" }
+		{ item: "farmersdelight:carrot_crate" }
+		{ item: "farmersdelight:tomato_crate" }
+		{ item: "fruitfulfun:grapefruit_sapling" }
+		{ item: "fruitfulfun:lemon_sapling" }
+		{ item: "fruitfulfun:orange_sapling" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:netherite_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "natprog:diamond_saw"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.5f
+		}
+		{ item: "fluxnetworks:flux_point", weight: 0.5f }
+		{ item: "fluxnetworks:flux_plug", weight: 0.5f }
+		{ item: "fruitfulfun:apple_sapling" }
+		{
+			item: {
+				Count: 1
+				id: "natprog:netherite_saw"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.5f
+		}
+		{ item: "fruitfulfun:pomegranate_sapling" }
+		{ item: "fruitfulfun:tangerine_sapling" }
+		{ item: "fruitfulfun:lime_sapling" }
+		{ item: "fruitfulfun:citron_sapling" }
+		{ item: "fruitfulfun:pomelo_sapling" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 4, item: "railcraft:invar_ingot", random_bonus: 3 }
+		{ item: "immersiveengineering:ingot_hop_graphite" }
+		{ count: 3, item: "railcraft:tin_ingot", random_bonus: 4 }
+		{ item: "pneumaticcraft:compressed_iron_gear" }
+		{ item: "industrialforegoing:diamond_gear" }
+		{ item: "torchmaster:megatorch" }
+		{ item: "vintagedelight:cucumber" }
+		{ item: "vintagedelight:ghostly_chili" }
+		{ item: "vintagedelight:cucumber_salad" }
+		{ item: "farmersdelight:pumpkin_slice" }
+		{ item: "miners_delight:baked_cave_carrot" }
+		{ item: "miners_delight:cooked_arthropod" }
+		{ item: "farmersdelight:kelp_roll" }
+		{ item: "farmersdelight:cabbage_rolls" }
+		{ item: "vintagedelight:cucumber_seeds" }
+		{ item: "vintagedelight:deluxe_granola_bar" }
+		{ item: "miners_delight:bone_broth_cup" }
+		{ item: "vintagedelight:ghost_pepper" }
+		{ item: "vintagedelight:oat_seeds" }
+		{ item: "miners_delight:cave_soup_cup" }
+		{ item: "miners_delight:insect_stew_cup" }
+		{ item: "miners_delight:bat_soup_cup" }
+		{ item: "miners_delight:fish_stew_cup" }
+		{ item: "miners_delight:vegan_wrap" }
+		{ item: "farmersdelight:hamburger" }
+		{ item: "farmersdelight:tomato_seeds" }
+		{ item: "farmersdelight:cabbage_seeds" }
+		{ item: "vintagedelight:pepper_jam_mason_jar" }
+		{ item: "vintagedelight:gearo_berry_mason_jar" }
+		{ item: "vintagedelight:glow_berry_mason_jar" }
+		{ item: "vintagedelight:vinegar_mason_jar" }
+		{ item: "vintagedelight:chocolate_nut_granola_bar" }
+		{ item: "miners_delight:baked_cod_stew_cup" }
+		{ item: "miners_delight:bat_cookie" }
+		{ item: "miners_delight:improvised_barbecue_stick" }
+	]
+	title: "Dungeon coin reward"
+}

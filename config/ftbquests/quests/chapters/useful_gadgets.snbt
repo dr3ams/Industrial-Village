@@ -989,17 +989,6 @@
 			y: -2.5d
 		}
 		{
-			description: ["Throwable explosive that has a high efficiency against stone. Drops all blocks it destroys."]
-			id: "00E09F995A3398BE"
-			tasks: [{
-				id: "1BD384E7312659F6"
-				item: "gag:mining_dynamite"
-				type: "item"
-			}]
-			x: 8.5d
-			y: -1.5d
-		}
-		{
 			description: ["Throwable explosive that only works underwater and deals increased damage to fish. Perfect if you don't like fishing!"]
 			id: "1CEB1F86943ED8CE"
 			tasks: [{

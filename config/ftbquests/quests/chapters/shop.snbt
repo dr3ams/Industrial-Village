@@ -1,4 +1,5 @@
 {
+	autofocus_id: "2146186B43D64F53"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	disable_toast: true
@@ -44,7 +45,7 @@
 			image: "industrialforegoing:block/villager_trade_exchanger_front"
 			rotation: 0.0d
 			width: 5.0d
-			x: -2.0d
+			x: 0.0d
 			y: -5.0d
 		}
 		{
@@ -69,6 +70,14 @@
 			rotation: 0.0d
 			width: 0.4d
 			x: 2.0d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:item/monster_coin"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.0d
 			y: -2.0d
 		}
 	]
@@ -599,6 +608,30 @@
 			title: "Passive Skill Tree reset"
 			x: -4.0d
 			y: 5.0d
+		}
+		{
+			can_repeat: true
+			description: ["• Acquired from &6dungeon&r chests and breaking &cspawners&r"]
+			disable_toast: true
+			id: "78F9882C7D8B91FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AE738EE58CC3487"
+				table_id: 205688915300873583L
+				type: "random"
+			}]
+			shape: "octagon_important"
+			size: 2.0d
+			subtitle: "&2&oRandom repeatable reward with a random bonus&r&r"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "7E70861257FB7C9C"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
 		}
 	]
 	title: "&l&fCoins Exchange&r&r"

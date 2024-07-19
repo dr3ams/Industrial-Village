@@ -92,7 +92,6 @@
 		{ item: "minecraft:glow_lichen" }
 		{ item: "minecraft:vine" }
 		{ item: "minecraft:experience_bottle" }
-		{ item: "gag:mining_dynamite" }
 		{ item: "minecraft:slime_ball" }
 		{ count: 4, item: "minecraft:oak_log" }
 		{ count: 4, item: "minecraft:spruce_log" }

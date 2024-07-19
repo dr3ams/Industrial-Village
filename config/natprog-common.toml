@@ -1,57 +1,42 @@
 
-#Settings that affect the way world generation is done
-["World Generation"]
+#Miscellaneous
+[general]
 	#The maximum number of twigs that can be found in each chunk
 	#Range: 0 ~ 256
 	maxTwigsPerChunk = 3
-	#The maximum number of pebbles that can be found in each chunk
-	#Range: 0 ~ 256
-	maxPebblesPerChunk = 5
-
-#Settings that change how the player interacts with twigs, pebbles and the world
-["Player Interactions"]
-	#Enabling this causes all entities to drop additional bones when killed
-	allEntitiesDropBones = false
-	#Setting this to false will disable the knapping mechanic entirely - a substitute mechanic for obtaining tools or flint will need to be added by the pack developer
-	enableKnapping = true
+	#Setting this to true will let players know that they can't break certain blocks without a certain tool
+	showToolHelp = true
 	#The chance (out of 100) that a bone can drop from the entities in 'boneDropMobs'.
 	#Setting this to 0 disables this feature
 	#Range: 0 ~ 100
-	boneDropFromMobsChance = 30
-	#Setting this to true will allow players to place Twigs by Right-Clicking a Stick on a solid surface
-	areTwigsPlaceable = true
-	#The chance (out of 100) for bone to be created via knapping.
-	#e.g.: Setting to 75 means there is a 75% chance knapping will provide a bone shard.
-	#Range: 1 ~ 100
-	boneShardKnappingChance = 75
+	boneDropFromMobsChance = 50
+	#Setting this to false will disable the knapping mechanic entirely - a substitute mechanic for obtaining tools or flint will need to be added by the pack developer
+	enableKnapping = true
 	#The chance (out of 100) for flint to be created via knapping.
 	#e.g.: Setting to 75 means there is a 75% chance knapping will provide flint.
 	#Range: 1 ~ 100
 	flintKnappingChance = 75
-	#Setting this to true will allow you to replace pebbles like tall grass (more convenient for building, but loses the block forever
-	arePebblesReplaceable = true
-
-#Settings for disabling the functionality of tools as a whole
-["Tool Functionality"]
-	#Setting this to true will damage players that attempt to break blocks with the incorrect tool
-	incorrectToolDamage = false
 	#Make disabled tools completely useless - can't even break grass.
 	toolNeutering = true
-	#Does nothing if [toolNeutering] is set to False.
-	#Setting this to true prevents the ability to use wooden tools, though you can still craft them for compatibility.
-	removeWoodenToolFunctionality = true
-	#Does nothing if [toolNeutering] is set to False.
 	#Setting this to true prevents the ability to use stone tools, though you can still craft them for compatibility.
 	removeStoneToolFunctionality = true
-
-	#Settings that change the way the player is able to break blocks without the right tool
-	["Tool Functionality"."Bare-handed Punching Functionality"]
-		#Setting this to true will let players know that they can't break certain blocks without a certain tool
-		showToolHelp = true
-		#Setting this to true will allow punching stone-like materials with your bare hand without being damaged
-		enableStonePunching = false
-		#Setting this to true will allow punching wooden materials with your bare hand without being damaged
-		enableWoodPunching = false
-		#Setting this to true will make ground blocks (e.g. sand, dirt, gravel) harder to break without the correct tool.
-		makeGroundBlocksHarder = true
+	#Setting this to true will allow you to replace pebbles like tall grass (more convenient for building, but loses the block forever
+	arePebblesReplaceable = true
+	#Setting this to true will damage players that attempt to break blocks with the incorrect tool
+	incorrectToolDamage = false
+	#The maximum number of pebbles that can be found in each chunk
+	#Range: 0 ~ 256
+	maxPebblesPerChunk = 5
+	#Enabling this causes all entities to drop additional bones when killed
+	allEntitiesDropBones = false
+	#Setting this to true will allow players to place Twigs by Right-Clicking a Stick on a solid surface
+	areTwigsPlaceable = false
+	#The chance (out of 100) for bone to be created via knapping.
+	#e.g.: Setting to 75 means there is a 75% chance knapping will provide a bone shard.
+	#Range: 1 ~ 100
+	boneShardKnappingChance = 75
+	#Setting this to true will make ground blocks (e.g. sand, dirt, gravel) harder to break without the correct tool.
+	makeGroundBlocksHarder = true
+	#Setting this to true prevents the ability to use wooden tools, though you can still craft them for compatibility.
+	removeWoodenToolFunctionality = true
 

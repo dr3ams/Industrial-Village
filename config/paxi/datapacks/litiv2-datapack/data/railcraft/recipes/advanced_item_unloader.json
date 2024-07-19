@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "tag": "forge:ingots/steel"
+    },
+    "b": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "railcraft:item_unloader"
+    },
+    "d": {
+      "item": "immersiveengineering:shovel_steel"
+    }
+  },
+  "pattern": [
+    "aba",
+    "bcb",
+    "ada"
+  ],
+  "result": {
+    "item": "railcraft:advanced_item_unloader"
+  },
+  "show_notification": true
+}

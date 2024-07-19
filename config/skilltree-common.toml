@@ -17,7 +17,7 @@
 
 [Gems]
 	#Range: 0.0 ~ 1.0
-	"Base drop chance" = 0.025
+	"Base drop chance" = 0.05
 
 [Equipment]
 	#Range: 0 ~ 4
