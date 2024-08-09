@@ -32,7 +32,7 @@
 	toggle_clover_plains = true
 	toggle_cold_boreal_taiga = true
 	toggle_cold_deciduous_forest = true
-	toggle_cold_river = true
+	toggle_cold_river = false
 	toggle_deciduous_forest = true
 	toggle_dry_bushland = true
 	toggle_eucalyptus_forest = false
@@ -47,7 +47,7 @@
 	toggle_gravel_beach = true
 	toggle_highland_fields = true
 	toggle_hyacinth_deeps = false
-	toggle_icy_desert = true
+	toggle_icy_desert = false
 	toggle_icy_heights = true
 	toggle_joshua_desert = false
 	toggle_magnolia_woodland = true
@@ -56,10 +56,10 @@
 	toggle_mauve_hills = false
 	toggle_meadow = false
 	toggle_mountains = true
-	toggle_muddy_river = true
+	toggle_muddy_river = false
 	toggle_old_growth_bayou = true
 	toggle_orchard = true
-	toggle_outback = true
+	toggle_outback = false
 	toggle_pine_slopes = true
 	toggle_pine_taiga = true
 	toggle_poppy_fields = false

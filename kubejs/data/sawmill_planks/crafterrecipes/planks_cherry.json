@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+    "crafter": "sawmill_sawmill_planks",
+    "inputs": [
+      {
+        "item": "minecraft:cherry_log"
+      }
+    ],
+    "result": "minecraft:cherry_planks",
+    "count": 4,
+    "tool": "saws"
+}

@@ -43,19 +43,19 @@
       }
     },
     {
-      "probability": 0.00005,
+      "probability": 0.0005,
       "result": {
         "item": "gems:sapphire_shards"
 		}
     },
 	{
-      "probability": 0.00005,
+      "probability": 0.0005,
       "result": {
         "item": "gems:topaz_shards"
 		}
     },
     {
-      "probability": 0.00005,
+      "probability": 0.0005,
       "result": {
         "item": "gems:ruby_shards"
       }

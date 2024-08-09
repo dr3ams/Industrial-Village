@@ -1,0 +1,34 @@
+{
+	id: "1589C21C7BA9B8EE"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Flowers"
+		string_id: "flowers"
+	}
+	loot_size: 1
+	order_index: 40
+	rewards: [
+		{ count: 8, item: "minecraft:white_tulip" }
+		{ count: 8, item: "minecraft:pink_tulip" }
+		{ count: 8, item: "minecraft:oxeye_daisy" }
+		{ count: 8, item: "minecraft:cornflower" }
+		{ count: 8, item: "minecraft:lily_of_the_valley" }
+		{ count: 8, item: "minecraft:peony" }
+		{ count: 8, item: "minecraft:rose_bush" }
+		{ count: 8, item: "minecraft:dandelion" }
+		{ count: 8, item: "minecraft:poppy" }
+		{ count: 8, item: "minecraft:blue_orchid" }
+		{ count: 8, item: "minecraft:allium" }
+		{ count: 8, item: "minecraft:azure_bluet" }
+		{ count: 8, item: "minecraft:red_tulip" }
+		{ count: 8, item: "minecraft:orange_tulip" }
+		{ count: 8, item: "minecraft:lilac" }
+	]
+	title: "Flowers"
+	use_title: true
+}

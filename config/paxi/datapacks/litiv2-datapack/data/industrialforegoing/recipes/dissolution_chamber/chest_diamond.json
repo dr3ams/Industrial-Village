@@ -1,0 +1,35 @@
+{
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+          {
+            "item": "minecraft:diamond"
+          },
+          {
+            "item": "ironchest:gold_chest"
+          },
+		  {
+            "item": "minecraft:diamond"
+          },
+          {
+            "item": "gems:sapphire"
+          },
+          {
+            "item": "gems:ruby"
+          },
+          {
+            "item": "minecraft:diamond"
+          },
+          {
+            "item": "gems:topaz"
+          },
+          {
+            "item": "minecraft:diamond"
+          }
+  ],
+  "inputFluid": "{Amount:1000,FluidName:\"pneumaticcraft:lubricant\"}",
+  "output": {
+    "count": 1,
+    "item": "ironchest:diamond_chest"
+  },
+  "processingTime": 1000
+}

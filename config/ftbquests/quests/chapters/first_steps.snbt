@@ -356,8 +356,28 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["1F0DD2230C60451E"]
-			description: ["Watch out for lava when digging for these!"]
+			dependencies: ["0000000000000058"]
+			description: [
+				"To mine &n&8Deepslate&r ores&r you will need &bdiamond&r level pickaxe."
+				""
+				"You have several options here:"
+				""
+				"&41)&r find non-deepslate &bdiamond ore&r in the stone layer (around y 14). You might need to do a &olittle&r strip mining"
+				""
+				"&12)&r &aupgrade&r a Tetra pickaxe that has mining tier 4 to tier 5 (6 mining eff hones)"
+				""
+				"&53)&r &cbomb&r the &8deepslate&r &bdiamond&r ore"
+				""
+				"&94)&r find Tetra geodes(it looks exactly like &8deepslate&r but has a sparkle effect like gold does) and break them open for &bdiamonds&r or &3pristine diamond&r (you can break pristine diamonds into 3 regular diamonds)"
+				""
+				"&a5)&r go gambling with the &6Minecolonies&r sifter (not recommend for first diamonds though)"
+				""
+				"&e6)&r go gambling with dungeons/structures &5loot&r"
+				""
+				"&47)&r trade with &2villagers&r"
+				""
+				"&68)&r rare loot in cave urns"
+			]
 			id: "0000000000000061"
 			rewards: [
 				{
@@ -378,7 +398,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0000000000000058"]
@@ -682,28 +702,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0000000000000058"]
-			id: "1F0DD2230C60451E"
-			rewards: [{
-				id: "0470FA4C18BCE41F"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "160CC432BE17B445"
-				item: {
-					Count: 1
-					id: "minecraft:iron_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 12.0d
-			y: -1.5d
-		}
-		{
 			dependencies: ["0000000000000073"]
 			id: "17D40C31AE0D09FD"
 			rewards: [{
@@ -920,17 +918,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "70DAFABDF47104FF"
-				item: {
-					Count: 1
-					id: "farmersdelight:flint_knife"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "70DAFABDF47104FF"
+					item: {
+						Count: 1
+						id: "farmersdelight:flint_knife"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "203C95DFEA1DFBC9"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 1.5d
 		}
@@ -1043,6 +1048,22 @@
 			}]
 			x: 6.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["0000000000000058"]
+			id: "6C05D8CFDC755EE2"
+			rewards: [{
+				id: "6CCD369FBA70A833"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5C382E510BEF2A25"
+				item: "ironchest:copper_chest"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
 		}
 	]
 	title: "1. &aFirst Steps&r"

@@ -126,6 +126,11 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "2A3B2BA6F17842E1"
+					item: "kubejs:proofofwork"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "00000000000000DB"
@@ -216,6 +221,11 @@
 					id: "7E7F55420D1B53D7"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "0A232C60D9528BEB"
+					item: "kubejs:proofofwork"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -313,6 +323,11 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "5B995C5726F7FAF6"
+					item: "kubejs:proofofwork"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "00000000000000E3"
@@ -341,6 +356,11 @@
 					id: "2833DF439978244F"
 					item: "kubejs:emerald_nugget"
 					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "07F09CFB7A47CEE8"
+					item: "kubejs:proofofwork"
 					type: "item"
 				}
 			]
@@ -392,6 +412,11 @@
 					id: "665420B9F49A3D03"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "36DA823ED749CFB7"
+					item: "kubejs:proofofwork"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -496,6 +521,11 @@
 					random_bonus: 4
 					type: "item"
 				}
+				{
+					id: "628E3D1D2B370D20"
+					item: "kubejs:proofofwork"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "00000000000000EB"
@@ -544,6 +574,11 @@
 					id: "605BEDA01CE29BE8"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "0B923815B8D1A65F"
+					item: "kubejs:proofofwork"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -608,6 +643,11 @@
 					random_bonus: 2
 					type: "item"
 				}
+				{
+					id: "10DEE174718CD893"
+					item: "kubejs:proofofwork"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "00000000000000F3"
@@ -638,6 +678,11 @@
 					item: "kubejs:copper_coin"
 					type: "item"
 				}
+				{
+					id: "7B23E0E8FF6ED52D"
+					item: "kubejs:proofofwork"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "00000000000000F5"
@@ -666,6 +711,11 @@
 					id: "470B8AAECF851119"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "6DFC377DF0EB05F1"
+					item: "kubejs:proofofwork"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -698,6 +748,11 @@
 					item: "kubejs:iron_coin"
 					type: "item"
 				}
+				{
+					id: "59F78ADB1C3641F0"
+					item: "kubejs:proofofwork"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "00000000000000F9"
@@ -726,6 +781,11 @@
 					id: "7AED896A025E731F"
 					item: "kubejs:emerald_nugget"
 					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "24C214BE567AD045"
+					item: "kubejs:proofofwork"
 					type: "item"
 				}
 			]
@@ -794,6 +854,11 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "08C978ACC9C32BC0"
+					item: "kubejs:proofofwork"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "27FFDD903B5037AA"
@@ -833,6 +898,11 @@
 							Potion: "biomemakeover:adrenaline"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "374632AD57BDAD52"
+					item: "kubejs:proofofwork"
 					type: "item"
 				}
 			]
@@ -896,6 +966,11 @@
 					item: "minecraft:arrow"
 					type: "item"
 				}
+				{
+					id: "03B3F0C3DCB6B9C3"
+					item: "kubejs:proofofwork"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "05E07D1768DC7346"
@@ -937,6 +1012,11 @@
 					id: "76016307EE8D9663"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "45A949A11F8CCF72"
+					item: "kubejs:proofofwork"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1200,6 +1280,11 @@
 					item: "kubejs:copper_coin"
 					type: "item"
 				}
+				{
+					id: "6E2F195D26FD0337"
+					item: "kubejs:proofofwork"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "2C10D33E733128F4"
@@ -1254,6 +1339,11 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "3E9E0218FB70CE2E"
+					item: "kubejs:proofofwork"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "0A35E8D7E10CB9C4"
@@ -1297,6 +1387,11 @@
 					item: "minecraft:andesite"
 					type: "item"
 				}
+				{
+					id: "534BDE3031201130"
+					item: "kubejs:proofofwork"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "079A2E5CC6445B71"
@@ -1328,6 +1423,11 @@
 				{
 					id: "7C00E8B92E9E160B"
 					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "553091C37C1D20F9"
+					item: "kubejs:proofofwork"
 					type: "item"
 				}
 			]
@@ -1362,6 +1462,11 @@
 					item: "minecraft:stone"
 					type: "item"
 				}
+				{
+					id: "3A05FB115CF23729"
+					item: "kubejs:proofofwork"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "000000000000011A"
@@ -1386,6 +1491,11 @@
 					id: "00000000000002FD"
 					type: "xp_levels"
 					xp_levels: 2
+				}
+				{
+					id: "714DEAA4FE668573"
+					item: "kubejs:proofofwork"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1420,6 +1530,11 @@
 					count: 32
 					id: "65ADA3C93ACC3132"
 					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "001D8ADA83D638EE"
+					item: "kubejs:proofofwork"
 					type: "item"
 				}
 			]
@@ -1575,6 +1690,11 @@
 					item: "minecraft:glass"
 					type: "item"
 				}
+				{
+					id: "782F1C0B6B7B1965"
+					item: "kubejs:proofofwork"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "63FB446754882BD0"
@@ -1616,6 +1736,11 @@
 					item: "kubejs:copper_coin"
 					type: "item"
 				}
+				{
+					id: "3A064B293E5855F2"
+					item: "kubejs:proofofwork"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "141C1C26BFF2F943"
@@ -1655,6 +1780,11 @@
 				{
 					id: "56E6C2527B0505AC"
 					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "74C8E2EF455EAFA7"
+					item: "kubejs:proofofwork"
 					type: "item"
 				}
 			]
@@ -1705,6 +1835,11 @@
 					random_bonus: 5
 					type: "item"
 				}
+				{
+					id: "53041891BF5BDF08"
+					item: "kubejs:proofofwork"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "409E9960D6DA64EC"
@@ -1733,6 +1868,11 @@
 					id: "4BBC8654CFB0393C"
 					item: "kubejs:emerald_nugget"
 					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "171B8E27A3162FBB"
+					item: "kubejs:proofofwork"
 					type: "item"
 				}
 			]
@@ -1925,6 +2065,12 @@
 					random_bonus: 7
 					type: "item"
 				}
+				{
+					count: 2
+					id: "43E57797DE194A1D"
+					item: "kubejs:proofofwork"
+					type: "item"
+				}
 			]
 			subtitle: "Have 25 citizens"
 			tasks: [{
@@ -1960,6 +2106,12 @@
 					id: "0899DD3567EC57C3"
 					item: "kubejs:emerald_nugget"
 					random_bonus: 14
+					type: "item"
+				}
+				{
+					count: 5
+					id: "03915DDF88679993"
+					item: "kubejs:proofofwork"
 					type: "item"
 				}
 			]
@@ -2001,11 +2153,19 @@
 		{
 			dependencies: ["557DE4B851A81D4A"]
 			id: "0D576E61BC0E0E26"
-			rewards: [{
-				id: "329D47BCD2924DA3"
-				item: "kubejs:gold_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "329D47BCD2924DA3"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "353E13870C21B099"
+					item: "kubejs:proofofwork"
+					type: "item"
+				}
+			]
 			subtitle: "Train 30 soldiers"
 			tasks: [{
 				advancement: "minecolonies:military/army_30"
@@ -2019,11 +2179,19 @@
 		{
 			dependencies: ["0D576E61BC0E0E26"]
 			id: "2301392C37F63AAC"
-			rewards: [{
-				id: "4189B8D95155D9B2"
-				item: "kubejs:diamond_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4189B8D95155D9B2"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "03076C9D87C37154"
+					item: "kubejs:proofofwork"
+					type: "item"
+				}
+			]
 			subtitle: "Have an army of 80"
 			tasks: [{
 				advancement: "minecolonies:military/army_80"
@@ -2082,6 +2250,11 @@
 				"The Postbox allows players to request items from the Warehouse."
 			]
 			id: "7BEB51CBF1936298"
+			rewards: [{
+				id: "3361B2708CAC3686"
+				type: "xp"
+				xp: 300
+			}]
 			tasks: [
 				{
 					id: "1E1F1B6CC181BFBE"

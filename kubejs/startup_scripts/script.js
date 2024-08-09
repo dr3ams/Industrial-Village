@@ -17,6 +17,10 @@ event.create('iron_coin').displayName('Iron Coin').tooltip('Acquired through que
 event.create('gold_coin').displayName('Gold Coin').tooltip('Acquired through quests').rarity('Rare')
 event.create('diamond_coin').displayName('Diamond Coin').tooltip('Acquired through quests').rarity('Epic')
 event.create('monster_coin').displayName('Dungeon Coin').rarity('Rare')
+event.create('proofofwork').displayName('Proof Of Work').rarity('Rare')
+
+
+event.create('obsidian_plate').displayName('Obsidian Plate')
 
 event.create('diamond_nugget').displayName('Diamond Nugget')
 event.create('diamond_dust').displayName('Diamond Dust')

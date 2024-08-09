@@ -61,6 +61,10 @@
           "type": "minecraft:item",
           "name": "gems:topaz_shards",
           "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:proofofwork"
         }
       ],
       "rolls": 1.0

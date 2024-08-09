@@ -35,6 +35,9 @@
 		{ item: "minecraft:netherite_scrap" }
 		{ count: 8, item: "immersiveengineering:raw_aluminum" }
 		{ count: 8, item: "immersiveengineering:raw_silver" }
+		{ item: "gems:topaz_shards" }
+		{ item: "gems:sapphire_shards" }
+		{ item: "gems:ruby_shards" }
 	]
 	title: "Ores 2"
 	use_title: true

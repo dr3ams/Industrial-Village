@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+    "crafter": "sawmill_sawmill_planks",
+    "inputs": [
+      {
+        "item": "minecraft:jungle_log"
+      }
+    ],
+    "result": "minecraft:jungle_planks",
+    "count": 4,
+    "tool": "saws"
+}

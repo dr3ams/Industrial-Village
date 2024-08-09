@@ -67,6 +67,7 @@ LootJS.modifiers((event) => {
 	
 	event.addBlockLootModifier('minecraft:spawner')
     .addLoot('kubejs:monster_coin')
+    .addLoot('compactxpbottles:x4experiencebottle').randomChance(0.8)
 	
 	
     event.addLootTypeModifier(LootType.CHEST)

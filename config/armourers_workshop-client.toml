@@ -137,4 +137,8 @@
 	#3 = model_replace_aw (render using a aw model - faster, less compatible)
 	#Range: -1 ~ 2
 	texturePaintingType = 0
+	#Shows animation running states in logs.
+	animation = false
+	#Shows molang compile states in logs.
+	molang = false
 

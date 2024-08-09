@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:blueprint","category":"components","inputs":[{"base_ingredient":{"tag":"forge:plates/iron"},"count":6},{"item":"immersiveengineering:plate_copper"}],"result":{"item":"ironchest:copper_to_iron_chest_upgrade"}}

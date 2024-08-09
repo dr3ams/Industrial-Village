@@ -1,0 +1,24 @@
+{
+	id: "2018E0E3EEF4A682"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Spawn Eggs"
+		string_id: "spawn_eggs"
+	}
+	loot_size: 1
+	order_index: 39
+	rewards: [
+		{ count: 2, item: "minecraft:bee_spawn_egg" }
+		{ count: 2, item: "minecraft:chicken_spawn_egg" }
+		{ count: 2, item: "minecraft:cow_spawn_egg" }
+		{ count: 2, item: "minecraft:sheep_spawn_egg" }
+		{ count: 2, item: "minecraft:pig_spawn_egg" }
+	]
+	title: "Spawn Eggs"
+	use_title: true
+}

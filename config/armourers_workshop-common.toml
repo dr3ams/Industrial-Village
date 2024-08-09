@@ -63,6 +63,8 @@
 	#2 = always drop
 	#Range: 0 ~ 2
 	playerDropSkinsOnDeath = 0
+	#Only allows the player place to skin item into slots.
+	onlySkinIntoSlots = false
 
 #Setting for the library blocks.
 [library]
@@ -109,4 +111,11 @@
 	enableMatchingByItemId = true
 	#If the matching system wrong, you can add the item id here to this ignore it.
 	matchingBlacklistByItemId = []
+
+#Setting for the Database.
+[database]
+	#Save/Load skin data for the database.
+	#example1: "jdbc:mysql://<localhost>[:3306]/<database>[?user=<username>][&password=<password>]"
+	#example2: "jdbc:sqlite://</path/name.db>"
+	skin = ""
 

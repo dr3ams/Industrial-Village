@@ -3,7 +3,7 @@
 	default_quest_shape: "square"
 	filename: "advanced_storage"
 	group: "4CB4EEA3591AD759"
-	icon: "refinedstorage:controller"
+	icon: "refinedstorage:creative_controller"
 	id: "000000000000011B"
 	images: [
 		{

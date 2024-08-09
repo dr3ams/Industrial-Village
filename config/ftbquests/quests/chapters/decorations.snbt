@@ -749,14 +749,9 @@
 		{
 			id: "375BB2A834D94DC3"
 			rewards: [{
-				id: "7D262DCEA7899D6F"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "random_mob_drops"
-					}
-				}
+				count: 16
+				id: "06D38782D4FA293A"
+				item: "minecraft:stone_bricks"
 				type: "item"
 			}]
 			tasks: [{

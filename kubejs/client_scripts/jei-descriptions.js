@@ -15,4 +15,37 @@ event.addItem('#forge:pebbles', ["By holding a Pebble in both of your hands and 
 	event.addItem('gag:mining_dynamite', ["This item can be bought in the Coin Exchange chapter for Quest Coins (Quest Book)"])
 	event.addItem('gag:labeling_tool', ["This item can be bought in the Coin Exchange chapter for Quest Coins (Quest Book)"])
   
+    event.addItem('gems:topaz_shards', ['Can be acquired from: ', 
+	'• Minecolonies Sifter', 
+	'• Mining underground', 
+	'• Breaking Tetra geodes', 
+	'• Crushing Fossils', 
+	'• Geodes in Mining Dimension', 
+	'• Cave Urn loot', 
+	'• Quest Coin reward', 
+	'• Dungeon Coin reward', 
+	'• Industrial Foregoing laser drill'])
+	
+	event.addItem('gems:sapphire_shards', ['Can be acquired from: ', 
+	'• Minecolonies Sifter', 
+	'• Mining underground', 
+	'• Breaking Tetra geodes', 
+	'• Crushing Fossils', 
+	'• Geodes in Mining Dimension', 
+	'• Cave Urn loot', 
+	'• Quest Coin reward', 
+	'• Dungeon Coin reward', 
+	'• Industrial Foregoing laser drill'])
+	
+	event.addItem('gems:ruby_shards', ['Can be acquired from: ', 
+	'• Minecolonies Sifter', 
+	'• Mining underground', 
+	'• Breaking Tetra geodes', 
+	'• Crushing Fossils', 
+	'• Geodes in Mining Dimension', 
+	'• Cave Urn loot', 
+	'• Quest Coin reward', 
+	'• Dungeon Coin reward', 
+	'• Industrial Foregoing laser drill'])
+  
 })

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "immersiveengineering:plate_copper"
+    },
+    "S": {
+      "tag": "forge:chests/wooden"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MSM",
+    "MMM"
+  ],
+  "result": {
+    "item": "ironchest:copper_chest"
+  },
+  "show_notification": true
+}

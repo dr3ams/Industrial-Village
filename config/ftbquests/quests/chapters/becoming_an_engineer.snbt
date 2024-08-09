@@ -3453,6 +3453,17 @@
 			x: -1.5d
 			y: 1.0d
 		}
+		{
+			dependencies: ["000000000000102E"]
+			id: "5C92DAA0030E8A04"
+			tasks: [{
+				id: "13CA6AF2A2A0FB50"
+				item: "ironchest:iron_chest"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 7.5d
+		}
 	]
 	title: "2. &7Industrialization&r"
 }

@@ -1,0 +1,55 @@
+{
+	id: "0F265252A5F20F1F"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Set of Emerald Tools"
+		string_id: "set_of_emerald_tools"
+	}
+	loot_size: 1
+	order_index: 37
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "gems:emerald_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gems:emerald_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gems:emerald_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gems:emerald_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Set of Emerald Tools"
+	use_title: true
+}

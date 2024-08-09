@@ -1,0 +1,79 @@
+{
+  "armorSetName": "uranium",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "kubejs:uranium_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "kubejs:uranium_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "kubejs:uranium_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "kubejs:uranium_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:glowing",
+      "value": 1.0,
+      "modifierUUID": "c68ecdc2-da5b-4c5c-a0e7-b4c3a1f523a6",
+      "description": "Glowing",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+	{
+      "type": "effect",
+      "name": "minecraft:hunger",
+      "value": 1.0,
+      "modifierUUID": "43fa6e8c-f251-492b-886e-96038af4d4af",
+      "description": "Hunger",
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+	{
+      "type": "effect",
+      "name": "minecraft:haste",
+      "value": 1.0,
+      "modifierUUID": "0863a1fa-6a1f-41cd-bc66-f53acf1f3dd7",
+      "description": "Haste",
+      "interactionType": "self",
+      "interactionDuration": 200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+	{
+      "type": "effect",
+      "name": "minecraft:blindness",
+      "value": 1.0,
+      "modifierUUID": "e72e2fe9-62cb-4800-b62e-5bd6d8f0b9fe",
+      "description": "Blindness",
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+	{
+      "type": "effect",
+      "name": "minecraft:slowness",
+      "value": 1.0,
+      "modifierUUID": "f4bf64d3-93ab-43cc-93b0-ad7665df6021",
+      "description": "Slowness",
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

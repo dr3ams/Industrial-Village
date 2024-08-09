@@ -13,9 +13,9 @@
 		{ count: 3, item: "immersiveengineering:dust_aluminum", random_bonus: 6 }
 		{ item: "immersiveengineering:component_steel" }
 		{ item: "immersiveengineering:component_iron" }
-		{ item: "gems:topaz_shards", random_bonus: 1 }
-		{ item: "gems:sapphire_shards", random_bonus: 1 }
-		{ item: "gems:ruby_shards", random_bonus: 1 }
+		{ item: "gems:topaz_shards", random_bonus: 3 }
+		{ item: "gems:sapphire_shards", random_bonus: 3 }
+		{ item: "gems:ruby_shards", random_bonus: 3 }
 		{ item: "collectorsalbum:common_card_package" }
 		{ item: "collectorsalbum:epic_card_package" }
 		{ item: "collectorsalbum:rare_card_package" }
@@ -214,6 +214,151 @@
 		{ item: "miners_delight:baked_cod_stew_cup" }
 		{ item: "miners_delight:bat_cookie" }
 		{ item: "miners_delight:improvised_barbecue_stick" }
+		{
+			item: {
+				Count: 1
+				id: "skilltree:gem"
+				tag: {
+					type: "skilltree:jade_1"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "skilltree:gem"
+				tag: {
+					type: "skilltree:citrine_1"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "skilltree:gem"
+				tag: {
+					type: "skilltree:citrine_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "skilltree:gem"
+				tag: {
+					type: "skilltree:citrine_3"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "skilltree:gem"
+				tag: {
+					type: "skilltree:jade_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "skilltree:gem"
+				tag: {
+					type: "skilltree:iriscite_1"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "skilltree:gem"
+				tag: {
+					type: "skilltree:iriscite_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "skilltree:gem"
+				tag: {
+					type: "skilltree:iriscite_3"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "skilltree:gem"
+				tag: {
+					type: "skilltree:jade_3"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "skilltree:gem"
+				tag: {
+					type: "skilltree:ruby_1"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "skilltree:gem"
+				tag: {
+					type: "skilltree:ruby_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "skilltree:gem"
+				tag: {
+					type: "skilltree:ruby_3"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "skilltree:gem"
+				tag: {
+					type: "skilltree:sapphire_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "skilltree:gem"
+				tag: {
+					type: "skilltree:sapphire_3"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "skilltree:gem"
+				tag: {
+					type: "skilltree:sapphire_4"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "skilltree:gem"
+				tag: {
+					type: "skilltree:vacucite_3"
+				}
+			}
+		}
+		{ count: 2, item: "gems:experience_ore", random_bonus: 4 }
 	]
 	title: "Dungeon coin reward"
 }

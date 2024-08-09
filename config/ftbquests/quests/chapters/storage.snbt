@@ -216,131 +216,6 @@
 			y: 0.5d
 		}
 		{
-			id: "6FF0CFAB17FEE6B6"
-			rewards: [{
-				id: "7BFD84C89DECBBF3"
-				item: "kubejs:copper_coin"
-				random_bonus: 1
-				type: "item"
-			}]
-			tasks: [{
-				id: "31D9B2EC82719E12"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
-				type: "item"
-			}]
-			x: -11.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["5FF093DB7AF16ACC"]
-			id: "74FDF9EB8A5A2783"
-			rewards: [
-				{
-					id: "1A68E35631DDCE7F"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "rare_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "31C590FA3BAC453B"
-					item: "kubejs:gold_coin"
-					type: "item"
-				}
-				{
-					id: "3690FF57647683A5"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			tasks: [{
-				id: "3031F920EB366F10"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
-				type: "item"
-			}]
-			x: -11.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["6FF0CFAB17FEE6B6"]
-			id: "5FF093DB7AF16ACC"
-			rewards: [
-				{
-					id: "2DD9C83934B46B68"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "01BFD51A96EBB20B"
-					item: "kubejs:gold_coin"
-					type: "item"
-				}
-				{
-					id: "2BA1664B7D8A1411"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "common_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4FD41CC92131D98F"
-					item: "kubejs:diamond_nugget"
-					random_bonus: 4
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "61F4F842195823E2"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
-				type: "item"
-			}]
-			x: -12.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["74FDF9EB8A5A2783"]
-			id: "65FD322E1FD69FA6"
-			rewards: [
-				{
-					id: "287E115B9A8DFDC9"
-					item: "kubejs:diamond_coin"
-					type: "item"
-				}
-				{
-					id: "7FDDEA6BDA4D638B"
-					item: "minecraft:diamond"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "0C4FB6EDA98FFF9C"
-					item: "minecraft:emerald"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "546794C063319A01"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			tasks: [{
-				id: "21DBB0106673CB6F"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
-				type: "item"
-			}]
-			x: -9.5d
-			y: -2.0d
-		}
-		{
 			dependencies: ["486014CD2A837708"]
 			id: "66E58F7757452A10"
 			rewards: [
@@ -396,7 +271,7 @@
 			description: [
 				"Simple vanilla style storage mod. Basically adds a block that allows to connect multiple chests in 1 network which can be accessed via Terminal."
 				""
-				"If you're familiar with Tom's Simple Storage mod - in this pack it was heavily nerfed to encourage use of Refined Storage system."
+				"If you're familiar with Tom's Simple Storage mod - in this pack it &cwas heavily nerfed&r to encourage use of &3Refined Storage&r system. The range has been decreased to 3 blocks &lin all directions&r from the connector (7x7x7 sphere). This is still a viable storage option though."
 			]
 			id: "009F78659E60A2F0"
 			rewards: [{
@@ -999,6 +874,94 @@
 			title: "Crates and Barrels"
 			x: 0.0d
 			y: 4.5d
+		}
+		{
+			id: "3109707E6A139258"
+			rewards: [
+				{
+					id: "5895DBD752C22B8F"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "3D54185CAC4FC929"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "72506F24E266DC4B"
+				item: "ironchest:copper_chest"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			id: "1546BBF062543F19"
+			rewards: [
+				{
+					id: "7070B7ACA29D7292"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "74F7FD9AA75EFC40"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3DBCEC90360D29B8"
+				item: "ironchest:iron_chest"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			id: "0EC609786829FF9E"
+			rewards: [
+				{
+					id: "4DF5914C2ADE7F72"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "2F3D8DE28409E5E4"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4E7445C76FE743A5"
+				item: "ironchest:gold_chest"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			id: "23D746C4C3E97D89"
+			rewards: [
+				{
+					id: "1EFB2142436D2908"
+					type: "xp"
+					xp: 1500
+				}
+				{
+					id: "79F85BBBC7F22E09"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3FCD7CDF0F330722"
+				item: "ironchest:diamond_chest"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
 		}
 	]
 	title: "Storage"

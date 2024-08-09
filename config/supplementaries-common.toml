@@ -327,7 +327,7 @@
 	altimeter = true
 
 	[tools.quiver]
-		enabled = true
+		enabled = false
 		#Allows using a quiver without being slowed down
 		use_without_slow = true
 		#Arrow stacks that can fit inside a quiver. Requires reboot

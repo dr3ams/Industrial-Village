@@ -8,13 +8,13 @@
   ],
   "key": {
     "A": {
-      "item": "ad_astra:desh_block"
+      "item": "ad_astra:desh_ingot"
     },
     "B": {
-      "item": "ad_astra:ostrum_block"
+      "item": "ad_astra:ostrum_ingot"
     },
     "C": {
-      "item": "ad_astra:calorite_block"
+      "item": "ad_astra:calorite_ingot"
     }
   },
   "result": {

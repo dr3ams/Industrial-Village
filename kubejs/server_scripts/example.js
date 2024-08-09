@@ -56,6 +56,19 @@ ServerEvents.recipes(event => {
 	event.shapeless('9x kubejs:coin_04', ['kubejs:coin_05'])
 	
 	
+	function compressRecipe(item1, item2, reversed) {
+    event.shaped(item1, ["AAA", "AAA", "AAA"], { A: item2 });
+    if (reversed) {
+      event.shapeless(Item.of(item2, 9), [item1]);
+    }
+	}
+	compressRecipe("immersiveengineering:storage_lead", "immersiveengineering:ingot_lead", true);
+	compressRecipe("immersiveengineering:storage_electrum", "immersiveengineering:ingot_electrum", true);
+	compressRecipe("immersiveengineering:storage_constantan", "immersiveengineering:ingot_constantan", true);
+	compressRecipe("immersiveengineering:storage_nickel", "immersiveengineering:ingot_nickel", true);
+	compressRecipe("immersiveengineering:storage_aluminum", "immersiveengineering:ingot_aluminum", true);
+	compressRecipe("immersiveengineering:storage_silver", "immersiveengineering:ingot_silver", true);
+	
 
 //event.remove({output: 'minecraft:cooked_chicken', type: 'minecraft:campfire_cooking'}) // You can combine filters, to create ANDk logic
 //event.remove({output: 'minecraft:stone_pickaxe'}) // Removes all recipes where output is stone pickaxe
@@ -98,6 +111,18 @@ ServerEvents.recipes(event => {
 	
 	event.remove({output: 'meadow:woodcutter'})
 	
+	event.remove({output: 'ironchest:dirt_chest'})
+	event.remove({output: 'ironchest:trapped_dirt_chest'})
+	event.remove({output: 'ironchest:trapped_crystal_chest'})
+	event.remove({output: 'ironchest:diamond_to_crystal_chest_upgrade'})
+	event.remove({output: 'ironchest:crystal_chest'})
+	event.remove({output: 'ironchest:trapped_iron_chest'})
+	event.remove({output: 'ironchest:trapped_gold_chest'})
+	event.remove({output: 'ironchest:trapped_diamond_chest'})
+	event.remove({output: 'ironchest:trapped_copper_chest'})
+	event.remove({output: 'ironchest:trapped_obsidian_chest'})
+	event.remove({output: 'ironchest:wood_to_iron_chest_upgrade'})
+	
 	event.remove({id: 'minecraft:bread'})
 	event.remove({id: 'vintagedelight:oat_bread'})
 	event.remove({id: 'regions_unexplored:barley_smelting'})
@@ -112,6 +137,7 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'ad_astra:desh_ingot', type: 'minecraft:blasting'})
 	event.remove({output: 'ad_astra:ostrum_ingot', type: 'minecraft:blasting'})
 	event.remove({output: 'ad_astra:calorite_ingot', type: 'minecraft:blasting'})
+	
 	
 
 	//event.remove({output: 'ad_astra:desh_fluid_pipe'})

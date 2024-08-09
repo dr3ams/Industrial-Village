@@ -1,0 +1,79 @@
+{
+	id: "1BD43AE78AC63162"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Set of Golden Tools"
+		string_id: "set_of_golden_tools"
+	}
+	loot_size: 1
+	order_index: 38
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_shovel"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 2s
+					}]
+					RepairCost: 1
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_hoe"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 2s
+					}]
+					RepairCost: 1
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_axe"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 2s
+					}]
+					RepairCost: 1
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Set of Golden Tools"
+	use_title: true
+}

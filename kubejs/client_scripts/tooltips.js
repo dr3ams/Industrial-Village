@@ -4,6 +4,49 @@ ItemEvents.tooltip(event =>{
 	
 	//event.add(['gems:ruby_upgrade_smithing_template', 'gems:sapphire_upgrade_smithing_template', 'gems:topaz_upgrade_smithing_template'], 'Can be found in Ancient Cities chests')
 	
+	event.addAdvanced('farmersdelight:straw', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').green(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• You may collect ').white(),
+        Text.of('straw ').green(),
+		Text.of('when harvesting grassy plants (Tall Grass, Wheat and Rice)').white()
+		])
+      text.add(2, [
+        Text.of('• Can be used to make ').white(),
+		Text.of('Rope').gold()
+      ])
+    }
+  })
+	
+	event.addAdvanced('farmersdelight:rope', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').green(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Climbable block, behaving in a similar manner to Vines and Ladders').white()
+		])
+      text.add(2, [
+        Text.of('• To climb them, simply hold Jump while touching it').white()
+      ])
+	  text.add(3, [
+        Text.of('• When placing Rope, you can use more ropes against the first one to deploy them downward').white()
+      ])
+	  text.add(4, [
+        Text.of('• To suppress rope deployment, simply sneak while placing it').white()
+      ])
+    }
+  })
+	
 	event.addAdvanced(['gems:ruby_upgrade_smithing_template', 'gems:sapphire_upgrade_smithing_template', 'gems:topaz_upgrade_smithing_template'], (item, advanced, text) => {
       text.add(1, [
         Text.of('Can be found in ').white(),
@@ -26,6 +69,56 @@ ItemEvents.tooltip(event =>{
         Text.of('Smithing Table ').green().bold(true),
         Text.of('to insert it').yellow()
       ])
+	})
+  
+  	event.addAdvanced(['skilltree:quiver', 'skilltree:fiery_quiver', 'skilltree:armored_quiver', 'skilltree:gilded_quiver', 'skilltree:toxic_quiver', 'skilltree:diamond_quiver', 'skilltree:healing_quiver', 'skilltree:silent_quiver', 'skilltree:bone_quiver'], (item, advanced, text) => {
+      text.add(1, [
+        Text.of('• Place together with ').white(),
+		Text.of('arrows ').blue(),
+		Text.of('in a ').white(),
+        Text.of('crafting grid').gold()
+      ])
+	})
+	
+  	event.addAdvanced(['gems:topaz_shards', 'gems:sapphire_shards', 'gems:ruby_shards'], (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').gold(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('Can be acquired from: ').green()
+		])
+      text.add(2, [
+        Text.of('• Mining underground').white(),
+      ])
+	  text.add(3, [
+        Text.of('• Breaking Tetra geodes').white(),
+      ])
+	  text.add(4, [
+        Text.of('• Geodes in Mining Dimension').white(),
+      ])
+	  text.add(5, [
+        Text.of('• Crushing Fossils').white(),
+      ])
+	  text.add(6, [
+        Text.of('•  Minecolonies Sifter').white(),
+      ])
+	  text.add(7, [
+        Text.of('• Cave Urn loot').white(),
+      ])
+	  text.add(8, [
+        Text.of('• Gold Quest Coin reward').white(),
+      ])
+	  text.add(9, [
+        Text.of('• Dungeon Coin reward').white(),
+      ])
+	  text.add(10, [
+        Text.of('• Industrial Foregoing laser drill').white()
+      ])
+    }
   })
 
    event.addAdvanced('explorerscompass:explorerscompass', (item, advanced, text) => {
@@ -92,6 +185,38 @@ ItemEvents.tooltip(event =>{
       ])
     }
   })
+
+   event.addAdvanced('kubejs:proofofwork', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').yellow(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+		text.add(1, [
+		Text.of('• Exchange it in ').white(),
+        Text.of('Coins exchange ').gold(),
+        Text.of('quest chapter in the ').white(),
+		Text.of('Quest Book. ').green()
+      ])
+	  	text.add(2, [
+        Text.of('Can be acquired as: ').white()
+      ])
+      text.add(3, [
+        Text.of('• one-time ').green().bold(true),
+        Text.of('quest reward in  ').white(),
+        Text.of('Minecolonies related ').gold(),
+        Text.of('quests.').white()
+      ])
+	    text.add(4, [
+        Text.of('• repeatable ').blue().bold(true),
+        Text.of('random reward from some ').white(),
+        Text.of('Minecolonies professions ').gold(),
+        Text.of('(sifter, netherminer, miner)').white()
+      ])
+    }
+  })
   
   event.addAdvanced('kubejs:monster_coin', (item, advanced, text) => {
     if (!event.isShift()) {
@@ -114,7 +239,6 @@ ItemEvents.tooltip(event =>{
 		Text.of('Quest Book ').green(),
 		Text.of('for valuable ').white(),
 		Text.of('Loot').gold().bold(true)
-
       ])
     }
   })

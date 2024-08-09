@@ -13,6 +13,18 @@ JEIEvents.hideItems(event => {
 	event.hide('industrialforegoing:tinydryrubber')
 	event.hide('industrialforegoing:latex_processing_unit')
 	
+	event.hide('ironchest:dirt_chest')
+	event.hide('ironchest:trapped_dirt_chest')
+	event.hide('ironchest:trapped_crystal_chest')
+	event.hide('ironchest:diamond_to_crystal_chest_upgrade')
+	event.hide('ironchest:crystal_chest')
+	event.hide('ironchest:trapped_iron_chest')
+	event.hide('ironchest:trapped_gold_chest')
+	event.hide('ironchest:trapped_diamond_chest')
+	event.hide('ironchest:trapped_copper_chest')
+	event.hide('ironchest:trapped_obsidian_chest')
+	event.hide('ironchest:wood_to_iron_chest_upgrade')
+	
 	event.hide('sophisticatedbackpacks:stack_upgrade_starter_tier')
     event.hide('sophisticatedbackpacks:stack_upgrade_tier_1')
     event.hide('sophisticatedbackpacks:stack_upgrade_tier_2')
@@ -23,10 +35,7 @@ JEIEvents.hideItems(event => {
 	event.hide('torchmaster:frozen_pearl')
 	
 	event.hide('ad_astra:etrionic_blast_furnace')
-	
-	event.hide('ad_astra:steel_cable')
-	event.hide('ad_astra:desh_cable')
-	event.hide('ad_astra:desh_fluid_pipe')
+
 	event.hide('ad_astra:ostrum_fluid_pipe')
 	event.hide('mffs:steel_compound') 
 	event.hide('mffs:steel_ingot') 

@@ -38,6 +38,9 @@
 		{ count: 32, item: "minecraft:raw_gold" }
 		{ count: 32, item: "minecraft:lapis_lazuli" }
 		{ count: 16, item: "railcraft:saltpeter_ore" }
+		{ count: 2, item: "gems:topaz_shards", random_bonus: 5 }
+		{ count: 2, item: "gems:sapphire_shards", random_bonus: 5 }
+		{ count: 2, item: "gems:ruby_shards", random_bonus: 5 }
 	]
 	title: "Ores 3"
 	use_title: true

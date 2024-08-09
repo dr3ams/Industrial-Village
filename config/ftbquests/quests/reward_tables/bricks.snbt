@@ -1,0 +1,29 @@
+{
+	id: "6B6D6830D6AB0B79"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Bricks"
+		string_id: "bricks"
+	}
+	loot_size: 1
+	order_index: 35
+	rewards: [
+		{ count: 64, item: "domum_ornamentum:beige_bricks" }
+		{ count: 64, item: "minecraft:bricks" }
+		{ count: 64, item: "domum_ornamentum:brown_bricks" }
+		{ count: 64, item: "domum_ornamentum:cream_bricks" }
+		{ count: 64, item: "domum_ornamentum:roan_bricks" }
+		{ count: 64, item: "domum_ornamentum:sand_bricks" }
+		{ count: 64, item: "domum_ornamentum:brown_stone_bricks" }
+		{ count: 64, item: "domum_ornamentum:beige_stone_bricks" }
+		{ count: 64, item: "domum_ornamentum:cream_stone_bricks" }
+		{ count: 64, item: "domum_ornamentum:sand_stone_bricks" }
+		{ count: 64, item: "domum_ornamentum:roan_stone_bricks" }
+	]
+	title: "Bricks"
+}

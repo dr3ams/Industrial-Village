@@ -111,17 +111,24 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [{
-				id: "55ECC59440C8A0FC"
-				item: {
-					Count: 1
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "mffs:handbook"
+			tasks: [
+				{
+					disable_toast: true
+					id: "55ECC59440C8A0FC"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "mffs:handbook"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3B450DAB40743E88"
+					type: "checkmark"
+				}
+			]
 			x: -5.0d
 			y: 0.5d
 		}

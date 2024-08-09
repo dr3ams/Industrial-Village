@@ -1,8 +1,11 @@
 
 [tools]
-	customTypes = []
+	customTypes = ["{\"name\": \"saws\", \"hasVariableMaterials\": false}"]
 
 [worldGens]
 	#Range: 0.0 ~ 1.0
 	emptyColoniesGenerationChance = 1.0
+
+[buildings]
+	customCraftingModules = ["{\"name\": \"sawmill_planks\", \"buildingId\": \"sawmill\", \"jobId\": \"sawmill\", \"forceVisible\": true}"]
 

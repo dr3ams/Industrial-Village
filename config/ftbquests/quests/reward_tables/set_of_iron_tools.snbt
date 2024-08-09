@@ -1,0 +1,55 @@
+{
+	id: "1E7E61B7107B4582"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Set of Iron Tools"
+		string_id: "set_of_iron_tools"
+	}
+	loot_size: 1
+	order_index: 36
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Set of Iron Tools"
+	use_title: true
+}

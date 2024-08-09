@@ -41,6 +41,10 @@
 	hostileSpawnerResistDaylightDuration = 120
 
 ["No Break Mobs Values 6464"]
-	#Trail Block String 6464
+	#No Break Mob Values
 	defaultNoBreakMobsActual = "harderspawners:default,1.0;minecraft:pig,0.0;minecraft:cow,0.0;minecraft:sheep,0.0;minecraft:parrot,0.0;minecraft:blaze,0.0;"
+
+["List of modded lamp and light blocks"]
+	#List of modded lamp and light blocks
+	defaultLightBlocksActual = "minecraft:redstone_lamp;create:rose_quartz_lamp;"
 

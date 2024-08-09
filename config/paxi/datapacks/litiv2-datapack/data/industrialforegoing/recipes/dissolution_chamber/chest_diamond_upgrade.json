@@ -1,0 +1,35 @@
+{
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+          {
+            "item": "minecraft:diamond"
+          },
+          {
+            "item": "immersiveengineering:plate_gold"
+          },
+		  {
+            "item": "minecraft:diamond"
+          },
+          {
+            "item": "gems:sapphire"
+          },
+          {
+            "item": "gems:ruby"
+          },
+          {
+            "item": "minecraft:diamond"
+          },
+          {
+            "item": "gems:topaz"
+          },
+          {
+            "item": "minecraft:diamond"
+          }
+  ],
+  "inputFluid": "{Amount:250,FluidName:\"pneumaticcraft:lubricant\"}",
+  "output": {
+    "count": 1,
+    "item": "ironchest:gold_to_diamond_chest_upgrade"
+  },
+  "processingTime": 1000
+}

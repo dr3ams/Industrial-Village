@@ -1,0 +1,25 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+	  "type": "pneumaticcraft:stacked_item",
+      "count": 8,
+      "item": "immersiveengineering:plate_gold"
+    },
+    {
+	  "type": "pneumaticcraft:stacked_item",
+      "count": 8,
+      "item": "immersiveengineering:plate_electrum"
+    },
+    {
+      "item": "pneumaticcraft:upgrade_matrix"
+    }
+  ],
+  "pressure": 1.0,
+  "results": [
+    {
+		"count": 1,
+		"item": "ironchest:iron_to_gold_chest_upgrade"
+    }
+  ]
+}

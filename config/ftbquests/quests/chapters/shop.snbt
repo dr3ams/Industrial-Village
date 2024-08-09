@@ -10,6 +10,7 @@
 	images: [
 		{
 			height: 2.0d
+			hover: ["Copper Coin"]
 			image: "kubejs:textures/item/copper_coin.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -18,6 +19,7 @@
 		}
 		{
 			height: 2.0d
+			hover: ["Diamond Coin"]
 			image: "kubejs:textures/item/diamond_coin.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -26,6 +28,7 @@
 		}
 		{
 			height: 2.0d
+			hover: ["Gold Coin"]
 			image: "kubejs:textures/item/gold_coin.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -34,19 +37,12 @@
 		}
 		{
 			height: 2.0d
+			hover: ["Iron Coin"]
 			image: "kubejs:textures/item/iron_coin.png"
 			rotation: 0.0d
 			width: 2.0d
 			x: -4.0d
 			y: -2.0d
-		}
-		{
-			height: 5.0d
-			image: "industrialforegoing:block/villager_trade_exchanger_front"
-			rotation: 0.0d
-			width: 5.0d
-			x: 0.0d
-			y: -5.0d
 		}
 		{
 			height: 0.4d
@@ -74,11 +70,37 @@
 		}
 		{
 			height: 2.0d
+			hover: ["Dungeon Coin"]
 			image: "kubejs:item/monster_coin"
 			rotation: 0.0d
 			width: 2.0d
 			x: 8.0d
 			y: -2.0d
+		}
+		{
+			height: 13.0d
+			image: "litv3:textures/misc/quest-market.png"
+			order: -1
+			rotation: 0.0d
+			width: 23.884561891515993d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 10.0d
+			image: "litv3:textures/misc/quest-line.png"
+			rotation: 0.0d
+			width: 0.3225806451612903d
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:item/proofofwork"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.0d
+			y: 4.0d
 		}
 	]
 	order_index: 2
@@ -632,6 +654,84 @@
 			}]
 			x: 8.0d
 			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Can be acquired as:"
+				""
+				"• &aone-time&r quest reward in &6Minecolonies related&r quests."
+				""
+				"• &9repeatable&r random reward from some &6Minecolonies professions&r (sifter, netherminer, miner)"
+			]
+			disable_toast: true
+			id: "1664AD644753F84D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4CA0FE94061714E2"
+					table_id: 7385202459114283126L
+					type: "random"
+				}
+				{
+					id: "4CA19C74BB6E2419"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "rsquare_important"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "7E3332F5C3E934C7"
+				item: "kubejs:proofofwork"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"&lNOTE:&r "
+				"when you exchange &410 coins&r, with this quest, you will receive &41 type of reward multiplied by 10&r, "
+				"while when you exchange &91 coin&r 10 times you will get &910 different random rewards&r. "
+				""
+				"It's for you to decide whether it's good or not."
+			]
+			id: "11A1A5FA2C02CE60"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29CFF33126995212"
+				table_id: 6618084725009970327L
+				type: "random"
+			}]
+			shape: "octagon"
+			subtitle: "&2&oRandom repeatable reward with a random bonus&r&r"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				disable_toast: true
+				id: "15444D59DE48C6AF"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			description: [""]
+			icon: "kubejs:help"
+			id: "6C65EB6265E1FCDE"
+			size: 0.75d
+			subtitle: "&2Rewards&r are added over time"
+			tasks: [{
+				id: "08628E11882A2F01"
+				type: "checkmark"
+			}]
+			title: "Rewards"
+			x: 9.75d
+			y: -3.0d
 		}
 	]
 	title: "&l&fCoins Exchange&r&r"

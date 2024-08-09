@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:blueprint","category":"components","inputs":[{"base_ingredient":{"tag":"forge:plates/iron"},"count":8},{"item":"minecraft:chest"}],"result":{"item":"ironchest:iron_chest"}}
