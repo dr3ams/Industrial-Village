@@ -87,6 +87,33 @@
 			}
 		}
 		{ count: 16, item: "minecraft:brick" }
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "set_of_iron_tools"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "set_of_golden_tools"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "set_of_emerald_tools"
+				}
+			}
+		}
 	]
 	title: "Proof"
 }

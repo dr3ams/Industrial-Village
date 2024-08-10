@@ -40,6 +40,7 @@
 					RepairCost: 1
 				}
 			}
+			weight: 0.0f
 		}
 		{
 			item: {
@@ -54,8 +55,10 @@
 					RepairCost: 1
 				}
 			}
+			weight: 0.0f
 		}
 		{
+			count: 3
 			item: {
 				Count: 1
 				id: "minecraft:golden_pickaxe"
@@ -63,15 +66,7 @@
 					Damage: 0
 				}
 			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:golden_pickaxe"
-				tag: {
-					Damage: 0
-				}
-			}
+			weight: 0.0f
 		}
 	]
 	title: "Set of Golden Tools"

@@ -30,6 +30,7 @@
 					Damage: 0
 				}
 			}
+			weight: 0.0f
 		}
 		{
 			item: {
@@ -39,6 +40,7 @@
 					Damage: 0
 				}
 			}
+			weight: 0.0f
 		}
 		{
 			item: {
@@ -48,6 +50,7 @@
 					Damage: 0
 				}
 			}
+			weight: 0.0f
 		}
 	]
 	title: "Set of Emerald Tools"
