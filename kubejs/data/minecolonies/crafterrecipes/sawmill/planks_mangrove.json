@@ -9,12 +9,12 @@
     "crafter": "sawmill_crafting",
     "inputs": [
       {
-        "item": "minecraft:oak_log"
+        "item": "minecraft:mangrove_log"
       }
     ],
     "alternate-output": [
       {
-        "item": "minecraft:oak_planks",
+        "item": "minecraft:mangrove_planks",
 		"count": 4
       }
     ],

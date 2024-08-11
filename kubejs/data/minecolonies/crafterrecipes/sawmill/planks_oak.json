@@ -1,9 +1,5 @@
 {
   "type": "recipe-template",
-  "tag": "minecraft:logs",
-  "filter": {
-    "include": [ "_log" ],
-    "exclude": [ "stripped_" ]
   },
   "recipe": {
     "crafter": "sawmill_crafting",
