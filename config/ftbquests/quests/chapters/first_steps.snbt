@@ -224,15 +224,15 @@
 					type: "item"
 				}
 				{
-					count: 27L
-					id: "14992362672090CB"
-					item: "minecraft:bricks"
+					count: 162L
+					id: "414CC8B50ED01470"
+					item: "minecraft:brick"
 					type: "item"
 				}
 				{
-					count: 54L
-					id: "414CC8B50ED01470"
-					item: "minecraft:brick"
+					count: 27L
+					id: "14992362672090CB"
+					item: "minecraft:bricks"
 					type: "item"
 				}
 			]
