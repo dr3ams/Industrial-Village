@@ -1,32 +1,193 @@
-# Configure card package drop chances from mobs
+# Configuration related to card package drop distributions
+# Keep in mind to actually change contents of the pack you need to make custom datapack
+# See wiki for that
+packDrops:
+  # Defines how many cards will be dropped from normal card packs
+  packDropsCount: 5
+
+  # Defines how many cards will be dropped from repacked card packs
+  repackedDropsCount: 3
+
+  # Defines card rarity drop distributions in common packs
+  commonDrops:
+    # Drop weight of common cards
+    commonCardDropChance: 90
+
+    # Drop weight of uncommon cards
+    uncommonCardDropChance: 25
+
+    # Drop weight of rare cards
+    rareCardDropChance: 8
+
+    # Drop weight of epic cards
+    epicCardDropChance: 5
+
+    # Drop weight of legendary cards
+    legendaryCardDropChance: 2
+
+    # Drop weight of mythical cards
+    mythicalCardDropChance: 0
+
+  # Defines card rarity drop distributions in uncommon packs
+  uncommonDrops:
+    # Drop weight of common cards
+    commonCardDropChance: 60
+
+    # Drop weight of uncommon cards
+    uncommonCardDropChance: 40
+
+    # Drop weight of rare cards
+    rareCardDropChance: 10
+
+    # Drop weight of epic cards
+    epicCardDropChance: 8
+
+    # Drop weight of legendary cards
+    legendaryCardDropChance: 4
+
+    # Drop weight of mythical cards
+    mythicalCardDropChance: 2
+
+  # Defines card rarity drop distributions in rare packs
+  rareDrops:
+    # Drop weight of common cards
+    commonCardDropChance: 35
+
+    # Drop weight of uncommon cards
+    uncommonCardDropChance: 50
+
+    # Drop weight of rare cards
+    rareCardDropChance: 35
+
+    # Drop weight of epic cards
+    epicCardDropChance: 15
+
+    # Drop weight of legendary cards
+    legendaryCardDropChance: 7
+
+    # Drop weight of mythical cards
+    mythicalCardDropChance: 4
+
+  # Defines card rarity drop distributions in epic packs
+  epicDrops:
+    # Drop weight of common cards
+    commonCardDropChance: 15
+
+    # Drop weight of uncommon cards
+    uncommonCardDropChance: 35
+
+    # Drop weight of rare cards
+    rareCardDropChance: 40
+
+    # Drop weight of epic cards
+    epicCardDropChance: 25
+
+    # Drop weight of legendary cards
+    legendaryCardDropChance: 10
+
+    # Drop weight of mythical cards
+    mythicalCardDropChance: 6
+
+  # Defines card rarity drop distributions in legendary packs
+  legendaryDrops:
+    # Drop weight of common cards
+    commonCardDropChance: 0
+
+    # Drop weight of uncommon cards
+    uncommonCardDropChance: 25
+
+    # Drop weight of rare cards
+    rareCardDropChance: 45
+
+    # Drop weight of epic cards
+    epicCardDropChance: 35
+
+    # Drop weight of legendary cards
+    legendaryCardDropChance: 15
+
+    # Drop weight of mythical cards
+    mythicalCardDropChance: 10
+
+  # Defines card rarity drop distributions in mythical packs
+  mythicalDrops:
+    # Drop weight of common cards
+    commonCardDropChance: 0
+
+    # Drop weight of uncommon cards
+    uncommonCardDropChance: 0
+
+    # Drop weight of rare cards
+    rareCardDropChance: 50
+
+    # Drop weight of epic cards
+    epicCardDropChance: 40
+
+    # Drop weight of legendary cards
+    legendaryCardDropChance: 30
+
+    # Drop weight of mythical cards
+    mythicalCardDropChance: 20
+
+# Configuration related to mob drops
+# Keep in mind to actually change contents of the pack you need to make custom datapack
+# See wiki for that
 mobDrops:
-  # Chance that no package is dropped on kill
-  noDropWeight: 5900
+  # Chance that any card pack drop will be dropped
+  mobPackDropChance: 0.1
 
-  # Chance that common package is dropped on kill
-  commonDropWeight: 130
+  # Common card pack drop weight
+  commonPackDrop: 20
 
-  # Chance that uncommon package is dropped on kill
-  uncommonDropWeight: 80
+  # Uncommon card pack drop weight
+  uncommonPackDrop: 15
 
-  # Chance that rare package is dropped on kill
-  rareDropWeight: 45
+  # Rare card pack drop weight
+  rarePackDrop: 9
 
-  # Chance that epic package is dropped on kill
-  epicDropWeight: 25
+  # Epic card pack drop weight
+  epicPackDrop: 6
 
-  # Chance that legendary package is dropped on kill
-  legendaryDropWeight: 15
+  # Legendary card pack drop weight
+  legendaryPackDrop: 3
 
-  # Chance that mythical package is dropped on kill
-  mythicalDropWeight: 5
+  # Mythical card pack drop weight
+  mythicalPackDrop: 1
 
-# Keep album in inventory through death
-persistAlbumThroughDeath: true
+# Configuration related to album bonuses
+# Keep in mind to actually change the bonuses to something you need to make custom datapack
+# See wiki for that
+bonusConfig:
+  # Allows you to disable the default health boost effect
+  healthBonusEnabled: true
 
-# When set to true no cards will be received from package unless you flip all cards
-requireTurnAllCards: false
+  # Allows you to disable the default 'Tools' category haste effect
+  hasteBonusEnabled: true
 
-# When allowed, all unpacked cards will be moved to your album if applicable
-autoEquipUnpackedCards: true
+  # Allows you to disable the default 'Armor' category resistance effect
+  resistanceBonusEnabled: true
+
+  # Allows you to disable the default 'Mob' category strength effect
+  strengthBonusEnabled: true
+
+  # Allows you to disable the default 'Nature' category regeneration effect
+  regenerationBonusEnabled: true
+
+  # Allows you to disable the default 'Items' category speed effect
+  speedBonusEnabled: true
+
+  # Allows you to configure health boost steps given from album points
+  # 1 = 0.5 hearts
+  healthBonusLevelSteps:
+    - 2
+    - 4
+    - 8
+    - 12
+    - 16
+    - 20
+
+  # Default effect amplifier given when collecting all cards within single category
+  baseMobEffectAmplifier: 0
+
+  # Default effect amplifier given when collecting all cards within single category with Mythical rarity
+  fullMobEffectAmplifier: 1
 

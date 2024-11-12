@@ -692,6 +692,7 @@
 			y: 6.0d
 		}
 		{
+			can_repeat: true
 			description: [
 				"&lNOTE:&r "
 				"when you exchange &410 coins&r, with this quest, you will receive &41 type of reward multiplied by 10&r, "
@@ -699,6 +700,7 @@
 				""
 				"It's for you to decide whether it's good or not."
 			]
+			disable_toast: true
 			id: "11A1A5FA2C02CE60"
 			rewards: [{
 				exclude_from_claim_all: true

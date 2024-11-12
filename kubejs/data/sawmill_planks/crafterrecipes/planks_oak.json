@@ -1,23 +1,11 @@
 {
-  "type": "recipe-template",
-  "tag": "minecraft:logs",
-  "filter": {
-    "include": [ "_log" ],
-    "exclude": [ "stripped_" ]
-  },
-  "recipe": {
-    "crafter": "sawmill_crafting",
+  "type": "recipe",
+    "crafter": "sawmill_sawmill_planks",
     "inputs": [
       {
         "item": "minecraft:oak_log"
       }
     ],
-    "alternate-output": [
-      {
-        "item": "minecraft:oak_planks",
-		"count": 4
-      }
-    ],
-    "intermediate": "minecraft:air"
-  }
+    "result": "minecraft:oak_planks",
+    "count": 4
 }

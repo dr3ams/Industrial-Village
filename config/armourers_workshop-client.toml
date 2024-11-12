@@ -37,7 +37,6 @@
 	#Range: 16 ~ 512
 	renderDistanceMannequinEquipment = 64
 	#The maximum number of threads that will be used to bake models. 
-	#[range: 1 ~ 16, default: core count / 2]
 	#Range: 1 ~ 16
 	modelBakingThreadCount = 6
 	#When enabled skin will render in multiple passes to reduce visual artifacts.
@@ -49,6 +48,9 @@
 	#Number of LOD models to create. Higher number should give a boost to framerate at a small cost to VRAM.
 	#Range: 0 ~ 4
 	maxLodLevels = 4
+	#The maximum number of threads that will be used to build model vertexes. 
+	#Range: 1 ~ 16
+	vertexCompileThreadCount = 2
 
 #Change (memory use/IO access) ratio by changing setting in this category.
 [cache]
@@ -104,21 +106,6 @@
 	skinPreLocVertical = 0.5
 	#Skin preview will be rendered next to the mouse.
 	skinPreLocFollowMouse = true
-
-#Setting to configure tooltips on skinned items.
-[tooltip]
-	#Show has skin tooltip on skinned items.
-	tooltipHasSkin = true
-	#Show skin name tooltip on items.
-	tooltipSkinName = true
-	#Show skin author tooltip on items.
-	tooltipSkinAuthor = true
-	#Show skin type tooltip on items.
-	tooltipSkinType = true
-	#Show skin flavoue text tooltip on items.
-	tooltipFlavour = true
-	#Show open wardrobe message on skins.
-	tooltipOpenWardrobe = true
 
 #Debug Settings.
 [debug]

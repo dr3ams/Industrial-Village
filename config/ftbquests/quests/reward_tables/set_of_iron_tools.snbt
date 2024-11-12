@@ -11,7 +11,7 @@
 		string_id: "set_of_iron_tools"
 	}
 	loot_size: 1
-	order_index: 36
+	order_index: 35
 	rewards: [
 		{
 			item: {

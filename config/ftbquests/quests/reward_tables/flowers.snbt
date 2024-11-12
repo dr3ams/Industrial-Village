@@ -11,7 +11,7 @@
 		string_id: "flowers"
 	}
 	loot_size: 1
-	order_index: 40
+	order_index: 39
 	rewards: [
 		{ count: 8, item: "minecraft:white_tulip" }
 		{ count: 8, item: "minecraft:pink_tulip" }

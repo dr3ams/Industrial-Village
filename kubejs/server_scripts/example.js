@@ -778,15 +778,14 @@ ServerEvents.recipes(event => {
 	}).damageIngredient('kubejs:steel_file')
 	
 	event.remove({id: 'minecraft:torch'})
-	event.shaped('4x minecraft:torch', [
-    " A ",
-    " B ",
-    " C "
-	], {
-	A: '#minecraft:coals',
-	B: '#forge:ropes',
-	C: '#forge:rods/wooden'
-	})
+	
+	event.shapeless('4x minecraft:torch', [
+	'#minecraft:coals',
+	'#forge:ropes',
+	'#forge:rods/wooden'
+	])
+	
+/// END	
 })
 
 PlayerEvents.loggedIn(event => {

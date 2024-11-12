@@ -24,6 +24,8 @@
 	"Allow players to set guard patrol points only if they have hero of the village" = false
 	#This makes Guards run from polar bears, as anyone with common sense would.
 	"Have Guards have some common sense?" = false
+	"Allow the player to right click on bells to mass order guards to follow them?" = true
+	"Allow guards to teleport if following the player" = true
 	"Allow guard arrows to damage villagers, iron golems, or other guards? The i-frames will still be shown for them but they won't lose any health if this is set to false" = true
 	#Range: -999.9000244140625 ~ 999.0
 	"Chance to drop equipment" = 100.0

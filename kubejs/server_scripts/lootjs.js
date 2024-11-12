@@ -70,13 +70,14 @@ LootJS.modifiers((event) => {
     .addLoot('compactxpbottles:x4experiencebottle').randomChance(0.8)
 	
 	
-    event.addLootTypeModifier(LootType.CHEST)
+    event.addLootTypeModifier(LootType.CHEST).anyDimension("minecraft:overworld")
 	.addLoot(
-	LootEntry.of("kubejs:monster_coin").when((c) => c.randomChance(0.5)).limitCount([1, 5]),
+	LootEntry.of("kubejs:monster_coin").when((c) => c.randomChance(0.5)).limitCount([1, 5])
 	
 	
 	
-	);
+	) 
+	;
 	
 //	let lootlist = new Array();
 //    event

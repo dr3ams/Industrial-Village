@@ -103,27 +103,6 @@
 		#Range: 0.0 ~ 1.0
 		challengerMobGlobalChance = 0.1
 
-	[entity.trader]
-		#Whether or not to show a silly message when interacting with a trader that has that player's items
-		enableFlavorText = true
-		#If enabled, any valuable tools / items lost forever via Cactus, Lava, Void, etc. might be found by the next Wandering Trader and put up for sale!
-		#Valuable items are determined by the vtweaks:valuable tag and, if the item can be enchanted and the config option wanderingTraderRecoverySaveUnenchantedGear is set to true, is enchanted.
-		wanderingTraderRecoveryEnabled = false
-		#The chance that a given Wandering Trader will offer lost valuables for sale
-		#Range: 0.0 ~ 1.0
-		chanceToSellValuable = 0.4
-		#The maximum number of a player's lost items will be sold by a Wandering Trader each visit
-		#Range: > 1
-		numItemsToRestore = 5
-		#The minimum amount of emeralds a recovered item should cost
-		#Range: 1 ~ 128
-		minEmeraldCost = 24
-		#Determines if a destroyed #vtweaks:valuable should still be saved if it *can* be enchanted but isn't
-		saveUnenchantedGear = false
-		#The maximum amount of emeralds a recovered item should cost
-		#Range: 1 ~ 128
-		maxEmeraldCost = 92
-
 [player]
 	#Feather Falling IV or above directs 100% of fall damage to boots
 	enableFeatherFallTweak = true

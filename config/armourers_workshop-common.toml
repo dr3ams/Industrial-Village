@@ -36,6 +36,8 @@
 	#2 = always enable
 	#Range: 0 ~ 2
 	enableFirstPersonSkinRenderer = 0
+	#If enabled the server will allow client use server skins in the resource pack.
+	enableServerSkinsInResourcePack = false
 
 #Setting for the players wardrobe.
 [wardrobe]
@@ -118,4 +120,31 @@
 	#example1: "jdbc:mysql://<localhost>[:3306]/<database>[?user=<username>][&password=<password>]"
 	#example2: "jdbc:sqlite://</path/name.db>"
 	skin = ""
+	#Use fallback when database is specified.
+	#0 = enable
+	#1 = disable
+	#2 = migrate to database
+	#Range: 0 ~ 2
+	fallback = 0
+	#Keep alive time check when database is specified.
+	#the unit is seconds, 0 is disabled.
+	#Range: 0 ~ 86400
+	keepalive = 600
+
+#Setting to configure tooltips on skinned items.
+[tooltip]
+	#Show has skin tooltip on skinned items.
+	tooltipHasSkin = true
+	#Show skin name tooltip on items.
+	tooltipSkinName = true
+	#Show skin author tooltip on items.
+	tooltipSkinAuthor = true
+	#Show skin type tooltip on items.
+	tooltipSkinType = true
+	#Show skin flavour text tooltip on items.
+	tooltipFlavour = true
+	#Show skin preview tooltip on items.
+	tooltipSkinPreview = true
+	#Show open wardrobe message on skins.
+	tooltipOpenWardrobe = true
 

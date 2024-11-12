@@ -18,4 +18,7 @@
 	scaleWithMobSize = false
 	#Do not render alert icons for these mobs
 	clientMobBlacklist = []
+	#The texture of the aggro icon
+	#Allowed Values: CLASSIC, MGS, BLOCK_BENCH
+	clientAggroIconStyle = "CLASSIC"
 

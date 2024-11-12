@@ -11,7 +11,7 @@
 		string_id: "set_of_emerald_tools"
 	}
 	loot_size: 1
-	order_index: 37
+	order_index: 36
 	rewards: [
 		{
 			item: {

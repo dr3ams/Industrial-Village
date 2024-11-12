@@ -11,7 +11,7 @@
 		string_id: "spawn_eggs"
 	}
 	loot_size: 1
-	order_index: 39
+	order_index: 38
 	rewards: [
 		{ count: 2, item: "minecraft:bee_spawn_egg" }
 		{ count: 2, item: "minecraft:chicken_spawn_egg" }

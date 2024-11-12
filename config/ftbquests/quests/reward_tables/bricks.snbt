@@ -11,7 +11,7 @@
 		string_id: "bricks"
 	}
 	loot_size: 1
-	order_index: 35
+	order_index: 34
 	rewards: [
 		{ count: 64, item: "domum_ornamentum:beige_bricks" }
 		{ count: 64, item: "minecraft:bricks" }

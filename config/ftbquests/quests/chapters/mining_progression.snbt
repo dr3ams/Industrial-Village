@@ -648,7 +648,7 @@
 		}
 		{
 			dependencies: ["44875B6FA3D7CE74"]
-			description: ["A Buckler shield will give you a passive armor bonus when hend in your offhand but cannot be used to actively block."]
+			description: ["A Buckler shield will give you a passive armor bonus when held in your offhand but cannot be used to actively block."]
 			id: "503765686BCC67C1"
 			rewards: [{
 				id: "2A293280822DB515"

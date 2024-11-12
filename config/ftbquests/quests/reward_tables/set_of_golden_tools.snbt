@@ -11,7 +11,7 @@
 		string_id: "set_of_golden_tools"
 	}
 	loot_size: 1
-	order_index: 38
+	order_index: 37
 	rewards: [
 		{
 			item: {
