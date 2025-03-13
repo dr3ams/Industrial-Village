@@ -1,0 +1,16 @@
+{
+  "type": "railcraft:crusher",
+  "ingredient": {
+    "tag": "forge:ores/tin"
+  },
+  "outputs": [
+    {
+	"count": 2,
+      "probability": 1.0,
+      "result": {
+        "item": "kubejs:tin_grit"
+      }
+    }
+  ],
+  "processTime": 200
+}

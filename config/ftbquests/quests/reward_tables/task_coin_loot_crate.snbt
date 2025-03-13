@@ -1,0 +1,130 @@
+{
+	id: "4F7CB33667C1929C"
+	loot_size: 1
+	order_index: 40
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "common_loot_crate"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "materials_1"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "materials_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "materials_3"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "junk_1"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "junk_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "junk_3"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "ores_1"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "ores_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "ores_3"
+				}
+			}
+		}
+		{ item: "gems:topaz_shards", random_bonus: 3 }
+		{ item: "gems:sapphire_shards", random_bonus: 3 }
+		{ item: "gems:ruby_shards", random_bonus: 3 }
+		{ item: "aquaculture:treasure_chest", random_bonus: 2 }
+		{ count: 2, item: "aquaculture:lockbox", random_bonus: 2 }
+		{ count: 2, item: "aquaculture:box", random_bonus: 3 }
+		{ item: "tetra:pristine_lapis" }
+		{ item: "tetra:pristine_emerald" }
+		{ item: "tetra:pristine_diamond" }
+		{ item: "tetra:pristine_amethyst" }
+		{ item: "tetra:metal_scrap" }
+		{ item: "tetra:forged_mesh" }
+		{ item: "tetra:forged_bolt" }
+		{ item: "tetra:forged_beam" }
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "uncommon_loot_crate"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "engineers_supply"
+				}
+			}
+		}
+	]
+	title: "Task Coin Loot Crate"
+}

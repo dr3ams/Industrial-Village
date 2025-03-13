@@ -13,6 +13,8 @@
 	#This is the range in which the guards will be aggroed to mobs that are attacking villagers. Higher values are more resource intensive, and setting this to zero will disable the goal.
 	#Range: -500.0 ~ 500.0
 	Range = 50.0
+	#Range: -999.9000244140625 ~ 999.0
+	"Chance for guards to lose durability" = 1.0
 	#Range: > -2147483648
 	"Minimum reputation requirement for guards to give you access to their inventories" = 15
 	"Have guards attempt to avoid firing into other friendlies?" = true

@@ -1,0 +1,190 @@
+{
+  "enabled_animations": {
+    "idle": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "sneak_idle": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "sneak_walk": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "walk": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "run": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "turn_right": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "turn_left": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "falling": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "slow_falling": {
+      "enabled": true,
+      "speed": 0.5,
+      "fade": 5
+    },
+    "fall": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "landing": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "swimming": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "swim_idle": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "crawl_idle": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 0
+    },
+    "crawling": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 0
+    },
+    "eating": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "drinking": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "climbing": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "climbing_idle": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "sprint_stop": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 2
+    },
+    "fence_idle": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "fence_walk": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "edge_idle": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "elytra_fly": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "flint_and_steel": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "flint_and_steel_sneak": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "boat_idle": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "boat_left_paddle": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "boat_right_paddle": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "boat_forward": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "rolling": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "jump": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "punch": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "punch_sneaking": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "sword_swing": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    },
+    "sword_swing_sneak": {
+      "enabled": true,
+      "speed": 1.0,
+      "fade": 5
+    }
+  },
+  "hands_behavior": {
+    "punch": true,
+    "mining": true
+  },
+  // Don't touch this!
+  "CONFIG_VERSION": 2
+}

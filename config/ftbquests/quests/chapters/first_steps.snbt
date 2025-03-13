@@ -332,12 +332,14 @@
 				"0000000000000058"
 				"0000000000000042"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"Place the Coke Brick in a 3x3x3 block and right-click with an Engineer's Hammer to form a Coke Oven. By placing coal into the oven it will create creosote oil."
 				""
 			]
 			icon: "immersiveengineering:cokebrick"
 			id: "000000000000005C"
+			min_required_dependencies: 1
 			rewards: [{
 				id: "419E679787369FF8"
 				item: "kubejs:copper_coin"
@@ -349,6 +351,7 @@
 				count: 27L
 				id: "000000000000005D"
 				item: "immersiveengineering:cokebrick"
+				optional_task: true
 				type: "item"
 			}]
 			title: "Coke Oven"
@@ -674,6 +677,7 @@
 		}
 		{
 			dependencies: ["000000000000005C"]
+			dependency_requirement: "one_started"
 			description: ["This opens up so many engineering possibilities!"]
 			id: "7EC97FF3249B658C"
 			rewards: [{
@@ -839,7 +843,7 @@
 		}
 		{
 			dependencies: ["000000000000002C"]
-			description: ["You can already start preparing materials for Coke Oven since you will a lot of them"]
+			description: ["You can already start preparing materials for Coke Oven since you will need a lot of them"]
 			id: "54FD7DBCB9A1D11A"
 			rewards: [{
 				id: "3F5BF7C1F9351EA5"
@@ -1064,6 +1068,46 @@
 			}]
 			x: 10.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["0000000000000061"]
+			description: ["Allows you to take and complete different task with various rewards!"]
+			id: "08B1C3783DFE5936"
+			rewards: [{
+				id: "550D150DCB86D615"
+				item: "kubejs:coin_task"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F8BE61045D26E5C"
+				item: "bountiful:bountyboard"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["000000000000005C"]
+			description: [
+				"This modpack has &eJEI Multiblock&r addon for displaying how to properly build &9Immersive Engineering&r multiblocks."
+				""
+				"Press '&4U&r' while hovering over &1Engineer's Hammer&r and choose '&bMultiblock with Hammer&r' tab on top of &eJEI window&r."
+			]
+			icon: "kubejs:help"
+			id: "40E4121029ACB63F"
+			rewards: [{
+				id: "73C6D8926772B639"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "4691A6E7B95DCB5D"
+				title: "JEI Multiblocks"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: 2.0d
 		}
 	]
 	title: "1. &aFirst Steps&r"

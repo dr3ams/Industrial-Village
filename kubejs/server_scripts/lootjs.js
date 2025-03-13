@@ -40,7 +40,9 @@ LootJS.modifiers(event => {
         .replaceLoot("minecraft:iron_ingot", LootEntry.of("minecraft:iron_nugget").limitCount([1, 12]))
         .replaceLoot("minecraft:diamond", "minecraft:coal")
 
-
+		.removeLoot("forestry:kit_pickaxe")
+		.removeLoot("forestry:kit_shovel")	
+		.removeLoot("forestry:grafter")
 
 })
 

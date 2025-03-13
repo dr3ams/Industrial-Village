@@ -1,0 +1,14 @@
+{
+  "content": {
+    "coin_task": {
+		"type": "item",
+		"rarity": "UNCOMMON",
+		"content": "kubejs:coin_task",
+		"amount": {
+			"min": 1,
+			"max": 3
+		},
+      "unitWorth": 1200
+    }
+  }
+}

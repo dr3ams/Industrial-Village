@@ -128,4 +128,6 @@
 	animation = false
 	#Shows molang compile states in logs.
 	molang = false
+	#Shows resource register/unregister in logs.
+	resource = false
 

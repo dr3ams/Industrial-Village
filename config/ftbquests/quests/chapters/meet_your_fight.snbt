@@ -486,18 +486,11 @@
 			icon: "minecraft:wither_skeleton_skull"
 			id: "1041E459F94EE676"
 			optional: true
-			rewards: [
-				{
-					id: "05BB6284DC6C454E"
-					item: "collectorsalbum:epic_card_package"
-					type: "item"
-				}
-				{
-					id: "35365E5CF7472E63"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "35365E5CF7472E63"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:wither_skeleton"
 				id: "0523A24B92E81805"

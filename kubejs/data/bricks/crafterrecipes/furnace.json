@@ -1,0 +1,14 @@
+{
+   "type":"recipe",
+   "additional-output":[],
+   "crafter":"stonesmeltery_bricks",
+   "inputs":[
+      { "item":"minecraft:cobblestone",
+	  "count":8
+	  
+	  }
+   ],
+   "intermediate":"minecraft:air",
+   "min-building-level":1,
+   "result":"minecraft:furnace"
+}

@@ -1,0 +1,214 @@
+{
+  "requires": [
+    "aquaculture"
+  ],
+  "content": {
+    "aquacultureaquaculture_redstone_hook": {
+      "type": "item",
+      "content": "aquaculture:redstone_hook",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_double_hook": {
+      "type": "item",
+      "content": "aquaculture:double_hook",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 300
+    },
+    "aquacultureaquaculture_heavy_hook": {
+      "type": "item",
+      "content": "aquaculture:heavy_hook",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 400
+    },
+    "aquacultureaquaculture_light_hook": {
+      "type": "item",
+      "content": "aquaculture:light_hook",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_diamond_hook": {
+      "type": "item",
+      "content": "aquaculture:diamond_hook",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 900
+    },
+    "aquacultureaquaculture_gold_hook": {
+      "type": "item",
+      "content": "aquaculture:gold_hook",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 200
+    },
+    "aquacultureaquaculture_iron_hook": {
+      "type": "item",
+      "content": "aquaculture:iron_hook",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 300
+    },
+    "aquacultureaquaculture_worm_farm": {
+      "type": "item",
+      "content": "aquaculture:worm_farm",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 100
+    },
+    "aquacultureaquaculture_tackle_box": {
+      "type": "item",
+      "content": "aquaculture:tackle_box",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 400
+    },
+    "aquacultureaquaculture_treasure_chest": {
+      "type": "item",
+      "content": "aquaculture:treasure_chest",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_lockbox": {
+      "type": "item",
+      "content": "aquaculture:lockbox",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 300
+    },
+    "aquacultureaquaculture_box": {
+      "type": "item",
+      "content": "aquaculture:box",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 100
+    },
+    "aquacultureaquaculture_note_hook": {
+      "type": "item",
+      "content": "aquaculture:note_hook",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 400
+    },
+    "aquacultureaquaculture_nether_star_hook": {
+      "type": "item",
+      "content": "aquaculture:nether_star_hook",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3000
+    },
+    "aquacultureaquaculture_neptunium_nugget": {
+      "type": "item",
+      "content": "aquaculture:neptunium_nugget",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1300
+    },
+    "aquacultureaquaculture_diamond_fishing_rod": {
+      "type": "item",
+      "content": "aquaculture:diamond_fishing_rod",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800
+    },
+    "aquacultureaquaculture_neptunium_fishing_rod": {
+      "type": "item",
+      "content": "aquaculture:neptunium_fishing_rod",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1200
+    },
+    "aquacultureaquaculture_worm": {
+      "type": "item",
+      "content": "aquaculture:worm",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 100
+    },
+    "aquacultureaquaculture_bobber": {
+      "type": "item",
+      "content": "aquaculture:bobber",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 100
+    },
+    "aquacultureaquaculture_fishing_line": {
+      "type": "item",
+      "content": "aquaculture:fishing_line",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 100
+    },
+    "aquacultureaquaculture_tin_can": {
+      "type": "item",
+      "content": "aquaculture:tin_can",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 10
+    },
+    "aquacultureaquaculture_driftwood": {
+      "type": "item",
+      "content": "aquaculture:driftwood",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 50
+    },
+    "aquacultureaquaculture_message_in_a_bottle": {
+      "type": "item",
+      "content": "aquaculture:message_in_a_bottle",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 10
+    }
+  }
+}

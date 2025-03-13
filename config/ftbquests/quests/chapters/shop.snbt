@@ -719,7 +719,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			description: [""]
@@ -735,6 +735,29 @@
 			x: 9.75d
 			y: -3.0d
 		}
+		{
+			can_repeat: true
+			description: ["Acquired by doing &9Bounties&r from the &6Bounty board&r"]
+			disable_toast: true
+			id: "7B1F2DF953B04725"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C0CE82130A6F1A1"
+				table_id: 5727649872358773404L
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "11E3F7A2B26264FF"
+				item: "kubejs:coin_task"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
 	]
-	title: "&l&fCoins Exchange&r&r"
+	title: "&n&f⭐ Coins Exchange&r&r"
 }

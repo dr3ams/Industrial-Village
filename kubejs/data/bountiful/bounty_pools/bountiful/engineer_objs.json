@@ -1,0 +1,531 @@
+{
+	"content": {
+		"engineer-objs-coil_lv": {
+			"type": "item",
+			"content": "immersiveengineering:coil_lv",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 700
+		},
+		"engineer-objs-coil_mv": {
+			"type": "item",
+			"content": "immersiveengineering:coil_mv",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 800
+		},
+		"engineer-objs-coil_hv": {
+			"type": "item",
+			"content": "immersiveengineering:coil_hv",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 1200,
+			"weightMult": 0.5
+		},
+		"engineer-objs-electromagnet": {
+			"type": "item",
+			"content": "immersiveengineering:electromagnet",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 1500
+		},
+		"engineer-objs-transformer": {
+			"type": "item",
+			"content": "immersiveengineering:transformer",
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 2000
+		},
+		"engineer-objs-transformer_hv": {
+			"type": "item",
+			"content": "immersiveengineering:transformer_hv",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 2500
+		},
+		"engineer-objs-redstone_breaker": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "immersiveengineering:redstone_breaker",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 2000
+		},
+		"engineer-objs-current_transformer": {
+			"type": "item",
+			"content": "immersiveengineering:current_transformer",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 2000
+		},
+		"engineer-objs-connector_bundled": {
+			"type": "item",
+			"content": "immersiveengineering:connector_bundled",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 1100
+		},
+		"engineer-objs-gunpart_drum": {
+			"type": "item",
+			"content": "immersiveengineering:gunpart_drum",
+			"amount": {
+				"min": 2,
+				"max": 12
+			},
+			"unitWorth": 800,
+			"weightMult": 0.5
+		},
+		"engineer-objs-electron_tube": {
+			"type": "item",
+			"content": "immersiveengineering:electron_tube",
+			"amount": {
+				"min": 3,
+				"max": 48
+			},
+			"unitWorth": 800
+		},
+		"engineer-objs-light_bulb": {
+			"type": "item",
+			"content": "immersiveengineering:light_bulb",
+			"amount": {
+				"min": 4,
+				"max": 48
+			},
+			"unitWorth": 300
+		},
+		"engineer-objs-component_electronic_adv": {
+			"type": "item",
+			"content": "immersiveengineering:component_electronic_adv",
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 1100
+		},
+		"engineer-objs-component_electronic": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "immersiveengineering:component_electronic",
+			"amount": {
+				"min": 1,
+				"max": 30
+			},
+			"unitWorth": 400
+		},
+		"engineer-objs-hemp_fabric": {
+			"type": "item",
+			"content": "immersiveengineering:hemp_fabric",
+			"amount": {
+				"min": 1,
+				"max": 40
+			},
+			"unitWorth": 400
+		},
+		"engineer-objs-ersatz_leather": {
+			"type": "item",
+			"content": "immersiveengineering:ersatz_leather",
+			"amount": {
+				"min": 1,
+				"max": 48
+			},
+			"unitWorth": 200
+		},
+		"engineer-objs-component_steel": {
+			"type": "item",
+			"content": "immersiveengineering:component_steel",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 600,
+			"weightMult": 0.5
+		},
+		"engineer-objs-component_iron": {
+			"type": "item",
+			"content": "immersiveengineering:component_iron",
+			"amount": {
+				"min": 2,
+				"max": 16
+			},
+			"unitWorth": 500
+		},
+		"engineer-objs-circuit_board": {
+			"type": "item",
+			"content": "immersiveengineering:circuit_board",
+			"amount": {
+				"min": 2,
+				"max": 6
+			},
+			"unitWorth": 600
+		},
+		"engineer-objs-plate_duroplast": {
+			"type": "item",
+			"content": "immersiveengineering:plate_duroplast",
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 200
+		},
+		"engineer-objs-maintenance_kit": {
+			"type": "item",
+			"content": "immersiveengineering:maintenance_kit",
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 600
+		},
+		"engineer-objs-toolupgrade_drill_capacity": {
+			"type": "item",
+			"content": "immersiveengineering:toolupgrade_drill_capacity",
+			"amount": {
+				"min": 2,
+				"max": 4
+			},
+			"unitWorth": 700
+		},
+		"engineer-objs-toolupgrade_revolver_bayonet": {
+			"type": "item",
+			"content": "immersiveengineering:toolupgrade_revolver_bayonet",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 200,
+			"weightMult": 0.5
+		},
+		"engineer-objs-toolupgrade_revolver_electro": {
+			"type": "item",
+			"content": "immersiveengineering:toolupgrade_revolver_electro",
+			"amount": {
+				"min": 2,
+				"max": 3
+			},
+			"unitWorth": 500
+		},
+		"engineer-objs-toolupgrade_revolver_magazine": {
+			"type": "item",
+			"content": "immersiveengineering:toolupgrade_revolver_magazine",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 500
+		},
+		"engineer-objs-toolupgrade_shield_flash": {
+			"type": "item",
+			"content": "immersiveengineering:toolupgrade_shield_flash",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 300
+		},
+		"engineer-objs-toolupgrade_shield_magnet": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "immersiveengineering:toolupgrade_shield_magnet",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 500
+		},
+		"engineer-objs-toolupgrade_chemthrower_multitank": {
+			"type": "item",
+			"content": "immersiveengineering:toolupgrade_chemthrower_multitank",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 500
+		},
+		"engineer-objs-blastbrick_reinforced": {
+			"type": "item",
+			"content": "immersiveengineering:blastbrick_reinforced",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 1000
+		},
+		"engineer-objs-concrete_leaded": {
+			"type": "item",
+			"content": "immersiveengineering:concrete_leaded",
+			"amount": {
+				"min": 1,
+				"max": 24
+			},
+			"unitWorth": 800,
+			"weightMult": 0.5
+		},
+		"engineer-objs-toolupgrade_railgun_scope": {
+			"type": "item",
+			"content": "immersiveengineering:toolupgrade_railgun_scope",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 500
+		},
+		"engineer-objs-reinforced_crate": {
+			"type": "item",
+			"content": "immersiveengineering:reinforced_crate",
+			"amount": {
+				"min": 2,
+				"max": 24
+			},
+			"unitWorth": 800
+		},
+		"engineer-objs-blastfurnace_preheater": {
+			"type": "item",
+			"content": "immersiveengineering:blastfurnace_preheater",
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 1100
+		},
+		"engineer-objs-fluid_placer": {
+			"type": "item",
+			"content": "immersiveengineering:fluid_placer",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 600
+		},
+		"engineer-objs-fluid_pump": {
+			"type": "item",
+			"content": "immersiveengineering:fluid_pump",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 800
+		},
+		"engineer-objs-rs_engineering": {
+			"type": "item",
+			"content": "immersiveengineering:rs_engineering",
+			"amount": {
+				"min": 2,
+				"max": 28
+			},
+			"unitWorth": 1000
+		},
+		"engineer-objs-heavy_engineering": {
+			"type": "item",
+			"content": "immersiveengineering:heavy_engineering",
+			"amount": {
+				"min": 3,
+				"max": 24
+			},
+			"unitWorth": 1200,
+			"weightMult": 0.5
+		},
+		"engineer-objs-light_engineering": {
+			"type": "item",
+			"content": "immersiveengineering:light_engineering",
+			"amount": {
+				"min": 2,
+				"max": 18
+			},
+			"unitWorth": 400
+		},
+		"engineer-objs-generator": {
+			"type": "item",
+			"content": "immersiveengineering:generator",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 1800
+		},
+		"engineer-objs-radiator": {
+			"type": "item",
+			"content": "immersiveengineering:radiator",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 2000
+		},
+		"engineer-objs-connector_lv": {
+			"type": "item",
+			"content": "immersiveengineering:connector_lv",
+			"amount": {
+				"min": 1,
+				"max": 32
+			},
+			"unitWorth": 200
+		},
+		"engineer-objs-connector_lv_relay": {
+			"type": "item",
+			"content": "immersiveengineering:connector_lv_relay",
+			"amount": {
+				"min": 1,
+				"max": 32
+			},
+			"unitWorth": 200
+		},
+		"engineer-objs-connector_mv": {
+			"type": "item",
+			"content": "immersiveengineering:connector_mv",
+			"amount": {
+				"min": 1,
+				"max": 32
+			},
+			"unitWorth": 300
+		},
+		"engineer-objs-connector_mv_relay": {
+			"type": "item",
+			"content": "immersiveengineering:connector_mv_relay",
+			"amount": {
+				"min": 2,
+				"max": 24
+			},
+			"unitWorth": 400,
+			"weightMult": 0.5
+		},
+		"engineer-objs-connector_hv": {
+			"type": "item",
+			"content": "immersiveengineering:connector_hv",
+			"amount": {
+				"min": 2,
+				"max": 48
+			},
+			"unitWorth": 300
+		},
+		"engineer-objs-connector_hv_relay": {
+			"type": "item",
+			"content": "immersiveengineering:connector_hv_relay",
+			"amount": {
+				"min": 2,
+				"max": 6
+			},
+			"unitWorth": 300
+		},
+		"engineer-objs-steel_scaffolding_standard": {
+			"type": "item",
+			"content": "immersiveengineering:steel_scaffolding_standard",
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 900
+		},
+		"engineer-objs-alu_scaffolding_standard": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "immersiveengineering:alu_scaffolding_standard",
+			"amount": {
+				"min": 1,
+				"max": 9
+			},
+			"unitWorth": 600
+		},
+		"engineer-objs-empty_shell": {
+			"type": "item",
+			"content": "immersiveengineering:empty_shell",
+			"amount": {
+				"min": 3,
+				"max": 64
+			},
+			"unitWorth": 50
+		},
+		"engineer-objs-wirecutter": {
+			"type": "item",
+			"content": "immersiveengineering:wirecutter",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 300
+		},
+		"engineer-objs-screwdriver": {
+			"type": "item",
+			"content": "immersiveengineering:screwdriver",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 700,
+			"weightMult": 0.5
+		},
+		"engineer-objs-drillhead_steel": {
+			"type": "item",
+			"content": "immersiveengineering:drillhead_steel",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 800
+		},
+		"engineer-objs-drillhead_iron": {
+			"type": "item",
+			"content": "immersiveengineering:drillhead_iron",
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 500
+		},
+		"engineer-objs-lantern": {
+			"type": "item",
+			"content": "immersiveengineering:lantern",
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 500
+		},
+		"engineer-objs-cloche": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "immersiveengineering:cloche",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 300
+		},
+		"engineer-objs-floodlight": {
+			"type": "item",
+			"content": "immersiveengineering:floodlight",
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 500
+		},
+		"engineer-objs-electric_lantern": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "immersiveengineering:electric_lantern",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 900
+		}
+	}
+}

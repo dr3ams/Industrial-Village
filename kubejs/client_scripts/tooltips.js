@@ -23,7 +23,34 @@ ItemEvents.tooltip(event =>{
       ])
     }
   })
-	
+  
+  	event.addAdvanced('kubejs:coin_task', (item, advanced, text) => {
+	text.add(1, [
+        Text.of('Task coin').blue()
+    ])	
+    if (!event.isShift()) {
+      text.add(2, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').yellow(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Acquired by doing various ').white(),
+		Text.of('Bounties ').blue(),
+		Text.of('from the ').white(),
+		Text.of('Bounty ').gold(),
+        Text.of('board').white()
+      ])
+	    text.add(2, [
+        Text.of('• Exchange it in ').white(),
+        Text.of('⭐ Coins Exchange ').gold(),
+        Text.of('quest chapter in the ').white(),
+		Text.of('Quest Book ').green()
+      ])
+    }
+  })	
+  
 	event.addAdvanced('farmersdelight:rope', (item, advanced, text) => {
     if (!event.isShift()) {
       text.add(1, [

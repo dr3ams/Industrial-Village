@@ -1,0 +1,238 @@
+{
+  "content": {
+	"glow_berries": {
+      "type": "item",
+      "content": "minecraft:glow_berries",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 200
+    }, 
+	"coal": {
+		"type": "item",
+		"content": "minecraft:coal",
+		"amount": {
+			"min": 8,
+			"max": 32
+		},
+		"unitWorth": 100
+	},
+	"raw_iron": {
+		"type": "item",
+		"content": "minecraft:raw_iron",
+		"amount": {
+			"min": 8,
+			"max": 32
+		},
+		"unitWorth": 100
+	},	
+	"raw_gold": {
+		"type": "item",
+		"content": "minecraft:raw_gold",
+		"amount": {
+			"min": 8,
+			"max": 32
+		},
+		"unitWorth": 100
+	},	
+	"cake": {
+      "type": "item",
+      "content": "minecraft:cake",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 700
+    },
+    "honey_block": {
+      "type": "item",
+      "content": "minecraft:honey_block",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 200
+    },	  
+	"leather": {
+      "type": "item",
+      "content": "minecraft:leather",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 400
+    },  
+	"amethyst_block": {
+      "type": "item",
+      "content": "minecraft:amethyst_block",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 500
+    },
+    "glow_ink_sac": {
+      "type": "item",
+      "content": "minecraft:glow_ink_sac",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 200
+    },
+    "comparator": {
+        "type": "item",
+        "content": "minecraft:comparator",
+        "amount": {
+            "min": 1,
+            "max": 2
+        },
+        "unitWorth": 500
+    },
+	"dispenser": {
+		"type": "item",
+		"content": "minecraft:dispenser",
+		"amount": {
+			"min": 1,
+			"max": 2
+		},
+		"unitWorth": 500
+	},
+	"observer": {
+		"type": "item",
+		"content": "minecraft:observer",
+		"amount": {
+			"min": 1,
+			"max": 5
+		},
+		"unitWorth": 750
+	},
+    "redstone_lamp": {
+       "type": "item",
+        "content": "minecraft:redstone_lamp",
+        "amount": {
+            "min": 1,
+            "max": 2
+        },
+        "unitWorth": 800
+    },	
+    "gunpowder": {
+      "type": "item",
+      "content": "minecraft:gunpowder",
+      "amount": {
+        "min": 1,
+        "max": 64
+      },
+      "unitWorth": 300
+    },
+	"heart_of_the_sea": {
+      "type": "item",
+      "content": "minecraft:heart_of_the_sea",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 800
+    },
+	"experience_bottle": {
+      "type": "item",
+      "content": "minecraft:experience_bottle",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 800
+    },
+	"copper_block": {
+      "type": "item",
+      "content": "minecraft:copper_block",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 3500
+    },
+    "ender_pearl": {
+      "type": "item",
+      "content": "minecraft:ender_pearl",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 500
+    },
+    "glowstone": {
+      "type": "item",
+      "content": "minecraft:glowstone_dust",
+      "amount": {
+        "min": 4,
+        "max": 24
+      },
+      "unitWorth": 500
+    },
+    "redstone": {
+      "type": "item",
+      "content": "minecraft:redstone",
+      "amount": {
+        "min": 6,
+        "max": 32
+      },
+      "unitWorth": 100
+    },
+    "gold_ingot": {
+      "type": "item",
+      "content": "minecraft:gold_ingot",
+      "amount": {
+        "min": 3,
+        "max": 8
+      },
+      "unitWorth": 1200
+    },
+    "lapis_lazuli": {
+      "type": "item",
+      "content": "minecraft:lapis_lazuli",
+      "amount": {
+        "min": 6,
+        "max": 32
+      },
+      "unitWorth": 600
+    },
+    "diamond": {
+      "type": "item",
+      "content": "minecraft:diamond",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 4000
+    },
+    "iron_ingot": {
+      "type": "item",
+      "content": "minecraft:iron_ingot",
+      "amount": {
+        "min": 8,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "emerald": {
+      "type": "item",
+      "content": "minecraft:emerald",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "copper_ingot": {
+      "type": "item",
+      "content": "minecraft:copper_ingot",
+      "amount": {
+        "min": 4,
+        "max": 32
+      },
+      "unitWorth": 700
+    }
+  }
+}

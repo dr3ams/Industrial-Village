@@ -7,3 +7,7 @@
 	#Applies at Hut/Citizen inventory and Recipe Teach window.
 	addCloseButton = false
 
+[fields]
+	#Render selected seed item above field's head.
+	renderSeed = true
+

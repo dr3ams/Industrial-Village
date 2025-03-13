@@ -1,0 +1,16 @@
+{
+  "type": "railcraft:crusher",
+  "ingredient": {
+    "tag": "forge:ores/zinc"
+  },
+  "outputs": [
+    {
+	"count": 2,
+      "probability": 1.0,
+      "result": {
+        "item": "kubejs:zinc_grit"
+      }
+    }
+  ],
+  "processTime": 200
+}

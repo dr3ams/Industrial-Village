@@ -104,6 +104,18 @@
 			}
 		}
 		{ item: "torchmaster:megatorch" }
+		{ item: "collectorsalbum:uncommon_card_pack" }
+		{ item: "collectorsalbum:rare_card_pack" }
+		{ item: "collectorsalbum:epic_card_pack" }
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "engineers_supply"
+				}
+			}
+		}
 	]
 	title: "Gold coin reward"
 }

@@ -5,6 +5,9 @@
 console.info('food script started')
 
 ItemEvents.modification(event => {
+	
+	
+	//(effect: ID, duration: int, amplifier: int, probability: float)
   event.modify('immersiveengineering:ingot_uranium', item => {
     item.foodProperties = food => 
 	{
@@ -22,7 +25,12 @@ ItemEvents.modification(event => {
 		.effect('darkness', 200, 255, 10)
     }
 	})
-  })
+	
+	
+
+
+	
+})
 
 
 StartupEvents.postInit(event => { Platform.mods.kubejs.name = 'Industrial Village'; });

@@ -1,0 +1,17 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+enableParticleCulling = true
+particleRenderDistance = 4
+cullParticlesWithNoAlpha = true
+cullParticlesInUnloadedChunks = true
+lavaSparkSmoke = false
+sparksScale = 1.0
+poppingHearts = true
+poppingBubbles = true
+poppingBubblesVolume = 0.2
+glowingLavaDrops = true
+fluidDropsEvaporate = true
+fluidDropsEvaporationVolume = 0.1004902
+dropLandSounds = true
+mobSkullShaders = true
+fireHeight = -0.15

@@ -1,0 +1,12 @@
+{
+  "type": "ad_astra:compressing",
+  "cookingtime": 50,
+  "energy": 50,
+  "ingredient": {
+    "item": "railcraft:zinc_ingot"
+  },
+  "result": {
+    "count": 1,
+    "id": "railcraft:zinc_plate"
+  }
+}

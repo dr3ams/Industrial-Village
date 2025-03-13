@@ -140,7 +140,56 @@ StartupEvents.registry('item', event => {
     .tag('forge:armors')
     .tag('forge:armors/boots')
     .tag('kubejs:obsidian_armor')
-	
+
+		//		CARTON LOL
+ event.create('kubejs:carton_helmet', 'helmet').tier('carton_armor')
+    .displayName('Carton Helmet')
+    .rarity('common')
+    .texture('kubejs:item/carton_helmet')
+    .maxStackSize(1)
+    .tag('forge:helmets')
+    .tag('forge:armor')
+    .tag('forge:armors')
+    .tag('forge:armors/helmets')
+    .tag('kubejs:carton_armor')
+	.tooltip('Shouldnt be CREATEd')
+
+  event.create('kubejs:carton_chestplate', 'chestplate').tier('carton_armor')
+    .displayName('Carton Chestplate')
+    .rarity('common')
+    .texture('kubejs:item/carton_chestplate')
+    .maxStackSize(1)
+    .tag('forge:chestplates')
+    .tag('forge:armor')
+    .tag('forge:armors')
+    .tag('forge:armors/chestplates')
+    .tag('kubejs:carton_armor')
+	.tooltip('Shouldnt be CREATEd')
+
+  event.create('kubejs:carton_leggings', 'leggings').tier('carton_armor')
+    .displayName('Carton Leggings')
+    .rarity('common')
+    .texture('kubejs:item/carton_leggings')
+    .maxStackSize(1)
+    .tag('forge:leggings')
+    .tag('forge:armor')
+    .tag('forge:armors')
+    .tag('forge:armors/leggings')
+    .tag('kubejs:carton_armor')
+	.tooltip('Shouldnt be CREATEd')
+
+  event.create('kubejs:carton_boots', 'boots').tier('carton_armor')
+    .displayName('Carton Boots')
+    .rarity('common')
+    .texture('kubejs:item/carton_boots')
+    .maxStackSize(1)
+    .tag('forge:boots')
+    .tag('forge:armor')
+    .tag('forge:armors')
+    .tag('forge:armors/boots')
+    .tag('kubejs:carton_armor')
+	.tooltip('Shouldnt be CREATEd')
+//////////////END	
 })
 
 ItemEvents.armorTierRegistry(event => {
@@ -171,7 +220,14 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.5
   })
   
-  
+    event.add('carton_armor', tier => {
+    tier.durabilityMultiplier = 2
+    tier.slotProtections = [1, 1, 1, 1]
+    tier.enchantmentValue = 10
+    tier.equipSound = 'minecraft:item.armor.equip_leather'
+    tier.toughness = 0
+    tier.knockbackResistance = 0
+  })
 })
 
 

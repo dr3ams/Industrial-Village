@@ -1,0 +1,21 @@
+{
+  "type": "railcraft:crusher",
+  "ingredient": {
+    "item": "railcraft:zinc_raw"
+  },
+  "outputs": [
+    {
+      "probability": 1.0,
+      "result": {
+        "item": "kubejs:zinc_grit"
+      }
+    },
+	{
+      "probability": 0.3,
+      "result": {
+        "item": "kubejs:zinc_grit"
+      }
+    }
+  ],
+  "processTime": 200
+}

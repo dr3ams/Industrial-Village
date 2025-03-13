@@ -1,3 +1,7 @@
+# The library to use for game controller input. You can change this if you are having problems detecting game controllers.
+# Please note that changing from the default library may disable some feature in Controllable, only use this as a last resort
+# Valid values: GLFW, SDL2
+inputLibrary = "SDL2"
 
 # Client configuration settings
 [client]

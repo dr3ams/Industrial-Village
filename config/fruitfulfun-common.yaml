@@ -2,7 +2,7 @@
 ---
 modules:
   farmersdelight: true
-  bee: true
+  bee: false
   vacuum: true
   ritual: true
   food: true
@@ -43,3 +43,5 @@ haunting:
   initiativeSkillCooldownTicks: 90
   enabled: true
   cooldownSeconds: 10
+integration:
+  hauntedHarvestRottenAppleChance: 0.03

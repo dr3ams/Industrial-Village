@@ -42,6 +42,17 @@ ServerEvents.tags('item', event => {
 	event.removeAllTagsFrom('ad_astra:iron_rod')
 	event.removeAllTagsFrom('buildersaddition:iron_rod')
 	
+	
+	event.removeAllTagsFrom('forestry:resource_storage_bronze')
+	event.removeAllTagsFrom('forestry:raw_tin_block')
+	event.removeAllTagsFrom('forestry:resource_storage_tin')
+	event.removeAllTagsFrom('forestry:gear_bronze')
+	event.removeAllTagsFrom('forestry:gear_copper')
+	event.removeAllTagsFrom('forestry:gear_tin')
+	event.removeAllTagsFrom('forestry:raw_tin')
+	event.removeAllTagsFrom('forestry:ingot_tin')
+	event.removeAllTagsFrom('forestry:ingot_bronze')
+	
 	event.removeAllTagsFrom('pneumaticcraft:copper_nugget')
 	event.removeAllTagsFrom('skilltree:copper_nugget')
 	
@@ -82,6 +93,8 @@ ServerEvents.tags('item', event => {
 	
 	event.add('forge:tools/axes', 'natprog:flint_hatchet')
 	
+
+	
 	event.get('minecraft:tools')
 		.add('natprog:bronze_saw') 
 		.add('natprog:copper_saw')
@@ -100,5 +113,13 @@ ServerEvents.tags('item', event => {
 		.add('natprog:gold_saw')
 		.add('natprog:iron_saw')
 		.add('natprog:netherite_saw')
-		.add('natprog:steel_saw')	
+		.add('natprog:steel_saw')
+
+	event.get('forge:fertilizer')
+		.add('industrialforegoing:fertilizer')
+		.add('minecraft:bone_meal')
+		.add('forestry:fertilizer_compound')
+		.add('immersiveengineering:fertilizer')
+
+///////////////// END		
 })

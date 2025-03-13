@@ -36,6 +36,8 @@ JEIEvents.hideItems(event => {
 	
 	event.hide('ad_astra:etrionic_blast_furnace')
 
+	event.hide('forestry:butterfly_ge')
+
 	event.hide('ad_astra:ostrum_fluid_pipe')
 	event.hide('mffs:steel_compound') 
 	event.hide('mffs:steel_ingot') 

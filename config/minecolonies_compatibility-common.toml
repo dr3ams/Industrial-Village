@@ -1,0 +1,9 @@
+
+[jobs]
+
+	[jobs.ranger]
+		canUseCrossbow = true
+
+	[jobs.knight]
+		canUseAxe = true
+

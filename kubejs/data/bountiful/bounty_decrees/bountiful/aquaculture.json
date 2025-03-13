@@ -1,0 +1,15 @@
+{
+  "requires": [
+    "aquaculture"
+  ],
+  "objectives": [
+    "aquaculture_shipping"
+  ],
+  "rewards": [
+    "decree",
+    "aquaculture_shop",
+    "_all_rews",
+	"_currency",
+	"fisherman_rews"
+  ]
+}

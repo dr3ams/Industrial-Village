@@ -1,0 +1,34 @@
+{
+  "type": "forestry:carpenter",
+  "box": [],
+  "liquid": {
+    "Amount": 100,
+    "FluidName": "minecraft:water"
+  },
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "A": {
+        "tag": "forge:ash"
+      },
+      "X": {
+        "tag": "forge:sand"
+      },
+      "Y": {
+        "tag": "forge:fertilizer"
+      }
+    },
+    "pattern": [
+      "AXA",
+      "AYA",
+      "AXA"
+    ],
+    "result": {
+      "count": 8,
+      "item": "forestry:fertilizer_compound"
+    },
+    "show_notification": true
+  },
+  "time": 5
+}

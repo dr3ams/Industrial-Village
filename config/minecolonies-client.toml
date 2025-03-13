@@ -13,4 +13,6 @@
 	buildgogglerange = 50
 	#When true, the colony borders shown when holding the build tool will be in the colony's team color. When false, the colony you're inside will be white and any other colony will be red. [Default: true]
 	colonyteamborders = true
+	#Should special holiday content be displayed? [Default: true]
+	holidayfeatures = true
 

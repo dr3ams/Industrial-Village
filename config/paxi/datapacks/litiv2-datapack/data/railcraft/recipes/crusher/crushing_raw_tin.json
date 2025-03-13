@@ -1,0 +1,21 @@
+{
+  "type": "railcraft:crusher",
+  "ingredient": {
+    "item": "railcraft:tin_raw"
+  },
+  "outputs": [
+    {
+      "probability": 1.0,
+      "result": {
+        "item": "kubejs:tin_grit"
+      }
+    },
+	{
+      "probability": 0.3,
+      "result": {
+        "item": "kubejs:tin_grit"
+      }
+    }
+  ],
+  "processTime": 200
+}

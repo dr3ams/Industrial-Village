@@ -531,8 +531,8 @@
     "minecraft:generic.max_health": {
       "enabled": true,
       "min": {
-        "default": 1,
-        "value": 1
+        "default": 20,
+        "value": 20
       },
       "max": {
         "default": 1024,

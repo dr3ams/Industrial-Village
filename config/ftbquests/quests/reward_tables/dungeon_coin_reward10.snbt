@@ -15,10 +15,6 @@
 		{ count: 10, item: "gems:topaz_shards", random_bonus: 30 }
 		{ count: 10, item: "gems:sapphire_shards", random_bonus: 30 }
 		{ count: 10, item: "gems:ruby_shards", random_bonus: 30 }
-		{ count: 10, item: "collectorsalbum:common_card_package" }
-		{ count: 10, item: "collectorsalbum:epic_card_package" }
-		{ count: 10, item: "collectorsalbum:rare_card_package" }
-		{ count: 10, item: "collectorsalbum:uncommon_card_package" }
 		{ count: 10, item: "extendedcrafting:advanced_catalyst" }
 		{ count: 10, item: "extendedcrafting:basic_catalyst", random_bonus: 20 }
 		{ count: 10, item: "extendedcrafting:black_iron_ingot", random_bonus: 20 }

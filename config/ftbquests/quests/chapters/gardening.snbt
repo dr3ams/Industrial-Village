@@ -17,32 +17,308 @@
 			image: "vinery:item/red_grape"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.5d
-			y: 2.0d
+			x: -7.5d
+			y: 6.0d
 		}
 		{
 			height: 1.0d
 			image: "minecraft:item/apple"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.5d
-			y: 2.0d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:item/honeycomb"
-			rotation: 0.0d
-			width: 1.0d
-			x: 2.5d
-			y: 2.0d
+			x: -5.5d
+			y: 6.0d
 		}
 		{
 			height: 1.0d
 			image: "brewery:item/beer_barley"
 			rotation: 0.0d
 			width: 1.0d
-			x: 4.5d
-			y: 2.0d
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			height: 1.5d
+			image: "forestry:block/farm/hatch"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.5d
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			height: 1.5d
+			image: "forestry:block/farm/control"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			height: 1.5d
+			image: "forestry:block/farm/valve"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			height: 1.5d
+			image: "forestry:block/farm/band"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			height: 1.5d
+			image: "forestry:block/farm/plain"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			height: 5.0d
+			hover: [
+				"Small"
+				"LxWxH: 3x3x4"
+				"Radius: 7"
+				"Footprint: 17x17"
+				"Farm Blocks: 36"
+				"Farm Land: 168"
+			]
+			image: "litv3:textures/misc/multifarm-small.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -8.0d
+			y: 15.5d
+		}
+		{
+			height: 5.0d
+			hover: [
+				"Medium"
+				"LxWxH: 3x4x4"
+				"Radius: 9"
+				"Footprint: 21x22"
+				"Farm Blocks: 48"
+				"Farm Land: 270"
+			]
+			image: "litv3:textures/misc/multifarm-medium.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -3.5d
+			y: 15.5d
+		}
+		{
+			height: 5.0d
+			hover: [
+				"Large"
+				"LxWxH: 3x5x4"
+				"Radius: 11"
+				"Footprint: 25x27"
+				"Farm Blocks: 60"
+				"Farm Land: 396"
+			]
+			image: "litv3:textures/misc/multifarm-large.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 5.5d
+			y: 15.5d
+		}
+		{
+			height: 5.0d
+			hover: [
+				"Very Large"
+				"LxWxH: 5x5x4"
+				"Radius: 11"
+				"Footprint: 27x27"
+				"Farm Blocks: 100"
+				"Farm Land: 440"
+			]
+			image: "litv3:textures/misc/multifarm-verylarge.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 10.0d
+			y: 15.5d
+		}
+		{
+			height: 5.0d
+			hover: [
+				"Medium-Large"
+				"LxWxH: 4x4x4"
+				"Radius: 9"
+				"Footprint: 22x22"
+				"Farm Blocks: 64"
+				"Farm Land: 288"
+			]
+			image: "litv3:textures/misc/multifarm-mediumlarge.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.0d
+			y: 15.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.5d
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.5d
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.5d
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			height: 1.5d
+			image: "forestry:block/farm/plain"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			height: 1.5d
+			image: "forestry:block/farm/plain"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			height: 1.5d
+			image: "forestry:block/farm/plain"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			height: 1.5d
+			image: "forestry:block/farm/plain"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			height: 1.5d
+			image: "forestry:block/farm/plain"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			height: 1.5d
+			image: "forestry:block/farm/band"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			height: 1.5d
+			image: "forestry:block/farm/band"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 7.5d
 		}
 	]
 	order_index: 5
@@ -61,8 +337,8 @@
 				item: "fruitfulfun:tangerine_sapling"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -2.5d
+			x: 5.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["31E91EBF3468F766"]
@@ -77,8 +353,8 @@
 				item: "fruitfulfun:lime_sapling"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.5d
+			x: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["31E91EBF3468F766"]
@@ -101,8 +377,8 @@
 				item: "fruitfulfun:citron_sapling"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: 6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["31E91EBF3468F766"]
@@ -124,8 +400,8 @@
 				item: "fruitfulfun:pomelo_sapling"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.0d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["31E91EBF3468F766"]
@@ -147,8 +423,8 @@
 				item: "fruitfulfun:lemon_sapling"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -3.5d
+			x: 8.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["31E91EBF3468F766"]
@@ -170,8 +446,8 @@
 				item: "fruitfulfun:orange_sapling"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -2.5d
+			x: 9.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["31E91EBF3468F766"]
@@ -193,8 +469,8 @@
 				item: "fruitfulfun:grapefruit_sapling"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -0.5d
+			x: 8.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["31E91EBF3468F766"]
@@ -216,8 +492,8 @@
 				item: "fruitfulfun:apple_sapling"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 0.0d
+			x: 7.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["31E91EBF3468F766"]
@@ -232,8 +508,8 @@
 				item: "fruitfulfun:pomegranate_sapling"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -0.5d
+			x: 5.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["31E91EBF3468F766"]
@@ -255,8 +531,8 @@
 				item: "fruitfulfun:cherry_sapling"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -1.5d
+			x: 9.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["31E91EBF3468F766"]
@@ -279,68 +555,8 @@
 				item: "fruitfulfun:redlove_sapling"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["70ED6018712AB64C"]
-			description: [
-				"Use the Bee Inspector to view a bee's genes, traits, and pollens. If you have a writable book on your off-hand, you can record the information and trait description in the book."
-				""
-				"Bees have 4 genes:"
-				""
-				"- &lRC&r: Determines the rain capability."
-				"- &lFC&r: Determines the appearance and wither tolerance."
-				"- &lFT1 and FT2&r: Determines features like speed, health, and the ability to be ridden or do advanced pollination."
-			]
-			id: "2AAB96D18D0227CF"
-			rewards: [{
-				id: "4AD5789D42421628"
-				type: "xp"
-				xp: 300
-			}]
-			tasks: [{
-				id: "506B0775AFB1725F"
-				item: "fruitfulfun:inspector"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["2AAB96D18D0227CF"]
-			description: ["Mutagen can dramatically increase the mutation rate of a specific gene. To use it, right-click on the parent bee before mating. The mutagen is produced at the brewing stand, and if you get an unwanted mutagen, you can simply craft it into an empty bottle."]
-			id: "63DE11046A1615B6"
-			rewards: [{
-				id: "2002C71D67F0F737"
-				type: "xp"
-				xp: 300
-			}]
-			tasks: [{
-				id: "03CDBDBF4AC6365F"
-				item: "fruitfulfun:mutagen"
-				type: "item"
-			}]
-			title: "Mutagen"
-			x: 2.5d
-			y: 5.5d
-		}
-		{
-			description: ["Bees now have different traits and they basically inherit according to Mendel's law. You can unlock some new perks and looks, and even be able to ride on a flying bee. In each new world, the genes will have a random code, so you will have to guess their effects each time. Here provides a mutagen, using it on parents can let you influence the genes of their baby a little bit."]
-			id: "70ED6018712AB64C"
-			rewards: [{
-				id: "61A840CDA8252F99"
-				type: "xp"
-				xp: 300
-			}]
-			tasks: [{
-				id: "6C10500031785AE6"
-				item: "minecraft:beehive"
-				type: "item"
-			}]
-			title: "Beekeeping and Genetics"
-			x: 2.5d
-			y: 3.5d
+			x: 5.0d
+			y: 8.5d
 		}
 		{
 			description: ["You'll need to find grapevine bushes to gather your first Grapes. If you cant find any a Wandering Winemaker will make visit from time to time maybe offering some seeds. You can get seeds by eating Grapes."]
@@ -396,26 +612,8 @@
 				type: "item"
 			}]
 			title: "Grapes"
-			x: -1.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["27170A4880A96C2B"]
-			id: "08CD5F6C515ED03C"
-			rewards: [{
-				id: "7E9BB81A827B871F"
-				item: "kubejs:iron_coin"
-				type: "item"
-			}]
-			subtitle: "Find all wild grape bushes and collect their seeds"
-			tasks: [{
-				advancement: "vinery:main/crop_collector"
-				criterion: ""
-				id: "381B568141668564"
-				type: "advancement"
-			}]
-			x: -2.5d
-			y: 3.5d
+			x: -7.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["27170A4880A96C2B"]
@@ -436,8 +634,8 @@
 				item: "vinery:grapevine_pot"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.5d
+			x: -7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -471,25 +669,37 @@
 					type: "item"
 				}
 				{
-					id: "662AEF0C6CF8B697"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "vinery:wine"
-						}
-					}
-					title: "Any #vinery:wine"
-					type: "item"
-				}
-				{
 					id: "5E05FA6A55D0124A"
 					item: "vinery:apple_juice"
 					type: "item"
 				}
+				{
+					id: "33C0363CB7681F81"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "vinery:red_wine"
+						}
+					}
+					title: "Any #vinery:red_wine"
+					type: "item"
+				}
+				{
+					id: "298A5B6385EE3E4E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "vinery:grapejuice"
+						}
+					}
+					title: "Any #vinery:grapejuice"
+					type: "item"
+				}
 			]
-			x: -1.5d
-			y: 5.5d
+			x: -7.5d
+			y: 9.5d
 		}
 		{
 			description: [
@@ -514,8 +724,8 @@
 				item: "vinery:apple_press"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.5d
+			x: -5.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["553D6826E76763CD"]
@@ -530,33 +740,8 @@
 				item: "vinery:apple_mash"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["1F2007CB1CF49288"]
-			id: "1513C7AD014945EB"
-			rewards: [
-				{
-					id: "13D183C3F72ADBE5"
-					item: "kubejs:gold_coin"
-					type: "item"
-				}
-				{
-					id: "75BF1926A6BA046D"
-					type: "xp"
-					xp: 700
-				}
-			]
-			subtitle: "Collect all currently available wine variants"
-			tasks: [{
-				advancement: "vinery:main/wine_collector"
-				criterion: ""
-				id: "3477D981938BE680"
-				type: "advancement"
-			}]
-			x: -2.5d
-			y: 5.5d
+			x: -5.5d
+			y: 9.5d
 		}
 		{
 			description: [
@@ -598,8 +783,8 @@
 				type: "item"
 			}]
 			title: "Drying"
-			x: 4.5d
-			y: 3.5d
+			x: -4.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5E22AE20ABD6C52D"]
@@ -653,8 +838,8 @@
 				type: "item"
 			}]
 			title: "Brewing"
-			x: 4.5d
-			y: 4.5d
+			x: -4.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["406AE0D2BED9F06E"]
@@ -678,8 +863,8 @@
 				item: "brewery:hops_seeds"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 5.5d
+			x: -4.0d
+			y: 9.5d
 		}
 		{
 			description: [
@@ -703,8 +888,8 @@
 				type: "item"
 			}]
 			title: "Farmable Dyes"
-			x: 4.5d
-			y: -3.0d
+			x: 11.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["406AE0D2BED9F06E"]
@@ -754,8 +939,8 @@
 				title: "Effects"
 				type: "checkmark"
 			}]
-			x: 5.5d
-			y: 4.5d
+			x: -3.0d
+			y: 8.5d
 		}
 		{
 			description: [
@@ -771,8 +956,8 @@
 				type: "checkmark"
 			}]
 			title: "Fruitful Fun 🍊"
-			x: 0.5d
-			y: -2.0d
+			x: 7.0d
+			y: 8.0d
 		}
 		{
 			description: [
@@ -820,9 +1005,279 @@
 				}
 			]
 			title: "Vintage Delight Crops"
-			x: 4.5d
-			y: -1.0d
+			x: 11.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1625ABA9A3448390"]
+			description: ["Once you have found a hive in the world, you will require a Scoop to collect any bees that may live within. Any other tool will cause the bees to escape, and you will be left honeyless."]
+			id: "68EB26D4EB0D7301"
+			tasks: [{
+				id: "6F53CCFC0EF6263D"
+				item: {
+					Count: 1
+					id: "forestry:scoop"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 12.0d
+		}
+		{
+			id: "1625ABA9A3448390"
+			tasks: [{
+				id: "60AF883E58D9A0A6"
+				item: "forestry:foresters_manual"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 12.0d
+		}
+		{
+			description: [
+				"The &2Multifarm&r is a multiblock automatic farm added by Forestry. It can be configured to support a variety of plants including trees, all vanilla crops, and some modded crops. "
+				""
+				"&2Multifarms&r can be built in &nfive&r different sizes ranging from &n15x15&r to &n27x27&r. "
+				""
+				"The &2Multifarm&r &nmust be supplied&r with &9Water,&r &cRedstone Flux&r (RF) and &6Fertilizer&r to operate. "
+				""
+				"All vanilla blocks used in the &2Multifarm&r - both in the crafting recipes and the actual layout of the farm - can be any of the following blocks:"
+				""
+				"Stone Bricks"
+				"Chiseled Stone Bricks"
+				"Cracked Stone Bricks"
+				"Mossy Stone Bricks"
+				"Smooth Sandstone"
+				"Chiseled Sandstone"
+				"Bricks Bricks"
+				"Nether Brick"
+				"Quartz Blocks"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecolonies:block/farmland_moist"
+				}
+			}
+			id: "6A44970FE395F7D6"
+			rewards: [{
+				count: 8
+				id: "05E45B4EC5DD5FD1"
+				item: "forestry:fertilizer_compound"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1239EA91C71E3003"
+				type: "checkmark"
+			}]
+			title: "Multifarm"
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2EE35C6B430D63E3"]
+			description: [
+				"1. After the size of the &2farm&r has been selected, the required number of &2Farm Blocks&r must be crafted. For example, a small farm will require 36 Farm Blocks."
+				""
+				"2. Using five of the Farm Blocks, craft a &9Farm Valve&r, &4Farm Gearbox&r, &cFarm Control block&r, and two &3Farm Hatches&r."
+				""
+				"3. Place the blocks to create a structure in the dimensions showed on the pictures below. &oFor example, a small farm should be 3 blocks wide, 3 blocks long and 4 blocks high.&r &4Machine blocks&r can be placed anywhere in the structure, but should be placed in a location where they can be accessed by pipes and conduits."
+				""
+				"4. When the &2multiblock&r is correctly assembled, black horizontal bands will appear around the structure as illustrated in the completed structure image."
+				""
+				"5. At least &nfour&r support blocks must now be placed around the &2Multifarm.&r Only Smooth Sandstone, Stone Bricks or Bricks may be used. They may be placed level to any block of the Multifarm, or one block lower. When active, the &2Multifarm&r will place &6Humus&r farmland blocks &lon top&r of these support blocks. The following image illustrates valid levels for farmland."
+				"{image:litv3:textures/misc/q-b-forestry-sideview.png width:80 height:40 align:center}"
+				""
+				"6. Connect a &9water supply&r to the &1Farm Valve&r."
+				""
+				"7. Connect an &4RF power source&r to the &cFarm Gearbox&r."
+				""
+				"8. &oOptionally,&r connect item transport ducts to the &3Farm Hatches&r. They may be used to insert Fertilizer and extract produce."
+				""
+				"9. After the support blocks have been placed, open the &2Multifarm&r GUI by right-clicking anywhere on the multiblock structure."
+			]
+			id: "7E97BBBD306ECFFB"
+			rewards: [{
+				count: 8
+				id: "50AEF016F6095AC0"
+				item: "forestry:fertilizer_compound"
+				type: "item"
+			}]
+			tasks: [{
+				id: "361E267CD499A751"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "forestry:farm_plain_stone_brick"
+							}
+							{
+								Count: 1b
+								id: "forestry:farm_plain_mossy_stone_brick"
+							}
+							{
+								Count: 1b
+								id: "forestry:farm_plain_cracked_stone_brick"
+							}
+							{
+								Count: 1b
+								id: "forestry:farm_plain_brick"
+							}
+							{
+								Count: 1b
+								id: "forestry:farm_plain_cut_sandstone"
+							}
+							{
+								Count: 1b
+								id: "forestry:farm_plain_sandstone_chiseled"
+							}
+							{
+								Count: 1b
+								id: "forestry:farm_plain_brick_nether"
+							}
+							{
+								Count: 1b
+								id: "forestry:farm_plain_brick_chiseled"
+							}
+							{
+								Count: 1b
+								id: "forestry:farm_plain_quartz"
+							}
+							{
+								Count: 1b
+								id: "forestry:farm_plain_quartz_lines"
+							}
+							{
+								Count: 1b
+								id: "forestry:farm_plain_quartz_chiseled"
+							}
+						]
+					}
+				}
+				title: "All available farm blocks"
+				type: "item"
+			}]
+			title: "Getting started"
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7E97BBBD306ECFFB"]
+			description: [
+				"- The &2Multifarm&r GUI displays the current levels of &9Water&r and &eFertilizer&r. If it is lacking these materials or power warning indicators will be displayed."
+				""
+				"- The &nright side&r of the GUI contains two groups of inventory slots. The &nupper group&r are for inputs such as &8Dirt&r and &6Seeds&r and the l&nower group&r is for farmed products."
+				""
+				"- In the centre of the &2Multifarm&r is a slot for a &3Circuit Board&r, which will set the type of farm and type of crops. "
+				"When the circuit board is ready, place it in the slot. The farm should change the icons from trees to however the farm has been configured."
+				""
+				"The &2Multifarm&r will not display any errors if it needs &8Dirt&r, &eseeds,&r &asaplings,&r etc."
+				""
+				"The following image shows a Multifarm configured to automatically grow four types of crops:"
+				""
+				"{image:litv3:textures/misc/q-b-forestry-interface.png width:100 height:60 align:center}"
+				""
+				"Maintenance"
+				"____________________"
+				"&2Multifarms&r periodically turn &6Humus&r or Farmland into &eSand&r and place it in the output inventory. Additionally, &bFertilizer&r is required for the farm to create new &6Humus.&r For this reason, it is recommended that the player make use of item transport ducts to automatically pipe &bFertilizer&r and fresh Dirt into the &3Multifarm.&r"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/help"
+				}
+			}
+			id: "4FC745A30E457782"
+			rewards: [{
+				count: 8
+				id: "18DD8ECE73867EC0"
+				item: "forestry:fertilizer_compound"
+				type: "item"
+			}]
+			tasks: [{
+				id: "570E4DE825091F86"
+				type: "checkmark"
+			}]
+			title: "Interface"
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6A44970FE395F7D6"]
+			description: [
+				"&2Multifarms&r can be constructed in &nfive&r different sizes. "
+				""
+				"Each successive size requires more farm blocks, and must be provided with more &6farmland.&r The images below showing the comparative size and layout of each of the farm sizes. Hover over them to see details."
+				""
+				"- &nThe dark area&r in the center is the &2Multifarm.&r "
+				"- &nThe colored areas&r around are the &afarmland.&r "
+				""
+				"Different colors indicate the four configurable regions."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/help"
+				}
+			}
+			id: "2EE35C6B430D63E3"
+			rewards: [{
+				count: 8
+				id: "4AE605452A8FD044"
+				item: "forestry:fertilizer_compound"
+				type: "item"
+			}]
+			tasks: [{
+				id: "646EA2DBE09DD29E"
+				type: "checkmark"
+			}]
+			title: "Sizes"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4FC745A30E457782"]
+			description: [
+				"In order to change what &2multifarm&r will plant and harvest, its configuration will need to be changed. Newly built farms will default to being an &aArboretum&r which is one of the managed farm types."
+				""
+				"In order to re-configure a farm the player will need a &1Soldering Iron&r, a &bCircuit Board&r (preferably an Intricate Circuit Board so all four sides of the farm can be configured) and one of the &eElectron Tubes&r used to create a specific farm type."
+				""
+				"&nRight-click&r on the farm while holding the &1Soldering Iron&r. Make sure the Type Selection at the top of the GUI is changed to be either \"Managed Farms\" or \"Manual Farms\" and put the &bCircuit Board&r into the top right slot. Choose an &eElectron Tube&r from the tables below and place into the slot which corresponds to the side of the farm to be configured into that farm type."
+				""
+				"Starting from top to bottom the &eElectron Tube&r slots correspond to the (N)orth, (S)outh, (W)est and (E)ast sides of the farm."
+				"{image:litv3:textures/misc/q-b-forestry-farmconfig.png width:200 height:110 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "jei:textures/jei/atlas/gui/icons/config_button.png"
+				}
+			}
+			id: "2295386CE62CFC71"
+			rewards: [{
+				count: 8
+				id: "1948D5B49BBA99AF"
+				item: "forestry:fertilizer_compound"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11EF1DB04076D3B2"
+				type: "checkmark"
+			}]
+			title: "Farm configuration"
+			x: 3.0d
+			y: 12.0d
 		}
 	]
-	title: "Gardening"
+	title: "&2Gardening&r"
 }

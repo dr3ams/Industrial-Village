@@ -38,6 +38,12 @@
 	enableFirstPersonSkinRenderer = 0
 	#If enabled the server will allow client use server skins in the resource pack.
 	enableServerSkinsInResourcePack = false
+	#If enabled the link tool will allow bind between different dimensions block.
+	enableLinkDimensional = true
+	#the link tool will allow max range in which blocks can be bound?
+	#0 = infinite range
+	#Range: 0 ~ 100000
+	maxLinkDistance = 0
 
 #Setting for the players wardrobe.
 [wardrobe]
@@ -94,9 +100,8 @@
 #Change (memory use/IO access) ratio by category setting in this category.
 [cache]
 	#How long in seconds the server will keep skins in it's cache.
-	#Default 600 seconds is 10 minutes.
 	#Setting to 0 turns off this option.
-	#Range: 0 ~ 36000
+	#Range: 0 ~ 31536000
 	expireTime = 6000
 	#Max size the skin cache can reach before skins are removed.
 	#Setting to 0 turns off this option.

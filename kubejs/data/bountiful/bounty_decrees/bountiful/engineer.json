@@ -1,0 +1,10 @@
+{
+	"objectives": [
+		"engineer_objs"
+	],
+	"rewards": [
+		"_currency",
+		"engineer_rews",
+		"_task_coin"
+	]
+}

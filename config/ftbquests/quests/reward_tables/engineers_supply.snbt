@@ -1,0 +1,72 @@
+{
+	hide_tooltip: true
+	id: "6259597EA26EA896"
+	loot_crate: {
+		color: 6433049
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Engineers Supply"
+		string_id: "engineers_supply"
+	}
+	loot_size: 1
+	order_index: 41
+	rewards: [
+		{ item: "immersiveengineering:component_electronic" }
+		{ count: 3, item: "immersiveengineering:dust_gold", random_bonus: 4 }
+		{ count: 3, item: "immersiveengineering:dust_aluminum", random_bonus: 6 }
+		{ item: "immersiveengineering:component_iron" }
+		{ count: 3, item: "immersiveengineering:dust_steel", random_bonus: 4 }
+		{ count: 2, item: "immersiveengineering:dust_silver", random_bonus: 3 }
+		{ count: 3, item: "immersiveengineering:dust_lead", random_bonus: 2 }
+		{ count: 3, item: "immersiveengineering:dust_iron", random_bonus: 3 }
+		{ count: 2, item: "immersiveengineering:plate_silver", random_bonus: 3 }
+		{ count: 2, item: "immersiveengineering:wirecoil_redstone", random_bonus: 4 }
+		{ item: "immersiveengineering:wirecoil_steel" }
+		{ item: "immersiveengineering:plate_steel", random_bonus: 1 }
+		{ count: 2, item: "immersiveengineering:plate_nickel", random_bonus: 1 }
+		{ count: 2, item: "immersiveengineering:plate_lead", random_bonus: 1 }
+		{ item: "immersiveengineering:plate_iron", random_bonus: 1 }
+		{ count: 2, item: "immersiveengineering:plate_gold", random_bonus: 2 }
+		{ count: 2, item: "immersiveengineering:plate_electrum", random_bonus: 2 }
+		{ count: 2, item: "immersiveengineering:plate_aluminum", random_bonus: 2 }
+		{ count: 3, item: "immersiveengineering:hemp_fiber", random_bonus: 11 }
+		{ count: 2, item: "immersiveengineering:ingot_aluminum", random_bonus: 5 }
+		{ count: 5, item: "immersiveengineering:ingot_electrum", random_bonus: 3 }
+		{ count: 3, item: "immersiveengineering:ingot_lead", random_bonus: 4 }
+		{ count: 4, item: "immersiveengineering:ingot_nickel", random_bonus: 3 }
+		{ count: 4, item: "immersiveengineering:ingot_silver", random_bonus: 3 }
+		{ count: 2, item: "immersiveengineering:ingot_steel", random_bonus: 1 }
+		{ count: 4, item: "immersiveengineering:ingot_uranium", random_bonus: 6 }
+		{ count: 4, item: "immersiveengineering:fertilizer", random_bonus: 7 }
+		{ item: "immersiveengineering:stick_iron" }
+		{ count: 2, item: "immersiveengineering:stick_aluminum", random_bonus: 4 }
+		{ count: 4, item: "immersiveengineering:raw_nickel", random_bonus: 5 }
+		{ count: 5, item: "immersiveengineering:raw_lead", random_bonus: 2 }
+		{ count: 5, item: "immersiveengineering:raw_aluminum", random_bonus: 4 }
+		{ count: 7, item: "railcraft:charcoal_dust", random_bonus: 6 }
+		{ count: 10, item: "railcraft:sulfur_dust", random_bonus: 6 }
+		{ count: 2, item: "pneumaticcraft:plastic", random_bonus: 3 }
+		{ item: "pneumaticcraft:capacitor", random_bonus: 1 }
+		{ count: 2, item: "immersiveengineering:stick_steel", random_bonus: 4 }
+		{ count: 10, item: "railcraft:saltpeter_dust", random_bonus: 4 }
+		{ count: 4, item: "railcraft:slag", random_bonus: 7 }
+		{ count: 3, item: "refinedstorage:processor_binding", random_bonus: 4 }
+		{ item: "refinedstorage:raw_basic_processor" }
+		{ count: 3, item: "railcraft:coal_coke", random_bonus: 5 }
+		{ count: 5, item: "railcraft:coal_dust", random_bonus: 6 }
+		{ count: 2, item: "railcraft:ender_dust", random_bonus: 4 }
+		{ count: 2, item: "railcraft:obsidian_dust", random_bonus: 4 }
+		{ item: "immersiveengineering:storage_steel" }
+		{ item: "immersiveengineering:coke" }
+		{ count: 7, item: "immersiveengineering:nugget_steel", random_bonus: 34 }
+		{ count: 2, item: "railcraft:tin_plate", random_bonus: 2 }
+		{ count: 2, item: "railcraft:zinc_plate", random_bonus: 2 }
+		{ count: 2, item: "railcraft:brass_plate", random_bonus: 2 }
+		{ count: 2, item: "railcraft:bronze_plate", random_bonus: 2 }
+	]
+	title: "Engineers Supply"
+	use_title: true
+}

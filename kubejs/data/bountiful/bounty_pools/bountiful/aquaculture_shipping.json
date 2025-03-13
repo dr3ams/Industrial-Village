@@ -1,0 +1,619 @@
+{
+  "requires": [
+    "aquaculture"
+  ],
+  "content": {
+    "aquacultureaquaculture_piranha": {
+      "type": "item",
+      "content": "aquaculture:piranha",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_perch": {
+      "type": "item",
+      "content": "aquaculture:perch",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_jellyfish": {
+      "type": "item",
+      "content": "aquaculture:jellyfish",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_tuna": {
+      "type": "item",
+      "content": "aquaculture:tuna",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_gar": {
+      "type": "item",
+      "content": "aquaculture:gar",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_bayad": {
+      "type": "item",
+      "content": "aquaculture:bayad",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_fish_bones": {
+      "type": "item",
+      "content": "aquaculture:fish_bones",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_red_shrooma": {
+      "type": "item",
+      "content": "aquaculture:red_shrooma",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_boulti": {
+      "type": "item",
+      "content": "aquaculture:boulti",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_algae": {
+      "type": "item",
+      "content": "aquaculture:algae",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_pink_salmon": {
+      "type": "item",
+      "content": "aquaculture:pink_salmon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_red_grouper": {
+      "type": "item",
+      "content": "aquaculture:red_grouper",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_sushi": {
+      "type": "item",
+      "content": "aquaculture:sushi",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_arapaima": {
+      "type": "item",
+      "content": "aquaculture:arapaima",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_atlantic_cod": {
+      "type": "item",
+      "content": "aquaculture:atlantic_cod",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_blackfish": {
+      "type": "item",
+      "content": "aquaculture:blackfish",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_brown_shrooma": {
+      "type": "item",
+      "content": "aquaculture:brown_shrooma",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_tambaqui": {
+      "type": "item",
+      "content": "aquaculture:tambaqui",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_arrau_turtle": {
+      "type": "item",
+      "content": "aquaculture:arrau_turtle",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_starshell_turtle": {
+      "type": "item",
+      "content": "aquaculture:starshell_turtle",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_synodontis": {
+      "type": "item",
+      "content": "aquaculture:synodontis",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_catfish": {
+      "type": "item",
+      "content": "aquaculture:catfish",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_brown_trout": {
+      "type": "item",
+      "content": "aquaculture:brown_trout",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_pacific_halibut": {
+      "type": "item",
+      "content": "aquaculture:pacific_halibut",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_bluegill": {
+      "type": "item",
+      "content": "aquaculture:bluegill",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_muskellunge": {
+      "type": "item",
+      "content": "aquaculture:muskellunge",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_minnow": {
+      "type": "item",
+      "content": "aquaculture:minnow",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_goldfish": {
+      "type": "item",
+      "content": "aquaculture:goldfish",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_atlantic_herring": {
+      "type": "item",
+      "content": "aquaculture:atlantic_herring",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_box_turtle": {
+      "type": "item",
+      "content": "aquaculture:box_turtle",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_leech": {
+      "type": "item",
+      "content": "aquaculture:leech",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_atlantic_halibut": {
+      "type": "item",
+      "content": "aquaculture:atlantic_halibut",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_turtle_soup": {
+      "type": "item",
+      "content": "aquaculture:turtle_soup",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_rainbow_trout": {
+      "type": "item",
+      "content": "aquaculture:rainbow_trout",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_capitaine": {
+      "type": "item",
+      "content": "aquaculture:capitaine",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_carp": {
+      "type": "item",
+      "content": "aquaculture:carp",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_fish_fillet_cooked": {
+      "type": "item",
+      "content": "aquaculture:fish_fillet_cooked",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_fish_fillet_raw": {
+      "type": "item",
+      "content": "aquaculture:fish_fillet_raw",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_pollock": {
+      "type": "item",
+      "content": "aquaculture:pollock",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_smallmouth_bass": {
+      "type": "item",
+      "content": "aquaculture:smallmouth_bass",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureminecraft_pufferfish": {
+      "type": "item",
+      "content": "minecraft:pufferfish",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureminecraft_tropical_fish": {
+      "type": "item",
+      "content": "minecraft:tropical_fish",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureminecraft_cooked_salmon": {
+      "type": "item",
+      "content": "minecraft:cooked_salmon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureminecraft_cooked_cod": {
+      "type": "item",
+      "content": "minecraft:cooked_cod",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureminecraft_cod": {
+      "type": "item",
+      "content": "minecraft:cod",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureminecraft_salmon": {
+      "type": "item",
+      "content": "minecraft:salmon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_worm_farm": {
+      "type": "item",
+      "content": "aquaculture:worm_farm",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_tackle_box": {
+      "type": "item",
+      "content": "aquaculture:tackle_box",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_worm": {
+      "type": "item",
+      "content": "aquaculture:worm",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_bobber": {
+      "type": "item",
+      "content": "aquaculture:bobber",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_fishing_line": {
+      "type": "item",
+      "content": "aquaculture:fishing_line",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_diamond_fishing_rod": {
+      "type": "item",
+      "content": "aquaculture:diamond_fishing_rod",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_gold_fishing_rod": {
+      "type": "item",
+      "content": "aquaculture:gold_fishing_rod",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_iron_fishing_rod": {
+      "type": "item",
+      "content": "aquaculture:iron_fishing_rod",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureminecraft_fishing_rod": {
+      "type": "item",
+      "content": "minecraft:fishing_rod",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_double_hook": {
+      "type": "item",
+      "content": "aquaculture:double_hook",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_wooden_fillet_knife": {
+      "type": "item",
+      "content": "aquaculture:wooden_fillet_knife",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_heavy_hook": {
+      "type": "item",
+      "content": "aquaculture:heavy_hook",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_light_hook": {
+      "type": "item",
+      "content": "aquaculture:light_hook",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_diamond_hook": {
+      "type": "item",
+      "content": "aquaculture:diamond_hook",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_gold_hook": {
+      "type": "item",
+      "content": "aquaculture:gold_hook",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_iron_hook": {
+      "type": "item",
+      "content": "aquaculture:iron_hook",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_redstone_hook": {
+      "type": "item",
+      "content": "aquaculture:redstone_hook",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_note_hook": {
+      "type": "item",
+      "content": "aquaculture:note_hook",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_gold_fillet_knife": {
+      "type": "item",
+      "content": "aquaculture:gold_fillet_knife",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_diamond_fillet_knife": {
+      "type": "item",
+      "content": "aquaculture:diamond_fillet_knife",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_stone_fillet_knife": {
+      "type": "item",
+      "content": "aquaculture:stone_fillet_knife",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "aquacultureaquaculture_iron_fillet_knife": {
+      "type": "item",
+      "content": "aquaculture:iron_fillet_knife",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

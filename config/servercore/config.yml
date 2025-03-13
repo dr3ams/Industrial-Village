@@ -13,9 +13,9 @@ features:
   # Note that just like in vanilla, experience orbs will still need to be of the same size to actually merge.
   xp-merge-fraction: 40
   # The radius in blocks that experience orbs will merge at.
-  xp-merge-radius: 0.5
+  xp-merge-radius: 1.5
   # The radius in blocks that items will merge at.
-  item-merge-radius: 0.5
+  item-merge-radius: 1.5
   lobotomize-villagers:
     # Makes villagers tick less often if they are stuck in a 1x1 space.
     enabled: true
@@ -64,7 +64,7 @@ dynamic:
 # A special mobcap that only affects the breeding of animals and villagers.
 breeding-cap:
   # Enables breeding caps.
-  enabled: true
+  enabled: false
   # The breeding cap for villagers.
   # ► limit = The limit of mobs of the same type within range. Setting this to negative will disable the breeding cap.
   # ► range = The range it will check for entities of the same type.
@@ -76,7 +76,7 @@ breeding-cap:
   # Note that this cap only checks for animals of the same type.
   # If the limit is 32 you can still breed 32 cows and 32 pigs next to each other.
   animals:
-    limit: 16
+    limit: 32
     range: 64
 
 

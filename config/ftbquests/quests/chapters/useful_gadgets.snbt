@@ -32,7 +32,7 @@
 				title: "Building Gadgets"
 				type: "checkmark"
 			}]
-			x: 9.5d
+			x: 11.0d
 			y: 0.5d
 		}
 		{
@@ -53,7 +53,7 @@
 				item: "buildinggadgets2:gadget_building"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.0d
 			y: 1.5d
 		}
 		{
@@ -78,7 +78,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.0d
 			y: -0.5d
 		}
 		{
@@ -98,7 +98,7 @@
 				item: "buildinggadgets2:gadget_destruction"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.0d
 			y: 1.5d
 		}
 		{
@@ -119,7 +119,7 @@
 				item: "buildinggadgets2:gadget_exchanging"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.0d
 			y: -0.5d
 		}
 		{
@@ -1007,7 +1007,83 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "0757D0300BBAB5A5"
+			rewards: [{
+				id: "512A30F0DD2F74CA"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Can make bridges while redstone-powered"
+			tasks: [{
+				id: "0F7F5C4278C3D13A"
+				item: "bridge_maker:bridge_maker"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			id: "37BBB41DA13E365D"
+			rewards: [{
+				id: "68D99B05CBE3CCB4"
+				item: "logicchips:chip"
+				type: "item"
+			}]
+			subtitle: "Logic gates in one block"
+			tasks: [{
+				id: "62C0B436762EC7C5"
+				item: "logicchips:gate_frame"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Games can be found in chests in the following structures"
+				""
+				"- Monster Room"
+				"- Stronghold"
+				"- End City"
+				"- Woodland Mansion"
+				"- Buired Treasure"
+				"- Bastion"
+				"- Ruined Portal"
+				"- Ancient City"
+				"- Mineshaft"
+				"- Jungle Pyramid"
+				"- Desert Pyramid"
+				""
+				"If a &6Bee,&r &aSlime&r or &eFrog&r is killed by a Skeleton, they have a 100% chance to drop their corresponding Game Disc"
+				""
+				"To play games with the gaming console you need to have the games in your inventory. Right click with the Gaming Console to open the menu and choose your favourite game with W and S keys, to enter the game press Space or Enter and start playing with the basic controls like W, S, A, D, SPACE, ENTER,  or even with the Quit button (Q) or Reset button (R)."
+			]
+			id: "62CF0174A4D08AC9"
+			rewards: [{
+				id: "3D77B85CC056C157"
+				item: "gamediscs:game_disc_pong"
+				type: "item"
+			}]
+			subtitle: "While your colonists work..."
+			tasks: [{
+				id: "62F4A4B974BE451D"
+				item: {
+					Count: 1
+					id: "gamediscs:gaming_console"
+					tag: {
+						"gamediscs:FlappyBirdGame;dreamsx": 3
+						"gamediscs:FroggieGame;dreamsx": 13
+						"gamediscs:SlimeGame;dreamsx": 2
+						"gamediscs:TntSweeperGame;dreamsx": 38
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
 		}
 	]
 	title: "&2Useful Gadgets&r"

@@ -18,9 +18,11 @@ event.create('gold_coin').displayName('Gold Coin').tooltip('Acquired through que
 event.create('diamond_coin').displayName('Diamond Coin').tooltip('Acquired through quests').rarity('Epic')
 event.create('monster_coin').displayName('Dungeon Coin').rarity('Rare')
 event.create('proofofwork').displayName('Proof Of Work').rarity('Rare')
-
+event.create('coin_task').displayName('Task Coin')
 
 event.create('obsidian_plate').displayName('Obsidian Plate')
+event.create('tin_grit').displayName('Tin Grit')
+event.create('zinc_grit').displayName('Zinc Grit')
 
 event.create('diamond_nugget').displayName('Diamond Nugget')
 event.create('diamond_dust').displayName('Diamond Dust')

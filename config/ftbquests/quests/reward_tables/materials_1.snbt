@@ -1,7 +1,7 @@
 {
 	id: "30A926F06E7A8728"
 	loot_crate: {
-		color: 16777215
+		color: 12544278
 		drops: {
 			boss: 0
 			monster: 0

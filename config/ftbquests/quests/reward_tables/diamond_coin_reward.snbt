@@ -66,6 +66,9 @@
 				tag: { }
 			}
 		}
+		{ item: "collectorsalbum:legendary_card_pack" }
+		{ item: "collectorsalbum:epic_card_pack" }
+		{ item: "collectorsalbum:rare_card_pack" }
 	]
 	title: "Diamond coin reward"
 }

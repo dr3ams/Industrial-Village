@@ -1,0 +1,11 @@
+{
+   "type":"recipe",
+   "additional-output":[],
+   "crafter":"stonesmeltery_bricks",
+   "inputs":[
+      { "item":"minecraft:clay_ball" }
+   ],
+   "intermediate":"minecraft:air",
+   "min-building-level":1,
+   "result":"minecraft:brick"
+}

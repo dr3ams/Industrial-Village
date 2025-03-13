@@ -1,0 +1,11 @@
+{
+	"objectives": [
+		"fisherman_objs",
+		"_all_objs",
+		"aquaculture_shipping"
+	],
+	"rewards": [
+		"fisherman_rews",
+		"_all_rews"
+	]
+}

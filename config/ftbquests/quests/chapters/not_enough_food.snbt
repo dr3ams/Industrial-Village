@@ -1441,15 +1441,15 @@
 				xp: 100
 			}]
 			tasks: [{
-				id: "5AC505B2AA2855F7"
+				id: "0B42C891BCF4351D"
 				item: {
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "vintagedelight:jam_jars"
+						value: "forge:jam_jars"
 					}
 				}
-				title: "Any #vintagedelight:jam_jars"
+				title: "Any #forge:jam_jars"
 				type: "item"
 			}]
 			title: "Mason Jar Jams"

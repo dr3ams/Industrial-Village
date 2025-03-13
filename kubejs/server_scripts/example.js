@@ -74,6 +74,18 @@ ServerEvents.recipes(event => {
 //event.remove({output: 'minecraft:stone_pickaxe'}) // Removes all recipes where output is stone pickaxe
 //event.remove({id: 'minecraft:glowstone'}) // Removes recipe by ID. in this case, data/minecraft/recipes/glowstone.json
 	
+	event.replaceInput(
+    { output: "forestry:sturdy_machine" },
+    "railcraft:bronze_ingot",
+    "railcraft:bronze_plate"
+	);
+	
+	event.replaceInput(
+    { output: "forestry:carpenter" },
+    "railcraft:bronze_ingot",
+    "railcraft:bronze_plate"
+	);
+	
 	event.replaceInput({}, 'industrialforegoing:plastic', '#forge:plastic');
 	event.remove({output: 'industrialforegoing:plastic'});
 	event.remove({output: 'industrialforegoing:dryrubber'});
@@ -142,7 +154,7 @@ ServerEvents.recipes(event => {
 
 	//event.remove({output: 'ad_astra:desh_fluid_pipe'})
 	event.remove({output: 'ad_astra:ostrum_fluid_pipe'})
-	
+		
 
 	event.remove({output: 'immersiveengineering:ingot_electrum', type: 'minecraft:smelting'})
 	event.remove({output: 'immersiveengineering:ingot_aluminum', type: 'minecraft:smelting'})
@@ -179,8 +191,10 @@ ServerEvents.recipes(event => {
 	//event.blasting('4x immersiveengineering:nugget_copper', 'minecraft:copper_ore').cookingTime(50)
 	//event.blasting('5x immersiveengineering:nugget_copper', 'minecraft:deepslate_copper_ore').cookingTime(50)
 	//event.blasting('6x immersiveengineering:nugget_copper', 'minecraft:copper_ore').cookingTime(50)
-	//event.blasting('7x immersiveengineering:nugget_copper', 'ad_astra:glacio_copper_ore').cookingTime(50)
 	
+
+	event.blasting('railcraft:tin_ingot', 'kubejs:tin_grit', 0.1, 50)
+	event.blasting('railcraft:zinc_ingot', 'kubejs:zinc_grit',  0.1, 50)
 	
 	event.remove({id: 'immersiveengineering:crafting/sheetmetal_iron'})
 	event.remove({id: 'immersiveengineering:crafting/sheetmetal_steel'})

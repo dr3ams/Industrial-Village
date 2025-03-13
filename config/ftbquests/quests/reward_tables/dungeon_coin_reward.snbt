@@ -16,10 +16,6 @@
 		{ item: "gems:topaz_shards", random_bonus: 3 }
 		{ item: "gems:sapphire_shards", random_bonus: 3 }
 		{ item: "gems:ruby_shards", random_bonus: 3 }
-		{ item: "collectorsalbum:common_card_package" }
-		{ item: "collectorsalbum:epic_card_package" }
-		{ item: "collectorsalbum:rare_card_package" }
-		{ item: "collectorsalbum:uncommon_card_package" }
 		{ item: "extendedcrafting:advanced_catalyst" }
 		{ item: "extendedcrafting:basic_catalyst", random_bonus: 2 }
 		{ item: "extendedcrafting:black_iron_ingot", random_bonus: 2 }
@@ -359,6 +355,18 @@
 			}
 		}
 		{ count: 2, item: "gems:experience_ore", random_bonus: 4 }
+		{ item: "collectorsalbum:common_card_pack" }
+		{ item: "collectorsalbum:uncommon_card_pack" }
+		{ item: "collectorsalbum:rare_card_pack" }
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "engineers_supply"
+				}
+			}
+		}
 	]
 	title: "Dungeon coin reward"
 }

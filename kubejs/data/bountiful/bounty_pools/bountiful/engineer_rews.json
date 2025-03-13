@@ -1,0 +1,455 @@
+{
+	"content": {
+		"engineer-rews-coal_coke": {
+			"type": "item",
+			"content": "immersiveengineering:coal_coke",
+			"amount": {
+				"min": 16,
+				"max": 64
+			},
+			"unitWorth": 50
+		},
+		"engineer-rews-ingot_hop_graphite": {
+			"type": "item",
+			"content": "immersiveengineering:ingot_hop_graphite",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 800
+		},
+		"engineer-objs-storage_steel": {
+			"type": "minecraft:item",
+			"content": "immersiveengineering:storage_steel",
+			"amount": {
+				"min": 1,
+				"max": 16
+			},
+			"unitWorth": 4000.0
+		},
+		"engineer-objs-ingot_steel": {
+			"type": "minecraft:item",
+			"content": "immersiveengineering:ingot_steel",
+			"amount": {
+				"min": 16,
+				"max": 64
+			},
+			"unitWorth": 400.0
+		},		
+		"engineer-rews-dust_hop_graphite": {
+			"type": "item",
+			"content": "immersiveengineering:dust_hop_graphite",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 700
+		},
+		"engineer-rews-plate_copper": {
+			"type": "item",
+			"content": "immersiveengineering:plate_copper",
+			"amount": {
+				"min": 1,
+				"max": 32
+			},
+			"unitWorth": 800
+		},
+		"engineer-rews-plate_aluminum": {
+			"type": "item",
+			"content": "immersiveengineering:plate_aluminum",
+			"amount": {
+				"min": 1,
+				"max": 32
+			},
+			"unitWorth": 1000
+		},
+		"engineer-rews-ingot_lead": {
+			"type": "item",
+			"content": "immersiveengineering:ingot_lead",
+			"amount": {
+				"min": 1,
+				"max": 32
+			},
+			"unitWorth": 1000
+		},
+		"engineer-rews-plate_lead": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "immersiveengineering:plate_lead",
+			"amount": {
+				"min": 1,
+				"max": 32
+			},
+			"unitWorth": 1000
+		},
+		"engineer-rews-ingot_silver": {
+			"type": "item",
+			"content": "immersiveengineering:ingot_silver",
+			"amount": {
+				"min": 1,
+				"max": 32
+			},
+			"unitWorth": 800
+		},
+		"engineer-rews-plate_silver": {
+			"type": "item",
+			"content": "immersiveengineering:plate_silver",
+			"amount": {
+				"min": 1,
+				"max": 32
+			},
+			"unitWorth": 800
+		},
+		"engineer-rews-ingot_nickel": {
+			"type": "item",
+			"content": "immersiveengineering:ingot_nickel",
+			"amount": {
+				"min": 1,
+				"max": 32
+			},
+			"unitWorth": 700
+		},
+		"engineer-rews-plate_nickel": {
+			"type": "item",
+			"content": "immersiveengineering:plate_nickel",
+			"amount": {
+				"min": 1,
+				"max": 32
+			},
+			"unitWorth": 700
+		},
+		"engineer-rews-ingot_uranium": {
+			"type": "item",
+			"content": "immersiveengineering:ingot_uranium",
+			"amount": {
+				"min": 1,
+				"max": 16
+			},
+			"unitWorth": 800
+		},
+		"engineer-rews-plate_uranium": {
+			"type": "item",
+			"content": "immersiveengineering:plate_uranium",
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 800
+		},
+		"engineer-rews-ingot_constantan": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "immersiveengineering:ingot_constantan",
+			"amount": {
+				"min": 1,
+				"max": 32
+			},
+			"unitWorth": 1000
+		},
+		"engineer-rews-plate_constantan": {
+			"type": "item",
+			"content": "immersiveengineering:plate_constantan",
+			"amount": {
+				"min": 1,
+				"max": 32
+			},
+			"unitWorth": 1000
+		},
+		"engineer-rews-ingot_electrum": {
+			"type": "item",
+			"content": "immersiveengineering:ingot_electrum",
+			"amount": {
+				"min": 1,
+				"max": 32
+			},
+			"unitWorth": 1000
+		},
+		"engineer-rews-plate_electrum": {
+			"type": "item",
+			"content": "immersiveengineering:plate_electrum",
+			"amount": {
+				"min": 1,
+				"max": 32
+			},
+			"unitWorth": 900
+		},
+		"engineer-rews-ingot_steel": {
+			"type": "item",
+			"content": "immersiveengineering:ingot_steel",
+			"amount": {
+				"min": 2,
+				"max": 32
+			},
+			"unitWorth": 800
+		},
+		"engineer-rews-plate_steel": {
+			"type": "item",
+			"content": "immersiveengineering:plate_steel",
+			"amount": {
+				"min": 2,
+				"max": 32
+			},
+			"unitWorth": 800
+		},
+		"engineer-rews-plate_iron": {
+			"type": "item",
+			"content": "immersiveengineering:plate_iron",
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 800
+		},
+		"engineer-rews-plate_gold": {
+			"type": "item",
+			"content": "immersiveengineering:plate_gold",
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 1200
+		},
+		"engineer-rews-shader_bag_common": {
+			"type": "item",
+			"content": "immersiveengineering:shader_bag_common",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 2000
+		},
+		"engineer-rews-shader_bag_rare": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "immersiveengineering:shader_bag_rare",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 4000
+		},
+		"engineer-rews-ingot_aluminum": {
+			"type": "item",
+			"content": "immersiveengineering:ingot_aluminum",
+			"amount": {
+				"min": 1,
+				"max": 32
+			},
+			"unitWorth": 1000
+		},
+		"engineer-rews-shader_bag_uncommon": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "immersiveengineering:shader_bag_uncommon",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 3000
+		},
+		"engineer-rews-hemp_fiber": {
+			"type": "item",
+			"content": "immersiveengineering:hemp_fiber",
+			"amount": {
+				"min": 3,
+				"max": 32
+			},
+			"unitWorth": 200
+		},
+		"engineer-rews-stick_treated": {
+			"type": "item",
+			"content": "immersiveengineering:stick_treated",
+			"amount": {
+				"min": 32,
+				"max": 64
+			},
+			"unitWorth": 20
+		},
+		"engineer-rews-stick_iron": {
+			"type": "item",
+			"content": "immersiveengineering:stick_iron",
+			"amount": {
+				"min": 8,
+				"max": 32
+			},
+			"unitWorth": 50
+		},
+		"engineer-rews-blueprint": {
+			"type": "minecraft:item",
+			"content": "immersiveengineering:blueprint",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 5000,
+			"nbt": "{blueprint:\"molds\"}"
+		},
+		"engineer-rews-blueprint2": {
+			"type": "minecraft:item",
+			"content": "immersiveengineering:blueprint",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 5000,
+			"nbt": "{blueprint:\"components\"}"
+		},
+		"engineer-rews-blueprint3": {
+			"type": "minecraft:item",
+			"content": "immersiveengineering:blueprint",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 3300,
+			"nbt": "{blueprint:\"specialBullet\"}"
+		},
+		"engineer-rews-blueprint4": {
+			"type": "minecraft:item",
+			"content": "immersiveengineering:blueprint",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 3000,
+			"nbt": "{blueprint:\"bullet\"}"
+		},
+		"engineer-rews-blueprint5": {
+			"type": "minecraft:item",
+			"content": "immersiveengineering:blueprint",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 2000,
+			"nbt": "{blueprint:\"bannerpatterns\"}"
+		},
+		"engineer-rews-blueprint6": {
+			"type": "minecraft:item",
+			"content": "immersiveengineering:blueprint",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 4000,
+			"nbt": "{blueprint:\"electrode\"}"
+		},
+		"engineer-rews-toolupgrade_railgun_scope": {
+			"type": "item",
+			"content": "immersiveengineering:toolupgrade_railgun_scope",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 700
+		},
+		"engineer-rews-reinforced_crate": {
+			"type": "item",
+			"content": "immersiveengineering:reinforced_crate",
+			"amount": {
+				"min": 2,
+				"max": 24
+			},
+			"unitWorth": 400
+		},
+		"engineer-rews-conveyor_basic": {
+			"type": "minecraft:item",
+			"content": "immersiveengineering:conveyor_basic",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 1000
+		},
+		"engineer-rews-toolupgrade_powerpack_magnet": {
+			"type": "minecraft:item",
+			"content": "immersiveengineering:toolupgrade_powerpack_magnet",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 700
+		},
+		"engineer-rews-razor_wire": {
+			"type": "minecraft:item",
+			"content": "immersiveengineering:razor_wire",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 1000
+		},
+		"engineer-rews-slag_gravel": {
+			"type": "item",
+			"content": "immersiveengineering:slag_gravel",
+			"amount": {
+				"min": 32,
+				"max": 64
+			},
+			"unitWorth": 20
+		},
+		"engineer-rews-grit_sand": {
+			"type": "item",
+			"content": "immersiveengineering:grit_sand",
+			"amount": {
+				"min": 32,
+				"max": 64
+			},
+			"unitWorth": 20
+		},
+		"engineer-rews-coke": {
+			"type": "item",
+			"content": "immersiveengineering:coke",
+			"amount": {
+				"min": 1,
+				"max": 32
+			},
+			"unitWorth": 100
+		},
+		"engineer-rews-hempcrete": {
+			"type": "item",
+			"content": "immersiveengineering:hempcrete",
+			"amount": {
+				"min": 32,
+				"max": 64
+			},
+			"unitWorth": 30
+		},
+		"engineer-rews-slag_brick": {
+			"type": "item",
+			"content": "immersiveengineering:slag_brick",
+			"amount": {
+				"min": 32,
+				"max": 64
+			},
+			"unitWorth": 20
+		},
+		"engineer-rews-clinker_brick": {
+			"type": "item",
+			"content": "immersiveengineering:clinker_brick",
+			"amount": {
+				"min": 32,
+				"max": 64
+			},
+			"unitWorth": 20
+		},
+		"engineer-rews-concrete": {
+			"type": "item",
+			"content": "immersiveengineering:concrete",
+			"amount": {
+				"min": 64,
+				"max": 128
+			},
+			"unitWorth": 20
+		},
+		"engineer-rews-connector_mv": {
+			"type": "item",
+			"content": "immersiveengineering:connector_mv",
+			"amount": {
+				"min": 1,
+				"max": 32
+			},
+			"unitWorth": 300
+		}
+	}
+}

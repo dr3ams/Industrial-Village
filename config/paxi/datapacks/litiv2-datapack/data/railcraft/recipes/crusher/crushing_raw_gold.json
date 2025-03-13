@@ -1,0 +1,21 @@
+{
+  "type": "railcraft:crusher",
+  "ingredient": {
+    "item": "minecraft:raw_gold"
+  },
+  "outputs": [
+    {
+      "probability": 1.0,
+      "result": {
+        "item": "immersiveengineering:dust_gold"
+      }
+    },
+	{
+      "probability": 0.3,
+      "result": {
+        "item": "immersiveengineering:dust_gold"
+      }
+    }
+  ],
+  "processTime": 200
+}

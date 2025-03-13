@@ -2350,8 +2350,8 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["000000000000025B"]
-			description: ["This barrel also holds 12,000 mB  (12 buckets) of a liquid but it can be hot or a gas."]
+			dependencies: ["43066E409D5D09B0"]
+			description: ["This barrel holds 12,000 mB (12 buckets) of a liquid but it can be hot or a gas."]
 			id: "0000000000001035"
 			rewards: [
 				{
@@ -2372,8 +2372,8 @@
 				item: "immersiveengineering:metal_barrel"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -3.5d
+			x: -2.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["00000000000001F8"]
@@ -2591,7 +2591,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["0000000000000236"]
+			dependencies: ["0000000000001035"]
 			description: ["Directs items directly down and stops players from picking them up. Inserts to inventories below them, and can be turned to side eject with a shift right click of the Engineers Hammer."]
 			id: "0000000000001196"
 			rewards: [{
@@ -2604,8 +2604,8 @@
 				item: "immersiveengineering:chute_iron"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 4.5d
+			x: -2.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["0000000000000115"]

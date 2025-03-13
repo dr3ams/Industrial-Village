@@ -4,5 +4,5 @@
 	emptyColoniesGenerationChance = 1.0
 
 [buildings]
-	customCraftingModules = ["{\"name\": \"sawmill_planks\", \"buildingId\": \"sawmill\", \"jobId\": \"sawmill\", \"forceVisible\": true}"]
+	customCraftingModules = ["{\"name\": \"sawmill_planks\", \"buildingId\": \"sawmill\", \"jobId\": \"sawmill\", \"forceVisible\": true}", "{\"name\": \"bricks\", \"buildingId\": \"stonesmeltery\", \"jobId\": \"stonesmeltery\", \"forceVisible\": true}"]
 
