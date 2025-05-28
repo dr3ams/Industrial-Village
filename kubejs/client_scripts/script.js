@@ -25,6 +25,8 @@ JEIEvents.hideItems(event => {
 	event.hide('ironchest:trapped_obsidian_chest')
 	event.hide('ironchest:wood_to_iron_chest_upgrade')
 	
+	event.hide('engineersdecor:small_solar_panel')
+	
 	event.hide('sophisticatedbackpacks:stack_upgrade_starter_tier')
     event.hide('sophisticatedbackpacks:stack_upgrade_tier_1')
     event.hide('sophisticatedbackpacks:stack_upgrade_tier_2')

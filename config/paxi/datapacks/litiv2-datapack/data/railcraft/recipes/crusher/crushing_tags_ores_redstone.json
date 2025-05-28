@@ -26,10 +26,16 @@
       }
     },
     {
-      "probability": 0.001,
+      "probability": 0.005,
       "result": {
         "count": 1,
         "item": "minecraft:glowstone_dust"
+      }
+    },
+    {
+      "probability": 0.005,
+      "result": {
+        "item": "gems:ruby_shards"
       }
     }
   ],

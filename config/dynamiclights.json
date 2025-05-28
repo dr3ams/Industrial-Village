@@ -1,0 +1,14 @@
+{
+  "enable": "WORLD",
+  "enable_on_fire": "WORLD",
+  "enable_glowing": "WORLD",
+  "enable_ghast": "WORLD",
+  "enable_enchanted_items": "WORLD",
+  "enable_amethyst_trimmed": "WORLD",
+  "enable_fire_aspect": "WORLD",
+  "enable_riptide": "WORLD",
+  "enable_channeling": "WORLD",
+  "enable_water_sensitive": "WORLD",
+  "enable_sound": "WORLD",
+  "enable_rain_sensitive": "WORLD"
+}

@@ -1085,6 +1085,39 @@
 			x: 9.5d
 			y: 2.5d
 		}
+		{
+			description: [
+				"Trash Cans can be used to void items, fluids and energy"
+				""
+				"Items and Fluids can be whitelisted or blacklisted and an energy transfer limit can be set"
+			]
+			id: "026ED6306619C9C9"
+			rewards: [{
+				id: "06143BB7886684A8"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					id: "0A9465BADAFE4CA0"
+					item: "trashcans:item_trash_can"
+					type: "item"
+				}
+				{
+					id: "4D27F0B67722A433"
+					item: "trashcans:liquid_trash_can"
+					type: "item"
+				}
+				{
+					id: "62869C551C57DE6E"
+					item: "trashcans:energy_trash_can"
+					type: "item"
+				}
+			]
+			title: "All kinds of Trashcans"
+			x: 4.5d
+			y: 4.5d
+		}
 	]
 	title: "&2Useful Gadgets&r"
 }

@@ -98,6 +98,8 @@ ServerEvents.recipes(event => {
     event.remove({output: 'sophisticatedbackpacks:stack_upgrade_tier_3'});
     event.remove({output: 'sophisticatedbackpacks:stack_upgrade_tier_4'});
 	
+	event.remove({output: 'engineersdecor:small_solar_panel'});
+	
 	//event.remove({output: Item.of('capsule:capsule', '{color:16777215,overpowered:1,size:1,state:0}')});
 	
 	event.remove({output: 'skilltree:copper_ring'}); 

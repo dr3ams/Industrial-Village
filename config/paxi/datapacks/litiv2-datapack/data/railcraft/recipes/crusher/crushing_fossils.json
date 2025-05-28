@@ -31,35 +31,35 @@
 		}
     },
 	{
-      "probability": 0.0005,
+      "probability": 0.005,
       "result": {
         "item": "kubejs:emerald_nugget"
 		}
     },
     {
-      "probability": 0.0005,
+      "probability": 0.005,
       "result": {
         "item": "kubejs:diamond_nugget"
       }
     },
     {
-      "probability": 0.0005,
+      "probability": 0.005,
       "result": {
         "item": "gems:sapphire_shards"
 		}
     },
 	{
-      "probability": 0.0005,
+      "probability": 0.005,
       "result": {
         "item": "gems:topaz_shards"
 		}
     },
     {
-      "probability": 0.0005,
+      "probability": 0.005,
       "result": {
         "item": "gems:ruby_shards"
       }
     }
   ],
-  "processTime": 400
+  "processTime": 800
 }

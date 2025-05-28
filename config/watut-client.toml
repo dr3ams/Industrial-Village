@@ -46,7 +46,7 @@
 	playMouseClickSounds = true
 	#String to use next to the typing player(s) name
 	screenTypingText = " is typing"
-	#SETTING THESE CLIENT SIDE SETTINGS TO FALSE WILL OVERRIDE ANY OF THE SAME SERVER SETTINGS THAT ARE SET TO TRUE (for your client only).
+	#SETTING THESE CLIENT SIDE SETTINGS TO FALSE WILL OVERRIDE ANY OF THE SAME SERVER SETTINGS THAT ARE SET TO TRUE (for your client only)
 	dummySetting = false
 	#Adjusts the size of the gui visual that appears infront of a player, 2 = twice the size
 	#Range: 0.1 ~ 1.7976931348623157E308

@@ -1,0 +1,48 @@
+{
+  "type": "railcraft:crusher",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ores/lapis"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ores/lapis"
+  },
+  "outputs": [
+    {
+      "count": 8,
+      "probability": 1.0,
+      "result": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    {
+      "probability": 0.85,
+      "result": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    {
+      "probability": 0.35,
+      "result": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    {
+      "probability": 0.2,
+      "result": {
+        "item": "railcraft:sulfur_dust"
+      }
+    },
+    {
+      "probability": 0.005,
+      "result": {
+        "item": "gems:sapphire_shards"
+		}
+    }
+  ]
+}

@@ -60,8 +60,10 @@ additionalBiomes = [  ]
 [humanoids.player]
 stomachGrowlingThreshold = 6
 stomachGrowlingVolume = 0.0
+stomachGrowlingWaitTime = 15
 heartBeatingThreshold = 6
 heartbeatVolume = 0.0
+heartBeatingWaitTime = 3
 
 [dustClouds]
 scale = 1.5
@@ -88,6 +90,7 @@ particlesDisplayType = "ON"
 particleColorType = "NAME_COLOR"
 mixedColorName = true
 useItemBorder = true
+colorOverrides = [  ]
 particleMaxHeight = 1.0
 particleMaxSpeed = 1.0
 particleDensity = 0.5

@@ -30,6 +30,21 @@
         {
           "type": "minecraft:item",
           "name": "kubejs:proofofwork"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gems:ruby_shards",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gems:sapphire_shards",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gems:topaz_shards",
+          "weight": 2
         }
       ],
       "rolls": 1.0

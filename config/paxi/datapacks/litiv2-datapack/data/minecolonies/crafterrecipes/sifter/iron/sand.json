@@ -18,6 +18,15 @@
     },
     {
       "item": "kubejs:proofofwork"
+    },
+    {
+      "item": "gems:ruby_shards"
+    },
+    {
+      "item": "gems:sapphire_shards"
+    },
+    {
+      "item": "gems:topaz_shards"
     }
   ],
   "crafter": "sifter_custom",
@@ -31,5 +40,5 @@
   ],
   "intermediate": "minecraft:air",
   "loot-table": "minecolonies:recipes/iron/sand",
-  "min-building-level": 4
+  "min-building-level": 3
 }

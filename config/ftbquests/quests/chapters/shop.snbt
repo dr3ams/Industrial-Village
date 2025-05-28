@@ -758,6 +758,30 @@
 			x: 8.0d
 			y: 2.0d
 		}
+		{
+			id: "1BA620E9571739D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3127E723D9E13991"
+				table_id: 5727649872358773404L
+				type: "random"
+			}]
+			tasks: [{
+				id: "053A75E5245C1BA2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "indvil:artifact"
+					}
+				}
+				title: "Any #indvil:artifact"
+				type: "item"
+			}]
+			title: "Artifact Exchange"
+			x: 9.5d
+			y: 2.0d
+		}
 	]
 	title: "&n&f⭐ Coins Exchange&r&r"
 }

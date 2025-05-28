@@ -16,3 +16,8 @@
 		#Range: -1.0 ~ 1.0
 		transparency = -1.0
 
+#All configuration items related to the core gameplay
+[gameplay]
+	#Sneak+scroll on the hotbar switches scan tool slots [Default: true]
+	scan_tool_scrolling = true
+
