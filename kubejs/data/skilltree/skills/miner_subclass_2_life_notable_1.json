@@ -2,28 +2,30 @@
   "id": "skilltree:miner_subclass_2_life_notable_1",
   "bonuses": [
     {
-      "type": "skilltree:crafted_item_bonus",
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "53ec883c-d96e-4a68-ba5b-438556797421",
+      "name": "Skill",
+      "amount": 6.0,
+      "operation": 0,
+      "player_multiplier": {
+        "item_condition": {
+          "tag_id": "forge:curios/jewelry",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:gems_amount"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:player_sockets",
       "item_condition": {
         "tag_id": "curios:necklace",
         "type": "skilltree:tag"
       },
-      "item_bonus": {
-        "skill_bonus": {
-          "attribute": "minecraft:generic.max_health",
-          "id": "9689f09f-87ef-4a6b-bc1d-75490c0e59cf",
-          "name": "SkillBonus",
-          "amount": 5.0,
-          "operation": 0,
-          "player_multiplier": {
-            "type": "skilltree:none"
-          },
-          "player_condition": {
-            "type": "skilltree:none"
-          },
-          "type": "skilltree:attribute"
-        },
-        "type": "skilltree:skill_bonus"
-      }
+      "sockets": 1
     }
   ],
   "directConnections": [],

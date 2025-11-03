@@ -15,7 +15,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [50 (2.5s)]
 		maxProgress = 100
 		#Amount of Power Consumed per Tick - Default: [40FE]
-		powerPerOperation = 50
+		powerPerOperation = 80
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Essence [mb] - Default: [32000 mb]
@@ -49,7 +49,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 100
 		#Amount of Power Consumed per Operation - Default: [400FE]
-		powerPerOperation = 400
+		powerPerOperation = 600
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid - Default: [8000mB]
@@ -67,7 +67,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 100
 		#Amount of Power Consumed per Operation - Default: [400FE]
-		powerPerOperation = 400
+		powerPerOperation = 600
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid - Default: [8000mB]
@@ -107,7 +107,7 @@
 
 	[MachineAgricultureHusbandryConfig.AnimalBabySeparatorConfig]
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
-		maxProgress = 100
+		maxProgress = 150
 		#Amount of Power Consumed per Operation - Default: [400FE]
 		powerPerOperation = 400
 		#Max Stored Power [FE] - Default: [10000 FE]
@@ -117,7 +117,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 100
 		#Amount of Power Consumed per Operation - Default: [10FE] - This is Calculated as [VALUE * (amount + 1)]
-		powerPerOperation = 10
+		powerPerOperation = 15
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid - Default: [8000mB]

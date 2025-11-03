@@ -131,7 +131,7 @@ ItemEvents.tooltip(event =>{
         Text.of('• Crushing Fossils').white(),
       ])
 	  text.add(6, [
-        Text.of('•  Minecolonies Sifter').white(),
+        Text.of('• Minecolonies Sifter').white(),
       ])
 	  text.add(7, [
         Text.of('• Cave Urn loot').white(),

@@ -325,240 +325,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["31E91EBF3468F766"]
-			id: "34DF0D779CC6BD88"
-			rewards: [{
-				id: "62C3BCB6B216FF3F"
-				type: "xp"
-				xp: 600
-			}]
-			tasks: [{
-				id: "00A923EF4D620398"
-				item: "fruitfulfun:tangerine_sapling"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["31E91EBF3468F766"]
-			id: "03972AF9C7017F04"
-			rewards: [{
-				id: "1C483751F04F2DFF"
-				type: "xp"
-				xp: 600
-			}]
-			tasks: [{
-				id: "1E673710F4A1E01D"
-				item: "fruitfulfun:lime_sapling"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["31E91EBF3468F766"]
-			id: "2A0874A3B034AE18"
-			rewards: [
-				{
-					id: "0B296435C7DDEE1F"
-					type: "xp"
-					xp: 600
-				}
-				{
-					count: 64
-					id: "25070C5C7DAA9AEF"
-					item: "fruitfulfun:citrus_log"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "3D2F26BE259ED886"
-				item: "fruitfulfun:citron_sapling"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["31E91EBF3468F766"]
-			id: "1F98D39915938AA3"
-			rewards: [
-				{
-					id: "430758E9A8548E02"
-					type: "xp"
-					xp: 600
-				}
-				{
-					id: "1EA07BC1184953E0"
-					item: "fruitfulfun:honey_pomelo_tea"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "481AAEBB348D5927"
-				item: "fruitfulfun:pomelo_sapling"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["31E91EBF3468F766"]
-			id: "6C1FA7FE8CAB9046"
-			rewards: [
-				{
-					id: "79F4B8450C360193"
-					type: "xp"
-					xp: 600
-				}
-				{
-					id: "72844FA4FB56FCAC"
-					item: "fruitfulfun:lemon_roast_chicken"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "01B10149A6820630"
-				item: "fruitfulfun:lemon_sapling"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["31E91EBF3468F766"]
-			id: "00C7D182E7267FB7"
-			rewards: [
-				{
-					id: "2C7710DD7D3F3DD8"
-					type: "xp"
-					xp: 600
-				}
-				{
-					id: "30E63467C8F9070E"
-					item: "fruitfulfun:donauwelle"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "729C86B17B17FCE5"
-				item: "fruitfulfun:orange_sapling"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["31E91EBF3468F766"]
-			id: "49EB5CD1C5125DA0"
-			rewards: [
-				{
-					id: "0EA4873904FE7229"
-					type: "xp"
-					xp: 600
-				}
-				{
-					id: "50DD846C3E20D604"
-					item: "fruitfulfun:grapefruit_panna_cotta"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "3347C8E74C2A9E3C"
-				item: "fruitfulfun:grapefruit_sapling"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 9.5d
-		}
-		{
-			dependencies: ["31E91EBF3468F766"]
-			id: "317F73F51E0BB92C"
-			rewards: [
-				{
-					id: "1F5DC58C72F7C860"
-					type: "xp"
-					xp: 600
-				}
-				{
-					id: "58D679D20789BF0D"
-					item: "fruitfulfun:rice_with_fruits"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "78869AB3A02698BA"
-				item: "fruitfulfun:apple_sapling"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["31E91EBF3468F766"]
-			id: "36EADF4DA238BD0E"
-			rewards: [{
-				id: "5C1967AEB2223FEF"
-				type: "xp"
-				xp: 600
-			}]
-			tasks: [{
-				id: "592F0D85DD59A3DB"
-				item: "fruitfulfun:pomegranate_sapling"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 9.5d
-		}
-		{
-			dependencies: ["31E91EBF3468F766"]
-			id: "6A264A6C89CC06E3"
-			rewards: [
-				{
-					id: "63D547429E5BBD5E"
-					type: "xp"
-					xp: 600
-				}
-				{
-					id: "0246C9C051AAA239"
-					item: "fruitfulfun:grapefruit_panna_cotta"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0C34451621598F0B"
-				item: "fruitfulfun:cherry_sapling"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["31E91EBF3468F766"]
-			id: "3CAB04DD6E16FABA"
-			rewards: [
-				{
-					id: "7074FFB0CAED0CD6"
-					type: "xp"
-					xp: 600
-				}
-				{
-					count: 64
-					id: "119A3D2BCC32DFCA"
-					item: "fruitfulfun:redlove_log"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "4535E174D0EF6637"
-				item: "fruitfulfun:redlove_sapling"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 8.5d
-		}
-		{
 			description: ["You'll need to find grapevine bushes to gather your first Grapes. If you cant find any a Wandering Winemaker will make visit from time to time maybe offering some seeds. You can get seeds by eating Grapes."]
 			id: "27170A4880A96C2B"
 			rewards: [{
@@ -888,7 +654,7 @@
 				type: "item"
 			}]
 			title: "Farmable Dyes"
-			x: 11.0d
+			x: 5.0d
 			y: 7.0d
 		}
 		{
@@ -944,23 +710,6 @@
 		}
 		{
 			description: [
-				"&2Fruitful Fun&r adds 11 new fruits to the game. Most of the fruits are not generated in the world. Instead, you must obtain them in other fun ways. "
-				""
-				"If there is no people to harvest the fruits, the tree will stop growing fruit after a while. But with the help of a &ospecial&r goat horn, you can harvest all the nearby fruits at once."
-			]
-			icon: "fruitfulfun:tangerine"
-			id: "31E91EBF3468F766"
-			shape: "octagon"
-			tasks: [{
-				id: "562E0949C38AF25F"
-				type: "checkmark"
-			}]
-			title: "Fruitful Fun 🍊"
-			x: 7.0d
-			y: 8.0d
-		}
-		{
-			description: [
 				"- Oats: A tall crop that can be processed into oatmeal, cookies, and granola."
 				""
 				"- Peanuts: Versatile nuts that can be roasted, turned into nut mash, or grown into a magical vine with treasures atop, if you find the magic peanut."
@@ -1005,7 +754,7 @@
 				}
 			]
 			title: "Vintage Delight Crops"
-			x: 11.0d
+			x: 5.0d
 			y: 9.0d
 		}
 		{
@@ -1033,7 +782,7 @@
 				item: "forestry:foresters_manual"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -7.5d
 			y: 12.0d
 		}
 		{

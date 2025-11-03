@@ -2,32 +2,32 @@
   "id": "skilltree:alchemist_subclass_special",
   "bonuses": [
     {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "3ffc3944-9ff7-49f5-a705-6f52200b79ce",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "item_condition": {
+          "tag_id": "forge:curios/jewelry",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:gems_amount"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
       "type": "skilltree:crafted_item_bonus",
       "item_condition": {
-        "tag_id": "curios:ring",
-        "type": "skilltree:tag"
+        "potion_type": "any",
+        "type": "skilltree:potion"
       },
       "item_bonus": {
-        "skill_bonus": {
-          "amount": 0.1,
-          "player_multiplier": {
-            "type": "skilltree:none"
-          },
-          "enemy_multiplier": {
-            "type": "skilltree:none"
-          },
-          "player_condition": {
-            "type": "skilltree:none"
-          },
-          "damage_condition": {
-            "type": "skilltree:none"
-          },
-          "target_condition": {
-            "type": "skilltree:none"
-          },
-          "type": "skilltree:crit_damage"
-        },
-        "type": "skilltree:skill_bonus"
+        "multiplier": 0.25,
+        "type": "skilltree:potion_duration"
       }
     }
   ],
@@ -40,7 +40,7 @@
   "borderTexture": "skilltree:textures/tooltip/notable.png",
   "titleColor": "",
   "positionX": -211.1856,
-  "positionY": 365.78836,
+  "positionY": 366.08313,
   "buttonSize": 20,
   "isStartingPoint": false
 }

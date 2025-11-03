@@ -33,6 +33,7 @@
 		{ item: "simplehats:hatscraps_easter" }
 		{ item: "simplehats:hatscraps_summer" }
 		{ item: "simplehats:hatscraps_halloween" }
+		{ item: "artifacts:mimic_spawn_egg" }
 	]
 	title: "Junk 4"
 	use_title: true

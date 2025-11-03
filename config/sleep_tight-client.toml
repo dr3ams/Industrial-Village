@@ -42,4 +42,6 @@
 	show_time_when_sleeping = true
 	#Makes villagers close their eyes when sleeping
 	sleeping_villagers_eyes = true
+	#Spawn particles when sleeping. Set to 0 to disable
+	zzz_particles = true
 

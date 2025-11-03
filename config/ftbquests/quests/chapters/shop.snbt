@@ -766,6 +766,7 @@
 				table_id: 5727649872358773404L
 				type: "random"
 			}]
+			subtitle: "Exchange spare artifacts for useful drops"
 			tasks: [{
 				id: "053A75E5245C1BA2"
 				item: {
@@ -781,6 +782,27 @@
 			title: "Artifact Exchange"
 			x: 9.5d
 			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: "artifacts:mimic_spawn_egg"
+			id: "2569C8C818F09C7A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DD58371078CB899"
+				table_id: 4018158085218966230L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "3930AECEFA85CBE2"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			title: "Random Artifact"
+			x: 4.0d
+			y: 5.0d
 		}
 	]
 	title: "&n&f⭐ Coins Exchange&r&r"

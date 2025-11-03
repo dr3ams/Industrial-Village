@@ -5,6 +5,12 @@
       "type": "skilltree:gained_experience",
       "multiplier": 0.01,
       "experience_source": "ore"
+    },
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.05,
+      "multiplier": 0.5,
+      "loot_type": "gems"
     }
   ],
   "directConnections": [

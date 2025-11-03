@@ -49,8 +49,6 @@ let planks_tree_data = {
     },
     "regions_unexplored" : {
     },
-	"fruitfulfun" : {
-    },
 	"vinery" : {
     }
 }

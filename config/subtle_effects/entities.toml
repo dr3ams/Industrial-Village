@@ -1,15 +1,17 @@
 # Don't change this! Version used to track needed updates.
 version = 0
-enderPearlTrail = true
-snowballTrailDensity = 0.5
+chickenFeathers = true
+parrotFeathers = true
+snowGolemSnowflakes = true
 allayMagicDensity = 0.2
 vexMagicDensity = 0.2
 sheepShearFluff = true
 improvedDragonFireballTrail = true
+dragonsBreathClouds = true
 commandBlockMinecartParticles = "ON"
 endCrystalParticles = true
 minecartSparksDisplayType = "DEFAULT"
-minecartSparksDensity = 0.3
+minecartSparksDensity = 0.41666666
 slimeTrails = true
 magmaCubeTrails = true
 replaceSlimeSquishParticles = true
@@ -18,22 +20,25 @@ replaceSpellCasterParticles = true
 ironGolemCrackParticles = true
 spectralArrowParticles = true
 wardenDeathSoulParticles = true
-xpBottleParticlesDisplayType = "DEFAULT"
-xpBottleParticlesDensity = 7
-eggSmashSoundVolume = 0.3
 freezingSnowFlakes = true
-
-[attacked]
-chickenFeathers = true
-parrotFeathers = true
-snowGolemSnowflakes = true
+featherTicklingPandas = true
+improvedPandaSneezes = true
+villagerWorkAtWorkstationParticles = true
+improvedBrownMooshroomFeedingEffects = true
+improvedMooshroomShearingEffects = true
+replaceBlazeSmoke = true
+animalFeedingParticles = true
+animalFeedingSoundVolume = 1.0
+underwaterEntityPoofBubbles = true
+improvedWetWolfShakeEffects = true
+improvedVillagerSweatingEffects = true
 
 [sleeping]
 playerSnoreChance = 0.0
-playerSnoreSoundVolume = 1.0
+playerSnoreSoundVolume = 0.0
 playersHaveSleepingZs = true
 villagerSnoreChance = 0.0
-villagerSnoreSoundVolume = 1.0
+villagerSnoreSoundVolume = 0.0
 villagersHaveSleepingZs = true
 foxesHaveSleepingZs = true
 batsHaveSleepingZs = true
@@ -44,10 +49,13 @@ adjustNameTagWhenSleeping = true
 
 [humanoids]
 drowningBubblesDisplayType = "DEFAULT"
-drowningBubblesDensity = 10
+drowningBubblesDensity = 6
 drowningBubbleAlpha = 1.0
+forceDrowningBubblesToColumn = false
 potionRingsDisplayType = "DEFAULT"
 potionRingsParticleType = "BOTH"
+potionRingsScale = 1.0
+potionRingsAlpha = 1.0
 NPCsHavePotionRings = true
 
 [humanoids.frostyBreath]
@@ -58,6 +66,7 @@ seasons = "DEFAULT"
 additionalBiomes = [  ]
 
 [humanoids.player]
+enableBreathingEffectsInCreative = true
 stomachGrowlingThreshold = 6
 stomachGrowlingVolume = 0.0
 stomachGrowlingWaitTime = 15
@@ -66,15 +75,15 @@ heartbeatVolume = 0.0
 heartBeatingWaitTime = 3
 
 [dustClouds]
-scale = 1.5
-alpha = 0.7
+scale = 1.2536764
+alpha = 1.0
 preventWhenRaining = false
 flyIntoWall = true
 lessViewBlocking = true
 playerFell = true
 mobFell = true
 landMaceAttack = true
-playerRunning = true
+playerRunning = false
 mobRunning = true
 playerRunningRequiresSpeed = false
 
@@ -85,19 +94,25 @@ sparks = true
 sounds = true
 extinguishSteam = true
 
-[itemRarity]
-particlesDisplayType = "ON"
-particleColorType = "NAME_COLOR"
-mixedColorName = true
-useItemBorder = true
-colorOverrides = [  ]
-particleMaxHeight = 1.0
-particleMaxSpeed = 1.0
-particleDensity = 0.5
-
 [explosives]
 tntUpdateSmoke = true
 tntFlamesDensity = 1
 tntSparks = true
 creeperSmoke = "UPDATED"
 creeperSparks = true
+
+[splashes]
+splashEffects = true
+splashRipples = true
+splashDroplets = true
+splashBubbles = true
+explosionsCauseSplashes = true
+splashOverlayTint = 0.2
+splashOverlayAlpha = 0.8
+splashVelocityThreshold = 0.35
+entityBlocklist = [  ]
+secondarySplash = true
+secondarySplashRipples = false
+secondarySplashVelocityThreshold = 0.3
+lavaSplashes = true
+lavaSplashRipples = true

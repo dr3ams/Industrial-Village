@@ -1,0 +1,21 @@
+{
+  "type": "forestry:centrifuge",
+  "input": {
+    "item": "forestry:bee_comb_simmering"
+  },
+  "products": [
+    {
+      "chance": 1.0,
+      "item": "forestry:refractory_wax"
+    },
+    {
+      "chance": 0.7,
+      "item": "forestry:honey_drop"
+    },
+    {
+      "chance": 0.01,
+      "item": "gems:ruby_shards"
+    }
+  ],
+  "time": 20
+}

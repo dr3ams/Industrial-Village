@@ -75,9 +75,9 @@
 
 	[MachineResourceProductionConfig.LaserDrillConfig]
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [50 (2.5s)]
-		maxProgress = 50
+		maxProgress = 80
 		#Amount of Power Consumed per Tick - Default: [1000FE]
-		powerPerOperation = 1000
+		powerPerOperation = 1500
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 
@@ -127,7 +127,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [60 (3s)]
 		maxProgress = 60
 		#Amount of Power Consumed per Tick - Default: [60FE]
-		powerPerTick = 60
+		powerPerTick = 80
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid [Water] - Default: [2000mB]

@@ -5,6 +5,14 @@
       "type": "skilltree:gained_experience",
       "multiplier": 0.1,
       "experience_source": "ore"
+    },
+    {
+      "type": "skilltree:gem_power",
+      "item_condition": {
+        "equipment_type": "pickaxe",
+        "type": "skilltree:equipment_type"
+      },
+      "multiplier": 0.1
     }
   ],
   "directConnections": [],

@@ -2,14 +2,119 @@
 version = 0
 redstoneBlockDust = true
 redstoneBlockDustDensity = "DEFAULT"
-glowstoneBlockDustDisplayType = "ON"
+redstoneDustEmittingBlocks = [
+    "minecraft:redstone_block"
+]
+glowstoneBlockDust = true
 glowstoneBlockDustDensity = "DEFAULT"
-beehivesHaveSleepingZs = false
-fallingBlockDust = true
-fallingBlockDustBlocks = [
+glowstoneDustEmittingBlocks = [
+    "minecraft:glowstone"
+]
+netherOnlyGlowstoneBlockDust = false
+beehivesHaveSleepingZs = true
+torchflowerSmoke = "DEFAULT"
+torchflowerFlames = true
+dragonEggParticles = true
+replaceEndPortalSmoke = true
+pumpkinCarvedParticles = true
+anvilBreakParticles = true
+anvilUseParticles = true
+grindstoneUseParticles = true
+smithingTableUseParticles = true
+stonecutterUseParticles = true
+cauldronUseParticles = true
+cauldronCleanItemSounds = true
+compostingCompostParticles = true
+compostingItemParticles = true
+commandBlockParticles = "ON"
+commandBlockParticlesDensity = 1.0
+slimeBlockBounceSounds = true
+beaconParticlesDisplayType = "ON"
+beaconParticlesDensity = 10
+beaconParticlesSpeed = 1.0
+respawnAnchorParticles = true
+beehiveShearParticles = true
+endPortalParticles = true
+leavesDecayEffects = true
+farmlandDestroyEffects = true
+amethystSparkleDisplayType = "ON"
+amethystSparkleEmittingBlocks = [
+    "minecraft:amethyst_block",
+    "minecraft:budding_amethyst"
+]
+amethystSparkleSounds = true
+floweringAzaleaPetals = true
+sculkBlockSculkDust = true
+sculkVeinSculkDust = true
+sculkShriekerDestroySouls = true
+sculkCatalystDestroySouls = true
+calibratedSculkSensorAmethystSparkle = true
+campfireSizzlingSoundVolume = 0.5
+replacePowderSnowFlakes = true
+lavaCauldronEffects = true
+enderEyePlacedRings = true
+enderEyePlacedRingsDuration = 10
+enderEyePlacedParticlesDisplayType = "BOTH"
+eyeColors = [
+    [ "minecraft:ender_eye", { r = 122, g = 186, b = 171 } ]
+]
+endPortalFrameParticlesDisplayType = "SMOKE"
+endPortalFrameParticlesDensity = 1.0
+replaceOminousVaultConnection = true
+cobwebMovementSounds = true
+cakeEatParticles = true
+cakeEatSounds = true
+rainWaterRipples = true
+rainWaterRipplesDensity = 0.35
+underwaterBlockBreakBubbles = true
+decoratedPotsSpawnBubbles = true
+openingBarrelsSpawnsBubbles = true
+openingChestsSpawnsBubbles = true
+chestsOpenRandomlyUnderwater = true
+randomChestOpeningNeedsSoulSand = false
+dispenseItemBubbles = true
+rainIncreasesLeavesSpawningParticles = true
+
+[sparks]
+removeVanillaCampfireSparks = true
+candleSparks = true
+furnaceSparks = true
+fireSparks = true
+campfireSparks = true
+torchSparks = true
+lanternSparksDensity = 1
+lavaSparksDisplayType = "OFF"
+lavaSparksDensity = 1.0
+brewingStandSparks = true
+
+[updatedSmoke]
+candleSmoke = true
+furnaceSmoke = true
+fireSmoke = true
+torchSmoke = true
+campfireDowseSmoke = true
+
+[steam]
+lavaFizzSteam = true
+replaceCampfireFoodSmoke = true
+spongeDryingOutSteam = true
+replaceRainEvaporationSteam = true
+lavaCauldronsEvaporateRain = true
+spawnLogic = "BRIGHTNESS"
+steamingWater = false
+boilingWater = false
+steamingWaterCauldron = false
+boilingWaterCauldron = false
+steamingThreshold = 12
+boilingThreshold = 13
+
+[fallingBlocks]
+dustyBlocks = [
     "minecraft:sand",
+    "minecraft:suspicious_sand",
     "minecraft:red_sand",
     "minecraft:gravel",
+    "minecraft:suspicious_gravel",
     "minecraft:white_concrete_powder",
     "minecraft:orange_concrete_powder",
     "minecraft:magenta_concrete_powder",
@@ -27,65 +132,10 @@ fallingBlockDustBlocks = [
     "minecraft:red_concrete_powder",
     "minecraft:black_concrete_powder"
 ]
-fallingBlockDustDistance = 0
-torchflowerSmoke = "DEFAULT"
-torchflowerFlames = true
-dragonEggParticles = true
-replaceEndPortalSmoke = true
-pumpkinCarvedParticles = true
-anvilBreakParticles = true
-anvilUseParticles = true
-grindstoneUseParticles = true
-commandBlockParticles = "ON"
-slimeBlockBounceSounds = true
-beaconParticlesDisplayType = "ON"
-beaconParticlesDensity = 10
-beaconParticlesSpeed = 1.0
-compostingParticles = true
-respawnAnchorParticles = true
-beehiveShearParticles = true
-endPortalParticles = true
-leavesDecayEffects = false
-farmlandDestroyEffects = true
-amethystSparkleDisplayType = "ON"
-amethystSparkleSounds = true
-floweringAzaleaPetals = true
-sculkBlockSculkDust = true
-sculkVeinSculkDust = true
-sculkShriekerDestroySouls = true
-sculkCatalystDestroySouls = true
-calibratedSculkSensorAmethystSparkle = true
-campfireSizzlingSoundVolume = 0.5
-vegetationFirefliesDensity = 30
-vegetationFirefliesSpawnType = "FLOWERS_ONLY"
-replacePowderSnowFlakes = true
-lavaCauldronEffects = true
-
-[sparks]
-removeVanillaCampfireSparks = true
-candleSparks = true
-furnaceSparks = true
-fireSparks = true
-campfireSparks = true
-torchSparks = true
-lanternSparksDensity = 5
-lavaSparks = "OFF"
-
-[updatedSmoke]
-candleSmoke = true
-furnaceSmoke = true
-fireSmoke = true
-torchSmoke = true
-campfireDowseSmoke = true
-
-[steam]
-lavaFizzSteam = true
-replaceCampfireFoodSmoke = true
-spongeDryingOutSteam = true
-spawnLogic = "BRIGHTNESS"
-steamingWater = false
-boilingWater = false
-steamingWaterCauldron = false
-boilingWaterCauldron = false
-steamingThreshold = 11
-boilingThreshold = 13
+whileFallingDust = false
+whileFallingDustStartDistance = 3
+onLandDust = true
+onLandSound = true
+weakSupportDust = true
+weakSupportDustDensity = 1
+replaceDustWithBubblesUnderwater = true

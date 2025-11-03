@@ -18,6 +18,6 @@
 
 #All configuration items related to the core gameplay
 [gameplay]
-	#Sneak+scroll on the hotbar switches scan tool slots [Default: true]
+	#Sneak+scroll on the hotbar switches scan tool slots [Default: false]
 	scan_tool_scrolling = true
 

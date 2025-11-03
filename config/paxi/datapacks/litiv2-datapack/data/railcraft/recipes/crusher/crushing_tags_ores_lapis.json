@@ -39,7 +39,7 @@
       }
     },
     {
-      "probability": 0.005,
+      "probability": 0.01,
       "result": {
         "item": "gems:sapphire_shards"
 		}

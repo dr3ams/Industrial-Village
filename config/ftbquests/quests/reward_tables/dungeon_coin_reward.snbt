@@ -115,9 +115,6 @@
 		{ item: "farmersdelight:beetroot_crate" }
 		{ item: "farmersdelight:carrot_crate" }
 		{ item: "farmersdelight:tomato_crate" }
-		{ item: "fruitfulfun:grapefruit_sapling" }
-		{ item: "fruitfulfun:lemon_sapling" }
-		{ item: "fruitfulfun:orange_sapling" }
 		{
 			item: {
 				Count: 1
@@ -150,7 +147,6 @@
 		}
 		{ item: "fluxnetworks:flux_point", weight: 0.5f }
 		{ item: "fluxnetworks:flux_plug", weight: 0.5f }
-		{ item: "fruitfulfun:apple_sapling" }
 		{
 			item: {
 				Count: 1
@@ -161,11 +157,6 @@
 			}
 			weight: 0.5f
 		}
-		{ item: "fruitfulfun:pomegranate_sapling" }
-		{ item: "fruitfulfun:tangerine_sapling" }
-		{ item: "fruitfulfun:lime_sapling" }
-		{ item: "fruitfulfun:citron_sapling" }
-		{ item: "fruitfulfun:pomelo_sapling" }
 		{
 			item: {
 				Count: 1

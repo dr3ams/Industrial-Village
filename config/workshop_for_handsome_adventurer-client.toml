@@ -11,3 +11,11 @@
 	#If this option is turned on, you'll see a list of enchantments for your tools.
 	"Detailed info for enchanted tools in Jade/TOP/WTHIT" = false
 
+[Task_lists]
+	#Should we gray-out done and abandoned items?
+	"Coloring for finished items" = true
+	#Is the game paused while the list is open?
+	"Task list pauses singleplayer" = false
+	#Are item texts are checkmarks drawn on the task list block (when it's hanging on a wall)? Default is true (Bibliocraft style) - text is visible and checkmarks and paging work. Alternatively (simple mode) - right-clicking just opens the gui.  Even though this is true by default, the Author plays with it turned off and recommends that you try with it turned off and then make a decision.
+	"Items are drawn on wall" = true
+

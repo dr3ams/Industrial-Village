@@ -37,6 +37,8 @@
 
 #All changes made here require a game restart.
 [mixins]
+	#If enabled, items entities will no longer stack together like Minecraft Beta
+	enableNonStackingItemTweak = false
 	#If enabled, this tweak prevents cactus from destroying items that run into it
 	enableCactusItemProtection = true
 	#If enabled, allows splash potions of water to behave the same as throwing an item in water via V-Tweaks' Fluid Conversion Recipes

@@ -23,4 +23,9 @@
 	clientAggroIconStyle = "CLASSIC"
 	#The color of the alert icon
 	alertColorHex = "0xFF6666"
+	#Draw alert icons only for the blacklisted mobs instead
+	treatBlacklistAsWhitelist = false
+	#Hide alert icon after X ticks, set to <= 0 to disable
+	#Range: > -2
+	hideAlertAfterTicks = -1
 

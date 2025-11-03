@@ -31,7 +31,7 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:0.0
-renderDistance:20
+renderDistance:29
 simulationDistance:14
 entityDistanceScaling:1.0
 guiScale:4
@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","Advanced_Generators_Redux.zip","Moonlight Mods Dynamic Assets","file/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip","file/Create Simple Storage 2.1.zip","file/CreateSophisticatedBackpacks.zip","file/Fancy Crops v1.1.zip","file/FreshAnimations_v1.9.2.zip","file/FreshCompats_v1.6.zip","file/Minecolonies Refreshed 3.2.0-1.20.1.zip","file/Tool_Belt_Retextured_1.20.x.zip","file/[Moonsu] Better GUI for Sophisticated Backpacks 2.0 1.20-1.zip","file/elysiapresents_lootr.zip","file/golems-refreshed-v2.zip","file/v2_REFRESH_Building_Gadgets_Create_Like.zip","file/iv-rp-ui","iv-rp","file/DSWG Glowing Eyes 1.20 v1.1.zip"]
-incompatibleResourcePacks:["file/Create Simple Storage 2.1.zip","file/CreateSophisticatedBackpacks.zip","file/Fancy Crops v1.1.zip","file/elysiapresents_lootr.zip","file/golems-refreshed-v2.zip"]
+resourcePacks:["vanilla","mod_resources","Advanced_Generators_Redux.zip","Moonlight Mods Dynamic Assets","file/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip","file/[Moonsu] Better GUI for Sophisticated Backpacks 2.0 1.20-1.zip","file/elysiapresents_lootr.zip","file/v2_REFRESH_Building_Gadgets_Create_Like.zip","file/DSWG Glowing Eyes 1.20 v1.1.zip","file/Tool_Belt_Retextured_1.20.x_V3.zip","file/FreshAnimations_v1.10.1.zip","file/Fancy Crops v1.3.zip","file/Default-Dark-Mode-1.20-2023.7.0.zip","file/golems-refreshed-v2.1.zip","file/Tom\u0027s Metal Storage v1.0.zip","iv-rp","file/iv-rp-ui","file/Minecolonies Refreshed 3.2.0-1.20.1.zip"]
+incompatibleResourcePacks:["file/elysiapresents_lootr.zip","file/golems-refreshed-v2.1.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
