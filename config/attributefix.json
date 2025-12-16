@@ -209,6 +209,17 @@
         "value": 1024
       }
     },
+    "turtlecore:thrown_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "skilltree:damage_under_potion_effect": {
       "enabled": false,
       "min": {
@@ -269,6 +280,17 @@
       "min": {
         "default": 1,
         "value": 1
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "turtlecore:healing_effectiveness": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 1024,
@@ -572,6 +594,17 @@
         "value": 2
       }
     },
+    "turtlecore:armor_penetration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "forge:entity_gravity": {
       "enabled": false,
       "min": {
@@ -638,6 +671,17 @@
         "value": 1024
       }
     },
+    "turtlecore:cooldown_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "skilltree:armor_with_shield": {
       "enabled": false,
       "min": {
@@ -694,6 +738,17 @@
       }
     },
     "skilltree:crafted_melee_weapon_damage_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "turtlecore:life_steal": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -771,6 +826,17 @@
       }
     },
     "skilltree:armor_with_enchanted_shield": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "turtlecore:damage_resistance": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -885,6 +951,17 @@
       "min": {
         "default": 1,
         "value": 1
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "turtlecore:critical_damage": {
+      "enabled": false,
+      "min": {
+        "default": 1.5,
+        "value": 1.5
       },
       "max": {
         "default": 1024,
@@ -1127,6 +1204,17 @@
       "min": {
         "default": 1,
         "value": 1
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "turtlecore:critical_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 1024,
@@ -1398,6 +1486,17 @@
       }
     },
     "forge:block_reach": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "turtlecore:player_size": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -1837,6 +1936,28 @@
         "value": 1024
       }
     },
+    "turtlecore:ranged_damage_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "turtlecore:hit_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "skilltree:crit_chance_if_wounded": {
       "enabled": false,
       "min": {
@@ -2123,6 +2244,17 @@
         "value": 1024
       }
     },
+    "turtlecore:dodge_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "skilltree:chance_to_explode_enemy": {
       "enabled": false,
       "min": {
@@ -2179,6 +2311,17 @@
       }
     },
     "skilltree:life_per_arrow_hit": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "turtlecore:magic_amp": {
       "enabled": false,
       "min": {
         "default": 0,

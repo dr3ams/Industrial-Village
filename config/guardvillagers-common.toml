@@ -1,23 +1,17 @@
 
 ["guard stuff"]
-	#This lets Guards open doors.
-	"Have Guards open doors?" = true
-	#This will make guards raise their shields all the time, on default they will only raise their shields under certain conditions
-	"Have Guards raise their shield all the time?" = false
 	#Range: -9999 ~ 9999
 	"How low of a reputation of a player should have to be instantly aggroed upon by guards and golems?" = -100
 	"Allow players to give guards stuff only if they have the hero of the village effect?" = false
-	"Have guards only follow the player if they have hero of the village?" = true
-	#Range: -500.0 ~ 900.0
-	"Guard speed" = 0.5
-	#This is the range in which the guards will be aggroed to mobs that are attacking villagers. Higher values are more resource intensive, and setting this to zero will disable the goal.
-	#Range: -500.0 ~ 500.0
-	Range = 50.0
+	#Angle is determined by taking the arccos of the inputted value, for example -1 is a straight 180 degree angle thus if that value is inputted guards will only check straight ahead to see if any friendly mobs are in the way.
+	#Range: -1000000.0 ~ 1000000.0
+	"Angle of how ranged guards determine if a friendly mob is in front of them before firing" = -0.9
 	#Range: -999.9000244140625 ~ 999.0
 	"Chance for guards to lose durability" = 1.0
+	#Range: 0.0 ~ 1.0E8
+	"Guard crossbow attack radius" = 8.0
 	#Range: > -2147483648
 	"Minimum reputation requirement for guards to give you access to their inventories" = 15
-	"Have guards attempt to avoid firing into other friendlies?" = true
 	#How much health a guard regenerates.
 	#Range: -500.0 ~ 500.0
 	"Guard health regeneration amount" = 1.0
@@ -26,9 +20,10 @@
 	"Allow players to set guard patrol points only if they have hero of the village" = false
 	#This makes Guards run from polar bears, as anyone with common sense would.
 	"Have Guards have some common sense?" = false
-	"Allow the player to right click on bells to mass order guards to follow them?" = true
-	"Allow guards to teleport if following the player" = true
-	"Allow guard arrows to damage villagers, iron golems, or other guards? The i-frames will still be shown for them but they won't lose any health if this is set to false" = true
+	#If a guard is fighting a mob underwater and the vertical distance between that mob and the guard is larger than this, the guard will instead float up to not take the risk of drowning
+	#Range: 0 ~ 100000000
+	"Depth value for guards fighting underwater mobs" = 8
+	"Mobs that guards actively protect when they get targeted" = ["minecraft:villager", "guardvillagers:guard", "minecraft:iron_golem"]
 	#Range: -999.9000244140625 ~ 999.0
 	"Chance to drop equipment" = 100.0
 	#This makes guards form a phalanx
@@ -36,6 +31,26 @@
 	#Range: -500.0 ~ 900.0
 	"Guard health" = 20.0
 	"Have guards patrol the village regularly?" = true
+	#Mobs in this list also won't get hurt by a guard's arrow if the config option to disable guard arrows hurting villagers is enabled.
+	"Mobs that guards actively protect when they get hurt" = ["minecraft:villager", "guardvillagers:guard", "minecraft:iron_golem"]
+	#This lets Guards open doors.
+	"Have Guards open doors?" = true
+	#This will make guards raise their shields all the time, on default they will only raise their shields under certain conditions
+	"Have Guards raise their shield all the time?" = false
+	"Have guards only follow the player if they have hero of the village?" = true
+	#Range: -500.0 ~ 900.0
+	"Guard speed" = 0.5
+	#This is the range in which the guards will be aggroed to mobs that are attacking villagers. Higher values are more resource intensive, and setting this to zero will disable the goal.
+	#Range: -500.0 ~ 500.0
+	Range = 50.0
+	#Range: 0 ~ 100000000
+	"How many guards should spawn in a village?" = 6
+	"Have guards attempt to avoid firing into other friendlies?" = true
+	"Allow guards to convert to zombie villagers upon being killed by zombies?" = true
+	"Allow the player to right click on bells to mass order guards to follow them?" = true
+	"Allow guards to teleport if following the player" = true
+	"Allow guards to sink temporarily to fight mobs that are under water?" = true
+	"Allow guard arrows to damage villagers, iron golems, or other guards? The i-frames will still be shown for them but they won't lose any health if this is set to false" = true
 
 ["raids and illagers"]
 	#This makes Illagers run from polar bears, as anyone with common sense would.
@@ -61,11 +76,20 @@
 	"Allow Iron Golems to float on water?" = true
 
 ["villager stuff"]
+	#Range: 0 ~ 1000000
+	"How many times a cleric can heal a guard in one day" = 3
+	"Profession Whitelist for healing ai for clerics" = ["cleric"]
 	#This makes villagers run from polar bears, as anyone with common sense would.
 	"Have Villagers have some common sense?" = true
+	"Profession Whitelist for golem repair ai" = ["armorer", "weaponsmith"]
 	"Have it so clerics heal guards and players with hero of the village?" = true
+	"Profession Whitelist for guard weaponry repair ai" = ["weaponsmith", "armorer"]
 	"Allow armorers and weaponsmiths repair guard items when down below half durability?" = true
 	#This will make it so villagers will only be converted into guards if the player has hero of the village
 	"Make it so players have to have hero of the village to convert villagers into guards?" = false
+	#Range: 0 ~ 1000000
+	"How many times a villager can heal a guard's equipment in one day" = 3
 	"Have it so blacksmiths heal golems under 60 health?" = true
+	#Range: 0 ~ 1000000
+	"How many times a smith villager can heal a golem in one day" = 3
 
